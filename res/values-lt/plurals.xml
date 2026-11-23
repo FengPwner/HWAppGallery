@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Rasta %2$d įtartinų programėlių (įsk. %1$s)</item>
+        <item quantity="one">Rasta %2$d įtartina programėlė (%1$s)</item>
+        <item quantity="few">Rastos %2$d įtartinos programėlės (įsk. %1$s)</item>
+        <item quantity="many">Rasta %2$d įtartinos programėlės (įsk. %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Rasta %2$d nenaudojamų programėlių (įskaitant %1$s)</item>
+        <item quantity="one">Rasta %2$d nenaudojama programėlė (įskaitant %1$s)</item>
+        <item quantity="few">Rasta %2$d nenaudojamos programėlės (įskaitant %1$s)</item>
+        <item quantity="many">Rasta %2$d nenaudojama programėlė (įskaitant %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d nenaudojamų programėlių</item>
+        <item quantity="one">%d nenaudojama programėlė</item>
+        <item quantity="few">%d nenaudojamos programėlės</item>
+        <item quantity="many">%d nenaudojamos programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Susitvarkyta su %d kenkimo elgsenos programėlių</item>
+        <item quantity="one">Susitvarkyta su %d kenkimo elgsenos programėle</item>
+        <item quantity="few">Susitvarkyta su %d kenkimo elgsenos programėlėmis</item>
+        <item quantity="many">Susitvarkyta su %d kenkimo elgsenos programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Aptikta %d kenkimo elgsenos programėlių</item>
+        <item quantity="one">Aptikta %d kenkimo elgsenos programėlė</item>
+        <item quantity="few">Aptiktos %d kenkimo elgsenos programėlės</item>
+        <item quantity="many">Aptikta %d kenkimo elgsenos programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Susitvarkyta su %d apgaulės programėlių</item>
+        <item quantity="one">Susitvarkyta su %d apgaulės programėle</item>
+        <item quantity="few">Susitvarkyta su %d apgaulės programėlėmis</item>
+        <item quantity="many">Susitvarkyta su %d apgaulės programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Aptikta %d apgaulės programėlių</item>
+        <item quantity="one">Aptikta %d apgaulės programėlė</item>
+        <item quantity="few">Aptiktos %d apgaulės programėlės</item>
+        <item quantity="many">Aptikta %d apgaulės programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Susitvarkyta su %d riziką privatumui keliančių programėlių</item>
+        <item quantity="one">Susitvarkyta su %d riziką privatumui keliančia programėle</item>
+        <item quantity="few">Susitvarkyta su %d riziką privatumui keliančiomis programėlėmis</item>
+        <item quantity="many">Susitvarkyta su %d riziką privatumui keliančios programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Aptikta %d riziką privatumui keliančių programėlių</item>
+        <item quantity="one">Aptikta %d riziką privatumui kelianti programėlė</item>
+        <item quantity="few">Aptiktos %d riziką privatumui keliančios programėlės</item>
+        <item quantity="many">Aptikta %d riziką privatumui keliančios programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Susitvarkyta su %d pavojų saugumui keliančių programėlių</item>
+        <item quantity="one">Susitvarkyta su %d pavojų saugumui keliančia programėle</item>
+        <item quantity="few">Susitvarkyta su %d pavojų saugumui keliančiomis programėlėmis</item>
+        <item quantity="many">Susitvarkyta su %d pavojų saugumui keliančios programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Aptikta %d pavojų saugumui keliančių programėlių</item>
+        <item quantity="one">Aptikta %d pavojų saugumui kelianti programėlė</item>
+        <item quantity="few">Aptiktos %d pavojų saugumui keliančios programėlės</item>
+        <item quantity="many">Aptikta %d pavojų saugumui keliančios programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Susitvarkyta su %d virusų turinčių programėlių</item>
+        <item quantity="one">Susitvarkyta su %d virusų turinčia programėle</item>
+        <item quantity="few">Susitvarkyta su %d virusų turinčiomis programėlėmis</item>
+        <item quantity="many">Susitvarkyta su %d virusų turinčios programėlės</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Aptikta %d virusų turinčių programėlių</item>
+        <item quantity="one">Aptikta %d virusų turinti programėlė</item>
+        <item quantity="few">Aptiktos %d virusų turinčios programėlės</item>
+        <item quantity="many">Aptikta %d virusų turinčios programėlės</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">Optimizuota %d elemento</item>
+        <item quantity="one">Optimizuotas %d elementas</item>
+        <item quantity="few">Optimizuoti %d elementai</item>
+        <item quantity="many">Optimizuota %d elementų</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Aptikta %d problemų</item>
+        <item quantity="one">Aptikta %d problema</item>
+        <item quantity="few">Aptiktos %d problemos</item>
+        <item quantity="many">Aptikta %d problemos</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Nuskaityta %d programėlių</item>
+        <item quantity="one">Nuskaityta %d programėlė</item>
+        <item quantity="few">Nuskaitytos %d programėlės</item>
+        <item quantity="many">Nuskaityta %d programėlės</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Prieš %d dienų</item>
+        <item quantity="one">Prieš %d diena</item>
+        <item quantity="few">Prieš %d dienos</item>
+        <item quantity="many">Prieš %d dienos</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d grėsmių</item>
+        <item quantity="one">%d grėsmė</item>
+        <item quantity="few">%d grėsmės</item>
+        <item quantity="many">%d grėsmės</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Nuskaityta %d programėlė</item>
+        <item quantity="one">Nuskaityta %d programėlė</item>
+        <item quantity="few">Nuskaitytos %d programėlės</item>
+        <item quantity="many">Nuskaityta %d programėlių</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d grėsmė programėlei</item>
+        <item quantity="one">%d grėsmė programėlei</item>
+        <item quantity="few">%d grėsmė programėlei</item>
+        <item quantity="many">%d grėsmių programėlei</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d įtartinų programėlių rasta per pastarąsias %1$d dienas. Peržiūrėti išsamiai >></item>
+        <item quantity="one">%2$d įtartina programėlė rasta per pastarąsias %1$d dienas. Peržiūrėti išsamiai >></item>
+        <item quantity="few">%2$d įtartinos programėlės rastos per pastarąsias %1$d dienas. Peržiūrėti išsamiai >></item>
+        <item quantity="many">%2$d įtartinų programėlių rasta per pastarąsias %1$d dienas. Peržiūrėti išsamiai >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">Per pastarąsias %1$d dienas nuskaitytos %2$d programėlės. Peržiūrėti išsamiai >></item>
+        <item quantity="one">Per pastarąsias %1$d dienas nuskaityta %2$d programėlė. Peržiūrėti išsamiai >></item>
+        <item quantity="few">Per pastarąsias %1$d dienas nuskaityta %2$d programėlių. Peržiūrėti išsamiai >></item>
+        <item quantity="many">Per pastarąsias %1$d dienas nuskaityta %2$d programėlė. Peržiūrėti išsamiai >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Galima suglaudinti %d programėlių</item>
+        <item quantity="one">Galima suglaudinti %d programėlę</item>
+        <item quantity="few">Galima suglaudinti %d programėles</item>
+        <item quantity="many">Galima suglaudinti %d programėlės</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Aptikta %d nežinomų programėlių.</item>
+        <item quantity="one">Aptikta %d nežinoma programėlė.</item>
+        <item quantity="few">Aptiktos %d nežinomos programėlės.</item>
+        <item quantity="many">Aptikta %d nežinomos programėlės.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Suglaudinamos programėlės (%d)</item>
+        <item quantity="one">Suglaudinamos programėlės (%d)</item>
+        <item quantity="few">Suglaudinamos programėlės (%d)</item>
+        <item quantity="many">Suglaudinamos programėlės (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Rasta %d nežinomų programėlių. Patikrinkite.</item>
+        <item quantity="one">Rasta %d nežinoma programėlė. Patikrinkite.</item>
+        <item quantity="few">Rastos %d nežinomos programėlės. Patikrinkite.</item>
+        <item quantity="many">Rasta %d nežinomų programėlių. Patikrinkite.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Rasta %d nežinomų programėlių</item>
+        <item quantity="one">Rasta %d nežinoma programėlė</item>
+        <item quantity="few">Rastos %d nežinomos programėlės</item>
+        <item quantity="many">Rasta %d nežinomos programėlės</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">Prieš %d minutės</item>
+        <item quantity="one">Prieš %d minutę</item>
+        <item quantity="few">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Įvertis: %s</item>
+        <item quantity="one">Įvertis: %s</item>
+        <item quantity="few">Įvertis: %s</item>
+        <item quantity="many">Įvertis: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir atsisiųsdami šią programėlę patvirtinate, kad esate vyresni nei %2$d metų.</item>
+        <item quantity="one">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir atsisiųsdami šią programėlę patvirtinate, kad esate vyresni nei %2$d metų.</item>
+        <item quantity="few">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir atsisiųsdami šią programėlę patvirtinate, kad esate vyresni nei %2$d metų.</item>
+        <item quantity="many">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir atsisiųsdami šią programėlę patvirtinate, kad esate vyresni nei %2$d metų.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Pristabdyta atsisiuntimų: %1$d</item>
+        <item quantity="one">Pristabdyta atsisiuntimų: %1$d</item>
+        <item quantity="few">Pristabdyta atsisiuntimų: %1$d</item>
+        <item quantity="many">Pristabdyta atsisiuntimų: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir naudodamiesi šia programėle patvirtinate, kad esate vyresni nei %2$d metų.</item>
+        <item quantity="one">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir naudodamiesi šia programėle patvirtinate, kad esate vyresni nei %2$d metų.</item>
+        <item quantity="few">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir naudodamiesi šia programėle patvirtinate, kad esate vyresni nei %2$d metų.</item>
+        <item quantity="many">%1$s yra pagal amžių ribojamo turinio. Paliesdami %3$s ir naudodamiesi šia programėle patvirtinate, kad esate vyresni nei %2$d metų.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d nepatiktuko</item>
+        <item quantity="one">%d nepatiktukas</item>
+        <item quantity="few">%d nepatiktukai</item>
+        <item quantity="many">%d nepatiktukų</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d nepatiktuko, jums tai nepatiko</item>
+        <item quantity="one">%d nepatiktukas, jums tai nepatiko</item>
+        <item quantity="few">%d nepatiktukai, jums tai nepatiko</item>
+        <item quantity="many">%d nepatiktukų, jums tai nepatiko</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d patiktuko</item>
+        <item quantity="one">%d patiktukas</item>
+        <item quantity="few">%d patiktukai</item>
+        <item quantity="many">%d patiktukų</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d patiktuko, jums tai patiko</item>
+        <item quantity="one">%d patiktukas, jums tai patiko</item>
+        <item quantity="few">%d patiktukai, jums tai patiko</item>
+        <item quantity="many">%d patiktukų, jums tai patiko</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d žvaigždučių</item>
+        <item quantity="one">%d žvaigždutė</item>
+        <item quantity="few">%d žvaigždutės</item>
+        <item quantity="many">%d žvaigždutės</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d komentarų</item>
+        <item quantity="one">%1$d komentaras</item>
+        <item quantity="few">%1$d komentarai</item>
+        <item quantity="many">%1$d komentarų</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Prieš %d minutės</item>
+        <item quantity="one">Prieš %d minutę</item>
+        <item quantity="few">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d įverčių</item>
+        <item quantity="one">%d įvertis</item>
+        <item quantity="few">%d įverčiai</item>
+        <item quantity="many">%d įverčiai</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d patiktukų</item>
+        <item quantity="one">%1$d patiktukas</item>
+        <item quantity="few">%1$d patiktukai</item>
+        <item quantity="many">%1$d patiktuko</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d atsakymų</item>
+        <item quantity="one">%1$d atsakymas</item>
+        <item quantity="few">%1$d atsakymai</item>
+        <item quantity="many">%1$d atsakymo</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Visi atsakymai (%1$d)</item>
+        <item quantity="one">Visi atsakymai (%1$d)</item>
+        <item quantity="few">Visi atsakymai (%1$d)</item>
+        <item quantity="many">Visi atsakymai (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Norėdami pakomentuoti, turite būti žaidę bent %1$d minutės.</item>
+        <item quantity="one">Norėdami pakomentuoti, turite būti žaidę bent %1$d minutę.</item>
+        <item quantity="few">Norėdami pakomentuoti, turite būti žaidę bent %1$d minutes.</item>
+        <item quantity="many">Norėdami pakomentuoti, turite būti žaidę bent %1$d minutės.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Įdiegiama %1$s programėlių</item>
+        <item quantity="one">Įdiegiama %1$s programėlė</item>
+        <item quantity="few">Įdiegiamos %1$s programėlės</item>
+        <item quantity="many">Įdiegiama %1$s programėlės</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Pasirinkta %1$d elemento</item>
+        <item quantity="one">Pasirinktas %1$d elementas</item>
+        <item quantity="few">Pasirinkti %1$d elementai</item>
+        <item quantity="many">Pasirinkta %1$d elementų</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Ar išdiegti pasirinktas programėles, įskaitant %1$s?</item>
+        <item quantity="one">Ar išdiegti %1$s?</item>
+        <item quantity="few">Ar išdiegti pasirinktas programėles, įskaitant %1$s?</item>
+        <item quantity="many">Ar išdiegti pasirinktas programėles, įskaitant %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Ar išdiegti „%1$s“ ir dar %2$s kitų programėlių iš %3$s?</item>
+        <item quantity="one">Ar išdiegti „%1$s“ ir dar %2$s kitą programėlę iš %3$s?</item>
+        <item quantity="few">Ar išdiegti „%1$s“ ir dar %2$s kitas programėles iš %3$s?</item>
+        <item quantity="many">Ar išdiegti „%1$s“ ir dar %2$s kitas programėles iš %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Ar išdiegti %2$s programėlių, įskaitant %1$s?</item>
+        <item quantity="one">Ar išdiegti %2$s programėlę, įskaitant %1$s?</item>
+        <item quantity="few">Ar išdiegti %2$s programėles, įskaitant „%1$s“?</item>
+        <item quantity="many">Ar išdiegti %2$s programėlių, įskaitant %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Ar panaikinti %1$s įrašo?</item>
+        <item quantity="one">Ar panaikinti %1$s įrašą?</item>
+        <item quantity="few">Ar panaikinti %1$s įrašus?</item>
+        <item quantity="many">Ar panaikinti %1$s įrašų?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Šioms %1$d programėlėms reikalinga prieiga prie tam tikrų leidimų:</item>
+        <item quantity="one">Šiai %1$d programėlei reikalinga prieiga prie tam tikrų leidimų:</item>
+        <item quantity="few">Šioms %1$d programėlėms reikalinga prieiga prie tam tikrų leidimų:</item>
+        <item quantity="many">Šioms %1$d programėlėms reikalinga prieiga prie tam tikrų leidimų:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d įverčio</item>
+        <item quantity="one">%1$d įvertis</item>
+        <item quantity="few">%1$d įverčiai</item>
+        <item quantity="many">%1$d įverčių</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s milijono įverčių</item>
+        <item quantity="one">%1$s milijonas įverčių</item>
+        <item quantity="few">%1$s milijonai įverčių</item>
+        <item quantity="many">%1$s milijonų įverčių</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s tūkstančio įverčių</item>
+        <item quantity="one">%1$s tūkstantis įverčių</item>
+        <item quantity="few">%1$s tūkstančiai įverčių</item>
+        <item quantity="many">%1$s tūkstančių įverčių</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">Veiklų: %1$s</item>
+        <item quantity="one">%1$s veikla</item>
+        <item quantity="few">Veiklų: %1$s</item>
+        <item quantity="many">Veiklų: %1$s</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Liko mažiau nei %1$s minutės. Kuo greičiau įrašykite savo žaidimą.</item>
+        <item quantity="one">Liko mažiau nei %1$s minutė. Kuo greičiau įrašykite savo žaidimą.</item>
+        <item quantity="few">Liko mažiau nei %1$s minutės. Kuo greičiau įrašykite savo žaidimą.</item>
+        <item quantity="many">Liko mažiau nei %1$s minutės. Kuo greičiau įrašykite savo žaidimą.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Liko tik %d minučių.</item>
+        <item quantity="one">Liko tik %d minutė.</item>
+        <item quantity="few">Liko tik %d minutės.</item>
+        <item quantity="many">Liko tik %d minutės.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandos</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minutės</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundės</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d komentarų</item>
+        <item quantity="one">%1$d komentaras</item>
+        <item quantity="few">%1$d komentarai</item>
+        <item quantity="many">%1$d komentaro</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš %d min.</item>
+        <item quantity="few">Prieš %d min.</item>
+        <item quantity="many">Prieš %d min.</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Daugiausiai %1$d ženklų</item>
+        <item quantity="one">Daugiausiai %1$d ženklas</item>
+        <item quantity="few">Daugiausiai %1$d ženklai</item>
+        <item quantity="many">Daugiausiai %1$d ženklo</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Įveskite bent %1$d ženklų</item>
+        <item quantity="one">Įveskite bent %1$d ženklą</item>
+        <item quantity="few">Įveskite bent %1$d ženklus</item>
+        <item quantity="many">Įveskite bent %1$d ženklo</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Iki %1$d vaizdų
+Iki %2$s kiekvienas"</item>
+        <item quantity="one">"Ne daugiau nei %1$d vaizdas
+Iki %2$s kiekvienas"</item>
+        <item quantity="few">"Iki %1$d vaizdų
+Iki %2$s kiekvienas"</item>
+        <item quantity="many">"Iki %1$d vaizdų
+Iki %2$s kiekvienas"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Šio tipo problemai – iki %d vaizdų</item>
+        <item quantity="one">Šio tipo problemai – iki %d vaizdo</item>
+        <item quantity="few">Šio tipo problemai – iki %d vaizdų</item>
+        <item quantity="many">Šio tipo problemai – iki %d vaizdo</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s žvaigždučių</item>
+        <item quantity="one">%1$s žvaigždutė</item>
+        <item quantity="few">%1$s žvaigždutės</item>
+        <item quantity="many">%1$s žvaigždutės</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Netinkamas slaptažodis įvestas %1$d kartus. Bandykite vėl po %2$d min.</item>
+        <item quantity="one">Netinkamas slaptažodis įvestas %1$d kartus. Bandykite vėl po %2$d min.</item>
+        <item quantity="few">Netinkamas slaptažodis įvestas %1$d kartus. Bandykite vėl po %2$d min.</item>
+        <item quantity="many">Netinkamas slaptažodis įvestas %1$d kartus. Bandykite vėl po %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">Dalyvavo %1$s milijardo žmonių</item>
+        <item quantity="one">Dalyvavo %1$s milijardas žmonių</item>
+        <item quantity="few">Dalyvavo %1$s milijardai žmonių</item>
+        <item quantity="many">Dalyvavo %1$s milijardų žmonių</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">Dalyvavo %1$s milijono žmonių</item>
+        <item quantity="one">Dalyvavo %1$s milijonas žmonių</item>
+        <item quantity="few">Dalyvavo %1$s milijonai žmonių</item>
+        <item quantity="many">Dalyvavo %1$s milijonų žmonių</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">Dalyvavo %1$s žmogaus</item>
+        <item quantity="one">Dalyvavo %1$s žmogus</item>
+        <item quantity="few">Dalyvavo %1$s žmonės</item>
+        <item quantity="many">Dalyvavo %1$s žmonių</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">Dalyvavo %1$s tūkstančio žmonių</item>
+        <item quantity="one">Dalyvavo %1$s tūkstantis žmonių</item>
+        <item quantity="few">Dalyvavo %1$s tūkstančiai žmonių</item>
+        <item quantity="many">Dalyvavo %1$s tūkstančių žmonių</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">Tai įsigijo %1$s milijardo žmonių</item>
+        <item quantity="one">Tai įsigijo %1$s milijardas žmonių</item>
+        <item quantity="few">Tai įsigijo %1$s milijardai žmonių</item>
+        <item quantity="many">Tai įsigijo %1$s milijardų žmonių</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">Tai įsigijo %1$s milijono žmonių</item>
+        <item quantity="one">Tai įsigijo %1$s milijonas žmonių</item>
+        <item quantity="few">Tai įsigijo %1$s milijonai žmonių</item>
+        <item quantity="many">Tai įsigijo %1$s milijonų žmonių</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">Tai įsigijo %1$s žmogaus</item>
+        <item quantity="one">Tai įsigijo %1$s žmogus</item>
+        <item quantity="few">Tai įsigijo %1$s žmonės</item>
+        <item quantity="many">Tai įsigijo %1$s žmonių</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">Tai įsigijo %1$s tūkstančio žmonių</item>
+        <item quantity="one">Tai įsigijo %1$s tūkstantis žmonių</item>
+        <item quantity="few">Tai įsigijo %1$s tūkstančiai žmonių</item>
+        <item quantity="many">Tai įsigijo %1$s tūkstančių žmonių</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s įverčio</item>
+        <item quantity="one">%1$s įvertis</item>
+        <item quantity="few">%1$s įverčiai</item>
+        <item quantity="many">%1$s įverčių</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Įvertis, %1$s žvaigždučių</item>
+        <item quantity="one">Įvertis, %1$s žvaigždutė</item>
+        <item quantity="few">Įvertis, %1$s žvaigždutės</item>
+        <item quantity="many">Įvertis, %1$s žvaigždutės</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Įvertinta %1$s žvaigždučių</item>
+        <item quantity="one">Įvertinta %1$s žvaigždute</item>
+        <item quantity="few">Įvertinta %1$s žvaigždutėmis</item>
+        <item quantity="many">Įvertinta %1$s žvaigždutės</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Vis tiek įdiegti (%1$d)</item>
+        <item quantity="one">Vis tiek įdiegti (%1$d)</item>
+        <item quantity="few">Vis tiek įdiegti (%1$d)</item>
+        <item quantity="many">Vis tiek įdiegti (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandos</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minutės</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundės</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Pasirinkta %1$d elemento</item>
+        <item quantity="one">Pasirinktas %1$d elementas</item>
+        <item quantity="few">Pasirinkti %1$d elementai</item>
+        <item quantity="many">Pasirinkta %1$d elementų</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Aprašymas turi būti bent %d ženklo ilgio. Jei įmanoma, įtraukite ekrano kopijų.</item>
+        <item quantity="one">Aprašymas turi būti bent %d ženklo ilgio. Jei įmanoma, įtraukite ekrano kopijų.</item>
+        <item quantity="few">Aprašymas turi būti bent %d ženklų ilgio. Jei įmanoma, įtraukite ekrano kopijų.</item>
+        <item quantity="many">Aprašymas turi būti bent %d ženklų ilgio. Jei įmanoma, įtraukite ekrano kopijų.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d val.</item>
+        <item quantity="one">%1$d valanda</item>
+        <item quantity="few">%1$d val.</item>
+        <item quantity="many">%1$d val.</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d minutė</item>
+        <item quantity="few">%1$d min.</item>
+        <item quantity="many">%1$d min.</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d sekundžių</item>
+        <item quantity="one">%1$d sekundės</item>
+        <item quantity="few">%1$d sekundžių</item>
+        <item quantity="many">%1$d sekundės</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Skelb.: %1$s</item>
+        <item quantity="one">Skelb.: %1$s</item>
+        <item quantity="few">Skelbimai: %1$s</item>
+        <item quantity="many">Skelb.: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d patinka</item>
+        <item quantity="one">%d patinka</item>
+        <item quantity="few">%d patinka</item>
+        <item quantity="many">%d patinka</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d atsakymo</item>
+        <item quantity="one">%d atsakymas</item>
+        <item quantity="few">%d atsakymai</item>
+        <item quantity="many">%d atsakymų</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d peržiūros</item>
+        <item quantity="one">%d peržiūra</item>
+        <item quantity="few">%d peržiūros</item>
+        <item quantity="many">%d peržiūrų</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Palikti komentarą (iš viso: %1$d)</item>
+        <item quantity="one">Palikti komentarą (iš viso: %1$d)</item>
+        <item quantity="few">Palikti komentarą (iš viso: %1$d)</item>
+        <item quantity="many">Palikti komentarą (iš viso: %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Peržiūrėti visą %1$d atsakymo</item>
+        <item quantity="one">Peržiūrėti visą %1$d atsakymą</item>
+        <item quantity="few">Peržiūrėti visus %1$d atsakymus</item>
+        <item quantity="many">Peržiūrėti visus %1$d atsakymų</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s dalyvių</item>
+        <item quantity="one">%1$s dalyvis</item>
+        <item quantity="few">%1$s dalyviai</item>
+        <item quantity="many">%1$s dalyvio</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Pasirinkite iki %s atsakymų</item>
+        <item quantity="one">Pasirinkite iki %s atsakymo</item>
+        <item quantity="few">Pasirinkite iki %s atsakymų</item>
+        <item quantity="many">Pasirinkite iki %s atsakymo</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Keli pasirinkimai (pasirinkite %1$d)</item>
+        <item quantity="one">Keli pasirinkimai (pasirinkite %1$d)</item>
+        <item quantity="few">Keli pasirinkimai (pasirinkite %1$d)</item>
+        <item quantity="many">Keli pasirinkimai (pasirinkite %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Pasirinkite %s atsakymų</item>
+        <item quantity="one">Pasirinkite %s atsakymą</item>
+        <item quantity="few">Pasirinkite %s atsakymus</item>
+        <item quantity="many">Pasirinkite %s atsakymo</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s balsų</item>
+        <item quantity="one">%1$s balsas</item>
+        <item quantity="few">%1$s balsai</item>
+        <item quantity="many">%1$s balso</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Šiai programėlei reikia %1$d leidimo. Juos galite bet kada atšaukti, nuėję į „Nuostatos > Programėlės > Programėlės“.</item>
+        <item quantity="one">Šiai programėlei reikia %1$d leidimo. Jį galite bet kada atšaukti, nuėję į „Nuostatos > Programėlės > Programėlės“.</item>
+        <item quantity="few">Šiai programėlei reikia %1$d leidimų. Juos galite bet kada atšaukti, nuėję į „Nuostatos > Programėlės > Programėlės“.</item>
+        <item quantity="many">Šiai programėlei reikia %1$d leidimų. Juos galite bet kada atšaukti, nuėję į „Nuostatos > Programėlės > Programėlės“.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Šiai programėlei reikia %1$d leidimų. Juos galėsite bet kuriuo metu atšaukti, nuėję į „Nuostatos > Programėlės ir paslaugos > Programėlės“.</item>
+        <item quantity="one">Šiai programėlei reikia %1$d leidimo. Jį galėsite bet kuriuo metu atšaukti, nuėję į „Nuostatos > Programėlės ir paslaugos > Programėlės“.</item>
+        <item quantity="few">Šiai programėlei reikia %1$d leidimų. Juos galėsite bet kuriuo metu atšaukti, nuėję į „Nuostatos > Programėlės ir paslaugos > Programėlės“.</item>
+        <item quantity="many">Šiai programėlei reikia %1$d leidimų. Juos galėsite bet kuriuo metu atšaukti, nuėję į „Nuostatos > Programėlės &amp; paslaugos > Programėlės“.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">Dovanų: %1$d</item>
+        <item quantity="one">%1$d dovana</item>
+        <item quantity="few">Dovanų: %1$d</item>
+        <item quantity="many">Dovanų: %1$d</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d tūkstančio</item>
+        <item quantity="one">%1$d tūkstantis</item>
+        <item quantity="few">%1$d tūkstančiai</item>
+        <item quantity="many">%1$d tūkstančių</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d žvaigždutės</item>
+        <item quantity="one">%1$d žvaigždutė</item>
+        <item quantity="few">%1$d žvaigždutės</item>
+        <item quantity="many">%1$d žvaigždučių</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Įvertis: %s</item>
+        <item quantity="one">Įvertis: %s</item>
+        <item quantity="few">Įvertis: %s</item>
+        <item quantity="many">Įvertis: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s įverčio</item>
+        <item quantity="one">%1$s įvertis</item>
+        <item quantity="few">%1$s įverčiai</item>
+        <item quantity="many">%1$s įverčių</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s atvėrimų</item>
+        <item quantity="one">%1$s atvėrimas</item>
+        <item quantity="few">%1$s atvėrimai</item>
+        <item quantity="many">%1$s atvėrimo</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d naujos rekomendacijos</item>
+        <item quantity="one">%d nauja rekomendacija</item>
+        <item quantity="few">%d naujos rekomendacijos</item>
+        <item quantity="many">%d naujų rekomendacijų</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Atnaujinta %1$d programėlės</item>
+        <item quantity="one">Atnaujinta %1$d programėlė</item>
+        <item quantity="few">Atnaujintos %1$d programėlės</item>
+        <item quantity="many">Atnaujinta %1$d programėlių</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Naujinama %1$d programėlės</item>
+        <item quantity="one">Naujinama %1$d programėlė</item>
+        <item quantity="few">Naujinamos %1$d programėlės</item>
+        <item quantity="many">Naujinama %1$d programėlių</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Vaizdas negali būti didesnis nei %1$d MB.</item>
+        <item quantity="one">Vaizdas negali būti didesnis nei %1$d MB.</item>
+        <item quantity="few">Vaizdas negali būti didesnis nei %1$d MB.</item>
+        <item quantity="many">Vaizdas negali būti didesnis nei %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d nuotraukos</item>
+        <item quantity="one">%d nuotrauka</item>
+        <item quantity="few">%d nuotraukos</item>
+        <item quantity="many">%d nuotraukų</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">Pasirinkta %1$d/%2$d</item>
+        <item quantity="one">Pasirinkta %1$d/%2$d</item>
+        <item quantity="few">Pasirinktos %1$d/%2$d</item>
+        <item quantity="many">Pasirinkta %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d vaizdo įrašų</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d privalumo</item>
+        <item quantity="one">%d privalumas</item>
+        <item quantity="few">%d privalumai</item>
+        <item quantity="many">%d privalumų</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Panaikinti visus pristabdytus diegimo procesus (%1$s programėlių, atlaisvinama %2$s)</item>
+        <item quantity="one">Panaikinti visus pristabdytus diegimo procesus (%1$s programėlė, atlaisvinama %2$s)</item>
+        <item quantity="few">Panaikinti visus pristabdytus diegimo procesus (%1$s programėlės, atlaisvinama %2$s)</item>
+        <item quantity="many">Panaikinti visus pristabdytus diegimo procesus (%1$s programėlės, atlaisvinama %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(pasirinkta %1$d)"</item>
+        <item quantity="one">" 
+(pasirinktas %1$d)"</item>
+        <item quantity="few">" 
+(pasirinkti %1$d)"</item>
+        <item quantity="many">" 
+(pasirinkta %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">%1$d iš</item>
+        <item quantity="one">%1$d iš</item>
+        <item quantity="few">%1$d iš</item>
+        <item quantity="many">%1$d iš</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Pristabdyta %1$s diegimo procesų.</item>
+        <item quantity="one">Pristabdytas %1$s diegimo procesas.</item>
+        <item quantity="few">Pristabdyti %1$s diegimo procesai.</item>
+        <item quantity="many">Pristabdyti %1$s diegimo procesai.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš %d min.</item>
+        <item quantity="few">Prieš %d min.</item>
+        <item quantity="many">Prieš %d min.</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d papildomo</item>
+        <item quantity="one">%1$d papildomas</item>
+        <item quantity="few">%1$d papildomi</item>
+        <item quantity="many">%1$d papildomų</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s atsisiuntimų</item>
+        <item quantity="one">%1$s atsisiuntimas</item>
+        <item quantity="few">%1$s atsisiuntimai</item>
+        <item quantity="many">%1$s atsisiuntimo</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Įvertinta %1$s žvaigždučių</item>
+        <item quantity="one">Įvertinta %1$s žvaigždute</item>
+        <item quantity="few">Įvertinta %1$s žvaigždutėmis</item>
+        <item quantity="many">Įvertinta %1$s žvaigždutės</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Užbaigtas planinis %1$s programėlių diegimas</item>
+        <item quantity="one">Užbaigtas planinis %1$s programėlės diegimas</item>
+        <item quantity="few">Užbaigtas planinis %1$s programėlių diegimas</item>
+        <item quantity="many">Užbaigtas planinis %1$s programėlių diegimas</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Kai prisijungsite prie „Wi-Fi“, bus pradėta atsisiųsti %1$d programėlės.</item>
+        <item quantity="one">Kai prisijungsite prie „Wi-Fi“, bus pradėta atsisiųsti %1$d programėlė.</item>
+        <item quantity="few">Kai prisijungsite prie „Wi-Fi“, bus pradėtos atsisiųsti %1$d programėlės.</item>
+        <item quantity="many">Kai prisijungsite prie „Wi-Fi“, bus pradėta atsisiųsti %1$d programėlių.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(Iš anksto užsakė %1$s)</item>
+        <item quantity="one">(Iš anksto užsakė %1$s)</item>
+        <item quantity="few">(Rezervavo %1$s)</item>
+        <item quantity="many">(Rezervavo %1$s)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(Rezervavo %1$d mln.)</item>
+        <item quantity="one">(Rezervavo 1 mln.)</item>
+        <item quantity="few">(Rezervavo %1$d mln.)</item>
+        <item quantity="many">(Rezervavo %1$d mln.)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(Rezervavo %1$d tūkst.)</item>
+        <item quantity="one">(Rezervavo 1 tūkst.)</item>
+        <item quantity="few">(Rezervavo %1$d tūkst.)</item>
+        <item quantity="many">(Rezervavo %1$d tūkst.)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Ar įdiegti visas %1$s programėlių?</item>
+        <item quantity="one">Ar įdiegti %1$s programėlę?</item>
+        <item quantity="few">Ar įdiegti visas %1$s programėles?</item>
+        <item quantity="many">Ar įdiegti visas %1$s programėles?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">Vykdoma %1$s diegimo procesų.</item>
+        <item quantity="one">Vykdomas %1$s diegimo procesas.</item>
+        <item quantity="few">Vykdomi %1$s diegimo procesai.</item>
+        <item quantity="many">Vykdomi %1$s diegimo procesai.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">%1$d psl.</item>
+        <item quantity="one">%1$d psl.</item>
+        <item quantity="few">%1$d psl.</item>
+        <item quantity="many">%1$d psl.</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Ieškoti %d įrenginio programėlės</item>
+        <item quantity="one">Ieškoti %d įrenginio programėlėje</item>
+        <item quantity="few">Ieškoti %d įrenginio programėlėse</item>
+        <item quantity="many">Ieškoti %d įrenginio programėlių</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Atkurkite %d programėlių į naujinių sąrašą ir leiskite jas atnaujinti.</item>
+        <item quantity="one">Atkurkite %d programėlę į naujinių sąrašą ir leiskite ją atnaujinti.</item>
+        <item quantity="few">Atkurkite %d programėles į naujinių sąrašą ir leiskite jas atnaujinti.</item>
+        <item quantity="many">Atkurkite %d programėles į naujinių sąrašą ir leiskite jas atnaujinti.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Išleista %1$s programėlės naujinio</item>
+        <item quantity="one">Išleistas %1$s programėlės naujinys</item>
+        <item quantity="few">Išleisti %1$s programėlių naujiniai</item>
+        <item quantity="many">Išleista %1$s programėlių naujinių</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Rekomenduojame %1$s programėlių naujinius. Bendrasis dydis: %2$s.</item>
+        <item quantity="one">Rekomenduojame %1$s programėlės naujinį. Dydis: %2$s.</item>
+        <item quantity="few">Rekomenduojame %1$s programėlių naujinių. Bendrasis dydis: %2$s.</item>
+        <item quantity="many">Rekomenduojame %1$s programėlių naujinius. Bendrasis dydis: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Yra %1$d programėlės naujiniai. Dydis: %2$s.</item>
+        <item quantity="one">Yra %1$d programėlės naujinys. Dydis: %2$s.</item>
+        <item quantity="few">Yra %1$d programėlės naujiniai. Dydis: %2$s.</item>
+        <item quantity="many">Yra %1$d programėlės naujinių. Dydis: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Nenaudota %d d.</item>
+        <item quantity="one">Nenaudota %d d.</item>
+        <item quantity="few">Nenaudota %d d.</item>
+        <item quantity="many">Nenaudota %d d.</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandos</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minutės</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundės</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Ar išvalyti %d užduoties ir atsisiųstus failus?</item>
+        <item quantity="one">Ar išvalyti %d užduotį ir atsisiųstą failą?</item>
+        <item quantity="few">Ar išvalyti %d užduotis ir atsisiųstus failus?</item>
+        <item quantity="many">Ar išvalyti %d užduočių ir atsisiųstus failus?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d d. sėkminga užsiregistravimo serija</item>
+        <item quantity="one">%d d. sėkminga užsiregistravimo serija</item>
+        <item quantity="few">%d d. sėkminga užsiregistravimo serija</item>
+        <item quantity="many">%d d. sėkminga užsiregistravimo serija</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d diena</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="few">%d diena</item>
+        <item quantity="many">%d diena</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Atsisiųsta %1$d programėlės</item>
+        <item quantity="one">Atsisiųsta %1$d programėlė</item>
+        <item quantity="few">Atsisiųstos %1$d programėlės</item>
+        <item quantity="many">Atsisiųsta %1$d programėlių</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Įvertis: %s</item>
+        <item quantity="one">Įvertis: %s</item>
+        <item quantity="few">Įvertis: %s</item>
+        <item quantity="many">Įvertis: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">Prieš %d minutės</item>
+        <item quantity="one">Prieš %d minutę</item>
+        <item quantity="few">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d programėlių, įskaitant „%1$s“</item>
+        <item quantity="one">%2$d programėlė („%1$s“)</item>
+        <item quantity="few">%2$d programėlės, įskaitant „%1$s“</item>
+        <item quantity="many">%2$d programėlės, įskaitant „%1$s“</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Raudono taško ženklelis, %1$s neskaitytų pranešimų</item>
+        <item quantity="one">Raudono taško ženklelis, %1$s neskaitytas pranešimas</item>
+        <item quantity="few">Raudono taško ženklelis, %1$s neskaityti pranešimai</item>
+        <item quantity="many">Raudono taško ženklelis, %1$s neskaitytų pranešimų</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d pasiūlymo</item>
+        <item quantity="one">%d pasiūlymas</item>
+        <item quantity="few">%d pasiūlymai</item>
+        <item quantity="many">%d pasiūlymų</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d bendruomenės dovanos</item>
+        <item quantity="one">%d bendruomenės dovana</item>
+        <item quantity="few">%d bendruomenės dovanos</item>
+        <item quantity="many">%d bendruomenės dovanų</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d dovanos</item>
+        <item quantity="one">%d dovana</item>
+        <item quantity="few">%d dovanos</item>
+        <item quantity="many">%d dovanų</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d asmens jūsų regione to pageidauja</item>
+        <item quantity="one">%d asmuo jūsų regione to pageidauja</item>
+        <item quantity="few">%d žmonės jūsų regione to pageidauja</item>
+        <item quantity="many">%d žmonių jūsų regione to pageidauja</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Pasirinkta %1$d elemento</item>
+        <item quantity="one">Pasirinktas %1$d elementas</item>
+        <item quantity="few">Pasirinkti %1$d elementai</item>
+        <item quantity="many">Pasirinkta %1$d elementų</item>
+    </plurals>
+</resources>

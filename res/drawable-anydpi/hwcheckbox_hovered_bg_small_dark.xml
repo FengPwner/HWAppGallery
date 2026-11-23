@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_hovered="true">
+        <shape>
+            <corners
+                android:radius="@dimen/hwcheckbox_small_radius_size" />
+            <solid
+                android:color="@color/emui_control_hover_dark" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.forum.cards.widget.NickNameFakeView
+        android:id="@id/forum_user_info_name_top_fake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/forum_section_post_user_icon"
+        android:layout_alignBottom="@id/forum_section_post_time" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/forum_section_post_user_info_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_input_box_default_height">
+        <com.huawei.appgallery.forum.cards.widget.UserHeadImageView
+            android:gravity="start|center"
+            android:id="@id/forum_section_post_user_icon"
+            android:layout_width="@dimen/forum_section_post_user_icon_size"
+            android:layout_height="@dimen/forum_section_post_user_icon_size"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+        <com.huawei.appgallery.forum.cards.widget.UserInfoTextView
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/forum_user_info_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_tertiary"
+        android:ellipsize="end"
+        android:id="@id/forum_section_post_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xs"
+        android:maxLines="1"
+        android:layout_below="@id/forum_section_post_user_info_detail"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:layout_marginStart="@dimen/appgallery_subheader_item_double_min_height" />
+</merge>

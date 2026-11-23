@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/header_content"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@id/header_loadingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Emui.HwProgressBar" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_master_body_1"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/header_loading_tips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hiappbase_header_loading_margin"
+            android:text="@string/hiappbase_recommend_tips"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    </LinearLayout>
+</LinearLayout>

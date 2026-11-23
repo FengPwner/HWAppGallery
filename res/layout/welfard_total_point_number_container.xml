@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/welfare_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/bonus_points_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+            android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+            android:paddingEnd="@dimen/appgallery_card_elements_margin_m"
+            android:layout_marginStart="@dimen/appgallery_default_card_space_vertical_l"
+            android:layout_marginEnd="@dimen/appgallery_default_card_space_vertical_l">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/bonus_points_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@id/iv_bonus_points"
+                        android:background="@drawable/img_welfare_point"
+                        android:layout_width="@dimen/appgallery_card_icon_size_xs"
+                        android:layout_height="@dimen/appgallery_card_icon_size_xs" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_headline6"
+                        android:textColor="@color/white"
+                        android:ellipsize="middle"
+                        android:id="@id/tv_total_bonus_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:fontFamily="@string/appgallery_text_font_family_medium"
+                        android:layout_marginStart="@dimen/appgallery_safety_margin_s" />
+                    <ImageView
+                        android:id="@id/arrowlayout"
+                        android:background="@drawable/ic_welfare_detail_more"
+                        android:layout_width="14.0dip"
+                        android:layout_height="22.0dip"
+                        android:scaleType="centerCrop"
+                        android:layout_marginStart="@dimen/appgallery_safety_margin_s" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body3_fixed"
+                android:textColor="@color/white"
+                android:ellipsize="middle"
+                android:id="@id/tv_expired_bonus_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_safety_margin_s"
+                android:singleLine="true"
+                android:alpha="0.6"
+                android:fontFamily="@string/emui_text_font_family_regular" />
+        </LinearLayout>
+        <View
+            android:id="@id/view_round_corner"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/appgallery_horizontal_icon_card_space"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xl" />
+    </LinearLayout>
+</RelativeLayout>

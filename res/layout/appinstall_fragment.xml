@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView
+        android:id="@id/applistview"
+        android:paddingBottom="@dimen/appgallery_card_elements_margin_xl"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    <com.huawei.uikit.phone.hwscrollbarview.widget.HwScrollbarView
+        android:layout_gravity="end"
+        android:id="@id/app_install_listview_scrollbar"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        style="@style/Widget.Emui.HwScrollbarView" />
+    <ViewStub
+        android:id="@id/nodata_view"
+        android:visibility="gone"
+        android:layout="@layout/installed_game_nodata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

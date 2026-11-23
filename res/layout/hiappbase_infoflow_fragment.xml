@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/hiappbase_title_layout_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@id/hiappbase_content_layout_id"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.huawei.appmarket.service.infoflow.view.widget.PullDownListView
+                android:id="@id/applistview"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawSelectorOnTop="true"
+                android:divider="@null"
+                android:dividerHeight="0.0dip" />
+            <com.huawei.appmarket.service.infoflow.view.widget.TopTipsView
+                android:id="@id/hiappbase_top_tipsview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/nodata_viewstub"
+        android:layout="@layout/hiappbase_nodata_warn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/hiappbase_loading_layout_id"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

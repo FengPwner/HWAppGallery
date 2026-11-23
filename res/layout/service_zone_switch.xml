@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:textSize="15.0sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/service_switch_button"
+        android:layout_width="@dimen/alertDialog_width_emui"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginBottom="@dimen/margin_l"
+        android:text="@string/service_zone_switch_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.Emui.HwButton" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/service_zone"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/service_switch_button"
+        android:layout_below="@id/title">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/service_zone_image_view"
+            android:layout_width="66.0dip"
+            android:layout_height="66.0dip"
+            android:src="@drawable/ic_glo_service" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/app_service_switch_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_zone_no_support_modified"
+            style="@style/empty_view_textview_style" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/loading_root"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/title_layout"
+        android:layout="@layout/hiappbase_layout_subheader_title_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/ageadapter_title_layout"
+        android:layout="@layout/hiappbase_layout_ageadapter_subheader_title_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/item_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

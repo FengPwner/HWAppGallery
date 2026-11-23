@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center_horizontal"
+    android:id="@id/root_item_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/appicon"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:src="@color/transparent"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/downbtn"
+        android:tag="css/.download-button"
+        android:layout_width="wrap_content"
+        android:layout_height="28.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_desc"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cs_8_dp"
+        android:layout_marginBottom="@dimen/cs_8_dp"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toStartOf="@id/downbtn"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="@id/appicon">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/label_rank_factor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/emui_text_size_caption1"
+                android:textColor="@color/upgrade_normal_card_label_text_color"
+                android:ellipsize="end"
+                android:id="@id/title_text_label"
+                android:background="@drawable/title_text_label_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:paddingStart="@dimen/ui_4_dp"
+                android:paddingEnd="@dimen/ui_4_dp"
+                android:layout_marginEnd="8.0dip" />
+            <ImageView
+                android:id="@id/title_iv_label"
+                android:visibility="gone"
+                android:layout_width="28.0sp"
+                android:layout_height="16.0sp"
+                android:src="@color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="8.0dip" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/title_text_kind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+        </LinearLayout>
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/desc"
+            android:tag="css/.subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/downbtn"
+        app:layout_constraintStart_toStartOf="@id/ll_desc"
+        style="@style/AppGallery.Widget.Divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

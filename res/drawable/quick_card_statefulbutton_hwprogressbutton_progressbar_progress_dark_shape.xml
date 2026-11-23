@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape
+        android:shape="rectangle">
+        <corners
+            android:radius="@dimen/emui_corner_radius_button_small" />
+        <solid
+            android:color="@color/quick_card_statefulbutton_emui_control_focused_outline_dark" />
+    </shape>
+</clip>

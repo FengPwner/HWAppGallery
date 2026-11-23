@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d aplikazio susmagarri aurkitu dira (%1$s barne)</item>
+        <item quantity="one">%2$d aplikazio susmagarri aurkitu da (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Erabiltzen ez diren %2$d aplikazio aurkitu dira (%1$s barne)</item>
+        <item quantity="one">Erabiltzen ez den %2$d aplikazio aurkitu da (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">Erabili gabeko %d aplikazio</item>
+        <item quantity="one">Erabili gabeko %d aplikazio</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Asmo txarreko portaera duten %d aplikazio kudeatu dira</item>
+        <item quantity="one">Asmo txarreko portaera duen %d aplikazio kudeatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Asmo txarreko portaera duten %d aplikazio detektatu dira</item>
+        <item quantity="one">Asmo txarreko portaera duen %d aplikazio detektatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Iruzurrezko %d aplikazio kudeatu dira</item>
+        <item quantity="one">Iruzurrezko %d aplikazio kudeatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Iruzurrezko %d aplikazio detektatu dira</item>
+        <item quantity="one">Iruzurrezko %d aplikazio detektatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Pribatutasun-arriskuak dituzten %d aplikazio kudeatu dira</item>
+        <item quantity="one">Pribatutasun-arriskuak dituen %d aplikazio kudeatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Pribatutasun-arriskuak dituzten %d aplikazio detektatu dira</item>
+        <item quantity="one">Pribatutasun-arriskuak dituen %d aplikazio detektatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Segurtasun-mehatxuak dituzten %d aplikazio kudeatu dira</item>
+        <item quantity="one">Segurtasun-mehatxuak dituen %d aplikazio kudeatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Segurtasun-mehatxuak dituzten %d aplikazio detektatu dira</item>
+        <item quantity="one">Segurtasun-mehatxuak dituen %d aplikazio detektatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Birusak dituzten %d aplikazio kudeatu dira</item>
+        <item quantity="one">Birusak dituen %d aplikazio kudeatu da</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Birusak dituzten %d aplikazio detektatu dira</item>
+        <item quantity="one">Birusak dituen %d aplikazio detektatu da</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d elementu optimizatuta</item>
+        <item quantity="one">%d elementu optimizatuta</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d arazo detektatu dira</item>
+        <item quantity="one">%d arazo detektatu da</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d aplikazio aztertuta</item>
+        <item quantity="one">%d aplikazio aztertuta</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Duela %d egun</item>
+        <item quantity="one">Duela %d egun</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d mehatxu</item>
+        <item quantity="one">%d mehatxu</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d aplikazio aztertu dira</item>
+        <item quantity="one">%d aplikazio aztertu da</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d aplikazio-mehatxu</item>
+        <item quantity="one">%d aplikazio-mehatxu</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d aplikazio susmagarri aurkitu dira azken %1$d egunetan. Ikusi xehetasunak >></item>
+        <item quantity="one">%2$d aplikazio susmagarri aurkitu da azken %1$d egunetan. Ikusi xehetasunak >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d aplikazio eskaneatu dira azken %1$d egunetan. Ikusi xehetasunak >></item>
+        <item quantity="one">%2$d aplikazio eskaneatu da azken %1$d egunetan. Ikusi xehetasunak >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d aplikazio konprima daitezke</item>
+        <item quantity="one">%d aplikazio konprima daiteke</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d aplikazio ezezagun detektatu dira.</item>
+        <item quantity="one">%d aplikazio ezezagun detektatu da.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Aplikazio konprimagarriak (%d)</item>
+        <item quantity="one">Aplikazio konprimagarriak (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d aplikazio ezezagun aurkitu dira. Egiaztatu.</item>
+        <item quantity="one">%d aplikazio ezezagun aurkitu da. Egiaztatu.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d aplikazio ezezagun aurkitu dira</item>
+        <item quantity="one">%d aplikazio ezezagun aurkitu da</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">Duela %d min</item>
+        <item quantity="one">Duela %d min</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Balorazioa: %s</item>
+        <item quantity="one">Balorazioa: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s aplikazioak adinaren araberako edukia du. %3$s ukitu eta aplikazio hau deskargatuz gero, berresten duzu %2$d urte baino gehiago dituzula.</item>
+        <item quantity="one">%1$s aplikazioak adinaren araberako edukia du. %3$s ukitu eta aplikazio hau deskargatuz gero, berresten duzu %2$d urte baino gehiago duzula.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Pausatutako deskargak: %1$d</item>
+        <item quantity="one">Pausatutako deskargak: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s aplikazioak adinaren araberako edukia du. %3$s ukitu eta aplikazio hau erabiliz gero, berresten duzu %2$d urte baino gehiago dituzula.</item>
+        <item quantity="one">%1$s aplikazioak adinaren araberako edukia du. %3$s ukitu eta aplikazio hau erabiliz gero, berresten duzu %2$d urte baino gehiago duzula.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d ez-atsegite</item>
+        <item quantity="one">%d ez-atsegite</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d ez-atsegite, ez duzula atsegin adierazi duzu</item>
+        <item quantity="one">%d ez-atsegite, ez duzula atsegin adierazi duzu</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d atsegite</item>
+        <item quantity="one">%d atsegite</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d atsegite, atsegin duzula adierazi duzu</item>
+        <item quantity="one">%d atsegite, atsegin duzula adierazi duzu</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d izar</item>
+        <item quantity="one">%d izar</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d iruzkin</item>
+        <item quantity="one">%1$d iruzkin</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Duela %d min</item>
+        <item quantity="one">Duela %d min</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d balorazio</item>
+        <item quantity="one">%d balorazio</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d atsegin dut</item>
+        <item quantity="one">%1$d atsegin dut</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d erantzun</item>
+        <item quantity="one">%1$d erantzun</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Erantzun guztiak (%1$d)</item>
+        <item quantity="one">Erantzun guztiak (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Gutxienez %1$d minutuz jokatu behar duzu, iruzkinak egiteko.</item>
+        <item quantity="one">Gutxienez %1$d minutuz jokatu behar duzu, iruzkinak egiteko.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s aplikazio instalatzen ari dira</item>
+        <item quantity="one">%1$s aplikazio instalatzen ari da</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d elementu hautatu dira</item>
+        <item quantity="one">%1$d elementu hautatu da</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Hautatutako aplikazioak desinstalatu, %1$s barne?</item>
+        <item quantity="one">%1$s desinstalatu?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%1$s eta beste %2$s aplikazio desinstalatu %3$s-etik?</item>
+        <item quantity="one">%1$s eta beste %2$s aplikazio desinstalatu %3$s-etik?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">%2$s aplikazio desinstalatu nahi dituzu, %1$s barne?</item>
+        <item quantity="one">%2$s aplikazio desinstalatu nahi duzu, %1$s barne?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s erregistro ezabatu nahi dituzu?</item>
+        <item quantity="one">%1$s erregistro ezabatu nahi duzu?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">%1$d aplikazio hauek hainbat baimen atzitu behar dituzte:</item>
+        <item quantity="one">%1$d aplikazio honek hainbat baimen atzitu behar ditu:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d balorazio</item>
+        <item quantity="one">%1$d balorazio</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s miloi balorazio</item>
+        <item quantity="one">%1$s miloi balorazio</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s mila balorazio</item>
+        <item quantity="one">%1$s mila balorazio</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s jarduera</item>
+        <item quantity="one">%1$s jarduera</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">%1$s minutu baino gutxiago geratzen dira jokatzeko. Gorde jokoa ahal bezain laster.</item>
+        <item quantity="one">%1$s minutu baino gutxiago geratzen da jokatzeko. Gorde jokoa ahal bezain laster.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">%d minutu soilik geratzen dira.</item>
+        <item quantity="one">%d minutu soilik geratzen da.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s mila</item>
+        <item quantity="one">%1$s K</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d iruzkin</item>
+        <item quantity="one">%1$d iruzkin</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Duela %d min</item>
+        <item quantity="one">Duela %d min</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Gehienez %1$d karaktere</item>
+        <item quantity="one">Gehienez %1$d karaktere</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Idatzi gutxienez %1$d karaktere</item>
+        <item quantity="one">Idatzi gutxienez %1$d karaktere</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Gehienez %1$d irudi
+Gehienez %2$s bakoitza"</item>
+        <item quantity="one">"Gehienez %1$d irudi
+Gehienez %2$s bakoitza"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Gehienez %d irudi arazo mota honetarako</item>
+        <item quantity="one">Gehienez %d irudi arazo mota honetarako</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s izar</item>
+        <item quantity="one">%1$s izar</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Pasahitza oker idatzi da %1$d aldiz. Saiatu berriro %2$d min eta gero.</item>
+        <item quantity="one">Pasahitza oker idatzi da %1$d aldiz. Saiatu berriro %2$d min eta gero.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s mila milioi lagunek parte hartu dute</item>
+        <item quantity="one">%1$s mila milioi lagunek parte hartu dute</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s miloi lagunek parte hartu dute</item>
+        <item quantity="one">%1$s miloi lagunek parte hartu dute</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s lagunek parte hartu dute</item>
+        <item quantity="one">%1$s lagunek parte hartu du</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s mila lagunek parte hartu dute</item>
+        <item quantity="one">%1$s mila lagunek parte hartu dute</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s mila miloi lagunek erosi dute</item>
+        <item quantity="one">%1$s mila miloi lagunek erosi dute</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s miloi lagunek erosi dute</item>
+        <item quantity="one">%1$s miloi lagunek erosi dute</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s lagunek erosi dute</item>
+        <item quantity="one">%1$s lagunek erosi du</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s mila lagunek erosi dute</item>
+        <item quantity="one">%1$s mila lagunek erosi dute</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s balorazio</item>
+        <item quantity="one">%1$s balorazio</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Balorazioa, %1$s izar</item>
+        <item quantity="one">Balorazioa, %1$s izar</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">%1$s izarreko balorazioa</item>
+        <item quantity="one">%1$s izarreko balorazioa</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Instalatu halere (%1$d)</item>
+        <item quantity="one">Instalatu halere (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d elementu hautatu dira</item>
+        <item quantity="one">%1$d elementu hautatu da</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Gutxienez %d karaktere izan behar ditu azalpenak. Gehitu pantaila-argazkiak, ahal baldin bada.</item>
+        <item quantity="one">Gutxienez %d karaktere izan behar du azalpenak. Gehitu pantaila-argazkiak, ahal baldin bada.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ordu</item>
+        <item quantity="one">%1$d ordu</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minutu</item>
+        <item quantity="one">%1$d minutu</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d segundo</item>
+        <item quantity="one">%1$d segundo</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Argitalpenak: %1$s</item>
+        <item quantity="one">Argitalpenak: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d atsegite</item>
+        <item quantity="one">%d atsegite</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d erantzun</item>
+        <item quantity="one">%d erantzun</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d ikustaldi</item>
+        <item quantity="one">%d ikustaldi</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Utzi iruzkina (%1$d, guztira)</item>
+        <item quantity="one">Utzi iruzkina (%1$d, guztira)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Ikusi %1$d erantzunak</item>
+        <item quantity="one">Ikusi %1$d erantzuna</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s parte hartzaile</item>
+        <item quantity="one">%1$s parte hartzaile</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Hautatu gehienez %s erantzun</item>
+        <item quantity="one">Hautatu gehienez %s erantzun</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Aukera anitza (hautatu %1$d)</item>
+        <item quantity="one">Aukera anitza (hautatu %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Hautatu %s erantzun</item>
+        <item quantity="one">Hautatu %s erantzun</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s boto</item>
+        <item quantity="one">%1$s boto</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Aplikazio honek %1$d baimen behar ditu. Noiznahi baliogabe ditzakezu baimen horiek Ezarpenak > Aplikazioak > Aplikazioak aukeran.</item>
+        <item quantity="one">Aplikazio honek %1$d baimen behar du. Noiznahi baliogabe dezakezu baimen hori Ezarpenak > Aplikazioak > Aplikazioak aukeran.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Aplikazio honek %1$d baimen behar ditu. Noiznahi baliogabe ditzakezu baimen horiek Ezarpenak > Aplikazioak eta zerbitzuak > Aplikazioak aukeran.</item>
+        <item quantity="one">Aplikazio honek %1$d baimen behar du. Noiznahi baliogabe dezakezu baimen hori Ezarpenak > Aplikazioak eta zerbitzuak > Aplikazioak aukeran.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d opari</item>
+        <item quantity="one">%1$d opari</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d mila</item>
+        <item quantity="one">%1$d mila</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d izar</item>
+        <item quantity="one">%1$d izar</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Balorazioa: %s</item>
+        <item quantity="one">Balorazioa: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s balorazio</item>
+        <item quantity="one">%1$s balorazio</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s ireki</item>
+        <item quantity="one">%1$s ireki</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d gomendio berri</item>
+        <item quantity="one">%d gomendio berri</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s mila</item>
+        <item quantity="one">%1$s K</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d aplikazio eguneratu dira</item>
+        <item quantity="one">%1$d aplikazio eguneratu da</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d aplikazio eguneratzen ari dira</item>
+        <item quantity="one">%1$d aplikazio eguneratzen ari da</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Irudiak ezin du izan %1$d MB baino handiagoa.</item>
+        <item quantity="one">Irudiak ezin du izan %1$d MB baino handiagoa.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d argazki</item>
+        <item quantity="one">%d argazki</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d hautatuta</item>
+        <item quantity="one">%1$d/%2$d hautatuta</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d bideo</item>
+        <item quantity="one">%d bideo</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d onura</item>
+        <item quantity="one">%d onura</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jakinarazpen berri</item>
+        <item quantity="one">%d jakinarazpen berri</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Ezabatu pausatutako instalazio guztiak (%1$s aplikazio; %2$s egin da)</item>
+        <item quantity="one">Ezabatu pausatutako instalazio guztiak (%1$s aplikazio; %2$s egin da)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d hautatuta)"</item>
+        <item quantity="one">" 
+(%1$d hautatuta)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">%1$d orria</item>
+        <item quantity="one">%1$d orria</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s instalazio pausatu dira.</item>
+        <item quantity="one">%1$s instalazio pausatu da.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Duela %d min</item>
+        <item quantity="one">Duela %d min</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d estra</item>
+        <item quantity="one">%1$d estra</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s deskarga</item>
+        <item quantity="one">%1$s deskarga</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">%1$s izarreko balorazioa</item>
+        <item quantity="one">%1$s izarreko balorazioa</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Osatu da %1$s aplikazioren programatutako instalazioa</item>
+        <item quantity="one">Osatu da %1$s aplikazioren programatutako instalazioa</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d aplikazio deskargatzen hasiko dira, wifira konektatuta zaudenean.</item>
+        <item quantity="one">%1$d aplikazio deskargatzen hasiko da, wifira konektatuta zaudenean.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s erreserbatuta)</item>
+        <item quantity="one">(%1$s erreserbatuta)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d milioi erreserbatuta)</item>
+        <item quantity="one">(1 milioi erreserbatuta)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d mila erreserbatuta)</item>
+        <item quantity="one">(Mila erreserbatuta)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">%1$s aplikazioak instalatu?</item>
+        <item quantity="one">%1$s aplikazio instalatu?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s instalazio abian.</item>
+        <item quantity="one">%1$s instalazio abian.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">%1$d orritatik</item>
+        <item quantity="one">%1$d orritatik</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Bilatu gailuko %d aplikazio</item>
+        <item quantity="one">Bilatu gailuko %d aplikazio</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Leheneratu %d aplikazio, zerrenda eguneratu eta eguneratzeko baimena emateko.</item>
+        <item quantity="one">Leheneratu %d aplikazio, zerrenda eguneratu eta eguneratzeko baimena emateko.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s aplikazio-eguneratze erabilgarri</item>
+        <item quantity="one">%1$s aplikazio-eguneratze erabilgarri</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s aplikazio-eguneratze gomendatzen dira. Guztizko tamaina: %2$s.</item>
+        <item quantity="one">%1$s aplikazio-eguneratze gomendatzen da. Tamaina: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d aplikazio eguneratze erabilgarri. Tamaina: %2$s.</item>
+        <item quantity="one">%1$d aplikazio eguneratze erabilgarri. Tamaina: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Ez da erabili %d egunez</item>
+        <item quantity="one">Ez da erabili %d egunez</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">%d ekintza eta deskargatutako fitxategiak garbitu nahi dituzu?</item>
+        <item quantity="one">%d ekintza eta deskargatutako fitxategiak garbitu nahi dituzu?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d egunez jarraian erregistratu zara</item>
+        <item quantity="one">%d eguneko erregistro jarraian</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d. eguna</item>
+        <item quantity="one">%d. eguna</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d aplikazio deskargatu dira</item>
+        <item quantity="one">%1$d aplikazio deskargatu da</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Balorazioa: %s</item>
+        <item quantity="one">Balorazioa: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">Duela %d min</item>
+        <item quantity="one">Duela %d min</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplikazio, %1$s barne</item>
+        <item quantity="one">%2$d aplikazio (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Puntu gorridun bereizgarria, %1$s jakinarazpen irakurri gabe</item>
+        <item quantity="one">Puntu gorridun bereizgarria, %1$s jakinarazpen irakurri gabe</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d eskaintza</item>
+        <item quantity="one">%d eskaintza</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">Komunitateko %d opari</item>
+        <item quantity="one">Komunitateko %d opari</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d opari</item>
+        <item quantity="one">%d opari</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">Zure eskualdeko %d lagunek nahi dute</item>
+        <item quantity="one">Zure eskualdeko %d lagunek nahi du</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d elementu hautatu dira</item>
+        <item quantity="one">%1$d elementu hautatu da</item>
+    </plurals>
+</resources>

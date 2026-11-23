@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/faq_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.phoneservice.faq.widget.FaqSdkSearchInput
+        android:id="@id/faq_sdk_searchinput"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@id/faq_nosub_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/faq_sdk_searchinput" />
+    <ExpandableListView
+        android:id="@id/faq_expand_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:groupIndicator="@null"
+        android:childDivider="@null"
+        android:divider="@null"
+        android:layout_below="@id/faq_sdk_searchinput" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/faq_sdk_mask"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/faq_sdk_searchinput" />
+    <View
+        android:id="@id/view_floating_layer"
+        android:background="@color/faq_sdk_mask"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/faq_sdk_searchinput" />
+    <com.huawei.phoneservice.faq.widget.FaqNoticeView
+        android:id="@id/faq_error_noticeView"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:faqsdkNoticeViewType="faqsdkprogress"
+        app:faqsdknoticeAutoFitCenterYInLandScape="true"
+        app:faqsdknoticeLoadingText="@string/faq_sdk_common_loading" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/feedback_sdk_dialog_bg_shape"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/feedback_sdk_common_24_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_24_dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_24_dip">
+            <TextView
+                android:textSize="@dimen/feedback_sdk_common_ui_sp_15"
+                android:textColor="@color/feedback_sdk_text_normal_black"
+                android:id="@id/txtContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback_sdk_tips_msg"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_sp_15"
+            android:textStyle="bold"
+            android:textColor="@color/feedback_sdk_btn_blue"
+            android:gravity="center"
+            android:id="@id/btnClose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+            android:layout_marginBottom="@dimen/feedback_sdk_common_4_dip"
+            android:minWidth="@dimen/feedback_sdk_common_72_dp"
+            android:minHeight="@dimen/feedback_sdk_common_56_dip"
+            android:text="@string/feedback_sdk_common_cancel"
+            android:textAllCaps="true"
+            android:fontFamily="HwChinese-medium" />
+    </LinearLayout>
+</LinearLayout>

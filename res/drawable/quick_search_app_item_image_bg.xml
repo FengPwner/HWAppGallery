@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/mask_image_view_color" />
+    <corners
+        android:radius="@dimen/cs_8_dp" />
+    <stroke
+        android:width="0.25dip"
+        android:color="@color/appgallery_color_card_stroke_normal" />
+</shape>

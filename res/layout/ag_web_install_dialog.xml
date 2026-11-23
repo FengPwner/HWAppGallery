@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/ag_web_install_dialog_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </LinearLayout>
+    <ListView
+        android:orientation="horizontal"
+        android:id="@id/app_name_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:divider="@null" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/comment_ref_top_rlayout"
+    android:background="@drawable/forum_comment_reference_layout_selector"
+    android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_l"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.user.usercenter.widget.CommentReferenceUserView
+        android:id="@id/comment_reference_userhome_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:userIconSize="32" />
+    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+        android:ellipsize="end"
+        android:id="@id/comment_ref_posts_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_below="@id/comment_reference_userhome_view"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Primary" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/error_tip_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_ref_posts_title"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l">
+        <ImageView
+            android:layout_width="@dimen/forum_error_icon_size_normal"
+            android:layout_height="@dimen/forum_error_icon_size_normal"
+            android:src="@drawable/aguikit_ic_public_error" />
+        <TextView
+            android:id="@id/error_tip_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </LinearLayout>
+</RelativeLayout>

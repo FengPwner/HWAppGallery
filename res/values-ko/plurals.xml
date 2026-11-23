@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">의심스러운 앱 %2$d개 발견(%1$s 포함)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">%2$d개의 사용하지 않는 앱 발견(%1$s 등)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d개의 사용하지 않는 앱</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">악성 행위를 취급한 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">악성 행위가 감지된 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">처리된 사기 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">감지된 사기 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">개인 정보 보호 위험을 취급한 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">개인 정보 보호 위험이 감지된 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">보안 위협을 취급한 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">보안 위협이 감지된 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">바이러스를 취급한 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">바이러스가 감지된 앱 %d개</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d개 항목 최적화됨</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d개의 문제 발견됨</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d개의 앱이 검사됨</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d일 전</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d개 위협</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d개의 앱이 검사됨</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d개의 앱 위협</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">지난 %1$d일간 %2$d개의 의심스러운 앱이 발견되었습니다. 상세정보 보기 >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">지난 %1$d일간 %2$d개 앱이 검사되었습니다. 상세정보 보기 >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d개 앱 압축 가능</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d개의 알 수 없는 앱이 발견되었습니다.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">압축 가능 앱(%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">알 수 없는 앱 %d개가 발견되었습니다. 확인하십시오.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">알 수 없는 앱 %d개 발견됨</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">평가: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s에는 연령 제한 콘텐츠가 포함되어 있습니다. %3$s을(를) 터치하여 이 앱을 다운로드하면 만 %2$d세 이상임을 확인하는 것입니다.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">다운로드 일시 정지됨: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s에는 연령 제한 콘텐츠가 포함되어 있습니다. %3$s을(를) 터치하여 이 앱을 사용하면 만 %2$d세 이상임을 확인하는 것입니다.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">싫어요 %d개</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">싫어요 %d개, 이 항목에 싫어요를 표시했음</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">좋아요 %d개</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">좋아요 %d개, 이 항목에 좋아요를 표시했음</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">별점 %d</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d개의 댓글</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d개의 평가</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d개의 좋아요</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d개의 답글</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">모든 답글(%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">댓글을 남기려면 %1$d분 이상 플레이해야 합니다.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s개 앱 설치되는 중</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d개 항목 선택</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s를(을) 포함한 선택된 파일을 삭제할까요?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%3$s로부터 %1$s 및 %2$s를(을) 삭제할까요?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">%1$s 등의 %2$s개 앱을 제거하시겠습니까?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s개의 기록을 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">다음 %1$d개 앱은 특정 사용 권한을 필요로 합니다.</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d명의 평가</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s백만 명의 평가</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s천 명의 평가</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s 활동</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">남은 게임 시간이 %1$s분 미만입니다. 가능한 한 빨리 게임을 저장하십시오.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">%d분만 남았습니다.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d초</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d개의 댓글</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">최대 %1$d자</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">%1$d자 이상 입력합니다</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"최대 %1$d개의 이미지
+각 최대 %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">이 문제 유형에 대한 최대 %d개의 이미지</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">별점 %1$s</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">암호를 %1$d 회 잘못 입력하셨습니다. %2$d 분 후에 다시 시도해주십시오.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB명이 참여함</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s백만 명이 참여함</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s명이 참여함</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s천 명이 참여함</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s십억 명이 이 항목을 구매함</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s백만 명이 이 항목을 구매함</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s명이 이 항목을 구매함</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s천 명이 이 항목을 구매함</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s등급</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">평가, 별점 %1$s</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">평가 별점 %1$s</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">계속 설치(%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d초</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d개 선택됨</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">설명은 %d자 이상이어야 합니다. 가능하다면 스크린샷을 추가하십시오.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d초</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">게시: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d개 좋아요</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d개 답장</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d회 확인</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">댓글 남기기(총 %1$d개 댓글)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">모든 %1$d개 답장 보기</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s명의 참가자</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">최대 %s개의 답변 선택</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">다중 선택(%1$d개 선택)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">%s개 답변 선택</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s표</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">이 앱을 사용하려면 %1$d개 권한이 필요합니다. 이러한 권한은 설정 > 앱 > 앱에서 언제든지 취소할 수 있습니다.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">이 앱은 %1$d개의 권한이 필요합니다. 이러한 권한은 설정 > 앱 및 서비스 > 앱에서 언제든지 취소할 수 있습니다.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d 선물</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d천</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">별점 %1$d</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">평가: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s등급</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">열린 수: %1$s회</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d개의 새로운 권장사항</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d개의 앱이 업데이트되었습니다</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d개의 앱을 업데이트 중입니다</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">이미지는 %1$dMB를 초과할 수 없습니다.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">사진 %d개</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d개/%2$d개 선택됨</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d개의 비디오</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d가지 혜택</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">모든 중지된 설치 제거(%1$s개 앱, %2$s 공간 확보)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d개 선택됨)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">%1$d페이지</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s 설치 중지.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d개의 추가 항목</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">다운로드수 %1$s</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">평가 별점 %1$s</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s개의 앱 설치 완료가 예정되어 있음</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Wi-Fi에 연결되면 %1$d개의 앱 다운로드가 시작됩니다.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s개의 예약 주문 항목)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d백만 명 예약)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d천 명 예약)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">모든 %1$s 앱을 설치할까요?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s 설치 진행 중.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">/%1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">%d개의 로컬 앱 검색</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">%d 앱을 업데이트 목록에 복원하고 업데이트될 수 있게 합니다.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s개 앱 업데이트 사용 가능</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s개 앱 업데이트 권장. 총 크기: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d개 앱 업데이트를 사용할 수 있습니다. 크기: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d일간 사용하지 않음</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d초</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">%d개 작업 및 다운로드한 파일을 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d일 연속 체크인</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d일</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d개 앱 다운로드 완료</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">평가: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">앱 %2$d개(%1$s 포함)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">빨간점 배지, %1$s개의 읽지 않은 알림</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d개의 할인 행사</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d개의 커뮤니티 선물</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d개의 선물</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">해당 지역에서 %d명이 좋아함</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d개 항목 선택</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/forum_list_top_layout"
+    android:tag="+@string/bannerImage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/subTitle"
+        layout="@layout/hiappbase_layout_ageadapter_subheader_title_more" />
+    <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+        android:id="@id/comment_list_item"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_card_bottom_margin_default"
+        app:bounceEnable="true" />
+</LinearLayout>

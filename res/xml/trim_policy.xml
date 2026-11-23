@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spacecleaninfo>
+    <CleanPreference
+        matchrule=".+(\\.apk)$"
+        recommended="false"
+        trashpath="/Android/data/com.huawei.appmarket/files/AppCache"
+        trashtype="11" />
+    <CleanPreference
+        matchrule=".+(\\.apk)$"
+        recommended="false"
+        trashpath="/Android/data/com.huawei.appmarket/AppCache"
+        trashtype="11" />
+    <CleanPreference
+        recommended="true"
+        trashpath="/hispace/plugin"
+        trashtype="11" />
+    <CleanPreference
+        recommended="false"
+        trashpath="/Ring/tmp"
+        trashtype="25" />
+</Spacecleaninfo>

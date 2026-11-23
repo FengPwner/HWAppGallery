@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/appgallery_color_card_panel_bg" />
+    <corners
+        android:radius="@dimen/emui_corner_radius_inputbox" />
+    <stroke
+        android:width="1.0dip"
+        android:color="@color/appgallery_color_error" />
+</shape>

@@ -1,0 +1,20 @@
+.class final Lcom/huawei/appmarket/ct5;
+.super Lcom/huawei/appmarket/it5$a;
+.source "SourceFile"
+
+
+# instance fields
+.field final synthetic b:Lcom/huawei/appmarket/m67;
+
+
+# direct methods
+.method constructor <init>(Lcom/huawei/appmarket/ft5;Lcom/huawei/appmarket/m67;)V
+    .registers 3
+
+    .line 1
+    iput-object p2, p0, Lcom/huawei/appmarket/ct5;->b:Lcom/huawei/appmarket/m67;
+
+    invoke-direct {p0}, Lcom/huawei/appmarket/it5$a;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/faq_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView
+        android:id="@id/common_web_view"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ProgressBar
+        android:id="@id/wvProgressbar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:progress="0"
+        style="?android:progressBarStyleHorizontal" />
+    <com.huawei.phoneservice.faq.widget.FaqNoticeView
+        android:id="@id/notice_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:faqsdkNoticeViewType="faqsdkprogress"
+        app:faqsdknoticeAutoFitCenterYInLandScape="true" />
+</FrameLayout>

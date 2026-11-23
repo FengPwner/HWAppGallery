@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/risk_dialog_margin_start">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/risk_dialog_radio_button_divider"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@id/textMoveToControl"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/installconfirmriskcard_risk_dialog_move_to_control"
+                    android:layout_weight="1.0"
+                    style="@style/risk_dialog_radiobutton_text" />
+                <RadioButton
+                    android:layout_gravity="end|center"
+                    android:id="@id/buttonMoveToControl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@id/textInstallDirect"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/installconfirmriskcard_risk_dialog_install_direct"
+                    android:layout_weight="1.0"
+                    style="@style/risk_dialog_radiobutton_text" />
+                <RadioButton
+                    android:layout_gravity="end|center"
+                    android:id="@id/buttonInstallDirect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <CheckBox
+            android:textSize="@dimen/risk_dialog_checkbox_text_size"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/checkNextDefault"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/installconfirmriskcard_risk_dialog_next_policy"
+            android:layout_marginStart="@dimen/risk_dialog_margin_start" />
+    </LinearLayout>
+</ScrollView>

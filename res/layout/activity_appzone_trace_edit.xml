@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tooltype="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/editTraceTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/app_edit_trace_hispace_title_emui" />
+    <RelativeLayout
+        android:id="@id/app_detail_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/btnlayout"
+        android:layout_below="@id/editTraceTitle" />
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/btnlayout"
+        android:background="@color/appgallery_color_toolbar_bg"
+        android:addStatesFromChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/hwappbarpattern_split_menu_height"
+        android:layout_alignParentBottom="true">
+        <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/actionbar_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            tooltype:tooltype="delete" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/btn_unselectall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            tooltype:tooltype="unselectall" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/btn_selectall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            tooltype:tooltype="selectall" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/edit_btn_install"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            tooltype:tooltype="install" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</RelativeLayout>

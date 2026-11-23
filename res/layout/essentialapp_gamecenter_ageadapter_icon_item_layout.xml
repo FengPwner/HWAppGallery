@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/essentialapp_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/app_icon"
+        android:layout_width="@dimen/item_icon_size"
+        android:layout_height="@dimen/item_icon_size"
+        android:layout_marginTop="@dimen/margin_l"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@id/gift_icon"
+        android:visibility="gone"
+        android:layout_width="@dimen/gamecenter_item_gift_icon_width"
+        android:layout_height="@dimen/gamecenter_item_gift_icon_height"
+        android:layout_marginTop="@dimen/margin_l"
+        android:src="@drawable/gift"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+        android:id="@id/check_img"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/app_icon"
+        app:layout_constraintEnd_toEndOf="@id/app_icon"
+        app:layout_constraintStart_toEndOf="@id/app_icon"
+        app:layout_constraintTop_toTopOf="@id/app_icon"
+        style="@style/Emui.CheckBox.IconSelect" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:id="@id/app_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/app_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/app_icon"
+        app:layout_constraintTop_toTopOf="@id/app_icon" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_caption"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/app_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="@integer/horizonhomecard_intro_max_lines"
+        android:includeFontPadding="false"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:layout_marginEnd="@dimen/margin_l"
+        app:layout_constraintStart_toStartOf="@id/app_name"
+        app:layout_constraintTop_toBottomOf="@id/app_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

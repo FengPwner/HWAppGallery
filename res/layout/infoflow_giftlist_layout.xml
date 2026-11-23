@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/infoflow_giftlist_layout_0"
+    android:paddingTop="@dimen/emui_dimens_element_vertical_middle"
+    android:paddingBottom="@dimen/emui_dimens_element_vertical_middle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/gift_first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        layout="@layout/gift_claim_item_layout" />
+    <include
+        android:id="@id/gift_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        layout="@layout/gift_claim_item_layout" />
+    <include
+        android:id="@id/gift_third"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        layout="@layout/gift_claim_item_layout" />
+</LinearLayout>

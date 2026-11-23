@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/card_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l">
+        <com.huawei.appgallery.videokit.api.WiseVideoView
+            android:id="@id/video_player"
+            android:tag="@string/properties_video_contentDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_centerHorizontal="true"
+            app:media_type="0"
+            app:view_type="0" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/title_layout"
+            android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/appgallery_list_height_two_text_lines"
+            android:layout_below="@id/video_player"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="@dimen/appgallery_max_padding_start"
+            android:paddingEnd="@dimen/appgallery_max_padding_end">
+            <TextView
+                android:id="@id/title_textview"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+            <TextView
+                android:id="@id/subtitle_textview"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

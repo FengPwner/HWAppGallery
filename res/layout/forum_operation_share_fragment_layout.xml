@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/community_share_fragment_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        app:shadowCornerRadius="@dimen/appgallery_default_corner_radius_m">
+        <com.huawei.appmarket.framework.widget.RoundCornerLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:clip_background="true"
+            app:round_corner="@dimen/appgallery_default_corner_radius_m"
+            app:stroke_width="0.0dip">
+            <ScrollView
+                android:id="@id/app_share_layout"
+                android:scrollbars="none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/share_card_layout"
+                    android:background="@color/community_share_card_bg"
+                    android:layout_width="295.0dip"
+                    android:layout_height="wrap_content"
+                    android:minHeight="440.0dip" />
+            </ScrollView>
+        </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    </com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout>
+</LinearLayout>

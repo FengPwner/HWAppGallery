@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/upgrade_recommendation_ui_100_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/rl_icon"
+        android:layout_width="@dimen/upgrade_recommendation_ui_74_dp"
+        android:layout_height="@dimen/upgrade_recommendation_ui_80_dp"
+        android:layout_centerHorizontal="true">
+        <com.huawei.uikit.hwimageview.widget.HwImageView
+            android:id="@id/iv_app_icon"
+            android:layout_width="@dimen/upgrade_recommendation_ui_56_dp"
+            android:layout_height="@dimen/upgrade_recommendation_ui_56_dp"
+            android:src="@drawable/image_icon_default"
+            android:layout_centerInParent="true" />
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/cb_select_app"
+            android:layout_width="@dimen/upgrade_recommendation_ui_36_dp"
+            android:layout_height="@dimen/upgrade_recommendation_ui_36_dp"
+            android:button="@drawable/checkbox_selector"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="11.0sp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/tv_app_name"
+        android:layout_width="@dimen/upgrade_recommendation_ui_68_dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/rl_icon"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

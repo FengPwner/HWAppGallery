@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:id="@id/top_view"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/buoy_main_title_height"
+    android:alpha="0.97"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/back_layout"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4.0dip"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@id/back_image"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/buoy_ic_back" />
+    </LinearLayout>
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/right_menu_view"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="@dimen/ui_40_dp"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="@dimen/margin_m"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@id/right_menu_view_img"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/left_menu_view"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="@dimen/ui_40_dp"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/right_menu_view">
+        <ImageView
+            android:id="@id/left_menu_view_img"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/emui_text_size_headline7"
+        android:textColor="@color/buoy_emui_primary"
+        android:ellipsize="end"
+        android:id="@id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@string/emui_text_font_family_medium"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="8.0dip"
+        android:layout_toStartOf="@id/left_menu_view"
+        android:layout_toEndOf="@id/back_layout" />
+</RelativeLayout>

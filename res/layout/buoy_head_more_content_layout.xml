@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/buoy_button_normal_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/buoy_game_space_menu"
+            android:background="@drawable/buoy_more_bg_selector"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="136.0dip">
+            <TextView
+                android:id="@id/buoy_game_space_txt"
+                android:text="@string/buoy_game_space"
+                style="@style/buoy_menu_item_text_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/buoy_app_assistant_menu"
+            android:background="@drawable/buoy_more_bg_selector"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="136.0dip">
+            <TextView
+                android:text="@string/buoy_app_assistant"
+                style="@style/buoy_menu_item_text_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/buoy_feedback_menu"
+            android:background="@drawable/buoy_more_bg_selector"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="136.0dip">
+            <TextView
+                android:text="@string/feedback_new_problem"
+                style="@style/buoy_menu_item_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "推荐内容说明",
+      "maxRows": 1,
+      "layoutName": "settingsrecommenddescriptioncard"
+    },
+    {
+      "layoutId": 2,
+      "name": "个性化推荐",
+      "maxRows": 1,
+      "layoutName": "settingspersonalizedrecommendcard"
+    },
+    {
+      "layoutId": 3,
+      "name": "标签管理",
+      "maxRows": 1,
+      "layoutName": "settingsrecommendtagmanagementcard"
+    },
+    {
+      "layoutId": 4,
+      "name": "投诉反馈机制",
+      "maxRows": 1,
+      "layoutName": "settingscomplaintfeedbackcard"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "推荐内容说明",
+      "layoutName": "settingsrecommenddescriptioncard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "个性化推荐",
+      "layoutName": "settingspersonalizedrecommendcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "标签管理",
+      "layoutName": "settingsrecommendtagmanagementcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 4,
+      "name": "投诉反馈机制",
+      "layoutName": "settingscomplaintfeedbackcard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/extd_install_main"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/extd_install_icon_corner_view"
+        android:layout_width="@dimen/install_icon_size"
+        android:layout_height="@dimen/install_icon_size"
+        android:layout_marginTop="@dimen/extd_install_icon_corner_dis"
+        app:round_corner="@dimen/cs_16_dp"
+        app:stroke_color="@color/transparent">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/extd_install_icon"
+            android:layout_width="@dimen/install_icon_size"
+            android:layout_height="@dimen/install_icon_size"
+            android:src="@drawable/placeholder_base_app_icon" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <TextView
+        android:id="@id/extd_install_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cs_16_dp"
+        android:text="@string/extd_inst_unknown"
+        android:layout_marginStart="@dimen/ui_24_dp"
+        android:layout_marginEnd="@dimen/ui_24_dp"
+        style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+    <TextView
+        android:id="@id/extd_install_app_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cs_6_dp"
+        android:text="@string/extd_inst_pkg_source"
+        style="@style/AppGallery.TextAppearance.TextCaption.Secondary" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/extd_install_progress_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/extd_install_progress_dis">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_width="@dimen/install_progress_size"
+            android:layout_height="@dimen/install_progress_size"
+            style="@style/Widget.Emui.HwProgressBar.Small" />
+        <TextView
+            android:id="@id/extd_install_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extd_inst_pkg_parse_pkg"
+            android:layout_marginStart="@dimen/cs_8_dp"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Secondary" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:layout_gravity="center"
+        android:id="@id/extd_install_cancel"
+        android:layout_width="180.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ui_24_dp"
+        android:text="@string/extd_install_cancel"
+        style="@style/Widget.Emui.HwButton" />
+</LinearLayout>

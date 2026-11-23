@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/substance_head_land_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.agoverseascard.agoverseascard.widget.SubstanceHeadLandImageView
+        android:id="@id/substance_land_image_view"
+        android:tag="css/.body"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title_container_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/land_title_margin"
+        android:layout_marginBottom="@dimen/land_title_margin"
+        android:layout_below="@id/substance_land_image_view"
+        android:layout_marginStart="@dimen/land_title_margin"
+        android:layout_marginEnd="@dimen/land_title_margin">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:ellipsize="end"
+            android:id="@id/subTitle_id"
+            android:tag="css/.subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:id="@id/title_id"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.MainTitle.InCard" />
+    </LinearLayout>
+</RelativeLayout>

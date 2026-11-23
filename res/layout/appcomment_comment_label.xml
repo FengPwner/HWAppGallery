@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/padding_l"
+    android:paddingEnd="@dimen/padding_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.foundation.ui.framework.widget.MultiLineLabelLayout
+        android:orientation="vertical"
+        android:id="@id/comment_label_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/comment_label_fold_icon_container"
+        android:paddingTop="@dimen/padding_m"
+        android:paddingBottom="@dimen/padding_m"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_l"
+        android:paddingEnd="@dimen/padding_l">
+        <com.huawei.appgallery.appcomment.ui.view.ArrowImageView
+            android:id="@id/comment_label_fold_icon"
+            android:tag="css/.arrow"
+            android:background="@drawable/ic_public_arrow_down_900"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/app_comment_card_open" />
+    </RelativeLayout>
+</LinearLayout>

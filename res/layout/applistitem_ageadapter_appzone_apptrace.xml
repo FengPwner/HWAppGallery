@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/AppListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/cardLayout"
+            android:background="@drawable/list_item_all_selector"
+            android:clickable="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+            android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+            android:paddingStart="@dimen/appgallery_max_padding_start"
+            android:paddingEnd="@dimen/appgallery_max_padding_end">
+            <RelativeLayout
+                android:id="@id/appzone_trace_detail"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/appgallery_card_height_three_text_lines">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/icon_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true">
+                    <ImageView
+                        android:id="@id/appicon"
+                        android:layout_width="@dimen/appgallery_card_icon_size_large"
+                        android:layout_height="@dimen/appgallery_card_icon_size_large"
+                        android:src="@color/transparent"
+                        android:scaleType="fitCenter" />
+                    <ViewStub
+                        android:layout_gravity="center"
+                        android:id="@id/horizon_line"
+                        android:layout="@layout/aguikit_horizontal_line_layout"
+                        android:layout_width="@dimen/ui_40_dp"
+                        android:layout_height="1.5dip"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_below="@id/localpackage_item_icon_view" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:id="@id/content_layout"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+                    android:layout_below="@id/icon_linear"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:ellipsize="end"
+                        android:id="@id/ItemTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_alignParentTop="true"
+                        android:textAlignment="viewStart"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/appzone_trace"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                        android:layout_below="@id/ItemTitle">
+                        <TextView
+                            android:id="@id/appzone_trace_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                        <TextView
+                            android:id="@id/appzone_trace_price"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/appzone_trace">
+                        <com.huawei.appmarket.framework.widget.NoAdaptRenderImageView
+                            android:id="@id/not_adapt_icon"
+                            android:tag="css/.title"
+                            android:visibility="gone"
+                            android:layout_width="18.0dip"
+                            android:layout_height="@dimen/ui_14_dp"
+                            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs"
+                            android:scaleType="fitCenter"
+                            android:paddingEnd="@dimen/padding_s" />
+                        <TextView
+                            android:id="@id/appzone_trace_size_downloadsize"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                        <TextView
+                            android:id="@id/appzone_trace_soft_type"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                            android:singleLine="true"
+                            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+                    android:id="@id/downbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_default_card_space_vertical"
+                    android:layout_below="@id/content_layout"
+                    style="@style/AppGallery.Widget.DownloadButton.Normal" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@id/devider_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

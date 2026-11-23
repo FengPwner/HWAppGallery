@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/infoflow_openvideo_layout_0"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/emui_dimens_element_vertical_large"
+        app:clip_background="true"
+        app:round_corner="@dimen/emui_corner_radius_mediums">
+        <com.huawei.appgallery.videokit.api.WiseVideoView
+            android:id="@id/video_player"
+            android:tag="@string/properties_video_contentDescription"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:media_type="0"
+            app:view_type="0" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/emui_dimens_element_vertical_middle"
+        android:layout_marginBottom="@dimen/emui_dimens_element_vertical_large">
+        <com.huawei.appmarket.framework.widget.PromotionSignTextView
+            android:layout_gravity="center_vertical"
+            android:id="@id/promotion_sign"
+            android:tag="css/.title"
+            android:background="@drawable/promotion_sign_bg_normal"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+            style="@style/promotion_sign_style" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/video_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+    </LinearLayout>
+</LinearLayout>

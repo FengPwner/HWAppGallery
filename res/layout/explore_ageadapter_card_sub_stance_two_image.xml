@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/aguikit_round_rectangle_bg"
+    android:importantForAccessibility="yes"
+    app:round_corner="@dimen/appgallery_default_corner_radius_l"
+    app:stroke_width="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/iv_explore_sub_stance_two_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/appgallery_color_card_panel_bg"
+        android:paddingBottom="@dimen/appgallery_default_card_space_vertical_l"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/iv_explore_sub_stance_two_image"
+        android:paddingStart="@dimen/appgallery_default_card_space_vertical_l"
+        android:paddingEnd="@dimen/appgallery_default_card_space_vertical_l">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_caption"
+            android:textColor="@color/explore_card_title_tag_text"
+            android:ellipsize="end"
+            android:id="@id/explore_sub_stance_two_image_tag_big_font"
+            android:background="@drawable/explore_card_small_image_tag_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            android:paddingStart="4.0dip"
+            android:paddingEnd="4.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/explore_sub_stance_two_image_title_big_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+        <LinearLayout
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:textColor="@color/appgallery_text_color_tertiary"
+                android:ellipsize="end"
+                android:id="@id/explore_sub_stance_two_image_kind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+            <View
+                android:id="@id/explore_sub_stance_two_image_split"
+                style="@style/explore_countdown_divider_style" />
+            <com.huawei.appgallery.explorecard.explorecard.widget.ExploreCardCountDownView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:textColor="@color/appgallery_text_color_tertiary"
+                android:id="@id/explore_sub_stance_two_image_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+        </LinearLayout>
+    </LinearLayout>
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

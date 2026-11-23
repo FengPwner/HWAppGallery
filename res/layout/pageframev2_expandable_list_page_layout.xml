@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.SimpleExpandScrollLayout
+        android:id="@id/pageframev2_expandable_scroll_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:id="@id/pageframev2_filter_data_expand_viewstub"
+            android:layout="@layout/hiappbase_filter_data_expand_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/appgallery_list_height_single_text_line" />
+        <com.huawei.appgallery.pageframe.view.PullUpListViewV2
+            android:id="@id/applistview"
+            android:tag="css/.body"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="true"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            app:hwCutoutMode="never" />
+    </com.huawei.appmarket.framework.widget.SimpleExpandScrollLayout>
+</FrameLayout>

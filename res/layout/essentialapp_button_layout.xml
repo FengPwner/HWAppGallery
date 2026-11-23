@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwColumnType="content_type">
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/essentialapp_black"
+            android:id="@id/openWlanUpdateBtn"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18.0dip"
+            android:checked="true"
+            style="@style/Widget.Emui.HwCheckBox.Normal" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:baselineAligned="false"
+        app:hwColumnType="content_type">
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:id="@id/enter_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/essentialapp_not_install"
+            android:layout_weight="1.0"
+            android:textAllCaps="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/Widget.Emui.HwButton" />
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:id="@id/install_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/card_install_btn"
+            android:layout_weight="1.0"
+            android:textAllCaps="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/Widget.Emui.HwButton.Emphasize" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+</LinearLayout>

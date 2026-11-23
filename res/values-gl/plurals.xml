@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Atopáronse %2$d aplicacións sospeitosas (incluída %1$s)</item>
+        <item quantity="one">Atopouse %2$d aplicación sospeitosa (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Atopáronse %2$d aplicacións sen uso (incluída %1$s)</item>
+        <item quantity="one">Atopouse %2$d aplicación sen uso (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d aplicacións non usadas</item>
+        <item quantity="one">%d aplicación non usada</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Corrixíronse %d aplicacións con actividade maliciosa</item>
+        <item quantity="one">Corrixiuse %d aplicación con actividade maliciosa</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Detectáronse %d aplicacións con actividade maliciosa</item>
+        <item quantity="one">Detectouse %d aplicación con actividade maliciosa</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Corrixíronse %d aplicacións fraudulentas</item>
+        <item quantity="one">Corrixiuse %d aplicación fraudulenta</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Detectáronse %d aplicacións fraudulentas</item>
+        <item quantity="one">Detectouse %d aplicación fraudulenta</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Corrixíronse %d aplicacións con risco para a privacidade</item>
+        <item quantity="one">Corrixiuse %d aplicación con risco para a privacidade</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Detectáronse %d aplicacións con risco para a privacidade</item>
+        <item quantity="one">Detectouse %d aplicación con risco para a privacidade</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Corrixíronse %d aplicacións con ameazas para a seguranza</item>
+        <item quantity="one">Corrixiuse %d aplicación con ameazas para a seguranza</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Detectáronse %d aplicacións con ameazas para a seguranza</item>
+        <item quantity="one">Detectouse %d aplicación con ameazas para a seguranza</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Corrixíronse %d aplicacións con virus</item>
+        <item quantity="one">Corrixiuse %d aplicación con virus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Detectáronse %d aplicacións con virus</item>
+        <item quantity="one">Detectouse %d aplicación con virus</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d elementos optimizados</item>
+        <item quantity="one">%d elemento optimizado</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d problemas detectados</item>
+        <item quantity="one">%d problema detectado</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d aplicacións analizadas</item>
+        <item quantity="one">%d aplicación analizada</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Hai %d días</item>
+        <item quantity="one">Hai %d día</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ameazas</item>
+        <item quantity="one">%d ameaza</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d aplicacións analizadas</item>
+        <item quantity="one">%d aplicación analizada</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d ameazas en aplicacións</item>
+        <item quantity="one">%d ameaza en aplicacións</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d aplicacións sospeitosas atopadas nos últimos %1$d días. Ver detalles >></item>
+        <item quantity="one">%2$d aplicación sospeitosas atopadas nos últimos %1$d días. Ver detalles >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d aplicacións analizadas nos últimos %1$d días. Ver detalles >></item>
+        <item quantity="one">%2$d aplicación analizada nos últimos %1$d días. Ver detalles >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Pódense comprimir %d aplicacións</item>
+        <item quantity="one">Pódese comprimir %d aplicación</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Detectáronse %d aplicacións descoñecidas.</item>
+        <item quantity="one">Detectouse %d aplicación descoñecida.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Aplicacións que se poden comprimir (%d)</item>
+        <item quantity="one">Aplicacións que se poden comprimir (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Atopáronse %d aplicacións descoñecidas. Compróbeas.</item>
+        <item quantity="one">Atopouse %d aplicación descoñecida. Compróbea.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Atopáronse %d aplicacións descoñecidas</item>
+        <item quantity="one">Atopouse %d aplicación descoñecida</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">hai %d min</item>
+        <item quantity="one">hai %d min</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Clasificación: %s</item>
+        <item quantity="one">Clasificación: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s inclúe contido restrinxido por idade. Ao tocar %3$s e descargar esta aplicación, confirma que ten máis de %2$d anos.</item>
+        <item quantity="one">%1$s inclúe contido con límite de idade. Ao tocar %3$s e descargar esta aplicación, confirma que ten máis de %2$d ano.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Descargas en pausa: %1$d</item>
+        <item quantity="one">Descargas en pausa: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s inclúe contido restrinxido por idade. Ao tocar %3$s e usar esta aplicación, confirma que ten máis de %2$d anos.</item>
+        <item quantity="one">%1$s inclúe contido con límite de idade. Ao tocar %3$s e usar esta aplicación, confirma que ten máis de %2$d ano.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d Non me gusta</item>
+        <item quantity="one">%d Non me gusta</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d Non me gusta, isto non lle gusta</item>
+        <item quantity="one">%d Non me gusta, isto non lle gusta</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d Gústame</item>
+        <item quantity="one">%d Gústame</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d Gústame, isto gústalle</item>
+        <item quantity="one">%d Gústame, isto gústalle</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d estrelas</item>
+        <item quantity="one">%d estrela</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d comentarios</item>
+        <item quantity="one">%1$d comentario</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Hai %d minutos</item>
+        <item quantity="one">Hai %d minuto</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d clasificacións</item>
+        <item quantity="one">%d clasificación</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d Gústame</item>
+        <item quantity="one">%1$d Gústame</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d respostas</item>
+        <item quantity="one">%1$d resposta</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Todas as respostas (%1$d)</item>
+        <item quantity="one">Todas as respostas (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Debe xogar polo menos %1$d minutos para comentar.</item>
+        <item quantity="one">Debe xogar polo menos %1$d minuto para comentar.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Estanse instalando %1$s aplicacións</item>
+        <item quantity="one">Estase instalando %1$s aplicación</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d elementos seleccionados</item>
+        <item quantity="one">%1$d elemento seleccionado</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Desinstalar a app seleccionada, incluíndo %1$s?</item>
+        <item quantity="one">Desinstalar %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Desinstalar %1$s e %2$s apps máis de %3$s?</item>
+        <item quantity="one">Desinstalar %1$s e %2$s app máis de %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Desinstalar %2$s aplicacións, incluída %1$s?</item>
+        <item quantity="one">Desinstalar %2$s aplicación, como %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Eliminar %1$s rexistros?</item>
+        <item quantity="one">Eliminar %1$s rexistro?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">As seguintes %1$d apps requiren acceso a algúns permisos:</item>
+        <item quantity="one">A seguinte %1$d app require acceso a algúns permisos:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d clasificacións</item>
+        <item quantity="one">%1$d clasificación</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s mill. de clasificacións</item>
+        <item quantity="one">%1$s mill. de clasificacións</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s mil clasificacións</item>
+        <item quantity="one">%1$s mil clasificacións</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s actividades</item>
+        <item quantity="one">%1$s actividade</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Quedan menos de %1$s minutos de xogo. Garde o xogo o antes posible.</item>
+        <item quantity="one">Queda menos de %1$s minuto de xogo. Garde a partida o antes posible.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Só quedan %d minutos.</item>
+        <item quantity="one">Só queda %d minuto.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d comentarios</item>
+        <item quantity="one">%1$d comentario</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Hai %d min.</item>
+        <item quantity="one">Hai %d min.</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">%1$d caracteres como máximo</item>
+        <item quantity="one">%1$d carácter como máximo</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Insira polo menos %1$d caracteres</item>
+        <item quantity="one">Insira polo menos %1$d carácter</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Ata %1$d imaxes de
+%2$s como máximo cada unha"</item>
+        <item quantity="one">"%1$d imaxe
+de %2$s como máximo"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">%d imaxes como máximo para este tipo de problema</item>
+        <item quantity="one">%d imaxe como máximo para este tipo de problema</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s estrelas</item>
+        <item quantity="one">%1$s estrela</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">O contrasinal inseriuse incorrectamente %1$d veces. Ténteo de novo en %2$d min.</item>
+        <item quantity="one">O contrasinal inseriuse incorrectamente %1$d veces. Ténteo de novo en %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s mil mill. de persoas participaron</item>
+        <item quantity="one">%1$s mil mill. de persoas participaron</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s mill. de persoas participaron</item>
+        <item quantity="one">%1$s mill. de persoas participaron</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s persoas participaron</item>
+        <item quantity="one">%1$s persoa participou</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s mil persoas participaron</item>
+        <item quantity="one">%1$s mil persoas participaron</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s mil mill. de persoas compraron isto</item>
+        <item quantity="one">%1$s mil mill. de persoas compraron isto</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s mill. de persoas compraron isto</item>
+        <item quantity="one">%1$s mill. de persoas compraron isto</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s persoas compraron isto</item>
+        <item quantity="one">%1$s persoa comprou isto</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s mil persoas compraron isto</item>
+        <item quantity="one">%1$s mil persoas compraron isto</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s valoracións</item>
+        <item quantity="one">%1$s valoración</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Valoración: %1$s estrelas</item>
+        <item quantity="one">Valoración: %1$s estrela</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Valoración: %1$s estrelas</item>
+        <item quantity="one">Valoración: %1$s estrela</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Instalar igualmente (%1$d)</item>
+        <item quantity="one">Instalar igualmente (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d elementos seleccionados</item>
+        <item quantity="one">%1$d elemento seleccionado</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">A descrición debe ter %d caracteres como mínimo. Engada capturas de pantalla se é posible.</item>
+        <item quantity="one">A descrición debe ter %d carácter como mínimo. Engada capturas de pantalla se é posible.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d horas</item>
+        <item quantity="one">%1$d hora</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minutos</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d segundos</item>
+        <item quantity="one">%1$d segundo</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Publicacións: %1$s</item>
+        <item quantity="one">Publicacións: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d Gústame</item>
+        <item quantity="one">%d Gústame</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d respostas</item>
+        <item quantity="one">%d resposta</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d vistas</item>
+        <item quantity="one">%d vista</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Deixar un comentario (%1$d en total)</item>
+        <item quantity="one">Deixar un comentario (%1$d en total)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Ver as %1$d respostas</item>
+        <item quantity="one">Ver %1$d resposta</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s participantes</item>
+        <item quantity="one">%1$s participante</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Seleccionar un máximo de %s respostas</item>
+        <item quantity="one">Seleccionar un máximo de %s resposta</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Opción múltiple (seleccione %1$d)</item>
+        <item quantity="one">Opción múltiple (seleccione %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Seleccionar %s respostas</item>
+        <item quantity="one">Seleccionar %s resposta</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s votos</item>
+        <item quantity="one">%1$s voto</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Esta aplicación require %1$d permisos. Pode revogalos en calquera momento en Configuración > Aplicacións > Aplicacións.</item>
+        <item quantity="one">Esta aplicación require %1$d permiso. Pode revogalo en calquera momento en Configuración > Aplicacións > Aplicacións.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Esta aplicación require %1$d permisos. Pode revogalos en calquera momento en Configuración > Aplicacións e servizos > Aplicacións.</item>
+        <item quantity="one">Esta aplicación require %1$d permiso. Pode revogalo en calquera momento en Configuración > Aplicacións e servizos > Aplicacións.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d agasallos</item>
+        <item quantity="one">%1$d agasallo</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d mil</item>
+        <item quantity="one">%1$d mil</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d estrelas</item>
+        <item quantity="one">%1$d estrela</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Clasificación: %s</item>
+        <item quantity="one">Clasificación: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s valoracións</item>
+        <item quantity="one">%1$s valoración</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">Abriuse %1$s veces</item>
+        <item quantity="one">Abriuse %1$s vez</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d recomendacións novas</item>
+        <item quantity="one">%d recomendación nova</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Actualizáronse %1$d aplicacións</item>
+        <item quantity="one">Actualizouse %1$d aplicación</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Estanse a actualizar %1$d aplicacións</item>
+        <item quantity="one">Estase a actualizar %1$d aplicación</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">A imaxe non pode ter máis de %1$d MB.</item>
+        <item quantity="one">A imaxe non pode ter máis de %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d fotos</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d seleccionadas</item>
+        <item quantity="one">%1$d/%2$d seleccionadas</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d vídeos</item>
+        <item quantity="one">%d vídeo</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d vantaxes</item>
+        <item quantity="one">%d vantaxe</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacións novas</item>
+        <item quantity="one">%d notificación nova</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Eliminar todas as instalacións pausadas (%1$s apps, espazo liberado %2$s)</item>
+        <item quantity="one">Eliminar todas as instalacións pausadas (%1$s app, espazo liberado %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d seleccionadas)"</item>
+        <item quantity="one">" 
+(%1$d seleccionada)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Páxina %1$d</item>
+        <item quantity="one">Páxina %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s instalacións en pausa.</item>
+        <item quantity="one">%1$s instalación en pausa.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Hai %d min.</item>
+        <item quantity="one">Hai %d min.</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d extra</item>
+        <item quantity="one">%1$d extra</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s descargas</item>
+        <item quantity="one">%1$s descarga</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Valoración: %1$s estrelas</item>
+        <item quantity="one">Valoración: %1$s estrela</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Completouse a instalación de %1$s apps programadas</item>
+        <item quantity="one">Completouse a instalación de %1$s app programada</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Comezará a descarga de %1$d aplicacións cando se conecte á Wi-Fi.</item>
+        <item quantity="one">Comezará a descarga de %1$d aplicación cando se conecte á Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s reservados)</item>
+        <item quantity="one">(%1$s reservado)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d millóns de reservas)</item>
+        <item quantity="one">(1 millón de reservas)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d mil reservas)</item>
+        <item quantity="one">(mil reservas)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Instalar todas as %1$s apps?</item>
+        <item quantity="one">Instalar %1$s app?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s instalacións en curso.</item>
+        <item quantity="one">%1$s instalación en curso.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">de %1$d</item>
+        <item quantity="one">de %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Buscar en %d aplicacións locais</item>
+        <item quantity="one">Buscar en %d aplicación local</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Restaurar %d apps na lista de actualizacións e permitir que se actualicen.</item>
+        <item quantity="one">Restaurar %d app na lista de actualizacións e permitir que se actualice.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Hai %1$s actualizacións de aplicacións dispoñibles</item>
+        <item quantity="one">Hai %1$s actualización de aplicación dispoñible</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s actualiz. de apps recomendadas. Total: %2$s.</item>
+        <item quantity="one">%1$s actualiz. de apps recomendada. Tamaño: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d actualizacións de aplicacións dispoñibles. Tamaño: %2$s.</item>
+        <item quantity="one">%1$d actualización de aplicación dispoñible. Tamaño: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Sen usar desde hai %d días</item>
+        <item quantity="one">Sen usar desde hai %d día</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Borrar %d tarefas e os ficheiros descargados?</item>
+        <item quantity="one">Borrar %d tarefa e o ficheiro descargado?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Serie de %d días consecutivos entrando</item>
+        <item quantity="one">Serie de %d día entrando</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Día %d</item>
+        <item quantity="one">Día %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d aplicacións descargadas</item>
+        <item quantity="one">%1$d aplicación descargada</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Clasificación: %s</item>
+        <item quantity="one">Clasificación: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">hai %d min</item>
+        <item quantity="one">hai %d min</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplicacións, incluída %1$s</item>
+        <item quantity="one">%2$d aplicación (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Icona distintiva vermella, %1$s notificacións sen ler</item>
+        <item quantity="one">Icona distintiva vermella, %1$s notificación sen ler</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d ofertas</item>
+        <item quantity="one">%d oferta</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d agasallos da comunidade</item>
+        <item quantity="one">%d agasallo da comunidade</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d agasallos</item>
+        <item quantity="one">%d agasallo</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d persoas na súa rexión queren isto</item>
+        <item quantity="one">%d persoa na súa rexión quere isto</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d elementos seleccionados</item>
+        <item quantity="one">%1$d elemento seleccionado</item>
+    </plurals>
+</resources>

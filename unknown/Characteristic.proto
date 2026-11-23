@@ -1,0 +1,57 @@
+/*
+ * Copyright (c) Huawei Technologies Co., Ltd. 2015-2025. All rights reserved.
+ */
+
+syntax = "proto3";
+
+package protocol;
+
+option java_package = "com.huawei.appgallery.systeminstalldistservice.proto";
+option java_outer_classname = "CharacteristicProto";
+
+message Characteristic {
+    AppBasicInfo basic = 1;
+    DeviceInfo dev = 2;
+    repeated CertInfo cert = 3;
+    AXmlInfo axml = 4;
+    ResourceDirStructs resDir = 5;
+    repeated SoInfo so = 6;
+    repeated string zhStringXmls = 7;
+}
+
+message AppBasicInfo {
+    uint64 fileSize = 1;
+    string iconSha256 = 2;
+    string iconPHash = 3;
+}
+
+message DeviceInfo {
+    string romVer = 1;
+}
+
+message CertInfo {
+    string subject = 1;
+}
+
+message AXmlInfo {
+    repeated string permissions = 1;
+    repeated string treeStructs = 2;
+    repeated Service services = 3;
+    uint32 aidCnt = 4;
+}
+
+message Service {
+    string name = 1;
+    string permission = 2;
+}
+
+message ResourceDirStructs {
+    string depthType = 1;
+    string depthBranch = 2;
+}
+
+message SoInfo {
+    string name = 1;
+    uint64 size = 2;
+    int32 matchNum = 3;
+}

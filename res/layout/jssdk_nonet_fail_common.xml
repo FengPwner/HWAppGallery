@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/nonetLayout"
+    android:paddingLeft="@dimen/jssdk_activity_horizontal_margin"
+    android:paddingRight="@dimen/jssdk_activity_horizontal_margin"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/jssdk_activity_horizontal_margin"
+    android:paddingEnd="@dimen/jssdk_activity_horizontal_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@id/setNetBtn"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:text="@string/jssdk_no_net_event_info"
+        android:layout_alignParentBottom="true" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/lay_nonet_fail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/setNetBtn">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/m_sv_nonet_fail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip">
+            <ImageView
+                android:id="@id/ic_connect_error"
+                android:layout_width="72.0dip"
+                android:layout_height="72.0dip"
+                android:src="@drawable/jssdk_ic_wifi" />
+            <TextView
+                android:textSize="13.0sp"
+                android:textColor="@color/js_black"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jssdk_no_network_connection_prompt"
+                android:alpha="0.6" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

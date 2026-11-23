@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/game_gift_icon"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="@dimen/appgallery_card_icon_size_large"
+        android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:src="@drawable/bg_perch_icon"
+        android:scaleType="fitCenter" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/game_gift_name_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:layout_below="@id/game_gift_icon">
+        <ImageView
+            android:id="@id/arrow_img"
+            android:layout_width="12.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/wisejoint_buoy_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textColor="@color/buoy_emui_primary"
+            android:ellipsize="end"
+            android:id="@id/game_gift_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:textAlignment="viewStart"
+            android:layout_toStartOf="@id/arrow_img"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+    </RelativeLayout>
+    <TextView
+        android:textColor="@color/buoy_emui_color_gray_7"
+        android:ellipsize="end"
+        android:id="@id/game_gift_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:maxLines="1"
+        android:layout_below="@id/game_gift_name_layout"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <View
+        android:id="@id/devider_line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/game_gift_count"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

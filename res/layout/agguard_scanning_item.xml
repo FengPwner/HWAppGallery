@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48.0dip"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/agguard_item_result">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/agguard_item_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/agguard_item_tip"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/AppGallery.TextAppearance.Card.SubTitle2" />
+        <ImageView
+            android:id="@id/agguard_item_tip"
+            android:background="@drawable/agguard_tip_icon"
+            android:visibility="gone"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:contentDescription="@string/agguard_one_click_control_more_info"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_m"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/agguard_item_score"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/agguard_item_name_view"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="10.0dip"
+            android:textColor="@color/appgallery_emui_color_9"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/agguard_item_score"
+            android:background="@drawable/aguikit_card_tips_bg"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textDirection="locale"
+            android:paddingStart="8.0dip"
+            android:paddingEnd="8.0dip"
+            android:layout_marginStart="8.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/agguard_item_tip"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@id/agguard_item_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/agguard_item_checkbox"
+            android:visibility="gone"
+            android:clickable="false"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12.0dip"
+            style="@style/Widget.Emui.HwCheckBox.Small" />
+        <FrameLayout
+            android:id="@id/agguard_item_arrow_layout"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="32.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12.0dip">
+            <com.huawei.appgallery.agguard.business.ui.view.ArrowImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/agguard_item_arrow"
+                android:tag="css/.arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView
+            android:id="@id/agguard_item_scan_status"
+            android:visibility="gone"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12.0dip" />
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:id="@id/agguard_item_progress_bar"
+            android:visibility="visible"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

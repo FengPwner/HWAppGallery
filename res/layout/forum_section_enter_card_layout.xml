@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/enter_subheader_layout"
+        android:layout="@layout/forum_enter_subheader_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/ageadapter_enter_subheader_layout"
+        android:layout="@layout/forum_ageadapter_enter_subheader_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@id/forum_section_enter_divider"
+        android:background="@color/appgallery_color_subheader_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin_m" />
+</LinearLayout>

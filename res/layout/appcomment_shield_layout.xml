@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/appcomment_status_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/limit_icon"
+        android:layout_width="@dimen/appcomment_16_dp"
+        android:layout_height="@dimen/appcomment_16_dp"
+        android:src="@drawable/aguikit_ic_public_error"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_vertical" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/appcomment_reply_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appcomment_reply_shield"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+</LinearLayout>

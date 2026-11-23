@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textSize="@dimen/appgallery_text_size_body2"
+    android:textColor="@color/appgallery_text_color_secondary"
+    android:ellipsize="end"
+    android:background="@drawable/list_item_normal_selector"
+    android:paddingBottom="@dimen/appgallery_text_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:lineSpacingMultiplier="1.1"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

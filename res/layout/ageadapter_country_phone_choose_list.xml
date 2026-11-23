@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/selected_country_area"
+            android:visibility="gone"
+            layout="@layout/cloudsetting_ageadapter_choose_country_include_item" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/selected_country_cell_line"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/hwsubheader_spliter" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@id/country_code_list"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@color/transparent"
+            android:divider="@null" />
+        <com.huawei.uikit.phone.hwalphaindexerlistview.widget.HwAlphaIndexerListView
+            android:id="@id/choose_country_search_bar"
+            android:layout_width="24.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.Emui.HwAlphaIndexerListView" />
+        <RelativeLayout
+            android:id="@id/country_phone_list_fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tooltype="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/titlelayout"
+        layout="@layout/wishlist_wish_batch_delete_title" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/wishlist_linearlayout_no_wish"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/wishlist_button_wish_submit"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@id/wishlist_imageview_wish_icon"
+            android:background="@drawable/wishbase_empty_wish_nor"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:id="@id/wishlist_textview_wishlist_nodata_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:text="@string/wishlist_string_no_wish_list"
+            style="@style/AppGallery.TextAppearance.NoData" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/app_install_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titlelayout">
+        <include
+            android:id="@id/loadingPager"
+            android:visibility="gone"
+            layout="@layout/loading_fragment" />
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/btnlayout"
+            android:background="@color/emui_color_gray_1"
+            android:addStatesFromChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/toolbar_height"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                    android:gravity="center"
+                    android:id="@id/btn_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tooltype:tooltype="delete" />
+                <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                    android:gravity="center"
+                    android:id="@id/btn_unselectall_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_s"
+                    tooltype:tooltype="unselectall" />
+                <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                    android:gravity="center"
+                    android:id="@id/btn_selectall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_s"
+                    tooltype:tooltype="selectall" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/fragment_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/btnlayout">
+            <ListView
+                android:id="@id/wishlist_listview_wish_delete"
+                android:paddingTop="@dimen/margin_m"
+                android:paddingBottom="@dimen/margin_l"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:listSelector="@drawable/transparent"
+                android:divider="@null"
+                android:paddingStart="@dimen/appgallery_max_padding_start"
+                android:paddingEnd="@dimen/appgallery_max_padding_end" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

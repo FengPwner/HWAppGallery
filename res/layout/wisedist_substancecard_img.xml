@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+        android:id="@id/substanceimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:shade_enable="false" />
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/cardwithtext"
+        android:background="@color/emui_color_gray_1"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        app:clip_background="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_l">
+        <ImageView
+            android:id="@id/substanceimgwithtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no" />
+        <TextView
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:id="@id/imagetext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_12_dp"
+            android:layout_marginBottom="@dimen/ui_12_dp"
+            android:maxLines="1"
+            android:layout_below="@id/substanceimgwithtext"
+            android:layout_marginStart="@dimen/appgallery_text_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_text_margin_horizontal"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</FrameLayout>

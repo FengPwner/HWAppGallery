@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="start|center|top"
+    android:id="@id/video_play_layout"
+    android:background="@drawable/splashscreen_btn_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="@dimen/splashscreen_video_play_layout_width"
+    android:layout_height="24.0dip"
+    android:layout_marginTop="@dimen/splashscreen_screen_margin_top"
+    android:layout_marginStart="@dimen/splashscreen_screen_margin_start"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/splashscreen_video_mute"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/aguikit_ic_public_sound_off" />
+</LinearLayout>

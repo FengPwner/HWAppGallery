@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@id/maskingLayerView"
+    android:layout_width="72.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/app_icon"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:src="@drawable/transparent"
+        android:scaleType="centerCrop" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@color/emui_color_fg"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:maxWidth="75.0dip"
+        android:maxLines="@integer/hwbutton_single_line"
+        style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/down_btn"
+        android:layout_width="52.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginTop="@dimen/wisedist_banner_download_card_mask_margin_top"
+        wapbutton:isResDispEnlarge="true"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</LinearLayout>

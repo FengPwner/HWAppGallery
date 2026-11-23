@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1"/>
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+  <title>易盾验证码</title>
+  <style>
+    * {
+      margin: 0;
+    }
+    body {
+      overflow: hidden;
+      -webkit-transform: translate3d(0, 0, 0);
+    }
+    .captcha {
+      padding: 5px;
+    }
+    .log {
+      font-size: 10px;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    .yidun_popup {
+      position: relative !important;
+    }
+    .yidun_popup .yidun_modal {
+      top: 0 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="captcha__wrapper">
+    <div class="captcha" id="captcha"></div>
+    <div class="log" id="debug"></div>
+  </div>
+  <!-- <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script> -->
+<script type="text/javascript">/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+
+
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+	__webpack_require__(2);
+	__webpack_require__(4);
+	__webpack_require__(3);
+	var initHuaweiCaptchaWithFallback = __webpack_require__(1);
+
+	var debugEl = document.getElementById('debug');
+	var captchaEl = document.getElementById('captcha');
+	var FLOAT_MODE = 'float';
+	var POPUP_MODE = 'popup';
+
+	// hack for webpack
+	window.log = log;
+
+	function log(str) {
+	  if (!debugMode) return;
+	  var p = document.createElement('p');
+	  p.appendChild(document.createTextNode(str));
+	  debugEl.insertBefore(p, debugEl.firstChild);
+	}
+
+	function getArgs() {
+	  var args = {};
+	  var url = location.href;
+	  if (url.indexOf('?') === -1) return args;
+
+	  var items = url.split('?')[1].split('&');
+	  for (var i = 0, l = items.length; i < l; i++) {
+	    var splits = items[i].split('=');
+	    var key = '';
+	    var value = '';
+	    if (window.decodeURIComponent) {
+	      key = window.decodeURIComponent(splits[0]);
+	      value = window.decodeURIComponent(splits[1]);
+	    } else {
+	      key = splits[0];
+	      value = splits[1];
+	    }
+
+	    // 当前只处理第一级的数组格式
+	    if (value.indexOf(',') > -1) {
+	      value = value.split(',');
+	    }
+	    combineArg(args, key, value);
+	  }
+
+	  function combineArg(obj, key, value) {
+	    var index = key.indexOf('.');
+
+	    if (index > -1) {
+	      var curKey = key.slice(0, index);
+	      !obj[curKey] && (obj[curKey] = {});
+	      combineArg(obj[curKey], key.slice(index + 1), value);
+	    } else {
+	      obj[key] = value;
+	    }
+	  }
+	  return args;
+	}
+
+	function postMessageBridge(event, data) {
+	  // data 只是是字符串数组
+	  var androidBridge = window.JSInterface;
+	  var iOSBridge = window.webkit && window.webkit.messageHandlers;
+	  var globalBridge = window[event];
+
+	  if (androidBridge) {
+	    data ? androidBridge[event].apply(androidBridge, data) : androidBridge[event]();
+	  } else if (iOSBridge) {
+	    iOSBridge[event].postMessage(data || null);
+	  } else if (globalBridge) {
+	    globalBridge.apply(window, data);
+	  } else {
+	    log(event + ' not defined');
+	  }
+	}
+
+	function mergeOptionsDeep(defaultOptions, navtiveOptions) {
+	  var RUN_ENV = {
+	    WEB: 10,
+	    ANDROID: 20,
+	    IOS: 30
+	  };
+
+	  var _navtiveOptions$os = navtiveOptions.os,
+	      os = _navtiveOptions$os === undefined ? '' : _navtiveOptions$os,
+	      _navtiveOptions$mobil = navtiveOptions.mobileTimeout,
+	      mobileTimeout = _navtiveOptions$mobil === undefined ? 10000 : _navtiveOptions$mobil,
+	      _navtiveOptions$defau = navtiveOptions.defaultFallback,
+	      defaultFallback = _navtiveOptions$defau === undefined ? true : _navtiveOptions$defau,
+	      _navtiveOptions$error = navtiveOptions.errorFallbackCount,
+	      errorFallbackCount = _navtiveOptions$error === undefined ? 3 : _navtiveOptions$error,
+	      restOptions = _objectWithoutProperties(navtiveOptions, ['os', 'mobileTimeout', 'defaultFallback', 'errorFallbackCount']);
+
+	  return Object.assign(defaultOptions, _extends({}, restOptions, {
+	    runEnv: RUN_ENV[os.toUpperCase()],
+	    feedbackEnable: false,
+	    defaultFallback: defaultFallback !== 'false',
+	    errorFallbackCount: parseInt(errorFallbackCount),
+	    os: os,
+	    mobileTimeout: parseInt(mobileTimeout)
+	  }));
+	}
+
+	var captchaIns = null;
+	var defaultOptions = {
+	  element: captchaEl,
+	  mode: POPUP_MODE,
+	  isCloseable: false,
+	  width: 330,
+	  feedbackEnable: false,
+	  runEnv: '',
+	  defaultFallback: true,
+	  onReady: function onReady(visible) {
+	    log('onReady');
+	    postMessageBridge('onReady', ['' + !!visible]);
+	  }
+	};
+	var navtiveOptions = getArgs();
+	var options = mergeOptionsDeep(defaultOptions, navtiveOptions);
+	var CLIENT_ENV = ['iOS', 'android'];
+	var debugMode = navtiveOptions.debug === 'true';
+
+	if (options.mode === FLOAT_MODE || options.mode === POPUP_MODE && CLIENT_ENV.indexOf(options.os) > -1) {
+	  captchaEl.style.padding = 0;
+	} else {
+	  if (options.width !== 'auto') options.width = options.width - 10;
+	}
+
+	if (debugMode) {
+	  log('window.screen.width = ' + window.screen.width);
+	  log('body.width = ' + document.body.offsetWidth);
+	  log('captchaEl.width = ' + captchaEl.offsetWidth);
+	  log('args.width = ' + navtiveOptions.width);
+	  log('opts.width = ' + options.width);
+	  for (var k in navtiveOptions) {
+	    log(k + '=' + navtiveOptions[k]);
+	  }
+	}
+
+	initHuaweiCaptchaWithFallback(options, function (ins) {
+	  captchaIns = ins;
+	  if (options.mode === POPUP_MODE) captchaIns.popupShow();
+	}, function (ret, visible) {
+	  postMessageBridge('onVerify', [JSON.stringify(_extends({}, ret, { visible: !!visible }))]);
+	}, function () {}, function (e) {
+	  log(JSON.stringify(e));
+	  postMessageBridge('onError', [JSON.stringify(e)]);
+	});
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+	/* eslint-disable no-undef */
+	(function (global, factory) {
+	  'use strict';
+
+	  if (( false ? 'undefined' : _typeof(module)) === 'object' && _typeof(module.exports) === 'object') {
+	    module.exports = global.document ? factory(global) : function (w) {
+	      if (!w.document) {
+	        throw new Error('initHuaweiCaptchaWithFallback requires a window with a document');
+	      }
+	      return factory(w);
+	    };
+	  } else if (true) {
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+	      return factory(global);
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else {
+	    global.initHuaweiCaptchaWithFallback = factory(global);
+	  }
+	})(typeof window !== 'undefined' ? window : this, function (window) {
+	  'use strict';
+
+	  var errorCallbackCount = 0;
+
+	  // 常量
+	  var DEFAULT_VALIDATE = 'QjGAuvoHrcpuxlbw7cp4WnIbbjzG4rtSlpc7EDovNHQS._ujzPZpeCInSxIT4WunuDDh8dRZYF2GbBGWyHlC6q5uEi9x-TXT9j7J705vSsBXyTar7aqFYyUltKYJ7f4Y2TXm_1Mn6HFkb4M7URQ_rWtpxQ5D6hCgNJYC0HpRE7.2sttqYKLoi7yP1KHzK-PptdHHkVwb77cwS2EJW7Mj_PsOtnPBubTmTZLpnRECJR99dWTVC11xYG0sx8dJNLUxUFxEyzTfX4nSmQz_T5sXATRKHtVAz7nmV0De5unmflfAlUwMGKlCT1khBtewlgN5nHvyxeD8Z1_fPVzi9oznl-sbegj6lKfCWezmLcwft8.4yaVh6SlzXJq-FnSK.euq9OBd5jYc82ge2_hEca1fGU--SkPRzgwkzew4O4qjdS2utdPwFONnhKAIMJRPUmCV4lPHG1OeRDvyNV8sCnuFMw7leasxIhPoycl4pm5bNy70Z1laozEGJgItVNr3'; // 默认validate
+	  var CACHE_MIN = 1000 * 60; // 缓存时长单位，1分钟
+	  var REQUEST_SCRIPT_ERROR = 502;
+
+	  var RESOURCE_CACHE = {};
+
+	  // 工具函数
+	  function loadScript(src, cb) {
+	    var head = document.head || document.getElementsByTagName('head')[0];
+	    var script = document.createElement('script');
+
+	    cb = cb || function () {};
+
+	    script.type = 'text/javascript';
+	    script.charset = 'utf8';
+	    script.async = true;
+	    script.src = src;
+
+	    if (!('onload' in script)) {
+	      script.onreadystatechange = function () {
+	        if (this.readyState !== 'complete' && this.readyState !== 'loaded') return;
+	        this.onreadystatechange = null;
+	        cb(null, script); // there is no way to catch loading errors in IE8
+	      };
+	    }
+
+	    script.onload = function () {
+	      this.onerror = this.onload = null;
+	      cb(null, script);
+	    };
+	    script.onerror = function () {
+	      // because even IE9 works not like others
+	      this.onerror = this.onload = null;
+	      cb(new Error('Failed to load ' + this.src), script);
+	    };
+
+	    head.appendChild(script);
+	  }
+
+	  function joinUrl(protocol, host, path) {
+	    protocol = protocol || '';
+	    host = host || '';
+	    path = path || '';
+	    if (protocol) {
+	      protocol = protocol.replace(/:?\/{0,2}$/, '://');
+	    }
+	    if (host) {
+	      var matched = host.match(/^([-0-9a-zA-Z.:]*)(\/.*)?/);
+	      host = matched[1];
+	      path = (matched[2] || '') + '/' + path;
+	    }
+	    !host && (protocol = '');
+
+	    return protocol + host + path;
+	  }
+
+	  function assert(condition, msg) {
+	    if (!condition) throw new Error('[NECaptcha] ' + msg);
+	  }
+
+	  function isInteger(val) {
+	    if (Number.isInteger) {
+	      return Number.isInteger(val);
+	    }
+	    return typeof val === 'number' && isFinite(val) && Math.floor(val) === val;
+	  }
+
+	  function isArray(val) {
+	    if (Array.isArray) return Array.isArray(val);
+	    return Object.prototype.toString.call(val) === '[object Array]';
+	  }
+
+	  function ObjectAssign() {
+	    if (Object.assign) {
+	      return Object.assign.apply(null, arguments);
+	    }
+
+	    var target = {};
+	    for (var index = 1; index < arguments.length; index++) {
+	      var source = arguments[index];
+	      if (source != null) {
+	        for (var key in source) {
+	          if (Object.prototype.hasOwnProperty.call(source, key)) {
+	            target[key] = source[key];
+	          }
+	        }
+	      }
+	    }
+	    return target;
+	  }
+
+	  function getTimestamp(msec) {
+	    msec = msec && msec !== 0 ? msec : 1;
+	    return parseInt(new Date().valueOf() / msec, 10);
+	  }
+
+	  // 降级方案
+	  function normalizeFallbackConfig(customConfig) {
+	    var defaultConf = {
+	      protocol: 'https',
+	      errorFallbackCount: 3
+	    };
+	    var config = ObjectAssign({}, defaultConf, customConfig);
+
+	    var errorFallbackCount = config.errorFallbackCount;
+	    assert(errorFallbackCount === undefined || isInteger(errorFallbackCount) && errorFallbackCount >= 1, 'errorFallbackCount must be an integer, and it\'s value greater than or equal one');
+
+	    return config;
+	  }
+
+	  function loadResource(config, cb) {
+	    if (window.initHuaweiCaptcha) return cb(null);
+	    function genUrl(server) {
+	      var path = 'captcha.js';
+	      var urls = [];
+	      if (isArray(server)) {
+	        for (var i = 0, len = server.length; i < len; i++) {
+	          urls.push(joinUrl(config.protocol, server[i], path));
+	        }
+	      } else {
+	        var url = joinUrl(config.protocol, server, path);
+	        urls = [url, url];
+	      }
+
+	      return urls;
+	    }
+	    var urls = genUrl(config.jsURL);
+
+	    function step(i) {
+	      var url = urls[i] + '?v=' + getTimestamp(CACHE_MIN);
+	      loadScript(url, function (err) {
+	        if (err || !window.initHuaweiCaptcha) {
+	          // loadjs的全局变量
+	          i = i + 1;
+	          if (i === urls.length) {
+	            return cb(new Error('Failed to load script(' + url + ').' + (err ? err.message : 'unreliable script')));
+	          }
+	          return step(i);
+	        }
+	        return cb(null);
+	      });
+	    }
+	    step(0);
+	  }
+
+	  function initHuaweiCaptchaWithFallback(options, onLoad, onVerify, onClose, onError) {
+	    var config = normalizeFallbackConfig(options);
+	    var defaultFallback = config.defaultFallback !== false;
+	    var storeKey = window.location.pathname + '_' + config.businessId + '_' + config.sceneId + '_NECAPTCHA_ERROR_COUNTS';
+	    var captchaIns = null;
+
+	    try {
+	      errorCallbackCount = parseInt(localStorage.getItem(storeKey) || 0, 10);
+	    } catch (error) {}
+
+	    var fallbackFn = !defaultFallback ? config.onFallback || function () {} : function (validate) {
+	      onVerify && onVerify({
+	        resultCode: 0,
+	        validate: validate,
+	        resultMsg: 'fallback success',
+	        isFallback: true,
+	        challenge: config.challenge,
+	        hcg: config.hcg,
+	        hct: config.hct
+	      });
+	    };
+	    var noFallback = !defaultFallback && !config.onFallback;
+
+	    var proxyOnError = function proxyOnError(error) {
+	      errorCallbackCount++;
+	      if (errorCallbackCount < config.errorFallbackCount) {
+	        try {
+	          localStorage.setItem(storeKey, errorCallbackCount);
+	        } catch (err) {}
+
+	        onError(error);
+	      } else {
+	        fallbackFn(DEFAULT_VALIDATE);
+	        proxyRefresh();
+	        noFallback && onError(error);
+	      }
+	    };
+
+	    var proxyRefresh = function proxyRefresh() {
+	      errorCallbackCount = 0;
+	      try {
+	        localStorage.setItem(storeKey, 0);
+	      } catch (err) {}
+	    };
+
+	    config.onDidRefresh = function () {
+	      proxyRefresh();
+	    };
+
+	    var loadResolve = function loadResolve() {
+	      captchaIns = window.initHuaweiCaptcha(config, function () {
+	        onLoad && onLoad(captchaIns);
+	      }, onVerify, onClose, proxyOnError);
+	    };
+	    var cacheId = 'load-queue';
+	    if (!RESOURCE_CACHE[cacheId]) {
+	      RESOURCE_CACHE[cacheId] = {
+	        rejects: [],
+	        resolves: [],
+	        status: 'error'
+	      };
+	    }
+	    if (RESOURCE_CACHE[cacheId].status === 'error') {
+	      RESOURCE_CACHE[cacheId].status = 'pending';
+	      loadResource(config, function (error) {
+	        if (error) {
+	          var err = new Error();
+	          err.code = REQUEST_SCRIPT_ERROR;
+	          err.message = config.jsURL + '/captcha.js error';
+
+	          var rejects = RESOURCE_CACHE[cacheId].rejects;
+	          for (var i = 0, iLen = rejects.length; i < iLen; i++) {
+	            rejects.pop()(err);
+	          }
+	          RESOURCE_CACHE[cacheId].status = 'error';
+	        } else {
+	          RESOURCE_CACHE[cacheId].status = 'done';
+	          var resolves = RESOURCE_CACHE[cacheId].resolves;
+	          for (var j = 0, jLen = resolves.length; j < jLen; j++) {
+	            resolves.pop()();
+	          }
+	        }
+	      });
+	    } else if (RESOURCE_CACHE[cacheId].status === 'done') {
+	      loadResolve();
+	    }
+	    if (RESOURCE_CACHE[cacheId].status === 'pending') {
+	      RESOURCE_CACHE[cacheId].rejects.push(function loadReject(err) {
+	        proxyOnError(err);
+	      });
+	      RESOURCE_CACHE[cacheId].resolves.push(loadResolve);
+	    }
+	  }
+
+	  return initHuaweiCaptchaWithFallback;
+	});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)(module)))
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+	if (typeof Object.assign !== 'function') {
+	  Object.assign = function (target) {
+	    if (target == null) {
+	      throw new TypeError('Cannot convert undefined or null to object');
+	    }
+
+	    target = Object(target);
+	    for (var index = 1; index < arguments.length; index++) {
+	      var source = arguments[index];
+	      if (source != null) {
+	        for (var key in source) {
+	          if (Object.prototype.hasOwnProperty.call(source, key)) {
+	            target[key] = source[key];
+	          }
+	        }
+	      }
+	    }
+	    return target;
+	  };
+	}
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+	// Production steps of ECMA-262, Edition 5, 15.4.4.14
+	// Reference: http://es5.github.io/#x15.4.4.14
+	if (!Array.prototype.indexOf) {
+	  Array.prototype.indexOf = function (searchElement, fromIndex) {
+	    var k;
+
+	    // 1. Let O be the result of calling ToObject passing
+	    //    the this value as the argument.
+	    if (this == null) {
+	      throw new TypeError('"this" is null or not defined');
+	    }
+
+	    var O = Object(this);
+
+	    // 2. Let lenValue be the result of calling the Get
+	    //    internal method of O with the argument "length".
+	    // 3. Let len be ToUint32(lenValue).
+	    var len = O.length >>> 0;
+
+	    // 4. If len is 0, return -1.
+	    if (len === 0) {
+	      return -1;
+	    }
+
+	    // 5. If argument fromIndex was passed let n be
+	    //    ToInteger(fromIndex); else let n be 0.
+	    var n = +fromIndex || 0;
+
+	    if (Math.abs(n) === Infinity) {
+	      n = 0;
+	    }
+
+	    // 6. If n >= len, return -1.
+	    if (n >= len) {
+	      return -1;
+	    }
+
+	    // 7. If n >= 0, then Let k be n.
+	    // 8. Else, n<0, Let k be len - abs(n).
+	    //    If k is less than 0, then let k be 0.
+	    k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+
+	    // 9. Repeat, while k < len
+	    while (k < len) {
+	      // a. Let Pk be ToString(k).
+	      //   This is implicit for LHS operands of the in operator
+	      // b. Let kPresent be the result of calling the
+	      //    HasProperty internal method of O with argument Pk.
+	      //   This step can be combined with c
+	      // c. If kPresent is true, then
+	      //    i.  Let elementK be the result of calling the Get
+	      //        internal method of O with the argument ToString(k).
+	      //   ii.  Let same be the result of applying the
+	      //        Strict Equality Comparison Algorithm to
+	      //        searchElement and elementK.
+	      //  iii.  If same is true, return k.
+	      if (k in O && O[k] === searchElement) {
+	        return k;
+	      }
+	      k++;
+	    }
+	    return -1;
+	  };
+	}
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+	// 实现 ECMA-262, Edition 5, 15.4.4.19
+	// 参考: http://es5.github.com/#x15.4.4.19
+	if (!Array.prototype.map) {
+	  Array.prototype.map = function (callback, thisArg) {
+	    var T, A, k;
+
+	    if (this == null) {
+	      throw new TypeError(' this is null or not defined');
+	    }
+
+	    // 1. 将O赋值为调用map方法的数组.
+	    var O = Object(this);
+
+	    // 2.将len赋值为数组O的长度.
+	    var len = O.length >>> 0;
+
+	    // 3.如果callback不是函数,则抛出TypeError异常.
+	    if (Object.prototype.toString.call(callback) !== '[object Function]') {
+	      throw new TypeError(callback + ' is not a function');
+	    }
+
+	    // 4. 如果参数thisArg有值,则将T赋值为thisArg;否则T为undefined.
+	    if (thisArg) {
+	      T = thisArg;
+	    }
+
+	    // 5. 创建新数组A,长度为原数组O长度len
+	    A = new Array(len);
+
+	    // 6. 将k赋值为0
+	    k = 0;
+
+	    // 7. 当 k < len 时,执行循环.
+	    while (k < len) {
+	      var kValue, mappedValue;
+
+	      // 遍历O,k为原数组索引
+	      if (k in O) {
+	        // kValue为索引k对应的值.
+	        kValue = O[k];
+
+	        // 执行callback,this指向T,参数有三个.分别是kValue:值,k:索引,O:原数组.
+	        mappedValue = callback.call(T, kValue, k, O);
+
+	        // 返回值添加到新数组A中.
+	        A[k] = mappedValue;
+	      }
+	      // k自增1
+	      k++;
+	    }
+
+	    // 8. 返回新数组A
+	    return A;
+	  };
+	}
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+	module.exports = function(module) {
+		if(!module.webpackPolyfill) {
+			module.deprecate = function() {};
+			module.paths = [];
+			// module.parent = undefined by default
+			module.children = [];
+			module.webpackPolyfill = 1;
+		}
+		return module;
+	}
+
+
+/***/ })
+/******/ ]);</script></body>
+</html>

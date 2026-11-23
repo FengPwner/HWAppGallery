@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/itemContainer"
+    android:tag="@string/bannerImage"
+    android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+    android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

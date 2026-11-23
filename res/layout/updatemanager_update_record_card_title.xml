@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/update_click_area"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/reltitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.Widget.SubHeader.ViewGroup">
+        <TextView
+            android:id="@id/update_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <ImageView
+            android:id="@id/title_tips_ignore"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_12_dp"
+            android:scaleType="centerInside"
+            android:layout_alignTop="@id/update_left_title"
+            android:layout_alignBottom="@id/update_left_title"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/sub_title"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:text="@string/updatemanager_disclaimer_tips"
+            android:layout_below="@id/update_left_title"
+            android:textAllCaps="false"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+            android:layout_alignParentStart="true"
+            style="@style/AppGallery.Widget.Button.TextButton2" />
+    </RelativeLayout>
+</RelativeLayout>

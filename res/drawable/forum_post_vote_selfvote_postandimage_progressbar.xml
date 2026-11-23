@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background">
+        <shape>
+            <corners
+                android:radius="@dimen/appgallery_default_corner_radius_m" />
+            <solid
+                android:color="@color/forum_post_vote_black_05" />
+        </shape>
+    </item>
+    <item
+        android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid
+                    android:color="@color/forum_vote_text_bule" />
+                <corners
+                    android:radius="@dimen/appgallery_default_corner_radius_m" />
+            </shape>
+        </clip>
+        <scale
+            android:drawable="@color/forum_vote_text_bule"
+            android:scaleWidth="100%" />
+    </item>
+</layer-list>

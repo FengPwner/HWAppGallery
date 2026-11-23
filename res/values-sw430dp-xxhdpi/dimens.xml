@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_content">14.0sp</dimen>
+    <dimen name="textsize_comment_user">16.0sp</dimen>
+    <dimen name="textsize_main">16.0sp</dimen>
+    <dimen name="textsize_subtitle">13.0sp</dimen>
+</resources>

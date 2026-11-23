@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_xl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/deeplink_layout"
+        android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg"
+        android:paddingTop="@dimen/appgallery_card_elements_margin_s"
+        android:paddingBottom="@dimen/appgallery_card_elements_margin_s"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/hiappbase_subheader_more_arrow"
+            android:tag="css/.arrow"
+            android:src="@drawable/ic_arrow_right_subheader"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_alignParentEnd="true"
+            style="@style/subheader_arrow_size" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/hiappbase_subheader_more_arrow"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/deeplink_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/deeplink_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

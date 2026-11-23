@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:orientation="vertical"
+    android:id="@id/consume_record_hide_layout"
+    android:background="@drawable/purchasehistory_popupwindow_rectangle_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/cs_4_dp"
+    app:round_corner="@dimen/appgallery_default_corner_radius_m"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/emui_black"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/tip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_48dp"
+        android:text="@string/consume_record_hide"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end" />
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

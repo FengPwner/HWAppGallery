@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/emui_black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@id/imagepaper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <include
+        android:id="@id/img_browser_title"
+        layout="@layout/media_image_browser_actionbar" />
+</FrameLayout>

@@ -1,0 +1,30 @@
+{
+  "level": [
+    {
+      "age": 0,
+      "gradeLevel": 0
+    },
+    {
+      "age": 3,
+      "gradeLevel": 1
+    },
+    {
+      "age": 7,
+      "gradeLevel": 2
+    },
+    {
+      "age": 12,
+      "gradeLevel": 3
+    },
+    {
+      "age": 16,
+      "gradeLevel": 4
+    },
+    {
+      "age": 18,
+      "gradeLevel": 5
+    }
+  ],
+  "typeName": "Age",
+  "typeId": "8"
+}

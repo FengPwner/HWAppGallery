@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/rl_item_container"
+        android:padding="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/icon"
+            android:layout_width="@dimen/buoy_campain_img_width"
+            android:layout_height="@dimen/buoy_campain_img_height"
+            android:src="@drawable/bg_perch_square"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/wisejoint_campaign_sideslip_listitem_content_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+            android:layout_below="@id/icon"
+            android:layout_centerVertical="true">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/ItemTitle"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/ItemText"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                android:layout_below="@id/ItemTitle"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/timeText"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_below="@id/ItemText"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:id="@id/bootom_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

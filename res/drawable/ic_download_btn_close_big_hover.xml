@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="36.0dip"
+    android:width="36.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="36.0"
+    android:viewportHeight="36.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/emui_color_shadow_dark"
+        android:pathData="M18,10.6667C22.0501,10.6667 25.3333,13.9499 25.3333,18C25.3333,22.0501 22.0501,25.3333 18,25.3333C13.9499,25.3333 10.6667,22.0501 10.6667,18C10.6667,13.9499 13.9499,10.6667 18,10.6667ZM15.8787,15.1716C15.6834,14.9763 15.3668,14.9763 15.1716,15.1716C14.9763,15.3668 14.9763,15.6834 15.1716,15.8787L15.1716,15.8787L17.2936,17.9993L15.1716,20.1213C14.9763,20.3166 14.9763,20.6332 15.1716,20.8284C15.3668,21.0237 15.6834,21.0237 15.8787,20.8284L15.8787,20.8284L20.8284,15.8787C21.0237,15.6834 21.0237,15.3668 20.8284,15.1716C20.6332,14.9763 20.3166,14.9763 20.1213,15.1716L20.1213,15.1716L18.0007,17.2922ZM19.178,18.4709L18.4709,19.178L20.1213,20.8284C20.3166,21.0237 20.6332,21.0237 20.8284,20.8284C21.0237,20.6332 21.0237,20.3166 20.8284,20.1213L20.8284,20.1213L19.178,18.4709Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+    <path
+        android:fillColor="@color/emui_bottombar_icon_off_auxcolor_01"
+        android:pathData="M18,0L18,0A18,18 0,0 0,0 18L0,18A18,18 0,0 0,18 36L18,36A18,18 0,0 0,36 18L36,18A18,18 0,0 0,18 0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/forum_section_info_top_rlayout"
+        android:tag="\@+string/bannerImage"
+        android:background="@drawable/forum_list_item_all_selector"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_two_text_lines_with_icon"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_elements_margin_vertical_m">
+        <ImageView
+            android:id="@id/section_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_middle"
+            android:layout_height="@dimen/appgallery_card_icon_size_middle"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true" />
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/forum_section_info_llayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12.0dip"
+            android:layout_toEndOf="@id/section_icon">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/section_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:layout_below="@id/section_name">
+                <ImageView
+                    android:id="@id/posts_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/forum_forum_ic_post"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/forum_post_desc" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/posts_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_alignTop="@id/posts_img"
+                    android:layout_marginStart="@dimen/appgallery_card_elements_margin_xs"
+                    android:layout_toEndOf="@id/posts_img"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody4.Fixed.Secondary" />
+                <ImageView
+                    android:id="@id/follow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/forum_forum_ic_follow"
+                    android:layout_alignTop="@id/posts_img"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/forum_followers_desc"
+                    android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+                    android:layout_toEndOf="@id/posts_count" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/follow_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_alignTop="@id/follow_img"
+                    android:layout_marginStart="@dimen/appgallery_card_elements_margin_xs"
+                    android:layout_toEndOf="@id/follow_img"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody4.Fixed.Secondary" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

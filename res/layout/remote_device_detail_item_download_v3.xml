@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/component_detail_bottom_height_v3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.detail.detailbase.widget.DetailRelativeLayout
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/download_framelayout"
+            android:background="@drawable/corner_button_download_v3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/component_detail_margin_bottom"
+            android:minWidth="176.0dip"
+            android:minHeight="@dimen/component_detail_bottom_button_height_v3"
+            android:layout_centerHorizontal="true">
+            <com.huawei.appgallery.detail.detailbase.api.RemoteDeviceDetailBigDownloadButton
+                android:textSize="16.0dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/remote_detail_download_button"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="@dimen/component_detail_bottom_button_height_v3"
+                android:text="@string/card_install_btn"
+                android:singleLine="true"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                wapbutton:downloadFixedWidth="true"
+                wapbutton:hwProgressButtonStaticTextColor="@color/hwprogressbutton_selector_button_text_emphasize"
+                style="@style/detail_big_download_button" />
+        </LinearLayout>
+    </com.huawei.appgallery.detail.detailbase.widget.DetailRelativeLayout>
+</LinearLayout>

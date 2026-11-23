@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/faq_search_input"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/emui_dimens_max_start"
+    android:layout_marginEnd="@dimen/emui_dimens_max_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/sv_search_actionbar"
+        android:background="@drawable/faq_sdk_bg_searchinput"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/faq_sdk_ui_10_dip"
+        android:layout_marginBottom="@dimen/faq_sdk_ui_10_dip"
+        android:layout_weight="1.0">
+        <ImageView
+            android:id="@id/faq_sdk_iv_search"
+            android:background="@drawable/faq_sdk_ic_search_gray"
+            android:clickable="true"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/faq_sdk_search_hint"
+            android:layout_marginStart="@dimen/faq_sdk_ui_12_dip"
+            android:layout_marginEnd="@dimen/faq_sdk_ui_12_dip" />
+        <EditText
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_color_secondary"
+            android:textColorHint="@color/faq_sdk_list_item_hint_text_color_normal"
+            android:id="@id/faq_sdk_sv_search_input"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="36.0dip"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:layout_centerVertical="true"
+            android:imeOptions="actionSearch"
+            android:paddingEnd="8.0dip"
+            android:layout_toStartOf="@id/faq_sdk_iv_search_del"
+            android:layout_toEndOf="@id/faq_sdk_iv_search" />
+        <ImageView
+            android:id="@id/faq_sdk_iv_search_del"
+            android:background="@drawable/faq_sdk_ic_close"
+            android:visibility="gone"
+            android:clickable="true"
+            android:layout_width="@dimen/faq_sdk_ui_16_dip"
+            android:layout_height="@dimen/faq_sdk_ui_16_dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/faq_sdk_search_clean_up"
+            android:layout_marginEnd="@dimen/faq_sdk_ui_12_dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/emui_text_size_button1"
+        android:textColor="@color/faq_emui_accent"
+        android:layout_gravity="center"
+        android:id="@id/faq_sdk_search_cancel"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faq_sdk_common_cancel"
+        android:textAllCaps="true"
+        android:fontFamily="@string/emui_text_font_family_medium"
+        android:layout_marginStart="@dimen/padding_l" />
+</LinearLayout>

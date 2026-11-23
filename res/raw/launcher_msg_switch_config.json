@@ -1,0 +1,60 @@
+{
+  "layout":[
+    {
+      "layoutId": 1,
+      "name":"桌面图标未读消息设置提示卡片",
+      "maxRows": 1,
+      "layoutName": "forumlaunchermsgtipcard"
+    },
+    {
+      "layoutId": 2,
+      "name":"桌面图标未读消息设置单卡",
+      "maxRows": -1,
+      "layoutName": "forumlaunchermsgsettingitemcard"
+    }],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name":"桌面图标未读消息设置单卡",
+      "layoutName": "forumlaunchermsgtipcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name":"桌面图标未读消息设置单卡",
+      "layoutName": "forumlaunchermsgsettingitemcard",
+      "dataList": [
+        {
+          "msgType": 1,
+          "showDivider": 1
+        },
+        {
+          "msgType": 2,
+          "showDivider": 1
+        },
+        {
+          "msgType": 4,
+          "showDivider": 1
+        },
+        {
+          "msgType": 7,
+          "showDivider": 1
+        },
+        {
+          "msgType": 3,
+          "showDivider": 1
+        },
+        {
+          "msgType": 6,
+          "showDivider": 1
+        },
+        {
+          "msgType": 5,
+          "showDivider": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/mine_score_linearlayout"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44.0dip">
+        <FrameLayout
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/menu_icon_imageview"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip" />
+            <ImageView
+                android:layout_gravity="end|center|top"
+                android:id="@id/right_red_dot"
+                android:visibility="gone"
+                android:layout_width="@dimen/personal_imagecard_rightreddot_size"
+                android:layout_height="@dimen/personal_imagecard_rightreddot_size"
+                android:src="@drawable/tab_red_dot" />
+        </FrameLayout>
+        <TextView
+            android:textSize="9.0dip"
+            android:textColor="@color/appgallery_text_color_primary_inverse"
+            android:gravity="center"
+            android:layout_gravity="end|center|top"
+            android:id="@id/item_red_point_textview"
+            android:background="@drawable/personal_red_dot_img"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="12.0dip"
+            android:layout_marginBottom="30.0dip"
+            android:minWidth="12.0dip"
+            android:minHeight="12.0dip"
+            android:paddingStart="@dimen/padding_xs"
+            android:paddingEnd="@dimen/padding_xs"
+            android:layout_marginStart="30.0dip" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@id/menu_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_marginEnd="@dimen/margin_s"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+    </LinearLayout>
+</LinearLayout>

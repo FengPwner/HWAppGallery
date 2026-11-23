@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/msgremind_icon_layout"
+    android:background="@drawable/hwappbarpattern_selector_item_bg"
+    android:visibility="visible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/forum_message_new_title"
+    android:layout_marginEnd="@dimen/margin_s"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/hwappbarpattern_icon_size">
+            <ImageView
+                android:id="@id/right_imageview_msgremind"
+                android:background="@drawable/aguikit_ic_public_ring"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView
+            android:textSize="10.0dip"
+            android:textColor="@color/forum_section_msg_count_color"
+            android:gravity="center"
+            android:id="@id/msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:minWidth="14.0dip"
+            android:layout_marginStart="24.0dip" />
+    </RelativeLayout>
+</LinearLayout>

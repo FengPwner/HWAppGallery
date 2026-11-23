@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/six_element_container"
+        android:background="@color/appgallery_color_sub_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.appmarket.service.appdetail.view.widget.DetailRelativeLayout
+        android:orientation="horizontal"
+        android:id="@id/reserve_button_layout_relativelayout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@id/ll_download_layout"
+            android:background="@drawable/corner_button_reserve_v2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.0dip"
+            android:minWidth="176.0dip"
+            android:minHeight="40.0dip"
+            android:layout_weight="1.0"
+            android:layout_centerHorizontal="true">
+            <com.huawei.appgallery.detail.detailbase.api.DetailBigDownloadButton
+                android:textSize="16.0dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/reserve_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:singleLine="true"
+                wapbutton:downloadFixedWidth="true"
+                style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        </LinearLayout>
+    </com.huawei.appmarket.service.appdetail.view.widget.DetailRelativeLayout>
+</LinearLayout>

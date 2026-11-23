@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:addStatesFromChildren="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/icon_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+                android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:id="@id/uninstall_item_icon"
+                    android:layout_width="@dimen/appgallery_card_icon_size_large"
+                    android:layout_height="@dimen/appgallery_card_icon_size_large" />
+                <View
+                    android:layout_gravity="center"
+                    android:id="@id/horizon_line"
+                    android:background="@drawable/aguikit_horizontal_line_bg"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/ui_40_dp"
+                    android:layout_height="1.5dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_below="@id/localpackage_item_icon_view" />
+            </LinearLayout>
+            <com.huawei.uikit.phone.hwcheckbox.widget.HwCheckBox
+                android:id="@id/button_check_box"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.Emui.HwCheckBox.Normal" />
+        </RelativeLayout>
+        <TextView
+            android:id="@id/uninstall_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_info_default"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_toStartOf="@id/button_check_box"
+            android:layout_alignParentStart="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal">
+            <TextView
+                android:textStyle="normal"
+                android:gravity="center_vertical"
+                android:id="@id/uninstall_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <TextView
+                android:textStyle="normal"
+                android:gravity="center_vertical"
+                android:id="@id/uninstall_item_usage_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <TextView
+                android:id="@id/uninstall_item_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <TextView
+                android:textStyle="normal"
+                android:id="@id/uninstall_item_install_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+        <View
+            android:id="@id/app_uninstalled_split_line"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            style="@style/AppGallery.Widget.Divider" />
+    </LinearLayout>
+</RelativeLayout>

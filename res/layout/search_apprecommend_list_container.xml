@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/apprecomm_list_container_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/app_list_container_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/view_stub_expand"
+        android:layout="@layout/search_recommend_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

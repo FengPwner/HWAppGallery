@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient
+    android:angle="0.0"
+    android:type="linear"
+    android:startX="162.02274"
+    android:startY="20.676699"
+    android:endX="50.0"
+    android:endY="113.8138"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:color="@color/hiapp_platform_card_sort_index_1_color_line2_start"
+        android:offset="0.0" />
+    <item
+        android:color="@color/hiapp_platform_card_sort_index_1_color_line2_end"
+        android:offset="1.0" />
+</gradient>

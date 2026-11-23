@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@color/appgallery_color_toolbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="56.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwedittext.widget.HwCounterTextLayout
+        android:id="@id/comment_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip">
+        <com.huawei.uikit.hwedittext.widget.HwEditText
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColorHint="@color/appgallery_text_color_hint"
+            android:gravity="center_vertical"
+            android:id="@id/comment_content_edittext"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/appcomment_publish_comment_guide_edit"
+            android:contentDescription="@string/appcomment_user_comments"
+            android:textDirection="locale"
+            android:layoutDirection="locale" />
+    </com.huawei.uikit.hwedittext.widget.HwCounterTextLayout>
+</RelativeLayout>

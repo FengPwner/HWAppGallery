@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/updatemanager_header"
+        android:background="@drawable/list_item_normal_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon"
+        android:paddingStart="@dimen/appgallery_column_system_content_margin"
+        android:paddingEnd="@dimen/appgallery_column_system_content_margin">
+        <ImageView
+            android:id="@id/update_arrow_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_public_arrow_right_900"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body1_fixed"
+            android:textColor="@color/appgallery_text_color_primary_inverse"
+            android:gravity="center"
+            android:id="@id/updatemanager_update_num"
+            android:background="@drawable/updatemanager_ageadapter_updateview_update_num_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/updatemanager_ageadapter_updateview_updatenum"
+            android:minWidth="@dimen/updatemanager_ageadapter_updateview_updatenum"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:paddingStart="@dimen/updatemanager_updateview_updatenum_padding"
+            android:paddingEnd="@dimen/updatemanager_updateview_updatenum_padding"
+            android:layout_marginStart="@dimen/appgallery_text_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+            android:layout_toStartOf="@id/update_arrow_imageView" />
+        <ImageView
+            android:id="@id/updatemanager_icon"
+            android:background="@drawable/updatemanager_manager_update_nor"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_alignParentStart="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/updatemanager_updateview_title_textview"
+            android:paddingTop="@dimen/appgallery_default_card_space_vertical"
+            android:paddingBottom="@dimen/appgallery_default_card_space_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon"
+            android:text="@string/updatemanager_app_updates"
+            android:maxLines="1"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/updatemanager_update_num"
+            android:layout_toEndOf="@id/updatemanager_icon"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+    </RelativeLayout>
+    <include
+        android:id="@id/update_card_layout1"
+        android:visibility="visible"
+        layout="@layout/updatemanager_ageadapter_update_record_item2" />
+    <include
+        android:id="@id/update_card_layout2"
+        android:visibility="visible"
+        layout="@layout/updatemanager_ageadapter_update_record_item2" />
+    <include
+        android:id="@id/update_card_layout3"
+        android:visibility="visible"
+        layout="@layout/updatemanager_ageadapter_update_record_item2" />
+    <View
+        android:id="@id/updatemanager_updateview_split_line_white"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="8.0dip" />
+    <View
+        android:id="@id/updatemanager_updateview_split_line_gray"
+        android:background="@color/appgallery_color_subheader_divider"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_subheader_spliter_height" />
+    <View
+        android:id="@id/updatemanager_updateview_split_line_slender"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

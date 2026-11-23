@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:background="@drawable/enter_card_img_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/enter_img"
+            android:layout_width="@dimen/ui_40_dp"
+            android:layout_height="@dimen/ui_40_dp" />
+        <ImageView
+            android:layout_gravity="end|center|top"
+            android:id="@id/enter_img_del"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_15_dp"
+            android:layout_height="@dimen/ui_15_dp"
+            android:src="@drawable/ic_delete_service" />
+        <ImageView
+            android:layout_gravity="end|center|top"
+            android:id="@id/enter_img_add"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_15_dp"
+            android:layout_height="@dimen/ui_15_dp"
+            android:src="@drawable/ic_add_service" />
+        <ImageView
+            android:layout_gravity="end|center|top"
+            android:id="@id/buoy_enter_red_img"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_6_dp"
+            android:layout_height="@dimen/ui_6_dp"
+            android:src="@drawable/tips_news" />
+        <ImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/iv_predownload"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_16_dp"
+            android:layout_height="@dimen/ui_16_dp"
+            android:src="@drawable/buoy_ic_predownload" />
+    </FrameLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body3_fixed"
+        android:textColor="@color/buoy_emui_primary"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/enter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_4_dp"
+        android:layout_marginBottom="@dimen/ui_4_dp"
+        android:maxLines="2"
+        android:layout_marginStart="@dimen/ui_4_dp"
+        android:layout_marginEnd="@dimen/ui_4_dp" />
+</LinearLayout>

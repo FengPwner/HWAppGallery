@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/appList_ItemTitle_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/subheader_viewgroup_style">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/more_layout"
+            android:visibility="visible"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:layout_marginStart="0.0dip"
+            style="@style/subheader_more_viewgroup_style">
+            <TextView
+                android:gravity="start|center"
+                android:id="@id/more_btn"
+                android:clickable="false"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/card_more_btn"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart"
+                style="@style/subheader_more_style" />
+            <ImageView
+                android:id="@id/btn_more_image"
+                android:background="@drawable/ic_public_arrow_right_900"
+                android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+                android:layout_height="@dimen/appgallery_list_item_right_arrow_height" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_hwtoolbar_height"
+    android:paddingEnd="@dimen/margin_s"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/hiappbase_arrow_layout"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/click_back"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@id/up"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/aguikit_ic_public_back" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/hiappbase_menu_layout"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/hiappbase_menu_extend_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12.0dip" />
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+            android:orientation="horizontal"
+            android:id="@id/hiappbase_menu_wap_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/icon_first_layout"
+                android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip">
+                <ImageView
+                    android:id="@id/icon_first"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/icon_second_layout"
+                android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip">
+                <ImageView
+                    android:id="@id/icon_second"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/collapse_layout"
+                android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+                android:layout_width="36.0dip"
+                android:layout_height="48.0dip"
+                android:contentDescription="@string/card_more_btn"
+                app:popupDrawable="@drawable/aguikit_ic_public_more"
+                app:popupTitle="@string/card_more_btn">
+                <ImageView
+                    android:id="@id/collapse_icon"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/hiappbase_menu_layout"
+        android:layout_toEndOf="@id/hiappbase_arrow_layout">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_vertical_l"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </LinearLayout>
+</RelativeLayout>

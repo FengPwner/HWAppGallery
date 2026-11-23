@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/arrowlayout"
+            android:tag="css/.arrow"
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.Widget.List.RightArrow" />
+        <ImageView
+            android:id="@id/wisedist_itemIcon_imageview"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_alignParentStart="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="center_vertical"
+            android:id="@id/setItemTitle"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAlignment="viewStart"
+            android:layout_toStartOf="@id/arrowlayout"
+            android:layout_toEndOf="@id/wisedist_itemIcon_imageview"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+    </RelativeLayout>
+    <TextView
+        android:id="@id/setItemContent"
+        android:tag="css/.subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:text=""
+        android:layout_below="@id/item_layout"
+        android:layout_centerVertical="true"
+        android:textAlignment="viewStart"
+        android:layout_alignParentStart="true"
+        style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@id/item_tip"
+        android:tag="css/.subtitle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:layout_below="@id/item_layout"
+        android:layout_alignParentStart="true"
+        style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/setItemContent"
+        android:layout_alignStart="@id/setItemContent"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

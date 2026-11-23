@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/hiappbase_arrow_layout"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/exit_cancel"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@id/up"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/aguikit_ic_public_cancel" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/hiappbase_right_title_layout"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/exit_confirm"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@id/icon2"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip" />
+    </LinearLayout>
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/title_loading"
+        android:visibility="gone"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16.0dip"
+        android:layout_alignParentEnd="true" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="start|center"
+        android:id="@id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_toStartOf="@id/hiappbase_right_title_layout"
+        android:layout_toEndOf="@id/hiappbase_arrow_layout"
+        style="@style/AppGallery.Widget.Toolbar.Title" />
+</RelativeLayout>

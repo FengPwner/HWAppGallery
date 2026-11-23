@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_round_rectangle_card_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@id/gift_relative_layout"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:layout_marginBottom="@dimen/size_8dp"
+        android:minHeight="40.0dip"
+        android:layout_centerVertical="true">
+        <com.huawei.appmarket.service.gift.widget.GiftDownloadButton
+            android:id="@id/gift_receive_status_button"
+            android:tag="css/.report-button"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:maxWidth="90.0dip"
+            android:minWidth="64.0dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8.0dip"
+            android:layout_toStartOf="@id/gift_receive_status_button"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/gift_title"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/gift_remaining"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:id="@id/divide_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/gift_relative_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

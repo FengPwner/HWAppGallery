@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/forum_vote_summary_bg" />
+    <corners
+        android:topLeftRadius="@dimen/appgallery_default_corner_radius_m"
+        android:topRightRadius="@dimen/appgallery_default_corner_radius_m"
+        android:bottomLeftRadius="@dimen/appgallery_default_corner_radius_m"
+        android:bottomRightRadius="@dimen/appgallery_default_corner_radius_m" />
+    <stroke
+        android:width="0.0px" />
+</shape>

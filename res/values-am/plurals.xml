@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d አጠራጣሪ መተግበሪያዎች (%1$s ጨምሮ) ተገኝተዋል</item>
+        <item quantity="one">%2$d አጠራጣሪ መተግበሪያ (%1$s) ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">%2$d ስራ ላይ ያልዋሉ መተግበሪያዎች (%1$s ጨምሮ) ተገኝተዋል</item>
+        <item quantity="one">%2$d ስራ ላይ ያልዋለ መተግበሪያ (%1$s) ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d ጥቅም ላይ ያልዋሉ መተግበሪያዎች</item>
+        <item quantity="one">%d ጥቅም ላይ ያልዋለ መተግበሪያ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">ተንኮል-አዘል ባህሪ ያላቸው %d መተግበሪያዎች ቁጥጥር ተደርጎባቸዋል</item>
+        <item quantity="one">ተንኮል-አዘል ባህሪ ያለው %d መተግበሪያ ቁጥጥር ተደርጎበታል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">ተንኮል-አዘል ባህሪ ያላቸው %d መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">ተንኮል-አዘል ባህሪ ያለው %d መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d የማጭበርበሪያ መተግበሪያዎች ቁጥጥር ተደርጎባቸዋል</item>
+        <item quantity="one">%d የማጭበርበሪያ መተግበሪያ ቁጥጥር ተደርጎበታል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d የማጭበርበሪያ መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">%d የማጭበርበሪያ መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">የግላዊነት ስጋት ያላቸው %d መተግበሪያዎች ቁጥጥር ተደርጎባቸዋል</item>
+        <item quantity="one">የግላዊነት ስጋቶች ያለው %d መተግበሪያ ቁጥጥር ተደርጎበታል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">የግላዊነት ስጋቶች ያላቸው %d መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">የግላዊነት ስጋቶች ያለው %d መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">የደህንነት ስጋቶች ያላቸው %d መተግበሪያዎች ቁጥጥር ተደርጎባቸዋል</item>
+        <item quantity="one">የደህንነት ስጋቶች ያለው %d መተግበሪያ ቁጥጥር ተደርጎበታል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">የደህንነት ስጋቶች ያላቸው %d መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">የደህንነት ስጋቶች ያለው %d መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">ቫይረሶች ያላቸው %d መተግበሪያዎች ቁጥጥር ተደርጎባቸዋል</item>
+        <item quantity="one">ቫይረሶች ያለው %d መተግበሪያ ቁጥጥር ተደርጎበታል</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">ቫይረሶች ያላቸው %d መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">ቫይረሶች ያለው %d መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d ንጥሎች እንዲተቡ ተደርገዋል</item>
+        <item quantity="one">%d ንጥል እንዲተባ ተደርጓል</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d ችግሮች ተገኝተዋል</item>
+        <item quantity="one">%d ችግር ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d መተግበሪያዎች ተቃኝተዋል</item>
+        <item quantity="one">%d መተግበሪያ ተቃኝቷል</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">ከ%d ቀናት በፊት</item>
+        <item quantity="one">ከ%d ቀን በፊት</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ስጋቶች</item>
+        <item quantity="one">%d ስጋት</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d መተግበሪያዎች ተቃኝተዋል</item>
+        <item quantity="one">%d መተግበሪያ ተቃኝቷል</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d የመተግበሪያ ስጋቶች</item>
+        <item quantity="one">%d የመተግበሪያ ስጋት</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">ባለፉት %1$d ቀናት ላይ %2$d አጠራጣሪ መተግበሪያዎች ተገኝተዋል። ዝርዝሮችን ይመልከቱ >></item>
+        <item quantity="one">ባለፉት %1$d ቀናት ላይ %2$d አጠራጣሪ መተግበሪያ ተገኝቷል። ዝርዝሮችን ይመልከቱ >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">ባለፉት %1$d ቀናት ላይ %2$d መተግበሪያዎች ተቃኝተዋል። ዝርዝሮችን ይመልከቱ >></item>
+        <item quantity="one">ባለፉት %1$d ቀናት ላይ %2$d መተግበሪያ ተቃኝቷል። ዝርዝሮችን ይመልከቱ >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d መተግበሪያዎች መታመቅ ይችላሉ</item>
+        <item quantity="one">%d መተግበሪያ መታመቅ ይችላል</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d ያልታወቁ መተግበሪያዎች ተገኝተዋል።</item>
+        <item quantity="one">%d ያልታወቀ መተግበሪያ ተገኝቷል።</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">ሊታመቁ የሚችሉ መተግበሪያዎች (%d)</item>
+        <item quantity="one">ሊታመቁ የሚችሉ መተግበሪያዎች (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d ያልታወቁ መተግበሪያዎች ተገኝተዋል። እባክዎ ያጣሩ።</item>
+        <item quantity="one">%d ያልታወቀ መተግበሪያ ተገኝቷል። እባክዎ ያጣሩ።</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d ያልታወቁ መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">%d ያልታወቀ መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">ከ%d ደቂቃ በፊት</item>
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">የተሰጠው ደረጃ፦ %s</item>
+        <item quantity="one">የተሰጠው ደረጃ፦ %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s በዕድሜ የተገደበ ይዘት አለው። %3$sን በመንካትና ይህን መተግበሪያ በማውረድ እርስዎ ከ%2$d ዓመት በላይ መሆንዎን ያረጋግጣሉ።</item>
+        <item quantity="one">%1$s በዕድሜ የተገደበ ይዘት አለው። %3$sን በመንካትና ይህን መተግበሪያ በማውረድ እርስዎ ከ%2$d ዓመት በላይ መሆንዎን ያረጋግጣሉ።</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">ማውረዶች ለአፍታ ቆመዋል፦ %1$d</item>
+        <item quantity="one">ማውረዶች ለአፍታ ቆመዋል፦ %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s በዕድሜ የተገደበ ይዘት አለው። %3$sን በመንካትና ይህን መተግበሪያ በመጠቀም እርስዎ ከ%2$d ዓመት በላይ መሆንዎን ያረጋግጣሉ።</item>
+        <item quantity="one">%1$s በዕድሜ የተገደበ ይዘት አለው። %3$sን በመንካትና ይህን መተግበሪያ በመጠቀም እርስዎ ከ%2$d ዓመት በላይ መሆንዎን ያረጋግጣሉ።</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d አለመውደዶች</item>
+        <item quantity="one">%d አለመውደድ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d አለመውደዶች፣ እርስዎ ይህን አልወደዱትም</item>
+        <item quantity="one">%d አለመውደድ፣ እርስዎ ይህን አልወደዱትም</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d መውደዶች</item>
+        <item quantity="one">%d መውደድ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d መውደዶች፣ እርስዎ ይህን ወደውታል</item>
+        <item quantity="one">%d መውደድ፣ እርስዎ ይህን ወደውታል</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d ኮከቦች</item>
+        <item quantity="one">%d ኮከብ</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d አስተያየቶች</item>
+        <item quantity="one">%1$d አስተያየት</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">ከ%d ደቂቃ በፊት</item>
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d ደረጃ አሰጣጦች</item>
+        <item quantity="one">%d ደረጃ አሰጣጥ</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d መውደዶች</item>
+        <item quantity="one">%1$d መውደድ</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d ምላሾች</item>
+        <item quantity="one">%1$d ምላሽ</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">ሁሉም ምላሾች (%1$d)</item>
+        <item quantity="one">ሁሉም ምላሾች (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">አስተያየት ለመስጠት ቢያንስ %1$d ደቂቃዎች ማጫወት አለብዎት።</item>
+        <item quantity="one">አስተያየት ለመስጠት ቢያንስ %1$d ደቂቃ ማጫወት አለብዎት።</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s መተግበሪያዎች እየተጫኑ ነው</item>
+        <item quantity="one">%1$s መተግበሪያ እየተጫነ ነው</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d ንጥሎች ተመርጠዋል</item>
+        <item quantity="one">%1$d ንጥል ተመርጧል</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s ን ጨምሮ የተመረጡት መተግበሪያዎች ይራገፉ?</item>
+        <item quantity="one">%1$s ይራገፍ?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%1$s እና %2$s ሌላ መተግበሪያዎች ከ %3$s ይራገፉ?</item>
+        <item quantity="one">%1$s እና %2$s ሌላ መተግበሪያ ከ %3$s ይራገፍ?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">%1$s ጨምሮ %2$s መተግበሪያዎች ይራገፉ?</item>
+        <item quantity="one">%1$s ጨምሮ %2$s መተግበሪያ ይራገፍ?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s መዝገቦች ይሰረዙ?</item>
+        <item quantity="one">%1$s መዝገብ ይሰረዝ?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">የሚከተሉት %1$d መተግበሪያዎች የተወሰኑ ፈቃዶችን መድረስ ያስፈልጋቸዋል፦</item>
+        <item quantity="one">የሚከተለው %1$d መተግበሪያ የተወሰኑ ፈቃዶችን መድረስ ያስፈልገዋል፦</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d ደረጃዎች</item>
+        <item quantity="one">%1$d ደረጃ</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s ሚ ደረጃዎች</item>
+        <item quantity="one">%1$s ሚ ደረጃዎች</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s ሺ ደረጃዎች</item>
+        <item quantity="one">%1$s ሺ ደረጃዎች</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s እንቅስቃሴዎች</item>
+        <item quantity="one">%1$s እንቅስቃሴ</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">ከ%1$s ደቂቃዎች ያነሰ የጨዋታ ጊዜ ቀርቷል። በተቻለ ፍጥነት ጨዋታዎን ያስቀምጡ።</item>
+        <item quantity="one">ከ%1$s ደቂቃ ያነሰ የጨዋታ ጊዜ ቀርቷል። በተቻለ ፍጥነት ጨዋታዎን ያስቀምጡ።</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">%d ደቂቃዎች ብቻ ይቀራሉ።</item>
+        <item quantity="one">%d ደቂቃ ብቻ ይቀራል።</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ሰዓታት</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d ሰከንዶች</item>
+        <item quantity="one">%d ሰከንድ</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s ባ</item>
+        <item quantity="one">%1$s ባ</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s ሜ</item>
+        <item quantity="one">%1$s ሜ</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s ሺ</item>
+        <item quantity="one">%1$s ኪ</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d አስተያየቶች</item>
+        <item quantity="one">%1$d አስተያየት</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d ደቂቃ በፊት</item>
+        <item quantity="one">%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">ከፍተኛው %1$d ቁምፊዎች</item>
+        <item quantity="one">ከፍተኛው %1$d ቁምፊ</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">ቢያንስ %1$d ቁምፊዎችን ያስገቡ</item>
+        <item quantity="one">ቢያንስ %1$d ቁምፊ ያስገቡ</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"እስከ %1$d ምስሎች ድረስ
+ከፍ ቢል እያንዳንዱ %2$s"</item>
+        <item quantity="one">"እስከ %1$d ምስል ድረስ
+ከፍ ቢል እያንዳንዱ %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">ለዚህ የችግር አይነት ከፍ ቢል %d ምስሎች</item>
+        <item quantity="one">ለዚህ የችግር አይነት ከፍ ቢል %d ምስል</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s ኮከቦች</item>
+        <item quantity="one">%1$s ኮከብ</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">የይለፍ ቃል በስህተት %1$d ጊዜዎች ያክል ገብቷል። እባክዎ ከ %2$d ደቂቃ በኋላ እንደገና ይሞክሩ።</item>
+        <item quantity="one">የይለፍ ቃል በስህተት %1$d ጊዜዎች ያክል ገብቷል። እባክዎ ከ %2$d ደቂቃ በኋላ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s ቢ ሰዎች ተሳትፈዋል</item>
+        <item quantity="one">%1$s ቢ ሰዎች ተሳትፈዋል</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s ሚ ሰዎች ተሳትፈዋል</item>
+        <item quantity="one">%1$s ሚ ሰዎች ተሳትፈዋል</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s ሰዎች ተሳትፈዋል</item>
+        <item quantity="one">%1$s ሰው ተሳትፏል</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s ሺ ሰዎች ተሳትፈዋል</item>
+        <item quantity="one">%1$s ሺ ሰዎች ተሳትፈዋል</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s ቢ ሰዎች ይህን ገዝተውታል</item>
+        <item quantity="one">%1$s ቢ ሰዎች ይህን ገዝተውታል</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s ሚ ሰዎች ይህን ገዝተውታል</item>
+        <item quantity="one">%1$s ሚ ሰዎች ይህን ገዝተውታል</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s ሰዎች ይህን ገዝተውታል</item>
+        <item quantity="one">%1$s ሰው ይህን ገዝቷል</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s ሺ ሰዎች ይህን ገዝተውታል</item>
+        <item quantity="one">%1$s ሺ ሰዎች ይህን ገዝተውታል</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s የተሰጡ ደረጃዎች</item>
+        <item quantity="one">%1$s ደረጃ አሰጣጥ</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">ደረጃ፣ %1$s ኮከቦች</item>
+        <item quantity="one">ደረጃ፣ %1$s ኮከብ</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">%1$s ኮከቦች ተሰጥቶታል</item>
+        <item quantity="one">%1$s ኮከብ ተሰጥቶታል</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">ቢሆንም ጫን (%1$d)</item>
+        <item quantity="one">ቢሆንም ጫን (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d ሰዓታት</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d ሴኮንዶች</item>
+        <item quantity="one">%d ሴኮንድ</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d ንጥሎች ተመርጠዋል</item>
+        <item quantity="one">%1$d ንጥል ተመርጧል</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">መግለጫ ቢያንስ %d ቁምፊዎች መርዘም አለበት። ከተቻለ ስክሪንሾቶችን ያክሉ።</item>
+        <item quantity="one">መግለጫ ቢያንስ %d ቁምፊ መርዘም አለበት። ከተቻለ ስክሪንሾቶችን ያክሉ።</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ሰዓታት</item>
+        <item quantity="one">%1$d ሰዓት</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d ደቂቃዎች</item>
+        <item quantity="one">%1$d ደቂቃ</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d ሰከንዶች</item>
+        <item quantity="one">%1$d ሰከንድ</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">ልጥፎች፦ %1$s</item>
+        <item quantity="one">ልጥፎች፦ %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d መውደዶች</item>
+        <item quantity="one">%d መውደድ</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d ምላሾች</item>
+        <item quantity="one">%d ምላሽ</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s ባ</item>
+        <item quantity="one">%1$s ባ</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s ሜ</item>
+        <item quantity="one">%1$s ሜ</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s ኪ</item>
+        <item quantity="one">%1$s ኪ</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d እይታዎች</item>
+        <item quantity="one">%d እይታ</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">አስተያየት ይተዉ (%1$d በጠቅላላ)</item>
+        <item quantity="one">አስተያየት ይተዉ (%1$d በጠቅላላ)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">ሁሉንም %1$d ምላሾች ይመልከቱ</item>
+        <item quantity="one">ሁሉንም %1$d ምላሽ ይመልከቱ</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s ተሳታፊዎች</item>
+        <item quantity="one">%1$s ተሳታፊ</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">እስከ %s መልሶች ድረስ ይምረጡ</item>
+        <item quantity="one">እስከ %s መልስ ድረስ ይምረጡ</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">ብዙ ምርጫ (%1$d ይምረጡ)</item>
+        <item quantity="one">ብዙ ምርጫ (%1$d ይምረጡ)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">%s መልሶችን ይምረጡ</item>
+        <item quantity="one">%s መልስ ይምረጡ</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s ድምጾች</item>
+        <item quantity="one">%1$s ድምጽ</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">ይህ መተግበሪያ %1$d ፈቃዶች ያስፈልጉታል። እነዚህን በማንኛውም ጊዜ በቅንብሮች > መተግበሪያዎች > መተግበሪያዎች ውስጥ ሊሽሯቸው ይችላሉ።</item>
+        <item quantity="one">ይህ መተግበሪያ %1$d ፈቃድ ያስፈልገዋል። ይህን በማንኛውም ጊዜ በቅንብሮች > መተግበሪያዎች > መተግበሪያዎች ውስጥ ሊሽሩት ይችላሉ።</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">ይህ መተግበሪያ %1$d ፈቃዶች ያስፈልጉታል። እነዚህን በማንኛውም ጊዜ በቅንብሮች > መተግበሪያዎች እና አገልግሎቶች > መተግበሪያዎች ውስጥ ሊሽሯቸው ይችላሉ።</item>
+        <item quantity="one">ይህ መተግበሪያ %1$d ፈቃድ ያስፈልገዋል። ይህን በማንኛውም ጊዜ በቅንብሮች > መተግበሪያዎች እና አገልግሎቶች > መተግበሪያዎች ውስጥ ሊሽሩት ይችላሉ።</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d ስጦታዎች</item>
+        <item quantity="one">%1$d ስጦታ</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d ሺ</item>
+        <item quantity="one">%1$d ሺ</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ኮከቦች</item>
+        <item quantity="one">%1$d ኮከብ</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">የተሰጠው ደረጃ፦ %s</item>
+        <item quantity="one">የተሰጠው ደረጃ፦ %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s የተሰጡ ደረጃዎች</item>
+        <item quantity="one">%1$s ደረጃ አሰጣጥ</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s መከፈቶች</item>
+        <item quantity="one">%1$s መከፈት</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d አዲስ ምክሮች</item>
+        <item quantity="one">%d አዲስ ምክር</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s ባ</item>
+        <item quantity="one">%1$s ባ</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s ሜ</item>
+        <item quantity="one">%1$s ሜ</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s ሺ</item>
+        <item quantity="one">%1$s ኪ</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d መተግበሪያዎች ተዘምነዋል</item>
+        <item quantity="one">%1$d መተግበሪያ ተዘምኗል</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d መተግበሪያዎች እየተዘመኑ ናቸው</item>
+        <item quantity="one">%1$d መተግበሪያ እየተዘመነ ነው</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">ምስል ከ%1$d ሜባ በላይ መሆን አይችልም።</item>
+        <item quantity="one">ምስል ከ%1$d ሜባ በላይ መሆን አይችልም።</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d ፎቶዎች</item>
+        <item quantity="one">%d ፎቶ</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d ተመርጠዋል</item>
+        <item quantity="one">%1$d/%2$d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d ቪዲዮዎች</item>
+        <item quantity="one">%d ቪዲዮ</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d ጥቅማጥቅሞች</item>
+        <item quantity="one">%d ጥቅማጥቅሞ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">ሁሉንም ላፍታ የቆሙ ጭነቶች ሰርዝ (%1$s መተግበሪያዎች፣ %2$s ነጻ ያድርጉ)</item>
+        <item quantity="one">ሁሉንም ላፍታ የቆሙ ጭነቶች ሰርዝ (%1$s መተግበሪያ፣ %2$s ነጻ ያድርጉ)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d ተመርጧል)"</item>
+        <item quantity="one">" 
+(%1$d ተመርጧል)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">ገጽ %1$d</item>
+        <item quantity="one">ገጽ %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s ጭነቶች ላፍታ ቆመዋል።</item>
+        <item quantity="one">%1$s ጭነት ላፍታ ቆሟል።</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d ደቂቃ በፊት</item>
+        <item quantity="one">%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d ተጨማሪዎች</item>
+        <item quantity="one">%1$d ተጨማሪ</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s ውርዶች</item>
+        <item quantity="one">%1$s ውርድ</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">%1$s ኮከቦች ተሰጥቶታል</item>
+        <item quantity="one">%1$s ኮከብ ተሰጥቶታል</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">የ %1$s መተግበሪያዎች በመርሐግብር የተያዘ ጭነት ተጠናቋል</item>
+        <item quantity="one">የ %1$s መተግበሪያ በመርሐግብር የተያዘ ጭነት ተጠናቋል</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">ከWi-Fi ጋር ሲገናኙ %1$d መተግበሪያዎች መውረድ ይጀምራሉ።</item>
+        <item quantity="one">ከWi-Fi ጋር ሲገናኙ %1$d መተግበሪያ መውረድ ይጀምራል።</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s ቅድሚያ አዝዘዋል)</item>
+        <item quantity="one">(%1$s ቅድሚያ አዝዟል)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d ሚሊዮን ተቀማጭ)</item>
+        <item quantity="one">(1 ሚሊዮን ተቀማጭ)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d ሺህ ተቀማጭ)</item>
+        <item quantity="one">(1 ሺህ ተቀማጭ)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">%1$s መተግበሪያዎች ይጫኑ?</item>
+        <item quantity="one">%1$s መተግበሪያ ይጫን?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s ጭነቶች በሂደት ላይ።</item>
+        <item quantity="one">%1$s ጭነት በሂደት ላይ።</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">ከ%1$d</item>
+        <item quantity="one">ከ%1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">%d አካባቢያዊ መተግበሪያዎችን ይፈልጉ</item>
+        <item quantity="one">%d አካባቢያዊ መተግበሪያን ይፈልጉ</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">ወደ ዝማኔ ዝርዝር %d መተግበሪያዎች ወደነበሩበት ይመልሱ እና እንዲዘመኑ ይፍቀዱ።</item>
+        <item quantity="one">ወደ ዝማኔ ዝርዝር %d መተግበሪያ ወደነበረበት ይመልሱ እና እንዲዘመን ይፍቀዱ።</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">የ%1$s መተግበሪያ ማዘመኛዎች አሉ</item>
+        <item quantity="one">የ%1$s መተግበሪያ ማዘመኛ አለ</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s መተግበሪያ ማዘመኛዎች ይመከራሉ። ጠቅላላ መጠን፦ %2$s።</item>
+        <item quantity="one">%1$s መተግበሪያ ማዘመኛ ይመከራል። መጠን፦ %2$s።</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d የመተግበሪያ ዝማኔዎች አሉ። መጠን፦ %2$s።</item>
+        <item quantity="one">%1$d የመተግበሪያ ዝማኔ አለ። መጠን፦ %2$s።</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">ለ%d ቀናት ስራ ላይ አልዋለም</item>
+        <item quantity="one">ለ%d ቀን ስራ ላይ አልዋለም</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ሰዓታት</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d ሰከንዶች</item>
+        <item quantity="one">%d ሰከንድ</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">%d ተግባራት እና የወረዱ ፋይሎች ይጥፉ?</item>
+        <item quantity="one">%d ተግባር እና የወረደው ፋይል ይጥፉ?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">የ%d ቀን አከታትሎ ተመዝግቦ መግባት</item>
+        <item quantity="one">የ%d ቀን አከታትሎ ተመዝግቦ መግባት</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">ቀን %d</item>
+        <item quantity="one">ቀን %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d መተግበሪያዎች ወርደዋል</item>
+        <item quantity="one">%1$d መተግበሪያ ወርዷል</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">የተሰጠው ደረጃ፦ %s</item>
+        <item quantity="one">የተሰጠው ደረጃ፦ %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">ከ%d ደቂቃ በፊት</item>
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%1$sን ጨምሮ %2$d መተግበሪያዎች</item>
+        <item quantity="one">%2$d መተግበሪያ (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">ቀይ ነጥብ ባጅ፣ %1$s ያልተነበቡ ማሳወቂያዎች</item>
+        <item quantity="one">ቀይ ነጥብ ባጅ፣ %1$s ያልተነበበ ማሳወቂያ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d ቅናሾች</item>
+        <item quantity="one">%d ቅናሽ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d የማህበረሰብ ስጦታዎች</item>
+        <item quantity="one">%d የማህበረሰብ ስጦታ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d ስጦታዎች</item>
+        <item quantity="one">%d ስጦታ</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">በክልልዎ የሚገኙ %d ሰዎች ይህን ይፈልጋሉ</item>
+        <item quantity="one">በክልልዎ የሚገኝ %d ሰው ይህን ይፈልጋል</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d ንጥሎች ተመርጠዋል</item>
+        <item quantity="one">%1$d ንጥል ተመርጧል</item>
+    </plurals>
+</resources>

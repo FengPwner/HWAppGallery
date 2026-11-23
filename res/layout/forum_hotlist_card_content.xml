@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/forum_hotlist_main_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_s">
+        <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+            android:ellipsize="end"
+            android:id="@id/forum_hotlist_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/forum_hotlist_margin_top"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+        <com.huawei.appgallery.forum.cards.widget.HighLightTextView
+            android:ellipsize="end"
+            android:id="@id/forum_hotlist_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+            android:maxLines="1"
+            android:lineSpacingMultiplier="1.1"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        <ViewStub
+            android:id="@id/forum_hotlist_stub_video"
+            android:layout="@layout/forum_section_post_video_banner_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+        <ViewStub
+            android:id="@id/forum_hotlist_stub_vote"
+            android:layout="@layout/forum_section_post_vote_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+        <ViewStub
+            android:id="@id/forum_hotlist_stub_moment_imgs"
+            android:visibility="gone"
+            android:layout="@layout/forum_section_post_three_img_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+        <ViewStub
+            android:id="@id/forum_hotlist_stub_banner"
+            android:layout="@layout/forum_section_post_banner_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+        <ViewStub
+            android:id="@id/forum_hotlist_stub_three_imgs"
+            android:layout="@layout/forum_section_post_three_img_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+    </LinearLayout>
+</merge>

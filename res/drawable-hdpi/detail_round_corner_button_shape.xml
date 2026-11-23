@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/appgallery_color_foreground" />
+    <corners
+        android:radius="@dimen/download_bar_item_text" />
+    <stroke
+        android:width="0.5dip"
+        android:color="@color/appgallery_color_tertiary" />
+</shape>

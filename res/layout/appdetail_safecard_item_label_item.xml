@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:id="@id/appdetail_head_label_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    <TextView
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:gravity="center_vertical"
+        android:id="@id/appdetail_head_label_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appgallery_unclickable_label_separator_middle_dot" />
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="locale"
+        app:clip_background="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_corner="16.0dip">
+        <com.huawei.appmarket.service.store.awk.widget.horizon.HorizonBigVideoPlayer
+            android:id="@id/video_player"
+            android:tag="@string/properties_video_contentDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:media_type="0"
+            app:view_type="0" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/left_tag_container"
+            android:background="@drawable/ic_left_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_star" />
+            <TextView
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:id="@id/left_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textDirection="locale"
+                android:layout_marginStart="4.0dip"
+                android:layout_marginEnd="8.0dip"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Fixed.Secondary" />
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:id="@id/multi_column_card_bottom_container"
+            android:layout_width="fill_parent"
+            android:layout_height="104.0dip"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/bottom_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="56.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m">
+                <ImageView
+                    android:id="@id/app_icon"
+                    android:layout_width="@dimen/appgallery_card_icon_size_xs"
+                    android:layout_height="@dimen/appgallery_card_icon_size_xs" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:ellipsize="end"
+                    android:id="@id/app_info"
+                    android:tag="css/.subtitle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_weight="1.0"
+                    android:textDirection="locale"
+                    android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                    android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+                <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+                    android:id="@id/app_download_button"
+                    android:layout_width="56.0dip"
+                    android:layout_height="28.0dip"
+                    android:paddingStart="0.0dip"
+                    android:paddingEnd="0.0dip"
+                    style="@style/Widget.Emui.HwButton.Small" />
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:id="@id/video_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:includeFontPadding="false"
+                android:layout_above="@id/bottom_desc"
+                android:alpha="0.6"
+                android:textDirection="locale"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Fixed.Secondary" />
+        </RelativeLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</LinearLayout>

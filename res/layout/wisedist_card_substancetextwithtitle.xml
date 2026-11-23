@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/substancetitle"
+        android:tag="css/.title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_m"
+        style="@style/AppGallery.TextAppearance.Paragraph.SubTitle1.Regular" />
+    <com.huawei.appmarket.service.store.awk.widget.SubstanceTextview
+        android:id="@id/substancetext"
+        android:tag="css/.subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="@dimen/appgallery_text_line_space_l"
+        android:textDirection="locale"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Secondary" />
+</LinearLayout>

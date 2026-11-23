@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/gamecenter_icon_layout"
+    android:background="@drawable/hwappbarpattern_selector_item_bg"
+    android:visibility="visible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/margin_s"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="@dimen/hwappbarpattern_icon_size"
+        android:layout_height="@dimen/hwappbarpattern_icon_size">
+        <ImageView
+            android:id="@id/right_imageview_gamecenter"
+            android:background="@drawable/forum_section_ic_tab_game_normal"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

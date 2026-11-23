@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_and_hover_layer"
+        android:state_activated="true"
+        android:state_hovered="true" />
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_and_hover_layer"
+        android:state_activated="true"
+        android:state_hovered="true" />
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_and_active_layer"
+        android:state_activated="true" />
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_and_hover_layer"
+        android:state_hovered="true" />
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_and_hover_layer"
+        android:state_hovered="true" />
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_layer" />
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/aguikit_round_rectangle_focus_layer" />
+    <item
+        android:drawable="@drawable/aguikit_round_rectangle_hover_layer"
+        android:state_hovered="true" />
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/aguikit_round_rectangle_press_layer" />
+    <item
+        android:drawable="@drawable/aguikit_round_rectangle_active_layer"
+        android:state_activated="true" />
+</selector>

@@ -1,0 +1,141 @@
+.class final Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field private b:Ljava/lang/String;
+
+.field private c:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Lcom/huawei/appmarket/m64;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Lcom/huawei/appmarket/m64;)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$b;->b:Ljava/lang/String;
+
+    new-instance p1, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$b;->c:Ljava/lang/ref/WeakReference;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final m2(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 3
+
+    .line 1
+    return-void
+.end method
+
+.method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I
+    .registers 4
+
+    .line 1
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public final z0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 6
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->d()Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/sdk/service/app/ApplicationWrapper;->b()Landroid/content/Context;
+
+    move-result-object p1
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->isResponseSucc()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 p2, 0x1
+
+    new-array v0, p2, [Ljava/lang/Object;
+
+    const/4 v1, 0x0
+
+    iget-object v2, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$b;->b:Ljava/lang/String;
+
+    aput-object v2, v0, v1
+
+    const v1, 0x7f120eea
+
+    invoke-virtual {p1, v1, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/d08;->g(ILjava/lang/CharSequence;)Lcom/huawei/appmarket/d08;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/d08;->h()V
+
+    invoke-static {}, Lcom/huawei/appgallery/welfarecenter/business/node/PointNumberNode;->M()V
+
+    invoke-static {}, Lcom/huawei/appgallery/welfarecenter/business/node/SignInActivityNode;->L()V
+
+    goto :goto_0
+
+    :cond_0
+    const p1, 0x7f120ee9
+
+    invoke-static {p2, p1}, Lcom/huawei/appmarket/e22;->a(Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;I)V
+
+    :goto_0
+    iget-object p1, p0, Lcom/huawei/appgallery/welfarecenter/business/showpopup/SignInPopUpItem$b;->c:Ljava/lang/ref/WeakReference;
+
+    if-nez p1, :cond_1
+
+    return-void
+
+    :cond_1
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/huawei/appmarket/m64;
+
+    if-eqz p1, :cond_2
+
+    invoke-interface {p1}, Lcom/huawei/appmarket/m64;->finish()V
+
+    :cond_2
+    return-void
+.end method

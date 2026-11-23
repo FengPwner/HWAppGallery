@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="start|center"
+    android:orientation="horizontal"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/lefticon"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip">
+        <ImageView
+            android:id="@id/icon1"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/aguikit_ic_public_cancel" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:id="@id/hispace_text_container"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/package_manager_title"
+            android:maxLines="1"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:hwAutoSizeMinTextSize="@dimen/hwappbarpattern_subtitle_min_text_size"
+            app:hwAutoSizeStepGranularity="@dimen/hwappbarpattern_title_textsize_step"
+            style="@style/AppGallery.Widget.Toolbar.SubTitle" />
+    </LinearLayout>
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="end|center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/rightMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/img_uninstallall"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_marginEnd="@dimen/margin_s"
+                app:popupTitle="@string/appinstall_btn_uninstallall">
+                <ImageView
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/aguikit_ic_public_delete" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/img_uninstalleach"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+                app:popupTitle="@string/appinstall_btn_uninstall">
+                <ImageView
+                    android:id="@id/uninstall_each_image"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/aguikit_ic_public_delete" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/img_selectall"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_marginEnd="@dimen/margin_s"
+                app:popupTitle="@string/appinstall_btn_selectall">
+                <ImageView
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/aguikit_ic_public_select_all" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:id="@id/img_unselectall"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+                android:layout_marginEnd="@dimen/margin_s"
+                app:popupTitle="@string/appinstall_btn_unselectall">
+                <ImageView
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/aguikit_ic_public_deselect_filled" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+            android:gravity="center"
+            android:id="@id/install_record"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/hwappbarpattern_icon_size"
+            android:contentDescription="@string/install_record_title"
+            app:popupTitle="@string/install_record_title">
+            <ImageView
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/install_record_icon" />
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+        <View
+            android:layout_width="@dimen/margin_s"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</LinearLayout>

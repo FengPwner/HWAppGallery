@@ -1,0 +1,137 @@
+.class public Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutOnCompleteListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/eo5;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xc
+    name = "SignOutOnCompleteListener"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/huawei/appmarket/eo5<",
+        "Ljava/lang/Void;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutNoConnectPendingResult;
+
+
+# direct methods
+.method public constructor <init>(Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutNoConnectPendingResult;)V
+    .registers 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutOnCompleteListener;->a:Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutNoConnectPendingResult;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onComplete(Lcom/huawei/appmarket/hv7;)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/huawei/appmarket/hv7<",
+            "Ljava/lang/Void;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "HuaweiIdAuthAPIServiceImpl"
+
+    const-string v1, "SignOutOnCompleteListener onComplete"
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2}, Lcom/huawei/hms/hwid/ar;->b(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    iget-object v1, p0, Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutOnCompleteListener;->a:Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutNoConnectPendingResult;
+
+    if-nez v1, :cond_0
+
+    const-string p1, "signOutResultPendingResult is null"
+
+    invoke-static {v0, p1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    return-void
+
+    :cond_0
+    sget-object v1, Lcom/huawei/hms/support/api/client/Status;->FAILURE:Lcom/huawei/hms/support/api/client/Status;
+
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->isSuccessful()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_1
+
+    sget-object v1, Lcom/huawei/hms/support/api/client/Status;->SUCCESS:Lcom/huawei/hms/support/api/client/Status;
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p1}, Lcom/huawei/appmarket/hv7;->getException()Ljava/lang/Exception;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    instance-of v3, p1, Lcom/huawei/hms/common/ApiException;
+
+    if-eqz v3, :cond_2
+
+    check-cast p1, Lcom/huawei/hms/common/ApiException;
+
+    new-instance v1, Lcom/huawei/hms/support/api/client/Status;
+
+    invoke-virtual {p1}, Lcom/huawei/hms/common/ApiException;->getStatusCode()I
+
+    move-result p1
+
+    invoke-direct {v1, p1}, Lcom/huawei/hms/support/api/client/Status;-><init>(I)V
+
+    goto :goto_0
+
+    :cond_2
+    const-string p1, "wrong exception while failed"
+
+    invoke-static {v0, p1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_0
+    iget-object p1, p0, Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutOnCompleteListener;->a:Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutNoConnectPendingResult;
+
+    invoke-virtual {p1}, Lcom/huawei/hms/support/hwid/service/HuaweiIdAuthAPIServiceImpl$SignOutNoConnectPendingResult;->getCallback()Lcom/huawei/hms/support/api/client/ResultCallback;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_3
+
+    invoke-interface {p1, v1}, Lcom/huawei/hms/support/api/client/ResultCallback;->onResult(Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    :cond_3
+    const-string p1, "set Result callback after signOut completed"
+
+    invoke-static {v0, p1, v2}, Lcom/huawei/hms/hwid/ar;->d(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_1
+    return-void
+.end method

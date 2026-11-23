@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:layout_gravity="center"
+        android:id="@id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all"
+        app:touch_drawable="@drawable/wisedist_small_clover_icon_no_stroke" />
+</androidx.constraintlayout.widget.ConstraintLayout>

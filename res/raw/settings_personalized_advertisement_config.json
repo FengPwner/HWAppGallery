@@ -1,0 +1,48 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "个性化广告按钮",
+      "maxRows": 1,
+      "layoutName": "settingpersonalizedadvertisingcard"
+    },
+    {
+      "layoutId": 3,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividerlinecard"
+    },
+    {
+      "layoutId": 2,
+      "name": "个性化广告内容",
+      "maxRows": 1,
+      "layoutName": "settingpersonalizedcontentcard"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "个性化广告按钮",
+      "layoutName": "settingpersonalizedadvertisingcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "分割线",
+      "layoutName": "settingdividerlinecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "个性化广告内容",
+      "layoutName": "settingpersonalizedcontentcard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

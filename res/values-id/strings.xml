@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="captcha_tip_close">Menutup</string>
+    <string name="captcha_tip_init_timeout">Inisialisasi gagal, klik untuk mencoba lagi</string>
+    <string name="captcha_tip_load_failed">Pemuatan gagal</string>
+    <string name="captcha_tip_loading">Deteksi cerdas</string>
+    <string name="captcha_tip_no_network">Jaringan tidak normal. Periksa jaringan dan coba lagi.</string>
+    <string name="captcha_tip_validate_timeout">Verifikasi waktu tunggu, tutup dan periksa jaringan</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.foundation.ui.framework.widget.DisableMouseWheelLinearLayout
+    android:orientation="vertical"
+    android:id="@id/tabsContentLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/tabsRecyclerViewContainer"
+        android:background="@color/appgallery_color_sub_background"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/tabsRecyclerView"
+            android:paddingTop="@dimen/appgallery_card_elements_margin_s"
+            android:paddingBottom="@dimen/appgallery_card_elements_margin_s"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        <View
+            android:id="@id/tabsExpandArrowFade"
+            android:background="@drawable/hiappbase_tab_arrow_fade_left"
+            android:layout_width="24.0dip"
+            android:layout_height="0.0dip"
+            android:layout_alignTop="@id/tabsExpandArrow"
+            android:layout_alignBottom="@id/tabsExpandArrow"
+            android:layout_marginEnd="-6.0dip"
+            android:layout_toStartOf="@id/tabsExpandArrow" />
+        <FrameLayout
+            android:layout_gravity="top"
+            android:id="@id/tabsExpandArrow"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@id/tabsExpandArrowIv"
+                android:background="@drawable/hiappbase_tab_arrow_bg"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip"
+                android:src="@drawable/hiappbase_tab_arrow_selector"
+                android:paddingStart="6.0dip"
+                android:paddingEnd="6.0dip"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        </FrameLayout>
+    </RelativeLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:orientation="vertical"
+        android:id="@id/tabsViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+</com.huawei.appgallery.foundation.ui.framework.widget.DisableMouseWheelLinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="appgallery_banner_card_number_pre_line">2</integer>
+    <integer name="appgallery_card_column">8</integer>
+    <integer name="appgallery_column_count">8</integer>
+    <integer name="appgallery_default_card_number_large">2</integer>
+    <integer name="appgallery_default_card_number_medium">4</integer>
+    <integer name="appgallery_default_card_number_small">4</integer>
+    <integer name="appgallery_default_node_number_large">2</integer>
+    <integer name="appgallery_default_node_number_medium">4</integer>
+    <integer name="appgallery_default_node_number_small">4</integer>
+    <integer name="appgallery_detail_gamebox_vertical_snapshot_display_num">4</integer>
+    <integer name="appgallery_explore_substancetwoimagecard_number_pre_line">3</integer>
+    <integer name="appgallery_gamecenter_applist_number">4</integer>
+    <integer name="content_picture_text_card_number_pre_line">2</integer>
+    <integer name="detail_appgallery_horizontal_snapshot_display_num">2</integer>
+    <integer name="detail_appgallery_vertical_snapshot_display_num">4</integer>
+    <integer name="detail_gamebox_horizontal_snapshot_display_num">4</integer>
+    <integer name="detail_gamebox_vertical_snapshot_display_num">6</integer>
+    <integer name="explore_card_common_card_number">2</integer>
+    <integer name="forum_recommend_item_num">4</integer>
+    <integer name="horizon_card_age_num">2</integer>
+    <integer name="media_select_gridview_itemnum">6</integer>
+    <integer name="remote_device_horizontal_watch_image_display_num">4</integer>
+    <integer name="welfarecenter_pointsredeemCard_column">3</integer>
+    <integer name="wisedist_card_number_bighorizonhomecustomedcard">6</integer>
+    <integer name="wisedist_card_number_horizontalsmallentrancecard">8</integer>
+    <integer name="wisedist_card_number_sixappiconcard">6</integer>
+    <integer name="wisedist_common_card_number">2</integer>
+    <integer name="wisedist_common_node_number">2</integer>
+    <integer name="wisedist_fastapp_num_recentcard">6</integer>
+    <integer name="wisedist_horizon_card_age_num">2</integer>
+    <integer name="wisedist_node_number_narrowapplistcard">2</integer>
+</resources>

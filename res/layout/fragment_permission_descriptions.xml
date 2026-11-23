@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/lay_dialog"
+        android:background="@drawable/dialog_permission_descriptions_bg"
+        android:padding="@dimen/ui_12_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="@color/black"
+            android:gravity="start|center|top"
+            android:id="@id/lay_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/protocol_permission_use_desc"
+            android:alpha="0.9"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <TextView
+            android:textSize="14.0dip"
+            android:textColor="@color/black"
+            android:gravity="start|center|top"
+            android:id="@id/lay_dialog_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_4_dp"
+            android:alpha="0.6"
+            android:fontFamily="@string/emui_text_font_family_regular" />
+    </LinearLayout>
+</FrameLayout>

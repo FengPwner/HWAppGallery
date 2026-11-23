@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.option.post.view.DeletableEditText
+        android:textSize="32.0sp"
+        android:id="@id/front_span_edittext"
+        android:background="@android:color/transparent"
+        android:layout_width="2.0px"
+        android:layout_height="fill_parent"
+        android:imeOptions="flagNoExtractUi|flagNoFullscreen" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.forum.option.post.view.PostCardLinkView
+            android:id="@id/card_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_gravity="center_vertical"
+            android:id="@id/click_front_span"
+            android:layout_width="24.0dip"
+            android:layout_height="32.0dip" />
+        <View
+            android:layout_gravity="end|center"
+            android:id="@id/click_back_span"
+            android:layout_width="24.0dip"
+            android:layout_height="32.0dip" />
+    </FrameLayout>
+    <com.huawei.appgallery.forum.option.post.view.DeletableEditText
+        android:textSize="32.0sp"
+        android:id="@id/span_edittext"
+        android:background="@android:color/transparent"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:minWidth="24.0dip"
+        android:layout_weight="1.0"
+        android:imeOptions="flagNoExtractUi|flagNoFullscreen" />
+</LinearLayout>

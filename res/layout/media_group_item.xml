@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/media_group_image_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/padding_l"
+    android:paddingEnd="@dimen/padding_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/group_image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="@dimen/margin_s"
+        android:layout_alignParentStart="true">
+        <FrameLayout
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_marginTop="12.0dip"
+            android:alpha="0.3"
+            android:layout_marginStart="@dimen/margin_s">
+            <ImageView
+                android:id="@id/group_image_third"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop" />
+            <ImageView
+                android:background="@color/black_alpha_10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:layout_marginTop="6.0dip"
+            android:layout_centerVertical="true"
+            android:alpha="0.6"
+            android:layout_marginStart="@dimen/margin_xs">
+            <ImageView
+                android:id="@id/group_image_second"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop" />
+            <ImageView
+                android:background="@color/black_alpha_10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <ImageView
+            android:id="@id/group_image"
+            android:layout_width="68.0dip"
+            android:layout_height="68.0dip"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@id/right_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_toEndOf="@id/group_image_layout"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/middle_info_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xl"
+            android:layout_marginBottom="@dimen/margin_xl"
+            android:layout_toStartOf="@id/selected_imageview"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/title_name_black"
+                android:id="@id/group_name_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_xs" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/item_desc_gray"
+                android:id="@id/group_img_count"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@plurals/media_pics_num_tips" />
+        </LinearLayout>
+        <ImageView
+            android:id="@id/selected_imageview"
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_xs"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:id="@id/line_imageview"
+            android:background="@color/divider_horizontal_color_emui"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/divider_horizontal_height_emui"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

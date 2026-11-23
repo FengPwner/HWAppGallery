@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/ll_header"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.Widget.SubHeader.ViewGroup">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:layout_gravity="start|bottom|center"
+            android:id="@id/hiappbase_subheader_title_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_family_share_subheader_content"
+            style="@style/AppGallery.Widget.SubHeader.ListTitle" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/all_open_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.Widget.List.SingleTextLineWithLeftImg">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_open_all"
+            android:layout_centerVertical="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <com.huawei.uikit.hwswitch.widget.HwSwitch
+            android:id="@id/hiappbase_filter_switch_id"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.Emui.HwSwitch" />
+        <ImageView
+            android:id="@id/divider_line"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/hiappbase_filter_switch_id"
+            style="@style/AppGallery.Widget.Divider" />
+    </RelativeLayout>
+</LinearLayout>

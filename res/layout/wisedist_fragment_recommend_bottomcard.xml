@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/wisedist_recommend_imageview"
+        android:layout_width="@dimen/appgallery_card_icon_size_xl"
+        android:layout_height="@dimen/appgallery_card_icon_size_xl"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:minWidth="@dimen/appgallery_card_icon_size_xl">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/wisedist_recommend_title_textview"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:importantForAccessibility="no"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/wisedist_recommend_sutitle_textview"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+            android:id="@id/wisedist_recommend_downbutton"
+            android:tag="css/.download-button"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    </RelativeLayout>
+</LinearLayout>

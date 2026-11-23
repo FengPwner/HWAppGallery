@@ -1,0 +1,179 @@
+.class final Lcom/huawei/appmarket/ui;
+.super Lcom/huawei/appmarket/tr4;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/qs2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/tr4;",
+        "Lcom/huawei/appmarket/qs2<",
+        "Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;",
+        "Lcom/huawei/appmarket/x78;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final b:Lcom/huawei/appmarket/ui;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/ui;
+
+    invoke-direct {v0}, Lcom/huawei/appmarket/ui;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/ui;->b:Lcom/huawei/appmarket/ui;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lcom/huawei/appmarket/tr4;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    check-cast p1, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;
+
+    .line 2
+    .line 3
+    const-string v0, "item"
+
+    .line 4
+    .line 5
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/ek4;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getType()Lcom/huawei/appmarket/qj;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getServiceCountry()Ljava/lang/String;
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {p1}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->getSigningEntity()Lcom/huawei/appgallery/agreement/data/api/bean/SigningEntity;
+
+    .line 15
+    .line 16
+    .line 17
+    const/4 v0, 0x0
+
+    .line 18
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLanguage(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setSignedVersion(Ljava/lang/Long;)V
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLatestVersion(Ljava/lang/Long;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setLocalSignTime(Ljava/lang/Long;)V
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setUserIdHash(Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-virtual {p1, v0}, Lcom/huawei/appgallery/agreement/data/internalapi/bean/MutableAgreementItem;->setCloudSignTime(Ljava/lang/Long;)V
+
+    .line 34
+    .line 35
+    .line 36
+    sget-object p1, Lcom/huawei/appmarket/x78;->a:Lcom/huawei/appmarket/x78;
+
+    .line 37
+    .line 38
+    return-object p1
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+.end method

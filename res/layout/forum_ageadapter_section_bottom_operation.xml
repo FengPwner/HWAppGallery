@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/operation_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/forum_section_post_like_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="yes"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l">
+        <com.huawei.appgallery.forum.cards.widget.LikeImageView
+            android:id="@id/forum_section_post_like_icon"
+            android:background="@color/forum_base_black_50_percent"
+            android:layout_width="@dimen/appgallery_default_padding_top"
+            android:layout_height="@dimen/appgallery_default_padding_top" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_caption"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/forum_section_post_like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="@dimen/margin_s" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/forum_section_post_comment_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="yes">
+        <ImageView
+            android:id="@id/forum_section_post_comment_icon"
+            android:layout_width="@dimen/appgallery_default_padding_top"
+            android:layout_height="@dimen/appgallery_default_padding_top"
+            android:src="@drawable/aguikit_ic_public_comments" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_caption"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/forum_section_post_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="@dimen/margin_s" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/forum_section_post_share_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/share_app_title"
+        android:layout_marginStart="@dimen/emui_dimens_element_horizontal_large">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/forum_section_post_share_icon"
+            android:layout_width="@dimen/emui_dimens_element_horizontal_large"
+            android:layout_height="@dimen/emui_dimens_element_horizontal_large"
+            android:src="@drawable/aguikit_ic_public_share"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+</LinearLayout>

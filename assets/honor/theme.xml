@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--华为控件aar换肤start-->
+    <!-- EMUI Primary Colors -->
+    <color name="accent_emui">#00B5E2</color>
+    <!-- Black and Gray Shades -->
+    <color name="emui_color_gray_1">#F8F8F8</color>
+    <color name="hwbottomnavigationview_bg">#F8F8F8</color>
+    <color name="hwtoolbar_background">#F8F8F8</color>
+    <!-- Functional Colors -->
+    <color name="emui_functioanl_blue_dark">#0084A5</color>
+    <!-- Edit text selected background color -->
+    <color name="emui_highlighted_text">#3300B5E2</color>
+    <!--  Spinner dialog pressed background color -->
+    <color name="emui_accent_alpha_10">#00B5E2</color>
+    <!-- HwDownload -->
+    <color name="hwdownload_color">#00B5E2</color>
+    <!-- HwCheckBox -->
+    <color name="hwcheckbox_accent_on_dark_emui">#00B5E2</color>
+    <!-- HwDotsPageIndicator Colors -->
+    <color name="hwdotspageindicator_emui_primary">#00B5E2</color>
+    <!--HwSpinner Colors-->
+    <color name="hwspinner_accent_emui_emphasize">#00B5E2</color>
+    <!--华为控件aar换肤end-->
+
+    <!--快捷方式图标颜色-->
+    <color name="shortcut_icon_color">#00ACC1</color>
+
+    <color name="tab_bg_normal_def_sd">#00ACC1</color>
+    <!--非沉浸式 start-->
+    <!--tab背景色-->
+    <color name="tab_bg_normal_def">#00ACC1</color>
+    <!--滚动下滑线颜色-->
+    <color name="tab_selected_line_def">#FFFFFFFF</color>
+    <!--滚动下滑线背景线颜色-->
+    <color name="tab_line_bg_def">#00ACC1</color>
+    <!--title未选中颜色-->
+    <color name="tab_text_normal_def">#FFFFFFFF</color>
+    <!--title选中颜色-->
+    <color name="tab_text_selected_def_honor">#FFFFFFFF</color>
+    <!--非沉浸式 end-->
+    <color name="white_status_bar">#00ACC1</color>
+
+    <!--tab背景色-->
+    <color name="tab_bg_normal_imm">#01000000</color>
+    <!--滚动下滑线颜色-->
+    <color name="tab_selected_line_imm">#FFFFFFFF</color>
+    <!--滚动下滑线背景线颜色-->
+    <color name="tab_line_bg_imm">#00000000</color>
+    <!--title未选中颜色-->
+    <color name="tab_text_normal_imm">#FFFFFFFF</color>
+    <!--title选中颜色-->
+    <color name="tab_text_selected_imm">#FFFFFFFF</color>
+
+    <!--title文字-->
+    <color name="white">#FFFFFF</color>
+    <!--title背景色-->
+    <color name="tab_background">#2c9195</color>
+
+    <color name="detail_navigator_selected_split">#4d00ACC1</color>
+
+    <!-- 点赞 评论文字颜色 -->
+    <color name="blue_text_007dff">#00ACC1</color>
+
+    <!-- webview 进度条颜色-->
+    <color name="detail_dowanload_progressbar_color">#006064</color>
+
+    <color name="approve_text_color">#00ACC1</color>
+
+    <!--推荐更新按钮-->
+    <color name="category_button_select_pressed">#00838f</color>
+
+    <!--忽略更新文字颜色 按下-->
+    <color name="backgound_0064cc">#00838f</color>
+
+    <!--分类胶囊 -->
+    <color name="category_button_select_unpressed">#00ACC1</color>
+
+    <!--换肤功能使用-->
+    <color name="title_black">#ffffff</color>
+
+    <!--下载进度颜色-->
+    <color name="detail_downloadbutton_processing">#2600ACC1</color>
+
+    <!--下载中边框颜色-->
+    <color name="category_button_select_stroke">#4C00ACC1</color>
+
+    <!--下载按钮颜色-->
+    <color name="tab_text_selected_def">#00ACC1</color>
+
+    <!--详情subtab选中后文字的颜色-->
+    <color name="detail_navigator_selected">#ffffffff</color>
+
+    <!--已购项目subtab选中后文字的颜色-->
+    <color name="blue_text_007dff_subtab">#ffffffff</color>
+
+    <!--关于协议和隐私政策文字颜色 换肤使用-->
+    <color name="privacy_text_color">#00ACC1</color>
+    <color name="normal_protocol_hyperlink">#FF00838F</color>
+    <color name="press_protocol_hyperlink">#FF00ACC1</color>
+
+    <!--安装管理文字颜色 换肤使用-->
+    <color name="uninstall_color">#ffffff</color>
+    <color name="uninstall_num_color">#00ACC1</color>
+    <color name="uninstall_bg_color">#ffffff</color>
+
+    <!--安装管理文字颜色 换肤使用-->
+    <color name="blue_text_007dff_alpha_20">#3300ACC1</color>
+
+    <!-- 优惠券 花币 -->
+    <color name="detail_comment_approve_normal">#00ACC1</color>
+    <color name="normal_blue_text_selector_0064cc">#00838f</color>
+
+    <!-- fast app start-->
+    <color name="fastapp_blue_text_007dff">#00ACC1</color>
+    <color name="fastapp_emui_functional_blue">#0084A5</color>
+    <color name="fastapp_wrap_progress_color">#0084A5</color>
+    <!-- fast app end-->
+
+    <!-- 0表示普通颜色，1表示深色，2表示荣耀色,3表示nova色-->
+    <color name="theme_style">#000002</color>
+
+    <!-- 问题反馈 -->
+    <color name="c_feedback_question_color">#012E5D</color>
+
+    <!-- 更新组件begin -->
+    <color name="updatemanager_category_button_select_pressed">#00838f</color>
+    <color name="updatemanager_category_button_select_stroke">#4C00ACC1</color>
+    <color name="updatemanager_blue_text_007dff_alpha_20">#3300ACC1</color>
+    <!-- 更新组件end -->
+
+    <!-- 节假日 start -->
+    <!-- 信号栏、导航栏，适配换肤 -->
+    <color name="hiappbase_navigation_bar">#F8F8F8</color>
+
+    <!-- 我的界面 卡片间隔 -->
+    <color name="appcommon_mine_sub_divider_color">#F8F8F8</color>
+
+    <color name="emui_basetitle_color">#F8F8F8</color>
+
+    <!-- 节假日 end -->
+
+    <!-- 论坛 start -->
+    <!-- 版主盖章 背景色 15%的emui_accent -->
+    <color name="forum_stamp_moderator_bg">#2600B5E2</color>
+    <!-- 论坛 end -->
+
+    <!--AppGallery EMUI11 荣耀主题颜色定义 start-->
+    <!-- ux standard color -->
+    <color name="emui_accent">#00B1FF</color>
+    <color name="emui_accent_translucent">#00B1FF</color>
+    <color name="emui_accent_dark">#00B1FF</color>
+    <color name="emui_accent_inverse">#FF00B1FF</color>
+    <color name="emui_accent_inverse_translucent">#FF00B1FF</color>
+    <color name="emui_accent_inverse_dark">#FF00B1FF</color>
+    <color name="emui_bottombar_icon_on">#FF00B1FF</color>
+    <color name="emui_bottombar_icon_on_translucent">#FF00B1FF</color>
+    <color name="emui_bottombar_icon_on_dark">#FF00B1FF</color>
+    <color name="emui_bottombar_text_on">#FF00B1FF</color>
+    <color name="emui_bottombar_text_on_translucent">#FF00B1FF</color>
+    <color name="emui_bottombar_text_on_dark">#FF00B1FF</color>
+    <color name="emui_subtab_text_on">#FF00B1FF</color>
+    <color name="emui_subtab_text_on_translucent">#FF00B1FF</color>
+    <color name="emui_subtab_text_on_dark">#FF00B1FF</color>
+    <color name="emui_subtab_line_on">#00B1FF</color>
+    <color name="emui_subtab_line_on_translucent">#00B1FF</color>
+    <color name="emui_subtab_line_on_dark">#00B1FF</color>
+    <color name="emui_toolbar_icon_actived">#00B1FF</color>
+    <color name="emui_toolbar_icon_actived_translucent">#00B1FF</color>
+    <color name="emui_toolbar_icon_actived_dark">#00B1FF</color>
+    <color name="emui_toolbar_text_actived">#00B1FF</color>
+    <color name="emui_toolbar_text_actived_translucent">#00B1FF</color>
+    <color name="emui_toolbar_text_actived_dark">#00B1FF</color>
+    <color name="emui_color_badge">#00B1FF</color>
+    <color name="emui_color_badge_translucent">#00B1FF</color>
+    <color name="emui_color_badge_dark">#00B1FF</color>
+    <color name="emui_fab_icon">#FFFFFF</color>
+    <color name="emui_fab_icon_translucent">#000000</color>
+    <color name="emui_fab_icon_dark">#FFFFFF</color>
+    <color name="emui_fab_icon_start">#00B0FF</color>
+    <color name="emui_fab_icon_start_translucent">#00B0FF</color>
+    <color name="emui_fab_icon_start_dark">#00B0FF</color>
+    <color name="emui_fab_icon_end">#FF00D0</color>
+    <color name="emui_fab_icon_end_translucent">#FF00D0</color>
+    <color name="emui_fab_icon_end_dark">#FF00D0</color>
+    <color name="emui_fab_bg_normal">#00B1FF</color>
+    <color name="emui_fab_bg_normal_translucent">#FFFFFF</color>
+    <color name="emui_fab_bg_normal_dark">#317AF7</color>
+    <color name="emui_fab_shadow_start">#4D0A59F7</color>
+    <color name="emui_fab_shadow_start_translucent">#4D00B0FF</color>
+    <color name="emui_fab_shadow_start_dark">#4D00B0FF</color>
+    <color name="emui_fab_shadow_end">#4D0A59F7</color>
+    <color name="emui_fab_shadow_end_translucent">#4DFF00D0</color>
+    <color name="emui_fab_shadow_end_dark">#4DFF00D0</color>
+    <color name="emui_fab_bg_pressed">#F2F2F2</color>
+    <color name="emui_fab_bg_pressed_translucent">#F2F2F2</color>
+    <color name="emui_fab_bg_pressed_dark">#F2F2F2</color>
+    <color name="emui_functional_blue">#00B1FF</color>
+    <color name="emui_functional_blue_translucent">#00B1FF</color>
+    <color name="emui_functional_blue_dark">#00B1FF</color>
+    <color name="emui_functional_blue_inverse">#00B1FF</color>
+    <color name="emui_functional_blue_inverse_translucent">#00B1FF</color>
+    <color name="emui_functional_blue_inverse_dark">#00B1FF</color>
+    <color name="emui_color_text_highlight">#3300B1FF</color>
+    <color name="emui_color_text_highlight_translucent">#3300B1FF</color>
+    <color name="emui_color_text_highlight_dark">#3300B1FF</color>
+    <color name="emui_text_highlight_inverse">#6100B1FF</color>
+    <color name="emui_text_highlight_inverse_translucent">#6100B1FF</color>
+    <color name="emui_text_highlight_inverse_dark">#6100B1FF</color>
+    <color name="emui_control_highlight">#FF00B1FF</color>
+    <color name="emui_control_highlight_translucent">#FF00B1FF</color>
+    <color name="emui_control_highlight_dark">#FF00B1FF</color>
+    <color name="emui_accent_pressed">#FF00B1FF</color>
+    <color name="emui_accent_pressed_translucent">#FF00B1FF</color>
+    <color name="emui_accent_pressed_dark">#FF00B1FF</color>
+
+
+    <!-- hwbottomnavigationview -->
+    <color name="hwbottomnavigationview_item_active">#00B1FF</color>
+
+    <!-- hwbutton -->
+    <color name="hwbutton_functional_blue_disable">#6100B1FF</color>
+    <color name="hwbutton_functional_blue_dark_disable">#6100B1FF</color>
+    <color name="hwbutton_functional_blue_translucent_disable">#6100B1FF</color>
+    <color name="hwbutton_color_emui_accent_disable">#6100B1FF</color>
+    <color name="hwbutton_color_emui_accent_disable_dark">#6100B1FF</color>
+    <color name="hwbutton_color_emui_accent_disable_translucent">#6100B1FF</color>
+
+    <!-- 文本高亮色 -->
+    <color name="appgallery_text_color_primary_activated">#00B1FF</color>
+    <!-- 可点击文本\超链接\网址文本色 -->
+    <color name="appgallery_text_color_link">#00B1FF</color>
+    <!-- subtab文本高亮色 -->
+    <color name="appgallery_color_subtab_text_on">#00B1FF</color>
+    <!--AppGallery EMUI10 荣耀主题颜色定义 end-->
+
+    <!-- HwFloatingButton控件适配荣耀主题的颜色 -->
+    <color name="hwfloatingbutton_disabled_shadow_start">#4D00B0FF</color>
+    <color name="hwfloatingbutton_disabled_shadow_end">#4DFF00D0</color>
+
+    <!-- feedback sdk 适配EMUI9.0深色省电皮肤 start-->
+    <color name="feedback_sdk_common_btn_blue">#0084A5</color>
+    <color name="feedback_sdk_tab_slider_bg_color_selected">#00B5E2</color>
+    <color name="feedback_sdk_action_bar_grey">#F8F8F8</color>
+    <color name="faq_emui_white_bg">#FFFFFF</color>
+    <color name="feedback_sdk_problem_recycle_select_question_type_bg">#3300B5E2</color>
+    <color name="faq_emui_accent">#00B5E2</color>
+    <!-- feedback sdk 适配EMUI9.0深色省电皮肤 end-->
+</resources>

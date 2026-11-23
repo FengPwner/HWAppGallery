@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/setting_card_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/ui_12_dp"
+        android:paddingRight="@dimen/ui_12_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_primary_title_1"
+            android:textColor="@color/emui_text_primary"
+            android:id="@id/recommend_description_title"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xl"
+            android:layout_marginBottom="@dimen/margin_xl"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwimageview.widget.HwImageView
+                android:background="@drawable/recommend_ic_dot"
+                android:layout_width="@dimen/ui_4_dp"
+                android:layout_height="@dimen/ui_4_dp" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_text_size_body1"
+                android:textColor="@color/emui_text_primary"
+                android:id="@id/recommend_personalized_title"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ui_8_dp"
+                android:importantForAccessibility="yes"
+                android:fontFamily="@string/emui_text_font_family_medium" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_text_primary"
+            android:id="@id/recommend_personalized_content"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_12_dp">
+            <com.huawei.uikit.hwimageview.widget.HwImageView
+                android:background="@drawable/recommend_ic_dot"
+                android:layout_width="@dimen/ui_4_dp"
+                android:layout_height="@dimen/ui_4_dp" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_text_size_body1"
+                android:textColor="@color/emui_text_primary"
+                android:id="@id/recommend_application_service_title"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="yes"
+                android:fontFamily="@string/emui_text_font_family_medium"
+                android:layout_marginStart="@dimen/ui_8_dp" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_text_primary"
+            android:id="@id/recommend_application_service_content"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_12_dp">
+            <com.huawei.uikit.hwimageview.widget.HwImageView
+                android:background="@drawable/recommend_ic_dot"
+                android:layout_width="@dimen/ui_4_dp"
+                android:layout_height="@dimen/ui_4_dp" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_text_size_body1"
+                android:textColor="@color/emui_text_primary"
+                android:id="@id/not_personalized_recommend_title"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ui_8_dp"
+                android:importantForAccessibility="yes"
+                android:fontFamily="@string/emui_text_font_family_medium" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_text_primary"
+            android:id="@id/not_personalized_recommend_content"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/ui_16_dp"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_text_primary"
+            android:id="@id/algorithm_recommend_number_title"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_24_dp"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_body2"
+            android:textColor="@color/appgallery_text_color_link"
+            android:id="@id/recording_information_link"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_two_dip"
+            android:layout_marginBottom="@dimen/ui_24_dp"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+    </LinearLayout>
+</LinearLayout>

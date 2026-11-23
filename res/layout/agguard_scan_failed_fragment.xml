@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/agguard_scan_failed_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/agguard_failed"
+            android:background="@drawable/agguard_failed"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:contentDescription="@string/agguard_scan_failed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/agguard_scan_failed_advice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_l"
+            android:text="@string/agguard_scan_failed_advice_title"
+            android:textDirection="locale"
+            app:layout_constraintStart_toStartOf="@id/agguard_scan_failed_advice_content"
+            app:layout_constraintTop_toBottomOf="@id/agguard_scan_failed_title"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/agguard_scan_failed_advice_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agguard_scan_failed_advice_tips"
+            android:textDirection="locale"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/agguard_scan_failed_advice"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="center_horizontal"
+            android:id="@id/agguard_scan_failed_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xl"
+            android:text="@string/agguard_scan_failed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/agguard_failed"
+            style="@style/AppGallery.TextAppearance.Card.SubTitle2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

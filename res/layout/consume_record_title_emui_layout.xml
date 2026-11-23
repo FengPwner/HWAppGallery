@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/appgallery_color_sub_background"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/wisedist_arrow_layout"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height"
+            android:contentDescription="@string/click_back"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginEnd="4.0dip">
+            <ImageView
+                android:id="@id/up"
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/aguikit_ic_public_back" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start|center"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:id="@id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:paddingEnd="@dimen/appgallery_max_padding_end"
+                style="@style/AppGallery.Widget.Toolbar.Title" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/hwbutton_default_small_emui_pressed_layer" />
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/hwbutton_default_small_emui_disable_drawable" />
+    <item
+        android:drawable="@drawable/hwbutton_default_small_emui_drawable" />
+</selector>

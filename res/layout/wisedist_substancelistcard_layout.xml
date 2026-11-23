@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/substancelistcard_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/substancelistcard_dl_item"
+        android:layout="@layout/wisedist_substancelistcard_dl_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/substancelistcard_head_item"
+        android:layout="@layout/wisedist_substancelistcard_head_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/substancelistcard_video_item"
+        android:layout="@layout/wisedist_substancelistcard_video_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/wisedist_substancelistcard_immersive_item"
+        android:layout="@layout/wisedist_substancelistcard_immersive_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/wisedist_substancelistcard_audio_item"
+        android:layout="@layout/wisedist_substancelistcard_audio_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/wisedist_substancelistcard_image_item"
+        android:layout="@layout/wisedist_substancelistcard_immersive_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:background="@drawable/substancelistcard_item_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

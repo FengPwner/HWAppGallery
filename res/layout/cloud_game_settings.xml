@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/cloudgame_quality_container"
+        android:background="@drawable/aguikit_card_panel_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_max_padding_start"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <RelativeLayout
+            android:id="@id/cloudgame_traffic_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/AppGallery.Widget.List.SingleTextLine">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/allowed_traffic_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/mobile_traffic_switch">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@id/allowed_traffic_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_cloud_game_data_traffic_switch"
+                    android:lineSpacingMultiplier="1.3"
+                    style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+            </LinearLayout>
+            <com.huawei.uikit.hwswitch.widget.HwSwitch
+                android:id="@id/mobile_traffic_switch"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.Emui.HwSwitch" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

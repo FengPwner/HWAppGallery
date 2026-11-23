@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="140.0dip"
+    android:width="100.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="100.0"
+    android:viewportHeight="140.0"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@drawable/$ic_platform_card_sort_index_1__0"
+        android:pathData="M-0,0l99.999,0l0,140l-99.999,0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+    <path
+        android:fillColor="@drawable/$ic_platform_card_sort_index_1__1"
+        android:pathData="M0.001,0L51.463,0L4.105,44.16L4.105,44.16L3.624,44.596C3.547,44.665 3.471,44.732 3.396,44.797L2.963,45.168L2.963,45.168L2.558,45.5L2.558,45.5L2.179,45.795L2.179,45.795L1.822,46.056C1.129,46.547 0.556,46.85 -0,47.066L0.001,0Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.7"
+        android:fillAlpha="0.7"
+        android:fillType="evenOdd" />
+    <path
+        android:fillColor="@drawable/$ic_platform_card_sort_index_1__2"
+        android:pathData="M99.999,140l-99.999,0l0,-15.594l99.999,-94.184z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.7606659"
+        android:fillAlpha="0.7606659"
+        android:fillType="evenOdd" />
+</vector>

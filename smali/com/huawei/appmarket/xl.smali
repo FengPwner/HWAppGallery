@@ -1,0 +1,69 @@
+.class public final Lcom/huawei/appmarket/xl;
+.super Lcom/huawei/appmarket/x20;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/huawei/appmarket/x20<",
+        "Lcom/huawei/appmarket/qb7;",
+        "Landroid/graphics/Path;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/huawei/appmarket/gr4<",
+            "Lcom/huawei/appmarket/qb7;",
+            ">;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/x20;-><init>(Ljava/util/List;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic a()Lcom/huawei/appmarket/d40;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0}, Lcom/huawei/appmarket/xl;->d()Lcom/huawei/appmarket/wb7;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final b()Ljava/util/List;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/x20;->a:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final d()Lcom/huawei/appmarket/wb7;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/wb7;
+
+    iget-object v1, p0, Lcom/huawei/appmarket/x20;->a:Ljava/util/List;
+
+    invoke-direct {v0, v1}, Lcom/huawei/appmarket/wb7;-><init>(Ljava/util/List;)V
+
+    return-object v0
+.end method

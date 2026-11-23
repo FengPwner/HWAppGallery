@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/pushsms_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/AppGallery.Widget.List.TwoTextLines"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/setTextContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/recommend_tags_bg"
+            android:paddingTop="@dimen/ui_8_dp"
+            android:paddingBottom="@dimen/ui_8_dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/ui_12_dp"
+            android:paddingEnd="@dimen/ui_6_dp">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:gravity="start|center"
+                android:id="@id/setItemTitle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+            <com.huawei.uikit.phone.hwswitch.widget.HwSwitch
+                android:id="@id/switchBtn"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ui_12_dp"
+                style="@style/Widget.Emui.HwSwitch" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/setItemContent"
+            android:paddingLeft="@dimen/ui_12_dp"
+            android:paddingRight="@dimen/ui_12_dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_8_dp"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+</RelativeLayout>

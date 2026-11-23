@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+    android:paddingEnd="@dimen/appgallery_card_elements_margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/rl_item_contain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical">
+        <com.huawei.appmarket.framework.widget.RoundCornerLayout
+            android:id="@id/icon_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:round_corner="@dimen/appgallery_default_corner_radius_m">
+            <ImageView
+                android:id="@id/icon"
+                android:layout_width="108.0dip"
+                android:layout_height="81.0dip"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+        </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/campaign_content_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toEndOf="@id/icon_layout">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/itemTitle"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+                <com.huawei.appmarket.framework.widget.PromotionSignTextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/promotion_sign"
+                    android:tag="css/.title"
+                    android:background="@drawable/promotion_sign_bg"
+                    android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                    style="@style/promotion_sign_style" />
+                <TextView
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/itemText"
+                    android:tag="css/.subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            </LinearLayout>
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/timeText"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/bootom_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/rl_item_contain"
+        android:layout_marginStart="@dimen/wisedist_campaigncard_line_margin_start"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/emui_text_size_body2"
+        android:textColor="@color/cas_white"
+        android:gravity="center"
+        android:id="@id/toast_desc"
+        android:background="@drawable/cloudgame_toast_bg"
+        android:layout_width="188.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:adjustViewBounds="true" />
+</LinearLayout>

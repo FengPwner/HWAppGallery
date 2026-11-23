@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/opaward_cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_card_elements_margin_l"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m">
+        <com.huawei.appgallery.detail.detailbase.view.FadeImageView
+            android:id="@id/opaward_image"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:scaleType="centerCrop" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/vertical_divide_line_imageview"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

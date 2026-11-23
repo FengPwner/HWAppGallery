@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/AppListItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/icon"
+        android:clickable="true"
+        android:layout_width="@dimen/campain_three_column_img_width"
+        android:layout_height="@dimen/campain_three_column_img_height"
+        android:src="@color/transparent"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="@dimen/margin_xs" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/middle_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xs"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginStart="@dimen/margin_m"
+        android:layout_marginEnd="@dimen/margin_m">
+        <TextView
+            android:textSize="@dimen/emui_master_body_1"
+            android:textColor="@color/emui_black"
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xs"
+            android:text=""
+            android:maxLines="1"
+            android:alpha="1.0"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:textSize="@dimen/emui_master_caption_2"
+            android:textColor="@color/emui_black"
+            android:ellipsize="end"
+            android:id="@id/ItemText"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:maxLines="1"
+            android:alpha="0.5"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:textSize="@dimen/emui_master_caption_2"
+            android:textColor="@color/emui_black"
+            android:ellipsize="end"
+            android:id="@id/timeText"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:alpha="0.5"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+</LinearLayout>

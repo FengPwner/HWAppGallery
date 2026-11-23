@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">[CS_1030844]_Found %2$d suspicious apps (incl. %1$s)</item>
+        <item quantity="zero">[CS_1030849]_Found %2$d suspicious apps (incl. %1$s)</item>
+        <item quantity="one">[CS_1030853]_Found %2$d suspicious app (%1$s)</item>
+        <item quantity="two">[CS_1030851]_Found %2$d suspicious apps (incl. %1$s)</item>
+        <item quantity="few">[CS_1030843]_Found %2$d suspicious apps (incl. %1$s)</item>
+        <item quantity="many">[CS_1030842]_Found %2$d suspicious apps (incl. %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">[CS_977979]_Found %2$d unused apps (incl. %1$s)</item>
+        <item quantity="zero">[CS_977981]_Found %2$d unused apps (incl. %1$s)</item>
+        <item quantity="one">[CS_977989]_Found %2$d unused app (%1$s)</item>
+        <item quantity="two">[CS_977980]_Found %2$d unused apps (incl. %1$s)</item>
+        <item quantity="few">[CS_977983]_Found %2$d unused apps (incl. %1$s)</item>
+        <item quantity="many">[CS_977990]_Found %2$d unused apps (incl. %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">[CS_1109532]_%d unused apps</item>
+        <item quantity="zero">[CS_1109528]_%d unused apps</item>
+        <item quantity="one">[CS_1109527]_%d unused app</item>
+        <item quantity="two">[CS_1109529]_%d unused apps</item>
+        <item quantity="few">[CS_1109531]_%d unused apps</item>
+        <item quantity="many">[CS_1109530]_%d unused apps</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">[CS_1104721]_%d apps with malicious behavior handled</item>
+        <item quantity="zero">[CS_1104690]_%d apps with malicious behavior handled</item>
+        <item quantity="one">[CS_1104728]_%d app with malicious behavior handled</item>
+        <item quantity="two">[CS_1104746]_%d apps with malicious behavior handled</item>
+        <item quantity="few">[CS_1104713]_%d apps with malicious behavior handled</item>
+        <item quantity="many">[CS_1104723]_%d apps with malicious behavior handled</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">[CS_1104717]_%d apps with malicious behavior detected</item>
+        <item quantity="zero">[CS_1104725]_%d apps with malicious behavior detected</item>
+        <item quantity="one">[CS_1104685]_%d app with malicious behavior detected</item>
+        <item quantity="two">[CS_1104747]_%d apps with malicious behavior detected</item>
+        <item quantity="few">[CS_1104714]_%d apps with malicious behavior detected</item>
+        <item quantity="many">[CS_1104718]_%d apps with malicious behavior detected</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">[CS_1104710]_%d scam apps handled</item>
+        <item quantity="zero">[CS_1104702]_%d scam apps handled</item>
+        <item quantity="one">[CS_1104754]_%d scam app handled</item>
+        <item quantity="two">[CS_1104698]_%d scam apps handled</item>
+        <item quantity="few">[CS_1104722]_%d scam apps handled</item>
+        <item quantity="many">[CS_1104703]_%d scam apps handled</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">[CS_1104741]_%d scam apps detected</item>
+        <item quantity="zero">[CS_1104761]_%d scam apps detected</item>
+        <item quantity="one">[CS_1104699]_%d scam app detected</item>
+        <item quantity="two">[CS_1104720]_%d scam apps detected</item>
+        <item quantity="few">[CS_1104749]_%d scam apps detected</item>
+        <item quantity="many">[CS_1104726]_%d scam apps detected</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">[CS_1104705]_%d apps with privacy risks handled</item>
+        <item quantity="zero">[CS_1104740]_%d apps with privacy risks handled</item>
+        <item quantity="one">[CS_1104753]_%d app with privacy risks handled</item>
+        <item quantity="two">[CS_1104687]_%d apps with privacy risks handled</item>
+        <item quantity="few">[CS_1104744]_%d apps with privacy risks handled</item>
+        <item quantity="many">[CS_1104694]_%d apps with privacy risks handled</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">[CS_1104708]_%d apps with privacy risks detected</item>
+        <item quantity="zero">[CS_1104751]_%d apps with privacy risks detected</item>
+        <item quantity="one">[CS_1104742]_%d app with privacy risks detected</item>
+        <item quantity="two">[CS_1104748]_%d apps with privacy risks detected</item>
+        <item quantity="few">[CS_1104706]_%d apps with privacy risks detected</item>
+        <item quantity="many">[CS_1104736]_%d apps with privacy risks detected</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">[CS_1104715]_%d apps with security threats handled</item>
+        <item quantity="zero">[CS_1104734]_%d apps with security threats handled</item>
+        <item quantity="one">[CS_1104745]_%d app with security threats handled</item>
+        <item quantity="two">[CS_1104695]_%d apps with security threats handled</item>
+        <item quantity="few">[CS_1104733]_%d apps with security threats handled</item>
+        <item quantity="many">[CS_1104700]_%d apps with security threats handled</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">[CS_1104732]_%d apps with security threats detected</item>
+        <item quantity="zero">[CS_1104750]_%d apps with security threats detected</item>
+        <item quantity="one">[CS_1104707]_%d app with security threats detected</item>
+        <item quantity="two">[CS_1104696]_%d apps with security threats detected</item>
+        <item quantity="few">[CS_1104743]_%d apps with security threats detected</item>
+        <item quantity="many">[CS_1104737]_%d apps with security threats detected</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">[CS_1104691]_%d apps with viruses handled</item>
+        <item quantity="zero">[CS_1104711]_%d apps with viruses handled</item>
+        <item quantity="one">[CS_1104759]_%d app with viruses handled</item>
+        <item quantity="two">[CS_1104739]_%d apps with viruses handled</item>
+        <item quantity="few">[CS_1104686]_%d apps with viruses handled</item>
+        <item quantity="many">[CS_1104756]_%d apps with viruses handled</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">[CS_1104762]_%d apps with viruses detected</item>
+        <item quantity="zero">[CS_1104757]_%d apps with viruses detected</item>
+        <item quantity="one">[CS_1104688]_%d app with viruses detected</item>
+        <item quantity="two">[CS_1104716]_%d apps with viruses detected</item>
+        <item quantity="few">[CS_1104729]_%d apps with viruses detected</item>
+        <item quantity="many">[CS_1104692]_%d apps with viruses detected</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">[CS_1031498]_%d items optimized</item>
+        <item quantity="zero">[CS_1031510]_%d items optimized</item>
+        <item quantity="one">[CS_1031506]_%d item optimized</item>
+        <item quantity="two">[CS_1031512]_%d items optimized</item>
+        <item quantity="few">[CS_1031495]_%d items optimized</item>
+        <item quantity="many">[CS_1031503]_%d items optimized</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">[CS_1030852]_%d issues detected</item>
+        <item quantity="zero">[CS_1030838]_%d issues detected</item>
+        <item quantity="one">[CS_1030837]_%d issue detected</item>
+        <item quantity="two">[CS_1030856]_%d issues detected</item>
+        <item quantity="few">[CS_1030845]_%d issues detected</item>
+        <item quantity="many">[CS_1030840]_%d issues detected</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">[CS_932014]_%d apps scanned</item>
+        <item quantity="zero">[CS_932016]_%d apps scanned</item>
+        <item quantity="one">[CS_932031]_%d app scanned</item>
+        <item quantity="two">[CS_932015]_%d apps scanned</item>
+        <item quantity="few">[CS_932022]_%d apps scanned</item>
+        <item quantity="many">[CS_932038]_%d apps scanned</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">[CS_1012780]_%d days ago</item>
+        <item quantity="zero">[CS_1012774]_%d days ago</item>
+        <item quantity="one">[CS_1012781]_%d day ago</item>
+        <item quantity="two">[CS_1012775]_%d days ago</item>
+        <item quantity="few">[CS_1012782]_%d days ago</item>
+        <item quantity="many">[CS_1012777]_%d days ago</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">[CS_1022775]_%d threats</item>
+        <item quantity="zero">[CS_1022774]_%d threats</item>
+        <item quantity="one">[CS_1022773]_%d threat</item>
+        <item quantity="two">[CS_1022776]_%d threats</item>
+        <item quantity="few">[CS_1022772]_%d threats</item>
+        <item quantity="many">[CS_1022777]_%d threats</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">[CS_1022137]_%d apps scanned</item>
+        <item quantity="zero">[CS_1022116]_%d apps scanned</item>
+        <item quantity="one">[CS_1022132]_%d app scanned</item>
+        <item quantity="two">[CS_1022111]_%d apps scanned</item>
+        <item quantity="few">[CS_1022121]_%d apps scanned</item>
+        <item quantity="many">[CS_1022112]_%d apps scanned</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">[CS_1022107]_%d app threats</item>
+        <item quantity="zero">[CS_1022100]_%d app threats</item>
+        <item quantity="one">[CS_1022130]_%d app threat</item>
+        <item quantity="two">[CS_1022105]_%d app threats</item>
+        <item quantity="few">[CS_1022138]_%d app threats</item>
+        <item quantity="many">[CS_1022103]_%d app threats</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">[CS_1022110]_%2$d suspicious apps found in the last %1$d days. View details >></item>
+        <item quantity="zero">[CS_1022129]_%2$d suspicious apps found in the last %1$d days. View details >></item>
+        <item quantity="one">[CS_1022123]_%2$d suspicious app found in the last %1$d days. View details >></item>
+        <item quantity="two">[CS_1022131]_%2$d suspicious apps found in the last %1$d days. View details >></item>
+        <item quantity="few">[CS_1022139]_%2$d suspicious apps found in the last %1$d days. View details >></item>
+        <item quantity="many">[CS_1022140]_%2$d suspicious apps found in the last %1$d days. View details >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">[CS_1022109]_%2$d apps scanned in the last %1$d days. View details >></item>
+        <item quantity="zero">[CS_1022126]_%2$d apps scanned in the last %1$d days. View details >></item>
+        <item quantity="one">[CS_1022106]_%2$d app scanned in the last %1$d days. View details >></item>
+        <item quantity="two">[CS_1022128]_%2$d apps scanned in the last %1$d days. View details >></item>
+        <item quantity="few">[CS_1022115]_%2$d apps scanned in the last %1$d days. View details >></item>
+        <item quantity="many">[CS_1022133]_%2$d apps scanned in the last %1$d days. View details >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">[CS_1104730]_%d apps can be compressed</item>
+        <item quantity="zero">[CS_1104738]_%d apps can be compressed</item>
+        <item quantity="one">[CS_1104760]_%d app can be compressed</item>
+        <item quantity="two">[CS_1104701]_%d apps can be compressed</item>
+        <item quantity="few">[CS_1104727]_%d apps can be compressed</item>
+        <item quantity="many">[CS_1104752]_%d apps can be compressed</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">[CS_1104735]_%d unknown apps detected.</item>
+        <item quantity="zero">[CS_1104758]_%d unknown apps detected.</item>
+        <item quantity="one">[CS_1104724]_%d unknown app detected.</item>
+        <item quantity="two">[CS_1104709]_%d unknown apps detected.</item>
+        <item quantity="few">[CS_1104697]_%d unknown apps detected.</item>
+        <item quantity="many">[CS_1104712]_%d unknown apps detected.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">[CS_1104704]_Compressible apps (%d)</item>
+        <item quantity="zero">[CS_1104755]_Compressible apps (%d)</item>
+        <item quantity="one">[CS_1104719]_Compressible apps (%d)</item>
+        <item quantity="two">[CS_1104731]_Compressible apps (%d)</item>
+        <item quantity="few">[CS_1104689]_Compressible apps (%d)</item>
+        <item quantity="many">[CS_1104693]_Compressible apps (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">[CS_1077164]_%d unknown apps found. Please check.</item>
+        <item quantity="zero">[CS_1077166]_%d unknown apps found. Please check.</item>
+        <item quantity="one">[CS_1077172]_%d unknown app found. Please check.</item>
+        <item quantity="two">[CS_1077168]_%d unknown apps found. Please check.</item>
+        <item quantity="few">[CS_1077163]_%d unknown apps found. Please check.</item>
+        <item quantity="many">[CS_1077173]_%d unknown apps found. Please check.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">[CS_1077165]_%d unknown apps found</item>
+        <item quantity="zero">[CS_1077169]_%d unknown apps found</item>
+        <item quantity="one">[CS_1077162]_%d unknown app found</item>
+        <item quantity="two">[CS_1077174]_%d unknown apps found</item>
+        <item quantity="few">[CS_1077171]_%d unknown apps found</item>
+        <item quantity="many">[CS_1077167]_%d unknown apps found</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">[CS_1039481]_%d min ago</item>
+        <item quantity="zero">[CS_1039482]_%d min ago</item>
+        <item quantity="one">[CS_1039475]_%d min ago</item>
+        <item quantity="two">[CS_1039476]_%d min ago</item>
+        <item quantity="few">[CS_1039474]_%d min ago</item>
+        <item quantity="many">[CS_1039477]_%d min ago</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">[CS_677881]_Rating: %s</item>
+        <item quantity="zero">[CS_677878]_Rating: %s</item>
+        <item quantity="one">[CS_677876]_Rating: %s</item>
+        <item quantity="two">[CS_677879]_Rating: %s</item>
+        <item quantity="few">[CS_677877]_Rating: %s</item>
+        <item quantity="many">[CS_677880]_Rating: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">[CS_558947]_%1$s contains age-restricted content. By touching %3$s and downloading this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="zero">[CS_558952]_%1$s contains age-restricted content. By touching %3$s and downloading this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="one">[CS_558951]_%1$s contains age-restricted content. By touching %3$s and downloading this app, you confirm that you are over %2$d year old.</item>
+        <item quantity="two">[CS_558957]_%1$s contains age-restricted content. By touching %3$s and downloading this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="few">[CS_558953]_%1$s contains age-restricted content. By touching %3$s and downloading this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="many">[CS_558949]_%1$s contains age-restricted content. By touching %3$s and downloading this app, you confirm that you are over %2$d years old.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">[CS_442289]_Downloads paused: %1$d</item>
+        <item quantity="zero">[CS_442069]_Downloads paused: %1$d</item>
+        <item quantity="one">[CS_442305]_Downloads paused: %1$d</item>
+        <item quantity="two">[CS_442429]_Downloads paused: %1$d</item>
+        <item quantity="few">[CS_442321]_Downloads paused: %1$d</item>
+        <item quantity="many">[CS_442187]_Downloads paused: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">[CS_558950]_%1$s contains age-restricted content. By touching %3$s and using this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="zero">[CS_558954]_%1$s contains age-restricted content. By touching %3$s and using this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="one">[CS_558956]_%1$s contains age-restricted content. By touching %3$s and using this app, you confirm that you are over %2$d year old.</item>
+        <item quantity="two">[CS_558958]_%1$s contains age-restricted content. By touching %3$s and using this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="few">[CS_558955]_%1$s contains age-restricted content. By touching %3$s and using this app, you confirm that you are over %2$d years old.</item>
+        <item quantity="many">[CS_558948]_%1$s contains age-restricted content. By touching %3$s and using this app, you confirm that you are over %2$d years old.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">[CS_949056]_%d dislikes</item>
+        <item quantity="zero">[CS_949055]_%d dislikes</item>
+        <item quantity="one">[CS_949059]_%d dislike</item>
+        <item quantity="two">[CS_949071]_%d dislikes</item>
+        <item quantity="few">[CS_949050]_%d dislikes</item>
+        <item quantity="many">[CS_949063]_%d dislikes</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">[CS_949068]_%d dislikes, you have disliked this</item>
+        <item quantity="zero">[CS_949067]_%d dislikes, you have disliked this</item>
+        <item quantity="one">[CS_949066]_%d dislike, you have disliked this</item>
+        <item quantity="two">[CS_949052]_%d dislikes, you have disliked this</item>
+        <item quantity="few">[CS_949064]_%d dislikes, you have disliked this</item>
+        <item quantity="many">[CS_949061]_%d dislikes, you have disliked this</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">[CS_949060]_%d likes</item>
+        <item quantity="zero">[CS_949057]_%d likes</item>
+        <item quantity="one">[CS_949058]_%d like</item>
+        <item quantity="two">[CS_949053]_%d likes</item>
+        <item quantity="few">[CS_949065]_%d likes</item>
+        <item quantity="many">[CS_949072]_%d likes</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">[CS_949049]_%d likes, you have liked this</item>
+        <item quantity="zero">[CS_949062]_%d likes, you have liked this</item>
+        <item quantity="one">[CS_949069]_%d like, you have liked this</item>
+        <item quantity="two">[CS_949051]_%d likes, you have liked this</item>
+        <item quantity="few">[CS_949073]_%d likes, you have liked this</item>
+        <item quantity="many">[CS_949054]_%d likes, you have liked this</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">[CS_870672]_%d stars</item>
+        <item quantity="zero">[CS_870660]_%d stars</item>
+        <item quantity="one">[CS_870662]_%d star</item>
+        <item quantity="two">[CS_870663]_%d stars</item>
+        <item quantity="few">[CS_870674]_%d stars</item>
+        <item quantity="many">[CS_870670]_%d stars</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">[CS_645296]_%1$d comments</item>
+        <item quantity="zero">[CS_645278]_%1$d comments</item>
+        <item quantity="one">[CS_645280]_%1$d comment</item>
+        <item quantity="two">[CS_645291]_%1$d comments</item>
+        <item quantity="few">[CS_645256]_%1$d comments</item>
+        <item quantity="many">[CS_645254]_%1$d comments</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">[CS_554426]_%d min ago</item>
+        <item quantity="zero">[CS_554442]_%d min ago</item>
+        <item quantity="one">[CS_554444]_%d min ago</item>
+        <item quantity="two">[CS_554427]_%d min ago</item>
+        <item quantity="few">[CS_554435]_%d min ago</item>
+        <item quantity="many">[CS_554431]_%d min ago</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">[CS_478325]_%d ratings</item>
+        <item quantity="zero">[CS_478332]_%d ratings</item>
+        <item quantity="one">[CS_478338]_%d rating</item>
+        <item quantity="two">[CS_478378]_%d ratings</item>
+        <item quantity="few">[CS_478358]_%d ratings</item>
+        <item quantity="many">[CS_478368]_%d ratings</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">[CS_859376]_%1$d likes</item>
+        <item quantity="zero">[CS_859369]_%1$d likes</item>
+        <item quantity="one">[CS_859368]_%1$d like</item>
+        <item quantity="two">[CS_859373]_%1$d likes</item>
+        <item quantity="few">[CS_859370]_%1$d likes</item>
+        <item quantity="many">[CS_859371]_%1$d likes</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">[CS_859378]_%1$d replies</item>
+        <item quantity="zero">[CS_859367]_%1$d replies</item>
+        <item quantity="one">[CS_859374]_%1$d reply</item>
+        <item quantity="two">[CS_859377]_%1$d replies</item>
+        <item quantity="few">[CS_859372]_%1$d replies</item>
+        <item quantity="many">[CS_859375]_%1$d replies</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">[CS_552398]_All replies (%1$d)</item>
+        <item quantity="zero">[CS_552394]_All replies (%1$d)</item>
+        <item quantity="one">[CS_552395]_All replies (%1$d)</item>
+        <item quantity="two">[CS_552392]_All replies (%1$d)</item>
+        <item quantity="few">[CS_552399]_All replies (%1$d)</item>
+        <item quantity="many">[CS_552396]_All replies (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">[CS_651732]_You need to have played for at least %1$d minutes to comment.</item>
+        <item quantity="zero">[CS_651733]_You need to have played for at least %1$d minutes to comment.</item>
+        <item quantity="one">[CS_651731]_You need to have played for at least %1$d minute to comment.</item>
+        <item quantity="two">[CS_651728]_You need to have played for at least %1$d minutes to comment.</item>
+        <item quantity="few">[CS_651730]_You need to have played for at least %1$d minutes to comment.</item>
+        <item quantity="many">[CS_651727]_You need to have played for at least %1$d minutes to comment.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">[CS_1202901]_%1$s apps are being installed</item>
+        <item quantity="zero">[CS_1202900]_%1$s apps are being installed</item>
+        <item quantity="one">[CS_1202899]_%1$s app is being installed</item>
+        <item quantity="two">[CS_1202896]_%1$s apps are being installed</item>
+        <item quantity="few">[CS_1202897]_%1$s apps are being installed</item>
+        <item quantity="many">[CS_1202898]_%1$s apps are being installed</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">[CS_450836]_%1$d items selected</item>
+        <item quantity="zero">[CS_450835]_%1$d items selected</item>
+        <item quantity="one">[CS_450841]_%1$d item selected</item>
+        <item quantity="two">[CS_450845]_%1$d items selected</item>
+        <item quantity="few">[CS_450838]_%1$d items selected</item>
+        <item quantity="many">[CS_450843]_%1$d items selected</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">[CS_442306]_Uninstall the selected apps, including %1$s?</item>
+        <item quantity="zero">[CS_442642]_Uninstall the selected apps, including %1$s?</item>
+        <item quantity="one">[CS_442389]_Uninstall %1$s?</item>
+        <item quantity="two">[CS_442580]_Uninstall the selected apps, including %1$s?</item>
+        <item quantity="few">[CS_442541]_Uninstall the selected apps, including %1$s?</item>
+        <item quantity="many">[CS_442546]_Uninstall the selected apps, including %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">[CS_442277]_Uninstall %1$s and %2$s other apps from %3$s?</item>
+        <item quantity="zero">[CS_442528]_Uninstall %1$s and %2$s other apps from %3$s?</item>
+        <item quantity="one">[CS_442486]_Uninstall %1$s and %2$s other app from %3$s?</item>
+        <item quantity="two">[CS_442037]_Uninstall %1$s and %2$s other apps from %3$s?</item>
+        <item quantity="few">[CS_442605]_Uninstall %1$s and %2$s other apps from %3$s?</item>
+        <item quantity="many">[CS_442229]_Uninstall %1$s and %2$s other apps from %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">[CS_1204923]_Uninstall %2$s apps, including %1$s?</item>
+        <item quantity="zero">[CS_1204920]_Uninstall %2$s apps, including %1$s?</item>
+        <item quantity="one">[CS_1204922]_Uninstall %2$s app, including %1$s?</item>
+        <item quantity="two">[CS_1204919]_Uninstall %2$s apps, including %1$s?</item>
+        <item quantity="few">[CS_1204921]_Uninstall %2$s apps, including %1$s?</item>
+        <item quantity="many">[CS_1204918]_Uninstall %2$s apps, including %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">[CS_442032]_Delete %1$s records?</item>
+        <item quantity="zero">[CS_442434]_Delete %1$s records?</item>
+        <item quantity="one">[CS_442063]_Delete %1$s record?</item>
+        <item quantity="two">[CS_442656]_Delete %1$s records?</item>
+        <item quantity="few">[CS_442125]_Delete %1$s records?</item>
+        <item quantity="many">[CS_442627]_Delete %1$s records?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">[CS_442660]_The following %1$d apps require access to certain permissions:</item>
+        <item quantity="zero">[CS_442094]_The following %1$d apps require access to certain permissions:</item>
+        <item quantity="one">[CS_442492]_The following %1$d app requires access to certain permissions:</item>
+        <item quantity="two">[CS_442258]_The following %1$d apps require access to certain permissions:</item>
+        <item quantity="few">[CS_442481]_The following %1$d apps require access to certain permissions:</item>
+        <item quantity="many">[CS_442323]_The following %1$d apps require access to certain permissions:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">[CS_553380]_%1$d ratings</item>
+        <item quantity="zero">[CS_553414]_%1$d ratings</item>
+        <item quantity="one">[CS_553400]_%1$d rating</item>
+        <item quantity="two">[CS_553390]_%1$d ratings</item>
+        <item quantity="few">[CS_553425]_%1$d ratings</item>
+        <item quantity="many">[CS_553388]_%1$d ratings</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">[CS_555774]_%1$sM ratings</item>
+        <item quantity="zero">[CS_555738]_%1$sM ratings</item>
+        <item quantity="one">[CS_555750]_%1$sM ratings</item>
+        <item quantity="two">[CS_555764]_%1$sM ratings</item>
+        <item quantity="few">[CS_555728]_%1$sM ratings</item>
+        <item quantity="many">[CS_555775]_%1$sM ratings</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">[CS_555726]_%1$sK ratings</item>
+        <item quantity="zero">[CS_555767]_%1$sK ratings</item>
+        <item quantity="one">[CS_555724]_%1$sK ratings</item>
+        <item quantity="two">[CS_555749]_%1$sK ratings</item>
+        <item quantity="few">[CS_555769]_%1$sK ratings</item>
+        <item quantity="many">[CS_555761]_%1$sK ratings</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">[CS_443210]_%1$s activities</item>
+        <item quantity="zero">[CS_443030]_%1$s activities</item>
+        <item quantity="one">[CS_443155]_%1$s activity</item>
+        <item quantity="two">[CS_443107]_%1$s activities</item>
+        <item quantity="few">[CS_443032]_%1$s activities</item>
+        <item quantity="many">[CS_443171]_%1$s activities</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">[CS_801728]_Less than %1$s minutes of game time left. Save your game as soon as possible.</item>
+        <item quantity="zero">[CS_801656]_Less than %1$s minutes of game time left. Save your game as soon as possible.</item>
+        <item quantity="one">[CS_801711]_Less than %1$s minute of game time left. Save your game as soon as possible.</item>
+        <item quantity="two">[CS_801699]_Less than %1$s minutes of game time left. Save your game as soon as possible.</item>
+        <item quantity="few">[CS_801730]_Less than %1$s minutes of game time left. Save your game as soon as possible.</item>
+        <item quantity="many">[CS_801748]_Less than %1$s minutes of game time left. Save your game as soon as possible.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">[CS_845323]_Only %d minutes remaining.</item>
+        <item quantity="zero">[CS_845315]_Only %d minutes remaining.</item>
+        <item quantity="one">[CS_845317]_Only %d minute remaining.</item>
+        <item quantity="two">[CS_845312]_Only %d minutes remaining.</item>
+        <item quantity="few">[CS_845326]_Only %d minutes remaining.</item>
+        <item quantity="many">[CS_845314]_Only %d minutes remaining.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">[CS_885905]_%d hours</item>
+        <item quantity="zero">[CS_885888]_%d hours</item>
+        <item quantity="one">[CS_885908]_%d hour</item>
+        <item quantity="two">[CS_885903]_%d hours</item>
+        <item quantity="few">[CS_885914]_%d hours</item>
+        <item quantity="many">[CS_885895]_%d hours</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">[CS_885911]_%d minutes</item>
+        <item quantity="zero">[CS_885912]_%d minutes</item>
+        <item quantity="one">[CS_885894]_%d minute</item>
+        <item quantity="two">[CS_885907]_%d minutes</item>
+        <item quantity="few">[CS_885886]_%d minutes</item>
+        <item quantity="many">[CS_885889]_%d minutes</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">[CS_885893]_%d seconds</item>
+        <item quantity="zero">[CS_885887]_%d seconds</item>
+        <item quantity="one">[CS_885904]_%d second</item>
+        <item quantity="two">[CS_885891]_%d seconds</item>
+        <item quantity="few">[CS_885900]_%d seconds</item>
+        <item quantity="many">[CS_885890]_%d seconds</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">[CS_645284]_%1$sB</item>
+        <item quantity="zero">[CS_645226]_%1$sB</item>
+        <item quantity="one">[CS_645282]_%1$sB</item>
+        <item quantity="two">[CS_645265]_%1$sB</item>
+        <item quantity="few">[CS_645239]_%1$sB</item>
+        <item quantity="many">[CS_645267]_%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">[CS_645234]_%1$sM</item>
+        <item quantity="zero">[CS_645240]_%1$sM</item>
+        <item quantity="one">[CS_645287]_%1$sM</item>
+        <item quantity="two">[CS_645266]_%1$sM</item>
+        <item quantity="few">[CS_645222]_%1$sM</item>
+        <item quantity="many">[CS_645242]_%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">[CS_645225]_%1$sK</item>
+        <item quantity="zero">[CS_645275]_%1$sK</item>
+        <item quantity="one">[CS_645230]_%1$sK</item>
+        <item quantity="two">[CS_645281]_%1$sK</item>
+        <item quantity="few">[CS_645271]_%1$sK</item>
+        <item quantity="many">[CS_645246]_%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">[CS_745584]_%1$d comments</item>
+        <item quantity="zero">[CS_745585]_%1$d comments</item>
+        <item quantity="one">[CS_745588]_%1$d comment</item>
+        <item quantity="two">[CS_745583]_%1$d comments</item>
+        <item quantity="few">[CS_745587]_%1$d comments</item>
+        <item quantity="many">[CS_745586]_%1$d comments</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">[CS_651901]_%d min ago</item>
+        <item quantity="zero">[CS_651882]_%d min ago</item>
+        <item quantity="one">[CS_651902]_%d min ago</item>
+        <item quantity="two">[CS_651891]_%d min ago</item>
+        <item quantity="few">[CS_651931]_%d min ago</item>
+        <item quantity="many">[CS_651909]_%d min ago</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">[CS_888942]_Maximum of %1$d characters</item>
+        <item quantity="zero">[CS_888944]_Maximum of %1$d characters</item>
+        <item quantity="one">[CS_888941]_Maximum of %1$d character</item>
+        <item quantity="two">[CS_888940]_Maximum of %1$d characters</item>
+        <item quantity="few">[CS_888943]_Maximum of %1$d characters</item>
+        <item quantity="many">[CS_888945]_Maximum of %1$d characters</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">[CS_886921]_Enter at least %1$d characters</item>
+        <item quantity="zero">[CS_886913]_Enter at least %1$d characters</item>
+        <item quantity="one">[CS_886924]_Enter at least %1$d character</item>
+        <item quantity="two">[CS_886910]_Enter at least %1$d characters</item>
+        <item quantity="few">[CS_886918]_Enter at least %1$d characters</item>
+        <item quantity="many">[CS_886925]_Enter at least %1$d characters</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"[CS_886909]_Up to %1$d images
+Max %2$s each"</item>
+        <item quantity="zero">"[CS_886916]_Up to %1$d images
+Max %2$s each"</item>
+        <item quantity="one">"[CS_886920]_Up to %1$d image
+Max %2$s each"</item>
+        <item quantity="two">"[CS_886917]_Up to %1$d images
+Max %2$s each"</item>
+        <item quantity="few">"[CS_886922]_Up to %1$d images
+Max %2$s each"</item>
+        <item quantity="many">"[CS_886923]_Up to %1$d images
+Max %2$s each"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">[CS_886914]_Maximum of %d images for this issue type</item>
+        <item quantity="zero">[CS_886912]_Maximum of %d images for this issue type</item>
+        <item quantity="one">[CS_886915]_Maximum of %d image for this issue type</item>
+        <item quantity="two">[CS_886919]_Maximum of %d images for this issue type</item>
+        <item quantity="few">[CS_886926]_Maximum of %d images for this issue type</item>
+        <item quantity="many">[CS_886911]_Maximum of %d images for this issue type</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">[CS_963762]_%1$s stars</item>
+        <item quantity="zero">[CS_963758]_%1$s stars</item>
+        <item quantity="one">[CS_963757]_%1$s star</item>
+        <item quantity="two">[CS_963763]_%1$s stars</item>
+        <item quantity="few">[CS_963761]_%1$s stars</item>
+        <item quantity="many">[CS_963759]_%1$s stars</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">[CS_730867]_Password entered incorrectly %1$d times. Please try again after %2$d min.</item>
+        <item quantity="zero">[CS_730835]_Password entered incorrectly %1$d times. Please try again after %2$d min.</item>
+        <item quantity="one">[CS_730860]_Password entered incorrectly %1$d times. Please try again after %2$d min.</item>
+        <item quantity="two">[CS_730836]_Password entered incorrectly %1$d times. Please try again after %2$d min.</item>
+        <item quantity="few">[CS_730847]_Password entered incorrectly %1$d times. Please try again after %2$d min.</item>
+        <item quantity="many">[CS_730833]_Password entered incorrectly %1$d times. Please try again after %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">[CS_555751]_%1$sB people have participated</item>
+        <item quantity="zero">[CS_555754]_%1$sB people have participated</item>
+        <item quantity="one">[CS_555725]_%1$sB people have participated</item>
+        <item quantity="two">[CS_555736]_%1$sB people have participated</item>
+        <item quantity="few">[CS_555780]_%1$sB people have participated</item>
+        <item quantity="many">[CS_555777]_%1$sB people have participated</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">[CS_555739]_%1$sM people have participated</item>
+        <item quantity="zero">[CS_555734]_%1$sM people have participated</item>
+        <item quantity="one">[CS_555757]_%1$sM people have participated</item>
+        <item quantity="two">[CS_555770]_%1$sM people have participated</item>
+        <item quantity="few">[CS_555723]_%1$sM people have participated</item>
+        <item quantity="many">[CS_555766]_%1$sM people have participated</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">[CS_555732]_%1$s people have participated</item>
+        <item quantity="zero">[CS_555758]_%1$s people have participated</item>
+        <item quantity="one">[CS_555745]_%1$s person has participated</item>
+        <item quantity="two">[CS_555759]_%1$s people have participated</item>
+        <item quantity="few">[CS_555722]_%1$s people have participated</item>
+        <item quantity="many">[CS_555727]_%1$s people have participated</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">[CS_555729]_%1$sK people have participated</item>
+        <item quantity="zero">[CS_555768]_%1$sK people have participated</item>
+        <item quantity="one">[CS_555721]_%1$sK people have participated</item>
+        <item quantity="two">[CS_555747]_%1$sK people have participated</item>
+        <item quantity="few">[CS_555772]_%1$sK people have participated</item>
+        <item quantity="many">[CS_555733]_%1$sK people have participated</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">[CS_555776]_%1$sB people have purchased this</item>
+        <item quantity="zero">[CS_555744]_%1$sB people have purchased this</item>
+        <item quantity="one">[CS_555748]_%1$sB people have purchased this</item>
+        <item quantity="two">[CS_555731]_%1$sB people have purchased this</item>
+        <item quantity="few">[CS_555755]_%1$sB people have purchased this</item>
+        <item quantity="many">[CS_555771]_%1$sB people have purchased this</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">[CS_555779]_%1$sM people have purchased this</item>
+        <item quantity="zero">[CS_555741]_%1$sM people have purchased this</item>
+        <item quantity="one">[CS_555773]_%1$sM people have purchased this</item>
+        <item quantity="two">[CS_555756]_%1$sM people have purchased this</item>
+        <item quantity="few">[CS_555746]_%1$sM people have purchased this</item>
+        <item quantity="many">[CS_555765]_%1$sM people have purchased this</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">[CS_555763]_%1$s people have purchased this</item>
+        <item quantity="zero">[CS_555740]_%1$s people have purchased this</item>
+        <item quantity="one">[CS_555735]_%1$s person has purchased this</item>
+        <item quantity="two">[CS_555752]_%1$s people have purchased this</item>
+        <item quantity="few">[CS_555730]_%1$s people have purchased this</item>
+        <item quantity="many">[CS_555762]_%1$s people have purchased this</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">[CS_555737]_%1$sK people have purchased this</item>
+        <item quantity="zero">[CS_555760]_%1$sK people have purchased this</item>
+        <item quantity="one">[CS_555753]_%1$sK people have purchased this</item>
+        <item quantity="two">[CS_555743]_%1$sK people have purchased this</item>
+        <item quantity="few">[CS_555778]_%1$sK people have purchased this</item>
+        <item quantity="many">[CS_555742]_%1$sK people have purchased this</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">[CS_652765]_%1$s ratings</item>
+        <item quantity="zero">[CS_652767]_%1$s ratings</item>
+        <item quantity="one">[CS_652769]_%1$s rating</item>
+        <item quantity="two">[CS_652766]_%1$s ratings</item>
+        <item quantity="few">[CS_652768]_%1$s ratings</item>
+        <item quantity="many">[CS_652770]_%1$s ratings</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">[CS_1080726]_Rating, %1$s stars</item>
+        <item quantity="zero">[CS_1080720]_Rating, %1$s stars</item>
+        <item quantity="one">[CS_1080725]_Rating, %1$s star</item>
+        <item quantity="two">[CS_1080717]_Rating, %1$s stars</item>
+        <item quantity="few">[CS_1080727]_Rating, %1$s stars</item>
+        <item quantity="many">[CS_1080723]_Rating, %1$s stars</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">[CS_1080722]_Rated %1$s stars</item>
+        <item quantity="zero">[CS_1080718]_Rated %1$s stars</item>
+        <item quantity="one">[CS_1080721]_Rated %1$s star</item>
+        <item quantity="two">[CS_1080719]_Rated %1$s stars</item>
+        <item quantity="few">[CS_1080728]_Rated %1$s stars</item>
+        <item quantity="many">[CS_1080724]_Rated %1$s stars</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">[CS_1189158]_Install anyway (%1$d)</item>
+        <item quantity="zero">[CS_1189157]_Install anyway (%1$d)</item>
+        <item quantity="one">[CS_1189155]_Install anyway (%1$d)</item>
+        <item quantity="two">[CS_1189156]_Install anyway (%1$d)</item>
+        <item quantity="few">[CS_1189154]_Install anyway (%1$d)</item>
+        <item quantity="many">[CS_1189159]_Install anyway (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">[CS_736672]_%d hours</item>
+        <item quantity="zero">[CS_736664]_%d hours</item>
+        <item quantity="one">[CS_736667]_%d hour</item>
+        <item quantity="two">[CS_736660]_%d hours</item>
+        <item quantity="few">[CS_736656]_%d hours</item>
+        <item quantity="many">[CS_736663]_%d hours</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">[CS_736673]_%d minutes</item>
+        <item quantity="zero">[CS_736671]_%d minutes</item>
+        <item quantity="one">[CS_736669]_%d minute</item>
+        <item quantity="two">[CS_736657]_%d minutes</item>
+        <item quantity="few">[CS_736661]_%d minutes</item>
+        <item quantity="many">[CS_736659]_%d minutes</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">[CS_736670]_%d seconds</item>
+        <item quantity="zero">[CS_736662]_%d seconds</item>
+        <item quantity="one">[CS_736658]_%d second</item>
+        <item quantity="two">[CS_736674]_%d seconds</item>
+        <item quantity="few">[CS_736665]_%d seconds</item>
+        <item quantity="many">[CS_736666]_%d seconds</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">[CS_497788]_%1$d items selected</item>
+        <item quantity="zero">[CS_497786]_%1$d items selected</item>
+        <item quantity="one">[CS_497820]_%1$d item selected</item>
+        <item quantity="two">[CS_497771]_%1$d items selected</item>
+        <item quantity="few">[CS_497790]_%1$d items selected</item>
+        <item quantity="many">[CS_497818]_%1$d items selected</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">[CS_576248]_Description must be at least %d characters long. Add screenshots if possible.</item>
+        <item quantity="zero">[CS_576247]_Description must be at least %d characters long. Add screenshots if possible.</item>
+        <item quantity="one">[CS_576251]_Description must be at least %d character long. Add screenshots if possible.</item>
+        <item quantity="two">[CS_576249]_Description must be at least %d characters long. Add screenshots if possible.</item>
+        <item quantity="few">[CS_576246]_Description must be at least %d characters long. Add screenshots if possible.</item>
+        <item quantity="many">[CS_576250]_Description must be at least %d characters long. Add screenshots if possible.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">[CS_510342]_%1$d hours</item>
+        <item quantity="zero">[CS_510343]_%1$d hours</item>
+        <item quantity="one">[CS_510340]_%1$d hour</item>
+        <item quantity="two">[CS_510344]_%1$d hours</item>
+        <item quantity="few">[CS_510348]_%1$d hours</item>
+        <item quantity="many">[CS_510345]_%1$d hours</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">[CS_510339]_%1$d minutes</item>
+        <item quantity="zero">[CS_510346]_%1$d minutes</item>
+        <item quantity="one">[CS_510349]_%1$d minute</item>
+        <item quantity="two">[CS_510338]_%1$d minutes</item>
+        <item quantity="few">[CS_510341]_%1$d minutes</item>
+        <item quantity="many">[CS_510347]_%1$d minutes</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">[CS_738562]_%1$d seconds</item>
+        <item quantity="zero">[CS_738557]_%1$d seconds</item>
+        <item quantity="one">[CS_738560]_%1$d second</item>
+        <item quantity="two">[CS_738564]_%1$d seconds</item>
+        <item quantity="few">[CS_738563]_%1$d seconds</item>
+        <item quantity="many">[CS_738559]_%1$d seconds</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">[CS_528869]_Posts: %1$s</item>
+        <item quantity="zero">[CS_528865]_Posts: %1$s</item>
+        <item quantity="one">[CS_528867]_Posts: %1$s</item>
+        <item quantity="two">[CS_528866]_Posts: %1$s</item>
+        <item quantity="few">[CS_528870]_Posts: %1$s</item>
+        <item quantity="many">[CS_528868]_Posts: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">[CS_531834]_%d likes</item>
+        <item quantity="zero">[CS_531840]_%d likes</item>
+        <item quantity="one">[CS_531833]_%d like</item>
+        <item quantity="two">[CS_531830]_%d likes</item>
+        <item quantity="few">[CS_531842]_%d likes</item>
+        <item quantity="many">[CS_531843]_%d likes</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">[CS_531837]_%d replies</item>
+        <item quantity="zero">[CS_531832]_%d replies</item>
+        <item quantity="one">[CS_531844]_%d reply</item>
+        <item quantity="two">[CS_531831]_%d replies</item>
+        <item quantity="few">[CS_531835]_%d replies</item>
+        <item quantity="many">[CS_531829]_%d replies</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">[CS_523470]_%1$sB</item>
+        <item quantity="zero">[CS_523461]_%1$sB</item>
+        <item quantity="one">[CS_523460]_%1$sB</item>
+        <item quantity="two">[CS_523477]_%1$sB</item>
+        <item quantity="few">[CS_523473]_%1$sB</item>
+        <item quantity="many">[CS_523465]_%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">[CS_523469]_%1$sM</item>
+        <item quantity="zero">[CS_523462]_%1$sM</item>
+        <item quantity="one">[CS_523467]_%1$sM</item>
+        <item quantity="two">[CS_523463]_%1$sM</item>
+        <item quantity="few">[CS_523474]_%1$sM</item>
+        <item quantity="many">[CS_523476]_%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">[CS_523466]_%1$sK</item>
+        <item quantity="zero">[CS_523471]_%1$sK</item>
+        <item quantity="one">[CS_523468]_%1$sK</item>
+        <item quantity="two">[CS_523464]_%1$sK</item>
+        <item quantity="few">[CS_523475]_%1$sK</item>
+        <item quantity="many">[CS_523472]_%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">[CS_480488]_%d views</item>
+        <item quantity="zero">[CS_480475]_%d views</item>
+        <item quantity="one">[CS_480409]_%d view</item>
+        <item quantity="two">[CS_480426]_%d views</item>
+        <item quantity="few">[CS_480467]_%d views</item>
+        <item quantity="many">[CS_480538]_%d views</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">[CS_481726]_Leave a comment (%1$d in total)</item>
+        <item quantity="zero">[CS_481732]_Leave a comment (%1$d in total)</item>
+        <item quantity="one">[CS_481725]_Leave a comment (%1$d in total)</item>
+        <item quantity="two">[CS_481728]_Leave a comment (%1$d in total)</item>
+        <item quantity="few">[CS_481723]_Leave a comment (%1$d in total)</item>
+        <item quantity="many">[CS_481733]_Leave a comment (%1$d in total)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">[CS_481724]_See all %1$d replies</item>
+        <item quantity="zero">[CS_481730]_See all %1$d replies</item>
+        <item quantity="one">[CS_481729]_See all %1$d reply</item>
+        <item quantity="two">[CS_481734]_See all %1$d replies</item>
+        <item quantity="few">[CS_481731]_See all %1$d replies</item>
+        <item quantity="many">[CS_481727]_See all %1$d replies</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">[CS_806390]_%1$s participants</item>
+        <item quantity="zero">[CS_806394]_%1$s participants</item>
+        <item quantity="one">[CS_806383]_%1$s participant</item>
+        <item quantity="two">[CS_806391]_%1$s participants</item>
+        <item quantity="few">[CS_806386]_%1$s participants</item>
+        <item quantity="many">[CS_806388]_%1$s participants</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">[CS_801806]_Select up to %s answers</item>
+        <item quantity="zero">[CS_801823]_Select up to %s answers</item>
+        <item quantity="one">[CS_801771]_Select up to %s answer</item>
+        <item quantity="two">[CS_801824]_Select up to %s answers</item>
+        <item quantity="few">[CS_801804]_Select up to %s answers</item>
+        <item quantity="many">[CS_801787]_Select up to %s answers</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">[CS_801793]_Multiple choice (select %1$d)</item>
+        <item quantity="zero">[CS_801786]_Multiple choice (select %1$d)</item>
+        <item quantity="one">[CS_801783]_Multiple choice (select %1$d)</item>
+        <item quantity="two">[CS_801799]_Multiple choice (select %1$d)</item>
+        <item quantity="few">[CS_801819]_Multiple choice (select %1$d)</item>
+        <item quantity="many">[CS_801830]_Multiple choice (select %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">[CS_801825]_Select %s answers</item>
+        <item quantity="zero">[CS_801791]_Select %s answers</item>
+        <item quantity="one">[CS_801829]_Select %s answer</item>
+        <item quantity="two">[CS_801813]_Select %s answers</item>
+        <item quantity="few">[CS_801774]_Select %s answers</item>
+        <item quantity="many">[CS_801820]_Select %s answers</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">[CS_806393]_%1$s votes</item>
+        <item quantity="zero">[CS_806389]_%1$s votes</item>
+        <item quantity="one">[CS_806392]_%1$s vote</item>
+        <item quantity="two">[CS_806384]_%1$s votes</item>
+        <item quantity="few">[CS_806387]_%1$s votes</item>
+        <item quantity="many">[CS_806385]_%1$s votes</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">[CS_672269]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps > Apps.</item>
+        <item quantity="zero">[CS_672270]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps > Apps.</item>
+        <item quantity="one">[CS_672272]_This app requires %1$d permission. You can revoke this at any time in Settings > Apps > Apps.</item>
+        <item quantity="two">[CS_672274]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps > Apps.</item>
+        <item quantity="few">[CS_672273]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps > Apps.</item>
+        <item quantity="many">[CS_672271]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps > Apps.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">[CS_839286]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps &amp; services > Apps.</item>
+        <item quantity="zero">[CS_839289]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps &amp; services > Apps.</item>
+        <item quantity="one">[CS_839288]_This app requires %1$d permission. You can revoke this at any time in Settings > Apps &amp; services > Apps.</item>
+        <item quantity="two">[CS_839284]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps &amp; services > Apps.</item>
+        <item quantity="few">[CS_839287]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps &amp; services > Apps.</item>
+        <item quantity="many">[CS_839285]_This app requires %1$d permissions. You can revoke these at any time in Settings > Apps &amp; services > Apps.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">[CS_443198]_%1$d gifts</item>
+        <item quantity="zero">[CS_443099]_%1$d gifts</item>
+        <item quantity="one">[CS_443140]_%1$d gift</item>
+        <item quantity="two">[CS_443257]_%1$d gifts</item>
+        <item quantity="few">[CS_443168]_%1$d gifts</item>
+        <item quantity="many">[CS_443112]_%1$d gifts</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">[CS_553399]_%1$dK</item>
+        <item quantity="zero">[CS_553409]_%1$dK</item>
+        <item quantity="one">[CS_553394]_%1$dK</item>
+        <item quantity="two">[CS_553382]_%1$dK</item>
+        <item quantity="few">[CS_553416]_%1$dK</item>
+        <item quantity="many">[CS_553383]_%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">[CS_684290]_%1$d stars</item>
+        <item quantity="zero">[CS_684287]_%1$d stars</item>
+        <item quantity="one">[CS_684289]_%1$d star</item>
+        <item quantity="two">[CS_684285]_%1$d stars</item>
+        <item quantity="few">[CS_684286]_%1$d stars</item>
+        <item quantity="many">[CS_684288]_%1$d stars</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">[CS_1178788]_Rating: %s</item>
+        <item quantity="zero">[CS_1178797]_Rating: %s</item>
+        <item quantity="one">[CS_1178790]_Rating: %s</item>
+        <item quantity="two">[CS_1178778]_Rating: %s</item>
+        <item quantity="few">[CS_1178789]_Rating: %s</item>
+        <item quantity="many">[CS_1178793]_Rating: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">[CS_1178781]_%1$s ratings</item>
+        <item quantity="zero">[CS_1178798]_%1$s ratings</item>
+        <item quantity="one">[CS_1178805]_%1$s rating</item>
+        <item quantity="two">[CS_1178791]_%1$s ratings</item>
+        <item quantity="few">[CS_1178801]_%1$s ratings</item>
+        <item quantity="many">[CS_1178803]_%1$s ratings</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">[CS_1179579]_%1$s opens</item>
+        <item quantity="zero">[CS_1179582]_%1$s opens</item>
+        <item quantity="one">[CS_1179581]_%1$s open</item>
+        <item quantity="two">[CS_1179584]_%1$s opens</item>
+        <item quantity="few">[CS_1179580]_%1$s opens</item>
+        <item quantity="many">[CS_1179583]_%1$s opens</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">[CS_522869]_%d new recommendations</item>
+        <item quantity="zero">[CS_522868]_%d new recommendations</item>
+        <item quantity="one">[CS_522866]_%d new recommendation</item>
+        <item quantity="two">[CS_522865]_%d new recommendations</item>
+        <item quantity="few">[CS_522867]_%d new recommendations</item>
+        <item quantity="many">[CS_522870]_%d new recommendations</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">[CS_1178792]_%1$sB</item>
+        <item quantity="zero">[CS_1178795]_%1$sB</item>
+        <item quantity="one">[CS_1178794]_%1$sB</item>
+        <item quantity="two">[CS_1178786]_%1$sB</item>
+        <item quantity="few">[CS_1178782]_%1$sB</item>
+        <item quantity="many">[CS_1178784]_%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">[CS_1178796]_%1$sM</item>
+        <item quantity="zero">[CS_1178780]_%1$sM</item>
+        <item quantity="one">[CS_1178800]_%1$sM</item>
+        <item quantity="two">[CS_1178777]_%1$sM</item>
+        <item quantity="few">[CS_1178802]_%1$sM</item>
+        <item quantity="many">[CS_1178785]_%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">[CS_1178799]_%1$sK</item>
+        <item quantity="zero">[CS_1178787]_%1$sK</item>
+        <item quantity="one">[CS_1178804]_%1$sK</item>
+        <item quantity="two">[CS_1178783]_%1$sK</item>
+        <item quantity="few">[CS_1178776]_%1$sK</item>
+        <item quantity="many">[CS_1178779]_%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">[CS_986231]_%1$d apps have been updated</item>
+        <item quantity="zero">[CS_986223]_%1$d apps have been updated</item>
+        <item quantity="one">[CS_986230]_%1$d app has been updated</item>
+        <item quantity="two">[CS_986226]_%1$d apps have been updated</item>
+        <item quantity="few">[CS_986224]_%1$d apps have been updated</item>
+        <item quantity="many">[CS_986232]_%1$d apps have been updated</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">[CS_986229]_%1$d apps are being updated</item>
+        <item quantity="zero">[CS_986222]_%1$d apps are being updated</item>
+        <item quantity="one">[CS_986227]_%1$d app is being updated</item>
+        <item quantity="two">[CS_986221]_%1$d apps are being updated</item>
+        <item quantity="few">[CS_986233]_%1$d apps are being updated</item>
+        <item quantity="many">[CS_986225]_%1$d apps are being updated</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">[CS_480687]_Image cannot be larger than %1$d MB.</item>
+        <item quantity="zero">[CS_480694]_Image cannot be larger than %1$d MB.</item>
+        <item quantity="one">[CS_480695]_Image cannot be larger than %1$d MB.</item>
+        <item quantity="two">[CS_480718]_Image cannot be larger than %1$d MB.</item>
+        <item quantity="few">[CS_480706]_Image cannot be larger than %1$d MB.</item>
+        <item quantity="many">[CS_480688]_Image cannot be larger than %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">[CS_480684]_%d photos</item>
+        <item quantity="zero">[CS_480714]_%d photos</item>
+        <item quantity="one">[CS_480703]_%d photo</item>
+        <item quantity="two">[CS_480685]_%d photos</item>
+        <item quantity="few">[CS_480691]_%d photos</item>
+        <item quantity="many">[CS_480698]_%d photos</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">[CS_480719]_%1$d/%2$d selected</item>
+        <item quantity="zero">[CS_480717]_%1$d/%2$d selected</item>
+        <item quantity="one">[CS_480715]_%1$d/%2$d selected</item>
+        <item quantity="two">[CS_480713]_%1$d/%2$d selected</item>
+        <item quantity="few">[CS_480702]_%1$d/%2$d selected</item>
+        <item quantity="many">[CS_480693]_%1$d/%2$d selected</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">[CS_480709]_%d videos</item>
+        <item quantity="zero">[CS_480696]_%d videos</item>
+        <item quantity="one">[CS_480708]_%d video</item>
+        <item quantity="two">[CS_480697]_%d videos</item>
+        <item quantity="few">[CS_480705]_%d videos</item>
+        <item quantity="many">[CS_480701]_%d videos</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">[CS_650801]_%d benefits</item>
+        <item quantity="zero">[CS_650805]_%d benefits</item>
+        <item quantity="one">[CS_650810]_%d benefit</item>
+        <item quantity="two">[CS_650811]_%d benefits</item>
+        <item quantity="few">[CS_650800]_%d benefits</item>
+        <item quantity="many">[CS_650802]_%d benefits</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">[CS_442178]_Delete all paused installations (%1$s apps, free up %2$s)</item>
+        <item quantity="zero">[CS_442578]_Delete all paused installations (%1$s apps, free up %2$s)</item>
+        <item quantity="one">[CS_442341]_Delete all paused installations (%1$s app, free up %2$s)</item>
+        <item quantity="two">[CS_442266]_Delete all paused installations (%1$s apps, free up %2$s)</item>
+        <item quantity="few">[CS_442645]_Delete all paused installations (%1$s apps, free up %2$s)</item>
+        <item quantity="many">[CS_442433]_Delete all paused installations (%1$s apps, free up %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">"[CS_808635]_ 
+(%1$d selected)"</item>
+        <item quantity="zero">"[CS_808588]_ 
+(%1$d selected)"</item>
+        <item quantity="one">"[CS_808587]_ 
+(%1$d selected)"</item>
+        <item quantity="two">"[CS_808598]_ 
+(%1$d selected)"</item>
+        <item quantity="few">"[CS_808639]_ 
+(%1$d selected)"</item>
+        <item quantity="many">"[CS_808615]_ 
+(%1$d selected)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">[PL_758283]_Page %1$d</item>
+        <item quantity="zero">[PL_758275]_Page %1$d</item>
+        <item quantity="one">[PL_758277]_Page %1$d</item>
+        <item quantity="two">[PL_758285]_Page %1$d</item>
+        <item quantity="few">[PL_758284]_Page %1$d</item>
+        <item quantity="many">[PL_758280]_Page %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">[CS_442203]_Paused %1$s installations.</item>
+        <item quantity="zero">[CS_442090]_Paused %1$s installations.</item>
+        <item quantity="one">[CS_442149]_Paused %1$s installation.</item>
+        <item quantity="two">[CS_442317]_Paused %1$s installations.</item>
+        <item quantity="few">[CS_442672]_Paused %1$s installations.</item>
+        <item quantity="many">[CS_442038]_Paused %1$s installations.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">[CS_480525]_%d min ago</item>
+        <item quantity="zero">[CS_480399]_%d min ago</item>
+        <item quantity="one">[CS_480469]_%d min ago</item>
+        <item quantity="two">[CS_480486]_%d min ago</item>
+        <item quantity="few">[CS_480526]_%d min ago</item>
+        <item quantity="many">[CS_480505]_%d min ago</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">[CS_577562]_%1$d extras</item>
+        <item quantity="zero">[CS_577567]_%1$d extras</item>
+        <item quantity="one">[CS_577561]_%1$d extra</item>
+        <item quantity="two">[CS_577566]_%1$d extras</item>
+        <item quantity="few">[CS_577563]_%1$d extras</item>
+        <item quantity="many">[CS_577569]_%1$d extras</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">[CS_1079946]_%1$s downloads</item>
+        <item quantity="zero">[CS_1079947]_%1$s downloads</item>
+        <item quantity="one">[CS_1079951]_%1$s download</item>
+        <item quantity="two">[CS_1079941]_%1$s downloads</item>
+        <item quantity="few">[CS_1079944]_%1$s downloads</item>
+        <item quantity="many">[CS_1079949]_%1$s downloads</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">[CS_1079950]_Rated %1$s stars</item>
+        <item quantity="zero">[CS_1079942]_Rated %1$s stars</item>
+        <item quantity="one">[CS_1079945]_Rated %1$s star</item>
+        <item quantity="two">[CS_1079943]_Rated %1$s stars</item>
+        <item quantity="few">[CS_1079948]_Rated %1$s stars</item>
+        <item quantity="many">[CS_1079952]_Rated %1$s stars</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">[CS_442405]_Scheduled installation of %1$s apps complete</item>
+        <item quantity="zero">[CS_442218]_Scheduled installation of %1$s apps complete</item>
+        <item quantity="one">[CS_442103]_Scheduled installation of %1$s app complete</item>
+        <item quantity="two">[CS_442490]_Scheduled installation of %1$s apps complete</item>
+        <item quantity="few">[CS_442013]_Scheduled installation of %1$s apps complete</item>
+        <item quantity="many">[CS_442014]_Scheduled installation of %1$s apps complete</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">[CS_531652]_%1$d apps will begin downloading when you connect to Wi-Fi.</item>
+        <item quantity="zero">[CS_531651]_%1$d apps will begin downloading when you connect to Wi-Fi.</item>
+        <item quantity="one">[CS_531653]_%1$d app will begin downloading when you connect to Wi-Fi.</item>
+        <item quantity="two">[CS_531655]_%1$d apps will begin downloading when you connect to Wi-Fi.</item>
+        <item quantity="few">[CS_531654]_%1$d apps will begin downloading when you connect to Wi-Fi.</item>
+        <item quantity="many">[CS_531656]_%1$d apps will begin downloading when you connect to Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">[CS_442028]_(%1$s pre-ordered)</item>
+        <item quantity="zero">[CS_442618]_(%1$s pre-ordered)</item>
+        <item quantity="one">[CS_442309]_(%1$s pre-ordered)</item>
+        <item quantity="two">[CS_442065]_(%1$s pre-ordered)</item>
+        <item quantity="few">[CS_442513]_(%1$s pre-ordered)</item>
+        <item quantity="many">[CS_442659]_(%1$s pre-ordered)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">[CS_442074]_(%1$d million pre-ordered)</item>
+        <item quantity="zero">[CS_442308]_(%1$d million pre-ordered)</item>
+        <item quantity="one">[CS_442075]_(1 million pre-ordered)</item>
+        <item quantity="two">[CS_442296]_(%1$d million pre-ordered)</item>
+        <item quantity="few">[CS_442236]_(%1$d million pre-ordered)</item>
+        <item quantity="many">[CS_442042]_(%1$d million pre-ordered)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">[CS_442088]_(%1$d thousand pre-ordered)</item>
+        <item quantity="zero">[CS_442168]_(%1$d thousand pre-ordered)</item>
+        <item quantity="one">[CS_442604]_(1 thousand pre-ordered)</item>
+        <item quantity="two">[CS_442363]_(%1$d thousand pre-ordered)</item>
+        <item quantity="few">[CS_442011]_(%1$d thousand pre-ordered)</item>
+        <item quantity="many">[CS_442367]_(%1$d thousand pre-ordered)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">[CS_442579]_Install all %1$s apps?</item>
+        <item quantity="zero">[CS_442571]_Install all %1$s apps?</item>
+        <item quantity="one">[CS_442360]_Install %1$s app?</item>
+        <item quantity="two">[CS_442272]_Install all %1$s apps?</item>
+        <item quantity="few">[CS_442123]_Install all %1$s apps?</item>
+        <item quantity="many">[CS_442347]_Install all %1$s apps?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">[CS_442330]_%1$s installations ongoing.</item>
+        <item quantity="zero">[CS_442276]_%1$s installations ongoing.</item>
+        <item quantity="one">[CS_442514]_%1$s installation ongoing.</item>
+        <item quantity="two">[CS_442095]_%1$s installations ongoing.</item>
+        <item quantity="few">[CS_442551]_%1$s installations ongoing.</item>
+        <item quantity="many">[CS_442165]_%1$s installations ongoing.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">[PL_758281]_of %1$d</item>
+        <item quantity="zero">[PL_758279]_of %1$d</item>
+        <item quantity="one">[PL_758286]_of %1$d</item>
+        <item quantity="two">[PL_758282]_of %1$d</item>
+        <item quantity="few">[PL_758278]_of %1$d</item>
+        <item quantity="many">[PL_758276]_of %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">[CS_978398]_Search %d local apps</item>
+        <item quantity="zero">[CS_978399]_Search %d local apps</item>
+        <item quantity="one">[CS_978400]_Search %d local app</item>
+        <item quantity="two">[CS_978395]_Search %d local apps</item>
+        <item quantity="few">[CS_978396]_Search %d local apps</item>
+        <item quantity="many">[CS_978397]_Search %d local apps</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">[CS_481693]_Restore %d apps to the update list?</item>
+        <item quantity="zero">[CS_481712]_Restore %d apps to the update list?</item>
+        <item quantity="one">[CS_481691]_Restore %d app to the update list?</item>
+        <item quantity="two">[CS_481677]_Restore %d apps to the update list?</item>
+        <item quantity="few">[CS_481671]_Restore %d apps to the update list?</item>
+        <item quantity="many">[CS_481689]_Restore %d apps to the update list?</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">[CS_710947]_%1$s app updates are available</item>
+        <item quantity="zero">[CS_710949]_%1$s app updates are available</item>
+        <item quantity="one">[CS_710946]_%1$s app update is available</item>
+        <item quantity="two">[CS_710950]_%1$s app updates are available</item>
+        <item quantity="few">[CS_710951]_%1$s app updates are available</item>
+        <item quantity="many">[CS_710948]_%1$s app updates are available</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">[CS_481659]_%1$s app updates recommended. Total size: %2$s.</item>
+        <item quantity="zero">[CS_481676]_%1$s app updates recommended. Total size: %2$s.</item>
+        <item quantity="one">[CS_481688]_%1$s app update recommended. Size: %2$s.</item>
+        <item quantity="two">[CS_481679]_%1$s app updates recommended. Total size: %2$s.</item>
+        <item quantity="few">[CS_481669]_%1$s app updates recommended. Total size: %2$s.</item>
+        <item quantity="many">[CS_481702]_%1$s app updates recommended. Total size: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">[CS_1033325]_%1$d app updates available. Size: %2$s.</item>
+        <item quantity="zero">[CS_1033328]_%1$d app updates available. Size: %2$s.</item>
+        <item quantity="one">[CS_1033327]_%1$d app update available. Size: %2$s.</item>
+        <item quantity="two">[CS_1033326]_%1$d app updates available. Size: %2$s.</item>
+        <item quantity="few">[CS_1033329]_%1$d app updates available. Size: %2$s.</item>
+        <item quantity="many">[CS_1033330]_%1$d app updates available. Size: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">[CS_981443]_Not used for %d days</item>
+        <item quantity="zero">[CS_981444]_Not used for %d days</item>
+        <item quantity="one">[CS_981447]_Not used for %d day</item>
+        <item quantity="two">[CS_981445]_Not used for %d days</item>
+        <item quantity="few">[CS_981446]_Not used for %d days</item>
+        <item quantity="many">[CS_981442]_Not used for %d days</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">[CS_885945]_%d hours</item>
+        <item quantity="zero">[CS_885939]_%d hours</item>
+        <item quantity="one">[CS_885955]_%d hour</item>
+        <item quantity="two">[CS_885952]_%d hours</item>
+        <item quantity="few">[CS_885946]_%d hours</item>
+        <item quantity="many">[CS_885938]_%d hours</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">[CS_885962]_%d minutes</item>
+        <item quantity="zero">[CS_885944]_%d minutes</item>
+        <item quantity="one">[CS_885961]_%d minute</item>
+        <item quantity="two">[CS_885948]_%d minutes</item>
+        <item quantity="few">[CS_885937]_%d minutes</item>
+        <item quantity="many">[CS_885963]_%d minutes</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">[CS_885949]_%d seconds</item>
+        <item quantity="zero">[CS_885936]_%d seconds</item>
+        <item quantity="one">[CS_885953]_%d second</item>
+        <item quantity="two">[CS_885964]_%d seconds</item>
+        <item quantity="few">[CS_885958]_%d seconds</item>
+        <item quantity="many">[CS_885940]_%d seconds</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">[CS_909452]_Clear %d tasks and the downloaded files?</item>
+        <item quantity="zero">[CS_909453]_Clear %d tasks and the downloaded files?</item>
+        <item quantity="one">[CS_909439]_Clear %d task and the downloaded file?</item>
+        <item quantity="two">[CS_909454]_Clear %d tasks and the downloaded files?</item>
+        <item quantity="few">[CS_909458]_Clear %d tasks and the downloaded files?</item>
+        <item quantity="many">[CS_909447]_Clear %d tasks and the downloaded files?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">[CS_811684]_%d-day check-in streak</item>
+        <item quantity="zero">[CS_811700]_%d-day check-in streak</item>
+        <item quantity="one">[CS_811678]_%d-day check-in streak</item>
+        <item quantity="two">[CS_811661]_%d-day check-in streak</item>
+        <item quantity="few">[CS_811668]_%d-day check-in streak</item>
+        <item quantity="many">[CS_811692]_%d-day check-in streak</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">[CS_811696]_Day %d</item>
+        <item quantity="zero">[CS_811671]_Day %d</item>
+        <item quantity="one">[CS_811682]_Day %d</item>
+        <item quantity="two">[CS_811666]_Day %d</item>
+        <item quantity="few">[CS_811670]_Day %d</item>
+        <item quantity="many">[CS_811676]_Day %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">[CS_717354]_%1$d apps downloaded</item>
+        <item quantity="zero">[CS_717346]_%1$d apps downloaded</item>
+        <item quantity="one">[CS_717352]_%1$d app downloaded</item>
+        <item quantity="two">[CS_717353]_%1$d apps downloaded</item>
+        <item quantity="few">[CS_717350]_%1$d apps downloaded</item>
+        <item quantity="many">[CS_717348]_%1$d apps downloaded</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">[CS_553396]_Rating: %s</item>
+        <item quantity="zero">[CS_553417]_Rating: %s</item>
+        <item quantity="one">[CS_553424]_Rating: %s</item>
+        <item quantity="two">[CS_553401]_Rating: %s</item>
+        <item quantity="few">[CS_553384]_Rating: %s</item>
+        <item quantity="many">[CS_553385]_Rating: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">[CS_673479]_%d min ago</item>
+        <item quantity="zero">[CS_673478]_%d min ago</item>
+        <item quantity="one">[CS_673489]_%d min ago</item>
+        <item quantity="two">[CS_673495]_%d min ago</item>
+        <item quantity="few">[CS_673480]_%d min ago</item>
+        <item quantity="many">[CS_673483]_%d min ago</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">[CS_1218227]_%2$d apps, including %1$s</item>
+        <item quantity="zero">[CS_1218224]_%2$d apps, including %1$s</item>
+        <item quantity="one">[CS_1218228]_%2$d app (%1$s)</item>
+        <item quantity="two">[CS_1218225]_%2$d apps, including %1$s</item>
+        <item quantity="few">[CS_1218226]_%2$d apps, including %1$s</item>
+        <item quantity="many">[CS_1218229]_%2$d apps, including %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">[CS_1154353]_Red dot badge, %1$s unread notifications</item>
+        <item quantity="zero">[CS_1154349]_Red dot badge, %1$s unread notifications</item>
+        <item quantity="one">[CS_1154352]_Red dot badge, %1$s unread notification</item>
+        <item quantity="two">[CS_1154350]_Red dot badge, %1$s unread notifications</item>
+        <item quantity="few">[CS_1154351]_Red dot badge, %1$s unread notifications</item>
+        <item quantity="many">[CS_1154348]_Red dot badge, %1$s unread notifications</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">[CS_557060]_%d offers</item>
+        <item quantity="zero">[CS_557045]_%d offers</item>
+        <item quantity="one">[CS_557055]_%d offer</item>
+        <item quantity="two">[CS_557051]_%d offers</item>
+        <item quantity="few">[CS_557059]_%d offers</item>
+        <item quantity="many">[CS_557050]_%d offers</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">[CS_557052]_%d community gifts</item>
+        <item quantity="zero">[CS_557061]_%d community gifts</item>
+        <item quantity="one">[CS_557062]_%d community gift</item>
+        <item quantity="two">[CS_557046]_%d community gifts</item>
+        <item quantity="few">[CS_557056]_%d community gifts</item>
+        <item quantity="many">[CS_557047]_%d community gifts</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">[CS_557057]_%d gifts</item>
+        <item quantity="zero">[CS_557048]_%d gifts</item>
+        <item quantity="one">[CS_557054]_%d gift</item>
+        <item quantity="two">[CS_557049]_%d gifts</item>
+        <item quantity="few">[CS_557058]_%d gifts</item>
+        <item quantity="many">[CS_557053]_%d gifts</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">[CS_672639]_%d people in your region want this</item>
+        <item quantity="zero">[CS_672643]_%d people in your region want this</item>
+        <item quantity="one">[CS_672642]_%d person in your region wants this</item>
+        <item quantity="two">[CS_672645]_%d people in your region want this</item>
+        <item quantity="few">[CS_672641]_%d people in your region want this</item>
+        <item quantity="many">[CS_672640]_%d people in your region want this</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">[CS_535068]_%1$d items selected</item>
+        <item quantity="zero">[CS_535083]_%1$d items selected</item>
+        <item quantity="one">[CS_534996]_%1$d item selected</item>
+        <item quantity="two">[CS_535026]_%1$d items selected</item>
+        <item quantity="few">[CS_535090]_%1$d items selected</item>
+        <item quantity="many">[CS_534990]_%1$d items selected</item>
+    </plurals>
+</resources>

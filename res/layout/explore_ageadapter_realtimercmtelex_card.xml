@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:paddingBottom="@dimen/explore_card_small_image_card_padding_bottom_harmony"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/explore_card_small_image_card_padding_bottom_harmony"
+    android:paddingEnd="@dimen/explore_card_small_image_card_padding_bottom_harmony"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/realtimercmtelex_title"
+        layout="@layout/hiappbase_layout_ageadapter_subheader_title_more" />
+    <include
+        android:id="@id/realtimercmtelex_bottom_item"
+        layout="@layout/explore_ageadapter_realtimercmtelex_bottom_item" />
+</LinearLayout>

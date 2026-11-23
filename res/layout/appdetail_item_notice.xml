@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/detail_desc_layout_linearlayout"
+    android:paddingBottom="@dimen/margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/detail_desc_title_layout_linearlayout"
+        layout="@layout/hiappbase_layout_subheader_title_action" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@id/detail_desc_content_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <com.huawei.appgallery.detail.detailbase.common.FoldingTextView
+                android:id="@id/detail_desc_content_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_introduce_content" />
+            <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+                android:layout_gravity="end|bottom|center"
+                android:id="@id/detail_desc_folding_imageview"
+                android:tag="css/.arrow"
+                android:background="@drawable/ic_public_arrow_down_900"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3.0dip" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_desc_body_sub_layout_linearlayout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

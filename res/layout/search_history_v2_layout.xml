@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/ll_search_history_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/search_distance_title_content"
+    android:minHeight="@dimen/search_history_card_height"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/clear_action_right">
+        <com.huawei.uikit.hwrecyclerview.widget.HwRecyclerView
+            android:id="@id/history_recycle_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l" />
+        <ImageView
+            android:id="@id/history_search_transition_mask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/emui_functional_blue"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/clear_action_right"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/search_history_card_height"
+        android:text="@string/aguikit_clear"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

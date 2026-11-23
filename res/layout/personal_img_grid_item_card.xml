@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/mine_score_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="@dimen/personal_infocard_margin"
+        android:layout_height="@dimen/personal_infocard_margin">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/menu_icon_imageview"
+            android:layout_width="@dimen/personal_infocard_margin"
+            android:layout_height="@dimen/personal_infocard_margin"
+            android:src="@drawable/placeholder_base_circle" />
+        <ImageView
+            android:layout_gravity="end|center|top"
+            android:id="@id/right_red_dot"
+            android:visibility="gone"
+            android:layout_width="@dimen/personal_imgecard_size"
+            android:layout_height="@dimen/personal_imgecard_size"
+            android:src="@drawable/tab_red_dot" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/menu_title_textview_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/menu_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:maxLines="2"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_marginEnd="@dimen/margin_s"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+    </LinearLayout>
+</LinearLayout>

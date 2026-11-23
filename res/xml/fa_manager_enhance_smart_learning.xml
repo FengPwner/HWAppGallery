@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <title>
+        <string
+            name="@string/oobe_service_found_title_domestic" />
+    </title>
+    <content>
+        <string
+            name="@string/oobe_service_found_context_new"
+            placeholder_count="1">
+            <placeholder
+                font_type="link"
+                name="@string/abilitydispatcher_privacy_statement"
+                type="str" />
+        </string>
+    </content>
+    <action
+        name="com.huawei.appmarket.oobe.local.discovery.privacy" />
+</declaration>

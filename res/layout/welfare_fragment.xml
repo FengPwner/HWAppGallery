@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:paddingBottom="48.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.foundation.ui.framework.widget.PullUpListView
+            android:id="@id/applistview"
+            android:visibility="gone"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="true"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            bounceViews:bounceEnable="true"
+            bounceViews:hwCutoutMode="never"
+            xmlns:bounceViews="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/nodata_viewstub"
+        android:layout="@layout/hiappbase_nodata_warn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

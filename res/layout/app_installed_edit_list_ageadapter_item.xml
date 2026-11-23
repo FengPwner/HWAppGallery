@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:addStatesFromChildren="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal">
+        <ImageView
+            android:id="@id/localpackage_item_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/localpackage_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:layout_toStartOf="@id/button_check_box"
+                android:layout_alignParentStart="true"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <com.huawei.uikit.phone.hwcheckbox.widget.HwCheckBox
+                android:id="@id/button_check_box"
+                android:padding="0.0dip"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.Emui.HwCheckBox.Normal" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+            <TextView
+                android:textStyle="normal"
+                android:gravity="center_vertical"
+                android:id="@id/localpackage_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <TextView
+                android:id="@id/localpackage_item_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info_default"
+                android:singleLine="true"
+                android:layout_marginStart="@dimen/margin_m"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+        <View
+            android:id="@id/app_installed_edit_split_line"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12.0dip"
+            style="@style/AppGallery.Widget.Divider" />
+    </LinearLayout>
+</RelativeLayout>

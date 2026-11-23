@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/feedback_sdk_dialog_bg_shape"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/feedback_sdk_text_normal_black"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/feedback_sdk_common_24_dip"
+        android:text="@string/feedback_sdk_problem_type"
+        android:layout_marginStart="@dimen/feedback_sdk_common_24_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_24_dip" />
+    <ListView
+        android:id="@id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:divider="@null" />
+    <TextView
+        android:textSize="16.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/feedback_sdk_problem_submit_select_bg"
+        android:gravity="center"
+        android:id="@id/cancel"
+        android:background="@drawable/feedback_sdk_list_dialog_cancel_selector"
+        android:padding="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/feedback_sdk_common_cancel"
+        android:layout_marginStart="@dimen/feedback_sdk_common_24_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_24_dip" />
+</LinearLayout>

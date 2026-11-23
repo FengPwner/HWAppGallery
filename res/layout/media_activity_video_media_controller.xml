@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/app_detail_media_controller_linearlayout"
+    android:background="@color/edittext_hint_color"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10.0dip"
+    android:paddingEnd="10.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="12.0dip"
+        android:layout_marginStart="@dimen/margin_m"
+        android:layout_marginEnd="@dimen/margin_m">
+        <TextView
+            android:textSize="10.0dip"
+            android:textColor="@color/app_detail_video_status_current_time_color"
+            android:gravity="center"
+            android:id="@id/app_detail_video_status_current_time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:30:00"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:textSize="10.0dip"
+            android:textColor="@color/app_detail_video_status_current_time_color"
+            android:gravity="center"
+            android:id="@id/app_detail_video_duration_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01:30:00"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="17.0dip"
+        android:layout_marginTop="@dimen/margin_xs">
+        <SeekBar
+            android:id="@id/app_detail_video_play_seekbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="2.0dip"
+            android:progressDrawable="@drawable/appdetail_video_seekbar_bg"
+            android:minHeight="2.0dip"
+            android:thumb="@null"
+            android:paddingStart="@dimen/padding_m"
+            android:paddingEnd="@dimen/padding_m" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/app_detail_video_play_pause_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginTop="1.0dip"
+        android:layout_marginStart="@dimen/margin_m"
+        android:layout_marginEnd="@dimen/margin_m">
+        <com.huawei.appgallery.common.media.widget.VideoPlayButton
+            android:id="@id/app_detail_video_play_pause_imageview"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:src="@drawable/media_video_play_icon_play"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+</LinearLayout>

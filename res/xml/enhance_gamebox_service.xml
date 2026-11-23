@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <title>
+        <string
+            name="@string/hiapp_enable_gamebox" />
+    </title>
+    <content>
+        <string
+            name="@string/hiapp_introduction_gamebox"
+            placeholder_count="0" />
+    </content>
+</declaration>

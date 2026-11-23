@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable
+    android:label="@string/app_name"
+    android:searchMode="queryRewriteFromText"
+    android:searchSuggestAuthority="com.huawei.appmarket.micro.searchmanager.CONTENT_URI"
+    android:searchSuggestSelection="pattern"
+    android:searchSuggestIntentAction="com.huawei.appmarket.appmarket.intent.action.AppDetail.withdetailId"
+    android:imeOptions="actionSearch"
+    android:includeInGlobalSearch="true"
+    android:queryAfterZeroResults="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <layoutType>hiApp</layoutType>
+    <searchSuggestOthersIntent> [{type:search, intent:com.huawei.appmarket.appmarket.intent.action.SearchActivity, method:activity}
+        ,{type:others, intent:com.huawei.appmarket.intent.action.downloadmanager, method:service}]</searchSuggestOthersIntent>
+</searchable>

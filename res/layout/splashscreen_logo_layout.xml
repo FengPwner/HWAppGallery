@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/splash_screen_logo_bg"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="7.0">
+        <ImageView
+            android:id="@id/splashscreen_logo_image"
+            android:layout_width="@dimen/splashscreen_logo_image_width_phone"
+            android:layout_height="@dimen/splashscreen_logo_image_width_phone"
+            android:src="@drawable/splash_screen_logo"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.5" />
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.5"
+        android:paddingStart="@dimen/splashscreen_slogan_margin"
+        android:paddingEnd="@dimen/splashscreen_slogan_margin">
+        <LinearLayout
+            android:gravity="top"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_headline7"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:gravity="center_horizontal"
+                android:id="@id/splashscreen_app_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="16.0dip"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:gravity="center_horizontal"
+                android:id="@id/splashscreen_slogan_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip"
+                android:text="@string/splashscreen_slogan"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

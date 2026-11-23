@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/forum_search_section_follow_container"
+        android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+        android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_two_text_lines_with_icon"
+        android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+        android:paddingEnd="@dimen/appgallery_card_elements_margin_m">
+        <ImageView
+            android:id="@id/forum_search_follow_section_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_alignParentStart="true" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:id="@id/forum_search_section_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_default_card_space_vertical"
+            android:minWidth="64.0dip"
+            android:minHeight="28.0dip"
+            android:text="@string/forum_operation_unfollow"
+            android:maxLines="1"
+            android:layout_below="@id/forum_search_section_name_count_layout"
+            app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+            app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            style="@style/AppGallery.Widget.Button.Small" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/forum_search_section_name_count_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_default_card_space_vertical"
+            android:layout_below="@id/forum_search_follow_section_icon"
+            android:layout_centerVertical="true">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/forum_search_section_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/forum_search_section_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/forum_search_follow_divider"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

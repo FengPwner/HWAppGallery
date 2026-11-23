@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:round_corner="@dimen/appgallery_default_corner_radius_l">
+        <ImageView
+            android:id="@id/banner_item_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <TextView
+        android:id="@id/promotion_sign"
+        android:background="@drawable/promotion_sign_bg_bannerv9"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/margin_s"
+        android:layout_alignParentBottom="true"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_alignParentEnd="true"
+        style="@style/promotion_sign_style_banner" />
+    <FrameLayout
+        android:id="@id/container_downbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@id/adTextLayout"
+    android:tag="css/.subtitle"
+    android:visibility="visible"
+    android:singleLine="true"
+    android:includeFontPadding="false"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    style="@style/AdTextViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

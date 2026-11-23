@@ -1,0 +1,10 @@
+{
+  "layout":[
+    {
+      "layoutId": 1,
+      "name":"hms更新下载",
+      "maxRows": 1,
+      "layoutName": "normalcard"
+    }
+  ]
+}

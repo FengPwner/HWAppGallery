@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <title>
+        <string
+            name="@string/hiapp_oobe_agreement_title_modified" />
+    </title>
+    <content>
+        <string
+            name="@string/hiapp_oobe_agreement_content_cn_new_with_app_list"
+            placeholder_count="3">
+            <placeholder
+                font_type="link"
+                name="@string/hispace_user_agreement_modified"
+                type="str" />
+            <placeholder
+                font_type="link"
+                name="@string/oobe_app_privacy_modified"
+                type="str" />
+            <placeholder
+                font_type="link"
+                name="@string/protocol_permission_use_desc"
+                type="str" />
+        </string>
+    </content>
+    <action
+        name="com.huawei.appmarket.oobe.local.user.protocol" />
+    <action
+        name="com.huawei.appmarket.oobe.local.privacy" />
+    <action
+        name="com.huawei.appmarket.oobe.usepermission.dialog" />
+</declaration>

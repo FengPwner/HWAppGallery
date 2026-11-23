@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/place_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_alignParentBottom="true" />
+    <RelativeLayout
+        android:id="@id/main_content_layout"
+        android:background="@color/mini_detail_background_black"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/place_navigation">
+        <FrameLayout
+            android:id="@id/fl_title_container"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.huawei.appgallery.distributionbase.ui.widget.LargeRelativeLayout
+            android:id="@id/large_detail_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/large_detail_top_margin"
+            android:layout_below="@id/fl_title_container" />
+        <ImageView
+            android:id="@id/iv_sheet_status"
+            android:visibility="gone"
+            android:layout_width="64.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/dist_ic_large_sheet_top"
+            android:scaleType="center"
+            android:layout_alignTop="@id/large_detail_layout"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

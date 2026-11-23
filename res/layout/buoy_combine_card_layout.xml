@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/ui_16_dp"
+    android:paddingEnd="@dimen/ui_16_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.assistantdock.base.widget.WrapContentViewPager
+        android:id="@id/vp_service"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen_84dp" />
+    <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+        android:id="@id/indicator_service"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ui_24_dp"
+        app:hwSelectedDotColor="@color/buoy_indicator_selected"
+        app:hwUnselectedDotColor="@color/buoy_indicator_unselected" />
+    <View
+        android:background="@color/buoy_divider_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/buoy_divider_height" />
+    <com.huawei.appgallery.assistantdock.base.widget.WrapContentViewPager
+        android:id="@id/vp_freeform"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_16_dp"
+        android:minHeight="@dimen/dimen_84dp" />
+    <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+        android:id="@id/indicator_freeform"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ui_24_dp"
+        app:hwSelectedDotColor="@color/buoy_indicator_selected"
+        app:hwUnselectedDotColor="@color/buoy_indicator_unselected" />
+</LinearLayout>

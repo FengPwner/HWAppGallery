@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.phone.hwtextview.widget.HwTextView
+    android:textSize="@dimen/appgallery_text_size_caption_fixed"
+    android:textColor="#ffffffff"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/product_purchase_countdown_background"
+    android:layout_width="16.0dip"
+    android:layout_height="16.0dip"
+    android:fontFamily="@string/appgallery_text_font_family_medium"
+    maskview:hwAutoSizeMinTextSize="9.0dip"
+    maskview:hwAutoSizeStepGranularity="1.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto" />

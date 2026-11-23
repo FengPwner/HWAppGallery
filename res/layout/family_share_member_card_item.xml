@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.purchasehistory.ui.widget.CardRelativeLayout
+    android:id="@id/family_share_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_two_text_lines_with_icon"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/family_share_member_header"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/banner_bg_margin_40"
+        android:layout_height="@dimen/banner_bg_margin_40"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@id/arrow_right"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/purchase_button_batch_family_share"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.Widget.List.RightArrow" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/family_share_member_nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/cs_view_margin_16"
+        android:layout_marginEnd="@dimen/cs_view_margin_16"
+        android:layout_toStartOf="@id/arrow_right"
+        android:layout_toEndOf="@id/family_share_member_header"
+        style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+    <View
+        android:id="@id/family_share_member_divide_line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/cs_view_margin_16"
+        android:layout_toEndOf="@id/family_share_member_header"
+        style="@style/AppGallery.Widget.Divider" />
+</com.huawei.appgallery.purchasehistory.ui.widget.CardRelativeLayout>

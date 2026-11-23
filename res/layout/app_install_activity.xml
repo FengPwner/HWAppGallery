@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tooltype="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/titlelayout"
+        layout="@layout/app_install_hispace_title_emui" />
+    <RelativeLayout
+        android:id="@id/app_install_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titlelayout">
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+            android:gravity="center|top"
+            android:orientation="horizontal"
+            android:id="@id/btnlayout"
+            android:background="@color/appgallery_color_toolbar_bg"
+            android:addStatesFromChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/hwappbarpattern_split_menu_height"
+            android:layout_alignParentBottom="true">
+            <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                android:gravity="center"
+                android:id="@id/btn_uninstallall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tooltype:tooltype="uninstallall" />
+            <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                android:gravity="center"
+                android:id="@id/btn_uninstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tooltype:tooltype="uninstall" />
+            <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                android:gravity="center"
+                android:id="@id/btn_unselectall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tooltype:tooltype="unselectall" />
+            <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                android:gravity="center"
+                android:id="@id/btn_selectall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tooltype:tooltype="selectall" />
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/fragment_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/btnlayout" />
+    </RelativeLayout>
+</RelativeLayout>

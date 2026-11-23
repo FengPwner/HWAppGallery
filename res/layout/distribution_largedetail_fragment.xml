@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/container_content"
+        android:background="@color/emui_bottomsheet_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:clip_background="true"
+        app:round_corner_top_left="24.0dip"
+        app:round_corner_top_right="24.0dip"
+        app:stroke_width="0.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/content_layout_out"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/content_layout_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.huawei.appgallery.pageframe.view.PullUpListViewV2
+                    android:id="@id/applistview"
+                    android:scrollbars="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:drawSelectorOnTop="true"
+                    android:divider="@null"
+                    android:dividerHeight="0.0dip"
+                    android:layout_weight="1.0"
+                    app:hwCutoutMode="never" />
+                <FrameLayout
+                    android:layout_gravity="bottom"
+                    android:id="@id/bottom_container"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:id="@id/detail_bottom_linearlayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/detail_toolbar_height" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ViewStub
+            android:id="@id/nodata_viewstub"
+            android:layout="@layout/hiappbase_nodata_warn_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@id/pageframev2_loading_layout_id"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <com.huawei.appgallery.detail.detaildist.large.docking.DockingViewWrapperLayout
+        android:id="@id/top_container"
+        android:background="@color/emui_bottomsheet_bg"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

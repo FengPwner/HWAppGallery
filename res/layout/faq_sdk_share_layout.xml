@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/faq_sdk_share_mask"
+        android:background="@color/faq_sdk_mask"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/faq_sdk_share_layout_view"
+        android:background="@color/faq_sdk_share_bg"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/faq_sdk_wechat_share"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/faq_sdk_ui_8_dip"
+            android:layout_marginBottom="@dimen/faq_sdk_ui_8_dip"
+            android:layout_marginStart="@dimen/faq_sdk_list_item_padding_start">
+            <ImageView
+                android:layout_width="@dimen/faq_sdk_shareicon_width"
+                android:layout_height="@dimen/faq_sdk_shareicon_height"
+                android:layout_marginBottom="@dimen/faq_sdk_ui_2_dip"
+                android:src="@drawable/faq_sdk_ic_wechat" />
+            <TextView
+                android:text="@string/faq_sdk_wx_friend"
+                style="@style/faq_sdk_shareitem_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/faq_sdk_wxfriend_share"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/faq_sdk_ui_8_dip"
+            android:layout_marginBottom="@dimen/faq_sdk_ui_8_dip"
+            android:layout_marginStart="@dimen/faq_sdk_list_item_padding_start">
+            <ImageView
+                android:layout_width="@dimen/faq_sdk_shareicon_width"
+                android:layout_height="@dimen/faq_sdk_shareicon_height"
+                android:layout_marginBottom="@dimen/faq_sdk_ui_2_dip"
+                android:src="@drawable/faq_sdk_ic_friend" />
+            <TextView
+                android:text="@string/faq_sdk_wx_timeline"
+                android:paddingStart="@dimen/faq_sdk_0dp"
+                android:paddingEnd="@dimen/faq_sdk_0dp"
+                style="@style/faq_sdk_shareitem_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/faq_sdk_weibo_share"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/faq_sdk_ui_8_dip"
+            android:layout_marginBottom="@dimen/faq_sdk_ui_8_dip"
+            android:layout_marginStart="@dimen/faq_sdk_list_item_padding_start">
+            <ImageView
+                android:layout_width="@dimen/faq_sdk_shareicon_width"
+                android:layout_height="@dimen/faq_sdk_shareicon_height"
+                android:layout_marginBottom="@dimen/faq_sdk_ui_2_dip"
+                android:src="@drawable/faq_sdk_ic_sina" />
+            <TextView
+                android:text="@string/faq_sdk_sina_weibo"
+                style="@style/faq_sdk_shareitem_style" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

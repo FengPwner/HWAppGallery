@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="10.0dip"
+    android:width="10.0dip"
+    android:viewportWidth="10.0"
+    android:viewportHeight="10.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path
+            android:pathData="M0.5,1h9v9h-9z" />
+        <path
+            android:fillColor="@color/emui_color_tertiary"
+            android:pathData="M0.5,1h9v9h-9z"
+            android:strokeAlpha="0.0"
+            android:fillAlpha="0.0" />
+        <path
+            android:fillColor="@color/emui_color_tertiary"
+            android:pathData="M4.858,3.422C4.73,3.483 4.629,3.572 4.554,3.693C4.479,3.813 4.441,3.944 4.441,4.086L4.441,9.396C4.449,9.481 4.477,9.557 4.528,9.625C4.577,9.695 4.644,9.743 4.726,9.767C4.806,9.79 4.891,9.778 4.981,9.73L7.771,8.335C7.899,8.27 8,8.177 8.075,8.057C8.15,7.938 8.188,7.805 8.188,7.66L8.188,2.358C8.188,2.263 8.16,2.182 8.105,2.118C8.05,2.05 7.981,2.006 7.899,1.986C7.814,1.964 7.73,1.974 7.648,2.016L4.858,3.422Z"
+            android:fillType="nonZero" />
+        <path
+            android:fillColor="@color/emui_color_tertiary"
+            android:pathData="M2.563,1.746C2.358,1.746 2.181,1.82 2.034,1.967C1.886,2.115 1.813,2.294 1.813,2.504L1.813,7.371C1.813,7.581 1.886,7.76 2.034,7.907C2.181,8.055 2.358,8.129 2.563,8.129L4.063,8.129L4.063,4.086C4.063,3.876 4.12,3.68 4.235,3.497C4.35,3.315 4.5,3.175 4.685,3.078L7.347,1.746L2.563,1.746Z"
+            android:fillType="nonZero" />
+    </group>
+</vector>

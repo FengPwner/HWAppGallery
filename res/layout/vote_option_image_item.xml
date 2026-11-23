@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:paddingStart="-12.0dip">
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/vote_option_checkbox_single"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            style="@style/Widget.Emui.HwRadioButton" />
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/vote_option_checkbox_multi"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            style="@style/Widget.Emui.HwCheckBox" />
+    </RelativeLayout>
+    <com.huawei.appgallery.forum.cards.widget.ForumRoundCornerLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="96.0dip"
+        android:layout_height="72.0dip"
+        app:roundRadius="@dimen/appgallery_default_corner_radius_m">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/vote_option_image"
+            android:layout_width="96.0dip"
+            android:layout_height="72.0dip"
+            android:adjustViewBounds="true" />
+    </com.huawei.appgallery.forum.cards.widget.ForumRoundCornerLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="72.0dip"
+        android:layout_marginStart="12.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/vote_option_image_text"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/forum_base_str_image"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart" />
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:id="@id/vote_option_result_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body3"
+                    android:textColor="@color/appgallery_text_color_tertiary"
+                    android:id="@id/vote_option_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_regular" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body3"
+                    android:textColor="@color/appgallery_text_color_tertiary"
+                    android:id="@id/vote_option_ratio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+                android:id="@id/vote_option_ratio_progressbar"
+                android:layout_width="fill_parent"
+                android:layout_height="4.0dip"
+                app:hwFillColor="@color/emui_accent"
+                style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

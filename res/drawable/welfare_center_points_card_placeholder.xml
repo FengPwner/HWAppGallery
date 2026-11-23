@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/appgallery_default_corner_radius_m" />
+    <solid
+        android:color="@color/welfare_center_points_card_placeholder_color" />
+</shape>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+    android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_l"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/game_msg_section_layout"
+        android:paddingBottom="@dimen/margin_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56.0dip">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/section_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_centerVertical="true"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/margin_l"
+                android:layout_toEndOf="@id/section_image"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+            <ImageView
+                android:id="@id/section_image"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="56.0dip"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginStart="56.0dip">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/forum_section_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="64.0dip"
+                android:maxLines="1"
+                android:textAllCaps="true"
+                maskview:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+                maskview:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+                style="@style/AppGallery.Widget.Button.Small" />
+            <RelativeLayout
+                android:layout_gravity="end|center"
+                android:id="@id/message_more_layout"
+                android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+                android:paddingTop="@dimen/padding_s"
+                android:paddingBottom="@dimen/padding_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/card_more_btn"
+                android:paddingStart="@dimen/padding_s"
+                android:paddingEnd="@dimen/padding_s"
+                android:layout_marginStart="16.0dip"
+                android:layout_toEndOf="@id/forum_section_follow">
+                <ImageView
+                    android:id="@id/message_more_image"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:src="@drawable/aguikit_ic_public_more_list" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/game_msg_layout"
+        android:paddingBottom="24.0dip"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="56.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/game_msg_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/game_msg_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        <ViewStub
+            android:id="@id/game_msg_image_layout"
+            android:layout="@layout/forum_remind_msg_img_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m" />
+    </LinearLayout>
+    <include
+        android:id="@id/bottom_forum_remind_new_card"
+        layout="@layout/forum_remind_new_card" />
+</LinearLayout>

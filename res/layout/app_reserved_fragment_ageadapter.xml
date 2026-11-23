@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/content_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <include
+            android:id="@id/default_view"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            layout="@layout/reserved_nodata_layout" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.PullUpListView
+            android:id="@id/applistview"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="true"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            bounceViews:bounceEnable="true"
+            bounceViews:hwCutoutMode="never" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/appgallery_color_sub_background"
+        android:layout_width="fill_parent"
+        android:layout_height="88.0dip">
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/go_reserve_btn"
+            android:layout_marginTop="@dimen/margin_l"
+            android:layout_marginBottom="@dimen/margin_l"
+            android:text="@string/go_order_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            bounceViews:hwAutoSizeMinTextSize="9.0sp"
+            bounceViews:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</LinearLayout>

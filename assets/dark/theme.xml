@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wlanzone_transparent">#00000000</color>
+    <color name="wlanzone_half_black">#80ffffff</color>
+    <!--100%透明度的黑色-->
+    <color name="wlanzone_title_name_black">#FFffffff</color>
+    <color name="wlanzone_itemtext_remind_color">#8acb55</color>
+
+    <color name="inter_recommend_img_background">#26858ABF</color>
+
+    <!--9.0适配start-->
+    <color name="emui_white">#000000</color>
+    <!--无数据的背景色-->
+    <color name="emui_nodata">#000000</color>
+    <!--协议字体-->
+    <color name="c_black">#FFFFFF</color>
+    <!--9.0适配end-->
+
+    <!--app层start-->
+    <color name="pay_score_color">#FFec7251</color>
+
+    <color name="score_item_score_color">#ff934b</color>
+
+    <color name="setting_bg_color">#000000</color>
+
+    <color name="essentialapp_black">#ffffff</color>
+
+    <color name="uninstall_color">#ffffff</color>
+
+    <color name="uninstall_bg_color">#80ffffff</color>
+
+    <color name="black_20_percent">#80ffffff</color>
+
+    <!-- 等级说明背景色，只用于等级说明 -->
+    <color name="grade_description_white">#33ffffff</color>
+
+    <!--app层end-->
+
+
+    <!--wisedist层start-->
+
+    <color name="search_btn_normal_color_normal">#26ffffff</color>
+
+    <color name="search_btn_color_normal">#ffffffff</color>
+
+    <!-- 10%黑色 -->
+    <color name="black_10_percent_wisedist">#26ffffff</color>
+
+    <color name="tab_text_selected_def_honor">#0d9ffb</color>
+
+    <color name="list_item_normal">#B30337D0</color>
+    <color name="backgound_gray">#000000</color>
+    <color name="backgound_fcfcfc">#000000</color>
+    <color name="backgound_0064cc">#0A7FC9</color>
+    <color name="list_background">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_alpha_15">#26ffffff</color>
+    <color name="black_alpha_3">#f2f2f2</color>
+    <!--<color name="black_alpha_5">#0dffffff</color>-->
+    <color name="card_intro_savetraffic">#5BB755</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#ffffff</color>
+    <color name="half_black">#80ffffff</color>
+    <color name="black_alpha_75">#BFffffff</color>
+    <color name="black_alpha_03">#07ffffff</color>
+    <color name="emui_pressed">#1162af</color>
+    <color name="white_text_7c7c7c">#ffffff</color>
+    <color name="green_text_28c0c6">#0d9ffb</color>
+    <color name="blue_text_007dff">#0d9ffb</color>
+    <color name="blue_text_007dff_alpha_20">#330d9ffb</color>
+    <color name="text_search_app">#00D796</color>
+    <color name="text_app_no_adapt">#ff3320</color>
+    <!-- End add -->
+    <color name="tab_background_emui5">#000000</color>
+
+    <color name="white_status_bar">#000000</color>
+    <color name="black_status_bar">#000000</color>
+
+    <!-- 详情 -->
+    <color name="detail_dowanload_progressbar_background">#800d9ffb</color>
+    <color name="detail_dowanload_progressbar_color">#0d9ffb</color>
+    <color name="detail_dowanload_button_background">#0072d6</color>
+    <color name="detail_line_background">#33ffffff</color>
+    <color name="detail_navigator_normal">#bfffffff</color>
+    <color name="detail_navigator_selected">#ff0d9ffb</color>
+    <color name="detail_navigator_selected_split">#590d9ffb</color>
+    <color name="detail_download_button_content_normal">#FFFFFF</color>
+    <color name="detail_comment_approve_selected">#0d9ffb</color>
+    <color name="app_zone_navigator_textcolor">#BFffffff</color>
+    <color name="app_not_safe_textcolor">#fb6522</color>
+    <color name="comment_num_error">#ff3320</color>
+
+    <!-- 搜索 -->
+    <color name="edittext_hint_color">#33ffffff</color>
+    <color name="edittext_hint_press_color">#26ffffff</color>
+    <color name="search_edittext_hint_color">#4cFFFFFF</color>
+    <color name="search_edittext_press_color">#26FFFFFF</color>
+    <color name="search_edittext_input_color">#d9FFFFFF</color>
+
+    <!-- 分类Tag卡片 -->
+    <color name="title_green">#0d9ffb</color>
+    <color name="title_green_click">#26b6bc</color>
+    <color name="title_green_alfpercent_5">#0D0d9ffb</color>
+    <color name="title_green_alfpercent_15">#260d9ffb</color>
+    <color name="category_button_select_unpressed">#0d9ffb</color>
+
+    <!-- 拼接图标的背景色 -->
+    <color name="update_notification_background">#AFABB4</color>
+
+    <!-- 更多按钮  -->
+    <color name="more_btn_bg_pressed">#F5F5F5</color>
+    <color name="more_btn_bg_normal">#00000000</color>
+
+    <!-- 更新提示的红色文字颜色，也可用于我的界面中收藏提示 -->
+    <color name="update_tips_red">#FF3320</color>
+    <!-- 弹出框 -->
+    <color name="dialog_title">#ffffffff</color>
+    <color name="button_text_color">#0d9ffb</color>
+
+    <color name="tab_background">#2c9195</color>
+
+    <color name="category_button_unselect">#3E3E3E</color>
+
+    <!--50%透明度的黑色-->
+    <color name="item_desc_gray">#80ffffff</color>
+    <color name="edittext_cancel_hint_press_color">#FF0d9ffb</color>
+
+    <color name="list_dialog_unselected">#000000</color>
+    <color name="list_dialog_selected">#e0e0e0</color>
+
+    <!-- 华为品牌色 -->
+    <color name="huawei_brand_color">#0d9ffb</color>
+    <!-- 动态中可点击的字体颜色 -->
+
+    <color name="apk_management_cannot_install">#4C0d9ffb</color>
+    <!-- 数字内容卡片分数颜色 -->
+    <color name="content_score_color">#ffba1b</color>
+    <!-- Tab 字体颜色 -->
+    <color name="tab_text_click">#FFFFFFFF</color>
+    <color name="tab_bg_normal_def_sd">#FF000000</color>
+    <color name="tab_bg_normal_def">#FF000000</color>
+    <color name="tab_text_normal_def">#FFffffff</color>
+    <color name="tab_text_selected_def">#FF0d9ffb</color>
+    <color name="tab_selected_line_def">#0d9ffb</color>
+    <color name="tab_line_bg_def">#33ffffff</color>
+
+    <color name="tab_bg_normal_imm">#01000000</color>
+    <color name="tab_text_normal_imm">#FFFFFFFF</color>
+    <color name="tab_text_selected_imm">#FFFFFFFF</color>
+    <color name="tab_selected_line_imm">#FFFFFFFF</color>
+    <color name="tab_line_bg_imm">#00000000</color>
+
+    <color name="search_bar_edit_text_normal_bg_color">#33ffffff</color>
+
+    <color name="app_detail_video_status_current_time_color">#CDFFFFFF</color>
+    <color name="detail_comment_list_reply_item_time_color">#7F000000</color>
+
+    <color name="detail_comment_user_level_titel_color">#ec7251</color>
+    <color name="tips_content_color">#cccccc</color>
+    <color name="itemtext_remind_color">#8acb55</color>
+    <color name="prize_dlg_color">#FF610A5F</color>
+    <color name="push_app_size_color">#c0c0c0</color>
+    <color name="get_score_title_color">#777777</color>
+    <color name="small_post_item_title_color">#da000000</color>
+    <color name="my_actionbar_title_color">#DDDDDD</color>
+
+    <color name="devider_e3e3e3">#33ffffff</color>
+    <color name="title_name_black">#ffffffff</color>
+
+    <color name="search_bar_edit_text_bg_color">#33ffffff</color>
+    <color name="change_submit_btn_bg">#05ffffff</color>
+    <color name="change_submit_btn_pressed_bg">#0Cffffff</color>
+    <color name="black_alpha_5">#1Affffff</color>
+    <color name="black_alpha_8">#333333</color>
+
+
+    <!-- 推荐界面搜索背景色 -->
+    <color name="search_bar_color_normal">#33ffffff</color>
+    <color name="search_bar_color_pressed">#33ffffff</color>
+    <color name="search_bar_color_shadow">#3affffff</color>
+
+    <!-- 分类排行界面搜索背景色 -->
+    <color name="search_bar_normal_color_normal">#1Affffff</color>
+    <color name="search_bar_normal_color_pressed">#33ffffff</color>
+    <color name="search_bar_normal_color_shadow">#3affffff</color>
+
+    <color name="search_label_color">#33ffffff</color>
+
+    <color name="list_selector_F9F9F9">#202020</color>
+
+    <color name="black_alpha30">#4cffffff</color>
+
+    <color name="check_box_edit_text_normal_bg_color">#ffffff</color>
+
+    <color name="search_tip_normal_color">#33ffffff</color>
+
+    <drawable name="black_alpha_03_divier">#14ffffff</drawable>
+
+    <color name="detail_comment_progress_color">#1Affffff</color>
+
+    <color name="detail_downloadbutton_processing">#4d0d9ffb</color>
+
+    <!--关于协议和隐私政策文字颜色 换肤使用-->
+    <color name="privacy_text_color">#0d9ffb</color>
+    <color name="normal_protocol_hyperlink">#0a7fc9</color>
+    <color name="press_protocol_hyperlink">#0d9ffb</color>
+
+    <!-- subtab选中颜色 用于换肤 -->
+    <color name="blue_text_007dff_subtab">#0D9FFB</color>
+
+    <color name="approve_text_color">#0D9FFB</color>
+
+    <!--wisedist层end-->
+
+    <!--webview 标题-->
+    <color name="title_black">#ffffffff</color>
+
+    <!--我的 昵称-->
+    <color name="personal_item_player_user_000000">#ffffffff</color>
+
+    <!-- fast app start-->
+    <color name="fastapp_blue_text_007dff">#0d9ffb</color>
+    <color name="fastapp_black">#ffffff</color>
+    <color name="fastapp_half_black">#ffffff</color>
+    <!-- fast app end-->
+
+    <!-- emui9.0 分割线颜色 -->
+    <color name="divider_horizontal_color_emui">#33ffffff</color>
+
+    <!-- 卡片描边 -->
+    <color name="cardview_stroke">#0dffffff</color>
+
+    <!-- 热门话题背板色 -->
+    <color name="hottopic_card_bg">#33ffffff</color>
+
+    <!-- 判断是否是黑色主题的文件，请不要使用 -->
+    <color name="judge_darktheme_color">#ffffffff</color>
+
+    <!-- 0表示普通颜色，1表示深色，2表示荣耀色,3表示nova色-->
+    <color name="theme_style">#000001</color>
+
+    <!-- 详情页标签底色 #FFFFFF 20% -->
+    <color name="appdetail_label_default_bg">#33FFFFFF</color>
+    <!-- 详情页标签点击时底色 #FFFFFF 30% -->
+    <color name="appdetail_label_pressed_bg">#4DFFFFFF</color>
+
+    <color name="share_bg">#333333</color>
+
+    <!-- 添加心愿截图描边颜色 #000000 5% ，适配黑色主题，不要换肤-->
+    <color name="wish_image_stroke_select_nor_color">#33FFFFFF</color>
+
+    <!-- 问题反馈 -->
+    <color name="c_feedback_question_color">#012E5D</color>
+
+    <color name="bigbuoy_backgroud">#F2000000</color>
+
+    <color name="buoy_webview_bg">#FFFFFF</color>
+
+    <color name="xh_item_ff000000">#ffffff</color>
+    <color name="xh_item_7f000000">#7fffffff</color>
+
+    <!-- 评论组件 -->
+    <color name="appcomment_black_20">#80ffffff</color>
+    <color name="appcomment_default_bg">#262626</color>
+    <color name="appcomment_backgound_gray">#000000</color>
+
+    <!--10%白色  分享卡片的背景色-->
+    <color name="community_share_card_bg">#19FFFFFF</color>
+    <!--5%白色  分享Fragment的背景色-->
+    <color name="community_share_fragment_bg">#0DFFFFFF</color>
+    <!--分享二维码区域的背景色-->
+    <color name="community_share_qr_bg">#0D000000</color>
+
+    <!--分享框外部背景色-->
+    <color name="share_mask_color">#26ffffff</color>
+
+    <!-- 节假日 start -->
+    <!-- 信号栏、导航栏，适配换肤 -->
+    <color name="hiappbase_status_bar">#000000</color>
+    <color name="hiappbase_navigation_bar">#262626</color>
+
+    <!-- 我的界面 卡片间隔 -->
+    <color name="appcommon_mine_sub_divider_color">#262626</color>
+
+    <color name="emui_basetitle_color">#262626</color>
+
+    <!-- 搜索栏背景色 -->
+    <color name="search_title_background">#000000</color>
+
+    <!-- 整个页面背景 -->
+    <color name="wisedist_fragment_bg">#000000</color>
+
+    <!-- 节假日 end -->
+
+    <!-- 论坛 start -->
+    <color name="forum_section_head_icon_second_change_color">#ffffff</color>
+    <color name="forum_section_head_statusbar_second_change_color">#000000</color>
+    <color name="forum_section_head_title_second_change_color">#ffffff</color>
+
+    <color name="forum_post_tips_text_color">#AB6600</color>
+    <color name="forum_post_tips_bg_color">#4DFFD796</color>
+
+    <!-- 论坛个人主页自定义 -->
+    <color name="forum_user_head_bg">#ff191919</color>
+    <color name="forum_user_head_divider">#26ffffff</color>
+
+    <!-- 版块actionbar消息数量 -->
+    <color name="forum_section_msgcount_color">#e6e6e6</color>
+
+    <!-- 头像点击按压色 -->
+    <color name="forum_black_20_percent">#80ffffff</color>
+
+    <!-- 版主盖章 背景色 30%的emui_accent 0D9FFB-->
+    <color name="forum_stamp_moderator_bg">#4D0D9FFB</color>
+    <!-- 论坛 end -->
+
+
+    <!-- 更新组件begin -->
+    <color name="updatemanager_blue_text_007dff_alpha_20">#330d9ffb</color>
+    <!-- 更新组件end -->
+
+    <!--无网络界面黑色主题背景颜色替换-->
+    <color name="network_remind_bar_color">#4B0D0E</color>
+
+    <!--图片选择 start-->
+    <color name="media_show_image_activity_80000000">#80ffffff</color>
+    <color name="media_show_image_activity_00000000">#00000000</color>
+
+    <color name="media_video_grid_child_item_80FFFFFF">#80FFFFFF</color>
+    <color name="media_video_grid_child_item_ffffff">#ffffff</color>
+    <color name="media_video_grid_child_item_000000">#ffffff</color>
+    <!--图片选择 end-->
+
+    <!--AppGallery EMUI10 深色模式颜色定义 start-->
+    <!-- 一级文本颜色：#ffffff 66%不透明 -->
+    <color name="appgallery_text_color_primary">#DBFFFFFF</color>
+    <!-- 二级文本颜色：#ffffff 50%不透明 -->
+    <color name="appgallery_text_color_secondary">#99FFFFFF</color>
+    <!-- 三级文本颜色：#ffffff 38%不透明 -->
+    <color name="appgallery_text_color_tertiary">#61FFFFFF</color>
+    <!-- 卡片默认背景色-用于内容未加载场景 -->
+    <color name="appgallery_card_color_default_background">#19FFFFFF</color>
+    <!-- 卡片描边颜色：20% #FFFFFF -->
+    <color name="appgallery_color_card_stroke_normal">#33ffffff</color>
+    <!-- 卡片描边颜色：点击状态 10% #ffffff -->
+    <color name="appgallery_color_card_stroke_on_clicked">#1Affffff</color>
+    <!-- 可点击文本\超链接\网址文本色 -->
+    <color name="appgallery_text_color_link">#5291FF</color>
+    <!-- 系统高亮色 -->
+    <color name="appgallery_color_accent">#317AF7</color>
+
+    <!-- 状态栏背景色 -->
+    <color name="appgallery_color_statusbar_bg">#000000</color>
+    <color name="appgallery_color_appbar_bg">#000000</color>
+    <!-- SubTab 背景色 -->
+    <color name="appgallery_color_subtab_bg">#000000</color>
+    <color name="appgallery_color_bottomtab_bg">#000000</color>
+    <color name="appgallery_color_toolbar_bg">#000000</color>
+    <!-- 导航栏背景色 -->
+    <color name="appgallery_color_navigationbar_bg">#000000</color>
+    <!-- EMUI10 widget aar dark end -->
+    <!--AppGallery EMUI10 深色模式颜色定义 end-->
+
+    <color name="hiappbase_refreshcard_select_bg">#08FFFFFF</color>
+    <!-- 更多子项目编辑状态的背景色 -->
+    <color name="appgallery_color_edit_subtab_background">#1A1A1A</color>
+    <!-- 更多子项目编辑状态拖拽时的背景色 -->
+    <color name="appgallery_color_edit_subtab_drag_background">#313131</color>
+    <!-- 我的卡片中分割线颜色 -->
+    <color name="appcommon_color_personal_divider">#4DFFFFFF</color>
+
+    <!-- 竖向多subtab背景色 #FFFFFF -->
+    <color name="vertical_multi_tabs_bg">#FFFFFF</color>
+
+    <!-- 竖向tab栏item背景色#000000 -->
+    <color name="vertical_multi_tabs_item_bg">#0cffffff</color>
+
+    <!-- 系统背景色，9.0上黑色模式方案，引用颜色时有bug, 需要直接使用数值 -->
+    <color name="appgallery_color_background">#FF000000</color>
+
+    <!-- 游戏福利社子卡片的礼包图标背景色 -->
+    <color name="welfare_gift_backcolor">#19FFFFFF</color>
+
+    <!-- 文本高亮色 -->
+    <color name="appgallery_text_color_primary_activated">#3F97E9</color>
+
+    <!--已购项目组件消费记录页面长按弹框背景色-->
+    <color name="purchasehistory_popupwindow_bg">#333333</color>
+
+    <!--白色 10%不透明度 -->
+    <color name="component_detail_comment_bg_color">#19FFFFFF</color>
+
+    <!-- 阴影布局：默认颜色 -->
+    <color name="appgallery_shadow_layout_default_color">#14000000</color>
+
+    <!-- 带阴影卡片底板背景色 -->
+    <color name="appgallery_shadow_card_background_color">#262626</color>
+
+    <!-- 设置中间item卡片的背景色 -->
+    <color name="appgallery_color_card_panel_bg">#202224</color>
+
+    <!-- 个人信息背景色 -->
+    <color name="personal_mine_info_bg">#000000</color>
+
+    <color name="appgallery_color_primary">#DBFFFFFF</color>
+    <color name="appgallery_color_secondary">#99FFFFFF</color>
+    <color name="appgallery_color_tertiary">#66FFFFFF</color>
+    <color name="appgallery_color_fourth">#33FFFFFF</color>
+
+    <!--探索小图卡片一级标题标签底色-->
+    <color name="explore_card_title_tag_bg">#33FA2A2D</color>
+    <!--探索大图卡片背景底色-->
+    <color name="explore_card_big_image_card_bg">#14FFFFFF</color>
+
+    <!--下载管理页面item长按弹框背景色-->
+    <color name="permit_app_kit_long_click_popup_bg">#333333</color>
+    <!--标签文字颜色 80%透明度 黑色主题-->
+    <color name="wisedist_round_corner_button_text_color">#33FFFFFF</color>
+    <!-- 系统辅助背景色 -->
+    <color name="appgallery_color_sub_background">#000000</color>
+
+    <!-- 论坛热点卡片小圆点适配黑色主题的颜色 -->
+    <color name="hotspot_dots_bg">#33FFFFFF</color>
+    <!-- 论坛热点卡片背板色适配黑色主题 -->
+    <color name="hotspot_card_bg">#202224</color>
+    <!-- 图片占位图色值 -->
+    <color name="appgallery_placeholder_img_color">#1A1A1A</color>
+    <!-- 默认头像svg颜色   -->
+    <color name="aguikit_ic_placeholder_header_bg">#4DFFFFFF</color>
+    <color name="aguikit_ic_placeholder_header_content">#DBFFFFFF</color>
+    <!-- 心愿单图片右上角删除背景颜色 -->
+    <color name="wish_ic_wish_delete_bg">#4DFFFFFF</color>
+    <!-- 心愿单图片右上角删除X的颜色 -->
+    <color name="wish_ic_wish_delete_x">#DBFFFFFF</color>
+    <!-- BottomTab icon off状态颜色 -->
+    <color name="appgallery_color_bottomtab_icon_off">#99FFFFFF</color>
+    <!-- Harmony OS 2.0 UIKIT aar -->
+    <!-- HwResource -->
+    <color name="emui_accent">#317AF7</color>
+    <color name="emui_accent_inverse">#317AF7</color>
+    <color name="emui_accent_pressed">#317AF7</color>
+    <color name="emui_activated">#5291FF</color>
+    <color name="emui_activated_end">#5291FF</color>
+    <color name="emui_activated_start">#5291FF</color>
+    <color name="emui_appbar_bg">#000000</color>
+    <color name="emui_appbar_icon">#DBFFFFFF</color>
+    <color name="emui_appbar_icon_pressed">#DBFFFFFF</color>
+    <color name="emui_appbar_subbg">#000000</color>
+    <color name="emui_appbar_subtitle">#99FFFFFF</color>
+    <color name="emui_appbar_title">#DBFFFFFF</color>
+    <color name="emui_appbar_title_off">#99FFFFFF</color>
+    <color name="emui_badge_red">#D94838</color>
+    <color name="emui_black">#E6E6E6</color>
+    <color name="emui_bottombar_bg">#000000</color>
+    <color name="emui_bottombar_bg_blur">#F2000000</color>
+    <color name="emui_bottombar_icon_off">#33FFFFFF</color>
+    <color name="emui_bottombar_icon_off_auxcolor_01">#3FFFFFFF</color>
+    <color name="emui_bottombar_icon_off_auxcolor_02">#66FFFFFF</color>
+    <color name="emui_bottombar_icon_on">#5291FF</color>
+    <color name="emui_bottombar_icon_on_auxcolor_01">#CCFFFFFF</color>
+    <color name="emui_bottombar_icon_on_auxcolor_02">#995291FF</color>
+    <color name="emui_bottombar_subbg">#000000</color>
+    <color name="emui_bottombar_subbg_blur">#F2000000</color>
+    <color name="emui_bottombar_text_off">#99FFFFFF</color>
+    <color name="emui_bottombar_text_on">#5291FF</color>
+    <color name="emui_bottomsheet_bg">#363636</color>
+    <color name="emui_button_default">#19FFFFFF</color>
+    <color name="emui_button_default_disabled">#0AFFFFFF</color>
+    <color name="emui_card_bg">#464646</color>
+    <color name="emui_card_panel_bg">#303030</color>
+    <color name="emui_center_color">#317AF7</color>
+    <color name="emui_clickeffic_default_color">#26FFFFFF</color>
+    <color name="emui_color_1">#5F58C7</color>
+    <color name="emui_color_10">#E08C3A</color>
+    <color name="emui_color_11">#D1A738</color>
+    <color name="emui_color_2">#4796C4</color>
+    <color name="emui_color_3">#5AADA0</color>
+    <color name="emui_color_4">#5BA854</color>
+    <color name="emui_color_5">#86AD53</color>
+    <color name="emui_color_6">#8C55C2</color>
+    <color name="emui_color_7">#D64966</color>
+    <color name="emui_color_8">#D94838</color>
+    <color name="emui_color_9">#DB6B42</color>
+    <color name="emui_color_badge">#317AF7</color>
+    <color name="emui_color_bg">#000000</color>
+    <color name="emui_color_bg_floating">#FFFFFFFF</color>
+    <color name="emui_color_connected">#5BA854</color>
+    <color name="emui_color_divider_horizontal">#33FFFFFF</color>
+    <color name="emui_color_fg">#FFFFFF</color>
+    <color name="emui_color_fg_1">#5550A6</color>
+    <color name="emui_color_fg_10">#9E7349</color>
+    <color name="emui_color_fg_11">#997E39</color>
+    <color name="emui_color_fg_2">#467794</color>
+    <color name="emui_color_fg_3">#4C7A73</color>
+    <color name="emui_color_fg_4">#5C8059</color>
+    <color name="emui_color_fg_5">#6B8052</color>
+    <color name="emui_color_fg_6">#634794</color>
+    <color name="emui_color_fg_7">#A14A5C</color>
+    <color name="emui_color_fg_8">#9C554B</color>
+    <color name="emui_color_fg_9">#9E644F</color>
+    <color name="emui_color_fg_inverse">#E5E5E5</color>
+    <color name="emui_color_fg_inverse_disable">#666666</color>
+    <color name="emui_color_fourth">#33FFFFFF</color>
+    <color name="emui_color_gray_1">#262626</color>
+    <color name="emui_color_gray_10">#E6E6E6</color>
+    <color name="emui_color_gray_2">#1A1A1A</color>
+    <color name="emui_color_gray_3">#262626</color>
+    <color name="emui_color_gray_4">#333333</color>
+    <color name="emui_color_gray_5">#4CE6E6E6</color>
+    <color name="emui_color_gray_6">#666666</color>
+    <color name="emui_color_gray_7">#808080</color>
+    <color name="emui_color_gray_8">#B3B3B3</color>
+    <color name="emui_color_gray_9">#CCCCCC</color>
+    <color name="emui_color_handup">#D94838</color>
+    <color name="emui_color_primary">#DBFFFFFF</color>
+    <color name="emui_color_progress">#99FFFFFF</color>
+    <color name="emui_color_secondary">#99FFFFFF</color>
+    <color name="emui_color_spinner_icon">#DBFFFFFF</color>
+    <color name="emui_color_subbg">#000000</color>
+    <color name="emui_color_subheader_divider">#19FFFFFF</color>
+    <color name="emui_color_tertiary">#66FFFFFF</color>
+    <color name="emui_color_text_highlight">#66317AF7</color>
+    <color name="emui_color_text_primary">#DBFFFFFF</color>
+    <color name="emui_color_text_secondary">#99FFFFFF</color>
+    <color name="emui_color_text_tertiary">#66FFFFFF</color>
+    <color name="emui_color_tips_bg">#404040</color>
+    <color name="emui_color_tooltips_bg">#4D4D4D</color>
+    <color name="emui_color_warning">#DB6B42</color>
+    <color name="emui_control_focused">#5291FF</color>
+    <color name="emui_control_focused_outline">#5291FF</color>
+    <color name="emui_control_highlight">#317AF7</color>
+    <color name="emui_control_hover">#19FFFFFF</color>
+    <color name="emui_control_normal">#19FFFFFF</color>
+    <color name="emui_control_normal_disabled">#0AFFFFFF</color>
+    <color name="emui_dialog_bg">#363636</color>
+    <color name="emui_end_color">#317AF7</color>
+    <color name="emui_fab_bg_normal">#317AF7</color>
+    <color name="emui_fab_bg_pressed">#4587F7</color>
+    <color name="emui_fab_icon">#FFFFFF</color>
+    <color name="emui_fab_icon_end">#FFFFFF</color>
+    <color name="emui_fab_icon_start">#FFFFFF</color>
+    <color name="emui_fab_shadow_end">#4D317AF7</color>
+    <color name="emui_fab_shadow_start">#4D317AF7</color>
+    <color name="emui_focused_color_1">#E5FFFFFF</color>
+    <color name="emui_focused_color_2">#99FFFFFF</color>
+    <color name="emui_focused_color_3">#66FFFFFF</color>
+    <color name="emui_functional_blue">#5291FF</color>
+    <color name="emui_functional_blue_inverse">#5291FF</color>
+    <color name="emui_functional_green">#007900</color>
+    <color name="emui_functional_red">#D94838</color>
+    <color name="emui_inputbox_bg">#19FFFFFF</color>
+    <color name="emui_inputbox_subbg">#19FFFFFF</color>
+    <color name="emui_list_separator_text">#7F000000</color>
+    <color name="emui_mask_light">#99000000</color>
+    <color name="emui_mask_regular">#B2000000</color>
+    <color name="emui_mask_thick">#E5000000</color>
+    <color name="emui_mask_thin">#66000000</color>
+    <color name="emui_navigationbar_bg">#E5000000</color>
+    <color name="emui_primary">#FFFFFF</color>
+    <color name="emui_primary_inverse">#E5E5E5</color>
+    <color name="emui_special_color_1">#392F49</color>
+    <color name="emui_special_color_11">#4A4333</color>
+    <color name="emui_special_color_2">#343E4A</color>
+    <color name="emui_special_color_4">#3C4B34</color>
+    <color name="emui_special_color_7">#443038</color>
+    <color name="emui_special_color_9">#463630</color>
+    <color name="emui_start_color">#317AF7</color>
+    <color name="emui_subtab_bg">#000000</color>
+    <color name="emui_subtab_line_on">#5291FF</color>
+    <color name="emui_subtab_text_off">#99FFFFFF</color>
+    <color name="emui_subtab_text_on">#5291FF</color>
+    <color name="emui_switch_bg_off">#33000000</color>
+    <color name="emui_switch_outline_off">#66FFFFFF</color>
+    <color name="emui_text_disabled">#66FFFFFF</color>
+    <color name="emui_text_highlight_inverse">#66317AF7</color>
+    <color name="emui_text_hint">#99FFFFFF</color>
+    <color name="emui_text_hint_inverse">#99FFFFFF</color>
+    <color name="emui_text_inverse_disable">#66FFFFFF</color>
+    <color name="emui_text_primary">#FFFFFF</color>
+    <color name="emui_text_primary_inverse">#E5E5E5</color>
+    <color name="emui_text_secondary_inverse">#99FFFFFF</color>
+    <color name="emui_text_tertiary_inverse">#66FFFFFF</color>
+    <color name="emui_toast_bg">#4D4D4D</color>
+    <color name="emui_toolbar_bg">#000000</color>
+    <color name="emui_toolbar_icon">#DBFFFFFF</color>
+    <color name="emui_toolbar_icon_actived">#5291FF</color>
+    <color name="emui_toolbar_subbg">#000000</color>
+    <color name="emui_toolbar_text">#DBFFFFFF</color>
+    <color name="emui_toolbar_text_actived">#5291FF</color>
+    <item format="float" name="emui_disabled_alpha" type="dimen">0.4</item>
+    <item format="float" name="emui_divider_alpha" type="dimen">0.1</item>
+    <item format="float" name="emui_fourth_content_alpha" type="dimen">0.2</item>
+    <item format="float" name="emui_highlight_bg_alpha" type="dimen">0.4</item>
+    <item format="float" name="emui_normal_bg_alpha" type="dimen">0.1</item>
+    <item format="float" name="emui_primary_content_alpha" type="dimen">0.86</item>
+    <item format="float" name="emui_secondary_content_alpha" type="dimen">0.6</item>
+    <item format="float" name="emui_tertiary_content_alpha" type="dimen">0.4</item>
+    <item format="float" name="emui_tips_bg_alpha" type="dimen">0.1</item>
+    <!-- hwprogressindicator控件色值 -->
+    <color name="hwprogressindicator_background_color">#19FFFFFF</color>
+    <color name="hwprogressindicator_bar_begin_color">#FF72A4D9</color>
+    <color name="hwprogressindicator_flicker_color">#33FFFFFF</color>
+    <color name="hwprogressindicator_waiting_begin_color">#006591BF</color>
+    <color name="hwprogressindicator_waiting_end_color">#FF3B61F7</color>
+    <!-- HwSearchview -->
+    <color name="hwsearchview_color_plate_bg">#19ffffff</color>
+    <color name="hwsearchview_color_plate_bg_click">#33ffffff</color>
+    <!-- hwalphaindexerlistview -->
+    <color name="hwalphaindexerlistview_label_shadow_color">#000000</color>
+    <color name="hwalphaindexerlistview_text_bg_color">#194281FF</color>
+    <!-- hwbottomnavigationview -->
+    <color name="hwbottomnavigationview_blur_color">#FF1A1A1A</color>
+    <color name="hwbottomnavigationview_message_bg">#D30003</color>
+    <!-- hwbutton -->
+    <color name="hwbutton_color_emui_accent_disable">#61006CDE</color>
+    <color name="hwbutton_default_pressed_color_layer">#19FFFFFF</color>
+    <color name="hwbutton_emphasize_pressed_color_layer">#19FFFFFF</color>
+    <color name="hwbutton_functional_blue_disable">#613F97E9</color>
+    <!-- hwprogressBar -->
+    <bool name="hwprogressBar_glowing_enabled">true</bool>
+    <item format="float" name="hwprogressbar_alpha" type="dimen">0.86</item>
+    <!-- hwprogressbutton -->
+    <color name="hwprogressbutton_text_emphasize_color">#D8ffffff</color>
+    <color name="hwprogressbutton_text_emphasize_disabled">#41ffffff</color>
+    <!-- hwseekbar -->
+    <color name="hwseekbar_scale_color">#33FFFFFF</color>
+    <color name="hwseekbar_step_text">#80FFFFFF</color>
+    <!-- hwspinner -->
+    <color name="hwspinner_item_disabled">#66FFFFFF</color>
+    <color name="hwspinner_list_selector_bg_focused_emui">#191F69FF</color>
+    <color name="hwspinner_list_shadow_color">#000000</color>
+    <!-- hwswitch -->
+    <color name="hwswitch_off_track_bg">#616161</color>
+    <color name="hwswitch_thumb_disable">#616161</color>
+    <color name="switch_track_off_bg_emui">#66FFFFFF</color>
+
+    <color name="hwprogressindicator_bar_end_color">#FF3B61F7</color>
+
+    <!-- HwFloatingButton控件适配黑色主题的颜色 -->
+    <color name="hwfloatingbutton_disabled_shadow_start">#00000000</color>
+    <color name="hwfloatingbutton_disabled_shadow_end">#00000000</color>
+
+    <!--  排行榜卡片深色模式下对应的背景颜色  -->
+    <color name="hiapp_platform_card_sort_index_1_color_base_start">#CCF4DEB7</color>
+    <color name="hiapp_platform_card_sort_index_1_color_base_end">#CCE0C293</color>
+    <color name="hiapp_platform_card_sort_index_1_color_line1_start">#1AF4DEB7</color>
+    <color name="hiapp_platform_card_sort_index_1_color_line1_end">#1AE0C293</color>
+    <color name="hiapp_platform_card_sort_index_1_color_line2_start">#33F4DEB7</color>
+    <color name="hiapp_platform_card_sort_index_2_color_base_start">#CCDFE0DC</color>
+    <color name="hiapp_platform_card_sort_index_2_color_base_end">#CCCECFCA</color>
+    <color name="hiapp_platform_card_sort_index_2_color_line_start">#33DFE0DC</color>
+    <color name="hiapp_platform_card_sort_index_3_color_base_start">#CC7B9FAC</color>
+    <color name="hiapp_platform_card_sort_index_3_color_base_end">#CC577C8B</color>
+
+    <!-- 福利中心深色主题颜色 -->
+    <color name="rewards_text_color">#D94838</color>
+    <color name="welfare_center_signin_item_color">#40FFD100</color>
+    <color name="welfare_center_item_background_color">#0FFFFFFF</color>
+    <color name="welfare_center_text_color">#D94838</color>
+    <color name="welfare_center_points_task_btn_bg_color">#CCFFECEC</color>
+    <color name="welfare_center_top_corner_bg_color">#000000</color>
+    <color name="welfare_center_points_card_placeholder_color">#1AFFFFFF</color>
+
+    <!-- 应用图标描边颜色 -->
+    <color name="agimageloader_appicon_stroke_color">#26ffffff</color>
+
+    <!--问题反馈页面兼容深色皮肤 从feedback和faq sdk values-night-v29处拷贝-->
+    <color name="faq_emui_accent">#0D9FFB</color>
+    <color name="faq_emui_color_gray_10">#333333</color>
+    <color name="faq_emui_color_gray_5">#4CE6E6E6</color>
+    <color name="faq_emui_white">#e6e6e6</color>
+    <color name="faq_emui_white_bg">#000000</color>
+    <color name="feedback_sdk_action_bar_grey">#F7262626</color>
+    <color name="feedback_sdk_bar_black">#DBFFFFFF</color>
+    <color name="feedback_sdk_common_black_20">#33ffffff</color>
+    <color name="feedback_sdk_common_black_30">#4DE6E6E6</color>
+    <color name="feedback_sdk_common_black_40">#66ffffff</color>
+    <color name="feedback_sdk_common_btn_blue">#00AAEE</color>
+    <color name="feedback_sdk_dialog_bg">#262626</color>
+    <color name="feedback_sdk_grid_divider_color">#33E6E6E6</color>
+    <color name="feedback_sdk_label_assist_text_color_normal">#80E6E6E6</color>
+    <color name="feedback_sdk_label_text_color_normal">#E6E6E6</color>
+    <color name="feedback_sdk_list_item_hint_text_color_normal">#4DE6E6E6</color>
+    <color name="feedback_sdk_moreservice_choose_text_color">#80E6E6E6</color>
+    <color name="feedback_sdk_moreservice_text_color">#E6E6E6</color>
+    <color name="feedback_sdk_notice_view_background">#000000</color>
+    <color name="feedback_sdk_notice_view_default_text_color">#80E6E6E6</color>
+    <color name="feedback_sdk_notice_view_pad_background">#000000</color>
+    <color name="feedback_sdk_problem_common_type_info_phone">#747474</color>
+    <color name="feedback_sdk_problem_photo_bg">#191919</color>
+    <color name="feedback_sdk_problem_question_info_bg">#262626</color>
+    <color name="feedback_sdk_problem_question_info_or_phone_hint">#606060</color>
+    <color name="feedback_sdk_problem_question_info_or_phone_text">#FFFFFF</color>
+    <color name="feedback_sdk_problem_question_max_number">#ff0000</color>
+    <color name="feedback_sdk_problem_question_number">#676767</color>
+    <color name="feedback_sdk_problem_recycle_normol_question_type_bg">#33ffffff</color>
+    <color name="feedback_sdk_problem_recycle_select_question_type">#E6E6E6</color>
+    <color name="feedback_sdk_problem_recycle_select_question_type_bg">#07507D</color>
+    <color name="feedback_sdk_problem_select_question_type">#E6E6E6</color>
+    <color name="feedback_sdk_problem_submit_normol_bg">#04324C</color>
+    <color name="feedback_sdk_problem_submit_select_bg">#0E9FFC</color>
+    <color name="feedback_sdk_problem_submit_select_text">#FFFFFF</color>
+    <color name="feedback_sdk_problem_submit_text">#4F7083</color>
+    <color name="feedback_sdk_tab_slider_bg_color_selected">#0D9FFB</color>
+    <color name="feedback_sdk_tab_slider_bg_color_selected_50">#800D9FFB</color>
+    <color name="feedback_sdk_text_normal_black">#99ffffff</color>
+    <color name="feedback_sdk_text_normal_black_50">#66ffffff</color>
+    <color name="feedback_tab_text_color_selected_20">#330d9ffb</color>
+    <color name="feedback_toggle_item_bg_color">#19FFFFFF</color>
+    <color name="btn_blue">#00AAEE</color>
+    <color name="faq_sdk_action_bar_grey">#F7262626</color>
+    <color name="faq_sdk_bar_black">#DBFFFFFF</color>
+    <color name="faq_sdk_btn_blue">#0D9FFB</color>
+    <color name="faq_sdk_category_menu_bg">#262626</color>
+    <color name="faq_sdk_dialog_bg">#262626</color>
+    <color name="faq_sdk_edit_text_hint">#66ffffff</color>
+    <color name="faq_sdk_edit_text_normal_black">#99ffffff</color>
+    <color name="faq_sdk_grid_divider_color">#33E6E6E6</color>
+    <color name="faq_sdk_label_assist_text_color_normal">#80E6E6E6</color>
+    <color name="faq_sdk_label_highlight_text_color_normal">#0D9FFB</color>
+    <color name="faq_sdk_label_text_color_normal">#E6E6E6</color>
+    <color name="faq_sdk_list_divider_color">#33E6E6E6</color>
+    <color name="faq_sdk_list_item_hint_text_color_normal">#4DE6E6E6</color>
+    <color name="faq_sdk_list_item_selector_color">#19FFFFFF</color>
+    <color name="faq_sdk_list_item_title_text_color_normal">#E6E6E6</color>
+    <color name="faq_sdk_menu_pressed_bg">#19FFFFFF</color>
+    <color name="faq_sdk_notice_view_background">#000000</color>
+    <color name="faq_sdk_notice_view_default_text_color">#80E6E6E6</color>
+    <color name="faq_sdk_notice_view_pad_background">#000000</color>
+    <color name="faq_sdk_online_them">#000000</color>
+    <color name="faq_sdk_pop_menu_bg">#262626</color>
+    <color name="faq_sdk_rectangle_bg_color">#262626</color>
+    <color name="faq_sdk_search_bg">#19ffffff</color>
+    <color name="faq_sdk_section_background_color_normal">#14ffffff</color>
+    <color name="faq_sdk_section_sub_title_text_color_normal">#80E6E6E6</color>
+    <color name="faq_sdk_share_bg">#F7262626</color>
+    <color name="faq_sdk_white_bg">#000000</color>
+    <color name="image_view_cover_color_normal">#0Dffffff</color>
+    <color name="list_item_selector_color">#19FFFFFF</color>
+    <color name="module_base_label_text_color_normal">#E6E6E6</color>
+    <color name="module_base_list_divider_color">#33FFFFFF</color>
+    <color name="toggle_item_bg_color">#33FFFFFF</color>
+    <!--  问题反馈SDK适配结束  -->
+
+    <!-- 半屏遮罩颜色-->
+    <color name="id_fa_color_dialog_bg_blur">#D8202224</color>
+
+    <!-- 迷你详情页背景色 -->
+    <color name="appgallery_color_dialog_bg">#363636</color>
+    <color name="mini_detail_close_bg">#FFFFFF</color>
+    <color name="mini_detail_close">#C4FFFFFF</color>
+
+    <!-- 标签字体颜色 -->
+    <color name="normal_card_label_text_color">#E6B673</color>
+
+    <!-- 通知权限切换横幅卡 -->
+    <color name="notification_switch_card_bg_color">#19FFFFFF</color>
+    <color name="notification_switch_card_title_color">#DBFFFFFF</color>
+    <color name="notification_switch_card_content_color">#99FFFFFF</color>
+    <color name="notification_switch_card_button_text_color">#5291FF</color>
+</resources>

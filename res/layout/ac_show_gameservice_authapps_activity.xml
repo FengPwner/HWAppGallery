@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/switch_entry"
+        android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg"
+        android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_below="@id/title"
+        android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.List.SingleTextLine">
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/game_service_switch_entry"
+            android:layout_weight="1.0"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+        <LinearLayout
+            android:gravity="end|center"
+            android:layout_gravity="end|center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_text_margin_horizontal">
+            <ImageView
+                android:layout_marginStart="@dimen/margin_s"
+                style="@style/AppGallery.Widget.List.RightArrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@id/cacel_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/show_game_service_title"
+        android:layout_below="@id/switch_entry"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.SubHeader.ListTitle" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:scrollbarSize="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/recycle_view"
+        android:paddingBottom="@dimen/padding_xl"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_below="@id/cacel_subtitle"
+        android:fadeScrollbars="false"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="@dimen/ui_8_dp"
+    android:paddingRight="@dimen/ui_8_dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/tag_item_view"
+        android:background="@drawable/recommend_tags_item_bg"
+        android:paddingLeft="@dimen/ui_8_dp"
+        android:paddingTop="@dimen/ui_6_dp"
+        android:paddingRight="@dimen/ui_8_dp"
+        android:paddingBottom="@dimen/ui_6_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_button3"
+            android:textColor="@color/emui_color_text_primary"
+            android:ellipsize="end"
+            android:id="@id/tag_item_tv"
+            android:focusable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/emui_text_font_family_regular" />
+        <com.huawei.uikit.hwimageview.widget.HwImageView
+            android:id="@id/tag_item_iv"
+            android:background="@drawable/recommend_ic_cancel"
+            android:focusable="true"
+            android:layout_width="@dimen/ui_16_dp"
+            android:layout_height="@dimen/ui_16_dp"
+            android:layout_marginLeft="@dimen/ui_4_dp"
+            android:importantForAccessibility="yes" />
+    </LinearLayout>
+</LinearLayout>

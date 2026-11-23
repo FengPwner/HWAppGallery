@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/lantern"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_text_paragraph_margin_xs"
+    android:paddingEnd="@dimen/padding_s"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/lanternIcon_layout"
+        android:background="@drawable/lantern_img_pressed"
+        android:layout_width="@dimen/lantern_icon_width"
+        android:layout_height="@dimen/lantern_icon_width"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@id/lanternIcon"
+            android:layout_width="@dimen/lantern_icon_width"
+            android:layout_height="@dimen/lantern_icon_width"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:layout_gravity="end|center|top"
+            android:id="@id/lantern_red_dot"
+            android:visibility="gone"
+            android:layout_width="6.0dip"
+            android:layout_height="6.0dip"
+            android:src="@drawable/tab_red_dot" />
+    </FrameLayout>
+    <TextView
+        android:gravity="center"
+        android:id="@id/lanternName"
+        android:tag="css/.title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+        android:layout_below="@id/lanternIcon_layout"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <scale
+            android:scaleWidth="100%"
+            android:useIntrinsicSizeAsMinimum="true">
+            <inset
+                android:drawable="@drawable/hwseekbar_slider_track_progress_enable_dark_emui"
+                android:insetTop="@dimen/hwseekbar_slider_inset_padding"
+                android:insetBottom="@dimen/hwseekbar_slider_inset_padding" />
+        </scale>
+    </item>
+    <item
+        android:state_pressed="false">
+        <clip>
+            <inset
+                android:drawable="@drawable/hwseekbar_default_track_progress_dark_emui"
+                android:insetTop="@dimen/hwseekbar_default_inset_padding"
+                android:insetBottom="@dimen/hwseekbar_default_inset_padding" />
+        </clip>
+    </item>
+</selector>

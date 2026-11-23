@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/faq_emui_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.phoneservice.feedback.mvp.base.FeedbackFootOverScrollListView
+        android:id="@id/lv_feedlist"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:divider="@null"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/feed_list_option_host"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_sdk_common_56_dip"
+        android:layout_marginStart="@dimen/feedback_sdk_common_32_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_32_dip">
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_10_sp"
+            android:textColor="@color/feedback_sdk_common_black"
+            android:gravity="center"
+            android:id="@id/feed_list_tv_cancel"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_sdk_common_cancel"
+            android:drawableTop="@drawable/feedback_sdk_ic_cancel"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <Space
+            android:id="@id/feed_list_space"
+            android:layout_width="@dimen/feedback_sdk_common_14_dip"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_10_sp"
+            android:textColor="@color/feedback_sdk_common_black"
+            android:gravity="center"
+            android:id="@id/feed_list_tv_delete"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_sdk_delete"
+            android:drawableTop="@drawable/feedback_sdk_ic_delete"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+    </LinearLayout>
+    <com.huawei.phoneservice.feedback.widget.FeedbackNoticeView
+        android:id="@id/noticeview_feedlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:fbsdknoticeAutoFitCenterYInLandScape="true"
+        app:fbsdknoticeViewType="progress" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/search_coupon_detail_current_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/search_coupon_current_info_color"
+        android:id="@id/coupon_current_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_coupon_detail_current_margin_top"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/search_coupon_detail_margin_left" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="12.0dip"
+        android:textColor="@color/search_coupon_money_of_info_color"
+        android:id="@id/coupon_money_of_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dip"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="8.0dip"
+        android:layout_toEndOf="@id/coupon_current_info" />
+    <View
+        android:id="@id/coupon_vertical_line"
+        android:background="@color/search_coupon_vertical_line_color"
+        android:visibility="gone"
+        android:layout_width="1.0dip"
+        android:layout_height="10.0dip"
+        android:layout_marginTop="44.0dip"
+        android:textAlignment="viewStart"
+        android:layout_toEndOf="@id/coupon_money_of_info" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="12.0dip"
+        android:textColor="@color/search_coupon_money_of_info_color"
+        android:id="@id/coupon_total_info"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dip"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="10.0dip"
+        android:layout_toEndOf="@id/coupon_vertical_line" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0dip"
+        android:textColor="@color/white"
+        android:id="@id/search_coupon_card_tips"
+        android:paddingTop="2.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:paddingStart="8.0dip"
+        android:paddingEnd="8.0dip"
+        android:layout_alignParentEnd="true" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="16.0dip"
+        android:textColor="@color/search_coupon_current_info_color"
+        android:ellipsize="end"
+        android:id="@id/coupon_pay_scope_text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:singleLine="true"
+        android:layout_below="@id/coupon_current_info"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/search_coupon_detail_margin_left" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="12.0dip"
+        android:textColor="@color/search_coupon_money_of_info_color"
+        android:id="@id/coupon_date_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:layout_below="@id/coupon_pay_scope_text_info"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/search_coupon_detail_margin_left" />
+</RelativeLayout>

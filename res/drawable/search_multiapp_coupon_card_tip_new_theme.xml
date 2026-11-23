@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="24.0dip"
+    android:width="48.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="160.0"
+    android:viewportHeight="68.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/search_coupon_card_tips_color_theme1"
+        android:pathData="M0,0L128,0C145.673,-0 160,14.327 160,32L160,68L160,68L40,68C17.909,68 0,50.091 0,28L0,0L0,0Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+</vector>

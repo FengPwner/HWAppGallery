@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/linear_scene_item_layout"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12.0dip"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/txt_privacy_scene_card_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        style="@style/detail_card_privacy_scene_item_name" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/linear_privacy_scene"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8.0dip" />
+</LinearLayout>

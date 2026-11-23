@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/buoy_lantern_bg_drawable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="83.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/padding_m"
+        android:layout_marginBottom="@dimen/padding_l"
+        android:layout_marginStart="@dimen/ui_4_dp"
+        android:layout_marginEnd="@dimen/ui_4_dp">
+        <ImageView
+            android:gravity="center"
+            android:id="@id/icon"
+            android:layout_width="@dimen/lantern_icon_width"
+            android:layout_height="@dimen/lantern_icon_width"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:textSize="@dimen/emui_master_body_1"
+            android:textColor="@color/buoy_emui_primary"
+            android:gravity="center"
+            android:id="@id/lanternName"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_4_dp"
+            android:layout_below="@id/icon"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

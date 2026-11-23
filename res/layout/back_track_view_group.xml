@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/fl_track_parent"
+        android:visibility="gone"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appmarket.framework.widget.track.TrackView
+            android:gravity="center_vertical"
+            android:layout_gravity="start|bottom|center"
+            android:orientation="horizontal"
+            android:id="@id/ll_track_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100.0dip"
+            android:minHeight="59.0dip"
+            android:paddingEnd="16.0dip"
+            app:blank_bottom="56.0dip"
+            app:inner_content_color="@color/emui_card_bg">
+            <ImageView
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:src="@drawable/ic_chevron_backward"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="4.0dip" />
+            <TextView
+                android:textSize="@dimen/emui_text_size_button2"
+                android:textColor="@color/emui_text_primary"
+                android:id="@id/tv_track_content"
+                android:paddingTop="20.0dip"
+                android:paddingBottom="20.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@string/emui_text_font_family_medium"
+                android:paddingEnd="@dimen/ui_12_dp" />
+        </com.huawei.appmarket.framework.widget.track.TrackView>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:id="@id/hotspot_video_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:round_corner_top_left="@dimen/emui_corner_radius_large"
+    app:round_corner_top_right="@dimen/emui_corner_radius_large"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.videokit.api.WiseVideoView
+        android:id="@id/hotspot_video_player"
+        android:tag="@string/properties_video_contentDescription"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:media_type="0"
+        app:view_type="0" />
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

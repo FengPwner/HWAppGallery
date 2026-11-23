@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/action"
+    android:paddingTop="@dimen/padding_xl"
+    android:paddingBottom="@dimen/padding_xl"
+    android:layout_width="fill_parent"
+    android:layout_height="112.0dip"
+    android:paddingStart="@dimen/padding_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/margin_m">
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:id="@id/third_app_dl_layout1"
+                android:layout_width="fill_parent"
+                android:layout_height="28.0dip">
+                <TextView
+                    android:id="@id/third_app_warn_text"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0.0dip"
+                    android:text="@string/third_app_dl_installing"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    android:layout_marginEnd="@dimen/margin_l"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+                <TextView
+                    android:id="@id/third_app_dl_progress_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40%"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:id="@id/third_app_dl_layout2"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ui_24_dp"
+                android:layout_marginTop="@dimen/margin_s"
+                android:layout_marginBottom="@dimen/margin_m">
+                <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+                    android:id="@id/third_app_dl_progressbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/cancel_imageview"
+            android:layout_width="@dimen/ui_40_dp"
+            android:layout_height="@dimen/ui_40_dp">
+            <ImageView
+                android:id="@id/inner_cancel_imageview"
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/show_update_dlg_cancel"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/title_name_black"
+        android:gravity="start"
+        android:id="@id/third_app_dl_size_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="20.0dip" />
+</LinearLayout>

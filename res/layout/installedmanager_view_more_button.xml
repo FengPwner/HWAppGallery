@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/layout_more"
+    android:background="@drawable/aguikit_card_panel_bg_bottom_corner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:textSize="@dimen/appgallery_text_size_button2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/view_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:text="@string/wisedist_view_more"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        maskview:hwAutoSizeMinTextSize="9.0sp"
+        maskview:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/Widget.Emui.HwButton.Borderless.Small" />
+</LinearLayout>

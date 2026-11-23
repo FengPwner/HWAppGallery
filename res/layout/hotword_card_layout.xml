@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/hotword_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:id="@id/hot_scrollView"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.foundation.ui.framework.widget.MultiLineLabelLayout
+            android:orientation="vertical"
+            android:id="@id/search_layout_container"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="4.0dip" />
+    </ScrollView>
+</LinearLayout>

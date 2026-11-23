@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/main_layout"
+    android:background="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.BounceViewPager
+        android:id="@id/image_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        bounceViews:bounceEnable="true" />
+    <RelativeLayout
+        android:id="@id/appcommon_forum_save_layout"
+        android:background="@drawable/media_save_image_layout_bg"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tab_column_height"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/image_save_linearlayout"
+            android:layout_width="@dimen/tab_column_height"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/media_detail_preview_save"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:layout_width="@dimen/media_save_width"
+                android:layout_height="@dimen/media_save_width"
+                android:src="@drawable/aguikit_ic_public_save" />
+        </LinearLayout>
+        <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/indicator"
+            android:layout_width="@dimen/media_page_width"
+            android:layout_height="@dimen/media_page_width"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_alignParentStart="true"
+            bounceViews:hwIsAutoPlay="false"
+            bounceViews:hwIsShowAsDot="false"
+            style="@style/Widget.Emui.HwDotsPageIndicator.Dark" />
+    </RelativeLayout>
+</RelativeLayout>

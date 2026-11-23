@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/dinvokeapi_subheader_layout"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="0.0dip"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/cs_36_dp"
+    android:importantForAccessibility="yes"
+    android:paddingStart="@dimen/ui_12_dp"
+    android:paddingEnd="@dimen/ui_12_dp"
+    style="@style/AppGallery.Widget.SubHeader.ViewGroup"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/dinvokeapi_subheader_title_layout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textColor="@color/emui_color_text_secondary"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:layout_gravity="start|center"
+            android:id="@id/dinvokeapi_subheader_title_left"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_for_layout"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            android:layout_alignBaseline="@id/dinvokeapi_subheader_more_arrow"
+            android:layout_centerVertical="true"
+            android:importantForAccessibility="no"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3" />
+        <ImageView
+            android:layout_gravity="end|center"
+            android:id="@id/dinvokeapi_subheader_more_arrow"
+            android:tag="css/.arrow"
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+            android:layout_height="@dimen/appgallery_list_item_right_arrow_height"
+            android:contentDescription="@string/card_more_btn"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="0.0dip"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/emui_text_size_dialog_title"
+        android:ellipsize="end"
+        android:layout_gravity="start|center"
+        android:id="@id/dinvokeapi_header_title"
+        android:tag="css/.title"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_for_layout"
+        android:maxLines="1"
+        android:layout_below="@id/dinvokeapi_subheader_title_layout"
+        android:importantForAccessibility="no"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.Widget.SubHeader.Title" />
+</RelativeLayout>

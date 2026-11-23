@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:id="@id/interac_item"
+        android:tag="css/.title"
+        app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+        app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+        style="@style/Interac.Button" />
+</LinearLayout>

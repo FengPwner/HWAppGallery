@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:background="@color/faq_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:layout_width="@dimen/faq_sdk_ui_24_dip"
+        android:layout_height="@dimen/faq_sdk_ui_24_dip"
+        android:layout_marginTop="@dimen/faq_sdk_footer_progressbar_margin"
+        android:layout_marginBottom="@dimen/faq_sdk_footer_progressbar_margin" />
+    <TextView
+        android:textSize="@dimen/emui_text_size_body2"
+        android:textColor="@color/emui_color_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faq_sdk_common_loading"
+        android:layout_marginStart="@dimen/faq_sdk_ui_8_dip" />
+</LinearLayout>

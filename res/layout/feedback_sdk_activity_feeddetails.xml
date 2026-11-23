@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/faq_emui_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.phoneservice.feedback.mvp.base.FeedbackCITListView
+        android:id="@id/lv_chatlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/feedback_sdk_common_16_dip"
+        android:layout_marginBottom="@dimen/feedback_sdk_common_8_dip"
+        android:layout_above="@id/ll_btn"
+        android:layout_marginStart="@dimen/emui_dimens_max_start"
+        android:layout_marginEnd="@dimen/emui_dimens_max_end" />
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:gravity="center_horizontal"
+        android:id="@id/ll_btn"
+        android:background="@color/feedback_sdk_problem_question_info_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@id/continuefeed_btn"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_BottomTop"
+            android:layout_marginBottom="@dimen/feedback_defaultBottomFixed"
+            android:text="@string/feedback_sdk_question_continue_btn"
+            style="@style/Widget.Emui.HwButton.Emphasize" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    <com.huawei.phoneservice.feedback.widget.FeedbackNoticeView
+        android:id="@id/noticeview_feeddetail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:fbsdknoticeAutoFitCenterYInLandScape="true"
+        app:fbsdknoticeViewType="progress" />
+</RelativeLayout>

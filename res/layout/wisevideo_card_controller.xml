@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:importantForAccessibility="no" />
+    <ViewStub
+        android:id="@id/video_stub"
+        android:layout="@layout/wisevideo_card_controller_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/video_small_stub"
+        android:layout="@layout/wisevideo_small_card_controller_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ImageView
+        android:id="@id/center_start"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/ic_public_play_button"
+        android:scaleType="center"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/video_accessibility_video" />
+</RelativeLayout>

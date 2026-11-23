@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/bigbuoy_background_drawable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/window_title"
+        layout="@layout/buoy_all_enter_window_title" />
+    <androidx.core.widget.NestedScrollView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/buoy_tip_black"
+                android:id="@id/txt_buoy_service_tips"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_l"
+                android:layout_marginBottom="@dimen/margin_s"
+                android:text="@string/buoy_service_tips"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:id="@id/permanent_tip_title"
+                android:paddingTop="@dimen/padding_xl"
+                android:paddingBottom="@dimen/padding_m"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:minHeight="@dimen/ui_48_dp"
+                android:paddingStart="@dimen/appgallery_max_padding_start"
+                android:paddingEnd="@dimen/appgallery_max_padding_end">
+                <TextView
+                    android:textSize="@dimen/emui_master_body_2"
+                    android:textColor="@color/buoy_subhead_title"
+                    android:gravity="start|center"
+                    android:id="@id/tv_permanent_title"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buoy_permanent_service_title"
+                    android:maxLines="1"
+                    android:layout_weight="2.0"
+                    android:fontFamily="HwChinese-medium" />
+                <LinearLayout
+                    android:gravity="end|center"
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="@dimen/margin_m">
+                    <TextView
+                        android:textSize="@dimen/emui_master_body_2"
+                        android:textColor="@color/buoy_subhead_title"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/permanent_tip_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/buoy_permanent_service_tip"
+                        android:lineSpacingMultiplier="1.1" />
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/permanent_enter_recyclerview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:id="@id/all_service_title_layout"
+                android:paddingBottom="@dimen/padding_m"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                android:baselineAligned="false"
+                android:minHeight="@dimen/ui_24_dp"
+                android:paddingStart="@dimen/appgallery_max_padding_start"
+                android:paddingEnd="@dimen/appgallery_max_padding_end">
+                <TextView
+                    android:textSize="@dimen/emui_master_body_2"
+                    android:textColor="@color/buoy_subhead_title"
+                    android:gravity="start|center"
+                    android:id="@id/tv_all_title"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buoy_more_service_title"
+                    android:maxLines="1"
+                    android:layout_weight="2.0"
+                    android:fontFamily="HwChinese-medium" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/all_enter_recyclerview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

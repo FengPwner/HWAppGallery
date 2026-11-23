@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appgallery_bottom_tab_height">0.0dip</dimen>
+    <item type="dimen" name="appgallery_hwbottomnavigationview_item_port_width_in_vertical">@dimen/hwbottomnavigationview_item_port_width_in_vertical</item>
+</resources>

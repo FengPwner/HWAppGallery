@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailbase.view.ExposureRelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.detail.detailbase.common.widget.RenderImageView
+        android:id="@id/immerse_image"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+    <ViewStub
+        android:id="@id/service_upgrade_guide"
+        android:layout="@layout/appdetail_service_upgrade_guide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/immerse_image" />
+    <ViewStub
+        android:id="@id/normal_head_ag"
+        android:layout="@layout/appdetail_item_head_ag_v3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/immerse_image" />
+    <ViewStub
+        android:id="@id/agedapter_normal_head_ag"
+        android:layout="@layout/appdetail_ageadapter_item_head_ag_v3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/immerse_image" />
+</com.huawei.appgallery.detail.detailbase.view.ExposureRelativeLayout>

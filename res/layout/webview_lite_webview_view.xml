@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/webview_title"
+        layout="@layout/webview_lite_webview_title" />
+    <include
+        android:id="@id/webview_downloadtip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        android:layout_alignParentBottom="true"
+        layout="@layout/webview_lite_webview_downloadtip" />
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/webview_processbar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_horizontal_emui5"
+        android:layout_below="@id/webview_title"
+        style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    <WebView
+        android:id="@id/safewebview"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/webview_downloadtip"
+        android:layout_below="@id/webview_processbar" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/webview_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/webview_downloadtip"
+        android:layout_below="@id/webview_processbar"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/downloadPage_icon"
+            android:src="@drawable/webview_lite_ic_download_manager_empty"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:gravity="center"
+            android:id="@id/downloadPage_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webview_lite_webview_downloadpage_note_content"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+    </LinearLayout>
+</RelativeLayout>

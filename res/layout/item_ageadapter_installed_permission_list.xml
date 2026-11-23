@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_s"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/iv_permission_icon"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:scaleType="centerCrop" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/tv_permission_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_l"
+        style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+</LinearLayout>

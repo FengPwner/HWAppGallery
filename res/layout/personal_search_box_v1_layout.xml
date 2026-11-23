@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="end|center"
+    android:orientation="vertical"
+    android:id="@id/personal_search_box_v1"
+    android:layout_width="56.0dip"
+    android:layout_height="56.0dip"
+    android:contentDescription="@string/hiappbase_search_btn"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/personal_search_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/aguikit_ic_public_search"
+        android:layout_marginEnd="@dimen/appgallery_column_system_content_margin" />
+</LinearLayout>

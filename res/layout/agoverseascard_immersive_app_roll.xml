@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.agoverseascard.agoverseascard.card.approllcard.AppRollCardRecycleView
+        android:id="@id/AppListItem"
+        android:tag="css/.body"
+        android:paddingTop="@dimen/agoverseas_approll_card_padding_vertical"
+        android:paddingBottom="@dimen/agoverseas_approll_card_padding_vertical"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="noHideDescendants" />
+    <com.huawei.appgallery.agoverseascard.agoverseascard.card.approllcard.AppRollMaskView
+        android:id="@id/mask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/AppListItem"
+        android:layout_alignTop="@id/AppListItem"
+        android:layout_alignRight="@id/AppListItem"
+        android:layout_alignBottom="@id/AppListItem"
+        android:importantForAccessibility="noHideDescendants" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/titleLayout"
+        android:paddingTop="@dimen/appgallery_card_elements_margin_m"
+        android:paddingBottom="@dimen/appgallery_card_elements_margin_l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AppListItem">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/subTitle"
+            android:tag="css/.subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/name"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.Title" />
+    </LinearLayout>
+</RelativeLayout>

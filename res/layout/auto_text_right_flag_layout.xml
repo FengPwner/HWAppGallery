@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/auto_complete_flagName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/flagNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    <ImageView
+        android:id="@id/flagNameMoreArrow"
+        android:background="@drawable/ic_public_arrow_right_900"
+        android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+        android:layout_height="@dimen/appgallery_list_item_right_arrow_height" />
+</LinearLayout>

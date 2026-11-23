@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/AppListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appmarket.framework.widget.RecommendHeadImageView
+        android:id="@id/appicon"
+        android:tag="css/.body"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/wisedist_image"
+        android:importantForAccessibility="yes"
+        android:accessibilityLiveRegion="none" />
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:id="@id/title_container_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/reuse_head_image_land_title_top_no_immersive"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/emui_text_primary_inverse"
+            android:ellipsize="end"
+            android:id="@id/subTitle_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:textSize="@dimen/recommend_banner_title_size"
+            android:textColor="@color/emui_text_primary_inverse"
+            android:ellipsize="end"
+            android:id="@id/title_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailbase.view.ExposureRelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.detail.detailbase.common.widget.RenderImageView
+        android:id="@id/immerse_image"
+        android:tag="@string/detail_bannerImage"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+    <include
+        android:id="@id/normal_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/immerse_image"
+        layout="@layout/detail_item_head_v4" />
+</com.huawei.appgallery.detail.detailbase.view.ExposureRelativeLayout>

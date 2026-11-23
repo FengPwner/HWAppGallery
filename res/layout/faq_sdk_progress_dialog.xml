@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:background="@drawable/faq_sdk_dialog_bg_shape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/faq_sdk_ui_10_dip"
+        android:layout_marginEnd="@dimen/faq_sdk_ui_10_dip">
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="@color/faq_sdk_bar_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faq_sdk_common_loading"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/faq_sdk_ui_24_dip" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25.0dip"
+            android:layout_marginBottom="25.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/faq_sdk_ui_24_dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

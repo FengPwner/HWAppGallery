@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/image"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_safety_margin_m"
+        android:layout_marginBottom="@dimen/appgallery_safety_margin_m"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/text_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/description_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emui_dimens_text_vertical"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

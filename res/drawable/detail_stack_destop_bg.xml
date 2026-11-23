@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item
+                android:state_enabled="false"
+                android:drawable="@drawable/shape_stack_destop_disable" />
+            <item
+                android:drawable="@drawable/shape_stack_destop_enable" />
+        </selector>
+    </item>
+    <item>
+        <selector
+            android:enterFadeDuration="@integer/hwanimations_hover_animation_duration"
+            android:exitFadeDuration="@integer/hwanimations_hover_animation_duration">
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/hwbutton_emphasize_emui_pressed_layer" />
+            <item
+                android:drawable="@android:color/transparent" />
+        </selector>
+    </item>
+</layer-list>

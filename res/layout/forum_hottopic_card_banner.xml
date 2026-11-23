@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+    android:id="@id/forum_hottopic_banner_imageview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    app:corner_radius="@dimen/emui_corner_radius_large"
+    app:touch_drawable="@drawable/forum_upround_large_corners_image_selector"
+    app:upround="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

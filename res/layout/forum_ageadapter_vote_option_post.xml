@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip">
+        <com.huawei.uikit.hwradiobutton.widget.HwRadioButton
+            android:id="@id/forum_vote_option_post_radiobutton"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:checked="false"
+            android:layout_marginStart="-12.0dip"
+            style="@style/Widget.Emui.HwRadioButton" />
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/forum_vote_option_post_checkbox"
+            android:visibility="gone"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:checked="false"
+            android:layout_marginStart="-12.0dip"
+            style="@style/Widget.Emui.HwCheckBox" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textColor="@color/appgallery_text_color_primary_activated"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:id="@id/forum_vote_option_post_text"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="12.0dip"
+                android:layout_marginBottom="12.0dip"
+                android:maxLines="2"
+                android:layout_marginEnd="8.0dip"
+                android:layout_toStartOf="@id/arrow_icon"
+                android:layout_alignParentEnd="true"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+            <ImageView
+                android:id="@id/arrow_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_public_arrow_right_activated"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

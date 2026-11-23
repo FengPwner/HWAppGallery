@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/layout_roll_banners_v2"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.huawei.appgallery.agoverseascard.agoverseascard.card.rollbannercard.BannerViewPager
+            android:id="@id/roll_viewpager_v2"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes" />
+        <com.huawei.appgallery.agoverseascard.agoverseascard.card.rollbannercard.RollDotsPageIndicator
+            android:id="@id/hwdotspageindicator_v2"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:layout_alignParentBottom="true"
+            android:importantForAccessibility="no" />
+    </RelativeLayout>
+    <com.huawei.appgallery.agoverseascard.agoverseascard.card.rollbannercardv2.RollDateView
+        android:id="@id/roll_date_view"
+        android:paddingTop="@dimen/appgallery_rolldateview_padding"
+        android:paddingBottom="@dimen/appgallery_rolldateview_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_rolldateview_margin_top"
+        android:importantForAccessibility="no"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        app:dayTextSize="@dimen/appgallery_rolldateview_day_textsize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:monthTextSize="@dimen/appgallery_rolldateview_month_textsize"
+        app:supportRoll="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

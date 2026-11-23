@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app:com.huawei.appgallery.detail.detailbase.view.ExposureWiseVideoView
+    android:id="@id/video_player"
+    android:tag="@string/properties_video_contentDescription"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:media_type="0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

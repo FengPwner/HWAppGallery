@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/app_controlled_layout"
+    android:background="@drawable/app_controlled_card_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/icon_app_controlled"
+        android:layout_width="@dimen/round_icon_width"
+        android:layout_height="@dimen/round_icon_width"
+        android:src="@drawable/icon_app_controlled"
+        app:layout_constraintBottom_toBottomOf="@id/title_app_controlled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title_app_controlled" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/app_controlled_title_text_color"
+        android:gravity="center_vertical"
+        android:id="@id/title_app_controlled"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/round_icon_width"
+        android:text="@string/install_dist_title_app_controlled"
+        android:fontFamily="@string/emui_text_font_family_medium"
+        android:layout_marginEnd="@dimen/margin_l"
+        app:layout_constraintEnd_toStartOf="@id/icon_app_controlled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="icon_app_controlled, title_app_controlled" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/app_controlled_content_text_color"
+        android:id="@id/content_app_controlled"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_4_dp"
+        android:text="@string/install_dist_content_app_controlled"
+        android:fontFamily="@string/emui_text_font_family_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrier" />
+</androidx.constraintlayout.widget.ConstraintLayout>

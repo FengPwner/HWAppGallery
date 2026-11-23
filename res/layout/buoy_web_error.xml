@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/no_network_layout"
+        android:tag="css/.body"
+        android:background="@color/emui_white"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/setting">
+            <RelativeLayout
+                android:id="@id/no_wifi_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@id/no_wifi"
+                    android:tag="css/.widget"
+                    android:background="@drawable/ic_no_wifi_disable"
+                    android:layout_centerHorizontal="true"
+                    style="@style/AppGallery.ImageSize.NoData" />
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@id/title"
+                    android:tag="css/.subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/no_wifi"
+                    android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                    android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                    style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.huawei.appmarket.framework.widget.RenderButton
+            android:gravity="center"
+            android:id="@id/setting"
+            android:tag="css/.title"
+            android:text="@string/setting_network_prompt_title"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</LinearLayout>

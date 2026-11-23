@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="@color/module_base_label_text_color_normal"
+        android:gravity="start"
+        android:id="@id/associative_search_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/faq_sdk_ui_12_dip"
+        android:layout_marginBottom="@dimen/faq_sdk_ui_12_dip"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/faq_sdk_ui_4_dip" />
+    <View
+        android:id="@id/diver_view"
+        android:background="@drawable/list_divider_color_drawable"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/divider_height" />
+</LinearLayout>

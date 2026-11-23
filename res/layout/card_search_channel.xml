@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/hiappbase_layout_subheader_title_more" />
+    <FrameLayout
+        android:id="@id/content_layout"
+        android:paddingBottom="@dimen/appgallery_card_elements_margin_l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/emui_corner_radius_mediums" />
+        <TextView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/promotion_sign"
+            android:background="@drawable/promotion_sign_bg_bannerv9"
+            android:layout_marginBottom="@dimen/banner_commodity_margin_12"
+            android:layout_marginEnd="@dimen/margin_s"
+            style="@style/promotion_sign_style_banner" />
+    </FrameLayout>
+    <View
+        android:id="@id/divide_line"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="@dimen/appgallery_max_padding_end"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_start"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

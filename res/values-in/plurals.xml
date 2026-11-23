@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Ditemukan %2$d aplikasi mencurigakan (termasuk %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Ditemukan %2$d aplikasi yang tidak digunakan (termasuk %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d aplikasi yang tidak digunakan</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d aplikasi dengan perilaku jahat ditangani</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d aplikasi dengan perilaku jahat terdeteksi</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d aplikasi penipuan ditangani</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d aplikasi penipuan terdeteksi</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d aplikasi dengan risiko privasi ditangani</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d aplikasi dengan risiko privasi terdeteksi</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d aplikasi dengan ancaman keamanan ditangani</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d aplikasi dengan ancaman keamanan terdeteksi</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d aplikasi dengan virus ditangani</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d aplikasi dengan virus terdeteksi</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d item dioptimalkan</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d masalah terdeteksi</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d aplikasi dipindai</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ancaman</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d aplikasi dipindai</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d ancaman aplikasi</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d aplikasi mencurigakan ditemukan dalam %1$d hari terakhir. Lihat perincian >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d aplikasi dipindai dalam %1$d hari terakhir. Lihat perincian >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d aplikasi dapat dikompresi</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d aplikasi yang tidak diketahui terdeteksi.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Aplikasi yang dapat dikompresi (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Ditemukan %d aplikasi yang tidak diketahui. Harap periksa.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Ditemukan %d aplikasi yang tidak diketahui</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d mnt lalu</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Penilaian: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s berisi konten yang memiliki batasan usia. Dengan menyentuh %3$s dan mengunduh aplikasi ini, Anda mengonfirmasi bahwa Anda sudah berusia lebih dari %2$d tahun.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Unduhan dijeda: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s berisi konten yang memiliki batasan usia. Dengan menyentuh %3$s dan menggunakan aplikasi ini, Anda mengonfirmasi bahwa Anda sudah berusia lebih dari %2$d tahun.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d tidak suka</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d tidak suka, Anda telah tidak menyukai ini</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d suka</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d suka, Anda telah menyukai ini</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d bintang</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d komentar</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d menit yang lalu</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d penilaian</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d suka</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d balasan</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Semua balasan (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Anda perlu sudah bermain selama paling sedikit %1$d menit untuk berkomentar.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s aplikasi sedang dipasang</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d item terpilih</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Copot pemasangan apl terpilih, termasuk %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Hapus instalasi %1$s dan %2$s aplikasi lain dari %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Hapus instalasi %2$s aplikasi, termasuk %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Hapus %1$s rekaman data?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">%1$d aplikasi berikut ini memerlukan akses ke izin tertentu:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d penilaian</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sJt penilaian</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sRb penilaian</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s aktivitas</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Waktu game yang tersisa kurang dari %1$s menit. Simpan game Anda secepatnya.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Hanya tersisa %d menit.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sRb</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d komentar</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Maksimum %1$d karakter</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Masukkan minimal %1$d karakter</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Hingga %1$d gambar
+Maksimum %2$s masing-masing"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Maksimum %d gambar untuk jenis masalah ini</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s bintang</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Kata sandi yang dimasukkan salah sebanyak %1$d kali. Harap coba lagi setelah %2$d menit.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sMr orang telah berpartisipasi</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sJt orang telah berpartisipasi</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s orang telah berpartisipasi</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sRb orang telah berpartisipasi</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sMr orang telah membeli ini</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sJt orang telah membeli ini</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s orang telah membeli ini</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sRb orang telah membeli ini</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s penilaian</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Penilaian, %1$s bintang</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Bernilai %1$s bintang</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Tetap pasang (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d item terpilih</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Uraian harus terdiri dari paling sedikit %d karakter. Tambahkan foto layar jika memungkinkan.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d detik</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Pos: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d suka</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d balas</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$srb</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d dilihat</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Tinggalkan komentar (total %1$d komentar)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Lihat semua %1$d balasan</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s peserta</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Pilih hingga %s jawaban</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Beberapa pilihan (pilih %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Pilih %s jawaban</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s suara</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Aplikasi ini memerlukan %1$d izin. Anda dapat mencabut ini kapan saja di Pengaturan > Aplikasi > Aplikasi.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Aplikasi ini memerlukan %1$d izin. Anda dapat mencabut ini kapan saja di Pengaturan > Aplikasi &amp; layanan > Aplikasi.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d kado</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dRb</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d bintang</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Penilaian: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s penilaian</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s terbuka</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d rekomendasi baru</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sRb</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d aplikasi telah diperbarui</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d aplikasi sedang diperbarui</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Gambar tidak boleh lebih besar dari %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d foto</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d dipilih</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d keuntungan</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Hapus semua instalasi terjeda (%1$s apl, hapus %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d terpilih)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Halaman %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Menjeda %1$s instalasi.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d tambahan</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s unduhan</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Bernilai %1$s bintang</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Instalasi terjadwal untuk %1$s aplikasi selesai</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d aplikasi akan mulai diunduh ketika Anda terhubung ke Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s diprapesan)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d juta kali dipesan)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d ribu kali dipesan)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Menginstal semua %1$s aplikasi?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s instalasi sedang berlangsung.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">dari %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Cari di antara %d aplikasi lokal</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Pulihkan %d aplikasi ke daftar pembaruan dan izinkan mereka diperbarui.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s pembaruan aplikasi tersedia</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s pembaruan aplikasi direkomendasikan. Total ukuran: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d pembaruan aplikasi tersedia. Ukuran: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Tidak digunakan selama %d hari</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Bersihkan %d tugas dan file yang diunduh?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Lapor masuk %d hari berturut-turut</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Hari ke-%d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d aplikasi diunduh</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Penilaian: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d mnt lalu</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplikasi, termasuk %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Lencana titik merah, %1$s notifikasi yang belum dibaca</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d penawaran</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d kado komunitas</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d kado</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d orang di wilayah Anda menginginkan ini</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d item terpilih</item>
+    </plurals>
+</resources>

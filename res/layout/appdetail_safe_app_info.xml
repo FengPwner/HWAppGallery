@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/safe_detail_app_info"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/padding_m"
+        android:paddingBottom="@dimen/padding_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:paddingStart="@dimen/padding_l"
+        android:paddingEnd="@dimen/padding_l">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/emui_dimens_default_end">
+            <ImageView
+                android:id="@id/safe_detail_app_icon_imageview"
+                android:focusable="false"
+                android:layout_width="@dimen/detail_safe_app_icon"
+                android:layout_height="@dimen/detail_safe_app_icon"
+                android:src="@drawable/app_icon_default_bg"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:id="@id/safe_head_fast_app_icon_imageview"
+                android:visibility="gone"
+                android:layout_width="@dimen/component_detail_safe_fasticon_size"
+                android:layout_height="@dimen/component_detail_safe_fasticon_size"
+                android:src="@color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_alignBottom="@id/safe_detail_app_icon_imageview"
+                android:layout_alignEnd="@id/safe_detail_app_icon_imageview" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes">
+            <TextView
+                android:id="@id/safe_detail_app_name"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/safe_head_app_name" />
+            <TextView
+                android:id="@id/safe_detail_version"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/safe_head_version" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

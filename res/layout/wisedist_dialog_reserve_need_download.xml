@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup
+        android:id="@id/radio_group_reserve"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.phone.hwradiobutton.widget.HwRadioButton
+            android:id="@id/radio_reserve_game_download"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip"
+            android:checked="true"
+            android:button="@null"
+            android:drawableEnd="@drawable/hwradiobutton_selector_emui" />
+        <com.huawei.uikit.phone.hwradiobutton.widget.HwRadioButton
+            android:id="@id/radio_reserve_game_notify"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="@string/reserve_game_notify"
+            android:drawableEnd="@drawable/hwradiobutton_selector_emui" />
+    </RadioGroup>
+</LinearLayout>

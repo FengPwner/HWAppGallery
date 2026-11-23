@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/selectableApp_rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/selectableApp_iconIV"
+        android:layout_width="@dimen/round_icon_width"
+        android:layout_height="@dimen/round_icon_width"
+        android:layout_marginTop="@dimen/margin_l"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+        android:id="@id/selectableApp_selectedCB"
+        android:background="@null"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        app:layout_constraintBottom_toTopOf="@id/selectableApp_iconIV"
+        app:layout_constraintEnd_toEndOf="@id/selectableApp_iconIV"
+        app:layout_constraintStart_toEndOf="@id/selectableApp_iconIV"
+        app:layout_constraintTop_toTopOf="@id/selectableApp_iconIV"
+        style="@style/Emui.CheckBox.IconSelect" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:id="@id/selectableApp_titleTV"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="HiApp"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/selectableApp_iconIV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/selectableApp_iconIV"
+        app:layout_constraintTop_toTopOf="@id/selectableApp_iconIV" />
+    <TextView
+        android:id="@id/adText"
+        android:tag="css/.subtitle"
+        android:visibility="gone"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        app:layout_constraintBottom_toBottomOf="@id/selectableApp_FreeIndicatorView"
+        app:layout_constraintEnd_toStartOf="@id/selectableApp_FreeIndicatorView"
+        app:layout_constraintStart_toStartOf="@id/selectableApp_titleTV"
+        app:layout_constraintTop_toTopOf="@id/selectableApp_FreeIndicatorView"
+        style="@style/AdTextViewBlackStyle" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_caption"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/selectableApp_FreeIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oobe_free"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:layout_marginEnd="@dimen/margin_l"
+        app:layout_constraintStart_toEndOf="@id/adText"
+        app:layout_constraintTop_toBottomOf="@id/selectableApp_titleTV"
+        app:layout_goneMarginStart="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

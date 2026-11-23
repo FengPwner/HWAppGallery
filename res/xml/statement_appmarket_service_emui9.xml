@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <title>
+        <string
+            name="@string/hiapp_oobe_agreement_title_modified" />
+    </title>
+    <content>
+        <string
+            name="@string/hiapp_oobe_agreement_content_emui9_new_modified_with_app_list"
+            placeholder_count="1">
+            <placeholder
+                font_type="link"
+                name="@string/hiapp_oobe_statement_emui9_more"
+                type="str" />
+        </string>
+    </content>
+    <action
+        name="com.huawei.appmarket.oobe.local.emui9" />
+</declaration>

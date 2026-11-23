@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alertDialog_width_emui">324.0dip</dimen>
+    <dimen name="line_width">1.0px</dimen>
+    <dimen name="send_repair_line_height">1.0px</dimen>
+    <dimen name="subtab_dividerline_width">1.0px</dimen>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/follow_section_icon"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <TextView
+        android:textSize="13.0sp"
+        android:ellipsize="end"
+        android:id="@id/follow_section_name"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/follow_section_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/follow_section_icon"
+        app:layout_constraintTop_toTopOf="@id/follow_section_icon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_below="@id/follow_section_name"
+        app:layout_constraintStart_toStartOf="@id/follow_section_name"
+        app:layout_constraintTop_toBottomOf="@id/follow_section_name">
+        <ImageView
+            android:id="@id/posts_img"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            android:src="@drawable/forum_post_image"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/forum_post_desc"
+            android:alpha="@dimen/appgallery_tertiary_content_alpha" />
+        <TextView
+            android:textSize="10.0sp"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/follow_posts_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:maxLines="1"
+            android:layout_alignTop="@id/posts_img"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_xs"
+            android:layout_toEndOf="@id/posts_img" />
+        <ImageView
+            android:id="@id/follow_img"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            android:src="@drawable/forum_follower_image"
+            android:layout_alignTop="@id/posts_img"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/forum_followers_desc"
+            android:alpha="@dimen/appgallery_tertiary_content_alpha"
+            android:layout_marginStart="@dimen/appgallery_text_paragraph_margin_xs"
+            android:layout_toEndOf="@id/follow_posts_count" />
+        <TextView
+            android:textSize="10.0sp"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/follow_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:maxLines="1"
+            android:layout_alignTop="@id/follow_img"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_xs"
+            android:layout_toEndOf="@id/follow_img" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

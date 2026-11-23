@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.SimpleExpandScrollLayout
+    android:id="@id/horizon_tab_expand_scroll_layout_id"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/pageframev2_filter_data_expand_viewstub"
+        android:layout="@layout/hiappbase_filter_data_expand_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_list_height_single_text_line" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.DisableMouseWheelLinearLayout
+        android:orientation="vertical"
+        android:id="@id/tabsContentLayout"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/tab_recycler_view_container"
+            android:background="@color/appgallery_color_subtab_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/tab_recycler_view"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+                android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+                android:minHeight="@dimen/horizon_tab_item_height"
+                android:paddingStart="@dimen/appgallery_max_padding_start"
+                android:paddingEnd="@dimen/appgallery_max_padding_end" />
+        </FrameLayout>
+        <androidx.viewpager2.widget.ViewPager2
+            android:orientation="vertical"
+            android:id="@id/tabsViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.huawei.appgallery.foundation.ui.framework.widget.DisableMouseWheelLinearLayout>
+</com.huawei.appmarket.framework.widget.SimpleExpandScrollLayout>

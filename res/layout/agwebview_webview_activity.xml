@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/web_whole_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/title_layout"
+        layout="@layout/agwebview_webview_title_layout" />
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/area_webview_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_horizontal_emui5"
+        android:layout_below="@id/title_layout"
+        style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    <com.huawei.appgallery.agwebview.api.view.SecureWebView
+        android:id="@id/activity_area_webview"
+        android:background="@color/appgallery_color_background"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/area_webview_progress_bar" />
+    <include
+        android:id="@id/web_error_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_layout"
+        layout="@layout/agwebview_web_error_global" />
+    <ViewStub
+        android:id="@id/translucent_web_error_layout"
+        android:visibility="gone"
+        android:layout="@layout/agwebview_translucent_web_error_global"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_layout" />
+    <ViewStub
+        android:id="@id/back_arrow_view_stub"
+        android:layout="@layout/agwebview_webview_back_arrow_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@id/reserve_share_comment_layout_root"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

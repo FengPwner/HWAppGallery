@@ -1,0 +1,353 @@
+.class public Lorg/apache/commons/lang3/time/CalendarUtils;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final INSTANCE:Lorg/apache/commons/lang3/time/CalendarUtils;
+
+
+# instance fields
+.field private final calendar:Ljava/util/Calendar;
+
+.field private final locale:Ljava/util/Locale;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    invoke-static {}, Lorg/apache/commons/lang3/time/CalendarUtils;->getInstance()Lorg/apache/commons/lang3/time/CalendarUtils;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/apache/commons/lang3/time/CalendarUtils;->INSTANCE:Lorg/apache/commons/lang3/time/CalendarUtils;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/Calendar;)V
+    .registers 3
+
+    .line 1
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    move-result-object v0
+
+    invoke-direct {p0, p1, v0}, Lorg/apache/commons/lang3/time/CalendarUtils;-><init>(Ljava/util/Calendar;Ljava/util/Locale;)V
+
+    return-void
+.end method
+
+.method constructor <init>(Ljava/util/Calendar;Ljava/util/Locale;)V
+    .registers 4
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "calendar"
+
+    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    iput-object p1, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    const-string p1, "locale"
+
+    invoke-static {p2, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    iput-object p2, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->locale:Ljava/util/Locale;
+
+    return-void
+.end method
+
+.method public static synthetic a([Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/time/CalendarUtils;->lambda$getMonthDisplayNames$0([Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+
+    return-void
+.end method
+
+.method public static getInstance()Lorg/apache/commons/lang3/time/CalendarUtils;
+    .registers 2
+
+    .line 1
+    new-instance v0, Lorg/apache/commons/lang3/time/CalendarUtils;
+
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lorg/apache/commons/lang3/time/CalendarUtils;-><init>(Ljava/util/Calendar;)V
+
+    return-object v0
+.end method
+
+.method static getInstance(Ljava/util/Locale;)Lorg/apache/commons/lang3/time/CalendarUtils;
+    .registers 3
+
+    .line 2
+    new-instance v0, Lorg/apache/commons/lang3/time/CalendarUtils;
+
+    invoke-static {p0}, Ljava/util/Calendar;->getInstance(Ljava/util/Locale;)Ljava/util/Calendar;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1, p0}, Lorg/apache/commons/lang3/time/CalendarUtils;-><init>(Ljava/util/Calendar;Ljava/util/Locale;)V
+
+    return-object v0
+.end method
+
+.method private static synthetic lambda$getMonthDisplayNames$0([Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+    .registers 3
+
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    move-result p2
+
+    aput-object p1, p0, p2
+
+    return-void
+.end method
+
+.method public static toLocalDateTime(Ljava/util/Calendar;)Ljava/time/LocalDateTime;
+    .registers 2
+
+    .line 2
+    invoke-static {p0}, Lcom/huawei/appmarket/nm4;->l(Ljava/util/Calendar;)Ljava/time/Instant;
+
+    move-result-object v0
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toZoneId(Ljava/util/Calendar;)Ljava/time/ZoneId;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/mm4;->h(Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalDateTime;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static toOffsetDateTime(Ljava/util/Calendar;)Ljava/time/OffsetDateTime;
+    .registers 2
+
+    .line 2
+    invoke-static {p0}, Lcom/huawei/appmarket/nm4;->l(Ljava/util/Calendar;)Ljava/time/Instant;
+
+    move-result-object v0
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toZoneId(Ljava/util/Calendar;)Ljava/time/ZoneId;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/jz;->q(Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/OffsetDateTime;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static toZoneId(Ljava/util/Calendar;)Ljava/time/ZoneId;
+    .registers 1
+
+    invoke-virtual {p0}, Ljava/util/Calendar;->getTimeZone()Ljava/util/TimeZone;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/df4;->d(Ljava/util/TimeZone;)Ljava/time/ZoneId;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static toZonedDateTime(Ljava/util/Calendar;)Ljava/time/ZonedDateTime;
+    .registers 2
+
+    .line 2
+    invoke-static {p0}, Lcom/huawei/appmarket/nm4;->l(Ljava/util/Calendar;)Ljava/time/Instant;
+
+    move-result-object v0
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toZoneId(Ljava/util/Calendar;)Ljava/time/ZoneId;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Lcom/huawei/appmarket/df4;->g(Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getDayOfMonth()I
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    const/4 v1, 0x5
+
+    invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getDayOfYear()I
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    const/4 v1, 0x6
+
+    invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getMonth()I
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    const/4 v1, 0x2
+
+    invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method getMonthDisplayNames(I)[Ljava/lang/String;
+    .registers 5
+
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    const/4 v1, 0x2
+
+    iget-object v2, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->locale:Ljava/util/Locale;
+
+    invoke-virtual {v0, v1, p1, v2}, Ljava/util/Calendar;->getDisplayNames(IILjava/util/Locale;)Ljava/util/Map;
+
+    move-result-object p1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_0
+    invoke-interface {p1}, Ljava/util/Map;->size()I
+
+    move-result v0
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    new-instance v1, Lcom/huawei/appmarket/dh0;
+
+    invoke-direct {v1, v0}, Lcom/huawei/appmarket/dh0;-><init>([Ljava/lang/String;)V
+
+    invoke-static {p1, v1}, Lcom/huawei/appmarket/xy;->v(Ljava/util/Map;Lcom/huawei/appmarket/dh0;)V
+
+    return-object v0
+.end method
+
+.method getStandaloneLongMonthNames()[Ljava/lang/String;
+    .registers 2
+
+    const v0, 0x8002
+
+    invoke-virtual {p0, v0}, Lorg/apache/commons/lang3/time/CalendarUtils;->getMonthDisplayNames(I)[Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method getStandaloneShortMonthNames()[Ljava/lang/String;
+    .registers 2
+
+    const v0, 0x8001
+
+    invoke-virtual {p0, v0}, Lorg/apache/commons/lang3/time/CalendarUtils;->getMonthDisplayNames(I)[Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getYear()I
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public toLocalDate()Ljava/time/LocalDate;
+    .registers 2
+
+    invoke-virtual {p0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toLocalDateTime()Ljava/time/LocalDateTime;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/huawei/appmarket/nm4;->p(Ljava/time/LocalDateTime;)Ljava/time/LocalDate;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toLocalDateTime()Ljava/time/LocalDateTime;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toLocalDateTime(Ljava/util/Calendar;)Ljava/time/LocalDateTime;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toOffsetDateTime()Ljava/time/OffsetDateTime;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toOffsetDateTime(Ljava/util/Calendar;)Ljava/time/OffsetDateTime;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toZonedDateTime()Ljava/time/ZonedDateTime;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lorg/apache/commons/lang3/time/CalendarUtils;->calendar:Ljava/util/Calendar;
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/time/CalendarUtils;->toZonedDateTime(Ljava/util/Calendar;)Ljava/time/ZonedDateTime;
+
+    move-result-object v0
+
+    return-object v0
+.end method

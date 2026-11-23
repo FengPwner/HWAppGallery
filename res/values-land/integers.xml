@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="combine_small_postcard_per_number">2</integer>
+    <integer name="media_select_gridview_itemnum">7</integer>
+    <integer name="media_select_pad_gridview_itemnum">10</integer>
+    <integer name="mediaselect_gridview_itemnum">7</integer>
+    <integer name="mediaselect_pad_gridview_itemnum">10</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+    <integer name="channel_item_num">4</integer>
+    <integer name="enter_item_num">6</integer>
+</resources>

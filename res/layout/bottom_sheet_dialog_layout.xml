@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.aguikit.widget.screenshot.CutBlurGroundLayout
+    android:orientation="vertical"
+    android:id="@id/bottom_sheet_dialog_layout_root"
+    android:background="@color/fa_panel_bg_color_primary"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/bottom_sheet_dialog_layout_close"
+        android:layout_width="@dimen/ui_96_dp"
+        android:layout_height="@dimen/ui_24_dp"
+        android:src="@drawable/ic_public_close_filled" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/bottom_sheet_dialog_layout_information"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ui_32_dp"
+        android:layout_marginTop="@dimen/ui_8_dp"
+        android:layout_marginStart="@dimen/ui_24_dp"
+        android:layout_marginEnd="@dimen/ui_24_dp">
+        <ImageView
+            android:id="@id/bottom_sheet_dialog_layout_image"
+            android:layout_width="@dimen/ui_20_dp"
+            android:layout_height="@dimen/ui_20_dp" />
+        <TextView
+            android:textSize="@dimen/ui_sp_14"
+            android:textColor="@color/text_color_primary"
+            android:ellipsize="end"
+            android:id="@id/bottom_sheet_dialog_layout_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:maxLines="1"
+            android:layout_marginStart="@dimen/ui_4_dp" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/bottom_sheet_dialog_layout_recyclerview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_24_dp"
+        android:layout_marginBottom="@dimen/ui_24_dp"
+        android:layout_marginStart="@dimen/ui_8_dp"
+        android:layout_marginEnd="@dimen/ui_8_dp" />
+</com.huawei.appgallery.aguikit.widget.screenshot.CutBlurGroundLayout>

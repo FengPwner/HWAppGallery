@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:id="@id/label_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/app_flag_rect"
+        android:visibility="gone"
+        android:layout_width="28.0sp"
+        android:layout_height="16.0sp"
+        android:src="@color/transparent"
+        android:scaleType="fitCenter" />
+    <TextView
+        android:textSize="@dimen/emui_text_size_caption1"
+        android:textColor="@color/hiappbase_normal_card_label_text_color"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/prefixAppIntro"
+        android:background="@drawable/hiapppbase_title_text_label_bg"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="16.0sp"
+        android:maxLines="1"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:paddingStart="@dimen/ui_4_dp"
+        android:paddingEnd="@dimen/ui_4_dp" />
+</LinearLayout>

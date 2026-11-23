@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/root_layout"
+    android:paddingTop="@dimen/appgallery_card_elements_margin_m"
+    android:paddingBottom="@dimen/appgallery_card_elements_margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.detail.detailbase.common.HasStartDrawFoldingTextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="start"
+            android:id="@id/detail_item_editor_warning"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            style="@style/detail_card_introduce_content" />
+        <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/detail_desc_folding_imageview"
+            android:background="@drawable/ic_public_arrow_down_900"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/component_detail_head_game_open" />
+    </FrameLayout>
+    <com.huawei.appgallery.detail.detailbase.widget.QuoteTextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:id="@id/detail_item_editor_description"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:importantForAccessibility="no"
+        style="@style/detail_card_introduce_content" />
+</FrameLayout>

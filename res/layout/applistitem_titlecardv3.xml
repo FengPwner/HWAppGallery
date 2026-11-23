@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/AppListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/appList_ItemTitle_layout"
+        android:layout="@layout/wisedist_layout_subheader_titlev3_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/ageadapter_appList_ItemTitle_layout"
+        android:layout="@layout/wisedist_layout_ageadapter_subheader_titlev3_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@id/title_with_blank_view"
+        android:background="@color/emui_color_gray_1"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin_m" />
+</RelativeLayout>

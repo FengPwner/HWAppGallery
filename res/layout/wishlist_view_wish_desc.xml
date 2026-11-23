@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:gravity="bottom"
+        android:id="@id/wishlist_edittext_wish_app_desc_title"
+        android:paddingBottom="@dimen/padding_m"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:text="@string/wishlist_string_wish_desc_label"
+        android:fontFamily="@string/appgallery_text_font_family_medium" />
+    <com.huawei.appgallery.wishlist.widget.DetailDescriptionView
+        android:textColorHint="@color/edittext_hint_color"
+        android:id="@id/wishlist_edittext_wish_app_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_button2"
+        android:textColor="@color/appgallery_text_color_primary_activated"
+        android:id="@id/wish_add_image_limit_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_m"
+        android:fontFamily="@string/appgallery_text_font_family_medium" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/wishlist_select_img1"
+            android:visibility="gone"
+            layout="@layout/wishlist_wish_gridview_item" />
+        <include
+            android:id="@id/wishlist_select_img2"
+            android:visibility="gone"
+            layout="@layout/wishlist_wish_gridview_item" />
+        <include
+            android:id="@id/wishlist_select_img3"
+            android:visibility="gone"
+            layout="@layout/wishlist_wish_gridview_item" />
+    </LinearLayout>
+</LinearLayout>

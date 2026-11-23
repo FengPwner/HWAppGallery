@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/twolinesslideappcard_container"
+    android:clipChildren="false"
+    android:layout_width="@dimen/wisedist_horizontal_icon_card_item_width"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/twolinesslideappcard_first_item"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wisedist_horizontal_fixed_item_height"
+        android:layout_marginBottom="16.0dip"
+        layout="@layout/applistitem_horizonhomedlv2_card" />
+    <include
+        android:id="@id/twolinesslideappcard_second_item"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wisedist_horizontal_fixed_item_height"
+        layout="@layout/applistitem_horizonhomedlv2_card" />
+</LinearLayout>

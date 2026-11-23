@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:scrollbarStyle="outsideOverlay"
+        android:id="@id/scrollViewCenter"
+        android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <RelativeLayout
+            android:id="@id/relativelayoutCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/divider"
+                android:background="@color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/appgallery_default_padding_top" />
+            <TextView
+                android:id="@id/protocol_text_textview_permissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/protocol_text_textview_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/protocol_text_textview_permissions" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/protocol_text_textview_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/protocol_text_textview_tip" />
+            <TextView
+                android:id="@id/protocol_oversea_more_info"
+                android:paddingTop="@dimen/appgallery_text_paragraph_margin_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/protocol_text_textview_other"
+                style="@style/AppGallery.TextAppearance.Dialog.TextBody2.Secondary" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

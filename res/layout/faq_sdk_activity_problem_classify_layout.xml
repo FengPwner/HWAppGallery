@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.phoneservice.faq.widget.FaqBaseScrollView
+    android:background="@color/faq_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwColumnType="button_type">
+        <com.huawei.phoneservice.faq.widget.FaqListGridView
+            android:id="@id/problem_classify_list"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/faq_sdk_ui_8_dip"
+            android:listSelector="@android:color/transparent"
+            android:divider="@null"
+            app:faqsdkhideBottomDivider="false"
+            app:faqsdkmaxNumColumns="6"
+            app:faqsdkpaddingClipDivider="false" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+</com.huawei.phoneservice.faq.widget.FaqBaseScrollView>

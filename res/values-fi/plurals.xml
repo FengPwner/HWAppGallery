@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d epäilyttävää sovellusta löydetty (sis. %1$s)</item>
+        <item quantity="one">%2$d epäilyttävä sovellus löydetty (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Löydetty %2$d käyttämätöntä sovellusta (muun muassa %1$s)</item>
+        <item quantity="one">Löydetty %2$d käyttämätön sovellus (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d käyttämätöntä sovellusta</item>
+        <item quantity="one">%d käyttämätön sovellus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Käsitelty %d sovellusta, joissa on haitallista toimintaa</item>
+        <item quantity="one">Käsitelty %d sovellus, jossa on haitallista toimintaa</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Havaittu %d sovellusta, joissa on haitallista toimintaa</item>
+        <item quantity="one">Havaittu %d sovellus, jossa on haitallista toimintaa</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d huijaussovellusta käsitelty</item>
+        <item quantity="one">%d huijaussovellus käsitelty</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d huijaussovellusta havaittu</item>
+        <item quantity="one">%d huijaussovellus havaittu</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Käsitelty %d sovellusta, joissa ilmeni tietosuojariskejä</item>
+        <item quantity="one">Käsitelty %d sovellus, jossa ilmeni tietosuojariskejä</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Havaittu %d sovellusta, joissa ilmeni tietosuojariskejä</item>
+        <item quantity="one">Havaittu %d sovellus, jossa ilmeni tietosuojariskejä</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Käsitelty %d sovellusta, joissa ilmeni turvallisuusuhkia</item>
+        <item quantity="one">Käsitelty %d sovellus, jossa ilmeni turvallisuusuhkia</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Havaittu %d sovellusta, joissa ilmeni turvallisuusuhkia</item>
+        <item quantity="one">Havaittu %d sovellus, jossa ilmeni turvallisuusuhkia</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Käsitelty %d sovellusta, joissa ilmeni viruksia</item>
+        <item quantity="one">Käsitelty %d sovellus, jossa ilmeni viruksia</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Havaittu %d sovellusta, joissa ilmeni viruksia</item>
+        <item quantity="one">Havaittu %d sovellus, jossa ilmeni viruksia</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d kohdetta optimoitu</item>
+        <item quantity="one">%d kohde optimoitu</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d ongelmaa havaittu</item>
+        <item quantity="one">%d ongelma havaittu</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d sovellusta skannattu</item>
+        <item quantity="one">%d sovellus skannattu</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d päivää sitten</item>
+        <item quantity="one">%d päivä sitten</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d uhkaa</item>
+        <item quantity="one">%d uhka</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d sovellusta skannattu</item>
+        <item quantity="one">%d sovellus skannattu</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d sovellusuhkaa</item>
+        <item quantity="one">%d sovellusuhka</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d epäilyttävää sovellusta löydetty viimeisten %1$d päivän aikana. Näytä tiedot >></item>
+        <item quantity="one">%2$d epäilyttävä sovellus löydetty viimeisten %1$d päivän aikana. Näytä tiedot >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d sovellusta skannattu viimeisten %1$d päivän aikana. Näytä tiedot >></item>
+        <item quantity="one">%2$d sovellus skannattu viimeisten %1$d päivän aikana. Näytä tiedot >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d sovellusta voidaan pakata</item>
+        <item quantity="one">%d sovellus voidaan pakata</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d tuntematonta sovellusta havaittu.</item>
+        <item quantity="one">%d tuntematon sovellus havaittu.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Pakattavat sovellukset (%d)</item>
+        <item quantity="one">Pakattavat sovellukset (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d tuntematonta sovellusta löytyi. Tarkista.</item>
+        <item quantity="one">%d tuntematon sovellus löytyi. Tarkista.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d tuntematonta sovellusta löytyi</item>
+        <item quantity="one">%d tuntematon sovellus löytyi</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Arviointi: %s</item>
+        <item quantity="one">Arviointi: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s sisältää ikärajoitettua sisältöä. Koskettamalla %3$s ja lataamalla tämän sovelluksen vahvistat, että olet yli %2$d-vuotias.</item>
+        <item quantity="one">%1$s sisältää ikärajoitettua sisältöä. Koskettamalla %3$s ja lataamalla tämän sovelluksen vahvistat, että olet yli %2$d-vuotias.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Keskeytettyjä latauksia: %1$d</item>
+        <item quantity="one">Keskeytettyjä latauksia: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s sisältää ikärajoitettua sisältöä. Koskettamalla %3$s ja käyttämällä tätä sovellusta vahvistat, että olet yli %2$d-vuotias.</item>
+        <item quantity="one">%1$s sisältää ikärajoitettua sisältöä. Koskettamalla %3$s ja käyttämällä tätä sovellusta vahvistat, että olet yli %2$d-vuotias.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d ei-tykkäystä</item>
+        <item quantity="one">%d ei-tykkäys</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d ei-tykkäystä, et ole tykännyt tästä</item>
+        <item quantity="one">%d ei-tykkäys, et ole tykännyt tästä</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d tykkäystä</item>
+        <item quantity="one">%d tykkäys</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d tykkäystä, olet tykännyt tästä</item>
+        <item quantity="one">%d tykkäys, olet tykännyt tästä</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d tähteä</item>
+        <item quantity="one">%d tähti</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d kommenttia</item>
+        <item quantity="one">%1$d kommentti</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d arviointia</item>
+        <item quantity="one">%d luokitus</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d tykkäystä</item>
+        <item quantity="one">%1$d tykkäys</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d vastausta</item>
+        <item quantity="one">%1$d vastaus</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Kaikki vastaukset (%1$d)</item>
+        <item quantity="one">Kaikki vastaukset (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Sinun täytyy pelata vähintään %1$d minuuttia, ennen kuin voit kommentoida.</item>
+        <item quantity="one">Sinun täytyy pelata vähintään %1$d minuutti, ennen kuin voit kommentoida.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s sovellusta asennetaan</item>
+        <item quantity="one">%1$s sovellusta asennetaan</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d kohdetta valittu</item>
+        <item quantity="one">%1$d kohde valittu</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Poista valitut sovellukset, mukaan lukien %1$s?</item>
+        <item quantity="one">Poistetaanko %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Poistetaanko %1$s ja %2$s muuta sovellusta käyttäjältä %3$s?</item>
+        <item quantity="one">Poistetaanko %1$s ja %2$s muu sovellus käyttäjältä %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Poistetaanko %2$s sovellusta, mukaan lukien %1$s?</item>
+        <item quantity="one">Poistetaanko %2$s sovellus, mukaan lukien %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Poistetaanko %1$s tietuetta?</item>
+        <item quantity="one">Poistetaanko %1$s tietue?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Seuraavat %1$d sovellusta tarvitsevat tietyt oikeudet:</item>
+        <item quantity="one">Seuraava %1$d sovellus tarvitsee tietyt oikeudet:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d arviointia</item>
+        <item quantity="one">%1$d arviointi</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s M arviointia</item>
+        <item quantity="one">%1$s M arviointia</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s k arviointia</item>
+        <item quantity="one">%1$s k arviointia</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s toimintoa</item>
+        <item quantity="one">%1$s toiminto</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Alle %1$s minuuttia peliaikaa jäljellä. Tallenna peli mahdollisimman pian.</item>
+        <item quantity="one">Alle %1$s minuutti peliaikaa jäljellä. Tallenna peli mahdollisimman pian.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Vain %d minuuttia jäljellä.</item>
+        <item quantity="one">Vain %d minuutti jäljellä.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d kommenttia</item>
+        <item quantity="one">%1$d kommentti</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Enintään %1$d merkkiä</item>
+        <item quantity="one">Enintään %1$d merkki</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Anna vähintään %1$d merkkiä</item>
+        <item quantity="one">Anna vähintään %1$d merkki</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Enintään %1$d kuvaa
+Kukin enintään %2$s"</item>
+        <item quantity="one">"Enintään %1$d kuva
+Kukin enintään %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Enintään %d kuvaa tälle ongelmatyypille</item>
+        <item quantity="one">Enintään %d kuva tälle ongelmatyypille</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s tähteä</item>
+        <item quantity="one">%1$s tähti</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Salasana kirjoitettu väärin %1$d kertaa. Yritä uudelleen %2$d minuutin kuluttua.</item>
+        <item quantity="one">Salasana kirjoitettu väärin %1$d kertaa. Yritä uudelleen %2$d minuutin kuluttua.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s miljardia henkilöä on osallistunut</item>
+        <item quantity="one">%1$s miljardia henkilöä on osallistunut</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s M henkilöä on osallistunut</item>
+        <item quantity="one">%1$s M henkilöä on osallistunut</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s henkilö on osallistunut.</item>
+        <item quantity="one">%1$s henkilö on osallistunut</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s k henkilöä on osallistunut.</item>
+        <item quantity="one">%1$s k henkilöä on osallistunut</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s miljardia henkilöä on ostanut tämän</item>
+        <item quantity="one">%1$s miljardia henkilöä on ostanut tämän</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s M henkilöä on ostanut tämän</item>
+        <item quantity="one">%1$s M henkilöä on ostanut tämän</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s henkilöä on ostanut tämän</item>
+        <item quantity="one">%1$s henkilö on ostanut tämän</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s k henkilöä on ostanut tämän</item>
+        <item quantity="one">%1$s k henkilöä on ostanut tämän</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s luokitusta</item>
+        <item quantity="one">%1$s luokitus</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Luokitus, %1$s tähteä</item>
+        <item quantity="one">Luokitus, %1$s tähti</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Luokitus %1$s tähteä</item>
+        <item quantity="one">Luokitus %1$s tähti</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Asenna silti (%1$d)</item>
+        <item quantity="one">Asenna silti (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d kohdetta valittu</item>
+        <item quantity="one">%1$d kohde valittu</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Kuvauksen on oltava vähintään %d merkin pituinen. Lisää näyttökuvat, jos mahdollista.</item>
+        <item quantity="one">Kuvauksen on oltava vähintään %d merkin pituinen. Lisää näyttökuvat, jos mahdollista.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d tuntia</item>
+        <item quantity="one">%1$d tunti</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minuuttia</item>
+        <item quantity="one">%1$d minuutti</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d sekunnin</item>
+        <item quantity="one">%1$d sekunnin</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Julkais.: %1$s</item>
+        <item quantity="one">Julkais.: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d tykkäystä</item>
+        <item quantity="one">%d tykkäys</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d vastausta</item>
+        <item quantity="one">%d vastaus</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d näyttöä</item>
+        <item quantity="one">%d näyttö</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Jätä kommentti (yhteensä %1$d)</item>
+        <item quantity="one">Jätä kommentti (yhteensä %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Katso kaikki %1$d vastausta</item>
+        <item quantity="one">Katso kaikki %1$d vastausta</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s osallistujaa</item>
+        <item quantity="one">%1$s osallistuja</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Valitse korkeintaan %s vastausta</item>
+        <item quantity="one">Valitse korkeintaan %s vastaus</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Monivalintainen (valitse %1$d)</item>
+        <item quantity="one">Monivalintainen (valitse %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Valitse %s vastausta</item>
+        <item quantity="one">Valitse %s vastaus</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s ääntä</item>
+        <item quantity="one">%1$s ääni</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Tämä sovellus tarvitsee %1$d lupaa. Voit kumota nämä milloin tahansa kohdassa Asetukset > Sovellukset > Sovellukset.</item>
+        <item quantity="one">Tämä sovellus tarvitsee %1$d luvan. Voit kumota tämän milloin tahansa kohdassa Asetukset > Sovellukset > Sovellukset.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Tämä sovellus tarvitsee %1$d lupaa. Voit peruuttaa ne koska tahansa kohdasta Asetukset > Sovellukset ja palvelut > Sovellukset.</item>
+        <item quantity="one">Tämä sovellus tarvitsee %1$d luvan. Voit peruuttaa sen koska tahansa kohdasta Asetukset > Sovellukset ja palvelut > Sovellukset.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d lahjaa</item>
+        <item quantity="one">%1$d lahja</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d k</item>
+        <item quantity="one">%1$d k</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d tähteä</item>
+        <item quantity="one">%1$d tähti</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Arviointi: %s</item>
+        <item quantity="one">Arviointi: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s luokitusta</item>
+        <item quantity="one">%1$s luokitus</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s avausta</item>
+        <item quantity="one">%1$s avaus</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d uutta suositusta</item>
+        <item quantity="one">%d uusi suositus</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d sovellusta on päivitetty</item>
+        <item quantity="one">%1$d sovellus on päivitetty</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d sovellusta päivitetään</item>
+        <item quantity="one">%1$d sovellusta päivitetään</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Kuva ei voi olla suurempi kuin %1$d Mt.</item>
+        <item quantity="one">Kuva ei voi olla suurempi kuin %1$d Mt.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d valokuvaa</item>
+        <item quantity="one">%d valokuva</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d valittu</item>
+        <item quantity="one">%1$d/%2$d valittu</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d videota</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d etua</item>
+        <item quantity="one">%d etu</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Poista kaikki keskeytetyt asennukset (%1$s sovellusta, vapauta %2$s)</item>
+        <item quantity="one">Poista kaikki keskeytetyt asennukset (%1$s sovellus, vapauta %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d valittu)"</item>
+        <item quantity="one">" 
+(%1$d valittu)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Sivu %1$d</item>
+        <item quantity="one">Sivu %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Keskeytettiin %1$s asennusta.</item>
+        <item quantity="one">Keskeytettiin %1$s asennus.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d ylimääräistä</item>
+        <item quantity="one">%1$d ylimääräinen</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s latausta</item>
+        <item quantity="one">%1$s lataus</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Luokitus %1$s tähteä</item>
+        <item quantity="one">Luokitus %1$s tähti</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s sovelluksen ajoitettu asennus on valmis</item>
+        <item quantity="one">%1$s sovelluksen ajoitettu asennus on valmis</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d sovelluksen lataus aloitetaan, kun yhdistät Wi-Fiin.</item>
+        <item quantity="one">%1$d sovelluksen lataus aloitetaan, kun yhdistät Wi-Fiin.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s ennakkotilannut)</item>
+        <item quantity="one">(%1$s ennakkotilattu)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d miljoonaa varausta)</item>
+        <item quantity="one">(miljoona varausta)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d tuhatta varausta)</item>
+        <item quantity="one">(tuhat varausta)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Asennetaanko %1$s sovellusta?</item>
+        <item quantity="one">Asennetaanko %1$s sovellus?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s asennusta käynnissä.</item>
+        <item quantity="one">%1$s asennus käynnissä.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">/ %1$d</item>
+        <item quantity="one">/ %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Hae %d paikallisesta sovelluksesta</item>
+        <item quantity="one">Hae %d paikallisesta sovelluksesta</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Palauta %d sovellusta päivitysluetteloon ja salli niiden päivitys.</item>
+        <item quantity="one">Palauta %d sovellus päivitysluetteloon ja salli sen päivitys.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s sovelluspäivitystä on saatavana</item>
+        <item quantity="one">%1$s sovelluspäivitys on saatavana</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s sovelluspäivitystä suositellaan. Koko yhteensä: %2$s.</item>
+        <item quantity="one">%1$s suositeltavaa sovelluspäivitystä. Koko: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d sovelluspäivitystä saatavana. Koko: %2$s.</item>
+        <item quantity="one">%1$d sovelluspäivitys saatavana. Koko: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Ei käytetty %d päivään</item>
+        <item quantity="one">Ei käytetty %d päivään</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunti</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Tyhjennetäänkö %d tehtävää ja ladatut tiedostot?</item>
+        <item quantity="one">Tyhjennetäänkö %d tehtävä ja ladattu tiedosto?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d päivän sisäänkuittaussarja</item>
+        <item quantity="one">%d päivän sisäänkuittaussarja</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Päivä %d</item>
+        <item quantity="one">Päivä %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d sovellusta ladattu</item>
+        <item quantity="one">%1$d sovellus ladattu</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Arviointi: %s</item>
+        <item quantity="one">Arviointi: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d sovellusta, mukaan lukien %1$s</item>
+        <item quantity="one">%2$d sovellus (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Punaisen pisteen merkki, %1$s lukematonta ilmoitusta</item>
+        <item quantity="one">Punaisen pisteen merkki, %1$s lukematon ilmoitus</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d tarjousta</item>
+        <item quantity="one">%d tarjous</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d yhteisölahjaa</item>
+        <item quantity="one">%d yhteisölahja</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d lahjaa</item>
+        <item quantity="one">%d lahja</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d henkilöä alueellasi haluaa tämän</item>
+        <item quantity="one">%d henkilö alueellasi haluaa tämän</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d kohdetta valittu</item>
+        <item quantity="one">%1$d kohde valittu</item>
+    </plurals>
+</resources>

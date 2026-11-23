@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="start|center"
+    android:orientation="horizontal"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/lefticon"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/hwappbarpattern_icon_size"
+        android:layout_height="@dimen/hwappbarpattern_icon_size"
+        android:contentDescription="@string/exit_cancel"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip">
+        <ImageView
+            android:id="@id/icon1"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/aguikit_ic_public_cancel" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/margin_s">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/rightMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/img_delete"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/hwappbarpattern_menuitem_size"
+            android:layout_height="@dimen/hwappbarpattern_menuitem_size">
+            <ImageView
+                android:id="@id/delete_image"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/aguikit_ic_public_delete" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/img_selectall"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/hwappbarpattern_icon_size"
+            android:layout_marginEnd="@dimen/margin_s">
+            <ImageView
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/aguikit_ic_public_select_all" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/img_unselectall"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/hwappbarpattern_icon_size"
+            android:layout_marginEnd="@dimen/margin_s">
+            <ImageView
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/aguikit_ic_public_deselect_filled" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

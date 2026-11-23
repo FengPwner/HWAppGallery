@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">‏%2$d برنامۀ مشکوک (از جمله %1$s) یافت شد</item>
+        <item quantity="one">‏%2$d برنامۀ مشکوک (%1$s) یافت شد</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">‏‏%2$d برنامۀ بلااستفاده یافت شد (شامل %1$s)</item>
+        <item quantity="one">‏‏%2$d برنامۀ بلااستفاده یافت شد (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">‏‏%d برنامۀ بلااستفاده</item>
+        <item quantity="one">‏‏%d برنامۀ بلااستفاده</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">به %d برنامه دارای رفتار مخرب رسیدگی شد</item>
+        <item quantity="one">به %d برنامه دارای رفتار مخرب رسیدگی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">‏‏%d برنامه دارای رفتار مخرب شناسایی شدند</item>
+        <item quantity="one">‏‏%d برنامه دارای رفتار مخرب شناسایی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">به %d برنامه کلاهبرداری رسیدگی شد</item>
+        <item quantity="one">به %d برنامه کلاهبرداری رسیدگی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">‏‏%d برنامه کلاهبرداری شناسایی شدند</item>
+        <item quantity="one">‏‏%d برنامه کلاهبرداری شناسایی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">به %d برنامه دارای خطر حریم خصوصی رسیدگی شد</item>
+        <item quantity="one">به %d برنامه دارای خطر حریم خصوصی رسیدگی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">‏‏%d برنامه دارای خطر حریم خصوصی شناسایی شدند</item>
+        <item quantity="one">‏‏%d برنامه دارای خطر حریم خصوصی شناسایی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">به %d برنامه دارای تهدیدات امنیتی رسیدگی شد</item>
+        <item quantity="one">به %d برنامه دارای تهدیدات امنیتی رسیدگی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">‏‏%d برنامه دارای تهدیدات امنیتی تحت شناسایی شدند</item>
+        <item quantity="one">‏‏%d برنامه دارای تهدیدات امنیتی شناسایی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">به %d برنامه حاوی ویروس رسیدگی شد</item>
+        <item quantity="one">به %d برنامه حاوی ویروس رسیدگی شد</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">‏‏%d برنامه حاوی ویروس شناسایی شدند</item>
+        <item quantity="one">‏‏%d برنامه حاوی ویروس شناسایی شد</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">‏%d مورد بهینه‌سازی شد</item>
+        <item quantity="one">‏%d مورد بهینه‌سازی شد</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">‏‏%d مشکل شناسایی شد</item>
+        <item quantity="one">‏‏%d مشکل شناسایی شد</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">‏%d برنامه اسکن شد</item>
+        <item quantity="one">‏%d برنامه اسکن شد</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">‏%d روز قبل</item>
+        <item quantity="one">‏‏%d روز قبل</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">‏%d تهدید</item>
+        <item quantity="one">‏%d تهدید</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">‏‏%d برنامه اسکن شده است</item>
+        <item quantity="one">‏‏%d برنامه اسکن شده است</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">‏‏%d تهدید برنامه</item>
+        <item quantity="one">‏‏%d تهدید برنامه</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">در مدت %1$d روز گذشته تعداد %2$d برنامه مشکوک پیدا شد. مشاهدۀ جزئیات >></item>
+        <item quantity="one">در مدت %1$d روز گذشته تعداد %2$d برنامه مشکوک پیدا شد. مشاهدۀ جزئیات >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">در مدت %1$d روز گذشته، %2$d برنامه اسکن شده است. مشاهدۀ جزئیات >></item>
+        <item quantity="one">در مدت %1$d روز گذشته، %2$d برنامه اسکن شده است. مشاهدۀ جزئیات >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">‏‏%d برنامه را می‌توان فشرده‌سازی کرد</item>
+        <item quantity="one">‏‏%d برنامه را می‌توان فشرده‌سازی کرد</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">‏‏%d برنامه ناشناس شناسایی شد.</item>
+        <item quantity="one">‏‏%d برنامه ناشناس شناسایی شد.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">برنامه‌های قابل فشرده‌سازی (%d)</item>
+        <item quantity="one">برنامه‌های قابل فشرده‌سازی (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">‏‏%d برنامه ناشناس یافت شد. لطفاً بررسی کنید.</item>
+        <item quantity="one">‏‏%d برنامه ناشناس یافت شد. لطفاً بررسی کنید.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">‏‏%d برنامه ناشناس یافت شد</item>
+        <item quantity="one">‏‏%d برنامه ناشناس یافت شد</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">رتبه: %s</item>
+        <item quantity="one">رتبه: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s شامل محتوای دارای محدودیت سنی است. با لمس %3$s و دانلود این برنامه، تأیید می‌کنید که سن شما بیش از %2$d سال است.</item>
+        <item quantity="one">%1$s شامل محتوای دارای محدودیت سنی است. با لمس %3$s و دانلود این برنامه، تأیید می‌کنید که سن شما بیش از %2$d سال است.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">دانلودهای موقتاً متوقف‌شده: %1$d</item>
+        <item quantity="one">دانلودهای موقتاً متوقف‌شده: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s شامل محتوای دارای محدودیت سنی است. با لمس %3$s و استفاده از این برنامه، تأیید می‌کنید که سن شما بیش از %2$d سال است.</item>
+        <item quantity="one">%1$s شامل محتوای دارای محدودیت سنی است. با لمس %3$s و استفاده از این برنامه، تأیید می‌کنید که سن شما بیش از %2$d سال است.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">‏%d نفر نپسندیده‌اند</item>
+        <item quantity="one">‏%d نفر نپسندیده است</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">‏%d نفر نپسندیده‌اند، شما این را نپسندیده‌اید</item>
+        <item quantity="one">‏%d نفر نپسندیده است، شما این را نپسندیده‌اید</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">‏%d نفر پسندیده‌اند</item>
+        <item quantity="one">‏%d نفر پسندیده است</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">‏%d نفر پسندیده‌اند، شما این را پسندیده‌اید</item>
+        <item quantity="one">‏%d نفر پسندیده است، شما این را پسندیده‌اید</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">‏%d ستاره</item>
+        <item quantity="one">‏%d ستاره</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d نظر</item>
+        <item quantity="one">%1$d نظر</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d دقیقۀ پیش</item>
+        <item quantity="one">%d دقیقۀ پیش</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d امتیاز</item>
+        <item quantity="one">%d امتیاز</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">‏%1$d پسند</item>
+        <item quantity="one">‏%1$d پسند</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">‏%1$d پاسخ</item>
+        <item quantity="one">‏%1$d پاسخ</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">همۀ پاسخ‌ها (%1$d)</item>
+        <item quantity="one">همۀ پاسخ‌ها (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">برای آنکه نظر بدهید، باید حداقل %1$d دقیقه بازی کرده باشید.</item>
+        <item quantity="one">برای آنکه نظر بدهید، باید حداقل %1$d دقیقه بازی کرده باشید.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">‏%1$s برنامه در حال نصب شدن هستند</item>
+        <item quantity="one">‏%1$s برنامه در حال نصب شدن است</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d مورد انتخاب شدند</item>
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">برنامه‌های انتخاب‌شده، از جمله %1$s حذف نصب شوند؟</item>
+        <item quantity="one">حذف نصب %1$s؟</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%1$s و %2$s برنامۀ دیگر از %3$s حذف نصب شوند؟</item>
+        <item quantity="one">%1$s و %2$s برنامۀ دیگر از %3$s حذف نصب شوند؟</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">‏%2$s برنامه، از جمله %1$s حذف نصب شوند؟</item>
+        <item quantity="one">‏%2$s برنامه، از جمله %1$s حذف نصب شود؟</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s سابقه حذف شوند؟</item>
+        <item quantity="one">%1$s سابقه حذف شود؟</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">%1$d برنامۀ زیر نیازمند دسترسی به برخی از مجوزها هستند:</item>
+        <item quantity="one">%1$d برنامۀ زیر نیازمند دسترسی به برخی از مجوزها است:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d رتبه</item>
+        <item quantity="one">%1$d رتبه</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s میلیون رتبه</item>
+        <item quantity="one">%1$s میلیون رتبه</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s هزار رتبه</item>
+        <item quantity="one">%1$s هزار رتبه</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s فعالیت</item>
+        <item quantity="one">%1$s فعالیت</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">کمتر از %1$s دقیقه از زمان بازی باقی مانده است. بازی خود را به محض امکان ذخیره کنید.</item>
+        <item quantity="one">کمتر از %1$s دقیقه از زمان بازی باقی مانده است. بازی خود را در اسرع وقت ذخیره کنید.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">فقط %d دقیقه باقی مانده است.</item>
+        <item quantity="one">فقط %d دقیقه باقی مانده است.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">‏%d ساعت</item>
+        <item quantity="one">‏%d ساعت</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">‏%d دقیقه</item>
+        <item quantity="one">‏%d دقیقه</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">‏%d ثانیه</item>
+        <item quantity="one">‏%d ثانیه</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s هزار</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">‏%1$d نظر</item>
+        <item quantity="one">‏%1$d نظر</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">حداکثر %1$d نویسه</item>
+        <item quantity="one">حداکثر %1$d نویسه</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">حداقل %1$d نویسه وارد کنید</item>
+        <item quantity="one">حداقل %1$d نویسه وارد کنید</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"حداکثر تا %1$d تصویر‎
+‏‎هر کدام حداکثر %2$s"</item>
+        <item quantity="one">"حداکثر تا %1$d تصویر‎
+‏‎هر کدام حداکثر %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">برای این نوع مشکل، حداکثر تا %d تصویر</item>
+        <item quantity="one">برای این نوع مشکل، حداکثر تا %d تصویر</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">‏%1$s ستاره</item>
+        <item quantity="one">‏%1$s ستاره</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">رمز ورود %1$d بار نادرست وارد شد. لطفاً پس از %2$d دقیقه دوباره امتحان کنید.</item>
+        <item quantity="one">رمز ورود %1$d بار نادرست وارد شد. لطفاً پس از %2$d دقیقه دوباره امتحان کنید.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s میلیارد نفر شرکت کرده‌اند</item>
+        <item quantity="one">%1$s میلیارد نفر شرکت کرده‌اند</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s میلیون نفر شرکت کرده‌اند</item>
+        <item quantity="one">%1$s میلیون نفر شرکت کرده‌اند</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s نفر شرکت کرده‌اند</item>
+        <item quantity="one">%1$s نفر شرکت کرده است</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s هزار نفر شرکت کرده‌اند</item>
+        <item quantity="one">%1$s هزار نفر شرکت کرده‌اند</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s میلیارد نفر این مورد را خریده‌اند</item>
+        <item quantity="one">%1$s میلیارد نفر این مورد را خریده‌اند</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s میلیون نفر این مورد را خریده‌اند</item>
+        <item quantity="one">%1$s میلیون نفر این مورد را خریده‌اند</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s نفر این مورد را خریده‌اند</item>
+        <item quantity="one">%1$s نفر این مورد را خریده است</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s هزار نفر این مورد را خریده‌اند</item>
+        <item quantity="one">%1$s هزار نفر این مورد را خریده‌اند</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s رتبه‌بندی</item>
+        <item quantity="one">%1$s رتبه‌بندی</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">رتبه، %1$s ستاره</item>
+        <item quantity="one">رتبه، %1$s ستاره</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">دارای رتبۀ %1$s ستاره</item>
+        <item quantity="one">دارای رتبۀ %1$s ستاره</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">با این حال نصب شود (%1$d)</item>
+        <item quantity="one">با این حال نصب شود (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">‏%d ساعت</item>
+        <item quantity="one">‏%d ساعت</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">‏%d دقیقه</item>
+        <item quantity="one">‏%d دقیقه</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">‏%d ثانیه</item>
+        <item quantity="one">‏%d ثانیه</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d مورد انتخاب شدند</item>
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">طول توضیح باید حداقل %d نویسه باشد. در صورت امکان، عکس صفحه‌ها را اضافه کنید.</item>
+        <item quantity="one">طول توضیح باید حداقل %d نویسه باشد. در صورت امکان، عکس صفحه‌ها را اضافه کنید.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ساعت</item>
+        <item quantity="one">%1$d ساعت</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d دقیقه</item>
+        <item quantity="one">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">‏%1$d ثانیه</item>
+        <item quantity="one">‏%1$d ثانیه</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">پست‌ها: %1$s</item>
+        <item quantity="one">پست‌ها: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d لایک</item>
+        <item quantity="one">%d لایک</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">‎‎%d پاسخ</item>
+        <item quantity="one">پاسخ %d</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d مشاهده</item>
+        <item quantity="one">%d مشاهده</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">نظر دادن (%1$d در مجموع)</item>
+        <item quantity="one">نظر دادن (%1$d در مجموع)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">مشاهدۀ تمام %1$d پاسخ</item>
+        <item quantity="one">مشاهدۀ تمام %1$d پاسخ</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">‏%1$s شرکت‌کننده</item>
+        <item quantity="one">‏%1$s شرکت‌کننده</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">حداکثر %s پاسخ را انتخاب کنید</item>
+        <item quantity="one">حداکثر %s پاسخ را انتخاب کنید</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">چندگزینه‌ای (%1$d گزینه را انتخاب کنید)</item>
+        <item quantity="one">چندگزینه‌ای (%1$d گزینه را انتخاب کنید)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">%s پاسخ را انتخاب کنید</item>
+        <item quantity="one">%s پاسخ را انتخاب کنید</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">‏%1$s رأی</item>
+        <item quantity="one">‏%1$s رأی</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">این برنامه به %1$d مجوز نیاز دارد. می‌توانید آن‌ها را در هر زمان در تنظیمات > برنامه‌ها > برنامه‌ها لغو کنید.</item>
+        <item quantity="one">این برنامه به %1$d مجوز نیاز دارد. می‌توانید آن را در هر زمان در تنظیمات > برنامه‌ها > برنامه‌ها لغو کنید.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">این برنامه به %1$d مجوز نیاز دارد. هر زمان که بخواهید می‌توانید این مجوزها را در «تنظیمات > برنامه‌ها و سرویس‌ها > برنامه‌ها» لغو کنید.</item>
+        <item quantity="one">این برنامه به %1$d مجوز نیاز دارد. هر زمان که بخواهید می‌توانید این مجوز را در «تنظیمات > برنامه‌ها و سرویس‌ها > برنامه‌ها» لغو کنید.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d هدیه</item>
+        <item quantity="one">%1$d هدیه</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d هزار</item>
+        <item quantity="one">%1$d هزار</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ستاره</item>
+        <item quantity="one">%1$d ستاره</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">رتبه: %s</item>
+        <item quantity="one">رتبه: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s رتبه‌بندی</item>
+        <item quantity="one">%1$s رتبه‌بندی</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">‏%1$s مورد باز است</item>
+        <item quantity="one">‏%1$s مورد باز است</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d توصیۀ جدید</item>
+        <item quantity="one">%d توصیۀ جدید</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s هزار</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d برنامه به‌روزرسانی شده‌اند</item>
+        <item quantity="one">%1$d برنامه به‌روزرسانی شده است</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d برنامه در حال به‌روزرسانی‌اند</item>
+        <item quantity="one">%1$d برنامه در حال به‌روزرسانی است</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">تصویر نمی‌تواند بزرگ‌تر از %1$d مگابایت باشد.</item>
+        <item quantity="one">تصویر نمی‌تواند بزرگ‌تر از %1$d مگابایت باشد.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d عکس</item>
+        <item quantity="one">%d عکس</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d از %2$d انتخاب‌شده</item>
+        <item quantity="one">%1$d از %2$d انتخاب‌شده</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">‏%d ویدیو</item>
+        <item quantity="one">‏%d ویدیو</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d مزیت</item>
+        <item quantity="one">%d مزیت</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">همۀ موارد متوقف‌شدۀ نصب حذف شوند (%1$s برنامه، آزادسازی %2$s)</item>
+        <item quantity="one">همۀ موارد متوقف‌شدۀ نصب حذف شوند (%1$s برنامه، آزادسازی %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d مورد انتخاب شده است)"</item>
+        <item quantity="one">" 
+(%1$d مورد انتخاب شده است)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">صفحۀ %1$d</item>
+        <item quantity="one">صفحۀ %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s مورد نصب متوقف شدند.</item>
+        <item quantity="one">%1$s مورد نصب متوقف شد.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d مورد دیگر</item>
+        <item quantity="one">%1$d مورد دیگر</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">‏‏%1$s دانلود</item>
+        <item quantity="one">‏‏%1$s دانلود</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">دارای رتبۀ %1$s ستاره</item>
+        <item quantity="one">دارای رتبۀ %1$s ستاره</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">نصب برنامه‌ریزی‌شدۀ %1$s برنامه کامل شد</item>
+        <item quantity="one">نصب برنامه‌ریزی‌شدۀ %1$s برنامه کامل شد</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">وقتی به Wi-Fi متصل شوید، دانلود %1$d برنامه شروع خواهد شد.</item>
+        <item quantity="one">وقتی به Wi-Fi متصل شوید، دانلود %1$d برنامه شروع خواهد شد.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s پیش‌سفارش شده است)</item>
+        <item quantity="one">(%1$s پیش‌سفارش شده است)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d میلیون رزرو شده)</item>
+        <item quantity="one">(1 میلیون رزرو شده)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d هزار رزرو شده)</item>
+        <item quantity="one">(1 هزار رزرو شده)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">هر %1$s برنامه نصب شوند؟</item>
+        <item quantity="one">%1$s برنامه نصب شود؟</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s مورد نصب در جریان است.</item>
+        <item quantity="one">%1$s مورد نصب در جریان است.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">از %1$d</item>
+        <item quantity="one">از %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">جستجو در %d برنامۀ موجود در دستگاه</item>
+        <item quantity="one">جستجو در %d برنامۀ موجود در دستگاه</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">%d برنامه را در لیست به‌روزرسانی بازیابی کنید و به آنها اجازه دهید به‌روزرسانی شوند.</item>
+        <item quantity="one">%d برنامه را در لیست به‌روزرسانی بازیابی کنید و به آن اجازه دهید به‌روزرسانی شود.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">‏%1$s به‌روزرسانی برنامه موجود است</item>
+        <item quantity="one">‏%1$s به‌روزرسانی برنامه موجود است</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">‏%1$s به‌روزرسانی برنامه پیشنهاد می‌شوند. اندازۀ کل: %2$s.</item>
+        <item quantity="one">‏%1$s به‌روزرسانی برنامه پیشنهاد می‌شود. اندازه: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">به‌روزرسانی %1$d برنامه در دسترس است. حجم: %2$s.</item>
+        <item quantity="one">به‌روزرسانی %1$d برنامه در دسترس است. حجم: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">در %d روز اخیر استفاده نشده است</item>
+        <item quantity="one">در %d روز اخیر استفاده نشده است</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">‏%d ساعت</item>
+        <item quantity="one">‏%d ساعت</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">‏%d دقیقه</item>
+        <item quantity="one">‏%d دقیقه</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">‏%d ثانیه</item>
+        <item quantity="one">‏%d ثانیه</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">‏%d وظیفه و فایل‌های دانلودشده پاک شوند؟</item>
+        <item quantity="one">‏%d وظیفه و فایل دانلودشده پاک شوند؟</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">‏%d روز ورود متوالی</item>
+        <item quantity="one">‏%d روز ورود متوالی</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">روز %d</item>
+        <item quantity="one">روز %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">‏%1$d برنامه دانلود شد</item>
+        <item quantity="one">‏%1$d برنامه دانلود شد</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">رتبه: %s</item>
+        <item quantity="one">رتبه: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">‏%2$d برنامه، شامل %1$s</item>
+        <item quantity="one">‏%2$d برنامه (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">نشان نقطه قرمز، %1$s اعلان خوانده‌نشده</item>
+        <item quantity="one">نشان نقطه قرمز، %1$s اعلان خوانده‌نشده</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d پیشنهاد</item>
+        <item quantity="one">%d پیشنهاد</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d هدیۀ مربوط به انجمن</item>
+        <item quantity="one">%d هدیۀ مربوط به انجمن</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d هدیه</item>
+        <item quantity="one">%d هدیه</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d نفر در منطقۀ شما این مورد را می‌خواهند</item>
+        <item quantity="one">%d نفر در منطقۀ شما این مورد را می‌خواهد</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d مورد انتخاب شد</item>
+        <item quantity="one">%1$d مورد انتخاب شده است</item>
+    </plurals>
+</resources>

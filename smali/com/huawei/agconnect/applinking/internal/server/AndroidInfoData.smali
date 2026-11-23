@@ -1,0 +1,121 @@
+.class public Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private deepLink:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Field;
+        value = "deepLink"
+    .end annotation
+
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Result;
+        value = "deepLink"
+    .end annotation
+.end field
+
+.field private fallbackUrl:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Field;
+        value = "fallbackUrl"
+    .end annotation
+
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Result;
+        value = "fallbackUrl"
+    .end annotation
+.end field
+
+.field private openType:Ljava/lang/Integer;
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Field;
+        value = "openType"
+    .end annotation
+
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Result;
+        value = "openType"
+    .end annotation
+.end field
+
+.field private packageName:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Field;
+        value = "packageName"
+    .end annotation
+
+    .annotation runtime Lcom/huawei/agconnect/https/annotation/Result;
+        value = "packageName"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getDeepLink()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->deepLink:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getFallbackUrl()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->fallbackUrl:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getOpenType()Ljava/lang/Integer;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->openType:Ljava/lang/Integer;
+
+    return-object v0
+.end method
+
+.method public getPackageName()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->packageName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public setDeepLink(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->deepLink:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setFallbackUrl(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->fallbackUrl:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setOpenType(Ljava/lang/Integer;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->openType:Ljava/lang/Integer;
+
+    return-void
+.end method
+
+.method public setPackageName(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/agconnect/applinking/internal/server/AndroidInfoData;->packageName:Ljava/lang/String;
+
+    return-void
+.end method

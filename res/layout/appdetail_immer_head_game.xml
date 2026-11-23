@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailbase.view.ExposureRelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.detail.detailbase.common.widget.RenderImageView
+        android:id="@id/immerse_image_game"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+    <ViewStub
+        android:id="@id/normal_head_game"
+        android:layout="@layout/appdetail_item_head_game"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/immerse_image_game" />
+    <ViewStub
+        android:id="@id/agedapter_normal_head_game"
+        android:layout="@layout/appdetail_ageadapter_item_head_game"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/immerse_image_game" />
+</com.huawei.appgallery.detail.detailbase.view.ExposureRelativeLayout>

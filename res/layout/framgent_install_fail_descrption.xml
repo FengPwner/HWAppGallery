@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:addStatesFromChildren="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/margin_l"
+    android:layout_marginRight="@dimen/margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="224.0dip"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/app_icon_imageview"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginBottom="@dimen/margin_m"
+                android:src="@drawable/ic_lns_failure" />
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/emui_black"
+                android:id="@id/app_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notif_install_fail"
+                android:alpha="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/bottom_layout_parent"
+        android:addStatesFromChildren="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/bottom_layout"
+            android:paddingTop="@dimen/margin_l"
+            android:paddingBottom="@dimen/margin_l"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="15.0sp"
+                android:id="@id/ok_button"
+                android:clickable="true"
+                android:layout_width="1.0dip"
+                android:layout_height="40.0dip"
+                android:text="@string/detail_comment_cancel"
+                android:layout_weight="1.0"
+                style="@style/WiseDistDefaultButton" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="15.0sp"
+                android:ellipsize="end"
+                android:id="@id/cancel_button"
+                android:clickable="true"
+                android:layout_width="1.0dip"
+                android:layout_height="40.0dip"
+                android:text="@string/install_fail_btn_feedback1"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:layout_marginStart="12.0dip"
+                style="@style/WiseDistDefaultButton" />
+        </LinearLayout>
+        <include
+            layout="@layout/install_fail_vertical_three_button" />
+    </FrameLayout>
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_layout_parent"
+        android:layout_below="@id/top_layout">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/emui_black"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_m"
+                android:text="@string/install_fail_label_reason"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:id="@id/fail_reason_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5" />
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/emui_black"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_l"
+                android:layout_marginBottom="@dimen/margin_m"
+                android:text="@string/install_fail_label_detail"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:id="@id/fail_detail_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5" />
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/emui_black"
+                android:id="@id/advice_label_textview"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_l"
+                android:layout_marginBottom="@dimen/margin_m"
+                android:text="@string/install_fail_label_advice"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:id="@id/advice1_textview"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:id="@id/advice2_textview"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:id="@id/advice3_textview"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_black"
+                android:id="@id/advice4_textview"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loadingBar_layout"
+        android:background="@color/appgallery_color_sub_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@id/loadingBar"
+            android:layout_width="@dimen/loading_large"
+            android:layout_height="@dimen/loading_large"
+            style="@style/Widget.Emui.HwProgressBar.Large" />
+        <TextView
+            android:textSize="@dimen/emui_master_body_1"
+            android:textColor="@color/emui_black"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_loading_prompt"
+            android:alpha="1.0" />
+    </LinearLayout>
+</RelativeLayout>

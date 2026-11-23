@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/forum_post_vote_view_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_color_primary"
+            android:gravity="start|center"
+            android:id="@id/vote_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="12.0dip"
+            android:layout_marginEnd="12.0dip"
+            android:layout_toStartOf="@id/vote_close"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:id="@id/vote_close"
+            android:background="@drawable/forum_ic_vote_remove"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_marginTop="3.0dip"
+            android:contentDescription="@string/forum_post_popmenu_delete"
+            android:layout_marginEnd="12.0dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/emui_text_size_body3"
+        android:textColor="@color/emui_color_tertiary"
+        android:id="@id/vote_select_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="12.0dip" />
+    <ImageView
+        android:id="@id/vote_divider"
+        android:background="@color/emui_color_list_divider"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/emui_text_size_body3"
+        android:textColor="@color/emui_color_tertiary"
+        android:id="@id/vote_deadline_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_centerVertical="true"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="12.0dip" />
+</LinearLayout>

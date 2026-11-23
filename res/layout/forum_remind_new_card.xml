@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:id="@id/message_new_card_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:text="@string/forum_message_new_above"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    <include
+        android:id="@id/message_new_card_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        layout="@layout/hiappbase_layout_subheader_spliter" />
+</LinearLayout>

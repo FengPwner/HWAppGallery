@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip">
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/vote_single_checkbox"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:checked="false"
+            style="@style/Widget.Emui.HwRadioButton" />
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:id="@id/vote_muti_checkbox"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:checked="false"
+            style="@style/Widget.Emui.HwCheckBox" />
+    </RelativeLayout>
+    <com.huawei.appgallery.forum.cards.widget.ForumLineImageView
+        android:id="@id/vote_option_img"
+        android:layout_width="96.0dip"
+        android:layout_height="72.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_s"
+        app:has_touch_drawable="false" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/emui_text_size_body2"
+        android:textColor="@color/emui_color_primary"
+        android:gravity="center_vertical"
+        android:id="@id/image_option_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip" />
+</LinearLayout>

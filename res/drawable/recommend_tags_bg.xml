@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/appgallery_color_card_panel_bg" />
+    <corners
+        android:topLeftRadius="@dimen/ui_16_dp"
+        android:topRightRadius="@dimen/ui_16_dp"
+        android:bottomLeftRadius="@dimen/ui_16_dp"
+        android:bottomRightRadius="@dimen/ui_16_dp" />
+</shape>

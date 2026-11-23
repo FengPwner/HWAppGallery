@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="@color/upgrade_bg_color_night" />
+            <corners
+                android:topLeftRadius="@dimen/ui_24_dp"
+                android:topRightRadius="@dimen/ui_24_dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/reply_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_m">
+        <RelativeLayout
+            android:id="@id/rl_more"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginTop="6.0dip"
+            android:contentDescription="@string/card_more_btn"
+            android:importantForAccessibility="yes"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@id/right_imageview"
+                android:background="@drawable/aguikit_ic_public_more_list"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:layout_centerInParent="true"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/rl_user_info"
+            android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+            android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/rl_more"
+            android:layout_alignParentStart="true">
+            <com.huawei.appgallery.forum.cards.widget.ReplyTextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:id="@id/tv_reply_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <TextView
+                android:id="@id/tv_reply_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/tv_reply_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/ll_reply_error_state"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m">
+                <ImageView
+                    android:background="@drawable/aguikit_ic_public_error"
+                    android:layout_width="@dimen/forum_error_icon_size_normal"
+                    android:layout_height="@dimen/forum_error_icon_size_normal"
+                    android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_vertical" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forum_base_error_400013_toast"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:id="@id/item_line"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/ll_all_reply_view"
+        android:background="@color/appgallery_color_sub_background"
+        android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_m">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_primary_activated"
+            android:id="@id/reply_count_all"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+    </LinearLayout>
+</LinearLayout>

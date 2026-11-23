@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:orientation="vertical"
+        android:id="@id/letter_deliver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/hiappbase_layout_subheader_list_title_action" />
+    <ViewStub
+        android:id="@id/double_card_info"
+        android:layout="@layout/forum_letter_section_info_double_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/ageadapter_double_card_info"
+        android:layout="@layout/forum_ageadapter_letter_section_info_double_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        android:id="@id/line_deliver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_s"
+        layout="@layout/hiappbase_layout_subheader_spliter" />
+</LinearLayout>

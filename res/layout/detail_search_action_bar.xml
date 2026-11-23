@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/iv_status"
+        android:layout_width="64.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/detail_sheet_top_icon"
+        android:scaleType="center" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/iv_back"
+            android:background="@drawable/hwsearchview_selector_button_clicked"
+            android:focusable="true"
+            android:visibility="gone"
+            android:clickable="true"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/hwappbarpattern_icon_size"
+            android:src="@drawable/aguikit_ic_public_back"
+            android:scaleType="centerInside"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginEnd="4.0dip"
+            app:tint="@color/emui_color_primary" />
+        <LinearLayout
+            android:id="@id/container_search"
+            android:focusableInTouchMode="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <com.huawei.uikit.phone.hwsearchview.widget.HwSearchView
+                android:layout_gravity="center_vertical"
+                android:id="@id/search_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionSearch|flagNoFullscreen"
+                android:iconifiedByDefault="false"
+                app:layout="@layout/hwsearchview_icon_hint_text_inner_search_view"
+                style="@style/Widget.Emui.HwSearchView.White" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

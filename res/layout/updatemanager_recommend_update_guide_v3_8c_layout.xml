@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/updatemanager_header"
+    android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg"
+    android:paddingBottom="@dimen/appgallery_default_card_space_vertical_l"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="156.0dip"
+    android:paddingStart="@dimen/appgallery_default_padding_start"
+    android:paddingEnd="@dimen/appgallery_default_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/updatemanager_cl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/updatemanager_updateview_title_textview"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:minHeight="48.0dip"
+            android:text="@string/updatemanager_app_updates"
+            android:maxLines="1"
+            android:layout_marginEnd="@dimen/appgallery_safety_margin_m"
+            maskview:layout_constraintEnd_toStartOf="@id/update_num"
+            maskview:layout_constraintStart_toStartOf="parent"
+            maskview:layout_constraintTop_toTopOf="parent"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary.Medium" />
+        <ImageView
+            android:id="@id/update_arrow_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_public_arrow_right_900"
+            maskview:layout_constraintBottom_toBottomOf="@id/updatemanager_updateview_title_textview"
+            maskview:layout_constraintEnd_toEndOf="parent"
+            maskview:layout_constraintTop_toTopOf="@id/updatemanager_updateview_title_textview" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="10.0dip"
+            android:textColor="@color/appgallery_text_color_primary_inverse"
+            android:gravity="center"
+            android:id="@id/update_num"
+            android:background="@drawable/updatemanager_updateview_update_num_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/updatemanager_updateview_updatenum_min_width"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:paddingStart="@dimen/updatemanager_updateview_updatenum_padding"
+            android:paddingEnd="@dimen/updatemanager_updateview_updatenum_padding"
+            android:layout_marginStart="@dimen/appgallery_safety_margin_s"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+            maskview:layout_constraintBottom_toBottomOf="@id/update_arrow_imageView"
+            maskview:layout_constraintEnd_toStartOf="@id/update_arrow_imageView"
+            maskview:layout_constraintTop_toTopOf="@id/update_arrow_imageView" />
+        <androidx.constraintlayout.widget.Group
+            android:id="@id/group_has_data"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            maskview:constraint_referenced_ids="update_num,ll_icons_layout" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/ll_icons_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/appgallery_safety_margin_m"
+            maskview:layout_constraintBottom_toBottomOf="parent"
+            maskview:layout_constraintEnd_toStartOf="@id/update_all_btn"
+            maskview:layout_constraintStart_toStartOf="parent"
+            maskview:layout_constraintTop_toBottomOf="@id/updatemanager_updateview_title_textview" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:ellipsize="end"
+            android:id="@id/update_all_btn"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/updatemanager_card_update_all"
+            android:maxLines="1"
+            maskview:hwAutoSizeMinTextSize="9.0sp"
+            maskview:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            maskview:layout_constraintBottom_toBottomOf="@id/ll_icons_layout"
+            maskview:layout_constraintEnd_toEndOf="parent"
+            maskview:layout_constraintTop_toTopOf="@id/ll_icons_layout"
+            style="@style/AppGallery.Widget.Button.Small" />
+        <androidx.constraintlayout.widget.Group
+            android:id="@id/group_no_data"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            maskview:constraint_referenced_ids="no_update_icon,updatemanager_update_no_data" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/updatemanager_update_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/updatemanager_card_no_data"
+            android:maxLines="1"
+            maskview:layout_constraintBottom_toBottomOf="parent"
+            maskview:layout_constraintEnd_toEndOf="parent"
+            maskview:layout_constraintStart_toStartOf="parent"
+            style="@style/AppGallery.TextAppearance.NoData" />
+        <ImageView
+            android:id="@id/no_update_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.5dip"
+            android:layout_marginBottom="18.5dip"
+            android:src="@drawable/update_v3_complete"
+            maskview:layout_constraintBottom_toTopOf="@id/updatemanager_update_no_data"
+            maskview:layout_constraintEnd_toEndOf="parent"
+            maskview:layout_constraintStart_toStartOf="parent"
+            maskview:layout_constraintTop_toBottomOf="@id/updatemanager_updateview_title_textview" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/recommenditemcontainer"
+    android:layout_width="@dimen/recommend_banner_app_item_width"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <TextView
+        android:textSize="11.0dip"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="@dimen/wisedist_horizontal_icon_card_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:maxLines="1"
+        android:importantForAccessibility="no"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/ui_4_dp"
+        android:paddingEnd="@dimen/ui_4_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appicon" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/downbtn"
+        android:tag="css/.download-button"
+        android:layout_width="56.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:minWidth="56.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

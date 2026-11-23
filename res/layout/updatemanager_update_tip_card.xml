@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:background="@drawable/updatemanager_choose_auto_update_flag_bg"
+        android:paddingTop="@dimen/appgallery_card_elements_margin_l"
+        android:paddingBottom="@dimen/appgallery_default_padding_end"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_l"
+        android:importantForAccessibility="no"
+        android:paddingStart="@dimen/appgallery_default_padding_start"
+        android:paddingEnd="@dimen/appgallery_default_padding_end"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/updatemanager_update_tip_card_desc"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_m"
+            android:text="@string/updatemanager_update_tip_desc"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textSize="@dimen/appgallery_text_size_button2"
+            android:textColor="@color/appgallery_text_color_primary_activated"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/updatemanager_update_tip_card_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.0dip"
+            android:text="@string/updatemanager_iknow"
+            android:maxLines="1"
+            android:layout_below="@id/updatemanager_update_tip_card_desc"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.Emui.HwButton.Borderless.Small" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8.0dip"
+    android:layout_marginEnd="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.forum.posts.view.TextVoteRelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:id="@id/post_vote_proportion_progressbar"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:importantForAccessibility="no"
+            style="?android:progressBarStyleHorizontal" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:gravity="center_vertical"
+                android:id="@id/post_vote_result_options_name"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:visibility="visible"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:minHeight="32.0dip"
+                android:layout_weight="1.0"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="16.0dip" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body3"
+                android:textColor="@color/appgallery_color_tertiary"
+                android:layout_gravity="center_vertical"
+                android:id="@id/post_vote_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </com.huawei.appgallery.forum.posts.view.TextVoteRelativeLayout>
+</LinearLayout>

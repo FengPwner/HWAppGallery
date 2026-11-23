@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.ExpandScrollLayout
+    android:orientation="vertical"
+    android:id="@id/horizon_tab_expand_scroll_layout_id"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwrecyclerview.widget.HwRecyclerView
+        android:layout_gravity="start|center"
+        android:id="@id/tab_recycler_view"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+        android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+        android:minHeight="@dimen/hiappbase_horizon_tab_item_height"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:orientation="vertical"
+        android:id="@id/tabsViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</com.huawei.appmarket.framework.widget.ExpandScrollLayout>

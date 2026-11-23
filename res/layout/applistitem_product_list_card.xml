@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_card_height_three_text_lines"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="@dimen/appgallery_card_icon_size_large"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:touch_drawable="@drawable/transparent" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@drawable/product_purchase_button_text_color"
+        android:ellipsize="end"
+        android:id="@id/product_pay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hwbutton_small_button_min_height"
+        android:minWidth="64.0dip"
+        android:maxLines="1"
+        android:paddingStart="8.0dip"
+        android:paddingEnd="8.0dip"
+        app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+        app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.Emui.HwButton.Small" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_caption"
+        android:textColor="@color/appgallery_text_color_tertiary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/product_old_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:maxLines="1"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        app:layout_constraintEnd_toEndOf="@id/product_pay_button"
+        app:layout_constraintStart_toStartOf="@id/product_pay_button"
+        app:layout_constraintTop_toBottomOf="@id/product_pay_button"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_m"
+        android:paddingBottom="@dimen/margin_m"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/product_pay_button"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/product_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/product_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/appgallery_divider_horizontal_height"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        style="@style/AppGallery.Widget.Divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

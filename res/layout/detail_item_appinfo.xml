@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/subtitle"
+        layout="@layout/hiappbase_layout_subheader_title_action" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/price_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:id="@id/tariff_unit_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/component_detail_new_tariff"
+                    style="@style/detail_appinfo" />
+                <TextView
+                    android:id="@id/detail_appinfo_tariff_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_marginStart="@dimen/margin_m"
+                    style="@style/detail_appinfo" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/size_unit_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price_layout"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:id="@id/size_unit_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/component_detail_new_size"
+                    style="@style/detail_appinfo" />
+                <TextView
+                    android:id="@id/detail_appinfo_size_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_marginStart="@dimen/margin_m"
+                    style="@style/detail_appinfo" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/version_unit_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/size_unit_layout">
+                <TextView
+                    android:id="@id/version_unit_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/component_detail_new_version"
+                    style="@style/detail_appinfo" />
+                <TextView
+                    android:id="@id/detail_appinfo_version_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_marginStart="@dimen/margin_m"
+                    style="@style/detail_appinfo" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/release_unit_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/version_unit_layout">
+                <TextView
+                    android:id="@id/release_unit_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/component_detail_new_date"
+                    style="@style/detail_appinfo" />
+                <TextView
+                    android:id="@id/detail_appinfo_release_date_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_marginStart="@dimen/margin_m"
+                    style="@style/detail_appinfo" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/develop_unit_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/release_unit_layout">
+                <TextView
+                    android:id="@id/develop_unit_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/component_detail_provider"
+                    style="@style/detail_appinfo" />
+                <TextView
+                    android:id="@id/appdetail_appinfo_developer_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_marginStart="@dimen/margin_m"
+                    style="@style/detail_appinfo" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

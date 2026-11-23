@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/single_title"
+    android:paddingTop="0.0dip"
+    android:paddingBottom="0.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/AppGallery.Widget.List.SingleTextLine"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.phone.hwswitch.widget.HwSwitch
+        android:id="@id/switchBtn"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.Emui.HwSwitch" />
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@id/setItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/switchBtn"
+        style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+</RelativeLayout>

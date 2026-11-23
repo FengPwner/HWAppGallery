@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <title>
+        <string
+            name="@string/service_use_and_update_title" />
+    </title>
+    <content>
+        <string
+            name="@string/abilitydispatcher_enhance_service_content"
+            placeholder_count="2">
+            <placeholder
+                font_type="bold"
+                name="@string/abilitydispatcher_wifi_name"
+                type="str" />
+            <placeholder
+                color="blue"
+                font_type="link"
+                name="@string/abilitydispatcher_privacy_statement"
+                type="str" />
+        </string>
+    </content>
+    <action
+        name="com.huawei.appmarket.oobe.local.discovery.privacy" />
+</declaration>

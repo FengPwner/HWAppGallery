@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/substanceappdlcard_layout"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_alignParentStart="true">
+        <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+            android:id="@id/appdl_big_imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            app:shade_enable="false" />
+        <RelativeLayout
+            android:id="@id/substanceappdlcard_title_layout"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/appgallery_card_height_two_text_lines"
+            android:layout_below="@id/appdl_big_imageview"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <com.huawei.appgallery.pageframe.view.DownloadButtonV2
+                android:id="@id/appdl_btn"
+                android:tag="css/.download-button"
+                android:layout_width="wrap_content"
+                android:layout_height="28.0dip"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                style="@style/AppGallery.Widget.DownloadButton.Normal" />
+            <ImageView
+                android:id="@id/appdl_icon_imageview"
+                android:layout_width="@dimen/appgallery_card_icon_size_middle"
+                android:layout_height="@dimen/appgallery_card_icon_size_middle"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+                android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+                android:layout_toStartOf="@id/appdl_btn"
+                android:layout_toEndOf="@id/appdl_icon_imageview">
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/appdl_title"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+                    <com.huawei.appmarket.framework.widget.PromotionSignTextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/promotion_sign"
+                        android:tag="css/.title"
+                        android:background="@drawable/promotion_sign_bg"
+                        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                        style="@style/promotion_sign_style" />
+                    <TextView
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/appdl_subtitle"
+                        android:tag="css/.subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

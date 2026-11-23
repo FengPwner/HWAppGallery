@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.PullUpListView
+        android:id="@id/applistview"
+        android:paddingBottom="@dimen/appgallery_card_elements_margin_xl"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:drawSelectorOnTop="true"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:layout_weight="1.0"
+        bounceViews:bounceEnable="true"
+        bounceViews:hwCutoutMode="never" />
+    <RelativeLayout
+        android:id="@id/idle_empty_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:id="@id/no_date_image"
+            android:src="@drawable/ic_idle_record_update_empty"
+            android:layout_centerInParent="true"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idle_no_update_record"
+            android:layout_below="@id/no_date_image"
+            android:layout_centerHorizontal="true"
+            style="@style/AppGallery.TextAppearance.NoData" />
+    </RelativeLayout>
+</LinearLayout>

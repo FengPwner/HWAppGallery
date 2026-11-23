@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/app_uninstall_item_info1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+        <TextView
+            android:id="@id/uninstall_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_info_default"
+            android:singleLine="true"
+            android:layout_marginEnd="@dimen/margin_m"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <TextView
+            android:textStyle="normal"
+            android:gravity="center_vertical"
+            android:id="@id/uninstall_item_usage_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_info_default"
+            android:singleLine="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="normal"
+            android:gravity="center_vertical"
+            android:id="@id/uninstall_item_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_info_default"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <TextView
+            android:id="@id/uninstall_item_install_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_info_default"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/margin_m"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+</LinearLayout>

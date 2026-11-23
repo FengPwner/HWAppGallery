@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textSize="@dimen/appgallery_text_size_body1"
+    android:textColor="@color/appgallery_text_color_primary"
+    android:id="@id/dialog_textview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

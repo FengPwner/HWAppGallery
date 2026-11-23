@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/appcommon_game_service"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+        <View
+            android:layout_width="12.0dip"
+            android:layout_height="fill_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_marginStart="12.0dip"
+            android:layout_marginEnd="24.0dip">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginBottom="16.0dip"
+                android:layout_weight="1.0">
+                <ScrollView
+                    android:orientation="vertical"
+                    android:scrollbars="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/game_service_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/game_service_title"
+                            android:fontFamily="@string/appgallery_text_font_family_medium"
+                            style="@style/AppGallery.TextAppearance.Paragraph.SubTitle1" />
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:id="@id/game_service_intro_first"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8.0dip"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:id="@id/game_service_intro_second"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16.0dip"
+                            android:text="@string/game_service_content_second_new"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:id="@id/game_service_intro_third"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16.0dip"
+                            android:text="@string/game_service_content_thrid_new"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:id="@id/game_service_intro_forth"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16.0dip"
+                            android:text="@string/game_service_content_forth_new"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:id="@id/game_service_intro_fifth"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16.0dip"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+                        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16.0dip"
+                            android:text="@string/game_service_content_sixth_new"
+                            android:textAlignment="viewStart"
+                            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textColor="@color/hwbutton_selector_text_normal_emui"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/game_service_button"
+                android:background="@drawable/hwbutton_default_emui"
+                android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:minWidth="254.0dip"
+                android:text="@string/game_service_open"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="1.0sp"
+                style="@style/AppGallery.Widget.Button.BottomButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

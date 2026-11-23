@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/arrowlayout"
+        android:tag="css/.arrow"
+        android:background="@drawable/ic_public_arrow_right_900"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.Widget.List.RightArrow" />
+    <ImageView
+        android:id="@id/wisedist_itemIcon_imageview"
+        android:visibility="gone"
+        android:layout_width="@dimen/ui_24_dp"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/item_layout"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_two_text_lines"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/arrowlayout"
+        android:layout_toEndOf="@id/wisedist_itemIcon_imageview">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="center_vertical"
+            android:id="@id/setItemTitle"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <FrameLayout
+            android:id="@id/expend_content_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:layout_below="@id/setItemTitle"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <LinearLayout
+                android:layout_gravity="top"
+                android:orientation="vertical"
+                android:id="@id/expend_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.appgallery.detail.detailbase.common.FoldingTextView
+                    android:ellipsize="end"
+                    android:id="@id/setItemContent"
+                    android:tag="css/.subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            </LinearLayout>
+            <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+                android:layout_gravity="end|bottom|center"
+                android:id="@id/item_folding_imageview"
+                android:background="@drawable/ic_public_arrow_down_900"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/component_detail_head_game_open" />
+        </FrameLayout>
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/item_tip"
+            android:tag="css/.subtitle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="150.0dip"
+            android:maxLines="2"
+            android:layout_marginStart="@dimen/ui_10_dp"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </RelativeLayout>
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/item_layout"
+        android:layout_alignStart="@id/item_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

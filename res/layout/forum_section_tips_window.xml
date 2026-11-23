@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.forum.section.view.widget.tips.BubbleLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_m"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:background_color="@color/bubble_tips_bg_color"
+    app:direction="top"
+    app:length="8.0dip"
+    app:radius="4.0dip"
+    app:shadow_size="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:textColor="@color/emui_white"
+        android:layout_gravity="start|center"
+        android:id="@id/tips_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_m" />
+</com.huawei.appgallery.forum.section.view.widget.tips.BubbleLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.assistantdock.buoydock.uikit.window.WindowRelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/bigbuoy_background_drawable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/top_view"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/close_layout"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_marginStart="4.0dip">
+            <ImageView
+                android:id="@id/close_imageview"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/buoy_ic_back" />
+        </LinearLayout>
+        <TextView
+            android:textSize="@dimen/emui_master_title_1"
+            android:textColor="@color/buoy_emui_primary"
+            android:ellipsize="end"
+            android:id="@id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fontFamily="HwChinese-medium"
+            android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top_view">
+        <ProgressBar
+            android:id="@id/area_webview_progress_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_horizontal_emui5"
+            style="?android:progressBarStyleHorizontal" />
+        <com.huawei.appgallery.agwebview.api.view.SecureWebView
+            android:id="@id/activity_area_webview"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/area_webview_progress_bar"
+            android:overScrollMode="never" />
+        <include
+            android:id="@id/web_error_layout"
+            android:visibility="gone"
+            layout="@layout/buoy_web_error" />
+    </RelativeLayout>
+</com.huawei.appgallery.assistantdock.buoydock.uikit.window.WindowRelativeLayout>

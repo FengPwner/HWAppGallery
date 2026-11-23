@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/interacContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/wisedist_interactive_container_height"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:id="@id/interac_label_textview"
+        android:tag="css/.title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wisedist_interac_more"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Primary" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layoutDirection="ltr"
+        android:layout_toEndOf="@id/interac_label_textview">
+        <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+            android:id="@id/interac_recycleview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:bounceEnable="true" />
+    </LinearLayout>
+</RelativeLayout>

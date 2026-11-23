@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/layout_search_hint"
+    android:paddingTop="8.0dip"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/ivHint"
+        android:focusable="true"
+        android:clickable="false"
+        android:layout_width="@dimen/search_hint_icon_width"
+        android:layout_height="@dimen/search_hint_icon_height"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="yes"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    <TextView
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/tvHint"
+        android:tag="css/.title"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:importantForAccessibility="yes"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</LinearLayout>

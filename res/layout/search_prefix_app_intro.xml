@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textColor="@color/prefix_label_text_color"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:id="@id/prefixAppIntro"
+    android:tag="css/.title"
+    android:background="@drawable/search_prefixappintro_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/res_textsize_16sp"
+    android:singleLine="true"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    android:paddingStart="@dimen/ui_4_dp"
+    android:paddingEnd="@dimen/ui_4_dp"
+    style="@style/AppGallery.TextAppearance.Card.TextBody4"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

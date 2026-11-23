@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/agwebview_translucent_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/agwebview_error_layout"
+        android:background="@drawable/agwebview_translucent_error_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@id/agwebview_error_img"
+            android:background="@drawable/ic_no_wifi_disable"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@id/agwebview_error_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip"
+            style="@style/AppGallery.TextAppearance.NoData" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/agwebview_translucent_close"
+        android:background="@drawable/agwebview_dialog_close"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginBottom="24.0dip"
+        android:layout_above="@id/agwebview_error_layout"
+        android:contentDescription="@string/agwebview_translucent_error_close_btn"
+        android:layout_alignEnd="@id/agwebview_error_layout" />
+</RelativeLayout>

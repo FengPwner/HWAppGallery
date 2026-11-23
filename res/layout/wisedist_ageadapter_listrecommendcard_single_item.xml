@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/list_item_all_selector"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/appgallery_card_icon_size_small"
+        android:layout_height="@dimen/appgallery_card_icon_size_small"
+        android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+        android:src="@color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:gravity="center"
+        android:id="@id/aliasname"
+        android:tag="css/.title"
+        android:layout_width="@dimen/wisedist_serial_number_textview_layout_width"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+        app:hwAutoSizeMinTextSize="15.0dip"
+        app:hwAutoSizeStepGranularity="1.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody1.Fixed.Regular" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/downbtn"
+        android:tag="css/.download-button"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+        android:minHeight="28.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/appicon"
+        app:layout_constraintTop_toBottomOf="@id/memo"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/appicon"
+        app:layout_constraintTop_toBottomOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+    <com.huawei.appmarket.framework.widget.NoAdaptRenderImageView
+        android:id="@id/nonadapt_imageview"
+        android:tag="css/.title"
+        android:visibility="gone"
+        android:layout_width="18.0dip"
+        android:layout_height="@dimen/ui_14_dp"
+        android:scaleType="fitCenter"
+        android:paddingEnd="@dimen/appgallery_text_paragraph_margin_xs"
+        app:layout_constraintBottom_toBottomOf="@id/memo"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle"
+        app:layout_constraintTop_toTopOf="@id/memo" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/memo"
+        android:tag="css/.subtitle"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@id/ItemTitle"
+        app:layout_constraintStart_toEndOf="@id/nonadapt_imageview"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

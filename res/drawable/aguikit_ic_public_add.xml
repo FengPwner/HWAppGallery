@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="64.0dip"
+    android:width="64.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="64.0"
+    android:viewportHeight="64.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/appgallery_color_card_panel_bg"
+        android:pathData="M8,0L56,0A8,8 0,0 1,64 8L64,56A8,8 0,0 1,56 64L8,64A8,8 0,0 1,0 56L0,8A8,8 0,0 1,8 0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+    <path
+        android:fillColor="@color/appgallery_color_tertiary"
+        android:pathData="M33,40C33,40.5523 32.5523,41 32,41C31.4477,41 31,40.5523 31,40L31,33L24,33C23.4477,33 23,32.5523 23,32C23,31.4477 23.4477,31 24,31L31,31L31,24C31,23.4477 31.4477,23 32,23C32.5523,23 33,23.4477 33,24L33,40ZM40,31C40.5523,31 41,31.4477 41,32C41,32.5523 40.5523,33 40,33L34,33L34,31L40,31Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.38"
+        android:fillType="evenOdd" />
+</vector>

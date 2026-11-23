@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.appcomment.ui.view.ReplyRelativeLayout
+        android:id="@id/reply_relayout"
+        android:tag="css/.split-line"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:layout_marginBottom="@dimen/appgallery_card_elements_margin_m">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/comment_list_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/more_view"
+            android:background="@drawable/list_item_all_selector"
+            android:paddingTop="@dimen/appcomment_8_dp"
+            android:paddingBottom="@dimen/appcomment_8_dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_list_layout"
+            android:layout_centerInParent="true">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:id="@id/comment_more_text"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_comment_view_more"
+                style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+            <ImageView
+                android:id="@id/comment_more_arrow"
+                android:tag="css/.arrow"
+                android:background="@drawable/ic_public_arrow_right_900"
+                android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+                android:layout_height="@dimen/appgallery_list_item_right_arrow_height" />
+        </LinearLayout>
+    </com.huawei.appgallery.appcomment.ui.view.ReplyRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,1073 @@
+.class public Lorg/apache/commons/lang3/Functions;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/apache/commons/lang3/Functions$FailableBiConsumer;,
+        Lorg/apache/commons/lang3/Functions$FailableRunnable;,
+        Lorg/apache/commons/lang3/Functions$FailableConsumer;,
+        Lorg/apache/commons/lang3/Functions$FailableBiFunction;,
+        Lorg/apache/commons/lang3/Functions$FailableSupplier;,
+        Lorg/apache/commons/lang3/Functions$FailableFunction;,
+        Lorg/apache/commons/lang3/Functions$FailableBiPredicate;,
+        Lorg/apache/commons/lang3/Functions$FailableCallable;,
+        Lorg/apache/commons/lang3/Functions$FailablePredicate;
+    }
+.end annotation
+
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic a(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$accept$1(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public static accept(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O1:",
+            "Ljava/lang/Object;",
+            "O2:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableBiConsumer<",
+            "TO1;TO2;TT;>;TO1;TO2;)V"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/jm5;
+
+    const/16 v1, 0x19
+
+    invoke-direct {v0, v1, p0, p1, p2}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->run(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    return-void
+.end method
+
+.method public static accept(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableConsumer<",
+            "TO;TT;>;TO;)V"
+        }
+    .end annotation
+
+    .line 2
+    new-instance v0, Lcom/huawei/appmarket/mh4;
+
+    const/16 v1, 0x14
+
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/mh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->run(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    return-void
+.end method
+
+.method public static apply(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O1:",
+            "Ljava/lang/Object;",
+            "O2:",
+            "Ljava/lang/Object;",
+            "O:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableBiFunction<",
+            "TO1;TO2;TO;TT;>;TO1;TO2;)TO;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/jm5;
+
+    const/16 v1, 0x18
+
+    invoke-direct {v0, v1, p0, p1, p2}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->get(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static apply(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<I:",
+            "Ljava/lang/Object;",
+            "O:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableFunction<",
+            "TI;TO;TT;>;TI;)TO;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance v0, Lcom/huawei/appmarket/mh4;
+
+    const/16 v1, 0x13
+
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/mh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->get(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static asBiConsumer(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;)Ljava/util/function/BiConsumer;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O1:",
+            "Ljava/lang/Object;",
+            "O2:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableBiConsumer<",
+            "TO1;TO2;*>;)",
+            "Ljava/util/function/BiConsumer<",
+            "TO1;TO2;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/zt2;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/zt2;-><init>(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;)V
+
+    return-object v0
+.end method
+
+.method public static asBiFunction(Lorg/apache/commons/lang3/Functions$FailableBiFunction;)Ljava/util/function/BiFunction;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O1:",
+            "Ljava/lang/Object;",
+            "O2:",
+            "Ljava/lang/Object;",
+            "O:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableBiFunction<",
+            "TO1;TO2;TO;*>;)",
+            "Ljava/util/function/BiFunction<",
+            "TO1;TO2;TO;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/tt2;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/tt2;-><init>(Lorg/apache/commons/lang3/Functions$FailableBiFunction;)V
+
+    return-object v0
+.end method
+
+.method public static asBiPredicate(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;)Ljava/util/function/BiPredicate;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O1:",
+            "Ljava/lang/Object;",
+            "O2:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableBiPredicate<",
+            "TO1;TO2;*>;)",
+            "Ljava/util/function/BiPredicate<",
+            "TO1;TO2;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/vt2;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/vt2;-><init>(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;)V
+
+    return-object v0
+.end method
+
+.method public static asCallable(Lorg/apache/commons/lang3/Functions$FailableCallable;)Ljava/util/concurrent/Callable;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableCallable<",
+            "TO;*>;)",
+            "Ljava/util/concurrent/Callable<",
+            "TO;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/bu2;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/bu2;-><init>(Lorg/apache/commons/lang3/Functions$FailableCallable;)V
+
+    return-object v0
+.end method
+
+.method public static asConsumer(Lorg/apache/commons/lang3/Functions$FailableConsumer;)Ljava/util/function/Consumer;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<I:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableConsumer<",
+            "TI;*>;)",
+            "Ljava/util/function/Consumer<",
+            "TI;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lorg/apache/commons/lang3/b;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0, p0, v1}, Lorg/apache/commons/lang3/b;-><init>(Ljava/lang/Object;I)V
+
+    return-object v0
+.end method
+
+.method public static asFunction(Lorg/apache/commons/lang3/Functions$FailableFunction;)Ljava/util/function/Function;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<I:",
+            "Ljava/lang/Object;",
+            "O:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableFunction<",
+            "TI;TO;*>;)",
+            "Ljava/util/function/Function<",
+            "TI;TO;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/v12;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/v12;-><init>(Ljava/lang/Object;I)V
+
+    return-object v0
+.end method
+
+.method public static asPredicate(Lorg/apache/commons/lang3/Functions$FailablePredicate;)Ljava/util/function/Predicate;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<I:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailablePredicate<",
+            "TI;*>;)",
+            "Ljava/util/function/Predicate<",
+            "TI;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/wm;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/wm;-><init>(Ljava/lang/Object;I)V
+
+    return-object v0
+.end method
+
+.method public static asRunnable(Lorg/apache/commons/lang3/Functions$FailableRunnable;)Ljava/lang/Runnable;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/apache/commons/lang3/Functions$FailableRunnable<",
+            "*>;)",
+            "Ljava/lang/Runnable;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/yt2;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/yt2;-><init>(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    return-object v0
+.end method
+
+.method public static asSupplier(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/util/function/Supplier;
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableSupplier<",
+            "TO;*>;)",
+            "Ljava/util/function/Supplier<",
+            "TO;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/huawei/appmarket/au2;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lcom/huawei/appmarket/au2;-><init>(Ljava/lang/Object;I)V
+
+    return-object v0
+.end method
+
+.method public static synthetic b([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)Lorg/apache/commons/lang3/function/FailableRunnable;
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$tryWithResources$16([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)Lorg/apache/commons/lang3/function/FailableRunnable;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic c(Lorg/apache/commons/lang3/Functions$FailableCallable;)Ljava/lang/Object;
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->lambda$asCallable$7(Lorg/apache/commons/lang3/Functions$FailableCallable;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static call(Lorg/apache/commons/lang3/Functions$FailableCallable;)Ljava/lang/Object;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableCallable<",
+            "TO;TT;>;)TO;"
+        }
+    .end annotation
+
+    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    new-instance v0, Lcom/huawei/appmarket/qm2;
+
+    invoke-direct {v0, p0}, Lcom/huawei/appmarket/qm2;-><init>(Ljava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->get(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic d(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->lambda$accept$0(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public static synthetic e(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$test$14(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static synthetic f(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->lambda$asRunnable$11(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    return-void
+.end method
+
+.method public static synthetic g(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$asConsumer$8(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public static get(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+    .registers 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableSupplier<",
+            "TO;TT;>;)TO;"
+        }
+    .end annotation
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/apache/commons/lang3/Functions$FailableSupplier;->get()Ljava/lang/Object;
+
+    move-result-object p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    return-object p0
+
+    :catchall_0
+    move-exception p0
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->rethrow(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method private static getAsBoolean(Lorg/apache/commons/lang3/function/FailableBooleanSupplier;)Z
+    .registers 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/function/FailableBooleanSupplier<",
+            "TT;>;)Z"
+        }
+    .end annotation
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/apache/commons/lang3/function/FailableBooleanSupplier;->getAsBoolean()Z
+
+    move-result p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    return p0
+
+    :catchall_0
+    move-exception p0
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->rethrow(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public static synthetic h(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->lambda$apply$2(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic i(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->lambda$test$13(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static synthetic j(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$asFunction$9(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic k(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->lambda$asBiConsumer$4(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public static synthetic l(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$asPredicate$10(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method private static synthetic lambda$accept$0(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    invoke-interface {p0, p1, p2}, Lorg/apache/commons/lang3/Functions$FailableBiConsumer;->accept(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method private static synthetic lambda$accept$1(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    invoke-interface {p0, p1}, Lorg/apache/commons/lang3/Functions$FailableConsumer;->accept(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method private static synthetic lambda$apply$2(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    invoke-interface {p0, p1, p2}, Lorg/apache/commons/lang3/Functions$FailableBiFunction;->apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$apply$3(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    invoke-interface {p0, p1}, Lorg/apache/commons/lang3/Functions$FailableFunction;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$asBiConsumer$4(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 3
+
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->accept(Lorg/apache/commons/lang3/Functions$FailableBiConsumer;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method private static synthetic lambda$asBiFunction$5(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->apply(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$asBiPredicate$6(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+    .registers 3
+
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->test(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method private static synthetic lambda$asCallable$7(Lorg/apache/commons/lang3/Functions$FailableCallable;)Ljava/lang/Object;
+    .registers 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->call(Lorg/apache/commons/lang3/Functions$FailableCallable;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$asConsumer$8(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+    .registers 2
+
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->accept(Lorg/apache/commons/lang3/Functions$FailableConsumer;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method private static synthetic lambda$asFunction$9(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->apply(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$asPredicate$10(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+    .registers 2
+
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->test(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method private static synthetic lambda$asRunnable$11(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+    .registers 1
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->run(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    return-void
+.end method
+
+.method private static synthetic lambda$asSupplier$12(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+    .registers 1
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->get(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static synthetic lambda$test$13(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+    .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    invoke-interface {p0, p1, p2}, Lorg/apache/commons/lang3/Functions$FailableBiPredicate;->test(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method private static synthetic lambda$test$14(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    invoke-interface {p0, p1}, Lorg/apache/commons/lang3/Functions$FailablePredicate;->test(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method private static synthetic lambda$tryWithResources$15([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    aget-object p0, p0, p1
+
+    invoke-interface {p0}, Lorg/apache/commons/lang3/Functions$FailableRunnable;->run()V
+
+    return-void
+.end method
+
+.method private static synthetic lambda$tryWithResources$16([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)Lorg/apache/commons/lang3/function/FailableRunnable;
+    .registers 4
+
+    new-instance v0, Lcom/huawei/appmarket/ut2;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p1, v1, p0}, Lcom/huawei/appmarket/ut2;-><init>(IILjava/lang/Object;)V
+
+    return-object v0
+.end method
+
+.method public static synthetic m(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$apply$3(Lorg/apache/commons/lang3/Functions$FailableFunction;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic n(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->lambda$asBiFunction$5(Lorg/apache/commons/lang3/Functions$FailableBiFunction;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic o(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->lambda$asSupplier$12(Lorg/apache/commons/lang3/Functions$FailableSupplier;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic p([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)V
+    .registers 2
+
+    .line 1
+    invoke-static {p0, p1}, Lorg/apache/commons/lang3/Functions;->lambda$tryWithResources$15([Lorg/apache/commons/lang3/Functions$FailableRunnable;I)V
+
+    return-void
+.end method
+
+.method public static synthetic q(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+    .registers 3
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lorg/apache/commons/lang3/Functions;->lambda$asBiPredicate$6(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static rethrow(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+    .registers 2
+
+    const-string v0, "throwable"
+
+    invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/exception/ExceptionUtils;->throwUnchecked(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    instance-of v0, p0, Ljava/io/IOException;
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Lcom/huawei/appmarket/t12;->t()V
+
+    check-cast p0, Ljava/io/IOException;
+
+    invoke-static {p0}, Lcom/huawei/appmarket/t12;->e(Ljava/io/IOException;)Ljava/io/UncheckedIOException;
+
+    move-result-object p0
+
+    throw p0
+
+    :cond_0
+    new-instance v0, Ljava/lang/reflect/UndeclaredThrowableException;
+
+    invoke-direct {v0, p0}, Ljava/lang/reflect/UndeclaredThrowableException;-><init>(Ljava/lang/Throwable;)V
+
+    throw v0
+.end method
+
+.method public static run(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+    .registers 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableRunnable<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    :try_start_0
+    invoke-interface {p0}, Lorg/apache/commons/lang3/Functions$FailableRunnable;->run()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    return-void
+
+    :catchall_0
+    move-exception p0
+
+    invoke-static {p0}, Lorg/apache/commons/lang3/Functions;->rethrow(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+
+    move-result-object p0
+
+    throw p0
+.end method
+
+.method public static stream(Ljava/util/Collection;)Lorg/apache/commons/lang3/Streams$FailableStream;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "TO;>;)",
+            "Lorg/apache/commons/lang3/Streams$FailableStream<",
+            "TO;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lorg/apache/commons/lang3/Streams$FailableStream;
+
+    invoke-static {p0}, Lcom/huawei/appmarket/t12;->o(Ljava/util/Collection;)Ljava/util/stream/Stream;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lorg/apache/commons/lang3/Streams$FailableStream;-><init>(Ljava/util/stream/Stream;)V
+
+    return-object v0
+.end method
+
+.method public static stream(Ljava/util/stream/Stream;)Lorg/apache/commons/lang3/Streams$FailableStream;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/stream/Stream<",
+            "TO;>;)",
+            "Lorg/apache/commons/lang3/Streams$FailableStream<",
+            "TO;>;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance v0, Lorg/apache/commons/lang3/Streams$FailableStream;
+
+    invoke-direct {v0, p0}, Lorg/apache/commons/lang3/Streams$FailableStream;-><init>(Ljava/util/stream/Stream;)V
+
+    return-object v0
+.end method
+
+.method public static test(Lorg/apache/commons/lang3/Functions$FailableBiPredicate;Ljava/lang/Object;Ljava/lang/Object;)Z
+    .registers 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O1:",
+            "Ljava/lang/Object;",
+            "O2:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailableBiPredicate<",
+            "TO1;TO2;TT;>;TO1;TO2;)Z"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/huawei/appmarket/jm5;
+
+    const/16 v1, 0x1a
+
+    invoke-direct {v0, v1, p0, p1, p2}, Lcom/huawei/appmarket/jm5;-><init>(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->getAsBoolean(Lorg/apache/commons/lang3/function/FailableBooleanSupplier;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static test(Lorg/apache/commons/lang3/Functions$FailablePredicate;Ljava/lang/Object;)Z
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<O:",
+            "Ljava/lang/Object;",
+            "T:",
+            "Ljava/lang/Throwable;",
+            ">(",
+            "Lorg/apache/commons/lang3/Functions$FailablePredicate<",
+            "TO;TT;>;TO;)Z"
+        }
+    .end annotation
+
+    .line 2
+    new-instance v0, Lcom/huawei/appmarket/mh4;
+
+    const/16 v1, 0x15
+
+    invoke-direct {v0, p0, v1, p1}, Lcom/huawei/appmarket/mh4;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
+    invoke-static {v0}, Lorg/apache/commons/lang3/Functions;->getAsBoolean(Lorg/apache/commons/lang3/function/FailableBooleanSupplier;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static varargs tryWithResources(Lorg/apache/commons/lang3/Functions$FailableRunnable;Lorg/apache/commons/lang3/Functions$FailableConsumer;[Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/apache/commons/lang3/Functions$FailableRunnable<",
+            "+",
+            "Ljava/lang/Throwable;",
+            ">;",
+            "Lorg/apache/commons/lang3/Functions$FailableConsumer<",
+            "Ljava/lang/Throwable;",
+            "+",
+            "Ljava/lang/Throwable;",
+            ">;[",
+            "Lorg/apache/commons/lang3/Functions$FailableRunnable<",
+            "+",
+            "Ljava/lang/Throwable;",
+            ">;)V"
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/SafeVarargs;
+    .end annotation
+
+    .line 1
+    array-length v0, p2
+
+    new-array v0, v0, [Lorg/apache/commons/lang3/function/FailableRunnable;
+
+    new-instance v1, Lcom/huawei/appmarket/ox;
+
+    const/16 v2, 0x9
+
+    invoke-direct {v1, p2, v2}, Lcom/huawei/appmarket/ox;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/xy;->x([Ljava/lang/Object;Lcom/huawei/appmarket/ox;)V
+
+    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    new-instance p2, Lcom/huawei/appmarket/wt2;
+
+    invoke-direct {p2, p0}, Lcom/huawei/appmarket/wt2;-><init>(Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    if-eqz p1, :cond_0
+
+    new-instance p0, Lcom/huawei/appmarket/xt2;
+
+    invoke-direct {p0, p1}, Lcom/huawei/appmarket/xt2;-><init>(Lorg/apache/commons/lang3/Functions$FailableConsumer;)V
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    invoke-static {p2, p0, v0}, Lorg/apache/commons/lang3/function/Failable;->tryWithResources(Lorg/apache/commons/lang3/function/FailableRunnable;Lorg/apache/commons/lang3/function/FailableConsumer;[Lorg/apache/commons/lang3/function/FailableRunnable;)V
+
+    return-void
+.end method
+
+.method public static varargs tryWithResources(Lorg/apache/commons/lang3/Functions$FailableRunnable;[Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/apache/commons/lang3/Functions$FailableRunnable<",
+            "+",
+            "Ljava/lang/Throwable;",
+            ">;[",
+            "Lorg/apache/commons/lang3/Functions$FailableRunnable<",
+            "+",
+            "Ljava/lang/Throwable;",
+            ">;)V"
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/SafeVarargs;
+    .end annotation
+
+    .line 2
+    const/4 v0, 0x0
+
+    invoke-static {p0, v0, p1}, Lorg/apache/commons/lang3/Functions;->tryWithResources(Lorg/apache/commons/lang3/Functions$FailableRunnable;Lorg/apache/commons/lang3/Functions$FailableConsumer;[Lorg/apache/commons/lang3/Functions$FailableRunnable;)V
+
+    return-void
+.end method

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/card_half_brand_bottom_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16.0dip"
+    android:layout_marginBottom="16.0dip"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/app_icon"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_marginStart="12.0dip"
+        app:corner_type="appicon"
+        app:round_type="all" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_headline8"
+            android:ellipsize="end"
+            android:id="@id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/app_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </LinearLayout>
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/dl_button"
+        android:layout_width="118.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginStart="16.0dip" />
+</LinearLayout>

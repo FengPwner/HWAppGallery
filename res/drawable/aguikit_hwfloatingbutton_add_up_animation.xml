@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    android:drawable="@drawable/aguikit_hwfloatingbutton_add_item"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <target
+        android:name="background"
+        android:animation="@animator/aguikit_hwfloatingbutton_background_up_animation" />
+    <target
+        android:name="add"
+        android:animation="@animator/aguikit_hwfloatingbutton_foreground_up_animation" />
+</animated-vector>

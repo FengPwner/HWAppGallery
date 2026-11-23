@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailcard.widget.MaskLayerLinearLayout
+    android:orientation="vertical"
+    android:id="@id/load_more_mask_layer"
+    android:background="@android:color/transparent"
+    android:visibility="visible"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="@dimen/ui_16_dp"
+    android:layout_marginEnd="@dimen/ui_16_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="24.0dip" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/find_more_layout"
+        android:paddingBottom="@dimen/banner_bg_margin_32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_l"
+        android:paddingEnd="@dimen/padding_l">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/ivToTop"
+            android:layout_width="@dimen/ui_16_dp"
+            android:layout_height="@dimen/ui_16_dp"
+            android:src="@drawable/ic_arrow_up"
+            android:importantForAccessibility="no" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_color_secondary"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/find_more_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/component_detail_find_more_apk"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s" />
+    </LinearLayout>
+</com.huawei.appgallery.detail.detailcard.widget.MaskLayerLinearLayout>

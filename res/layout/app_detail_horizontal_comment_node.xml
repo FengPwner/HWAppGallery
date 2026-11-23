@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/hori_parent"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/appList_ItemTitle_layout"
+        layout="@layout/detail_layout_subheader_title_more" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/detail_comment"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_m">
+        <RatingBar
+            android:id="@id/comment_publish_stars_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="0.0"
+            android:stepSize="1.0"
+            style="@style/style_list_ratingbar" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_caption"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/comment_stars_desc_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </LinearLayout>
+    <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+        android:id="@id/AppListItem"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:paddingStart="@dimen/margin_m"
+        android:paddingEnd="@dimen/margin_m"
+        app:bounceEnable="true" />
+</LinearLayout>

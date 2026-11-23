@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:id="@id/immersiveheadaudiocard_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_centerHorizontal="true">
+        <com.huawei.appmarket.framework.widget.RenderImageView
+            android:id="@id/immersiveheadaudiocard_big_imageview"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/immersiveheadaudiocard_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:minHeight="64.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <TextView
+                android:textColor="@color/emui_white"
+                android:ellipsize="end"
+                android:id="@id/immersiveheadaudiocard_title"
+                android:tag="css/.title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+            <TextView
+                android:textColor="@color/emui_white"
+                android:ellipsize="end"
+                android:id="@id/immersiveheadaudiocard_subtitle"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="2"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

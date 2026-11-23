@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+        android:gravity="center"
+        android:layout_gravity="end|center"
+        android:id="@id/reserve_web_menu_share"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:visibility="gone"
+        android:layout_width="@dimen/hwappbarpattern_icon_size"
+        android:layout_height="@dimen/hwappbarpattern_icon_size"
+        android:contentDescription="@string/share_app_title">
+        <com.huawei.appmarket.service.appdetail.view.widget.DetailShareButton
+            android:id="@id/btn_reserve_web_share"
+            android:background="@drawable/aguikit_ic_public_share"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:scaleType="center"
+            style="@style/detail_widget_tag" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+</LinearLayout>

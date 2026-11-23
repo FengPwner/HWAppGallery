@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.upgraderecommendation.ui.v3.RoundedTopFrameLayout
+    android:id="@id/ll_title_layout"
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/iv_banner"
+        android:tag="@string/bannerImage"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:paddingTop="@dimen/upgrade_recommendation_ui_64_dp"
+        android:paddingBottom="@dimen/cs_16_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150.0dip"
+        android:paddingStart="@dimen/cs_16_dp"
+        android:paddingEnd="@dimen/cs_16_dp">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/tv_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.Title" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:ellipsize="end"
+            android:id="@id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:maxLines="2"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+    </LinearLayout>
+</com.huawei.appgallery.upgraderecommendation.ui.v3.RoundedTopFrameLayout>

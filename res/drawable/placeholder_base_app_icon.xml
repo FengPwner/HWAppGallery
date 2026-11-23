@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:tint="@color/appgallery_card_color_default_background"
+    android:height="216.0dip"
+    android:width="216.0dip"
+    android:viewportWidth="216.0"
+    android:viewportHeight="216.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M58.969,-0L157.031,0C177.536,-0 184.971,2.135 192.467,6.144C199.964,10.153 205.847,16.036 209.856,23.533C213.865,31.029 216,38.464 216,58.969L216,157.031C216,177.536 213.865,184.971 209.856,192.467C205.847,199.964 199.964,205.847 192.467,209.856C184.971,213.865 177.536,216 157.031,216L58.969,216C38.464,216 31.029,213.865 23.533,209.856C16.036,205.847 10.153,199.964 6.144,192.467C2.135,184.971 0,177.536 -0,157.031L0,58.969C-0,38.464 2.135,31.029 6.144,23.533C10.153,16.036 16.036,10.153 23.533,6.144C31.029,2.135 38.464,0 58.969,-0Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+</vector>

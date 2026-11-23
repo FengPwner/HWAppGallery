@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/scale_view_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/hiappbase_title_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.appmarket.service.videostream.view.BounceVerticalRecyclerView
+        android:id="@id/applistview"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:bounceEnable="false" />
+    <ImageView
+        android:id="@id/close_imageview"
+        android:visibility="gone"
+        android:layout_width="@dimen/search_icon_landscape_width"
+        android:layout_height="@dimen/search_icon_landscape_width"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginBottom="@dimen/margin_l"
+        android:layout_marginStart="@dimen/margin_l" />
+    <ViewStub
+        android:id="@id/nodata_viewstub"
+        android:layout="@layout/hiappbase_nodata_warn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hiappbase_title_layout_id" />
+    <FrameLayout
+        android:id="@id/hiappbase_loading_layout_id"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</RelativeLayout>

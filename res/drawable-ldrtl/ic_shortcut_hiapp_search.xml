@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="36.0dip"
+    android:width="36.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="36.0"
+    android:viewportHeight="36.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/hiapp_shortcut_icon_bg"
+        android:pathData="M18,18m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+    <path
+        android:fillColor="@color/hiapp_shortcut_icon"
+        android:pathData="M11.5777,22.5202L8.2197,25.8776C7.9268,26.1705 7.9268,26.6454 8.2197,26.9383C8.5126,27.2312 8.9874,27.2312 9.2803,26.9383L12.648,23.5705C12.2639,23.2494 11.9059,22.898 11.5777,22.5202ZM18.6579,8C14.0325,8 10.2829,11.7496 10.2829,16.375C10.2829,18.334 10.9556,20.1359 12.0824,21.5624L12.286,21.8102C12.3789,21.919 12.4745,22.0254 12.5727,22.1292L12.8135,22.3736L12.8135,22.3736L13.0287,22.5761L13.0287,22.5761L13.2155,22.7408L13.2155,22.7408L13.3588,22.8606L13.3588,22.8606C14.8024,24.0416 16.6474,24.75 18.6579,24.75C23.2833,24.75 27.0329,21.0004 27.0329,16.375C27.0329,11.7496 23.2833,8 18.6579,8ZM18.6579,9.5C22.4549,9.5 25.5329,12.578 25.5329,16.375C25.5329,20.172 22.4549,23.25 18.6579,23.25C14.861,23.25 11.7829,20.172 11.7829,16.375C11.7829,12.578 14.861,9.5 18.6579,9.5Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="nonZero" />
+</vector>

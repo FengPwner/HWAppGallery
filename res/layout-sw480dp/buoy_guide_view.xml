@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/guide_layout"
+    android:background="@color/bigbuoy_backgroud"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:SquareRelativeLayout="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.assistantdock.base.widget.SquareRelativeLayout
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        SquareRelativeLayout:square_standard="h_half">
+        <ImageView
+            android:id="@id/guide_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter" />
+    </com.huawei.appgallery.assistantdock.base.widget.SquareRelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/ui_24_dp"
+        android:paddingStart="@dimen/padding_xl"
+        android:paddingEnd="@dimen/padding_xl">
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textColor="#ffffffff"
+            android:id="@id/know_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:layout_marginBottom="@dimen/margin_l"
+            android:text="@string/buoy_guidewindow_gamecontrol_key_button"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.Emui.HwButton.Dark" />
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/know_button">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="@dimen/emui_master_title_1"
+                    android:textColor="#ffffffff"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/guide_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buoy_gamemode_title"
+                    android:fontFamily="HwChinese-medium" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body2"
+                    android:textColor="#7fffffff"
+                    android:id="@id/guide_content_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_m" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body2"
+                    android:textColor="#7fffffff"
+                    android:id="@id/guide_content_second"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_m" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

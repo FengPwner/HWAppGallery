@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/agoverseas_substance_head_roundcornerlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:round_corner="@dimen/appgallery_default_corner_radius_l"
+        app:stroke_width="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/agoverseas_substance_head_constraint_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.appgallery.agoverseascard.agoverseascard.widget.SubstanceHeadLandImageView
+                android:id="@id/agoverseas_substance_head_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:importantForAccessibility="no"
+                app:layout_constraintBottom_toTopOf="@id/agoverseas_substance_head_title_layout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@id/appInfo_container"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_l"
+                android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <ImageView
+                    android:id="@id/appInfo_icon"
+                    android:layout_width="56.0dip"
+                    android:layout_height="56.0dip"
+                    android:src="@drawable/transparent"
+                    android:scaleType="fitCenter" />
+                <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:ellipsize="end"
+                    android:id="@id/appInfo_name"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+                    android:maxWidth="75.0dip"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+                <com.huawei.appgallery.pageframe.view.DownloadButtonV2
+                    android:id="@id/appInfo_dl_btn"
+                    android:layout_width="56.0dip"
+                    android:layout_height="28.0dip"
+                    android:layout_marginTop="8.0dip"
+                    app:isResDispEnlarge="true"
+                    style="@style/AppGallery.Widget.DownloadButton.Normal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/agoverseas_substance_head_title_layout"
+                android:background="@drawable/agoverseascard_substance_head_round_image_border"
+                android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:paddingBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="no"
+                android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/agoverseas_substance_head_image">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textColor="@color/appgallery_text_color_tertiary"
+                    android:ellipsize="end"
+                    android:id="@id/agoverseas_substance_head_card_sub_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    app:layout_constraintBottom_toTopOf="@id/agoverseas_substance_head_card_title"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:ellipsize="end"
+                    android:id="@id/agoverseas_substance_head_card_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/agoverseas_substance_head_card_sub_title"
+                    style="@style/AppGallery.TextAppearance.MainTitle.InCard" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</LinearLayout>

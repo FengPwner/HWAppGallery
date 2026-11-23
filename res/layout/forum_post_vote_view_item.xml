@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="62.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_centerVertical="true">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip">
+            <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+                android:id="@id/vote_single_checkbox"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="24.0dip"
+                android:checked="false"
+                style="@style/Widget.Emui.HwRadioButton" />
+            <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+                android:id="@id/vote_muti_checkbox"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="24.0dip"
+                android:checked="false"
+                style="@style/Widget.Emui.HwCheckBox" />
+        </RelativeLayout>
+        <TextView
+            android:textSize="@dimen/emui_text_size_body2"
+            android:textColor="@color/appgallery_text_color_primary_activated"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/post_option_item"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="8.0dip" />
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_public_arrow_right_activated"
+            android:layout_width="12.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+    <View
+        android:background="@color/emui_color_list_divider"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="12.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

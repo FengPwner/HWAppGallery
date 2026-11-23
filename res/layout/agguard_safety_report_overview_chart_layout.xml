@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/overview_ratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/overview_chart_view"
+        app:layout_constraintEnd_toEndOf="@id/overview_chart_view"
+        app:layout_constraintStart_toStartOf="@id/overview_chart_view"
+        app:layout_constraintTop_toTopOf="@id/overview_chart_view">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="24.0dip"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/overview_unpass_app_num_ratio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:layout_marginEnd="4.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="14.0dip"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/overview_all_app_num_ratio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </LinearLayout>
+    <com.huawei.uikit.phone.hwchart.widget.HwChart
+        android:id="@id/overview_chart_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:hwChartAnimationEnable="false"
+        app:hwSizeMode="middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@id/overview_safe_tick"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/agguard_safety_report_safe_tick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

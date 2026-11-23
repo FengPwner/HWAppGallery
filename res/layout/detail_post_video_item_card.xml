@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/detail_video_post_item_card_banner_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m">
+        <ImageView
+            android:id="@id/detail_video_post_item_card_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:id="@id/center_start"
+            android:visibility="visible"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/component_detail_ic_detail_play"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true" />
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/detail_post_item_card_banner_background"
+            android:paddingTop="@dimen/padding_s"
+            android:paddingBottom="@dimen/padding_s"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingStart="@dimen/padding_m"
+            android:paddingEnd="@dimen/padding_m">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption_fixed"
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/detail_post_item_card_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:layout_alignParentStart="true" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/detail_post_item_card_play_times_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true">
+                <ImageView
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/ui_10_dp"
+                    android:layout_height="@dimen/ui_10_dp"
+                    android:src="@drawable/detail_ic_detail_video_view"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_xs" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_caption_fixed"
+                    android:textColor="@color/white"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_post_item_card_play_times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:fontFamily="@string/appgallery_text_font_family_regular" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:id="@id/detail_post_item_card_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_12_dp"
+        android:maxLines="2"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart"
+        android:paddingEnd="@dimen/padding_m" />
+</LinearLayout>

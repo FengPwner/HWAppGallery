@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/coordinator"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/head_view_layout"
+        layout="@layout/detail_top_head_layout" />
+    <com.huawei.appgallery.detail.detailbase.widget.DetailActionBarV2
+        android:layout_gravity="top"
+        android:id="@id/agdetail_actionbar"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        android:id="@id/nested_scroll_view"
+        layout="@layout/detail_nest_scroll_body" />
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/detail_bottom_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.huawei.appgallery.detail.detailbase.animator.behavior.BottomButtonBehavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_bottom_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_toolbar_height" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_bottom_extendlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

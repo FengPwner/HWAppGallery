@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:id="@id/immersive_big_imageview"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all"
+        app:touch_drawable="@drawable/wisedist_substancelistcard_stoke_corner_radius_l" />
+    <ImageView
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:src="@drawable/ic_listen_nor"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:id="@id/immersive_bg_view"
+        android:layout_width="0.0dip"
+        android:layout_height="80.0dip"
+        android:layout_marginBottom="@dimen/appgallery_card_stroke_width"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/app_zone_layout"
+        android:paddingBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <TextView
+            android:textColor="@color/emui_white"
+            android:ellipsize="end"
+            android:id="@id/immersive_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Fixed" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/fixed_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/promotion_sign"
+                android:background="@drawable/promotion_sign_bg_bannerv9"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                style="@style/promotion_sign_style_banner" />
+            <TextView
+                android:textColor="@color/emui_white"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/immersive_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

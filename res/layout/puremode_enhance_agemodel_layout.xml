@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/puremode_enhance_content_agemode"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/app_permission_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_12_dp"
+        app:hwColumnType="content_type">
+        <com.huawei.appgallery.systeminstalldistservice.riskcheck.ui.view.AgeAdaptLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/ui_12_dp"
+            android:paddingEnd="@dimen/ui_12_dp">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/enhance_second_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1"
+                android:minHeight="@dimen/appgallery_list_height_two_text_lines">
+                <TextView
+                    android:id="@id/puremode_subheader_title_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/install_dist_enhance_card_title_v2"
+                    style="@style/AppGallery.Widget.SubHeader.Title" />
+                <TextView
+                    android:textSize="@dimen/emui_text_size_body2"
+                    android:textColor="?android:textColorSecondary"
+                    android:id="@id/puremode_enhance_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.0dip"
+                    android:fontFamily="@string/emui_text_font_family_regular" />
+            </LinearLayout>
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="@dimen/res_textsize_12sp"
+                android:id="@id/enhance_turn_on_agemodel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/enhance_turn_on_agemode_min_width"
+                android:text="@string/install_dist_enhance_switch_turn_on"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+                app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+                style="@style/Widget.Emui.HwButton.Small" />
+        </com.huawei.appgallery.systeminstalldistservice.riskcheck.ui.view.AgeAdaptLinearLayout>
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+</FrameLayout>

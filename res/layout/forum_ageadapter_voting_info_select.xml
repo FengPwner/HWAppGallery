@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="0.0dip"
+        android:paddingEnd="0.0dip"
+        style="@style/AppGallery.Widget.SubHeader.ViewGroup">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/hiappbase_subheader_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/emui_color_text_tertiary"
+            android:ellipsize="end"
+            android:id="@id/hiappbase_subheader_action_right"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:fontFamily="@string/emui_text_font_family_regular"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/margin_m" />
+    </LinearLayout>
+    <com.huawei.appgallery.forum.option.vote.view.MultiLineRadioGroup
+        android:id="@id/multi_single_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

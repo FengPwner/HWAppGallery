@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="@dimen/detail_component_card_icon_size_large"
+        android:layout_height="@dimen/detail_component_card_icon_size_large"
+        app:round_corner="@dimen/appgallery_default_corner_radius_s">
+        <com.huawei.appgallery.detail.detailbase.card.detailorderprisecard.view.DetailOrderPriseImageView
+            android:layout_gravity="center"
+            android:id="@id/appicon"
+            android:layout_width="@dimen/detail_component_card_icon_size_large"
+            android:layout_height="@dimen/detail_component_card_icon_size_large"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <TextView
+        android:textSize="@dimen/emui_text_size_body3"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/ItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_for_layout"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+</LinearLayout>

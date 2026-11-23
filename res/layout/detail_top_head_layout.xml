@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailbase.animator.NestedFrameLayout
+    android:id="@id/head_view_layout"
+    android:tag="head_view_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/detail_top_head_small_image_view_stub"
+        android:background="@color/emui_control_normal"
+        android:layout="@layout/detail_top_head_small_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/detail_top_security_protection_image_view_stub"
+        android:background="@color/emui_control_normal"
+        android:layout="@layout/detail_top_head_small_image_safe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/detail_top_head_small_play_view_stub"
+        android:layout="@layout/detail_top_head_small_image_play_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/detail_top_head_big_image_view_stub"
+        android:layout="@layout/detail_top_head_big_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/detail_top_head_video_player_view_stub"
+        android:layout="@layout/detail_top_video_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/detail_headview_linearlayout_head"
+        android:paddingBottom="@dimen/component_detail_margin_bottom"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</com.huawei.appgallery.detail.detailbase.animator.NestedFrameLayout>

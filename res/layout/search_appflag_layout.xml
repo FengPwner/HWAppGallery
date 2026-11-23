@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:id="@id/app_flag_rect"
+    android:visibility="gone"
+    android:layout_width="28.0sp"
+    android:layout_height="16.0sp"
+    android:scaleType="fitCenter"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

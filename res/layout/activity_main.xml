@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/main_rootview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/hiapp_start_title_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/appcommon_activity_start_title" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hiapp_start_title_linearlayout">
+        <ViewStub
+            android:id="@id/error_layout_stub"
+            android:layout="@layout/startup_error_page"
+            android:inflatedId="@id/error_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/loading_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/loading_large"
+                android:layout_height="@dimen/loading_large"
+                style="@style/Widget.Emui.HwProgressBar.Large" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:layout_gravity="center_horizontal"
+                android:tag="css/.subtitle"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_loading_prompt"
+                android:importantForAccessibility="no"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

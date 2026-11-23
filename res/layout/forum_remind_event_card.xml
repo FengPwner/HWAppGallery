@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/event_card_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+            android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Primary" />
+        <com.huawei.appgallery.forum.message.widget.CommentReferenceView
+            android:id="@id/event_card_comment_reference_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l" />
+        <View
+            android:id="@id/devider_line_bottom"
+            android:layout_width="fill_parent"
+            style="@style/AppGallery.Widget.Divider" />
+    </LinearLayout>
+    <include
+        android:id="@id/bottom_forum_remind_new_card"
+        layout="@layout/forum_remind_new_card" />
+</LinearLayout>

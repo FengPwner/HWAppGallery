@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/uninstall_button_select_white"
+        android:id="@id/btn_uninstallall"
+        android:title="@string/appinstall_btn_uninstallall"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/uninstall_button_select_white"
+        android:id="@id/btn_uninstall"
+        android:title="@string/appinstall_btn_uninstall"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/selectall_button_select_white"
+        android:id="@id/btn_selectall"
+        android:title="@string/appinstall_btn_selectall"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/unselectall_button_select_white"
+        android:id="@id/btn_unselectall"
+        android:title="@string/appinstall_btn_unselectall"
+        android:showAsAction="ifRoom" />
+</menu>

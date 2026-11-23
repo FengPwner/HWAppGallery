@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/forum_section_detail_subhead_tabs_options_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.section.view.widget.ForumHwSubTab
+        android:id="@id/forum_subtab"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:hwSubTabItemMargin="0.0dip"
+        app:hwSubTabItemMinWidth="0.0dip"
+        app:hwSubTabItemPadding="8.0dip"
+        style="@style/Widget.Emui.HwSubTabBar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_posts_sorting"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <com.huawei.appgallery.forum.section.view.widget.SectionDetailSpinner
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:id="@id/forum_section_detail_subhead_options"
+            android:layout_width="230.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginStart="-12.0dip"
+            app:hwDynamicWidthEnabled="true"
+            app:hwListShadowEnabled="true"
+            style="@style/Widget.Emui.HwSpinner" />
+    </LinearLayout>
+</LinearLayout>

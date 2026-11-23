@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/no_network_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/setting"
+            android:paddingStart="@dimen/padding_xl"
+            android:paddingEnd="@dimen/padding_xl">
+            <RelativeLayout
+                android:id="@id/no_wifi_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@id/no_wifi"
+                    android:tag="css/.widget"
+                    android:background="@drawable/buoy_ic_no_wifi_disable"
+                    android:layout_width="@dimen/ui_66_dp"
+                    android:layout_height="@dimen/ui_66_dp"
+                    android:layout_centerHorizontal="true" />
+                <TextView
+                    android:textSize="@dimen/emui_master_body_2"
+                    android:textColor="@color/buoy_emui_primary"
+                    android:id="@id/tipInfo"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/no_wifi"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.6" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textSize="@dimen/res_textsize_15sp"
+            android:id="@id/setting"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginBottom="@dimen/margin_l"
+            android:text="@string/setting_network_prompt_title"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_marginEnd="@dimen/margin_l"
+            style="@style/Buoy.Widget.Emui.HwButton" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/loadingBar_layout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_xl"
+            android:layout_marginEnd="@dimen/padding_xl">
+            <ProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingBar"
+                android:layout_width="@dimen/ui_66_dp"
+                android:layout_height="wrap_content"
+                style="?android:progressBarStyleLarge" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/buoy_emui_primary"
+                android:layout_gravity="center_horizontal"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:text="@string/str_loading_prompt"
+                android:alpha="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

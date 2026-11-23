@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/install_depend_LinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/emui_black"
+                android:id="@id/install_depend_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14.0dip"
+                android:layout_marginStart="@dimen/margin_l"
+                android:layout_marginEnd="@dimen/margin_l" />
+            <TextView
+                android:textSize="@dimen/emui_master_subtitle"
+                android:textColor="@color/emui_black"
+                android:id="@id/install_depend_notice2"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_l"
+                android:layout_marginEnd="@dimen/margin_l" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="14.0dip" />
+        </LinearLayout>
+        <ImageView
+            android:id="@id/install_depend_divider"
+            android:background="@color/emui_black"
+            android:layout_width="fill_parent"
+            android:layout_height="8.0dip"
+            android:alpha="0.03" />
+        <FrameLayout
+            android:id="@id/applistview_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.huawei.appgallery.foundation.ui.framework.widget.PullUpListView
+                android:id="@id/applistview"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawSelectorOnTop="true"
+                android:divider="@null"
+                android:dividerHeight="0.0dip"
+                app:hwCutoutMode="never" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+        android:id="@id/AppListItem"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_safety_margin_s"
+        android:paddingStart="@dimen/margin_m"
+        android:paddingEnd="@dimen/margin_m"
+        app:bounceEnable="true" />
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/slip_bar_parent_layout"
+        android:background="@drawable/wisedist_slip_bar_parent_bg"
+        android:visibility="gone"
+        android:layout_width="@dimen/wisedist_slip_bar_parent_width"
+        android:layout_height="@dimen/wisedist_slip_bar_height"
+        android:layout_marginTop="-4.0dip">
+        <View
+            android:id="@id/slip_bar"
+            android:background="@drawable/wisedist_slip_bar_bg"
+            android:layout_width="@dimen/wisedist_slip_bar_width"
+            android:layout_height="@dimen/wisedist_slip_bar_height" />
+    </RelativeLayout>
+</LinearLayout>

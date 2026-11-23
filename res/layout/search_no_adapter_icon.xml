@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.NoAdaptRenderImageView
+    android:id="@id/no_adapter_icon"
+    android:layout_width="16.0dip"
+    android:layout_height="16.0dip"
+    android:scaleType="centerCrop"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

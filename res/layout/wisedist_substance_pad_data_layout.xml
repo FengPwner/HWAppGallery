@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.service.substance.TopRadiusFrameLayout
+    android:id="@id/substance_layout"
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appmarket.service.substance.SubstanceListView
+            android:id="@id/applistview"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="true"
+            android:divider="@null"
+            android:dividerHeight="0.0dip" />
+        <ImageView
+            android:id="@id/wisedist_iv_substance_close"
+            android:padding="5.0dip"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:src="@drawable/wisedist_close_icon"
+            android:importantForAccessibility="yes"
+            android:layout_marginEnd="10.0dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.huawei.appmarket.service.substance.TopRadiusFrameLayout>

@@ -1,0 +1,132 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "联运服务",
+      "maxRows": 1,
+      "layoutName": "SettingJointServiceCard"
+    },
+    {
+      "layoutId": 3,
+      "name": "内容推荐服务",
+      "maxRows": 1,
+      "layoutName": "SettingContentRecommendCard"
+    },
+    {
+      "layoutId": 77,
+      "name": "个性化广告",
+      "maxRows": 1,
+      "layoutName": "settingpersonalizedadvertisementcard"
+    },
+    {
+      "layoutId": 4,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividercard"
+    },
+    {
+      "layoutId": 5,
+      "name": "内容访问限制",
+      "maxRows": 1,
+      "layoutName": "settingcontentrestrictcard"
+    },
+    {
+      "layoutId": 6,
+      "name":"扩展服务设置",
+      "maxRows": 1,
+      "layoutName": "settingextendedservicecard"
+    },
+    {
+      "layoutId": 7,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividercard"
+    },
+    {
+      "layoutId": 9,
+      "name": "领奖信息",
+      "maxRows": 1,
+      "layoutName": "settingreceiveprizecard"
+    },
+    {
+      "layoutId": 8,
+      "name": "取消中国区用户协议",
+      "maxRows": 1,
+      "layoutName": "settingchinacancelprotocol2card"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "联运服务",
+      "layoutName": "SettingJointServiceCard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "内容推荐服务",
+      "layoutName": "SettingContentRecommendCard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 77,
+      "name": "个性化推荐服务",
+      "layoutName": "SettingPersonalizedAdvertisementCard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 4,
+      "name": "分割线",
+      "layoutName": "settingdividercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 5,
+      "name": "内容访问限制",
+      "layoutName": "settingcontentrestrictcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 6,
+      "name": "扩展服务设置",
+      "layoutName": "settingextendedservicecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 7,
+      "name": "分割线",
+      "layoutName": "settingdividercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 9,
+      "name": "领奖信息",
+      "layoutName": "settingreceiveprizecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 8,
+      "name": "取消中国区用户协议",
+      "layoutName": "settingchinacancelprotocol2card",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

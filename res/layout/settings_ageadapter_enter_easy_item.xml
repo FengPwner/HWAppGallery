@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/setting_card_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/AppGallery.Widget.List.SingleTextLine"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/arrowlayout"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.Widget.List.RightArrow" />
+    <TextView
+        android:id="@id/setItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/arrowlayout"
+        style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+</RelativeLayout>

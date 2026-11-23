@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appgallery_card_space_horizon">24.0dip</dimen>
+    <item type="dimen" name="appgallery_column_system_content_margin">@dimen/emui_cs_content_margin</item>
+    <dimen name="detail_webview_bottom_permission_max_width">120.0dip</dimen>
+    <dimen name="detail_webview_bottom_permission_max_width_ageadapter">120.0dip</dimen>
+    <dimen name="detail_webview_bottom_privacy_max_width">120.0dip</dimen>
+    <dimen name="detail_webview_bottom_privacy_max_width_ageadapter">120.0dip</dimen>
+    <dimen name="detail_webview_bottom_version_max_width">100.0dip</dimen>
+    <dimen name="detail_webview_bottom_version_max_width_ageadapter">100.0dip</dimen>
+    <dimen name="forum_horizon_list_item_card_space">24.0dip</dimen>
+    <dimen name="hiapp_platform_card_space_width">24.0dip</dimen>
+    <dimen name="vertical_tabs_tab_width">120.0dip</dimen>
+</resources>

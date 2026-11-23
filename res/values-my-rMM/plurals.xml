@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">ဖိုင် %1$d ဖိုင် ရွေးထားပြီး</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">စာမျက်နှာ %1$d</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">%1$d ၏</item>
+    </plurals>
+</resources>

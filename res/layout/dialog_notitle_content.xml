@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:textColor="@color/emui_black"
+        android:gravity="center_vertical"
+        android:id="@id/notitle_msg"
+        android:paddingTop="@dimen/ui_20_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1.0"
+        android:paddingStart="5.0dip"
+        android:paddingEnd="5.0dip" />
+</LinearLayout>

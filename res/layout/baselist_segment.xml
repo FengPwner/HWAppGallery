@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.foundation.ui.framework.widget.PullUpListView
+            android:scrollbarStyle="outsideOverlay"
+            android:id="@id/applistview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="true"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            android:overScrollMode="never"
+            app:hwCutoutMode="never" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/nodata_layout"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_xl"
+            android:layout_marginEnd="@dimen/margin_xl">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/ui_66_dp"
+                android:layout_height="@dimen/ui_66_dp"
+                android:src="@drawable/assistant_dock_no_data_img" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_content"
+                style="@style/buoy_empty_view_textview_style" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/loading_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

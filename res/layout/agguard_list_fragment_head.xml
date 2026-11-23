@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/scanning_result_icon"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="@dimen/appgallery_card_icon_size_large"
+        android:layout_marginTop="@dimen/agguard_layout_prompt_top"
+        android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xl" />
+    <include
+        android:id="@id/scanning_result_score"
+        android:visibility="gone"
+        layout="@layout/agguard_rate_progress_layout" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/scanning_result_title"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        style="@style/AppGallery.TextAppearance.Card.SubTitle1" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/scanning_result_subtitle"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:textDirection="locale"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/scanning_result_recent_time_text"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+        android:textDirection="locale"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_card_elements_margin_xl" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/scanning_result_bottom_tip_text"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="@dimen/hiappbase_divider_height"
+        android:textDirection="locale"
+        android:paddingStart="@dimen/appgallery_drawable_padding_s"
+        android:paddingEnd="@dimen/appgallery_drawable_padding_s"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</LinearLayout>

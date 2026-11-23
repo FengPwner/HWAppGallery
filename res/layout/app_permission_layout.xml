@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/app_permission_layout"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/padding_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:id="@id/app_permission_tips"
+        android:paddingTop="@dimen/margin_l"
+        android:paddingBottom="@dimen/margin_m"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/installconfirmriskcard_app_permission_list_title"
+        style="@style/AppGallery.Widget.SubHeader.ListTitle" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/app_permission_content"
+        android:background="@drawable/app_permission_bg"
+        android:paddingTop="@dimen/ui_12_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80.0dip"
+        android:paddingStart="@dimen/ui_12_dp"
+        android:paddingEnd="@dimen/ui_12_dp">
+        <com.huawei.appgallery.systeminstalldistservice.riskcheck.ui.view.WrapContentViewPager
+            android:id="@id/app_permission_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56.0dip" />
+        <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+            android:id="@id/app_permission_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="32.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.forum.section.view.widget.SectionNestScrollLayout
+        android:id="@id/section_detail_fragment_layout_scrollview"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/section_detail_head_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.huawei.appgallery.forum.section.view.widget.BuoySectionDetailSubHead
+            android:gravity="bottom"
+            android:id="@id/section_detail_subhead_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48.0dip"
+            android:layout_below="@id/section_detail_head_layout" />
+        <FrameLayout
+            android:id="@id/main_view_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.huawei.appgallery.forum.section.buoy.widget.SegmentTabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip" />
+    </com.huawei.appgallery.forum.section.view.widget.SectionNestScrollLayout>
+    <com.huawei.appgallery.aguikit.widget.AppGalleryHwFloatingButton
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/section_detail_publish_post_btn"
+        android:visibility="gone"
+        android:layout_width="@dimen/forum_appgalleyhwfloatingbutton_width_height"
+        android:layout_height="@dimen/forum_appgalleyhwfloatingbutton_width_height"
+        android:layout_margin="@dimen/appgallery_card_elements_margin_l"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/forum_section_publish_post"
+        style="@style/AppGallery.HwFloatingButton.dark" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/loading_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/section_closed_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/section_closed_icon"
+            android:layout_centerHorizontal="true"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:textColor="@color/buoy_emui_primary"
+            android:id="@id/section_closed_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_below="@id/section_closed_icon"
+            android:layout_centerHorizontal="true"
+            style="@style/AppGallery.TextAppearance.NoData" />
+    </RelativeLayout>
+</FrameLayout>

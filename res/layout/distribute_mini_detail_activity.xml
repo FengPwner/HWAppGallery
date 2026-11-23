@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.phone.hwadvancedcardview.widget.HwAdvancedCardView
+        android:id="@id/main_corner_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:elevation="0.0dip"
+        app:cardCornerRadius="16.0dip"
+        app:cardElevation="0.0dip">
+        <RelativeLayout
+            android:id="@id/mini_detail_layout"
+            android:tag="css/.body"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.huawei.uikit.phone.hwadvancedcardview.widget.HwAdvancedCardView>
+    <ImageView
+        android:id="@id/component_detail_iv_mini_close"
+        android:background="@drawable/detail_mini_close_bg_selector"
+        android:padding="@dimen/detail_mini_close_padding"
+        android:layout_width="@dimen/detail_mini_close_width"
+        android:layout_height="@dimen/detail_mini_close_height"
+        android:layout_marginTop="@dimen/detail_mini_close_margin"
+        android:src="@drawable/component_detail_mini_close_v1"
+        android:contentDescription="@string/distribution_wisedist_close"
+        android:layout_marginEnd="@dimen/detail_mini_close_margin"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

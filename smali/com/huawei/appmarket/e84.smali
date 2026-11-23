@@ -1,0 +1,887 @@
+.class public final Lcom/huawei/appmarket/e84;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static final b:Ljava/lang/Object;
+
+.field private static volatile c:Lcom/huawei/appmarket/e84;
+
+
+# instance fields
+.field private a:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/e84;->b:Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static A()Z
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->p()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static a()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->v()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static b()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->h()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static c()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->a()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static d()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->C()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static e()Ljava/util/List;
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->c()Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private static f()Lcom/huawei/appmarket/oi3;
+    .registers 2
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/ty0;->b()Lcom/huawei/appmarket/cr6;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-string v1, "BgWorkManager"
+
+    .line 6
+    .line 7
+    check-cast v0, Lcom/huawei/appmarket/dr6;
+
+    .line 8
+    .line 9
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/dr6;->e(Ljava/lang/String;)Lcom/huawei/appmarket/ea5;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    if-eqz v0, :cond_1
+
+    .line 14
+    .line 15
+    const-class v1, Lcom/huawei/appmarket/oi3;
+
+    .line 16
+    .line 17
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/ea5;->b(Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    check-cast v0, Lcom/huawei/appmarket/oi3;
+
+    .line 22
+    .line 23
+    if-eqz v0, :cond_0
+
+    .line 24
+    .line 25
+    return-object v0
+
+    .line 26
+    :cond_0
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    .line 27
+    .line 28
+    const-string v1, "create module failed:BgWorkManager"
+
+    .line 29
+    .line 30
+    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    throw v0
+
+    .line 34
+    :cond_1
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    .line 35
+    .line 36
+    const-string v1, "please register the BgWorkManager module"
+
+    .line 37
+    .line 38
+    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    .line 39
+    .line 40
+    .line 41
+    throw v0
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+.end method
+
+.method public static g()Lcom/huawei/appmarket/e84;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/huawei/appmarket/e84;->c:Lcom/huawei/appmarket/e84;
+
+    if-nez v0, :cond_1
+
+    sget-object v0, Lcom/huawei/appmarket/e84;->b:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/e84;->c:Lcom/huawei/appmarket/e84;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/e84;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/e84;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/e84;->c:Lcom/huawei/appmarket/e84;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/huawei/appmarket/e84;->c:Lcom/huawei/appmarket/e84;
+
+    return-object v0
+.end method
+
+.method public static h()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->q()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static i()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->H()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static j()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->x()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static k()J
+    .registers 2
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->g()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public static l()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->w()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static m()J
+    .registers 2
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->A()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public static n()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->k()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static o()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->B()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static p()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->y()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static q()J
+    .registers 2
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->m()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public static r()I
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->j()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static s()Ljava/lang/String;
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->e()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static t()Ljava/lang/String;
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->F()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static v(Landroid/content/Context;Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;)Z
+    .registers 4
+
+    .line 1
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->getPackage_()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const-string v0, "DeviceInstallationInfos"
+
+    const-class v1, Lcom/huawei/appmarket/yh3;
+
+    invoke-static {v1, v0}, Lcom/huawei/appmarket/o93;->a(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/huawei/appmarket/yh3;
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/foundation/application/pkgmanage/model/update/ApkUpgradeInfo;->getPackage_()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-interface {v0, p0, p1}, Lcom/huawei/appmarket/yh3;->p(Landroid/content/Context;Ljava/lang/String;)Z
+
+    move-result p0
+
+    return p0
+
+    :cond_1
+    :goto_0
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public static w()Z
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->r()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static x()Z
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->d()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static y()Z
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->E()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static z()Z
+    .registers 1
+
+    .line 1
+    invoke-static {}, Lcom/huawei/appmarket/e84;->f()Lcom/huawei/appmarket/oi3;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/huawei/appmarket/oi3;->s()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+
+# virtual methods
+.method public final B()V
+    .registers 2
+
+    .line 1
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/huawei/appmarket/e84;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final u()Ljava/lang/String;
+    .registers 6
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appmarket/e84;->a:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_1
+
+    .line 8
+    .line 9
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    .line 10
+    .line 11
+    const/16 v1, 0x1a
+
+    .line 12
+    .line 13
+    if-lt v0, v1, :cond_0
+
+    .line 14
+    .line 15
+    invoke-static {}, Lcom/huawei/appmarket/l;->f()Landroid/content/pm/PackageInfo;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    goto :goto_0
+
+    .line 20
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 21
+    :try_start_0
+    const-string v1, "android.webkit.WebViewFactory"
+
+    .line 22
+    .line 23
+    invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v1
+
+    .line 27
+    const-string v2, "getLoadedPackageInfo"
+
+    .line 28
+    .line 29
+    const/4 v3, 0x0
+
+    .line 30
+    new-array v4, v3, [Ljava/lang/Class;
+
+    .line 31
+    .line 32
+    invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v1
+
+    .line 36
+    new-array v2, v3, [Ljava/lang/Object;
+
+    .line 37
+    .line 38
+    invoke-virtual {v1, v0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object v1
+
+    .line 42
+    check-cast v1, Landroid/content/pm/PackageInfo;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 43
+    .line 44
+    move-object v0, v1
+
+    .line 45
+    goto :goto_0
+
+    .line 46
+    :catch_0
+    sget-object v1, Lcom/huawei/appmarket/t84;->a:Lcom/huawei/appmarket/t84;
+
+    .line 47
+    .line 48
+    const-string v2, "getCurrentWebViewPackageInfo"
+
+    .line 49
+    .line 50
+    const-string v3, "getPackageInfoWithLollipop error"
+
+    .line 51
+    .line 52
+    invoke-virtual {v1, v2, v3}, Lcom/huawei/appmarket/gy4;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 53
+    .line 54
+    .line 55
+    :goto_0
+    if-eqz v0, :cond_1
+
+    .line 56
+    .line 57
+    iget-object v0, v0, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
+
+    .line 58
+    .line 59
+    iput-object v0, p0, Lcom/huawei/appmarket/e84;->a:Ljava/lang/String;
+
+    .line 60
+    .line 61
+    :cond_1
+    iget-object v0, p0, Lcom/huawei/appmarket/e84;->a:Ljava/lang/String;
+
+    .line 62
+    .line 63
+    return-object v0
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+.end method

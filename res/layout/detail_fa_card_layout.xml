@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="20.0sp"
+        android:textColor="@color/appgallery_text_primary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/hap_detail_service_description"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:lines="1"
+        android:importantForAccessibility="yes"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="56.0dip"
+        android:layout_marginEnd="56.0dip" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="16.0sp"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/hap_detail_service_name"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:lines="1"
+        android:layout_below="@id/hap_detail_service_description"
+        android:importantForAccessibility="yes"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip" />
+    <RelativeLayout
+        android:id="@id/pager_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="16.0dip"
+        android:layout_below="@id/hap_detail_service_name"
+        android:importantForAccessibility="no">
+        <com.huawei.appgallery.detail.detailcard.card.fadetailcard.pager.FaInterceptHwViewPager
+            android:id="@id/hap_detail_card_viewpager"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:importantForAccessibility="no" />
+        <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+            android:id="@id/hap_detail_default_img"
+            android:visibility="gone"
+            android:layout_width="@dimen/fa_form_card_width_small"
+            android:layout_height="@dimen/fa_form_card_height_small"
+            android:layout_marginTop="@dimen/variable_dots_page_indicator_margin_end_land"
+            android:layout_marginBottom="@dimen/variable_dots_page_indicator_margin_end_land"
+            android:layout_centerInParent="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_l" />
+        <com.huawei.appgallery.detail.detailcard.card.fadetailcard.view.VariableDotsPageIndicator
+            android:id="@id/hap_detail_vertical_dots_page_indicator"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="12.0dip"
+            android:layout_alignParentEnd="true"
+            app:selectedDotColor="@color/id_fa_color_activated"
+            app:unselectedDotColor="@color/id_fa_color_icon_fourth" />
+    </RelativeLayout>
+    <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+        android:id="@id/hap_detail_horizontal_dots_page_indicator"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="36.0dip"
+        android:layout_marginBottom="36.0dip"
+        android:layout_below="@id/pager_content"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no"
+        app:hwIsShowAsDot="true"
+        app:hwSelectedDotColor="@color/id_fa_color_activated"
+        app:hwUnselectedDotColor="@color/id_fa_color_icon_fourth" />
+    <View
+        android:id="@id/fa_gradient_view"
+        android:background="@drawable/fa_detail_gradient_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        android:layout_alignParentBottom="true"
+        android:importantForAccessibility="no" />
+</RelativeLayout>

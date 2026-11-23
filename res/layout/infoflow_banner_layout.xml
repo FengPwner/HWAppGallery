@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/infoflow_banner_layout_0"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/emui_dimens_element_vertical_large"
+        app:round_corner="@dimen/emui_corner_radius_mediums">
+        <ImageView
+            android:id="@id/banner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@id/blood"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/emui_dimens_element_vertical_middle"
+        android:layout_marginBottom="@dimen/emui_dimens_element_vertical_large">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/title"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/description"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+</LinearLayout>

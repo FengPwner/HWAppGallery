@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/titlelayout"
+        android:background="@color/appgallery_color_appbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/back_layout"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height"
+            android:contentDescription="@string/click_back"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginEnd="4.0dip">
+            <ImageView
+                android:id="@id/back_view"
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/aguikit_ic_public_back" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:gravity="bottom|center"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="4.0" />
+        <ImageView
+            android:id="@id/no_result_icon"
+            android:src="@drawable/no_search_result"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="6.0"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:gravity="center"
+                android:id="@id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                android:text="@string/wisedist_jump_other_source_tip"
+                android:layout_marginStart="@dimen/appgallery_max_padding_end"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                style="@style/AppGallery.TextAppearance.NoData" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ui_16_dp"
+        android:minHeight="40.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <com.huawei.appmarket.service.appdetail.view.widget.NoContentBottomButton
+            android:textSize="16.0sp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/jump_other_source_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="40.0dip"
+            android:text="@string/wisedist_jump_other_source_button"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/Widget.Emui.HwButton.Emphasize.Light" />
+    </LinearLayout>
+</RelativeLayout>

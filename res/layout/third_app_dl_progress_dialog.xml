@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/action"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_l"
+    android:layout_marginEnd="@dimen/margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginBottom="10.0dip">
+        <TextView
+            android:id="@id/third_app_dl_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26.0dip"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody2.Secondary" />
+        <TextView
+            android:id="@id/third_app_warn_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third_app_dl_installing"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:layout_toStartOf="@id/third_app_dl_progress_text"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody2.Primary" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_l">
+        <ImageView
+            android:id="@id/cancel_imageview"
+            android:background="@drawable/third_download_bg"
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:id="@id/third_app_dl_progressbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:layout_toStartOf="@id/cancel_imageview"
+            style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/title_name_black"
+        android:gravity="start"
+        android:id="@id/third_app_dl_size_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="20.0dip" />
+</LinearLayout>

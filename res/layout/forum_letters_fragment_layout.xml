@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/hiappbase_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/hiappbase_data_layout_id"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <RelativeLayout
+            android:id="@id/rv_container"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ListView
+                android:id="@id/section_list"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null" />
+            <com.huawei.uikit.hwalphaindexerlistview.widget.HwAlphaIndexerListView
+                android:id="@id/alpha"
+                android:layout_width="24.0dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.Emui.HwAlphaIndexerListView" />
+        </RelativeLayout>
+        <ViewStub
+            android:id="@id/nodata_viewstub"
+            android:layout="@layout/hiappbase_nodata_warn_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@id/hiappbase_loading_layout_id"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

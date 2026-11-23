@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:clip_background="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.appmarket.service.store.awk.widget.horizon.HorizonBigVideoPlayer
+                android:id="@id/video_player"
+                android:tag="@string/properties_video_contentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:media_type="0"
+                app:view_type="0" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/bottom_layout"
+                android:background="@color/emui_color_gray_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/video_player"
+                android:layout_alignEnd="@id/video_player">
+                <com.huawei.appmarket.framework.widget.PromotionSignTextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/promotion_sign"
+                    android:tag="css/.title"
+                    android:background="@drawable/promotion_sign_bg_normal"
+                    android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                    style="@style/promotion_sign_style" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/video_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ui_12_dp"
+                    android:layout_marginBottom="@dimen/ui_12_dp"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                    android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</LinearLayout>

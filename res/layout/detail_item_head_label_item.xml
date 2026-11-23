@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/appdetail_head_label_textview"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1.0"
+        android:textDirection="locale"
+        android:textAlignment="viewStart"
+        style="@style/detail_head_label" />
+    <TextView
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:gravity="center_vertical"
+        android:id="@id/appdetail_head_label_dots"
+        android:tag="css/.subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appgallery_unclickable_label_separator_middle_dot"
+        android:importantForAccessibility="no" />
+</LinearLayout>

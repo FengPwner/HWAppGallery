@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/loading_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_marginStart="@dimen/margin_xl"
+        android:layout_marginEnd="@dimen/margin_xl">
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_vertical"
+            android:id="@id/loadingBar"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginEnd="6.0dip"
+            style="@style/Widget.Emui.HwProgressBar" />
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apkmanagement_loading"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </LinearLayout>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/sub_prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:lines="2"
+        android:layout_marginStart="@dimen/margin_xl"
+        android:layout_marginEnd="@dimen/margin_xl"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/game_gift_icon"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="@dimen/appgallery_card_icon_size_large"
+        android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:src="@drawable/icon_default_bg"
+        android:scaleType="fitCenter" />
+    <ImageView
+        android:id="@id/arrow_img"
+        android:tag="css/.arrow"
+        android:layout_width="12.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/ic_public_arrow_right_900"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/right_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+        android:layout_below="@id/game_gift_icon"
+        android:layout_toStartOf="@id/arrow_img"
+        android:layout_alignStart="@id/game_gift_icon">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/game_gift_name"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/game_gift_detail"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/right_top_layout"
+        android:layout_alignEnd="@id/arrow_img"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

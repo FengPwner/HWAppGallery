@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/detail_update_layout_linearlayout"
+    android:paddingBottom="@dimen/margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/detail_update_title_layout_relativelayout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/ui_12_dp">
+            <TextView
+                android:id="@id/detail_update_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_title" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/detail_update_linearlayout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <TextView
+            android:id="@id/detail_upgrade_version_textview"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/banner_bg_margin_16"
+            style="@style/detail_card_upgrade_date" />
+        <TextView
+            android:id="@id/detail_upgrade_time_textview"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/detail_card_upgrade_date" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/detail_update_body_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <LinearLayout
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:id="@id/detail_update_body_layout_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.appgallery.detail.detailbase.common.FoldingTextView
+                android:id="@id/detail_update_content_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_introduce_content" />
+        </LinearLayout>
+        <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/detail_update_folding_imageview"
+            android:background="@drawable/ic_public_arrow_down_900"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/component_detail_head_game_open" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/linearLayout0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/fix_bottom_layout"
+        android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="@dimen/appgallery_column_system_content_margin"
+        android:paddingEnd="@dimen/appgallery_column_system_content_margin">
+        <include
+            android:id="@id/fix_bottom_layout_privacy"
+            layout="@layout/ac_about_protocolprivacy" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/emui_functional_blue"
+            android:gravity="center_horizontal"
+            android:id="@id/fix_eu_usage"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_EU_usage"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/emui_functional_blue"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/fix_show_uuid"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appcommon_show_uuid"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/emui_functional_blue"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/fix_ICPNumber_text"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/fix_anva_tip_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_xl"
+            android:paddingEnd="@dimen/padding_xl">
+            <ImageView
+                android:layout_width="12.0dip"
+                android:layout_height="12.0dip"
+                android:src="@drawable/ac_about_anva" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@id/fix_anva_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_safe"
+                android:includeFontPadding="false"
+                android:layout_marginStart="@dimen/margin_xs"
+                style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+        </LinearLayout>
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@id/fix_copyright_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/emui_functional_blue"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/fix_aaid_text"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_aaid"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@id/about_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_above="@id/fix_bottom_layout"
+        android:layout_below="@id/title">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/about_view_main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@id/icon_container"
+                android:layout_width="fill_parent"
+                android:layout_height="224.0dip"
+                android:paddingStart="@dimen/appgallery_column_system_content_margin"
+                android:paddingEnd="@dimen/appgallery_column_system_content_margin">
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_width="@dimen/appgallery_card_icon_size_xl"
+                    android:layout_height="@dimen/appgallery_card_icon_size_xl"
+                    android:layout_marginTop="56.0dip" />
+                <TextView
+                    android:id="@id/clientAppName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_m"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@id/version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:lineSpacingMultiplier="1.3"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/ll_container"
+                android:background="@drawable/aguikit_card_panel_bg"
+                android:paddingTop="@dimen/appgallery_card_panel_inner_margin_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+                android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_vertical"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/bottom_layout"
+                android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48.0dip"
+                android:layout_marginBottom="8.0dip"
+                android:paddingStart="@dimen/appgallery_column_system_content_margin"
+                android:paddingEnd="@dimen/appgallery_column_system_content_margin">
+                <include
+                    android:id="@id/bottom_layout_privacy"
+                    layout="@layout/ac_about_protocolprivacy" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body3"
+                    android:textColor="@color/emui_functional_blue"
+                    android:gravity="center_horizontal"
+                    android:id="@id/eu_usage"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_EU_usage"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body3"
+                    android:textColor="@color/emui_functional_blue"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/show_uuid"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/appcommon_show_uuid"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body3"
+                    android:textColor="@color/emui_functional_blue"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/ICPNumber_text"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/anva_tip_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="12.0dip"
+                        android:layout_height="12.0dip"
+                        android:src="@drawable/ac_about_anva" />
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:id="@id/anva_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_safe"
+                        android:includeFontPadding="false"
+                        android:layout_marginStart="@dimen/margin_xs"
+                        style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+                </LinearLayout>
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@id/copyright_text"
+                    android:visibility="visible"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body3"
+                    android:textColor="@color/emui_functional_blue"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/aaid_text"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_aaid"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

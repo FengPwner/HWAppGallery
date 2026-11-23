@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="20.0dip"
+        android:textColor="#ffd4d4d4"
+        android:gravity="left"
+        android:id="@id/tv_message"
+        android:layout_width="fill_parent"
+        android:layout_height="28.0dip"
+        android:layout_marginTop="@dimen/cs_14_dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="@dimen/ui_24_dp" />
+    <RelativeLayout
+        android:id="@id/rl_contents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cs_14_dp"
+        android:layout_below="@id/tv_message">
+        <TextView
+            android:textSize="@dimen/res_textsize_14dp"
+            android:id="@id/tv_introductory_contents"
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui_24_dp"
+            android:layout_marginRight="@dimen/ui_24_dp" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/cy_permissions_contents"
+            android:visibility="gone"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui_24_dp"
+            android:layout_marginRight="@dimen/ui_24_dp" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/res_textsize_16dp"
+        android:textColor="#ff5291ff"
+        android:gravity="center"
+        android:id="@id/tv_know"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/banner_bg_margin_40"
+        android:layout_marginBottom="@dimen/cs_16_dp"
+        android:text="@string/cloud_game_six_elements_know"
+        android:layout_below="@id/rl_contents" />
+</RelativeLayout>

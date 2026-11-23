@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xl"
+        android:layout_marginStart="@dimen/margin_xl"
+        android:layout_marginEnd="@dimen/margin_xl">
+        <TextView
+            android:textSize="@dimen/emui_master_subtitle"
+            android:textColor="@color/emui_color_gray_10"
+            android:id="@id/download_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:paddingStart="@dimen/padding_m">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:src="@drawable/ac_push_hms_download_dot" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_color_gray_10"
+                android:id="@id/download_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

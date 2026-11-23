@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/big_content_container"
+        android:background="@color/appgallery_color_card_panel_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:clip_background="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_l"
+        app:stroke_width="0.0dip">
+        <ImageView
+            android:id="@id/immersive_big_imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/banner_commodity_margin_12"
+            android:layout_below="@id/immersive_big_imageview">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/immersive_title_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                    android:ellipsize="end"
+                    android:id="@id/immersive_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+                <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs">
+                    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/promotion_sign"
+                        android:background="@drawable/promotion_sign_bg"
+                        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                        style="@style/promotion_sign_style" />
+                    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/immersive_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+            </LinearLayout>
+            <com.huawei.appgallery.pageframe.view.DownloadButtonV2
+                android:layout_gravity="center_vertical"
+                android:id="@id/down_btn"
+                android:visibility="gone"
+                android:layout_width="64.0dip"
+                android:layout_height="28.0dip"
+                android:layout_marginStart="16.0dip"
+                style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        </LinearLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</LinearLayout>

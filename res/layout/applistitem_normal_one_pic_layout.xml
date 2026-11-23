@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/applistitem_normal_one_pic_layout_id"
+    android:background="@color/appgallery_color_sub_background"
+    android:paddingTop="@dimen/cs_4_dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:id="@id/normal_item_image"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+        app:touch_drawable="@color/mask_image_view_color" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/normal_item_text"
+        android:paddingTop="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="HarmonyHeiTi"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+    <LinearLayout
+        android:id="@id/bottom_line_layout"
+        android:paddingTop="12.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <View
+            android:id="@id/bottom_divider_line"
+            android:layout_width="fill_parent"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            style="@style/AppGallery.Widget.Divider" />
+    </LinearLayout>
+</LinearLayout>

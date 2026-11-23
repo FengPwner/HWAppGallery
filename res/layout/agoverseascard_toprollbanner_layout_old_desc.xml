@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/bottom_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/smallicon"
+        android:clickable="false"
+        android:layout_width="@dimen/appgallery_card_icon_size_small"
+        android:layout_height="@dimen/appgallery_card_icon_size_small"
+        android:layout_marginTop="@dimen/ui_12_dp"
+        android:scaleType="centerCrop"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        app:corner_type="appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:maxLines="1"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/smallicon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/ItemText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cs_2_dp"
+        android:layout_marginBottom="@dimen/size_8dp"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appname"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/downbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:layout_marginBottom="@dimen/ui_12_dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/banner_commodity_margin_12"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ItemText"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

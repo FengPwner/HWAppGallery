@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.common.media.widget.SquareLayout
+    android:background="@drawable/stroke_2px_alpha15_white_shape"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/child_image"
+        android:background="@drawable/bg_perch_square"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ImageView
+        android:id="@id/over_image"
+        android:background="@color/media_grid_child_item_80FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/img_checkbox_layout"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+        <CheckBox
+            android:textSize="@dimen/emui_master_body_2"
+            android:textColor="@color/emui_black"
+            android:id="@id/img_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/meida.checkbox.IconSelect" />
+    </LinearLayout>
+</com.huawei.appgallery.common.media.widget.SquareLayout>

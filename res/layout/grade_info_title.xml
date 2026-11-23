@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/contentrestrict_title_relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_hwtoolbar_height">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/contentrestrict_arrow_layout"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginEnd="4.0dip">
+            <ImageView
+                android:id="@id/up"
+                android:tag="css/.widget"
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/ic_appbar_back" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start|center"
+            android:orientation="vertical"
+            android:id="@id/contentrestrict_content_linearlayout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="4.0dip" />
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/contentrestrict_description_layout"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="36.0dip"
+            android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+            android:contentDescription="@string/card_more_btn">
+            <ImageView
+                android:id="@id/contentrestrict_description_icon"
+                android:tag="css/.widget"
+                android:layout_width="@dimen/cs_12_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/contentrestrict_appbar_description" />
+        </LinearLayout>
+        <View
+            android:id="@id/title_right_icon_margin"
+            android:layout_width="@dimen/margin_s"
+            android:layout_height="48.0dip" />
+    </LinearLayout>
+</LinearLayout>

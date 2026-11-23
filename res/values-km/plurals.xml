@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">បានរកឃើញកម្មវិធីគួរ​ឱ្យ​សង្ស័យចំនួន %2$d (រួមមាន %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">បានរកឃើញកម្មវិធីដែលមិនបានប្រើ %2$d (រួមមាន %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">កម្មវិធីដែលមិនបានប្រើ %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">កម្មវិធី %d ដែលមានឥរិយាបថគ្រោះថ្នាក់ត្រូវបានដោះស្រាយ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">កម្មវិធី %d ដែលមានឥរិយាបថគ្រោះថ្នាក់ត្រូវបានរកឃើញ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">កម្មវិធីបោកប្រាស់ %d ត្រូវបានដោះស្រាយ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">កម្មវិធីបោកប្រាស់ %d ត្រូវបានរកឃើញ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">កម្មវិធី %d ដែលមានហានិភ័យឯកជនភាពត្រូវបានដោះស្រាយ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">កម្មវិធី %d ដែលមានហានិភ័យឯកជនភាពត្រូវបានរកឃើញ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">កម្មវិធី %d ដែលមានការគំរាមកំហែងផ្នែកសន្តិសុខត្រូវបានដោះស្រាយ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">កម្មវិធី %d ដែលមានការគំរាមកំហែងផ្នែកសន្តិសុខត្រូវបានរកឃើញ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">កម្មវិធី %d ដែលមានមេរោគត្រូវបានដោះស្រាយ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">កម្មវិធី %d ដែលមានមេរោគត្រូវបានរកឃើញ</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">ធាតុ %d ត្រូវបានធ្វើឱ្យប្រសើរឡើង</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">បានរកឃើញ​បញ្ហា %d</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">បានស្កេន %d កម្មវិធី</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d ថ្ងៃមុន</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">ការគំរាមកំហែង %d</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">បានស្កេន %d កម្មវិធី</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">កត្តាគំរាមកំហែង​កម្មវិធី %d</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">បានរកឃើញកម្មវិធីគួរឱ្យសង្ស័យ %2$d ក្នុងរយៈពេល %1$d ថ្ងៃចុងក្រោយ។ មើលព័ត៌មានលម្អិត >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">បានស្កេនកម្មវិធី %2$d ក្នុងរយៈពេល %1$d ថ្ងៃចុងក្រោយ។ មើលព័ត៌មានលម្អិត >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">អាចបណ្ណែនកម្មវិធី %d</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">បានរកឃើញកម្មវិធី​ដែល​មិនស្គាល់ %d។</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">កម្មវិធីដែលអាចបណ្ណែនបាន (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">បានរកឃើញកម្មវិធី​ដែល​មិនស្គាល់ %d។ សូមពិនិត្យមើល។</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">បានរកឃើញកម្មវិធី​ដែល​មិនស្គាល់ %d</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d នាទីមុន</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់៖ %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s មានផ្ទុក​ខ្លឹមសារ​ដែល​ដាក់កំហិតលើអាយុ។ តាមរយៈ​ការប៉ះ %3$s និង​ទាញយក​កម្មវិធីនេះ អ្នក​បញ្ជាក់​ថា អ្នក​មានអាយុ​លើសពី %2$d ឆ្នាំ។</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">ការទាញយកត្រូវបាន​ផ្អាក៖ %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s មានផ្ទុក​ខ្លឹមសារ​ដែល​ដាក់កំហិតលើអាយុ។ តាមរយៈ​ការប៉ះ %3$s និង​ប្រើ​កម្មវិធីនេះ អ្នក​បញ្ជាក់​ថា អ្នក​មានអាយុ​លើសពី %2$d ឆ្នាំ។</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">ចំនួនមិនចូលចិត្ត %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">ចំនួនមិនចូលចិត្ត %d, អ្នកបានមិនចូលចិត្តវា</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">ចំនួនចូលចិត្ត %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">ចំនួនចូលចិត្ត %d, អ្នកបានចូលចិត្តវា</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">ផ្កាយ %d</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">មតិ %1$d</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d នាទីមុន</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">ចំណាត់ថ្នាក់ %d</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">ការចូលចិត្ត %1$d</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">ការឆ្លើយតប %1$d</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">ការឆ្លើយតបទាំងអស់ (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">អ្នក​ចាំបាច់​ត្រូវ​លេង​យ៉ាងហោចណាស់ %1$d នាទីដើម្បីផ្ដល់មតិ។</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">កំពុងដំឡើងកម្មវិធី %1$s</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">បានជ្រើសរើសធាតុចំនួន %1$d</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">ដក​ការដំឡើង​កម្មវិធីដែលបានជ្រើសរួមទាំង %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">ដក​ការដំឡើង​កម្មវិធី %1$s និងកម្មវិធី %2$s ផ្សេងទៀតពី %3$s ឬ?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">ដកការដំឡើងកម្មវិធី %2$s រួមទាំង %1$s ចេញឬ?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">លុបកំណត់ត្រាចំនួន %1$s ឬ?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">កម្មវិធី %1$d ដូចខាងក្រោម​តម្រូវឱ្យ​ចូលប្រើ​ការអនុញ្ញាត​ជាក់លាក់៖</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់ %1$d</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់ %1$sលាន</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់ %1$sពាន់</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">សកម្មភាព %1$s</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">នៅសល់​រយៈពេល​ហ្គេម​តិចជាង %1$s នាទី។ រក្សាទុកហ្គេម​របស់អ្នក​ឱ្យ​បានឆាប់តាមដែល​អាច​ធ្វើបាន។</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">នៅសល់​តែ %d នាទីប៉ុណ្ណោះ។</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d នាទី</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">មតិ %1$d</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d នាទីមុន</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">ច្រើនបំផុត %1$d តួអក្សរ</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">វាយបញ្ចូលតួអក្សរយ៉ាងតិច %1$d តួ</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"រូបភាព​រហូតដល់ %1$d សន្លឹក
+សន្លឹកនីមួយៗធំបំផុត %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">រូបភាពច្រើនបំផុត %d សន្លឹក​សម្រាប់​ប្រភេទ​បញ្ហា​នេះ</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">ផ្កាយ %1$s</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវបានវាយបញ្ចូល​មិនត្រឹមត្រូវ %1$d ដង។ សូម​ព្យាយាមម្ដងទៀតក្រោយ %2$d នាទី។</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">មនុស្ស %1$sពាន់លាននាក់​បានចូលរួម</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">មនុស្ស %1$sលាននាក់​បានចូលរួម</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">មនុស្ស %1$s នាក់​បានចូលរួម</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">មនុស្ស %1$sពាន់នាក់​បានចូលរួម</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">មនុស្ស %1$sពាន់លាននាក់​បាន​ទិញវា</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">មនុស្ស %1$sលាននាក់​បាន​ទិញវា</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">មនុស្ស %1$s នាក់​បាន​ទិញវា</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">មនុស្ស %1$sពាន់នាក់​បាន​ទិញវា</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់ %1$s</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់, ផ្កាយ %1$s</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">បានវាយតម្លៃដាក់ផ្កាយ %1$s</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">ដំឡើងចុះ (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d នាទី</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">បានជ្រើសយកធាតុចំនួន %1$d</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">ការពណ៌នាត្រូវតែ​មានតួអក្សរយ៉ាងហោចណាស់ %d តួ។ បន្ថែម​រូបថតអេក្រង់ បើអាច។</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d នាទី</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d វិនាទី</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">ការប្រកាស៖ %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">ការចូលចិត្ត %d</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">ការឆ្លើយតប %d</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">ចំនួនមើល %d</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">ផ្ដល់មតិ (សរុប %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">មើលការឆ្លើយតបទាំង %1$d</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">អ្នកចូលរួម %1$s នាក់</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">ជ្រើសរើសចម្លើយ​បាន %s</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">ពហុជ្រើសរើស (ជ្រើសរើស %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">ជ្រើសរើស %s ចម្លើយ</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s សំឡេង</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">កម្មវិធីនេះ​តម្រូវឱ្យមាន​ការអនុញ្ញាត %1$d។ អ្នក​អាចដក​ការអនុញ្ញាត​ទាំងនេះ​បាន​នៅ​គ្រប់ពេលវេលានៅក្នុង​ការកំណត់ > កម្មវិធី > កម្មវិធី។</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">កម្មវិធីនេះ​តម្រូវឱ្យមាន​ការអនុញ្ញាត %1$d។ អ្នក​អាចដក​ការអនុញ្ញាត​ទាំងនេះ​បាន​នៅ​គ្រប់ពេលវេលានៅក្នុង​ការកំណត់ > កម្មវិធី និងសេវាកម្ម > កម្មវិធី។</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">អំណោយ %1$d</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dពាន់</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">ផ្កាយ %1$d</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់៖ %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់ %1$s</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s បើក</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">ការណែនាំថ្មីចំនួន %d</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">កម្មវិធី %1$d ត្រូវបាន​ធ្វើបច្ចុប្បន្នភាព</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">កម្មវិធី %1$d កំពុងត្រូវបានធ្វើបច្ចុប្បន្នភាព</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">រូបភាព​មិនអាច​ធំជាង %1$d MB ទេ។</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">រូបថត %d សន្លឹក</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d ត្រូវបាន​ជ្រើសរើស</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d វីដេអូ</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">អត្ថប្រយោជន៍ %d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">ការជូនដំណឹងថ្មី %d</item>
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">លុបចោល​ការដំឡើង​ដែលបានស្កុបទាំងអស់ (កម្មវិធី %1$s ធ្វើឲ្យទំនេរ %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(បានជ្រើសរើស %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">ទំព័រទី %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">ការដំឡើងបានផ្អាក %1$s ។</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d នាទីមុន</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d បន្ថែម</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">ការទាញយក %1$s</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">បានវាយតម្លៃដាក់ផ្កាយ %1$s</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">ការដំឡើងកម្មវិធីចំនួន %1$s តាម​កាល​វិភាគបានបញ្ចប់</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">កម្មវិធីចំនួន %1$d នឹង​ចាប់ផ្ដើម​ទាញយក នៅពេល​អ្នក​ភ្ជាប់​ទៅ​ Wi-Fi។</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s បានបញ្ជាទិញជាមុន)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d លាន​ត្រូវបានរក្សាទុក)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d ពាន់ត្រូវបានរក្សាទុក)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">ដំឡើងកម្មវិធីទាំងអស់ %1$s ឬ?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s ការដំឡើងកំពុងបន្ត។</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">នៃ %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">ស្វែងរកក្នុង​កម្មវិធី %d ក្នុងឧបករណ៍</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">ទាញយក​កម្មវិធី %d មកវិញ​ទៅកាន់​បញ្ជីអាប់ដេត និងអនុញ្ញាត​ឲ្យ​អាប់ដេតកម្មវិធី។</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">មានបច្ចុប្បន្នភាពកម្មវិធី %1$s</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">ការ​ធ្វើបច្ចុប្បន្នភាពកម្មវិធីចំនួន %1$s ត្រូវបានណែនាំ។ ទំហំសរុប៖ %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">មានបច្ចុប្បន្នភាពកម្មវិធី %1$d។ ទំហំ៖ %2$s។</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">មិនបានប្រើអស់ %d ថ្ងៃហើយ</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d នាទី</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">សម្អាត​កិច្ចការ %d និង​ឯកសារ​ដែលបាន​ទាញយកឬ?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">ការចូលជាប់ៗគ្នា %d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">ថ្ងៃទី %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">បានទាញយកកម្មវិធី %1$d</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">ការផ្ដល់ចំណាត់ថ្នាក់៖ %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d នាទីមុន</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">កម្មវិធី %2$d រួមមាន %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">គ្រឿងសម្គាល់ចំណុចក្រហម, ការជូនដំណឹងមិនទាន់អាន %1$s</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">ការផ្ដល់ជូន %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">កាដូសហគមន៍ %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">កាដូ %d</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">មនុស្ស %d នាក់ក្នុង​តំបន់​របស់អ្នក​ចង់បានវា</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">បានជ្រើសយកធាតុចំនួន %1$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_sub_background"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/search_recommend_height"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/recommend_label_textview"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        style="@style/Search.Widget.LableTitle" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/recommend_label_textview">
+        <com.huawei.uikit.hwrecyclerview.widget.HwRecyclerView
+            android:id="@id/search_query_recycle_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/search_transition_mask"
+        android:background="@drawable/search_transition_mask"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/search_recommend_height"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

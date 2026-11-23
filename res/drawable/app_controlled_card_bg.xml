@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/cs_12_dp" />
+    <solid
+        android:color="@color/app_controlled_bg" />
+    <padding
+        android:left="@dimen/appgallery_default_card_space_vertical_l"
+        android:top="@dimen/appgallery_default_card_space_vertical_l"
+        android:right="@dimen/appgallery_default_card_space_vertical_l"
+        android:bottom="@dimen/appgallery_default_card_space_vertical_l" />
+</shape>

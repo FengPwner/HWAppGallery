@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/edit_icon_layout"
+    android:background="@drawable/hwappbarpattern_selector_item_bg"
+    android:visibility="visible"
+    android:layout_width="@dimen/hwappbarpattern_icon_size"
+    android:layout_height="@dimen/hwappbarpattern_icon_size"
+    android:contentDescription="@string/forum_user_modify"
+    android:layout_marginEnd="@dimen/margin_s"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/right_imageview_edit"
+        android:background="@drawable/aguikit_ic_public_edit"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+.class public interface abstract Lcom/huawei/appgallery/foundation/ui/css/adapter/param/Parameter$Generator;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appgallery/foundation/ui/css/adapter/param/Parameter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "Generator"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Lcom/huawei/appgallery/foundation/ui/css/adapter/type/CSSValue;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract get(Ljava/lang/Object;Lcom/huawei/appgallery/foundation/ui/css/adapter/type/CSSValue;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "TT;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+.end method

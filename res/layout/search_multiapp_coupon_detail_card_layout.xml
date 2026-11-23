@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:orientation="vertical"
+        android:id="@id/search_coupon_card_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip">
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="68.0dip"
+            android:layout_height="104.0dip"
+            android:src="@drawable/search_coupon_detail_card_left_bg" />
+        <com.huawei.appgallery.search.ui.view.CouponDetailDashLineView
+            android:layout_gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="122.0dip"
+            android:layout_marginRight="20.0dip"
+            android:alpha="0.2" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="12.0dip"
+            android:textColor="@color/search_coupon_prompt_info_color"
+            android:id="@id/search_coupon_card_prompt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginEnd="20.0dip" />
+        <include
+            android:id="@id/search_coupon_info"
+            layout="@layout/search_coupon_detail_info" />
+    </FrameLayout>
+    <com.huawei.appgallery.search.ui.view.CouponDetailCircleView
+        android:layout_width="12.0dip"
+        android:layout_height="12.0dip"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginTop="116.0dip"
+        android:layout_alignParentLeft="true" />
+    <com.huawei.appgallery.search.ui.view.CouponDetailCircleView
+        android:layout_width="12.0dip"
+        android:layout_height="12.0dip"
+        android:layout_marginTop="116.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

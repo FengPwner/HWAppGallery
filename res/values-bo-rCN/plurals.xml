@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">༼%1$s༽སོགས་ཉེར་སྤྱོད་ %2$d ལ་ཉེན་ཁ་འདུག</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">༼%1$s༽སོགས་ཉེར་སྤྱོད་ %2$d ནི་རྒྱུན་སྤྱོད་ཉེར་སྤྱོད་མིན།</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">ཉེར་སྤྱོད་ %d ཡུན་རིང་བཀོལ་མེད།</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">བསམ་ངན་བྱ་སྤྱོད་ཀྱི་ཉེར་སྤྱོད་ %d ལ་ཚོད་འཛིན་ཐེབས།</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">བསམ་ངན་བྱ་སྤྱོད་ཀྱི་ཉེར་སྤྱོད་ %d ཐག་གཅོད་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">བསླུ་ཁྲིད་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ལ་ཚོད་འཛིན་ཐེབས།</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">བསླུ་ཁྲིད་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ཐག་གཅོད་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">སྒེར་གསང་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ལ་ཚོད་འཛིན་ཐེབས།</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">སྒེར་གསང་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ཐག་གཅོད་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">མངོན་མེད་བདེ་འཇགས་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ལ་ཚོད་འཛིན་ཐེབས།</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">མངོན་མེད་བདེ་འཇགས་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ཐག་གཅོད་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">ནད་དུག་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ལ་ཚོད་འཛིན་ཐེབས།</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">ནད་དུག་ཉེན་ཁའི་ཉེར་སྤྱོད་ %d ཐག་གཅོད་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">ཁྱོན་ནང་དོན་ %d ལེགས་སྒྱུར་བྱས།</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">ཉེར་སྤྱོད་ %d ཐག་གཅོད་བྱ་རྒྱུར་ལུས་ཡོད།</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">ཁྱོན་ཉེར་སྤྱོད་ %d བཤར་འབེབས་བྱས།</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">ཉིན་ %d གོང་།</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">ཉེར་སྤྱོད། %d</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">ཁྱོན་བསྡོམས་ %d བཤེར་འབེབས་བྱས།</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">ཉེན་ཁ་ཁག་ %d རྙེད་པ།</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">ཉེ་ལམ་ཉིན་ %1$d རིང་ཉེར་སྤྱོད་ %2$d ལ་ཉེན་ཁ་འདུག བརྡབས་ནས་ལྟ་ཞིབ་བྱེད།</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">ཉེ་ལམ་ཉིན་ %1$d རིང་ཉེར་སྤྱོད་ %2$d ལ་བཤེར་འབེབས་བྱས། བརྡབས་ནས་ལྟ་ཞིབ་བྱེད།</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">ཉེར་སྤྱོད་ %d སྐྱོན་མེད་ངང་སྡུད་སྒྲིལ་གཏང་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">ཉེར་སྤྱོད་རྒྱུས་མེད་ %d ཐག་གཅོད་བྱ་རྒྱུར་ལུས།</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">ཉེར་སྤྱོད་ %d སྡུད་སྒྲིལ་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">ངོ་མི་ཤེས་པའི་ཉེར་སྤྱོད་ %d འདུག ལྟ་ཞིབ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">ངོ་མི་ཤེས་པའི་ཉེར་སྤྱོད་ %d འདུག</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">སྐར་མ་%dཡི་སྔོན།</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">སྐར་མ་ %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s ཡི་ཁྲོད་དུ་ལོ་ཚོད་ཀྱི་ཚད་བཀག་ཐེབས་པའི་ནང་དོན་འདུས་ཡོད། ལོ་ %2$d སོན་ཟིན་པ་གཏན་འཁེལ་བྱས་ཏེ། %3$s མཐེབ་མནན་ནས་ཕབ་ལེན་བྱེད་འགོ་རྩོམ།</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">%1$dསྒྲིག་འཇུག་བར་མཚམས་བཞག་ཟིན།</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s ཡི་ཁྲོད་དུ་ལོ་ཚོད་ཀྱི་ཚད་བཀག་ཐེབས་པའི་ནང་དོན་འདུས་ཡོད། ལོ་ %2$d སོན་ཟིན་པ་གཏན་འཁེལ་བྱས་ཏེ། མཐེབ་%3$s མནན་ནས་བེད་སྤྱོད་བྱེད་འགོ་རྩོམ།</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">སྨད་པ། %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">སྨད་པ། %d སྨད་ཟིན།</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">བསྟོད་པ། %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">བསྟོད་པ། %d བསྟོད་ཟིན།</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">སྐར་མ་ %d</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">དཔྱད་གཏམ་ %1$d</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">སྐར་མ་%d ཡི་སྔོན།</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">མི་ %d ཡིས་དཔྱད་སྐར།</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">བསྟོད་པ། %1$d</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">ལན་སློག་པ། %1$d</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">ལན་སློག་པ་ %1$d ཆ་ཚང་།</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">རོལ་རྩེད་དུས་ཡུན་སྐར་མ་%1$dམི་འདང་། དཔྱད་བརྗོད་སྤེལ་མི་ཐུབ།</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$s སྒྲིག་འཇུག་བྱེད་བཞིན་པ།</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s འཚུད་པའི་འདེམས་ཟིན་པའི་ཉེར་སྤྱོད་དག་ཕྱིར་ལེན་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%3$s ནས་ %1$s དང་ %2$s ཉེར་སྤྱོད་གཞན་དག་ཕྱིར་ལེན་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">༼%1$s༽སོགས་ཉེར་སྤྱོད་ %2$s བཤིག་ཕབ་བྱེད་ཀྱི་ཡིན་ནམ།</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">སྒྲིག་འཇུག་ཟིན་ཐོའི་གཞི་གྲངས་ %1$s གསུབ་རྒྱུ་གཏན་འཁེལ་ཡིན་ནམ།</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">ཁྱེད་ཀྱིས་བདམས་པའི་ཉེར་སྤྱོད་ལས་ %1$dཡིས་གཤམ་གྱི་དབང་ཚད་དགོས་ཏེ།</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">མི་ %1$d ཡིས་དཔྱད་སྐར་བརྒྱབ།</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">མི་དུང་ཕྱུར་ %1$s ཡིས་དཔྱད་སྐར་བརྒྱབ།</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">མི་ཁྲི་ %1$s ཡིས་དཔྱད་སྐར་བརྒྱབ།</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s ཡི་བྱེད་སྒོ།</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">ཉིན་དེའི་རོལ་རྩེད་དུས་ཡུན་སྐར་མ་ %1$s མི་འདང་། གང་མགྱོགས་སྒོས་རོལ་རྩེད་ཉར་ཚགས་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">རོལ་རྩེད་ལ་ལྷག་པའི་ཚོད་རྩེད་ཀྱི་དུས་ཡུན་སྐར་མ་ %d མི་འདང་།</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">ཆུ་ཚོད་%d</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">སྐར་མ་%d</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">སྐར་ཆ་%d</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">དུང་ཕྱུར་ %1$s</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">ས་ཡ་ %1$s</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">ཁྲི་ %1$s</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">དཔྱད་གཏམ་ %1$d</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">སྐར་མ་ %d གོང་།</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">ཆེས་མང་ན་ཡིག་རྟགས་ %1$d</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">ཡི་གེ་ %1$d ལས་ཉུང་མི་རུང་།</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"ཆེས་མང་ན་ %1$d དང་
+རེ་རེར་ %2$s ནང་ཡིན།"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">གནད་དོན་འདིའི་རིགས་ལ་ཆེས་མང་ན་པར་རིས་ %d ཡར་སྐྱེལ་ཆོག</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">སྐར་མ་ %1$s</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">གསང་གྲངས་བླུགས་ནོར་ཐེངས་%1$d ལས་ཡོལ་བས། སྐར་མ་ %2$d རྗེས་སླར་ཡང་ཚོད་ལྟ་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">མི་དུང་ཕྱུར་ %1$s ཡིས་སློབ་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">མི་ས་ཡ་ %1$s ཡིས་སློབ་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">མི་ %1$s ཡིས་སློབ་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">མི་ཁྲི་ %1$s ཡིས་སློབ་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">མི་དུང་ཕྱུར་ %1$s ཡིས་ཉོས་ཟིན།</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">མི་ས་ཡ་ %1$s ཡིས་ཉོས་ཟིན།</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">མི་ %1$s ཡིས་ཉོས་ཟིན།</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">མི་ཁྲི་ %1$s ཡིས་ཉོས་ཟིན།</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">མི་ %1$s ཡིས་དཔྱད་སྐར་བཀོད།</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">སྐར་མའི་རིམ་པ། སྐར་གྲངས་ %1$s</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">སྐར་གྲངས་ %1$s</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">སྔར་བཞིན་སྒྲིག་འཇུག (%1$ds)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">ཆུ་ཚོད་ %d</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">སྐར་མ་ %d</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">སྐར་ཆ་ %d</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">རྣམ་གྲངས་ %1$d བདམ་ཟིན།</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">ཉུང་མཐར་ཡང་ཡིག་འབྲུ་ %d བཀོལ་ནས་གནད་དོན་བརྗོད་པ་མ་ཟད་བཅད་པར་སྣོན་རོགས་གནང་། དེ་གནད་དོན་མགྱོགས་མྱུར་ངང་ཐག་གཅོད་པར་ཕན་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">ཆུ་ཚོད་ %1$d</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">སྐར་མ། %1$d</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">སྐར་ཆ་ %1$d</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">དྲ་ཐོག་ཡིག་ཆུང་། %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%dབསྟོད།</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">ལན་སློག་པ།%d</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">དུང་ཕྱུར་ %1$s</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">ས་ཡ་ %1$s</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">ཁྲི་ %1$s</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">བཤར་ལྟ་བྱེད་ཐེངས་ %d</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">དྲ་ཐོག་ཡིག་ཆུང་གི་ལན་ (%1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">ལན་སློག་པ་ %1$dཆ་ཚང་ལ་ལྟ་ཞིབ་བྱེད།</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">མི་ %1$s ཞུགས།</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">ཆེས་མང་ན་ %s གདམ་ཆོག</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">མང་འདེམ། %1$d</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">%s འདེམས།</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">འཛིན་ཤོག་ %1$s</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">ཞབས་ཞུ་འགོ་སློང་སྐབས་གཤམ་གསལ་གྱི་དབང་ཚད་ %1$d རེ་ཞུ་བྱེད་དགོས་ཏེ། སྒྲིག་བཀོད་ནས་ཉེར་སྤྱོད། དེ་ནས་ཉེར་སྤྱོད་དོ་དམ་ལ་ཕེབས་ནས་ཕྱིར་འཐེན་ཆོག</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">ཉེར་སྤྱོད་འདིའི་འགོ་སློང་སྐབས་གཤམ་གྱི་དབང་ཚད་ %1$d རེ་ཞུ་བྱ་དགོས། སྒྲིག་འགོད་ནས་ཉེར་སྤྱོད་དང་ཞབས་ཞུ། དེ་ནས་ཉེར་སྤྱོད་དོ་དམ་དུ་ཕེབས་ནས་ཕྱིར་འཐེན་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d ལག་རྟགས།</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">ཁྲི་ %1$d</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">སྐར་མ་ %1$d</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">སྐར་མ་ %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">མི་ %1$s ཡིས་དཔྱད་སྐར་བཀོད།</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">ཁ་ཕྱེ་ཐེངས་%1$s</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">ཁྱེད་ལ་ནང་དོན་གསར་པ་%dའོས་སྦྱོར་བྱས་ཚར།</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">དུང་ཕྱུར་ %1$s</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">ས་ཡ་ %1$s</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">ཁྲི་ %1$s</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d གསར་བཅོས་བྱས་ཟིན། ལྟ་ཞིབ་བྱེད་རོགས་གནང་།</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d གསར་བཅོས་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">པར་རིས་ཀྱི་ཆེ་ཆུང་ཚད་བཀག་ %1$dMB ལས་བརྒལ།</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">ཁྱོན་བསྡོམས་འདྲ་པར་ %d</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">རྣམ་གྲངས་ %1$d འམ་ %2$d བདམ་ཟིན།</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">བསྡོམས་པས་བརྙན་ཟློས་ %d ཡོད།</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">ཕན་བདེ་ %d</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">བར་མཚམས་འཇོག་པའི་སྒྲིག་འཇུག་ཆ་ཚང་བསུབ་འདོར་བྱ། (ཉེར་སྤྱོད། %1$s གཙང་སེལ། %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">(ཁག་ %1$d བདམས་ཟིན།)</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">ངོས་ %1$d པ།</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">སྒྲིག་འཇུག་ %1$s བར་མཚམས་འཇོག་ཟིན།</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">སྐར་མ་ %d གོང་།</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">ཚོང་རྫས་ཁག%1$d</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">ཕབ་ལེན་གྱི་ཚད་ %1$s</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">སྐར་གྲངས་ %1$s</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">འཆར་འགོད་བྱས་པའི་ཉེར་སྤྱོད་སྒྲིག་འཇུག་ %1$s མཇུག་གཙང་ཟིན།</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d ཡིས་ Wi-Fi དང་སྦྲེལ་རྗེས་རང་འགུལ་གྱིས་སྒྲིག་འཇུག་བྱ་སྲིད།</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">༼མི་གྲངས་ཁྲི%1$sཡིས་ཁ་ཆད་བྱས་ཡོད།༽</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$s ཆ་ཚང་སྒྲིག་འཇུག་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">སྒྲིག་འཇུག་ %1$s འགྲོ་བཞིན་པ།</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">ཁྱོན་ངོས་ %1$d ཡོད།</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">རང་གནས་ཀྱི་ཉེར་སྤྱོད་ %d ཁྲོད་ནས་བཤེར་འཚོལ་བྱེད།</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">གསར་སྒྱུར་ཐོ་གཞུང་སྟེང་ཉེར་སྤྱོད་ %d བསྐྱར་གསོ་བྱེད་པ་དང་། དེ་དག་གསར་སྒྱུར་བྱེད་དུ་འཇུག</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$s གསར་སྒྱུར་བྱེད་ཆོག</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$s ཡི་གསར་ལེན་འོས་སྦྱོར་བྱེད། ཁྱོན་བསྡོམས་ %2$s</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d གསར་སྒྱུར་བྱས་མེད། ཁྱོན་ %2$s</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">ཉིན་ %d བེད་སྤྱོད་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">ཆུ་ཚོད་%d</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">སྐར་མ་%d</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">སྐར་ཆ་%d</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">ཕབ་ལེན་ལས་འགན་ (བསྡོམས་པས་རྣམ་གྲངས་ %d) དང་ཁུངས་ཡིག་ཆ་ཚང་མ་སྟོང་བཟོ་བྱེད་པ་གཏན་འཁེལ་ཡིན་ནམ།</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">བསྟུད་མར་ཉིན་ %d འབྱོར་ཐོ་བཀོད་ཟིན།</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">ཉིན་ %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d ཕབ་ལེན་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">སྐར་མ་ %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">སྐར་མ་%dཡི་སྔོན།</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">“%1$s” སོགས་ཉེར་སྤྱོད་ %2$d</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">དམར་ཐིགས་དྲན་སྐུལ་ %1$s འདུག</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">བྱེད་སྒོ་ %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">སྡོད་ཁུལ་གྱི་ཕྱག་རྟགས་ %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">ཕྱག་རྟགས་ཀྱི་རིགས་%d</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">ས་ཁུལ་འདི་རུ་མི་ %d ཡིས་བསྡུ་ཉར་བྱས་ཡོད།</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+    </plurals>
+</resources>

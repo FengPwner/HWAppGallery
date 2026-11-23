@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bannerImage">css/.hori-banner</string>
+    <string name="detail_bannerImage">css/.banner</string>
+    <string name="detail_bannerImage_foldable">css/.banner-land</string>
+    <string name="explore_card_banner_image">css/.hori-banner</string>
+</resources>

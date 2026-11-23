@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_list_height_single_text_line"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/dld_long_split"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@id/audio_play_minibar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/appgallery_max_padding_start">
+        <ImageView
+            android:id="@id/audio_play_bottom_course_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_small"
+            android:layout_height="@dimen/appgallery_card_icon_size_small"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/padding_m">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:ellipsize="end"
+                android:id="@id/audio_play_bottom_title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:id="@id/audio_play_bottom_album_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/audio_play_bottom_play_relative"
+            android:layout_width="@dimen/audiokit_audio_notification_control_button_size"
+            android:layout_height="@dimen/audiokit_audio_notification_control_button_size"
+            android:layout_marginStart="@dimen/padding_l">
+            <ImageView
+                android:id="@id/audio_play_bottom_pause"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/audiokit_audio_pause"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@id/audio_play_bottom_close"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingEnd="@dimen/appgallery_max_padding_end">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="@dimen/audiokit_audio_notification_small_icon_size"
+                android:layout_height="@dimen/audiokit_audio_notification_small_icon_size"
+                android:src="@drawable/aguikit_ic_public_cancel"
+                android:layout_marginStart="@dimen/appgallery_card_elements_margin_l" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

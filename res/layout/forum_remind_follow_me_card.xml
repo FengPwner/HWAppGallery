@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/AppGallery.Widget.List.TwoTextLinesWithLeftImg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.cards.widget.UserHeadImageView
+        android:gravity="start|center"
+        android:id="@id/follow_ref_user_icon"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:src="@drawable/forum_message_default_user_icon"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_l"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/follow_ref_userinfo_llayout"
+        android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toStartOf="@id/follow_me_button"
+        android:layout_toEndOf="@id/follow_ref_user_icon">
+        <com.huawei.appgallery.forum.cards.widget.UserInfoTextView
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/follow_ref_userinfo_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:id="@id/follow_content_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forum_message_focus_to_me"
+                android:maxLines="1"
+                android:fontFamily="@dimen/appgallery_text_size_body2" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:id="@id/follow_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@dimen/appgallery_text_size_body2"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:gravity="center"
+        android:id="@id/follow_me_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="64.0dip"
+        android:minHeight="28.0dip"
+        android:text="@string/forum_operation_unfollow"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+        app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+        style="@style/AppGallery.Widget.Button.Small" />
+    <View
+        android:id="@id/devider_line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/follow_ref_userinfo_llayout"
+        android:layout_alignEnd="@id/follow_me_button"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+    android:layout_marginEnd="@dimen/component_detail_report_margin_xl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:enabled="true"
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/black"
+        android:id="@id/tv"
+        android:background="@drawable/selector_item_add_report_feedback"
+        android:paddingTop="@dimen/component_detail_report_margin_l"
+        android:paddingBottom="@dimen/component_detail_report_margin_l"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/component_detail_report_logo_radius"
+        android:paddingEnd="@dimen/component_detail_report_logo_radius"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

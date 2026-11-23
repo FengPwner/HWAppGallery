@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/offShelf"
+    android:background="@color/emui_color_gray_1"
+    android:paddingTop="@dimen/margin_m"
+    android:paddingBottom="@dimen/margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/padding_l"
+    android:paddingEnd="@dimen/padding_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/offShelfIcon"
+        android:background="@drawable/aguikit_ic_public_ring"
+        android:layout_width="@dimen/search_offshelf_size"
+        android:layout_height="@dimen/search_offshelf_size"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:textColor="@color/emui_color_gray_10"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/offShelfReason"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_centerVertical="true"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_toEndOf="@id/offShelfIcon" />
+</RelativeLayout>

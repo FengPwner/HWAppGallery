@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+    android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/emui_white"
+        android:id="@id/newcontent_tips_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

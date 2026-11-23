@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.usercenter.personal.base.view.widget.ProductCardRelativeLayout
+    android:id="@id/personal_product_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:layout_gravity="center"
+        android:id="@id/personal_product_show_pic"
+        android:layout_width="112.0dip"
+        android:layout_height="112.0dip"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:scaleType="centerCrop"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/personal_product_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/personal_product_show_pic"
+        android:layout_alignBottom="@id/personal_product_show_pic"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/personal_product_show_pic">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/personal_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+        <TextView
+            android:id="@id/personal_valid_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/personal_product_divide_line"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_below="@id/personal_product_description"
+        android:layout_alignStart="@id/personal_product_description"
+        style="@style/AppGallery.Widget.Divider" />
+</com.huawei.appgallery.usercenter.personal.base.view.widget.ProductCardRelativeLayout>

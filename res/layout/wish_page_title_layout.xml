@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/wish_title_backbtn_container"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="@dimen/wish_title_btncontainer_with"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/click_back"
+        android:layout_marginStart="@dimen/wish_title_backbtn_startmargin"
+        android:layout_marginEnd="@dimen/wish_title_backbtn_endmargin"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/wish_title_backbtn"
+            android:background="@drawable/aguikit_ic_public_back"
+            android:layout_width="@dimen/wish_title_backbtn_width"
+            android:layout_height="@dimen/wish_title_backbtn_width" />
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@id/wish_title_menubtn_container"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="@dimen/wish_title_btncontainer_with"
+        android:layout_height="@dimen/tab_column_height"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@id/wish_title_menubtn"
+            android:background="@drawable/aguikit_ic_public_more"
+            android:layout_width="@dimen/wish_title_menubtn_width"
+            android:layout_height="@dimen/wish_title_menubtn_height"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:id="@id/wish_title_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:textAlignment="viewStart"
+        android:layout_toStartOf="@id/wish_title_menubtn_container"
+        android:layout_toEndOf="@id/wish_title_backbtn_container"
+        style="@style/AppGallery.Widget.Toolbar.Title" />
+</RelativeLayout>

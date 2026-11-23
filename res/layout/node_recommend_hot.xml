@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/ll_root_hot"
+    android:background="@drawable/upgrade_recommend_card_v3_bg"
+    android:clickable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/cs_12_dp"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/cs_12_dp"
+    android:paddingEnd="@dimen/cs_12_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/hiappbase_subheader_layout"
+        android:paddingTop="@dimen/cs_16_dp"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_subheader_default_height_single_text_line">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="20.0sp"
+            android:ellipsize="end"
+            android:layout_gravity="start|center"
+            android:id="@id/hiappbase_subheader_title_left"
+            android:tag="css/.title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_for_layout"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <ImageView
+            android:id="@id/hiappbase_subheader_more_arrow"
+            android:tag="css/.arrow"
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+            android:layout_height="@dimen/appgallery_list_item_right_arrow_height"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_item_container"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

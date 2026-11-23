@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:tag="layout/webview_lite_external_download_manager_activity_0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tooltype="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/permit_app_kit_downloads_title"
+        android:tag="binding_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/permit_app_kit_title_portrait"
+            android:visibility="gone"
+            layout="@layout/webview_lite_external_download_manager_hispace_title_emui" />
+        <include
+            android:id="@id/permit_app_kit_title_land"
+            android:visibility="gone"
+            layout="@layout/webview_lite_external_download_manager_hispace_title_emui_land" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/permit_app_kit_no_downloads_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/permit_app_kit_downloads_title">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/no_downloads_image_view"
+            android:src="@drawable/webview_lite_ic_download_manager_empty"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webview_lite_external_download_manager_no_downloads"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/permit_app_kit_download_task_layout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/permit_app_kit_downloads_title">
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+            android:gravity="center|top"
+            android:orientation="horizontal"
+            android:id="@id/permit_app_kit_btn_layout"
+            android:background="@color/appgallery_color_toolbar_bg"
+            android:addStatesFromChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/hwappbarpattern_split_menu_height"
+            android:layout_alignParentBottom="true">
+            <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                android:gravity="center"
+                android:id="@id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tooltype:tooltype="empty" />
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/permit_app_kit_downloads_recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            android:layout_above="@id/permit_app_kit_btn_layout" />
+    </RelativeLayout>
+</RelativeLayout>

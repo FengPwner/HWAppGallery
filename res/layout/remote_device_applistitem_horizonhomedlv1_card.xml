@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/horizonitemcontainer"
+    android:layout_width="@dimen/wisedist_horizontal_icon_card_item_width"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/wisedist_card_icon_size_large"
+        android:layout_height="@dimen/wisedist_card_icon_size_large"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@id/fg_appicon"
+        android:tag="css/.overly"
+        android:layout_width="@dimen/wisedist_card_icon_size_large"
+        android:layout_height="@dimen/wisedist_card_icon_size_large"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ViewStub
+        android:id="@id/horizon_line"
+        android:layout="@layout/aguikit_horizontal_line_layout"
+        android:layout_width="40.0dip"
+        android:layout_height="1.5dip"
+        android:layout_marginTop="4.0dip"
+        app:layout_constraintEnd_toEndOf="@id/appicon"
+        app:layout_constraintStart_toStartOf="@id/appicon"
+        app:layout_constraintTop_toBottomOf="@id/appicon" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="@dimen/wisedist_horizontal_icon_card_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:singleLine="true"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+    <com.huawei.appgallery.remotedevice.api.download.RemoteDeviceInstallButton
+        android:id="@id/downbtn"
+        android:tag="css/.download-button"
+        android:layout_width="@dimen/wisedist_card_icon_size_large"
+        android:layout_height="@dimen/wisedist_download_btn_height"
+        android:layout_marginTop="8.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

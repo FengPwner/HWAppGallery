@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/ui_24_dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="@dimen/ui_24_dp"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_marginEnd="16.0dip"
+        app:layout_constraintBottom_toTopOf="@id/tv_name_right"
+        app:layout_constraintEnd_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toTopOf="@id/tv_name"
+        app:srcCompat="@drawable/app_icon_default_bg" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="16.0sp"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/tv_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="52.0dip"
+        android:layout_marginEnd="12.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:id="@id/tv_name_right"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@id/tv_name"
+        app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
+    <View
+        android:id="@id/view"
+        android:tag="css/.split-line"
+        android:visibility="invisible"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_marginEnd="@dimen/ui_12_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name_right" />
+    <ImageView
+        android:id="@id/divide_line"
+        android:tag="css/.split-line"
+        android:layout_width="0.0dip"
+        android:layout_marginEnd="@dimen/ui_12_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        style="@style/AppGallery.Widget.Divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/margin_xl"
+    android:paddingEnd="@dimen/margin_xl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/event_card_desc_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginBottom="@dimen/margin_l">
+        <TextView
+            android:textSize="@dimen/emui_master_subtitle"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/event_card_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="Regular"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/margin_xl"
+            android:layout_toStartOf="@id/event_card_arrow" />
+        <ImageView
+            android:id="@id/event_card_arrow"
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+            android:layout_height="@dimen/appgallery_list_item_right_arrow_height"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.huawei.appgallery.forum.message.widget.SubReferenceView
+        android:id="@id/event_card_sub_reference_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_m" />
+    <View
+        android:id="@id/devider_line_bottom"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.detail.detailbase.common.RenderToggleButton
+        android:id="@id/toggle_item"
+        android:maxWidth="@dimen/detail_toggle_button_hot_word_max_width"
+        style="@style/AppGallery.Widget.Toggle" />
+</LinearLayout>

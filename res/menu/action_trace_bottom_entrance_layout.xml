@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/aguikit_ic_public_delete"
+        android:id="@id/actionbar_delete_button"
+        android:title="@string/purchasehistory_button_batch_delete"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/aguikit_ic_install"
+        android:id="@id/actionbar_install_button"
+        android:title="@string/purchasehistory_button_batch_install"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/aguikit_ic_public_family_share"
+        android:id="@id/actionbar_share_button"
+        android:title="@string/purchase_button_batch_family_share"
+        android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="@dimen/appgallery_max_padding_start"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/appgallery_max_padding_start"
+    android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+    app:clip_background="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/forum_product_constraintLayout"
+        android:background="@drawable/forum_post_product_card_background"
+        android:padding="@dimen/appgallery_max_padding_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/forum_product_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:src="@drawable/placeholder_base_right_angle"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:touch_drawable="@drawable/transparent" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/forum_product_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forum_product_icon"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/forum_product_intro"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forum_product_name"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <com.huawei.appgallery.forum.posts.view.CountDownLayout
+            android:orientation="horizontal"
+            android:id="@id/forum_product_countdown"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="8.0dip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forum_product_intro" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@drawable/forum_post_product_more_button_text_color"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/forum_product_more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:minWidth="64.0dip"
+            android:text="@string/forum_product_more"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forum_product_countdown"
+            style="@style/ProductHwButton" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/forum_product_promote_price"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="8.0dip"
+            app:hwAutoSizeMinTextSize="8.0dip"
+            app:hwAutoSizeStepGranularity="1.0dip"
+            app:layout_constraintBottom_toBottomOf="@id/forum_product_more_button"
+            app:layout_constraintEnd_toStartOf="@id/forum_product_more_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/forum_product_more_button"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

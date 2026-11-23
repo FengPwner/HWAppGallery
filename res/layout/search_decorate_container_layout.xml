@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/decorate_layout"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+        android:id="@id/guide_bar_recycleview"
+        android:paddingTop="@dimen/appgallery_card_elements_margin_s"
+        android:paddingBottom="12.0dip"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:bounceEnable="true" />
+    <View
+        android:id="@id/decorate_divider_line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/guide_bar_recycleview"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

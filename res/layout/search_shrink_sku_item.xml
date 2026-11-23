@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwtextview.widget.HwTextView
+    android:textSize="@dimen/emui_text_size_button3"
+    android:textColor="@color/appgallery_text_color_primary"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:id="@id/shrink_sku_item"
+    android:background="@drawable/search_app_sku_item_bg"
+    android:paddingTop="@dimen/appgallery_elements_margin_horizontal_m"
+    android:paddingBottom="@dimen/appgallery_elements_margin_horizontal_m"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="36.0dip"
+    android:singleLine="true"
+    android:fontFamily="@string/appgallery_text_font_family_medium"
+    android:paddingStart="@dimen/appgallery_elements_margin_horizontal_m"
+    android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_m"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

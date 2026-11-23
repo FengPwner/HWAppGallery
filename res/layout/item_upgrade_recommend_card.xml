@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:padding="@dimen/upgrade_recommendation_ui_8_dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/iv_app_icon"
+        android:layout_width="@dimen/upgrade_recommendation_ui_56_dp"
+        android:layout_height="@dimen/upgrade_recommendation_ui_56_dp"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/upgrade_recommendation_ui_12_dp">
+        <TextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:ellipsize="end"
+            android:id="@id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+        <TextView
+            android:textSize="@dimen/emui_text_size_caption"
+            android:ellipsize="end"
+            android:id="@id/tv_app_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/upgrade_recommendation_ui_4_dp"
+            android:maxLines="2" />
+    </LinearLayout>
+    <CheckBox
+        android:layout_gravity="center_vertical"
+        android:id="@id/cb_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

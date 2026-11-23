@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/search_hot_word_rank_item_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/layout_quick_search_item_layout_one"
+        android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_vertical"
+        layout="@layout/quick_search_app_item_card_layout" />
+    <include
+        android:id="@id/layout_quick_search_item_layout_two"
+        android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_vertical"
+        layout="@layout/quick_search_app_item_card_layout" />
+</LinearLayout>

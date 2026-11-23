@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/appgallery_default_corner_radius_m" />
+    <solid
+        android:color="@color/appgallery_color_toast_bg" />
+    <stroke
+        android:width="0.0px"
+        android:color="@color/appgallery_color_toast_bg" />
+</shape>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/forum_detail_list_item_top_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/section_info_container_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/forum_section_info_first_card"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            layout="@layout/forum_section_info_card" />
+        <View
+            android:id="@id/devider_line_center_vertical"
+            android:layout_height="40.0dip"
+            style="@style/AppGallery.Widget.Divider.Vertical" />
+        <include
+            android:id="@id/forum_section_info_second_card"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            layout="@layout/forum_section_info_card" />
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

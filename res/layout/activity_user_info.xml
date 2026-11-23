@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:id="@id/view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m">
+        <com.huawei.appmarket.service.usercenter.userinfo.view.widget.ReceiverInfoAddView
+            android:id="@id/user_addr_changed"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.huawei.appmarket.service.usercenter.userinfo.view.widget.ReceiverInfoAddViewOverSea
+            android:id="@id/user_addr_changed_oversea"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.huawei.appmarket.service.usercenter.userinfo.view.widget.MobilePhoneChangeView
+            android:id="@id/user_phone_changed"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.huawei.appmarket.service.usercenter.userinfo.view.widget.MobilePhoneChangeViewOverSea
+            android:id="@id/user_phone_changed_oversea"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

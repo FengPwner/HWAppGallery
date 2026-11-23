@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/protocoldialoglayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/scrollViewCenter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/res_textsize_13sp"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/protocol_text_textview_permissions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/ui_4_dp"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/protocol_text_textview_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/ui_4_dp"
+            android:layout_below="@id/protocol_text_textview_permissions" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/protocol_text_textview_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/protocol_text_textview_tip" />
+        <TextView
+            android:textSize="@dimen/res_textsize_13sp"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/protocol_oversea_more_info"
+            android:paddingTop="@dimen/appgallery_text_paragraph_margin_s"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/protocol_text_textview_other"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <TextView
+            android:textSize="@dimen/res_textsize_13sp"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/protocol_oversea_sign_info"
+            android:paddingTop="@dimen/appgallery_text_paragraph_margin_s"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/protocol_oversea_more_info"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </RelativeLayout>
+</LinearLayout>

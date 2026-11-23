@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/feedback_sdk_dialog_bg_shape"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/feedback_sdk_common_24_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_24_dip"
+        style="@style/feedback_sdk_margin_start_end_style">
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_sp_13"
+            android:textColor="@color/feedback_sdk_moreservice_text_color"
+            android:gravity="center_vertical"
+            android:id="@id/txtContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:text="@string/feedback_sdk_upload_flow" />
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_sp_13"
+            android:textColor="@color/feedback_sdk_text_normal_black_50"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+            android:text="@string/feedback_sdk_upload_flow_tips" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+            android:layout_marginBottom="@dimen/feedback_sdk_common_4_dip">
+            <TextView
+                android:textSize="@dimen/feedback_sdk_common_ui_sp_15"
+                android:textStyle="bold"
+                android:textColor="@color/emui_control_highlight"
+                android:gravity="center"
+                android:id="@id/btnNo"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/feedback_sdk_common_72_dp"
+                android:minHeight="56.0dip"
+                android:text="@string/feedback_sdk_common_no"
+                android:layout_weight="1.0"
+                android:textAllCaps="true"
+                android:fontFamily="HwChinese-medium" />
+            <View
+                android:background="@color/feedback_sdk_common_black_20"
+                android:layout_width="@dimen/feedback_sdk_divider_height"
+                android:layout_height="@dimen/feedback_sdk_common_28_dp" />
+            <TextView
+                android:textSize="@dimen/feedback_sdk_common_ui_sp_15"
+                android:textStyle="bold"
+                android:textColor="@color/emui_control_highlight"
+                android:gravity="center"
+                android:id="@id/btnYes"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/feedback_sdk_common_72_dp"
+                android:minHeight="56.0dip"
+                android:text="@string/feedback_sdk_common_yes"
+                android:layout_weight="1.0"
+                android:textAllCaps="true"
+                android:fontFamily="HwChinese-medium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

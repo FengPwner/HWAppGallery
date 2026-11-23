@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_card_icon_size_12_column"
+    android:paddingStart="@dimen/appgallery_default_padding_start"
+    android:paddingEnd="@dimen/appgallery_default_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@id/agguard_intercept_app_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:id="@id/agguard_intercept_item_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody3" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/agguard_intercept_app_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textDirection="locale"
+            android:layout_toStartOf="@id/agguard_intercept_item_data"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@color/appgallery_text_color_tertiary"
+        android:ellipsize="end"
+        android:id="@id/agguard_intercept_install_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textDirection="locale"
+        style="@style/AppGallery.TextAppearance.TextCaption" />
+    <LinearLayout
+        android:id="@id/agguard_intercept_describe_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_divider_vertical_height">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/agguard_high_risk_sign"
+            android:layout_width="@dimen/appgallery_card_elements_margin_l"
+            android:layout_height="@dimen/appgallery_card_elements_margin_l" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/agguard_intercept_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/agguard_intercept_divider"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

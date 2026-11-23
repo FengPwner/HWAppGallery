@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners
+                android:radius="@dimen/appgallery_default_corner_radius_l" />
+            <solid
+                android:color="@color/appgallery_color_card_panel_bg" />
+        </shape>
+    </item>
+    <item
+        android:left="@dimen/appgallery_drawable_padding_s"
+        android:top="@dimen/appgallery_drawable_padding_s"
+        android:right="@dimen/appgallery_drawable_padding_s"
+        android:bottom="@dimen/appgallery_drawable_padding_s">
+        <selector>
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_and_hover_layer"
+                android:state_activated="true"
+                android:state_hovered="true" />
+            <item
+                android:state_focused="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_and_hover_layer"
+                android:state_activated="true"
+                android:state_hovered="true" />
+            <item
+                android:state_focused="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_and_active_layer"
+                android:state_activated="true" />
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_and_hover_layer"
+                android:state_hovered="true" />
+            <item
+                android:state_focused="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_and_hover_layer"
+                android:state_hovered="true" />
+            <item
+                android:state_focused="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_layer" />
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_focus_layer" />
+            <item
+                android:drawable="@drawable/aguikit_round_rectangle_card_hover_layer"
+                android:state_hovered="true" />
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/aguikit_round_rectangle_card_press_layer" />
+            <item
+                android:drawable="@drawable/aguikit_round_rectangle_card_active_layer"
+                android:state_activated="true" />
+        </selector>
+    </item>
+</layer-list>

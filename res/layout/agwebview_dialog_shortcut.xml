@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60.0dip">
+        <ImageView
+            android:id="@id/icon_image_view"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginBottom="16.0dip"
+            android:src="@drawable/transparent"
+            android:scaleType="fitCenter" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agwebview_shortcut_dialog_content"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+    </LinearLayout>
+</ScrollView>

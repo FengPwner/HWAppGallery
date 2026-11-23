@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.phone.hwtextview.widget.HwTextView
+    android:textSize="@dimen/ui_10_dp"
+    android:textColor="@color/emui_color_9"
+    android:gravity="center"
+    android:id="@id/gift_flag"
+    android:background="@drawable/forum_post_title_stamp_bg_hot"
+    android:layout_width="wrap_content"
+    android:layout_height="14.0dip"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    android:paddingStart="@dimen/padding_s"
+    android:paddingEnd="@dimen/padding_s"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

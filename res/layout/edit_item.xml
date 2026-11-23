@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.forum.option.post.view.DeletableEditText
+    android:textSize="@dimen/appgallery_text_size_body1"
+    android:textColor="@color/appgallery_text_color_primary"
+    android:textColorHint="@color/appgallery_text_color_hint"
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="0.0dip"
+    android:cursorVisible="true"
+    android:includeFontPadding="false"
+    android:maxLength="10000"
+    android:imeOptions="flagNoExtractUi|flagNoFullscreen"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/horizonitemcontainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/wisedist_card_icon_size_large"
+        android:layout_height="@dimen/wisedist_card_icon_size_large"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <TextView
+        android:id="@id/adText"
+        android:layout_marginBottom="-8.0dip"
+        android:layout_marginEnd="-4.0dip"
+        app:layout_constraintBottom_toTopOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="@id/appicon"
+        app:layout_constraintVertical_bias="0.0"
+        style="@style/AdTextViewStyle" />
+    <ViewStub
+        android:id="@id/fastappicon"
+        android:layout="@layout/wisedist_fastappicon_layout"
+        android:layout_width="@dimen/hiappbase_card_fasticon_size_large"
+        android:layout_height="@dimen/hiappbase_card_fasticon_size_large"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="@id/appicon" />
+    <ViewStub
+        android:id="@id/horizon_line"
+        android:layout="@layout/aguikit_horizontal_line_layout"
+        android:layout_width="@dimen/ui_40_dp"
+        android:layout_height="1.5dip"
+        android:layout_marginTop="4.0dip"
+        app:layout_constraintEnd_toEndOf="@id/appicon"
+        app:layout_constraintStart_toStartOf="@id/appicon"
+        app:layout_constraintTop_toBottomOf="@id/appicon" />
+    <TextView
+        android:textSize="11.0sp"
+        android:ellipsize="end"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+    <ViewStub
+        android:id="@id/ItemTextViewStub"
+        android:layout="@layout/wisedist_tag_render_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle" />
+    <com.huawei.appgallery.search.api.view.AutoSearchDownloadButton
+        android:id="@id/downbtn"
+        android:tag="css/.download-button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/appicon"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

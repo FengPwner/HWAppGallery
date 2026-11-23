@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/video_landscape_view_stub"
+        android:layout="@layout/forum_post_detail_head_video"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+        android:textSize="20.0dip"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/post_title"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end" />
+    <RelativeLayout
+        android:id="@id/post_user_layout"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:minHeight="56.0dip"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.forum.cards.widget.UserHeadImageView
+            android:id="@id/post_user_icon"
+            android:focusable="false"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_centerVertical="true"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="@dimen/margin_l" />
+        <com.huawei.appgallery.forum.cards.widget.NickNameFakeView
+            android:id="@id/post_user_name_top_fake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/post_user_name_layout"
+            android:layout_alignBottom="@id/post_user_name_layout" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:id="@id/post_detail_follow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="64.0dip"
+            android:minHeight="28.0dip"
+            android:text="@string/forum_operation_unfollow"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/appgallery_elements_margin_horizontal_m"
+            android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_m"
+            android:layout_alignParentEnd="true"
+            app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+            app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            style="@style/AppGallery.Widget.Button.Small" />
+        <RelativeLayout
+            android:id="@id/post_user_name_layout"
+            android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+            android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/post_detail_follow_btn"
+            android:layout_toEndOf="@id/post_user_icon">
+            <com.huawei.appgallery.forum.cards.widget.UserInfoTextView
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/post_user_info_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_xs"
+                android:layout_alignParentStart="true" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_user_info_view">
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/post_section_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    app:layout_constrainedWidth="true"
+                    app:layout_constraintEnd_toStartOf="@id/guideline"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/post_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_marginStart="8.0dip"
+                    app:layout_constrainedWidth="true"
+                    app:layout_constraintEnd_toStartOf="@id/guideline2"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/post_section_name"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/post_ip"
+                    android:visibility="visible"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="8.0dip"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/post_time"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                <androidx.constraintlayout.widget.Guideline
+                    android:orientation="vertical"
+                    android:id="@id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintGuide_end="140.0dip" />
+                <androidx.constraintlayout.widget.Guideline
+                    android:orientation="vertical"
+                    android:id="@id/guideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintGuide_end="60.0dip" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/post_banned_tips"
+        android:background="@color/forum_post_tips_bg_color"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_subheader_default_height_single_text_line"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/forum_error_icon_size_large"
+            android:layout_height="@dimen/forum_error_icon_size_large"
+            android:src="@drawable/aguikit_ic_public_error"
+            android:tint="@color/forum_post_warning_color" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/forum_post_warning_color"
+            android:layout_gravity="center_vertical"
+            android:id="@id/post_banned_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_post_banned_tips"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/post_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end" />
+    <TextView
+        android:gravity="center"
+        android:id="@id/post_detail_tips_provider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/post_ai_tips"
+        android:paddingTop="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="24.0dip"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            android:src="@drawable/aguikit_ic_public_error"
+            app:tint="@color/appgallery_text_color_secondary" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:layout_gravity="center_vertical"
+            android:id="@id/post_ai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

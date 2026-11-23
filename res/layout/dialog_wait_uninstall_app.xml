@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/hiappbase_loading_dialog_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/appgallery_card_elements_margin_xl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/wait_uninstalling"
+            android:layout_weight="1.0"
+            style="@style/AppGallery.TextAppearance.Card.SubTitle2" />
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_width="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_height="@dimen/appgallery_card_elements_margin_xl" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/forum_launcher_msg_tip_card_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/forum_launcher_msg_tip_card_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forum_img_inf_rem"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:layout_marginBottom="32.0dip"
+        android:text="@string/forum_launcher_msg_setting_tip"
+        android:paddingStart="24.0dip"
+        android:paddingEnd="24.0dip"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</LinearLayout>

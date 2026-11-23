@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/faq_sdk_upload_log"
+        android:orderInCategory="1"
+        android:title="@string/faq_sdk_upload_log"
+        android:showAsAction="never" />
+    <item
+        android:icon="@drawable/faq_sdk_share_menu_btn"
+        android:id="@id/faq_sdk_menu_sendto"
+        android:orderInCategory="1"
+        android:title="@string/faq_sdk_manual_detail_share"
+        android:showAsAction="always" />
+</menu>

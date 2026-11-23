@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.huawei.uikit.phone.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/detail_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/head_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/head_icon"
+                    android:layout_width="228.0dip"
+                    android:layout_height="228.0dip" />
+                <include
+                    android:visibility="gone"
+                    layout="@layout/service_zone_change_image_error" />
+            </LinearLayout>
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_text_size_dialog_title"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginBottom="8.0dip"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/suggestions_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24.0dip"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:id="@id/impact_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/impact_texts_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </com.huawei.uikit.phone.hwcolumnlayout.widget.HwColumnLinearLayout>
+    </ScrollView>
+    <com.huawei.uikit.phone.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/button_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="24.0dip">
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/exit_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/hwbutton_default_height"
+            android:text="@string/exit_cancel"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            android:textAllCaps="true"
+            android:layout_marginEnd="12.0dip"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            style="@style/Widget.Emui.HwButton" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/confirm_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/hwbutton_default_height"
+            android:text="@string/exit_confirm"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            android:textAllCaps="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            style="@style/Widget.Emui.HwButton.Emphasize" />
+    </com.huawei.uikit.phone.hwcolumnlayout.widget.HwColumnLinearLayout>
+</LinearLayout>

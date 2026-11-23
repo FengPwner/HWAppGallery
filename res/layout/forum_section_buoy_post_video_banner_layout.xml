@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:id="@id/post_video_corner_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:round_corner="@dimen/appgallery_default_corner_radius_m"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.videokit.api.WiseVideoView
+        android:id="@id/post_video"
+        android:tag="@string/properties_video_contentDescription"
+        android:background="@android:color/transparent"
+        android:layout="@layout/forum_section_post_banner_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:isInBuoy="true"
+        app:media_type="0"
+        app:view_type="0" />
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

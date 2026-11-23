@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.phone.hwbottomsheet.widget.HwBottomSheet
+    android:gravity="bottom"
+    android:id="@id/sliding_layout"
+    android:background="#4dffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:hwAnchorPoint="0.0"
+    app:hwColumnEnabled="true"
+    app:hwDragContentView="@id/dragView"
+    app:hwDragView="@id/sliding_layout"
+    app:hwForceShowIndicateEnable="false"
+    app:hwIndicateEnable="false"
+    app:hwInitialState="expanded"
+    app:hwLayoutType="layout_overlay"
+    app:hwScrollableView="@id/scroll_layout"
+    app:hwSheetHeight="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/dragView"
+        android:background="@drawable/fa_add_reminder_bg"
+        android:focusable="false"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/dragcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                android:id="@id/content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/fa_add_reminder_content" />
+        </LinearLayout>
+    </FrameLayout>
+</com.huawei.uikit.phone.hwbottomsheet.widget.HwBottomSheet>

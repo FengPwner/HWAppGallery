@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_top_margin_default"
+        android:layout_marginBottom="@dimen/appgallery_card_bottom_margin_default"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/small_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/wisedist_image"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+        <ImageView
+            android:id="@id/close_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/wisedist_close_icon"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/wisedist_close"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

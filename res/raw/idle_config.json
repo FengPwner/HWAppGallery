@@ -1,0 +1,70 @@
+{
+  "frontList": [
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.OpenAutoUpdateCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.ProtocolStatusCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.SilentInstallationPermissionCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.RecommendUpdateAppCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.UpdateFrequencyCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.NetworkComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.TemperatureComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.CpuUsageCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.BatteryComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.PowerComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.InactiveModelCondition"
+  ],
+  "interruptList": [
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.AutoUpdateSwitchCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.ProtocolStatusCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.UserPauseCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.NetComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.TemperatureComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.PowerCheckBeginUpdateCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadTrafficLimitCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadingTaskCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadServiceStatusCondition"
+  ],
+  "skipList": [
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.AppTypeCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.AICloudPriorityCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadStatusCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.NetworkSwitchCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.IgnoreUpdateAPPCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.LatestVersionAppCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.StopAppCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.UninstallAPPCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.WifiLevelCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.EstimatedPowerCheckCondition"
+  ],
+  "installFrontList": [
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.InstallUpdateCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.CpuUsageCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.BatteryComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.PowerComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.TemperatureComplianceCondition"
+  ],
+  "reserveBanList": [
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.ProtocolStatusCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.UserCancelCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.UserPauseConditionV2",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.AICloudPriorityCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.IgnoreUpdateAPPCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.LatestVersionAppCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.StopAppCondition"
+  ],
+  "reservePauseList": [
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.BatteryComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.PowerComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.AutoUpdateSwitchCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.NetComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.TemperatureComplianceCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.PowerCheckBeginUpdateCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadTrafficLimitCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadingTaskCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadServiceStatusCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.AppTypeCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.DownloadStatusCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.NetworkSwitchCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.WifiLevelCondition",
+    "com.huawei.appgallary.idleupdate.service.condition.conditionpool.EstimatedPowerCheckCondition"
+  ]
+}

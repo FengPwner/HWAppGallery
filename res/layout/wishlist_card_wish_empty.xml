@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center"
+    android:id="@id/wishlist_wish_empty_layout"
+    android:paddingTop="@dimen/ui_24_dp"
+    android:paddingBottom="@dimen/ui_24_dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/wishlist_wish_empty_imageview"
+        android:background="@drawable/ic_search_app_empty"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:layout_centerVertical="true" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/wishlist_wish_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/wishlist_wish_empty_imageview">
+        <TextView
+            android:id="@id/wishlis_empty_content_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wishlist_string_wish_search_no_match_content"
+            android:paddingStart="12.0dip"
+            style="@style/AppGallery.TextAppearance.NoData" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:id="@id/wishlist_wish_empty_content_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wishlist_string_wish_empty_content"
+            android:textAllCaps="false"
+            android:layout_marginStart="4.0dip"
+            style="@style/Widget.Emui.HwButton.Borderless.Small" />
+    </LinearLayout>
+</RelativeLayout>

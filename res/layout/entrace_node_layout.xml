@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/entrace_container_layout"
+    android:tag="@string/bannerImage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/blank_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ui_8_dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/image_container_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        android:visibility="gone"
+        layout="@layout/wisedist_interac_container" />
+</LinearLayout>

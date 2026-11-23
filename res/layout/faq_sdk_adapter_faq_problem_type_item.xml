@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/faq_sdk_list_item_selector"
+    android:paddingBottom="@dimen/faq_sdk_ui_8_dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/emui_text_size_headline2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/faq_prombletype_Iv"
+        android:layout_width="@dimen/faq_sdk_ui_40_dip"
+        android:layout_height="@dimen/faq_sdk_ui_40_dip"
+        android:layout_marginTop="@dimen/faq_sdk_ui_8_dip" />
+    <TextView
+        android:textSize="@dimen/emui_text_size_body3"
+        android:textColor="@color/emui_color_primary"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@id/faq_prombletype_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/faq_sdk_ui_8_dip"
+        android:maxLines="5"
+        android:fontFamily="@string/emui_text_font_family_regular"
+        android:layout_marginStart="@dimen/emui_dimens_element_vertical_middle"
+        android:layout_marginEnd="@dimen/emui_dimens_element_vertical_middle" />
+</LinearLayout>

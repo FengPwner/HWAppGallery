@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/hori_parent"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/appList_ItemTitle_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/subheader_viewgroup_style">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_weight="2.0"
+            style="@style/subheader_title_style" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/more_layout"
+            android:visibility="visible"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="@style/subheader_more_viewgroup_style">
+            <TextView
+                android:id="@id/more_btn"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_more_btn"
+                style="@style/subheader_more_style" />
+            <ImageView
+                android:id="@id/btn_more_image"
+                android:clickable="false"
+                android:src="@drawable/ic_arrow_right_subheader"
+                style="@style/subheader_arrow_size" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+        android:id="@id/AppListItem"
+        android:scrollbars="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_m"
+        android:paddingEnd="@dimen/margin_m"
+        app:bounceEnable="true" />
+</LinearLayout>

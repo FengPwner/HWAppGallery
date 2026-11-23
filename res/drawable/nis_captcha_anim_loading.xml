@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a1" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a2" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a3" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a4" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a5" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a6" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a7" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a8" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a9" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a10" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a11" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a12" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a13" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a14" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a15" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a16" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a17" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a18" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a19" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a20" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a21" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a22" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a23" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a24" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a25" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a26" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/captcha_a27" />
+</animation-list>

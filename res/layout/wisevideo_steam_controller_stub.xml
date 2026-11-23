@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loading"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip" />
+    </LinearLayout>
+</RelativeLayout>

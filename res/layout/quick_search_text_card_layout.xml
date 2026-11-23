@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/list_item_all_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44.0dip"
+        android:layout_centerVertical="true"
+        style="@style/AppGallery.Widget.List.SingleTextLine">
+        <ImageView
+            android:id="@id/imageViewinAutoCompleteListView"
+            android:layout_width="@dimen/search_ui_16_dp"
+            android:layout_height="@dimen/search_ui_16_dp"
+            android:layout_centerVertical="true" />
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/auto_complete_content"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:id="@id/textViewinAutoCompleteListView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="locale"
+                android:layout_marginStart="@dimen/search_ui_16_dp"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+            <ViewStub
+                android:id="@id/auto_text_sign_viewstub"
+                android:layout="@layout/auto_test_sign_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/appgallery_card_elements_margin_s" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+        <ViewStub
+            android:id="@id/auto_complete_flagName_viewstub"
+            android:layout="@layout/auto_text_right_flag_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/search_ui_16_dp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/divide_line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/size_48dp"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

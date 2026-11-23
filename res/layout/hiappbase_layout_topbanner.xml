@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/topbannerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@id/firstFl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="8.0dip">
+            <ImageView
+                android:id="@id/backPicture"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:gravity="end"
+            android:id="@id/mainLL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@id/mainPictureImg"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:layout_alignParentBottom="true"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/commodityLL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:paddingStart="@dimen/banner_bg_margin_16"
+            android:paddingEnd="@dimen/banner_bg_margin_16">
+            <ImageView
+                android:id="@id/commodity"
+                android:layout_width="52.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginBottom="40.0dip"
+                android:scaleType="fitXY"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@id/promotion_sign"
+                android:background="@drawable/promotion_sign_bg_bannerv9"
+                android:layout_marginBottom="18.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/margin_s"
+                android:layout_alignParentEnd="true"
+                style="@style/promotion_sign_style_banner" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

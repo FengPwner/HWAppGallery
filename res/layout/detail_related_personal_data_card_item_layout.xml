@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/img_related_personal_data_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/txt_related_personal_data_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_related_personal_data_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16.0dip"
+        style="@style/detail_card_privacy_intro_item_title" />
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/apkmanagementlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tooltype="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/management_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                android:id="@id/title_portrait"
+                android:visibility="gone"
+                layout="@layout/apk_management_hispace_title_emui_module" />
+            <include
+                android:id="@id/title_land"
+                android:visibility="gone"
+                layout="@layout/apk_management_hispace_title_emui_land_module" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:id="@id/nodatalayout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/title">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/nodata_option_bottom_layout">
+                <include
+                    android:id="@id/no_data_layout_loading"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                    android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                    layout="@layout/activity_apk_management_loading_module" />
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:id="@id/nodataIcon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true">
+                    <ImageView
+                        android:id="@id/warn_image"
+                        android:src="@drawable/no_search_result"
+                        android:layout_centerHorizontal="true"
+                        style="@style/AppGallery.ImageSize.NoData" />
+                    <TextView
+                        android:id="@id/wran_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apkmanagement_no_apks"
+                        android:layout_below="@id/warn_image"
+                        android:layout_centerHorizontal="true"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/nodata_option_bottom_layout"
+                android:background="@color/appgallery_color_toolbar_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/appgallery_hwtoolbar_split_menu_height"
+                android:layout_alignParentBottom="true">
+                <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                    android:gravity="center"
+                    android:id="@id/actionbar_refresh_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    tooltype:tooltype="refresh" />
+                <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                    android:gravity="center"
+                    android:id="@id/actionbar_clean_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    tooltype:tooltype="clean" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/showdatalayout"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/title">
+            <LinearLayout
+                android:gravity="center"
+                android:id="@id/option_bottom_layout_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/option_bottom_layout"
+                    android:background="@color/appgallery_color_toolbar_bg"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/appgallery_hwtoolbar_split_menu_height">
+                    <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                        android:gravity="center"
+                        android:id="@id/localpkg_refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        tooltype:tooltype="refresh" />
+                    <com.huawei.appgallery.foundation.ui.framework.widget.toolbar.ToolBarIcon
+                        android:gravity="center"
+                        android:id="@id/delete_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        tooltype:tooltype="clean" />
+                </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+            </LinearLayout>
+            <ListView
+                android:id="@id/apk_list"
+                android:paddingTop="@dimen/appgallery_card_elements_margin_m"
+                android:paddingBottom="@dimen/appgallery_card_elements_margin_xl"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:listSelector="@android:color/transparent"
+                android:divider="@null"
+                android:dividerHeight="0.0dip"
+                android:layout_above="@id/list_view_footer"
+                android:paddingStart="@dimen/appgallery_max_padding_start"
+                android:paddingEnd="@dimen/appgallery_max_padding_end" />
+            <com.huawei.uikit.phone.hwscrollbarview.widget.HwScrollbarView
+                android:layout_gravity="end"
+                android:id="@id/app_install_listview_scrollbar"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/list_view_footer"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.Emui.HwScrollbarView" />
+            <include
+                android:id="@id/list_view_footer"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/option_bottom_layout_content"
+                layout="@layout/activity_apk_management_footer_module" />
+        </RelativeLayout>
+        <include
+            android:id="@id/apkloadingfragment"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/title"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+            layout="@layout/activity_apk_management_loading_module" />
+    </RelativeLayout>
+</RelativeLayout>

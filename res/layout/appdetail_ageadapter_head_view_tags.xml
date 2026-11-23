@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/appgallery_card_elements_margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/rl_one_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.MultiLineLabelLayout
+            android:id="@id/detail_label_layout_framelayout_one"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="24.0"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/appgallery_card_icon_size_small"
+            android:layout_weight="2.0"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l">
+            <LinearLayout
+                android:gravity="end|center"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/detail_desc_folding_imageview_one"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/component_detail_head_game_open">
+                <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+                    android:background="@drawable/ic_public_arrow_down_900"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/rl_two_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.MultiLineLabelLayout
+            android:id="@id/detail_label_layout_framelayout_two"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="24.0"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/appgallery_card_icon_size_small"
+            android:layout_weight="2.0"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l">
+            <LinearLayout
+                android:gravity="end|center"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/detail_desc_folding_imageview_two"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/component_detail_head_game_folded">
+                <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+                    android:background="@drawable/ic_public_arrow_up_900"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

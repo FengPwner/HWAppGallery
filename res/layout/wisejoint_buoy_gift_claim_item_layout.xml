@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+    android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="@dimen/appgallery_card_height_three_text_lines"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/lable_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/label_new" />
+    <ImageView
+        android:id="@id/gifts_icon"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:src="@drawable/bg_perch_icon"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12.0dip" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/gifts_right_middle_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.0dip"
+        android:layout_marginBottom="6.0dip"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/gifts_icon">
+        <com.huawei.gamebox.service.welfare.gift.widget.GiftClaimButton
+            android:textSize="@dimen/emui_master_body_2"
+            android:ellipsize="end"
+            android:id="@id/gifts_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:minWidth="64.0dip"
+            android:maxLines="1"
+            android:layout_alignTop="@id/right_top_layout"
+            android:textAllCaps="true"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_alignParentEnd="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/Buoy.Widget.Emui.HwButton" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/right_top_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:layout_toStartOf="@id/gifts_btn">
+            <TextView
+                android:textColor="@color/buoy_emui_primary"
+                android:ellipsize="end"
+                android:id="@id/gifts_title_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:alpha="1.0"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip">
+                <TextView
+                    android:textColor="@color/buoy_emui_color_gray_7"
+                    android:ellipsize="end"
+                    android:id="@id/gifts_stock_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gift_stock_show"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                <TextView
+                    android:textColor="@color/buoy_emui_color_gray_7"
+                    android:ellipsize="end"
+                    android:id="@id/gifts_level_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gift_level_show"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/buoy_emui_color_gray_7"
+            android:ellipsize="end"
+            android:id="@id/gifts_describe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_below="@id/right_top_layout"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </RelativeLayout>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/devider_line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/gifts_right_middle_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

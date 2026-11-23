@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/tv_what_is_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appcommon_what_is_fa"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Primary.Medium" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/appgallery_text_color_hint"
+        android:id="@id/tv_what_is_card_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/appcommon_explain_what_is_fa"
+        app:layout_constraintTop_toBottomOf="@id/tv_what_is_card" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/tv_edit_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.0dip"
+        android:text="@string/appcommon_fa_card_management"
+        app:layout_constraintTop_toBottomOf="@id/tv_what_is_card_desc"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Primary.Medium" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/appgallery_text_color_hint"
+        android:id="@id/tv_edit_card_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/appcommon_explain_fa_card_management"
+        app:layout_constraintTop_toBottomOf="@id/tv_edit_card" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/tv_card_operation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.0dip"
+        android:text="@string/appcommon_card_contact_us"
+        app:layout_constraintTop_toBottomOf="@id/tv_edit_card_desc"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Primary.Medium" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/appgallery_text_color_hint"
+        android:id="@id/tv_card_operation_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/appcommon_explain_card_contact_us"
+        app:layout_constraintTop_toBottomOf="@id/tv_card_operation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

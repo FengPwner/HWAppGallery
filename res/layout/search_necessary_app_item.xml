@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/search_necessary_app_item"
+    android:paddingBottom="@dimen/appgallery_card_elements_margin_l"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/app_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginTop="@dimen/margin_m"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="@dimen/margin_m"
+            app:corner_type="appicon"
+            app:round_type="all" />
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:gravity="end|center|top"
+            android:layout_gravity="end|center|top"
+            android:id="@id/check_img"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:importantForAccessibility="yes"
+            style="@style/Emui.CheckBox.IconSelect" />
+    </FrameLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@id/app_name"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:maxLines="1"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="@dimen/margin_m"
+        style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/report_title_backbtn_container"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="@dimen/component_detail_report_title_btncontainer_with"
+        android:layout_height="@dimen/tab_column_height"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/click_back"
+        android:layout_marginStart="@dimen/component_detail_report_title_backbtn_startmargin"
+        android:layout_marginEnd="@dimen/component_detail_report_title_backbtn_endmargin"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/report_title_backbtn"
+            android:background="@drawable/aguikit_ic_public_back"
+            android:layout_width="@dimen/component_detail_report_title_backbtn_width"
+            android:layout_height="@dimen/component_detail_report_title_backbtn_width" />
+    </FrameLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:id="@id/report_title_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:textAlignment="viewStart"
+        android:layout_toEndOf="@id/report_title_backbtn_container"
+        style="@style/AppGallery.Widget.Toolbar.Title" />
+</RelativeLayout>

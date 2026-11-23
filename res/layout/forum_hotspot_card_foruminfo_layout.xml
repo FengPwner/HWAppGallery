@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/forum_hotspot_info_linearlayout_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/forum_hotspot_icon_name_container"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.4"
+        android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_m">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/forum_hottopic_forumicon_imageview"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+            app:corner_type="appicon"
+            app:round_type="all" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/forum_hottopic_forumname_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:focusable="true"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:paddingStart="@dimen/appgallery_elements_margin_horizontal_m">
+        <LinearLayout
+            android:gravity="end|center"
+            android:orientation="horizontal"
+            android:id="@id/forum_hotspot_forum_info_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@id/hottopic_authimg"
+                android:layout_width="12.0dip"
+                android:layout_height="12.0dip"
+                android:layout_marginStart="@dimen/margin_xs" />
+            <View
+                android:id="@id/hottopic_first_dots"
+                android:background="@drawable/forum_hotspot_dots_bg"
+                android:layout_width="2.0dip"
+                android:layout_height="2.0dip"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption_fixed"
+                android:textColor="@color/appgallery_text_color_tertiary"
+                android:id="@id/hottopic_like_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <View
+                android:id="@id/hottopic_second_dots"
+                android:background="@drawable/forum_hotspot_dots_bg"
+                android:layout_width="2.0dip"
+                android:layout_height="2.0dip"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption_fixed"
+                android:textColor="@color/appgallery_text_color_tertiary"
+                android:id="@id/hottopic_reply_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_caption_fixed"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@id/hottopic_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_toStartOf="@id/forum_hotspot_forum_info_container" />
+    </RelativeLayout>
+</LinearLayout>

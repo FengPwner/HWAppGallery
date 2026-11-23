@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/ll_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:layout_marginBottom="24.0dip">
+        <View
+            android:background="@color/appcomment_black_20"
+            android:layout_width="12.0dip"
+            android:layout_height="1.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hiappbase_list_footer_no_more_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip" />
+        <View
+            android:background="@color/appcomment_black_20"
+            android:layout_width="12.0dip"
+            android:layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

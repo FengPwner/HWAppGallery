@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/wisejoint_card_icon_size_large"
+        android:layout_height="@dimen/wisejoint_card_icon_size_large"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <TextView
+        android:textSize="12.0sp"
+        android:ellipsize="end"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+    <TextView
+        android:textSize="10.0sp"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/ItemText"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle"
+        style="@style/AppGallery.TextAppearance.Card.TextBody4.Fixed.Secondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

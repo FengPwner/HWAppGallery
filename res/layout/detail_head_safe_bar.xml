@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/corner"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/detail_card_safe_bar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/detail_pull_down_bar"
+        android:background="@drawable/drop_down_bar"
+        android:layout_width="@dimen/detail_drop_down_bar_width"
+        android:layout_height="@dimen/detail_drop_down_bar_height" />
+</LinearLayout>

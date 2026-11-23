@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/appdetail_extendv2_word_layout_bg"
+        android:padding="@dimen/appgallery_card_elements_margin_l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8.0dip"
+        android:importantForAccessibility="no">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:importantForAccessibility="yes"
+                android:layout_marginEnd="@dimen/appgallery_safety_margin_m">
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_extend_v2_van_attend"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_extend_v2_van_attend_value"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.0dip"
+                    android:maxLines="1"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:importantForAccessibility="yes">
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_extend_v2_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_extend_v2_type_value"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.0dip"
+                    android:maxLines="1"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/ll_detail_extend_v2_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_l">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/detail_extend_v2_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textDirection="locale"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+            <FrameLayout
+                android:id="@id/detail_extend_v2_desc_body_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip">
+                <com.huawei.appgallery.detail.detailbase.common.FoldingTextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_extend_v2_desc_value"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+                <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+                    android:layout_gravity="end|bottom|center"
+                    android:id="@id/detail_extend_v2_arrow_imageview"
+                    android:background="@drawable/ic_public_arrow_down_900"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/component_detail_head_game_open"
+                    android:textDirection="locale" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

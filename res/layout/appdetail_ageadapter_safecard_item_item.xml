@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_card_icon_size_small"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/detail_head_app_icon_imageview"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip" />
+        <TextView
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/detail_safe_desc_textview"
+            android:paddingTop="@dimen/padding_m"
+            android:paddingBottom="@dimen/padding_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_m"
+            style="@style/detail_card_introduce_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@id/safe_checker_label"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/detail_card_introduce_content" />
+    <TextView
+        android:id="@id/safe_checker_textview"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/detail_card_introduce_content" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:id="@id/second_desc"
+        android:paddingBottom="@dimen/padding_m"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32.0dip"
+        android:layout_marginEnd="@dimen/padding_m"
+        style="@style/detail_card_introduce_content" />
+    <ImageView
+        android:id="@id/divide_line"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

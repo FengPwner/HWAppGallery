@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/forum_vote_container"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16.0dip"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/vote_title_text"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:importantForAccessibility="yes"
+        android:fontFamily="@string/appgallery_text_font_family_medium" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:id="@id/vote_select_mode_text"
+            android:focusable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:importantForAccessibility="yes"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/total_voter_layout"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes">
+            <ImageView
+                android:id="@id/total_voter_icon"
+                android:layout_width="12.0dip"
+                android:layout_height="12.0dip"
+                android:src="@drawable/ic_public_contacts_group_filled"
+                android:contentDescription="@string/forum_base_str_image" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body3"
+                android:textColor="@color/appgallery_text_color_tertiary"
+                android:id="@id/total_voter_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+    <com.huawei.appgallery.forum.operation.report.view.widget.NoScrollListView
+        android:id="@id/vote_option_listview"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/appgallery_color_card_panel_bg"
+        android:divider="@null" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_tertiary"
+        android:id="@id/vote_expire_time_text"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:importantForAccessibility="yes"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/ll_vote_join_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip"
+        android:weightSum="3.0">
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:id="@id/vote_join_button"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/hiappbase_horizon_tab_item_height"
+            android:text="@string/forum_post_vote_jion"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/forum_post_vote_jion"
+            style="@style/PostVoteButton" />
+    </LinearLayout>
+</LinearLayout>

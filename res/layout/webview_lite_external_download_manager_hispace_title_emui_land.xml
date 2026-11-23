@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+    android:gravity="start|center"
+    android:orientation="horizontal"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/permit_app_kit_downloads_arrow_layout"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:contentDescription="@string/click_back"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip">
+        <ImageView
+            android:id="@id/up"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/ic_appbar_back" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:id="@id/apkmanagement_content_linearlayout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/margin_s">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/title_text_land"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webview_lite_external_download_manager_title"
+            app:hwAutoSizeMinTextSize="@dimen/hwappbarpattern_title_min_text_size"
+            app:hwAutoSizeStepGranularity="@dimen/hwappbarpattern_title_textsize_step"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </LinearLayout>
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+        android:gravity="center"
+        android:id="@id/btn_clear_image"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+        android:contentDescription="@string/webview_lite_external_download_manager_clear"
+        android:layout_marginEnd="@dimen/margin_s"
+        app:popupTitle="@string/webview_lite_external_download_manager_clear">
+        <ImageView
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/webview_lite_ic_download_manager_clear" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+</com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>

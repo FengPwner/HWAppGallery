@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailbase.animator.CustomNestedScrollView
+    android:tag="body_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/detail_head_safe_bar"
+            layout="@layout/detail_head_safe_bar" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_head_linearlayout"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1.0dip" />
+        <com.huawei.appgallery.detail.detailbase.widget.DetailSubTabWidget
+            android:layout_gravity="center_horizontal"
+            android:id="@id/agdetail_subtab"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Emui.HwSubTabBar" />
+        <ViewStub
+            android:id="@id/loading_layout_view_stub"
+            android:layout="@layout/detail_loading_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:id="@id/appdetail_no_data_view"
+            android:layout="@layout/loading_fragment_no_wifi"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/component_detail_loading_margin_top" />
+        <ViewStub
+            android:id="@id/app_detail_pages_viewpager_view_stub"
+            android:layout="@layout/detail_pages_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.huawei.appgallery.detail.detailbase.animator.CustomNestedScrollView>

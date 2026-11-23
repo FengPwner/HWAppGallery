@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/fixed_search_view"
+        android:paddingTop="@dimen/hwsearchview_search_bar_padding"
+        android:paddingBottom="@dimen/hwsearchview_search_bar_padding"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/hwsearchview_preferred_height">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/search_bar"
+            android:background="@drawable/hwsearchview_shape_normal_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/hwsearchview_search_plate_padding_start"
+            android:paddingEnd="@dimen/emui_dimens_text_margin_fourth">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/fixed_search_icon"
+                android:focusable="false"
+                android:visibility="visible"
+                android:clickable="false"
+                android:layout_width="@dimen/hwsearchview_src_icon_width"
+                android:layout_height="@dimen/hwsearchview_src_icon_width"
+                android:src="@drawable/hwsearchview_ic_public_search"
+                android:tint="@color/emui_color_secondary"
+                android:alpha="@dimen/hwsearchview_src_icon_alpha"
+                android:layout_marginStart="0.0dip"
+                android:layout_marginEnd="@dimen/emui_dimens_text_margin_fourth" />
+            <TextSwitcher
+                android:gravity="start|center"
+                android:id="@id/text_switcher"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/hwsearchview_src_text_height" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

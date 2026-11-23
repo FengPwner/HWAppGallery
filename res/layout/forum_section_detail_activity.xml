@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/forum_section_title_layout"
+        layout="@layout/forum_section_loading_title" />
+    <RelativeLayout
+        android:id="@id/forum_detail_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/forum_section_title_layout" />
+    <com.huawei.appgallery.forum.section.actionbar.SectionActionBar
+        android:layout_gravity="top"
+        android:id="@id/forum_section_custombar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

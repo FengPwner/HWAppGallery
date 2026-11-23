@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_round_rectangle_card_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/sub_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/sub_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="2"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/item_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/item_app_first"
+            android:layout="@layout/search_special_topic_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/item_app_second"
+            android:layout="@layout/search_special_topic_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/item_app_third"
+            android:layout="@layout/search_special_topic_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/item_app_first_ageadapter"
+            android:layout="@layout/search_ageadapter_special_topic_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/item_app_second_ageadapter"
+            android:layout="@layout/search_ageadapter_special_topic_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/item_app_third_ageadapter"
+            android:layout="@layout/search_ageadapter_special_topic_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:id="@id/divide_line"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

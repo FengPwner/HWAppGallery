@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/agguard_risk_detail_app_info_layout_0"
+    android:paddingTop="16.0dip"
+    android:paddingBottom="16.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:tag="binding_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/agguard_risk_detail_app_icon"
+            android:tag="binding_2"
+            android:focusable="false"
+            android:layout_width="72.0dip"
+            android:layout_height="72.0dip"
+            android:scaleType="centerCrop"
+            app:round_type="all" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_color_primary"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:id="@id/agguard_risk_detail_app_name"
+            android:tag="binding_3"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/agguard_risk_detail_sec_control_status_layout"
+            android:tag="binding_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+            <ImageView
+                android:id="@id/agguard_risk_detail_sec_control_res_img"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="19.0dip"
+                android:layout_height="19.0dip"
+                android:src="@drawable/agguard_uninstall_success_icon"
+                android:layout_marginEnd="8.0dip" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:gravity="center"
+                android:id="@id/agguard_risk_detail_sec_control_res_desc"
+                android:tag="binding_5"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/agguard_risk_detail_uninstall_status_layout"
+            android:tag="binding_6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+            <ImageView
+                android:id="@id/agguard_risk_detail_uninstall_res_img"
+                android:tag="binding_7"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="19.0dip"
+                android:layout_height="19.0dip"
+                android:layout_marginEnd="8.0dip" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:id="@id/agguard_risk_detail_uninstall_res_desc"
+                android:tag="binding_8"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

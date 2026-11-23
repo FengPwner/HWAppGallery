@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/wisedist_bilobalistcard_relativelayout"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/promotion_sign_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginBottom="@dimen/margin_m">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:layout_gravity="center"
+            android:id="@id/appicon"
+            android:background="@drawable/card_gray_bg_with_corner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+            app:round_type="all" />
+        <TextView
+            android:id="@id/promotion_sign"
+            android:background="@drawable/promotion_sign_bg_bannerv9"
+            android:layout_marginBottom="@dimen/margin_s"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_alignParentEnd="true"
+            style="@style/promotion_sign_style_banner" />
+    </RelativeLayout>
+</RelativeLayout>

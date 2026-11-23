@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/sv_search_history"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="always">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <RelativeLayout
+                android:id="@id/rl_search_delete"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/faq_sdk_ui_8_dip"
+                android:minHeight="@dimen/faq_sdk_listitem_height"
+                android:layout_marginStart="@dimen/emui_dimens_max_start"
+                android:layout_marginEnd="@dimen/emui_dimens_max_end">
+                <TextView
+                    android:textSize="15.0sp"
+                    android:textColor="@color/module_base_label_text_color_normal"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:id="@id/search_history_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8.0dip"
+                    android:text="@string/faq_sdk_search_history_title"
+                    android:maxLines="2"
+                    android:layout_alignParentBottom="true"
+                    android:textAllCaps="true"
+                    android:textAlignment="viewStart"
+                    android:layout_toStartOf="@id/iv_search_delete" />
+                <TextView
+                    android:textSize="13.0sp"
+                    android:textColor="@color/faq_emui_accent"
+                    android:gravity="start"
+                    android:id="@id/iv_search_delete"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faq_sdk_search_clean_up"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <com.huawei.phoneservice.faq.widget.FaqAutoNextLineLinearLayout
+                android:id="@id/ll_search_history"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/emui_dimens_max_start"
+                android:layout_marginEnd="@dimen/emui_dimens_max_end"
+                app:faqGravity="start"
+                app:faqHorizontal_Space="8.0dip"
+                app:faqIsFull="false"
+                app:faqVertical_Space="12.0dip" />
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="@color/module_base_label_text_color_normal"
+                android:gravity="start|bottom|center"
+                android:id="@id/hot_search_text"
+                android:paddingBottom="8.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/faq_sdk_listitem_height"
+                android:text="@string/faq_sdk_search_hot_title"
+                android:textAllCaps="true"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/emui_dimens_max_start"
+                android:layout_marginEnd="@dimen/emui_dimens_max_end" />
+            <com.huawei.phoneservice.faq.widget.FaqAutoNextLineLinearLayout
+                android:id="@id/ll_hot_search"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/emui_dimens_max_start"
+                android:layout_marginEnd="@dimen/emui_dimens_max_end"
+                app:faqGravity="start"
+                app:faqHorizontal_Space="8.0dip"
+                app:faqIsFull="false"
+                app:faqVertical_Space="12.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <com.huawei.phoneservice.faq.widget.FaqNoticeView
+        android:id="@id/notice_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:faqsdkNoticeViewType="faqsdkprogress"
+        app:faqsdknoticeAutoFitCenterYInLandScape="true"
+        app:faqsdknoticeLoadingText="@string/faq_sdk_common_loading" />
+</FrameLayout>

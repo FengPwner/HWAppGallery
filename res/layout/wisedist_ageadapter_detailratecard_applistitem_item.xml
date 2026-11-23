@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/horizonitemcontainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/wisedist_detail_rate_card_item_icon_width"
+        android:layout_height="@dimen/wisedist_detail_rate_card_item_icon_width"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:corner_type="appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <ViewStub
+        android:id="@id/fastappicon"
+        android:layout="@layout/wisedist_fastappicon_layout"
+        android:layout_width="@dimen/hiappbase_card_fasticon_size_xxl"
+        android:layout_height="@dimen/hiappbase_card_fasticon_size_xxl"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="@id/appicon" />
+    <TextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_for_layout"
+        android:layout_marginStart="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+    <ViewStub
+        android:id="@id/ItemTextViewStub"
+        android:layout="@layout/detailratecard_tag_render_textview"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/layoutDetailRate"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/ivDetailRate"
+            android:tag="css/.widget"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            android:src="@drawable/wisedist_ic_star"
+            android:layout_marginEnd="@dimen/appgallery_text_margin_vertical" />
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/tvDetailRate"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:ellipsize="end"
+    android:id="@android:id/text1"
+    android:background="@drawable/hwspinner_item_card_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/hwspinner_dropdown_item_height"
+    android:singleLine="true"
+    style="@style/Widget.Emui.HwSpinner.HwDropDownItem"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

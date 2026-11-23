@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/mainwindows_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.view.MatrixBottomImageView
+        android:id="@id/tab_header_image"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:scaleType="matrix"
+        android:adjustViewBounds="true"
+        android:alpha="1.0"
+        android:layout_marginStart="@dimen/appgallery_hwbottomnavigationview_item_port_width_in_vertical" />
+    <com.huawei.appmarket.view.MatrixBottomImageView
+        android:id="@id/tab_header_image_other"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:scaleType="matrix"
+        android:adjustViewBounds="true"
+        android:alpha="0.0"
+        android:layout_marginStart="@dimen/appgallery_hwbottomnavigationview_item_port_width_in_vertical" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/main_view_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/appgallery_hwbottomnavigationview_item_port_width_in_vertical" />
+    <android.opengl.GLSurfaceView
+        android:id="@id/main_gl_surface_view"
+        android:layout_width="1.0dip"
+        android:layout_height="1.0dip" />
+    <com.huawei.appmarket.framework.widget.AgHwBottomNavigationView
+        android:layout_gravity="start"
+        android:id="@id/hiapp_mainscreen_bottomtab"
+        android:background="@drawable/bottom_navigation_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:hwIconDefaultColor="@color/appgallery_color_bottomtab_icon_off"
+        app:hwMessageBgColor="@color/appgallery_color_badge_red"
+        style="@style/Widget.Emui.HwBottomNavigationView.Light.Sub.Vertical" />
+    <include
+        android:id="@id/back_track"
+        layout="@layout/back_track_view_group" />
+</FrameLayout>

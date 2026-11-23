@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="fill_horizontal|center"
+        android:id="@android:id/background">
+        <inset
+            android:drawable="@drawable/hwseekbar_slider_track_bg_emui"
+            android:insetTop="@dimen/hwseekbar_slider_inset_padding"
+            android:insetBottom="@dimen/hwseekbar_slider_inset_padding" />
+    </item>
+    <item
+        android:gravity="fill_horizontal|center|clip_horizontal"
+        android:id="@android:id/progress">
+        <scale
+            android:scaleWidth="100%"
+            android:useIntrinsicSizeAsMinimum="true">
+            <inset
+                android:drawable="@drawable/hwseekbar_slider_track_progress_enable_emui"
+                android:insetTop="@dimen/hwseekbar_slider_inset_padding"
+                android:insetBottom="@dimen/hwseekbar_slider_inset_padding" />
+        </scale>
+    </item>
+</layer-list>

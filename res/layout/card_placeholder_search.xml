@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center"
+    android:background="@drawable/list_item_all_selector"
+    android:padding="@dimen/appgallery_card_elements_margin_l"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@color/appgallery_text_color_primary_activated"
+        android:gravity="center"
+        android:id="@id/search_content_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_for_search"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

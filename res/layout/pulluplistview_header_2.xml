@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@id/header_content"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/hiappbase_refresh_header_top_margin">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:id="@id/header_loadingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/hiappbase_refresh_hwprogressbar_min_width_height"
+            android:maxHeight="@dimen/hiappbase_refresh_hwprogressbar_min_width_height"
+            android:minWidth="@dimen/hiappbase_refresh_hwprogressbar_min_width_height"
+            android:minHeight="@dimen/hiappbase_refresh_hwprogressbar_min_width_height"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.Emui.HwProgressBar" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hiappbase_refresh_header_loading_margin"
+            android:layout_below="@id/header_loadingbar"
+            android:layout_alignParentBottom="true">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:gravity="center"
+                android:id="@id/header_loading_tips"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/hiappbase_refresh_header_text_margin"
+                android:text="@string/hiappbase_recommend_tips"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

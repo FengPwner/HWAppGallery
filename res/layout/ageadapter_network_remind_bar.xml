@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/remind_layout"
+    android:background="@color/network_remind_bar_color"
+    android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+    android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/risk_llyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/risk_img"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            android:src="@drawable/ic_sesarch_result_prompt"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/update_tips_red"
+            android:gravity="center_vertical"
+            android:id="@id/warning_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        android:contentDescription="@string/card_more_btn"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="56.0dip">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/setting_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_network_prompt_title"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <ImageView
+            android:id="@id/setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_public_arrow_right_900"
+            android:contentDescription="@string/setting_network_prompt_title"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    </LinearLayout>
+</LinearLayout>

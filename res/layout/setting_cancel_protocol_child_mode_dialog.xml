@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:id="@id/stop_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/emui_text_font_family_regular" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:id="@id/child_mode_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_safety_margin_m"
+                android:text="@string/hiapp_stop_service_dialog_account_child_content"
+                android:fontFamily="@string/emui_text_font_family_regular" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:id="@id/tv_stop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+            style="@style/Widget.Emui.HwButton.Borderless" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:id="@id/tv_stop_clean"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+            style="@style/Widget.Emui.HwButton.Borderless" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:id="@id/cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+            android:layout_marginBottom="@dimen/appgallery_safety_margin_m"
+            style="@style/Widget.Emui.HwButton.Borderless" />
+    </LinearLayout>
+</LinearLayout>

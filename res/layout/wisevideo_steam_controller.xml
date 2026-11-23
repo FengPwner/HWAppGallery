@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:contentDescription="@string/video_play_or_pause"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true" />
+    <ViewStub
+        android:id="@id/video_stub"
+        android:layout="@layout/wisevideo_steam_controller_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ImageView
+        android:id="@id/center_start"
+        android:visibility="gone"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:src="@drawable/ic_public_play_button"
+        android:scaleType="center"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

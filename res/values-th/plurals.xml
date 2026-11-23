@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">พบแอปที่น่าสงสัย %2$d แอป (รวมถึง %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">พบแอปที่ไม่ได้ใช้งาน %2$d แอป (รวมถึง %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d แอปที่ไม่ได้ใช้งาน</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">จัดการ %d แอปที่มีพฤติกรรมที่เป็นอันตรายแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">ตรวจพบ %d แอปที่มีพฤติกรรมที่เป็นอันตรายแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">จัดการ %d แอปหลอกลวงแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">ตรวจพบ %d แอปหลอกลวงแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">จัดการ %d แอปที่มีความเสี่ยงด้านความเป็นส่วนตัวแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">ตรวจพบ %d แอปที่มีความเสี่ยงด้านความเป็นส่วนตัวแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">จัดการ %d แอปที่มีภัยคุกคามด้านความปลอดภัยแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">ตรวจพบ %d แอปที่มีภัยคุกคามด้านความปลอดภัยแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">จัดการ %d แอปที่มีไวรัสแล้ว</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">ตรวจพบ %d แอปที่มีไวรัสแล้ว</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">เพิ่มประสิทธิภาพแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">ตรวจพบ %d ปัญหา</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">สแกนแล้ว %d แอป</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ภัยคุกคาม</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">สแกนแล้ว %d แอป</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">ภัยคุกคามจากแอป %d รายการ</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">พบ %2$d แอปที่น่าสงสัยในช่วง %1$d วันที่ผ่านมา ดูรายละเอียด >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">สแกน %2$d แอปในช่วง %1$d วันที่ผ่านมา ดูรายละเอียด >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">สามารถบีบอัดได้ %d แอป</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">ตรวจพบ %d แอปที่ไม่รู้จัก</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">แอปที่บีบอัดได้ (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">พบ %d แอปที่ไม่รู้จัก โปรดตรวจสอบ</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">พบ %d แอปที่ไม่รู้จัก</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d น. ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">การให้คะแนน: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s ประกอบด้วยเนื้อหาที่จำกัดช่วงอายุ เมื่อแตะ %3$s และดาวน์โหลดแอปนี้ จะถือว่าคุณยืนยันว่าคุณมีอายุเกิน %2$d ปี</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">หยุดการดาวน์โหลดชั่วคราว: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s ประกอบด้วยเนื้อหาที่จำกัดช่วงอายุ เมื่อแตะ %2$d และใช้แอปนี้ จะถือว่าคุณยืนยันว่าคุณมีอายุเกิน %3$s ปี</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d การกดไม่ถูกใจ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d การกดไม่ถูกใจ คุณได้กดไม่ถูกใจแล้ว</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d การกดถูกใจ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d การกดถูกใจ คุณได้กดถูกใจแล้ว</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d ดาว</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">ความคิดเห็น %1$d รายการ</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">อันดับ %d</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d ถูกใจ</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d การตอบกลับ</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">การตอบกลับทั้งหมด (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">คุณจำเป็นต้องเล่นไปแล้วอย่างน้อย %1$d นาทีจึงจะแสดงความคิดเห็นได้</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">กำลังติดตั้งแอป %1$s รายการอยู่</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">เลือกแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">ยกเลิกการติดตั้งแอปที่เลือกไว้ รวมถึง %1$s หรือไม่</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">ถอนการติดตั้ง %1$s และ %2$s แอปอื่นจาก %3$s หรือไม่</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">ถอนการติดตั้ง %2$s แอป รวมถึง %1$s หรือไม่</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">ลบบันทึก %1$s รายการหรือไม่</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">%1$d แอปต่อไปนี้ต้องการการเข้าถึงการอนุญาตบางอย่าง:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">การให้คะแนน %1$d</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">การให้คะแนน %1$sM</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">การให้คะแนน %1$sK</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s กิจกรรม</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">เวลาเล่นเกมเหลือน้อยกว่า %1$s นาที โปรดบันทึกเกมของคุณโดยเร็วที่สุด</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">เหลือเพียง %d นาที</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s พัน</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d ความคิดเห็น</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">สูงสุด %1$d อักขระ</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">กรอกอย่างน้อย %1$d อักขระ</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"สูงสุด %1$d ภาพ
+ขนาดไม่เกิน %2$s ต่อภาพ"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">สูงสุด %d ภาพสำหรับปัญหาประเภทนี้</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s ดาว</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">กรอกรหัสผ่านไม่ถูกต้อง %1$d ครั้ง โปรดลองใหม่อีกครั้งหลังจาก %2$d นาที</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s พันล้านคนได้เข้าร่วม</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM คนได้เข้าร่วม</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s คนได้เข้าร่วม</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK คนได้เข้าร่วม</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB คนได้ซื้อสิ่งนี้</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM คนได้ซื้อสิ่งนี้</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s คนได้ซื้อสิ่งนี้</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK คนได้ซื้อสิ่งนี้</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s การจัดอันดับ</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">ให้คะแนน %1$s ดาว</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">ได้คะแนน %1$s ดาว</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">ดำเนินการติดตั้งต่อไป (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">เลือกแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">รายละเอียดต้องมีความยาวอย่างน้อย %d อักขระ ให้เพิ่มภาพหน้าจอ หากเป็นไปได้</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">โพสต์: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d การกดถูกใจ</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d การตอบกลับ</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">การดู %d ครั้ง</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">แสดงความคิดเห็นที่นี่ (ความคิดเห็นทั้งหมด %1$d รายการ)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">ดูการตอบกลับ %1$d ทั้งหมด</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s ผู้เข้าร่วม</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">เลือกได้สูงสุด %s คำตอบ</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">หลายตัวเลือก (เลือก %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">เลือก %s คำตอบ</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s โหวต</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">แอปนี้ต้องการการอนุญาต %1$d รายการ: คุณสามารถเพิกถอนการอนุญาตเหล่านี้ได้ตลอดเวลาใน การตั้งค่า > แอป > แอป</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">"แอปนี้จำเป็นต้องได้รับ %1$d การอนุญาต  คุณสามารถเพิกถอนการอนุญาตเหล่านี้ได้ตลอดเวลาใน การตั้งค่า > แอปและการบริการ > แอป"</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d ของขวัญ</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ดาว</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">การให้คะแนน: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s การจัดอันดับ</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">เปิด %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d การแนะนำใหม่</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s พัน</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">อัปเดต %1$d แอปแล้ว</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">กำลังอัปเดต %1$d แอป</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">รูปภาพต้องมีขนาดไม่ใหญ่กว่า %1$d MB</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d ภาพ</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">เลือกแล้ว %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d วิดีโอ</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d สิทธิประโยชน์</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">ลบการติดตั้งที่หยุดชั่วคราวทั้งหมด (%1$s แอป ว่างขึ้น %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(เลือกแล้ว %1$d รายการ)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">หน้า %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">หยุด %1$s การติดตั้งชั่วคราว</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">พิเศษ %1$d รายการ</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">ดาวน์โหลด %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">ได้คะแนน %1$s ดาว</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">การติดตั้ง %1$s แอปตามกำหนดเวลาเสร็จสมบูรณ์แล้ว</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d แอปจะเริ่มดาวน์โหลดเมื่อคุณเชื่อมต่อกับ Wi-Fi</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s สั่งซื้อไว้ล่วงหน้า)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(สงวนไว้สำหรับ %1$d ล้าน)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(สงวนไว้สำหรับ %1$d พัน)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">ติดตั้งทั้งหมด %1$s แอปใช่หรือไม่</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">กำลังดำเนินการ %1$s การติดตั้ง</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">จาก %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">ค้นหา %d แอปในเครื่อง</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">คืนค่า %d แอปเพื่อใส่ไว้ในรายการการอัปเดตและอนุญาตให้มีการอัปเดต</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">มีการอัปเดตแอป %1$s รายการ</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s การอัปเดตแอปที่แนะนำ ขนาดรวม: %2$s</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">การอัปเดตแอปพร้อมใช้งาน %1$d รายการ ขนาด: %2$s</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">ไม่ได้ใช้งานเป็นเวลา %d วัน</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">ล้างงาน %d รายการและดาวน์โหลดไฟล์หรือไม่</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">เช็คอินติดต่อกัน %d วัน</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">วันที่ %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">ดาวน์โหลดแอปแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">การให้คะแนน: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d น. ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d แอป รวมถึง %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">ตัวบอกสถานะจุดแดง %1$s การแจ้งยังไม่อ่าน</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d ข้อเสนอ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">ของขวัญชุมชน %d รายการ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">ของขวัญ %d รายการ</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d คนในภูมิภาคของคุณต้องการสิ่งนี้</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">เลือกแล้ว %1$d รายการ</item>
+    </plurals>
+</resources>

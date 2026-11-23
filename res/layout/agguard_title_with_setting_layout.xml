@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="start|center"
+    android:orientation="horizontal"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        layout="@layout/agguard_common_title_layout" />
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+            android:gravity="center"
+            android:id="@id/report_record"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/appgallery_card_icon_size_middle"
+            android:layout_height="@dimen/appgallery_card_icon_size_middle"
+            app:popupDrawable="@drawable/agguard_safety_report_entry_icon">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:gravity="center"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:layout_width="@dimen/appgallery_card_icon_size_middle"
+                android:layout_height="@dimen/appgallery_card_icon_size_middle"
+                android:contentDescription="@string/agguard_health_report_title">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@id/report_record_icon"
+                    android:layout_width="@dimen/appgallery_card_elements_margin_xl"
+                    android:layout_height="@dimen/appgallery_card_elements_margin_xl"
+                    android:src="@drawable/agguard_safety_report_entry_icon"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:id="@id/report_record_red_dot"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:src="@drawable/tab_red_dot"
+                    app:layout_constraintEnd_toEndOf="@id/report_record_icon"
+                    app:layout_constraintTop_toTopOf="@id/report_record_icon" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+            android:gravity="center"
+            android:id="@id/setting_record"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/appgallery_card_icon_size_middle"
+            android:layout_height="@dimen/appgallery_card_icon_size_middle"
+            android:contentDescription="@string/agguard_records_title"
+            android:layout_marginEnd="4.0dip">
+            <ImageView
+                android:layout_width="@dimen/appgallery_card_elements_margin_xl"
+                android:layout_height="@dimen/appgallery_card_elements_margin_xl"
+                android:src="@drawable/aguikit_ic_public_settings" />
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</LinearLayout>

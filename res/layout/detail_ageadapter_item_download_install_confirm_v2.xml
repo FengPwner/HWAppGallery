@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/appgallery_color_bottomtab_bg"
+    android:paddingTop="@dimen/appgallery_divider_vertical_height"
+    android:paddingBottom="@dimen/appgallery_divider_vertical_height"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_safety_margin_l"
+    android:paddingEnd="@dimen/appgallery_safety_margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/layout_top_view"
+        android:paddingBottom="2.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/image_detect_icon"
+            android:visibility="gone"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="5.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/detail_btn_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@style/detail_card_ag_button_view_top_text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/download_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.detail.detailbase.api.DetailConfirmDownloadButton
+            android:textSize="14.0sp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/detail_ag_btn"
+            android:visibility="visible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/card_install_btn"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            wapbutton:downloadFixedWidth="true"
+            wapbutton:hwProgressButtonStaticTextColor="@color/hwprogressbutton_selector_button_text_emphasize"
+            style="@style/Widget.Emui.HwProgressButton" />
+    </LinearLayout>
+</LinearLayout>

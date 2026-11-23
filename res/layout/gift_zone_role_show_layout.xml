@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="0.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_text_paragraph_margin_l"
+    android:paddingEnd="@dimen/appgallery_text_paragraph_margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/txt_claim_success_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/l_zone_role"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/txt_zone_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gift_current_zone"
+                android:layout_centerVertical="true"
+                style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+            <TextView
+                android:id="@id/txt_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                android:layout_toEndOf="@id/txt_zone_label"
+                style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary.Medium" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs">
+            <TextView
+                android:id="@id/txt_role_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gift_current_role"
+                android:layout_centerVertical="true"
+                style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+            <TextView
+                android:id="@id/txt_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                android:layout_toEndOf="@id/txt_role_label"
+                style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary.Medium" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

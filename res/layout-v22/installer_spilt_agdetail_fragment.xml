@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/ll_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <com.huawei.appgallery.detail.detailbase.widget.DetailActionBar
+            android:id="@id/agdetail_actionbar"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes" />
+        <include
+            android:id="@id/nested_scroll_view"
+            android:importantForAccessibility="yes"
+            android:accessibilityTraversalAfter="@id/agdetail_actionbar"
+            layout="@layout/detail_nest_scroll_body" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/detail_bottom_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:importantForAccessibility="yes"
+        android:accessibilityTraversalAfter="@id/nested_scroll_view">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_bottom_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_bottom_extendlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

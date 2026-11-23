@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout
+        android:id="@id/fa_form_host_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:shadowColor="#ff333333"
+        app:shadowCornerRadius="@dimen/fa_scrollview_top_margin"
+        app:shadowLimit="@dimen/appgallery_shadow_layout_default_limit_width">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:id="@id/fa_contentview"
+            android:background="@drawable/fa_image_background"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no">
+            <ImageView
+                android:orientation="vertical"
+                android:id="@id/fa_form_contentview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:importantForAccessibility="yes" />
+        </FrameLayout>
+    </com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout>
+</RelativeLayout>

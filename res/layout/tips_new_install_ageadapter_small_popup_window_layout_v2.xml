@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:background="@color/emui_dialog_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:clip_background="true"
+    app:round_corner="@dimen/appgallery_default_corner_radius_l"
+    app:stroke_width="@dimen/appgallery_card_stroke_width"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/tips_new_install_ageadapter_popup_window_layout_v2" />
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

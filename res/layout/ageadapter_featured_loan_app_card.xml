@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/list_item_all_selector"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_m"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/normalCard_item"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/appicon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+            android:src="@color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ViewStub
+            android:id="@id/horizon_line"
+            android:layout="@layout/aguikit_horizontal_line_layout"
+            android:inflatedId="@id/horizon_line"
+            android:layout_width="@dimen/ui_40_dp"
+            android:layout_height="1.5dip"
+            android:layout_marginTop="4.0dip"
+            app:layout_constraintEnd_toEndOf="@id/appicon"
+            app:layout_constraintStart_toStartOf="@id/appicon"
+            app:layout_constraintTop_toBottomOf="@id/appicon" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appicon"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <TextView
+            android:id="@id/ItemText"
+            android:tag="css/.subtitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ItemTitle"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/memo"
+            android:tag="css/.subtitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ItemText"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+        <com.huawei.appgallery.pageframe.view.DownloadButtonV2
+            android:id="@id/downbtn"
+            android:tag="css/.download-button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_m"
+            android:minHeight="28.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/memo"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@id/loans_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_default_card_space_vertical_l"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

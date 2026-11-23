@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/my_assert_arrow_layout"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/click_back"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@id/up"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/aguikit_ic_public_back" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_toEndOf="@id/my_assert_arrow_layout">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/my_assert_consumer_record_layout"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_m"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:src="@drawable/aguikit_ic_public_notes"
+            android:contentDescription="@string/purchasehistory_records_title"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Pronađeno je %2$d sumnjivih aplikacija (uklj. %1$s)</item>
+        <item quantity="one">Pronađena je %2$d sumnjiva aplikacija (%1$s)</item>
+        <item quantity="few">Pronađene su %2$d sumnjive aplikacije (uklj. %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Pronađeno je %2$d nekorištenih aplikacija (uključujući %1$s)</item>
+        <item quantity="one">Pronađena je %2$d nekorištena aplikacija (uključujući %1$s)</item>
+        <item quantity="few">Pronađene su %2$d nekorištene aplikacije (uključujući %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d nekorištenih aplikacija</item>
+        <item quantity="one">%d nekorištena aplikacija</item>
+        <item quantity="few">%d nekorištene aplikacije</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Broj obrađenih aplikacija sa zlonamjernim ponašanjem: %d</item>
+        <item quantity="one">Broj obrađenih aplikacija sa zlonamjernim ponašanjem: %d</item>
+        <item quantity="few">Broj obrađenih aplikacija sa zlonamjernim ponašanjem: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Broj otkrivenih aplikacija sa zlonamjernim ponašanjem: %d</item>
+        <item quantity="one">Broj otkrivenih aplikacija sa zlonamjernim ponašanjem: %d</item>
+        <item quantity="few">Broj otkrivenih aplikacija sa zlonamjernim ponašanjem: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Broj obrađenih prijevarnih aplikacija: %d</item>
+        <item quantity="one">Broj obrađenih prijevarnih aplikacija: %d</item>
+        <item quantity="few">Broj obrađenih prijevarnih aplikacija: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Broj otkrivenih prijevarnih aplikacija: %d</item>
+        <item quantity="one">Broj otkrivenih prijevarnih aplikacija: %d</item>
+        <item quantity="few">Broj otkrivenih prijevarnih aplikacija: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Broj obrađenih aplikacija s rizicima u vezi s privatnošću: %d</item>
+        <item quantity="one">Broj obrađenih aplikacija s rizicima u vezi s privatnošću: %d</item>
+        <item quantity="few">Broj obrađenih aplikacija s rizicima u vezi s privatnošću: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Broj otkrivenih aplikacija s rizicima u vezi s privatnošću: %d</item>
+        <item quantity="one">Broj otkrivenih aplikacija s rizicima u vezi s privatnošću: %d</item>
+        <item quantity="few">Broj otkrivenih aplikacija s rizicima u vezi s privatnošću: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Broj obrađenih aplikacija sa sigurnosnim rizicima: %d</item>
+        <item quantity="one">Broj obrađenih aplikacija sa sigurnosnim rizicima: %d</item>
+        <item quantity="few">Broj obrađenih aplikacija sa sigurnosnim rizicima: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Broj otkrivenih aplikacija sa sigurnosnim rizicima: %d</item>
+        <item quantity="one">Broj otkrivenih aplikacija sa sigurnosnim rizicima: %d</item>
+        <item quantity="few">Broj otkrivenih aplikacija sa sigurnosnim rizicima: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Broj obrađenih aplikacija s virusima: %d</item>
+        <item quantity="one">Broj obrađenih aplikacija s virusima: %d</item>
+        <item quantity="few">Broj obrađenih aplikacija s virusima: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Broj otkrivenih aplikacija s virusima: %d</item>
+        <item quantity="one">Broj otkrivenih aplikacija s virusima: %d</item>
+        <item quantity="few">Broj otkrivenih aplikacija s virusima: %d</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">Optimizirano je %d stavki</item>
+        <item quantity="one">Optimizirana je %d stavka</item>
+        <item quantity="few">Optimizirane su %d stavke</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Otkriveno je %d problema</item>
+        <item quantity="one">Otkriven je %d problem</item>
+        <item quantity="few">Otkrivena su %d problema</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Skenirano je %d aplikacija</item>
+        <item quantity="one">Skenirana je %d aplikacija</item>
+        <item quantity="few">Skenirane su %d aplikacije</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Prije %d dana</item>
+        <item quantity="one">Prije %d dan</item>
+        <item quantity="few">Prije %d dana</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d prijetnji</item>
+        <item quantity="one">%d prijetnja</item>
+        <item quantity="few">%d prijetnje</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Skenirano je %d aplikacija</item>
+        <item quantity="one">Skenirana je %d aplikacija</item>
+        <item quantity="few">Skenirane su %d aplikacije</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d ugroženih aplikacija</item>
+        <item quantity="one">%d ugrožena aplikacija</item>
+        <item quantity="few">%d ugrožene aplikacije</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d sumnjivih aplikacija pronađeno u posljednjih %1$d dana. Prikaži pojedinosti >></item>
+        <item quantity="one">%2$d sumnjiva aplikacija pronađena u posljednjih %1$d dana. Prikaži pojedinosti >></item>
+        <item quantity="few">%2$d sumnjive aplikacije pronađene u posljednjih %1$d dana. Prikaži pojedinosti >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">U zadnjih %1$d dana skenirano je %2$d aplikacija. Prikaži pojedinosti >></item>
+        <item quantity="one">U zadnjih %1$d dana skenirana je %2$d aplikacija. Prikaži pojedinosti >></item>
+        <item quantity="few">U zadnjih %1$d dana skenirane su %2$d aplikacije. Prikaži pojedinosti >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Moguće je komprimirati %d aplikacija</item>
+        <item quantity="one">Moguće je komprimirati %d aplikaciju</item>
+        <item quantity="few">Moguće je komprimirati %d aplikacije</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Otkriveno je %d nepoznatih aplikacija.</item>
+        <item quantity="one">Otkrivena je %d nepoznata aplikacija.</item>
+        <item quantity="few">Otkrivene su %d nepoznate aplikacije.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Aplikacije koje je moguće komprimirati (%d)</item>
+        <item quantity="one">Aplikacije koje je moguće komprimirati (%d)</item>
+        <item quantity="few">Aplikacije koje je moguće komprimirati (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Pronađeno je %d nepoznatih aplikacija. Provjerite.</item>
+        <item quantity="one">Pronađena je %d nepoznata aplikacija. Provjerite.</item>
+        <item quantity="few">Pronađene su %d nepoznate aplikacije. Provjerite.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Pronađeno je %d nepoznatih aplikacija</item>
+        <item quantity="one">Pronađena je %d nepoznata aplikacija</item>
+        <item quantity="few">Pronađene su %d nepoznate aplikacije</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">Prije %d min</item>
+        <item quantity="one">Prije %d min</item>
+        <item quantity="few">Prije %d min</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Ocjena: %s</item>
+        <item quantity="one">Ocjena: %s</item>
+        <item quantity="few">Ocjena: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Aplikacija %1$s obuhvaća sadržaj s dobnim ograničenjem. Ako dodirnete %3$s i preuzmete ovu aplikaciju, potvrđujete da ste stariji od %2$d g.</item>
+        <item quantity="one">Aplikacija %1$s obuhvaća sadržaj s dobnim ograničenjem. Ako dodirnete %3$s i preuzmete ovu aplikaciju, potvrđujete da ste stariji od %2$d godina.</item>
+        <item quantity="few">Aplikacija %1$s obuhvaća sadržaj s dobnim ograničenjem. Ako dodirnete %3$s i preuzmete ovu aplikaciju, potvrđujete da ste stariji od %2$d godina.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Broj pauziranih preuzimanja: %1$d</item>
+        <item quantity="one">Broj pauziranih preuzimanja: %1$d</item>
+        <item quantity="few">Broj pauziranih preuzimanja: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Aplikacija %1$s obuhvaća sadržaj s dobnim ograničenjem. Ako dodirnete %3$s i upotrijebite ovu aplikaciju, potvrđujete da ste stariji od %2$d g.</item>
+        <item quantity="one">Aplikacija %1$s obuhvaća sadržaj s dobnim ograničenjem. Ako dodirnete %3$s i upotrijebite ovu aplikaciju, potvrđujete da ste stariji od %2$d godina.</item>
+        <item quantity="few">Aplikacija %1$s obuhvaća sadržaj s dobnim ograničenjem. Ako dodirnete %3$s i upotrijebite ovu aplikaciju, potvrđujete da ste stariji od %2$d godina.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d oznaka „Ne sviđa mi se”</item>
+        <item quantity="one">%d oznaka „Ne sviđa mi se”</item>
+        <item quantity="few">%d oznake „Ne sviđa mi se”</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d oznaka „Ne sviđa mi se”, sadržaj ste označili oznakom „Ne sviđa mi se”</item>
+        <item quantity="one">%d oznaka „Ne sviđa mi se”, sadržaj ste označili oznakom „Ne sviđa mi se”</item>
+        <item quantity="few">%d oznake „Ne sviđa mi se”, sadržaj ste označili oznakom „Ne sviđa mi se”</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d oznaka „Sviđa mi se”</item>
+        <item quantity="one">%d oznaka „Sviđa mi se”</item>
+        <item quantity="few">%d oznake „Sviđa mi se”</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d oznaka „Sviđa mi se”, sadržaj ste označili oznakom „Sviđa mi se”</item>
+        <item quantity="one">%d oznaka „Sviđa mi se”, sadržaj ste označili oznakom „Sviđa mi se”</item>
+        <item quantity="few">%d oznake „Sviđa mi se”, sadržaj ste označili oznakom „Sviđa mi se”</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d zvjezdica</item>
+        <item quantity="one">%d zvjezdica</item>
+        <item quantity="few">%d zvjezdice</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">Broj komentara: %1$d</item>
+        <item quantity="one">%1$d komentar</item>
+        <item quantity="few">Broj komentara: %1$d</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Prije %d min</item>
+        <item quantity="one">Prije %d min</item>
+        <item quantity="few">Prije %d min</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d ocjene</item>
+        <item quantity="one">%d ocjena</item>
+        <item quantity="few">%d ocjena</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d oznaka „Sviđa mi se”</item>
+        <item quantity="one">%1$d oznaka „Sviđa mi se”</item>
+        <item quantity="few">%1$d oznake „Sviđa mi se”</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d odgovora</item>
+        <item quantity="one">%1$d odgovor</item>
+        <item quantity="few">%1$d odgovora</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Svi odgovori (%1$d)</item>
+        <item quantity="one">Svi odgovori (%1$d)</item>
+        <item quantity="few">Svi odgovori (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Da biste komentirali, trebate igrati barem %1$d min.</item>
+        <item quantity="one">Da biste komentirali, trebate igrati barem %1$d minutu.</item>
+        <item quantity="few">Da biste komentirali, trebate igrati barem %1$d min.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Instalira se %1$s aplikacija</item>
+        <item quantity="one">Instalira se %1$s aplikacija</item>
+        <item quantity="few">Instaliraju se %1$s aplikacije</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Odabrani broj stavaka: %1$d</item>
+        <item quantity="one">Odabrana je %1$d stavka</item>
+        <item quantity="few">Odabrani broj stavaka: %1$d</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Deinstaliraj odabrane aplikacije zajedno s %1$s?</item>
+        <item quantity="one">Deinstaliraj %1$s?</item>
+        <item quantity="few">Deinstaliraj odabrane aplikacije zajedno s %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Deinstalirati %1$s i %2$s druge aplikacije iz %3$s?</item>
+        <item quantity="one">Deinstalirati %1$s i %2$s drugu aplikaciju iz %3$s?</item>
+        <item quantity="few">Deinstalirati %1$s i %2$s drugih aplikacija iz %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Želite li deinstalirati %2$s aplikacija, uključujući aplikaciju %1$s?</item>
+        <item quantity="one">Želite li deinstalirati %2$s aplikaciju, uključujući aplikaciju %1$s?</item>
+        <item quantity="few">Želite li deinstalirati %2$s aplikacije, uključujući aplikaciju %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Izbrisati sljedeći broj zapisa: %1$s?</item>
+        <item quantity="one">Izbrisati sljedeći broj videozapisa: %1$s?</item>
+        <item quantity="few">Izbrisati sljedeći broj zapisa: %1$s?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Sljedećih %1$d aplikacija zahtijevaju pristup određenim dozvolama:</item>
+        <item quantity="one">Sljedeća %1$d aplikacija zahtijeva pristup određenim dozvolama:</item>
+        <item quantity="few">Sljedeće %1$d aplikacije zahtijevaju pristup određenim dozvolama:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">Broj ocjena: %1$d</item>
+        <item quantity="one">%1$d ocjena</item>
+        <item quantity="few">Broj ocjena: %1$d</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s mil. ocjena</item>
+        <item quantity="one">%1$s mil. ocjena</item>
+        <item quantity="few">%1$s mil. ocjena</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s tis. ocjena</item>
+        <item quantity="one">%1$s tis. ocjena</item>
+        <item quantity="few">%1$s tis. ocjena</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s aktivnosti</item>
+        <item quantity="one">%1$s aktivnost</item>
+        <item quantity="few">%1$s aktivnosti</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Ostalo vam je manje od %1$s min igranja. Spremite igru što je prije moguće.</item>
+        <item quantity="one">Ostalo vam je manje od %1$s min igranja. Spremite igru što je prije moguće.</item>
+        <item quantity="few">Ostalo vam je manje od %1$s min igranja. Spremite igru što je prije moguće.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Preostalo je još samo %d minuta.</item>
+        <item quantity="one">Preostala je %d minuta.</item>
+        <item quantity="few">Preostale su još samo %d minute.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d sati</item>
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s MLRD.</item>
+        <item quantity="one">%1$s MLRD.</item>
+        <item quantity="few">%1$s MLRD.</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s MIL.</item>
+        <item quantity="one">%1$s MIL.</item>
+        <item quantity="few">%1$s MIL.</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s TIS.</item>
+        <item quantity="one">%1$s TIS.</item>
+        <item quantity="few">%1$s TIS.</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d komentara</item>
+        <item quantity="one">%1$d komentar</item>
+        <item quantity="few">%1$d komentara</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">prije %d min.</item>
+        <item quantity="one">prije %d min.</item>
+        <item quantity="few">prije %d min.</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Najviše %1$d znakova</item>
+        <item quantity="one">Najviše %1$d znak</item>
+        <item quantity="few">Najviše %1$d znaka</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Unesite najmanje %1$d znakova</item>
+        <item quantity="one">Unesite najmanje %1$d znak</item>
+        <item quantity="few">Unesite najmanje %1$d znaka</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Do %1$d slika
+Svaka maksimalno %2$s"</item>
+        <item quantity="one">"Do %1$d slike
+Svaka maksimalno %2$s"</item>
+        <item quantity="few">"Do %1$d slike
+Svaka maksimalno %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Najviše %d slika za tu vrstu problema</item>
+        <item quantity="one">Najviše %d slika za tu vrstu problema</item>
+        <item quantity="few">Najviše %d slike za tu vrstu problema</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s zvjezdica</item>
+        <item quantity="one">%1$s zvjezdica</item>
+        <item quantity="few">%1$s zvjezdice</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">%1$d puta je unesena pogrešna lozinka. Pokušajte ponovno nakon %2$d min.</item>
+        <item quantity="one">%1$d puta je unesena pogrešna lozinka. Pokušajte ponovno nakon %2$d min.</item>
+        <item quantity="few">%1$d puta je unesena pogrešna lozinka. Pokušajte ponovno nakon %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">Broj ljudi koji su sudjelovali: %1$s mlrd.</item>
+        <item quantity="one">Broj ljudi koji su sudjelovali: %1$s mlrd.</item>
+        <item quantity="few">Broj ljudi koji su sudjelovali: %1$s mlrd.</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">Broj ljudi koji su sudjelovali: %1$s mil.</item>
+        <item quantity="one">Broj ljudi koji su sudjelovali: %1$s mil.</item>
+        <item quantity="few">Broj ljudi koji su sudjelovali: %1$s mil.</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">Broj ljudi koji su sudjelovali: %1$s</item>
+        <item quantity="one">%1$s je osoba sudjelovala</item>
+        <item quantity="few">Broj ljudi koji su sudjelovali: %1$s</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">Broj ljudi koji su sudjelovali: %1$s tis.</item>
+        <item quantity="one">Broj ljudi koji su sudjelovali: %1$s tis.</item>
+        <item quantity="few">Broj ljudi koji su sudjelovali: %1$s tis.</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">Broj ljudi koji su ovo kupili: %1$s mlrd.</item>
+        <item quantity="one">Broj ljudi koji su ovo kupili: %1$s mlrd.</item>
+        <item quantity="few">Broj ljudi koji su ovo kupili: %1$s mlrd.</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">Broj ljudi koji su ovo kupili: %1$s mil.</item>
+        <item quantity="one">Broj ljudi koji su ovo kupili: %1$s mil.</item>
+        <item quantity="few">Broj ljudi koji su ovo kupili: %1$s mil.</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">Broj ljudi koji su ovo kupili: %1$s</item>
+        <item quantity="one">%1$s je osoba ovo kupila</item>
+        <item quantity="few">Broj ljudi koji su ovo kupili: %1$s</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">Broj ljudi koji su ovo kupili: %1$s tis.</item>
+        <item quantity="one">Broj ljudi koji su ovo kupili: %1$s tis.</item>
+        <item quantity="few">Broj ljudi koji su ovo kupili: %1$s tis.</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">Broj ocjena: %1$s</item>
+        <item quantity="one">%1$s ocjena</item>
+        <item quantity="few">Broj ocjena: %1$s</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Ocjena, %1$s zvjezdica</item>
+        <item quantity="one">Ocjena, %1$s zvjezdica</item>
+        <item quantity="few">Ocjena, %1$s zvjezdice</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Ocijenjeno: %1$s zvjezdica</item>
+        <item quantity="one">Ocijenjeno: %1$s zvjezdica</item>
+        <item quantity="few">Ocijenjeno: %1$s zvjezdice</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Ipak instaliraj (%1$d)</item>
+        <item quantity="one">Ipak instaliraj (%1$d)</item>
+        <item quantity="few">Ipak instaliraj (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Odabrani broj stavki: %1$d</item>
+        <item quantity="one">Odabrana je %1$d stavka</item>
+        <item quantity="few">Odabrani broj stavki: %1$d</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Opis mora sadržavati najmanje sljedeći broj znakova: %d. Ako je moguće, dodajte snimke zaslona.</item>
+        <item quantity="one">Opis mora sadržavati najmanje %d znak. Ako je moguće, dodajte snimke zaslona.</item>
+        <item quantity="few">Opis mora sadržavati najmanje sljedeći broj znakova: %d. Ako je moguće, dodajte snimke zaslona.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d sati</item>
+        <item quantity="one">%1$d sat</item>
+        <item quantity="few">%1$d sata</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minuta</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Objave: %1$s</item>
+        <item quantity="one">Objave: %1$s</item>
+        <item quantity="few">Objave: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d sviđanja</item>
+        <item quantity="one">%d sviđanje</item>
+        <item quantity="few">Broj sviđanja: %d</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d odgovora</item>
+        <item quantity="one">%d odgovor</item>
+        <item quantity="few">Broj odgovora: %d</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s MLRD.</item>
+        <item quantity="one">%1$s MLRD.</item>
+        <item quantity="few">%1$s MLRD.</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s MIL.</item>
+        <item quantity="one">%1$s MIL.</item>
+        <item quantity="few">%1$s MIL.</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s TIS.</item>
+        <item quantity="one">%1$s TIS.</item>
+        <item quantity="few">%1$s TIS.</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">Broj pregleda: %d</item>
+        <item quantity="one">%d prikaz</item>
+        <item quantity="few">Broj pregleda: %d</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Ostavite komentar (ukupno: %1$d)</item>
+        <item quantity="one">Ostavite komentar (ukupno: %1$d)</item>
+        <item quantity="few">Ostavite komentar (ukupno: %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Pogledajte svih %1$d odgovora</item>
+        <item quantity="one">Pogledajte %1$d odgovor</item>
+        <item quantity="few">Pogledajte sva %1$d odgovora</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s sudionika</item>
+        <item quantity="one">%1$s sudionik</item>
+        <item quantity="few">%1$s sudionika</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Odaberite najviše %s odgovora</item>
+        <item quantity="one">Odaberite najviše %s odgovor</item>
+        <item quantity="few">Odaberite najviše %s odgovora</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Više odgovora (odaberite %1$d)</item>
+        <item quantity="one">Više odgovora (odaberite %1$d)</item>
+        <item quantity="few">Više odgovora (odaberite %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Odaberite %s odgovora</item>
+        <item quantity="one">Odaberite %s odgovor</item>
+        <item quantity="few">Odaberite %s odgovora</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s glasova</item>
+        <item quantity="one">%1$s glas</item>
+        <item quantity="few">%1$s glasa</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Ovoj je aplikaciji potreban sljedeći broj dozvola: %1$d. Povući ih možete u bilo kojem trenutku tako da odaberete Postavke > Aplikacije > Aplikacije.</item>
+        <item quantity="one">Ovoj je aplikaciji potrebna %1$d dozvola. Možete je povući u bilo kojem trenutku tako da odaberete Postavke > Aplikacije > Aplikacije.</item>
+        <item quantity="few">Ovoj je aplikaciji potreban sljedeći broj dozvola: %1$d. Povući ih možete u bilo kojem trenutku tako da odaberete Postavke > Aplikacije > Aplikacije.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Ovoj je aplikaciji potrebno %1$d dozvola. Povući ih možete u bilo kojem trenutku tako da odaberete Postavke > Aplikacije i usluge > Aplikacije.</item>
+        <item quantity="one">Ovoj je aplikaciji potrebna %1$d dozvola. Povući je možete u bilo kojem trenutku tako da odaberete Postavke > Aplikacije i usluge > Aplikacije.</item>
+        <item quantity="few">Ovoj su aplikaciji potrebne %1$d dozvole. Povući ih možete u bilo kojem trenutku tako da odaberete Postavke > Aplikacije i usluge > Aplikacije.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d poklona</item>
+        <item quantity="one">%1$d poklon</item>
+        <item quantity="few">%1$d poklona</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d tis.</item>
+        <item quantity="one">%1$d tis.</item>
+        <item quantity="few">%1$d tis.</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">Zvjezdica: %1$d</item>
+        <item quantity="one">%1$d zvjezdica</item>
+        <item quantity="few">Zvjezdica: %1$d</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Ocjena: %s</item>
+        <item quantity="one">Ocjena: %s</item>
+        <item quantity="few">Ocjena: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">Broj ocjena: %1$s</item>
+        <item quantity="one">%1$s ocjena</item>
+        <item quantity="few">Broj ocjena: %1$s</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s otvaranja</item>
+        <item quantity="one">%1$s otvaranje</item>
+        <item quantity="few">%1$s otvaranja</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">Broj novih preporuka: %d</item>
+        <item quantity="one">%d nova preporuka</item>
+        <item quantity="few">Broj novih preporuka: %d</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s MLRD.</item>
+        <item quantity="one">%1$s MLRD.</item>
+        <item quantity="few">%1$s MLRD.</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s MIL.</item>
+        <item quantity="one">%1$s MIL.</item>
+        <item quantity="few">%1$s MIL.</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s TIS.</item>
+        <item quantity="one">%1$s TIS.</item>
+        <item quantity="few">%1$s TIS.</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Ažuriran je sljedeći broj aplikacija: %1$d</item>
+        <item quantity="one">Ažurirana je %1$d aplikacija</item>
+        <item quantity="few">Ažuriran je sljedeći broj aplikacija: %1$d</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">U tijeku je ažuriranje sljedećeg broja aplikacija: %1$d</item>
+        <item quantity="one">U tijeku je ažuriranje %1$d aplikacije</item>
+        <item quantity="few">U tijeku je ažuriranje sljedećeg broja aplikacija: %1$d</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Slika ne može biti veća od %1$d MB.</item>
+        <item quantity="one">Slika ne može biti veća od %1$d MB.</item>
+        <item quantity="few">Slika ne može biti veća od %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">Broj fotografija: %d</item>
+        <item quantity="one">%d fotografija</item>
+        <item quantity="few">Broj fotografija: %d</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">Odabrano %1$d/%2$d</item>
+        <item quantity="one">Odabrano %1$d/%2$d</item>
+        <item quantity="few">Odabrano %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d videozapis</item>
+        <item quantity="few">%d videozapisa</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">Broj pogodnosti: %d</item>
+        <item quantity="one">%d pogodnost</item>
+        <item quantity="few">Broj pogodnosti: %d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavijesti</item>
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Izbriši sve pauzirane instalacije (%1$s aplikacije, oslobođeno %2$s)</item>
+        <item quantity="one">Izbriši sve pauzirane instalacije (%1$s aplikacija, oslobođeno %2$s)</item>
+        <item quantity="few">Izbriši sve pauzirane instalacije (%1$s aplikacija, oslobođeno %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(odabrano stavki: %1$d)"</item>
+        <item quantity="one">" 
+(odabrana je %1$d stavka)"</item>
+        <item quantity="few">" 
+(odabrano stavki: %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Stranica %1$d</item>
+        <item quantity="one">Stranica %1$d</item>
+        <item quantity="few">Stranica %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Pauzirane su %1$s instalacija.</item>
+        <item quantity="one">Pauzirana je %1$s instalacija.</item>
+        <item quantity="few">Pauzirano je %1$s instalacija.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">prije %d min.</item>
+        <item quantity="one">prije %d min.</item>
+        <item quantity="few">prije %d min.</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">Broj dodataka: %1$d</item>
+        <item quantity="one">%1$d dodatak</item>
+        <item quantity="few">Broj dodataka: %1$d</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s preuzimanja</item>
+        <item quantity="one">%1$s preuzimanje</item>
+        <item quantity="few">%1$s preuzimanja</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Ocjena: %1$s zvjezdica</item>
+        <item quantity="one">Ocjena: %1$s zvjezdica</item>
+        <item quantity="few">Ocjena: %1$s zvjezdice</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Zakazana instalacija %1$s aplikacija dovršena je</item>
+        <item quantity="one">Zakazana instalacija %1$s aplikacije dovršena je</item>
+        <item quantity="few">Zakazana instalacija %1$s aplikacija dovršena je</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Nakon uspostavljanja Wi-Fi veze započet će preuzimanje %1$d aplikacija.</item>
+        <item quantity="one">Nakon uspostavljanja Wi-Fi veze započet će preuzimanje %1$d aplikacije.</item>
+        <item quantity="few">Nakon uspostavljanja Wi-Fi veze započet će preuzimanje %1$d aplikacije/a.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(osobe koje su prednaručile: %1$s)</item>
+        <item quantity="one">(osobe koje su prednaručile: %1$s)</item>
+        <item quantity="few">(broj rezerviranih igara: %1$s)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(rezervirano: %1$d milijuna)</item>
+        <item quantity="one">(rezervirano: 1 milijun)</item>
+        <item quantity="few">(rezervirano: %1$d milijuna)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(rezervirano: %1$d tisuće)</item>
+        <item quantity="one">(rezervirano: 1 tisuća)</item>
+        <item quantity="few">(rezervirano: %1$d tisuća)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Instalirati sve %1$s aplikacije?</item>
+        <item quantity="one">Instalirati %1$s aplikaciju?</item>
+        <item quantity="few">Instalirati svih %1$s aplikacija?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">U tijeku su %1$s instalacije.</item>
+        <item quantity="one">U tijeku je %1$s instalacija.</item>
+        <item quantity="few">U tijeku je %1$s instalacija.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">od %1$d</item>
+        <item quantity="one">od %1$d</item>
+        <item quantity="few">od %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Pretraži %d lokalnih aplikacija</item>
+        <item quantity="one">Pretraži %d lokalnu aplikaciju</item>
+        <item quantity="few">Pretraži %d lokalne aplikacije</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Vrati aplikacije (%d) na popis ažuriranja i dozvoli njihovo ažuriranje.</item>
+        <item quantity="one">Vrati %d aplikaciju na popis ažuriranja i dozvoli njeno ažuriranje.</item>
+        <item quantity="few">Vrati %d aplikacija na popis ažuriranja i dozvoli njihovo ažuriranje.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Dostupna su ažuriranja aplikacija (njih %1$s)</item>
+        <item quantity="one">Dostupno je %1$s ažuriranje aplikacija</item>
+        <item quantity="few">Dostupna su ažuriranja aplikacija (njih %1$s)</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s app obnove preporučuje. Ukupna veličina: %2$s.</item>
+        <item quantity="one">%1$s app ažuriranje preporučuje. Veličina: %2$s.</item>
+        <item quantity="few">%1$s app obnove preporučuje. Ukupna veličina: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Dostupno je %1$d ažuriranja aplikacija. Veličina: %2$s.</item>
+        <item quantity="one">Dostupno je %1$d ažuriranje aplikacije. Veličina: %2$s.</item>
+        <item quantity="few">Dostupna su %1$d ažuriranja aplikacija. Veličina: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Nije upotrijebljeno %d dana</item>
+        <item quantity="one">Nije upotrijebljeno %d dan</item>
+        <item quantity="few">Nije upotrijebljeno %d dana</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d sati</item>
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Želite li izbrisati zadatke (njih %d) i preuzete datoteke?</item>
+        <item quantity="one">Želite li izbrisati %d zadatak i preuzete datoteke?</item>
+        <item quantity="few">Želite li izbrisati zadatke (njih %d) i preuzete datoteke?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Niz uzastopnih prijava od %d dana</item>
+        <item quantity="one">Niz uzastopnih prijava od %d dan</item>
+        <item quantity="few">Niz uzastopnih prijava od %d dana</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d. dan</item>
+        <item quantity="one">%d. dan</item>
+        <item quantity="few">%d. dan</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Preuzeto je %1$d aplikacija</item>
+        <item quantity="one">Preuzeta je %1$d aplikacija</item>
+        <item quantity="few">Preuzete su %1$d aplikacije</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Ocjena: %s</item>
+        <item quantity="one">Ocjena: %s</item>
+        <item quantity="few">Ocjena: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">Prije %d min</item>
+        <item quantity="one">Prije %d min</item>
+        <item quantity="few">Prije %d min</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplikacija, uključujući aplikaciju %1$s</item>
+        <item quantity="one">%2$d aplikacija (%1$s)</item>
+        <item quantity="few">%2$d aplikacije, uključujući aplikaciju %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Značka crvene točke, %1$s nepročitanih obavijesti</item>
+        <item quantity="one">Značka crvene točke, %1$s nepročitana obavijest</item>
+        <item quantity="few">Značka crvene točke, %1$s nepročitane obavijesti</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">Broj ponuda: %d</item>
+        <item quantity="one">%d ponuda</item>
+        <item quantity="few">Broj ponuda: %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">Broj poklona zajednice: %d</item>
+        <item quantity="one">%d poklon zajednice</item>
+        <item quantity="few">Broj poklona zajednice: %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">Broj poklona: %d</item>
+        <item quantity="one">%d poklon</item>
+        <item quantity="few">Broj poklona: %d</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">Broj osoba u vašoj regiji koje žele ovaj sadržaj: %d</item>
+        <item quantity="one">%d osoba u vašoj regiji želi ovaj sadržaj</item>
+        <item quantity="few">Broj osoba u vašoj regiji koje žele ovaj sadržaj: %d</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Odabrani broj stavaka: %1$d</item>
+        <item quantity="one">Odabrana je %1$d stavka</item>
+        <item quantity="few">Odabrani broj stavaka: %1$d</item>
+    </plurals>
+</resources>

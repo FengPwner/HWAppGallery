@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.forum.posts.view.ExposureRelativeLayout
+        android:id="@id/forum_recommend_layout"
+        android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_card_height_two_text_lines"
+        android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:id="@id/app_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_middle"
+            android:layout_height="@dimen/appgallery_card_icon_size_middle"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/app_detail_layout"
+            android:layout_toEndOf="@id/app_icon">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_name_only"
+                android:paddingTop="@dimen/margin_m"
+                android:paddingBottom="@dimen/margin_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_name"
+                android:paddingTop="@dimen/margin_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_category"
+                android:paddingBottom="@dimen/margin_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/app_detail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:id="@id/app_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart"
+                android:paddingStart="@dimen/margin_l"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_public_arrow_right_900"
+                android:paddingStart="@dimen/margin_s" />
+        </LinearLayout>
+    </com.huawei.appgallery.forum.posts.view.ExposureRelativeLayout>
+</LinearLayout>

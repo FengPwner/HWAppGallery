@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.detail.detailbase.animator.CustomNestedScrollView
+    android:tag="body_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/detail_head_safe_bar"
+            layout="@layout/detail_head_safe_bar" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_head_linearlayout"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1.0dip" />
+        <com.huawei.appgallery.detail.detailbase.widget.DetailSubTabWidget
+            android:layout_gravity="center_horizontal"
+            android:id="@id/gamedetail_subtab"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.Emui.HwSubTabBar" />
+        <include
+            android:id="@id/loading_layout"
+            android:visibility="gone"
+            layout="@layout/detail_loading_layout" />
+        <com.huawei.appgallery.detail.detailbase.animator.NestedViewPager
+            android:id="@id/game_detail_pages_viewpager"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.huawei.appgallery.detail.detailbase.animator.CustomNestedScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <shape>
+            <solid
+                android:color="@color/black_alpha_5" />
+            <corners
+                android:topLeftRadius="@dimen/appgallery_default_corner_radius_l"
+                android:topRightRadius="@dimen/appgallery_default_corner_radius_l" />
+        </shape>
+    </item>
+</selector>

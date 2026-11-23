@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <privacystatement
+        id="abilitydispatcher_privacy_statement">
+        <data_privacy_support_range>cn</data_privacy_support_range>
+        <data_privacy_min_emui_apilevel>31</data_privacy_min_emui_apilevel>
+        <title>
+            <string
+                name="@string/service_discovery" />
+        </title>
+        <privacy_statement_package_name>com.huawei.appmarket</privacy_statement_package_name>
+        <privacy_statement_action>com.huawei.appmarket.intent.action.local.discovery.privacy</privacy_statement_action>
+    </privacystatement>
+</declaration>

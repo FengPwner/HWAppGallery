@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/service_dialog_content_text_size"
+            android:textColor="@color/service_dialog_text_color"
+            android:id="@id/htv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/service_dialog_description_text_size"
+            android:textColor="@color/service_dialog_text_color"
+            android:id="@id/htv_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_8dp"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </LinearLayout>
+</ScrollView>

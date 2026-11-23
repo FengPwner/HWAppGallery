@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwtextview.widget.HwTextView
+    android:textSize="@dimen/appgallery_text_size_body2"
+    android:textColor="@color/appgallery_text_color_secondary"
+    android:gravity="center"
+    android:id="@id/list_footer_more_tip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_l"
+    android:layout_marginBottom="@dimen/margin_l"
+    android:text="@string/hiappbase_list_footer_no_more_content"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    android:paddingStart="@dimen/padding_l"
+    android:paddingEnd="@dimen/padding_l"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

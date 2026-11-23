@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/rootlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/appname"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+            <com.huawei.appmarket.framework.widget.PromotionSignTextView
+                android:layout_gravity="center_vertical"
+                android:id="@id/promotion_sign"
+                android:tag="css/.title"
+                android:background="@drawable/promotion_sign_bg_normal"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                style="@style/promotion_sign_style" />
+            <com.huawei.appmarket.framework.widget.NoAdaptRenderImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/non_adapter_icon"
+                android:tag="css/.title"
+                android:visibility="gone"
+                android:layout_width="10.0dip"
+                android:layout_height="10.0dip"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s" />
+            <TextView
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/ItemText"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

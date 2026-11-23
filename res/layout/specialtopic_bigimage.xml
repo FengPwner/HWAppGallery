@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+    android:id="@id/bigimg"
+    android:tag="@string/properties_video_contentDescription"
+    android:background="@android:color/transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

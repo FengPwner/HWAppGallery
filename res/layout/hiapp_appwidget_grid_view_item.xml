@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center"
+    android:id="@id/itemLayout"
+    android:background="@drawable/hiapp_appwidget_smallcard_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/hiapp_large_widget_item_card_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/itemImage"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/wisejoin_image" />
+    <TextView
+        android:textColor="@color/white"
+        android:ellipsize="end"
+        android:id="@id/itemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+        android:singleLine="true"
+        android:layout_below="@id/itemImage"
+        android:layout_centerInParent="true"
+        android:paddingStart="@dimen/appgallery_safety_margin_s"
+        android:paddingEnd="@dimen/appgallery_safety_margin_s"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary" />
+    <ImageView
+        android:id="@id/itemImage_tip"
+        android:visibility="gone"
+        android:layout_width="6.0dip"
+        android:layout_height="6.0dip"
+        android:src="@drawable/hiapp_circle_tip_red_bg"
+        android:layout_alignTop="@id/itemImage"
+        android:layout_alignRight="@id/itemImage" />
+</RelativeLayout>

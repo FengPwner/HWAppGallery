@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape
+                    android:tint="@color/emui_clickeffic_default_color">
+                    <corners
+                        android:radius="40.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_focused="true"
+        android:drawable="@color/emui_control_focused_outline">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape
+                    android:tint="@color/emui_control_focused_outline">
+                    <corners
+                        android:radius="40.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_selected="true">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape
+                    android:tint="@color/emui_clickeffic_default_color">
+                    <corners
+                        android:radius="40.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_hovered="true">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape
+                    android:tint="@color/emui_control_hover">
+                    <corners
+                        android:radius="40.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape
+                    android:tint="@color/emui_accent">
+                    <corners
+                        android:radius="40.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

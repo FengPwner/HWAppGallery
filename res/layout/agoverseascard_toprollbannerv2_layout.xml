@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/firstFl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:importantForAccessibility="no">
+        <com.huawei.appgallery.aguikit.widget.hwshadowlayout.AppGalleryHwShadowLargeLayout
+            android:id="@id/backPictureShadowLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true">
+            <ImageView
+                android:id="@id/backPictureShadow"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="143.0dip"
+                android:scaleType="fitXY"
+                android:importantForAccessibility="no" />
+        </com.huawei.appgallery.aguikit.widget.hwshadowlayout.AppGalleryHwShadowLargeLayout>
+        <ImageView
+            android:id="@id/mainPictureImg"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/agoverseascard_image"
+            android:importantForAccessibility="no" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/bloodPictureImg"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:importantForAccessibility="no" />
+    <com.huawei.appgallery.agoverseascard.agoverseascard.card.rollbannercardv2.RollDateView
+        android:id="@id/item_roll_date_view"
+        android:paddingTop="@dimen/appgallery_rolldateview_padding"
+        android:paddingBottom="@dimen/appgallery_rolldateview_padding"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_rolldateview_margin_top"
+        android:importantForAccessibility="no"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="@dimen/appgallery_rolldateview_margin_start"
+        app:dayTextSize="@dimen/appgallery_rolldateview_day_textsize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:monthTextSize="@dimen/appgallery_rolldateview_month_textsize"
+        app:supportRoll="false" />
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/bg_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70.0dip"
+        android:layout_alignParentBottom="true"
+        app:clip_background="true"
+        app:round_corner_bottom_left="@dimen/agimageloader_default_corner_radius_l"
+        app:round_corner_bottom_right="@dimen/agimageloader_default_corner_radius_l"
+        app:stroke_width="0.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/bottom_layout"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70.0dip"
+        android:layout_alignParentBottom="true"
+        android:importantForAccessibility="yes">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/small_icon"
+            android:clickable="false"
+            android:layout_width="@dimen/appgallery_card_icon_size_small"
+            android:layout_height="@dimen/appgallery_card_icon_size_small"
+            android:layout_marginBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            app:corner_type="appicon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:round_type="all" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:ellipsize="end"
+            android:id="@id/titleTextView"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+            app:layout_constraintBottom_toTopOf="@id/subTitleTextView"
+            app:layout_constraintEnd_toStartOf="@id/downbtn"
+            app:layout_constraintStart_toEndOf="@id/small_icon"
+            app:layout_constraintTop_toTopOf="@id/small_icon" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:ellipsize="end"
+            android:id="@id/subTitleTextView"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+            app:layout_constraintBottom_toBottomOf="@id/small_icon"
+            app:layout_constraintEnd_toStartOf="@id/downbtn"
+            app:layout_constraintStart_toEndOf="@id/small_icon"
+            app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+            android:id="@id/downbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:maxWidth="90.0dip"
+            android:minWidth="64.0dip"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/small_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/small_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

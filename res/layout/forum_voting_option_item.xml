@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.option.vote.view.ForumErrorTipTextLayout
+        android:id="@id/error_tip_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwErrorEnabled="true"
+        app:hwShapeMode="white">
+        <com.huawei.appgallery.forum.option.vote.view.ForumHwCounterTextLayout
+            android:id="@id/counter_layout"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="locale"
+            app:hwMaxLength="@integer/forum_vote_option_input_limit"
+            app:hwShapeMode="white">
+            <com.huawei.uikit.phone.hwedittext.widget.HwEditText
+                android:id="@id/edt_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40.0dip"
+                android:paddingStart="12.0dip"
+                android:paddingEnd="36.0dip"
+                style="@style/Widget.Emui.HwEditText.White" />
+        </com.huawei.appgallery.forum.option.vote.view.ForumHwCounterTextLayout>
+    </com.huawei.appgallery.forum.option.vote.view.ForumErrorTipTextLayout>
+    <ImageView
+        android:id="@id/iv_delete"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_margin="12.0dip"
+        android:src="@drawable/forum_ic_public_close_filled"
+        android:contentDescription="@string/forum_vote_delete_option"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

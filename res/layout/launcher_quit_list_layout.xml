@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/ll_all"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24.0dip"
+    android:layout_marginTop="16.0dip"
+    android:layout_marginRight="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_first"
+        android:layout_width="56.0dip"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.cloudgame.gamedist.view.RoundRectImageView
+            android:id="@id/image_iv_one"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip" />
+        <TextView
+            android:textColor="#ffffffff"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/tv_one"
+            android:layout_width="56.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/ll_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.appgallery.cloudgame.gamedist.view.RoundRectImageView
+                android:id="@id/image_iv_two"
+                android:layout_width="56.0dip"
+                android:layout_height="56.0dip" />
+            <TextView
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/tv_two"
+                android:layout_width="56.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/ll_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.appgallery.cloudgame.gamedist.view.RoundRectImageView
+                android:id="@id/image_iv_three"
+                android:layout_width="56.0dip"
+                android:layout_height="56.0dip" />
+            <TextView
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/tv_three"
+                android:layout_width="56.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_fourth"
+        android:layout_width="56.0dip"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.cloudgame.gamedist.view.RoundRectImageView
+            android:id="@id/image_iv_four"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip" />
+        <TextView
+            android:textColor="#ffffffff"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/tv_four"
+            android:layout_width="56.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

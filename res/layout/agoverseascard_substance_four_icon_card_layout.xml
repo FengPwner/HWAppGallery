@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/agoverseascard_shadow_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:shadowCornerRadius="@dimen/appgallery_default_corner_radius_l"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:round_corner="@dimen/appgallery_default_corner_radius_l"
+        app:stroke_width="0.0dip">
+        <include
+            android:id="@id/card_item_title_layout"
+            layout="@layout/agoverseascard_substance_four_app_card_title" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/app_container"
+            android:background="@color/appgallery_shadow_card_background_color"
+            android:paddingTop="@dimen/agoverseas_substance_four_app_card_padding_top"
+            android:paddingBottom="@dimen/agoverseas_substance_four_app_card_padding_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_item_title_layout"
+            android:paddingStart="@dimen/agoverseas_substance_four_app_card_padding_top"
+            android:paddingEnd="@dimen/agoverseas_substance_four_app_card_padding_top">
+            <ImageView
+                android:id="@id/first_appicon"
+                android:tag="css/.overly"
+                android:layout_width="@dimen/appgallery_card_icon_size_large"
+                android:layout_height="@dimen/appgallery_card_icon_size_large"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:id="@id/second_appicon"
+                android:tag="css/.overly"
+                android:layout_width="@dimen/appgallery_card_icon_size_large"
+                android:layout_height="@dimen/appgallery_card_icon_size_large"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:id="@id/third_appicon"
+                android:tag="css/.overly"
+                android:layout_width="@dimen/appgallery_card_icon_size_large"
+                android:layout_height="@dimen/appgallery_card_icon_size_large"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:id="@id/fourth_appicon"
+                android:tag="css/.overly"
+                android:layout_width="@dimen/appgallery_card_icon_size_large"
+                android:layout_height="@dimen/appgallery_card_icon_size_large"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</LinearLayout>

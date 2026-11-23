@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="end|center|top"
+    android:orientation="horizontal"
+    android:id="@id/splashscreen_skip_btn_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/splashscreen_screen_margin_top"
+    android:layout_marginEnd="@dimen/splashscreen_screen_margin_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/splashscreen_video_tips"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/splashscreen_video_tips"
+        android:singleLine="true"
+        android:shadowColor="@color/splash_screen_text_shadow_color"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="2.0"
+        android:layout_weight="1.0"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/splash_screen_text_style" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/clock_layout"
+        android:background="@drawable/splashscreen_btn_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="54.0dip"
+        android:minHeight="24.0dip"
+        android:layout_marginStart="@dimen/margin_m">
+        <TextView
+            android:id="@id/skip_textview"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splashscreen_skip"
+            android:textAllCaps="true"
+            android:paddingStart="@dimen/padding_m"
+            android:paddingEnd="@dimen/padding_s"
+            style="@style/splash_screen_text_style" />
+        <TextView
+            android:id="@id/clock_textview"
+            android:visibility="gone"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="3.0dip"
+            android:paddingEnd="@dimen/padding_m"
+            style="@style/splash_screen_text_style" />
+    </LinearLayout>
+</LinearLayout>

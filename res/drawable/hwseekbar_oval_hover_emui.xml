@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_hovered="true">
+        <shape
+            android:shape="oval">
+            <size
+                android:height="@dimen/hwseekbar_default_hover_height"
+                android:width="@dimen/hwseekbar_default_hover_width" />
+            <solid
+                android:color="@color/emui_control_hover" />
+        </shape>
+    </item>
+</selector>

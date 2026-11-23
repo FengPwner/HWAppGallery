@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/detail_head_image_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/container_icon"
+        android:layout_width="68.0dip"
+        android:layout_height="72.0dip"
+        android:layout_marginEnd="@dimen/ui_10_dp">
+        <com.huawei.appgallery.detail.detailbase.widget.HwShadowLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@id/hs_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_marginTop="14.0dip">
+            <ImageView
+                android:id="@id/iv_detail_app_icon_bg"
+                android:focusable="false"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:scaleType="fitCenter" />
+        </com.huawei.appgallery.detail.detailbase.widget.HwShadowLayout>
+        <RelativeLayout
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip"
+            android:layout_marginStart="@dimen/component_detail_card_elements_margin_s">
+            <ImageView
+                android:id="@id/detail_head_app_icon_imageview"
+                android:focusable="false"
+                android:layout_width="56.0dip"
+                android:layout_height="56.0dip"
+                android:src="@drawable/icon_default_bg"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:id="@id/detail_head_fast_app_icon_imageview"
+                android:layout_width="@dimen/component_detail_fasticon_size"
+                android:layout_height="@dimen/component_detail_fasticon_size"
+                android:src="@color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_alignBottom="@id/detail_head_app_icon_imageview"
+                android:layout_alignEnd="@id/detail_head_app_icon_imageview" />
+        </RelativeLayout>
+        <ViewStub
+            android:layout_gravity="bottom|center"
+            android:id="@id/horizon_line"
+            android:layout="@layout/aguikit_horizontal_line_layout"
+            android:layout_width="@dimen/size_48dp"
+            android:layout_height="1.5dip"
+            android:layout_marginBottom="10.5dip" />
+    </FrameLayout>
+</LinearLayout>

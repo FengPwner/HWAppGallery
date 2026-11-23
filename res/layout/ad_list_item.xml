@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/item_container_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/ad_item_layout"
+        android:background="@drawable/hiappbase_ad_item_bg"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_single_text_line"
+        style="@style/AppGallery.Widget.List.SingleTextLine">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:layout_gravity="start|center"
+            android:id="@id/ad_title"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_for_layout"
+            android:maxLines="2"
+            android:layout_weight="1.0"
+            android:layout_alignBaseline="@id/ad_more_arrow"
+            android:layout_centerVertical="true"
+            android:textAlignment="viewStart"
+            android:layout_toStartOf="@id/ad_more_arrow"
+            style="@style/AppGallery.TextAppearance.Card.SubTitle2" />
+        <ImageView
+            android:id="@id/ad_more_arrow"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/card_more_btn"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.Widget.List.RightArrow" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/divide_line"
+        android:background="@color/appgallery_list_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+</LinearLayout>

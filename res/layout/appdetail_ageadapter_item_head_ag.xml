@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/detail_head_back_view_stub"
+        android:layout="@layout/appdetail_ageadapter_head_view_back_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@id/vw_divider_top"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/component_detail_normal_divider_line" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_head_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/ui_10_dp"
+            android:paddingEnd="@dimen/appgallery_max_padding_end">
+            <include
+                layout="@layout/appdetail_head_view_app_icon" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/detail_layout"
+                android:paddingBottom="@dimen/detail_ageadapter_head_ag_margin_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/component_detail_card_elements_margin_s">
+                <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/detail_app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/appgallery_card_elements_margin_s">
+                    <TextView
+                        android:textSize="20.0sp"
+                        android:textColor="@color/appgallery_text_color_primary"
+                        android:ellipsize="end"
+                        android:id="@id/detail_head_app_name_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:fontFamily="@string/appgallery_text_font_family_medium"
+                        android:textDirection="locale"
+                        android:textAlignment="viewStart" />
+                </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/appgallery_button_safety_margin">
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/appQualityImage"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="14.0dip"
+                        android:layout_marginEnd="@dimen/margin_m" />
+                    <ImageView
+                        android:id="@id/adapter_rankings_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@id/detail_head_desc_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RelativeLayout
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:id="@id/detail_head_label_layout_linearlayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs">
+                    <com.huawei.appgallery.foundation.ui.framework.widget.MultiLineLabelLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@id/detail_head_label_icon_layout_linearlayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1" />
+                </RelativeLayout>
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_head_time_recruit_desc"
+                    android:focusable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                    android:maxLines="3"
+                    style="@style/detail_head_label" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_head_time_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                    android:maxLines="3"
+                    style="@style/detail_head_label" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/detail_head_no_local_app_desc"
+                    android:focusable="false"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                    android:maxLines="1"
+                    style="@style/detail_head_label" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/text_head_label_container"
+                    android:background="@drawable/detail_title_text_label_bg"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16.0sp"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                    android:paddingStart="@dimen/ui_4_dp"
+                    android:paddingEnd="@dimen/ui_4_dp">
+                    <TextView
+                        android:textSize="@dimen/emui_text_size_caption1"
+                        android:textColor="@color/hiappbase_normal_card_label_text_color"
+                        android:ellipsize="end"
+                        android:id="@id/text_head_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="人气飙升"
+                        android:maxLines="1"
+                        android:fontFamily="@string/appgallery_text_font_family_regular" />
+                    <ImageView
+                        android:background="@drawable/comment_detail_ic_public_arrow_right_900"
+                        android:layout_width="6.0dip"
+                        android:layout_height="12.0dip"
+                        android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:id="@id/vw_divider_line"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/appgallery_subheader_spliter_height" />
+        <ViewStub
+            android:id="@id/no_adapt_container_view_stub"
+            android:layout="@layout/appdetail_head_view_no_adapt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@id/normal_divider"
+            android:background="@color/transparent"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/component_detail_normal_divider" />
+    </LinearLayout>
+</FrameLayout>

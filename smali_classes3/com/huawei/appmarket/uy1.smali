@@ -1,0 +1,70 @@
+.class public final Lcom/huawei/appmarket/uy1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static b:Lcom/huawei/appmarket/uy1;
+
+
+# instance fields
+.field public a:Ljava/util/concurrent/ConcurrentHashMap;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/huawei/appmarket/uy1;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    return-void
+.end method
+
+.method public static declared-synchronized a()Lcom/huawei/appmarket/uy1;
+    .registers 2
+
+    .line 1
+    const-class v0, Lcom/huawei/appmarket/uy1;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/appmarket/uy1;->b:Lcom/huawei/appmarket/uy1;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/appmarket/uy1;
+
+    invoke-direct {v1}, Lcom/huawei/appmarket/uy1;-><init>()V
+
+    sput-object v1, Lcom/huawei/appmarket/uy1;->b:Lcom/huawei/appmarket/uy1;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    sget-object v1, Lcom/huawei/appmarket/uy1;->b:Lcom/huawei/appmarket/uy1;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :goto_1
+    monitor-exit v0
+
+    throw v1
+.end method

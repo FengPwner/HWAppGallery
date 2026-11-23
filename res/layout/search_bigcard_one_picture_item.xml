@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:layout_gravity="center"
+        android:id="@id/image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+        app:touch_drawable="@drawable/transparent" />
+    <include
+        android:id="@id/bigcard_des_layout"
+        layout="@layout/search_bigcard_des_include" />
+</LinearLayout>

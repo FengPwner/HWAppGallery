@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/agguard_common_title_layout" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/agguard_one_click_linear_layout"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <ScrollView
+            android:orientation="vertical"
+            android:id="@id/agguard_one_click_scroll"
+            android:visibility="visible"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never">
+            <RelativeLayout
+                android:id="@id/agguard_one_click_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/one_click_middle_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <include
+                        android:id="@id/agguard_one_click_layout_circle"
+                        android:visibility="visible"
+                        layout="@layout/agguard_rate_progress_layout" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@id/scanning_result_title"
+                        android:focusable="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="locale"
+                        style="@style/AppGallery.TextAppearance.Card.SubTitle1" />
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:id="@id/agguard_one_click_layout_items"
+                        android:visibility="gone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:id="@id/agguard_button_one_click_scan_layout"
+        android:background="@color/appgallery_color_appbar_bg"
+        android:visibility="gone"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/agguard_ageadapter_button_layout_height">
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:textSize="@dimen/appgallery_text_size_button1"
+            android:layout_gravity="center"
+            android:id="@id/agguard_button_one_click_scan_done"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:text="@string/agguard_one_click_done"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            maskview:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small_fixed"
+            maskview:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity_fixed"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</LinearLayout>

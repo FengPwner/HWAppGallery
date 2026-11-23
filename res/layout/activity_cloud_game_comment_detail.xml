@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/cloud_game_comment_detail"
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/game_comment_detail_container"
+        android:tag="css/.body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/custombar" />
+    <ImageView
+        android:id="@id/game_comment_detail_publish_comment_btn"
+        android:background="@drawable/game_comment_detail_publish_comment_selector"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/appcomment_cloud_game_comment_title"
+        android:layout_alignParentEnd="true" />
+    <com.huawei.appgallery.appcomment.ui.actionbar.CommentDetailActionBar
+        android:layout_gravity="top"
+        android:id="@id/custombar"
+        android:tag="css/.body"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

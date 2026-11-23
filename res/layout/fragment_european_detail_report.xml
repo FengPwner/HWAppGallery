@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/report_european_title"
+        android:visibility="visible"
+        layout="@layout/detail_report_page_title_layout" />
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/res_textsize_16sp"
+                android:id="@id/detail_report_content1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cs_view_margin_16"
+                android:layout_marginBottom="@dimen/cs_view_margin_16"
+                android:fontFamily="HarmonyHeiTi"
+                android:layout_marginStart="@dimen/cs_view_margin_16"
+                android:layout_marginEnd="@dimen/cs_view_margin_16" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/res_textsize_16sp"
+                android:id="@id/detail_report_content2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cs_8_dp"
+                android:fontFamily="HarmonyHeiTi"
+                android:layout_marginStart="@dimen/cs_view_margin_16"
+                android:layout_marginEnd="@dimen/cs_view_margin_16" />
+            <include
+                android:id="@id/detail_report_content3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cs_8_dp"
+                android:layout_marginStart="@dimen/cs_view_margin_16"
+                android:layout_marginEnd="@dimen/cs_view_margin_16"
+                layout="@layout/detail_report_content_view" />
+            <include
+                android:id="@id/detail_report_content4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cs_8_dp"
+                android:layout_marginStart="@dimen/cs_view_margin_16"
+                android:layout_marginEnd="@dimen/cs_view_margin_16"
+                layout="@layout/detail_report_content_view" />
+            <include
+                android:id="@id/detail_report_content5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cs_8_dp"
+                android:layout_marginStart="@dimen/cs_view_margin_16"
+                android:layout_marginEnd="@dimen/cs_view_margin_16"
+                layout="@layout/detail_report_content_view" />
+            <include
+                android:id="@id/detail_report_content6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cs_view_margin_16"
+                android:layout_marginEnd="@dimen/cs_view_margin_16"
+                layout="@layout/detail_report_content_view" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/res_textsize_16sp"
+                android:id="@id/detail_report_content7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cs_view_margin_16"
+                android:fontFamily="HarmonyHeiTi" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

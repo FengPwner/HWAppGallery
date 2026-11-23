@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/update_comment_container"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:padding="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.forum.option.comment.view.EditTextWithListView
+        android:scrollbarSize="2.0dip"
+        android:scrollbarThumbVertical="@drawable/update_comment_des_scroll_bar"
+        android:scrollbarStyle="outsideInset"
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:textColorHint="@color/appgallery_text_color_hint"
+        android:gravity="start|center|top"
+        android:id="@id/update_comment_desc"
+        android:background="@null"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:hint="@string/forum_option_update_comment_content_hint"
+        android:maxLength="500"
+        android:layout_above="@id/update_comment_count_tv"
+        android:imeOptions="flagNoFullscreen"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+    <TextView
+        android:textSize="@dimen/emui_master_caption_2"
+        android:textColor="@color/appgallery_text_color_tertiary"
+        android:id="@id/update_comment_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

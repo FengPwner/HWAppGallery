@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/no_network_layout"
+        android:tag="css/.body"
+        android:background="@color/appgallery_color_sub_background"
+        android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/setting"
+            android:paddingStart="@dimen/padding_xl"
+            android:paddingEnd="@dimen/padding_xl">
+            <RelativeLayout
+                android:id="@id/no_wifi_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@id/no_wifi"
+                    android:tag="css/.widget"
+                    android:background="@drawable/ic_no_wifi_disable"
+                    android:layout_centerHorizontal="true"
+                    style="@style/AppGallery.ImageSize.NoData" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body2"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:gravity="center_horizontal"
+                    android:id="@id/title"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/no_wifi" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:gravity="center"
+            android:id="@id/setting"
+            android:tag="css/.title"
+            android:layout_height="32.0dip"
+            android:text="@string/c_setting_network_prompt_title"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_marginStart="@dimen/margin_l"
+            android:layout_marginEnd="@dimen/margin_l"
+            app:hwAutoSizeMinTextSize="10.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</LinearLayout>

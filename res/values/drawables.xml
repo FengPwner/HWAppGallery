@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="black_alpha_03_divier">#07000000</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="skinner_hwsearchview_bg">@drawable/hwsearchview_search_bg</item>
+    <item type="drawable" name="skinner_middle_card_btn_bg">@drawable/ic_button_tran_normal</item>
+    <item type="drawable" name="tab_bg_normal_def_drawable">#fffcfcfc</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_classification">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_classification_actived">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_club">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_club_actived">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_manager">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_manager_actived">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_my">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_my_actived">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_ranking">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_ranking_actived">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_recommend">#00000000</item>
+    <item type="drawable" name="wisedist_mainscreen_bottomtab_recommend_actived">#00000000</item>
+</resources>

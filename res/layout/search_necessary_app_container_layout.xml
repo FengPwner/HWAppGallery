@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/AppListItem"
+    android:clickable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/aguikit_card_panel_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:paddingStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+        android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_vertical">
+        <include
+            android:id="@id/title_layout"
+            layout="@layout/hiappbase_layout_subheader_list_title_action" />
+        <com.huawei.uikit.hwrecyclerview.widget.HwRecyclerView
+            android:id="@id/recyclerView"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:paddingStart="@dimen/appgallery_card_elements_margin_m" />
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/bottom_install_all_btn"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            android:minHeight="28.0dip"
+            android:text="@string/card_install_btn"
+            android:textAllCaps="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/Widget.Emui.HwButton.Emphasize" />
+    </LinearLayout>
+</LinearLayout>

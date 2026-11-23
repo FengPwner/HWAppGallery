@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/app_detail_fragment_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appmarket.service.appdetail.view.widget.HorizonTabNavigator
+        android:id="@id/detail_mutilrow_navigator"
+        android:background="@color/appgallery_color_sub_background"
+        android:paddingTop="@dimen/ui_6_dp"
+        android:paddingBottom="@dimen/ui_6_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.uikit.phone.hwviewpager.widget.HwViewPager
+        android:id="@id/search_pager_new"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

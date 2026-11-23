@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/infoflow_card_triple_app_0"
+    android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+    android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/normal_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        layout="@layout/applistitem_normal" />
+    <include
+        android:id="@id/normal_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        layout="@layout/applistitem_normal" />
+    <include
+        android:id="@id/normal_layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        layout="@layout/applistitem_normal" />
+</LinearLayout>

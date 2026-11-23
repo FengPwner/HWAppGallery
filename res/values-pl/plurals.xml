@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Znaleziono %2$d podejrzanej aplikacji (w tym %1$s)</item>
+        <item quantity="one">Znaleziono %2$d podejrzaną aplikację (w tym %1$s)</item>
+        <item quantity="few">Znaleziono %2$d podejrzane aplikacje (w tym %1$s)</item>
+        <item quantity="many">Znaleziono %2$d podejrzanych aplikacji (w tym %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Znaleziono %2$d nieużywanej aplikacji (w tym %1$s)</item>
+        <item quantity="one">Znaleziono %2$d nieużywaną aplikację (%1$s)</item>
+        <item quantity="few">Znaleziono %2$d nieużywane aplikacje (w tym %1$s)</item>
+        <item quantity="many">Znaleziono %2$d nieużywanych aplikacji (w tym %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d nieużywane aplikacje</item>
+        <item quantity="one">%d nieużywana aplikacja</item>
+        <item quantity="few">%d nieużywane aplikacje</item>
+        <item quantity="many">%d nieużywanych aplikacji</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Liczba aplikacji sprawdzanych w celu wykrycia złośliwych zachowań: %d</item>
+        <item quantity="one">Liczba aplikacji sprawdzanych w celu wykrycia złośliwych zachowań: %d</item>
+        <item quantity="few">Liczba aplikacji sprawdzanych w celu wykrycia złośliwych zachowań: %d</item>
+        <item quantity="many">Liczba aplikacji sprawdzanych w celu wykrycia złośliwych zachowań: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Liczba wykrytych złośliwych aplikacji: %d</item>
+        <item quantity="one">Liczba wykrytych złośliwych aplikacji: %d</item>
+        <item quantity="few">Liczba wykrytych złośliwych aplikacji: %d</item>
+        <item quantity="many">Liczba wykrytych złośliwych aplikacji: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Liczba aplikacji sprawdzanych w celu wykrycia szkodliwych operacji: %d</item>
+        <item quantity="one">Liczba przetworzonych oszukańczych aplikacji: %d</item>
+        <item quantity="few">Liczba przetworzonych oszukańczych aplikacji: %d</item>
+        <item quantity="many">Liczba aplikacji sprawdzanych w celu wykrycia szkodliwych operacji: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Liczba wykrytych szkodliwych aplikacji: %d</item>
+        <item quantity="one">Liczba wykrytych oszukańczych aplikacji: %d</item>
+        <item quantity="few">Liczba wykrytych oszukańczych aplikacji: %d</item>
+        <item quantity="many">Liczba wykrytych szkodliwych aplikacji: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia prywatności: %d</item>
+        <item quantity="one">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia prywatności: %d</item>
+        <item quantity="few">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia prywatności: %d</item>
+        <item quantity="many">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia prywatności: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Liczba wykrytych aplikacji powodujących zagrożenie prywatności: %d</item>
+        <item quantity="one">Liczba wykrytych aplikacji powodujących zagrożenie prywatności: %d</item>
+        <item quantity="few">Liczba wykrytych aplikacji powodujących zagrożenie prywatności: %d</item>
+        <item quantity="many">Liczba wykrytych aplikacji powodujących zagrożenie prywatności: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia bezpieczeństwa: %d</item>
+        <item quantity="one">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia bezpieczeństwa: %d</item>
+        <item quantity="few">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia bezpieczeństwa: %d</item>
+        <item quantity="many">Liczba aplikacji sprawdzanych w celu wykrycia zagrożenia bezpieczeństwa: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Liczba wykrytych aplikacji powodujących zagrożenie bezpieczeństwa: %d</item>
+        <item quantity="one">Liczba wykrytych aplikacji powodujących zagrożenie bezpieczeństwa: %d</item>
+        <item quantity="few">Liczba wykrytych aplikacji powodujących zagrożenie bezpieczeństwa: %d</item>
+        <item quantity="many">Liczba wykrytych aplikacji powodujących zagrożenie bezpieczeństwa: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Liczba aplikacji sprawdzanych w celu wykrycia wirusów: %d</item>
+        <item quantity="one">Liczba aplikacji sprawdzanych w celu wykrycia wirusów: %d</item>
+        <item quantity="few">Liczba aplikacji sprawdzanych w celu wykrycia wirusów: %d</item>
+        <item quantity="many">Liczba aplikacji sprawdzanych w celu wykrycia wirusów: %d</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Liczba wykrytych aplikacji z wirusami: %d</item>
+        <item quantity="one">Liczba wykrytych aplikacji z wirusami: %d</item>
+        <item quantity="few">Liczba wykrytych aplikacji z wirusami: %d</item>
+        <item quantity="many">Liczba wykrytych aplikacji z wirusami: %d</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d zoptymalizowanego elementu</item>
+        <item quantity="one">%d zoptymalizowany element</item>
+        <item quantity="few">%d zoptymalizowane elementy</item>
+        <item quantity="many">%d zoptymalizowanych elementów</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Wykryto problemy: %d</item>
+        <item quantity="one">Wykryto problemy: %d</item>
+        <item quantity="few">Wykryto problemy: %d</item>
+        <item quantity="many">Wykryto problemy: %d</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Sprawdzono %d aplikacji</item>
+        <item quantity="one">Sprawdzono %d aplikację</item>
+        <item quantity="few">Sprawdzono %d aplikacje</item>
+        <item quantity="many">Sprawdzono %d aplikacji</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d dnia temu</item>
+        <item quantity="one">%d dzień temu</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d zagrożenia</item>
+        <item quantity="one">%d zagrożenie</item>
+        <item quantity="few">%d zagrożenia</item>
+        <item quantity="many">%d zagrożeń</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Sprawdzono %d aplikacji</item>
+        <item quantity="one">Sprawdzono %d aplikację</item>
+        <item quantity="few">Sprawdzono %d aplikacje</item>
+        <item quantity="many">Sprawdzono %d aplikacji</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d zagrożenia aplikacji</item>
+        <item quantity="one">%d zagrożenie aplikacji</item>
+        <item quantity="few">%d zagrożenia aplikacji</item>
+        <item quantity="many">%d zagrożeń aplikacji</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">Wykryto %2$d podejrzanej aplikacji w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+        <item quantity="one">Wykryto %2$d podejrzaną aplikację w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+        <item quantity="few">Wykryto %2$d podejrzane aplikacje w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+        <item quantity="many">Wykryto %2$d podejrzanych aplikacji w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">Sprawdzono %2$d aplikacji w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+        <item quantity="one">Sprawdzono %2$d aplikację w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+        <item quantity="few">Sprawdzono %2$d aplikacje w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+        <item quantity="many">Sprawdzono %2$d aplikacji w ciągu ostatnich %1$d dni. Wyświetl szczegóły >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Liczba aplikacji do kompresji: %d</item>
+        <item quantity="one">Liczba aplikacji do kompresji: %d</item>
+        <item quantity="few">Liczba aplikacji do kompresji: %d</item>
+        <item quantity="many">Liczba aplikacji do kompresji: %d</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Wykryte nieznane aplikacje: %d.</item>
+        <item quantity="one">Wykryto nieznane aplikacje: %d.</item>
+        <item quantity="few">Wykryto nieznane aplikacje: %d.</item>
+        <item quantity="many">Wykryte nieznane aplikacje: %d.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Aplikacje do skompresowania (%d)</item>
+        <item quantity="one">Aplikacje do skompresowania (%d)</item>
+        <item quantity="few">Aplikacje do skompresowania (%d)</item>
+        <item quantity="many">Aplikacje do skompresowania (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Znaleziono %d nieznanej aplikacji. Sprawdź.</item>
+        <item quantity="one">Znaleziono %d nieznaną aplikację. Sprawdź.</item>
+        <item quantity="few">Znaleziono %d nieznane aplikacje. Sprawdź.</item>
+        <item quantity="many">Znaleziono %d nieznanych aplikacji. Sprawdź.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Znaleziono %d nieznanej aplikacji</item>
+        <item quantity="one">Znaleziono %d nieznaną aplikację</item>
+        <item quantity="few">Znaleziono %d nieznane aplikacje</item>
+        <item quantity="many">Znaleziono %d nieznanych aplikacji</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d minuty temu</item>
+        <item quantity="one">%d minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Ocena: %s</item>
+        <item quantity="one">Ocena: %s</item>
+        <item quantity="few">Ocena: %s</item>
+        <item quantity="many">Ocena: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i pobranie tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d roku.</item>
+        <item quantity="one">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i pobranie tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d rok.</item>
+        <item quantity="few">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i pobranie tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d lata.</item>
+        <item quantity="many">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i pobranie tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d lat.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Pobierania wstrzymane: %1$d</item>
+        <item quantity="one">Pobierania wstrzymane: %1$d</item>
+        <item quantity="few">Pobierania wstrzymane: %1$d</item>
+        <item quantity="many">Pobierania wstrzymane: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i korzystanie z tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d roku.</item>
+        <item quantity="one">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i korzystanie z tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d rok.</item>
+        <item quantity="few">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i korzystanie z tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d lata.</item>
+        <item quantity="many">Aplikacja %1$s zawiera treści z ograniczeniami wiekowymi. Dotknięcie przycisku %3$s i korzystanie z tej aplikacji jest jednoznaczne z potwierdzeniem, że masz co najmniej %2$d lat.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">Oznaczono %d elementu jako Nie lubię</item>
+        <item quantity="one">Oznaczono %d element jako Nie lubię</item>
+        <item quantity="few">Oznaczono %d elementy jako Nie lubię</item>
+        <item quantity="many">Oznaczono %d elementów jako Nie lubię</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">Oznaczono %d elementu jako Nie lubię, dodano ten element do nielubianych</item>
+        <item quantity="one">Oznaczono %d element jako Nie lubię, dodano ten element do nielubianych</item>
+        <item quantity="few">Oznaczono %d elementy jako Nie lubię, dodano ten element do nielubianych</item>
+        <item quantity="many">Oznaczono %d elementów jako Nie lubię, dodano ten element do nielubianych</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d polubienia</item>
+        <item quantity="one">%d polubienie</item>
+        <item quantity="few">%d polubienia</item>
+        <item quantity="many">%d polubień</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d polubienia, polubiono te treści</item>
+        <item quantity="one">%d polubienie, polubiono te treści</item>
+        <item quantity="few">%d polubienia, polubiono te treści</item>
+        <item quantity="many">%d polubień, polubiono te treści</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d gwiazdki</item>
+        <item quantity="one">%d gwiazdka</item>
+        <item quantity="few">%d gwiazdki</item>
+        <item quantity="many">%d gwiazdek</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d komentarza</item>
+        <item quantity="one">%1$d komentarz</item>
+        <item quantity="few">%1$d komentarze</item>
+        <item quantity="many">%1$d komentarzy</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d minuty temu</item>
+        <item quantity="one">%d minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d oceny</item>
+        <item quantity="one">%d ocena</item>
+        <item quantity="few">%d oceny</item>
+        <item quantity="many">%d ocen</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d polubienia</item>
+        <item quantity="one">%1$d polubienie</item>
+        <item quantity="few">%1$d polubienia</item>
+        <item quantity="many">%1$d polubień</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d odpowiedzi</item>
+        <item quantity="one">%1$d odpowiedź</item>
+        <item quantity="few">%1$d odpowiedzi</item>
+        <item quantity="many">%1$d odpowiedzi</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Wszystkie odpowiedzi (%1$d)</item>
+        <item quantity="one">Wszystkie odpowiedzi (%1$d)</item>
+        <item quantity="few">Wszystkie odpowiedzi (%1$d)</item>
+        <item quantity="many">Wszystkie odpowiedzi (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Żeby skomentować, musisz grać co najmniej %1$d minuty.</item>
+        <item quantity="one">Aby skomentować, musisz spędzić w grze co najmniej %1$d minutę.</item>
+        <item quantity="few">Aby skomentować, musisz spędzić w grze co najmniej %1$d minuty.</item>
+        <item quantity="many">Żeby skomentować, musisz grać co najmniej %1$d minut.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Trwa instalowanie %1$s aplikacji</item>
+        <item quantity="one">Trwa instalowanie %1$s aplikacji</item>
+        <item quantity="few">Trwa instalowanie %1$s aplikacji</item>
+        <item quantity="many">Trwa instalowanie %1$s aplikacji</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Wybrane element: %1$d</item>
+        <item quantity="one">Wybrano %1$d element</item>
+        <item quantity="few">Wybrano %1$d elementy</item>
+        <item quantity="many">Wybrano %1$d elementów</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Odinstalować wybrane aplikacje, w tym %1$s?</item>
+        <item quantity="one">Odinstalować aplikację %1$s?</item>
+        <item quantity="few">Odinstalować wybrane aplikacje, w tym %1$s?</item>
+        <item quantity="many">Odinstalować wybrane aplikacje, w tym %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Odinstalować aplikację %1$s i %2$s innych aplikacji z: %3$s?</item>
+        <item quantity="one">Odinstalować aplikację %1$s i %2$s inną aplikację z: %3$s?</item>
+        <item quantity="few">Odinstalować aplikację %1$s i %2$s inne aplikacje z: %3$s?</item>
+        <item quantity="many">Odinstalować aplikację %1$s i %2$s innych aplikacji z: %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Odinstalować %2$s aplikacji, w tym %1$s?</item>
+        <item quantity="one">Odinstalować %2$s aplikację, w tym %1$s?</item>
+        <item quantity="few">Odinstalować %2$s aplikacje, w tym %1$s?</item>
+        <item quantity="many">Odinstalować %2$s aplikacji, w tym %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Usunąć %1$s wpisu z rejestru?</item>
+        <item quantity="one">Usunąć %1$s wpis z rejestru?</item>
+        <item quantity="few">Usunąć %1$s wpisy z rejestru?</item>
+        <item quantity="many">Usunąć %1$s wpisów z rejestru?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Następujące aplikacje (%1$d) wymagają dostępu do określonych uprawnień:</item>
+        <item quantity="one">Następująca %1$d aplikacja wymaga dostępu do określonych uprawnień:</item>
+        <item quantity="few">Następujące %1$d aplikacje wymagają dostępu do określonych uprawnień:</item>
+        <item quantity="many">Następujących %1$d aplikacji wymaga dostępu do określonych uprawnień:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d oceny</item>
+        <item quantity="one">%1$d ocena</item>
+        <item quantity="few">%1$d oceny</item>
+        <item quantity="many">%1$d ocen</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s mln ocen</item>
+        <item quantity="one">%1$s mln ocen</item>
+        <item quantity="few">%1$s mln ocen</item>
+        <item quantity="many">%1$s mln ocen</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s tys. ocen</item>
+        <item quantity="one">%1$s tys. ocen</item>
+        <item quantity="few">%1$s tys. ocen</item>
+        <item quantity="many">%1$s tys. ocen</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">Aktywności: %1$s</item>
+        <item quantity="one">%1$s aktywność</item>
+        <item quantity="few">%1$s aktywności</item>
+        <item quantity="many">%1$s aktywności</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Na dzisiaj pozostało mniej niż %1$s minuty gry. Zapisz grę jak najszybciej.</item>
+        <item quantity="one">Na dzisiaj pozostało mniej niż %1$s minuta gry. Zapisz grę jak najszybciej.</item>
+        <item quantity="few">Na dzisiaj pozostało mniej niż %1$s minuty gry. Zapisz grę jak najszybciej.</item>
+        <item quantity="many">Na dzisiaj pozostało mniej niż %1$s minut gry. Zapisz grę jak najszybciej.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Pozostało tylko %d minuty.</item>
+        <item quantity="one">Pozostała tyko %d minuta.</item>
+        <item quantity="few">Pozostały tylko %d minuty.</item>
+        <item quantity="many">Pozostało tylko %d minut.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d godziny</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minuty</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekundy</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s mld</item>
+        <item quantity="one">%1$s mld</item>
+        <item quantity="few">%1$s mld</item>
+        <item quantity="many">%1$s mld</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s mln</item>
+        <item quantity="one">%1$s mln</item>
+        <item quantity="few">%1$s mln</item>
+        <item quantity="many">%1$s mln</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s tys.</item>
+        <item quantity="one">%1$s tys.</item>
+        <item quantity="few">%1$s tys.</item>
+        <item quantity="many">%1$s tys.</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d komentarza</item>
+        <item quantity="one">%1$d komentarz</item>
+        <item quantity="few">%1$d komentarze</item>
+        <item quantity="many">%1$d komentarzy</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">%d min temu</item>
+        <item quantity="few">%d min temu</item>
+        <item quantity="many">%d min temu</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Maksymalnie %1$d znaku</item>
+        <item quantity="one">Maksymalnie %1$d znak</item>
+        <item quantity="few">Maksymalnie %1$d znaki</item>
+        <item quantity="many">Maksymalnie %1$d znaków</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Wprowadź co najmniej %1$d znaku</item>
+        <item quantity="one">Wprowadź co najmniej %1$d znak</item>
+        <item quantity="few">Wprowadź co najmniej %1$d znaki</item>
+        <item quantity="many">Wprowadź co najmniej %1$d znaków</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Maksymalnie %1$d obrazu
+Rozmiar pojedynczego obrazu nie może przekraczać %2$s"</item>
+        <item quantity="one">"Maksymalnie %1$d obraz
+Rozmiar pojedynczego obrazu nie może przekraczać %2$s"</item>
+        <item quantity="few">"Maksymalnie %1$d obrazy
+Rozmiar pojedynczego obrazu nie może przekraczać %2$s"</item>
+        <item quantity="many">"Maksymalnie %1$d obrazów
+Rozmiar pojedynczego obrazu nie może przekraczać %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Maksymalnie %d obrazu dla tego typu problemu</item>
+        <item quantity="one">Maksymalnie %d obraz dla tego typu problemu</item>
+        <item quantity="few">Maksymalnie %d obrazy dla tego typu problemu</item>
+        <item quantity="many">Maksymalnie %d obrazów dla tego typu problemu</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s gwiazdki</item>
+        <item quantity="one">%1$s gwiazdka</item>
+        <item quantity="few">%1$s gwiazdki</item>
+        <item quantity="many">%1$s gwiazdek</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">%1$d razy wprowadzono nieprawidłowe hasło. Spróbuj ponownie za %2$d minuty.</item>
+        <item quantity="one">Nieprawidłowe hasło wprowadzono %1$d razy. Spróbuj ponownie za %2$d minutę.</item>
+        <item quantity="few">Nieprawidłowe hasło wprowadzono %1$d razy. Spróbuj ponownie za %2$d minuty.</item>
+        <item quantity="many">Nieprawidłowe hasło wprowadzono %1$d razy. Spróbuj ponownie za %2$d minut.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s mld osób wzięło udział</item>
+        <item quantity="one">%1$s mld osób wzięło udział</item>
+        <item quantity="few">%1$s mld osób wzięło udział</item>
+        <item quantity="many">%1$s mld osób wzięło udział</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s mln osób wzięło udział</item>
+        <item quantity="one">%1$s mln osób wzięło udział</item>
+        <item quantity="few">%1$s mln osób wzięło udział</item>
+        <item quantity="many">%1$s mln osób wzięło udział</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s osoby wzięło udział</item>
+        <item quantity="one">%1$s osoba wzięła udział</item>
+        <item quantity="few">%1$s osoby wzięły udział</item>
+        <item quantity="many">%1$s osób wzięło udział</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s tys. osób wzięło udział</item>
+        <item quantity="one">%1$s tys. osób wzięło udział</item>
+        <item quantity="few">%1$s tys. osób wzięło udział</item>
+        <item quantity="many">%1$s tys. osób wzięło udział</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s mld osób kupiło to</item>
+        <item quantity="one">%1$s mld osób kupiło to</item>
+        <item quantity="few">%1$s mld osób kupiło to</item>
+        <item quantity="many">%1$s mld osób kupiło to</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s mln osób kupiło to</item>
+        <item quantity="one">%1$s mln osób kupiło to</item>
+        <item quantity="few">%1$s mln osób kupiło to</item>
+        <item quantity="many">%1$s mln osób kupiło to</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s osoby kupiło to</item>
+        <item quantity="one">%1$s osoba kupiła to</item>
+        <item quantity="few">%1$s osoby kupiły to</item>
+        <item quantity="many">%1$s osób kupiło to</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s tys. osób kupiło to</item>
+        <item quantity="one">%1$s tys. osób kupiło to</item>
+        <item quantity="few">%1$s tys. osób kupiło to</item>
+        <item quantity="many">%1$s tys. osób kupiło to</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s oceny</item>
+        <item quantity="one">%1$s ocena</item>
+        <item quantity="few">%1$s oceny</item>
+        <item quantity="many">%1$s ocen</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Ocena, %1$s gwiazdki</item>
+        <item quantity="one">Ocena, %1$s gwiazdka</item>
+        <item quantity="few">Ocena, %1$s gwiazdki</item>
+        <item quantity="many">Ocena, %1$s gwiazdek</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Oceniono na %1$s gwiazdki</item>
+        <item quantity="one">Oceniono na %1$s gwiazdkę</item>
+        <item quantity="few">Oceniono na %1$s gwiazdki</item>
+        <item quantity="many">Oceniono na %1$s gwiazdek</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Zainstaluj mimo to (%1$d)</item>
+        <item quantity="one">Zainstaluj mimo to (%1$d)</item>
+        <item quantity="few">Zainstaluj mimo to (%1$d)</item>
+        <item quantity="many">Zainstaluj mimo to (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d godziny</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minuty</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d sekundy</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Wybrane elementy: %1$d</item>
+        <item quantity="one">Wybrano %1$d element</item>
+        <item quantity="few">Wybrano %1$d elementy</item>
+        <item quantity="many">Wybrano %1$d elementów</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Opis musi składać się z co najmniej %d znaku. Dodaj zrzuty ekranu, jeśli to możliwe.</item>
+        <item quantity="one">Opis musi składać się z co najmniej %d znaku. Dodaj zrzuty ekranu, jeśli to możliwe.</item>
+        <item quantity="few">Opis musi składać się z co najmniej %d znaków. Dodaj zrzuty ekranu, jeśli to możliwe.</item>
+        <item quantity="many">Opis musi składać się z co najmniej %d znaków. Dodaj zrzuty ekranu, jeśli to możliwe.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d godziny</item>
+        <item quantity="one">%1$d godzinę</item>
+        <item quantity="few">%1$d godziny</item>
+        <item quantity="many">%1$d godzin</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minuty</item>
+        <item quantity="one">%1$d minutę</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minut</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d sek.</item>
+        <item quantity="one">%1$d sek.</item>
+        <item quantity="few">%1$d sek.</item>
+        <item quantity="many">%1$d sek.</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Wpisy: %1$s</item>
+        <item quantity="one">Wpisy: %1$s</item>
+        <item quantity="few">Wpisy: %1$s</item>
+        <item quantity="many">Wpisy: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d polubienia</item>
+        <item quantity="one">%d polubienie</item>
+        <item quantity="few">%d polubienia</item>
+        <item quantity="many">%d polubień</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d odpowiedzi</item>
+        <item quantity="one">%d odpowiedź</item>
+        <item quantity="few">%d odpowiedzi</item>
+        <item quantity="many">%d odpowiedzi</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s mld</item>
+        <item quantity="one">%1$s mld</item>
+        <item quantity="few">%1$s mld</item>
+        <item quantity="many">%1$s mld</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s mln</item>
+        <item quantity="one">%1$s mln</item>
+        <item quantity="few">%1$s mln</item>
+        <item quantity="many">%1$s mln</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s tys.</item>
+        <item quantity="one">%1$s tys.</item>
+        <item quantity="few">%1$s tys.</item>
+        <item quantity="many">%1$s tys.</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">Wyświetlenia: %d</item>
+        <item quantity="one">Wyświetlenia: %d</item>
+        <item quantity="few">Wyświetlenia: %d</item>
+        <item quantity="many">Wyświetlenia: %d</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Skomentuj (%1$d komentarza)</item>
+        <item quantity="one">Skomentuj (%1$d komentarz)</item>
+        <item quantity="few">Skomentuj (%1$d komentarze)</item>
+        <item quantity="many">Skomentuj (%1$d komentarzy)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Zobacz wszystkie odpowiedzi (%1$d)</item>
+        <item quantity="one">Zobacz wszystkie odpowiedzi (%1$d)</item>
+        <item quantity="few">Zobacz wszystkie odpowiedzi (%1$d)</item>
+        <item quantity="many">Zobacz wszystkie odpowiedzi (%1$d)</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s uczestnika</item>
+        <item quantity="one">%1$s uczestnik</item>
+        <item quantity="few">%1$s uczestnicy</item>
+        <item quantity="many">%1$s uczestników</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Wybierz do %s odpowiedzi</item>
+        <item quantity="one">Wybierz do %s odpowiedzi</item>
+        <item quantity="few">Wybierz do %s odpowiedzi</item>
+        <item quantity="many">Wybierz do %s odpowiedzi</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Wielokrotnego wyboru (wybierz %1$d)</item>
+        <item quantity="one">Wielokrotnego wyboru (wybierz %1$d)</item>
+        <item quantity="few">Wielokrotnego wyboru (wybierz %1$d)</item>
+        <item quantity="many">Wielokrotnego wyboru (wybierz %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Wybierz %s odpowiedzi</item>
+        <item quantity="one">Wybierz %s odpowiedź</item>
+        <item quantity="few">Wybierz %s odpowiedzi</item>
+        <item quantity="many">Wybierz %s odpowiedzi</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s głosu</item>
+        <item quantity="one">%1$s głos</item>
+        <item quantity="few">%1$s głosy</item>
+        <item quantity="many">%1$s głosów</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Ta aplikacja wymaga %1$d uprawnienia. Te uprawnienia możesz odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje > Aplikacje.</item>
+        <item quantity="one">Ta aplikacja wymaga %1$d uprawnienia. To uprawnienie możesz odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje > Aplikacje.</item>
+        <item quantity="few">Ta aplikacja wymaga %1$d uprawnień. Te uprawnienia możesz odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje > Aplikacje.</item>
+        <item quantity="many">Ta aplikacja wymaga %1$d uprawnień. Te uprawnienia możesz odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje > Aplikacje.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Ta aplikacja wymaga %1$d uprawnień. Możesz je odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje i usługi > Aplikacje.</item>
+        <item quantity="one">Ta aplikacja wymaga %1$d uprawnienia. Możesz je odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje i usługi > Aplikacje.</item>
+        <item quantity="few">Ta aplikacja wymaga %1$d uprawnień. Możesz je odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje i usługi > Aplikacje.</item>
+        <item quantity="many">Ta aplikacja wymaga %1$d uprawnień. Możesz je odwołać w dowolnym czasie, wybierając kolejno Ustawienia > Aplikacje i usługi > Aplikacje.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">Prezenty: %1$d</item>
+        <item quantity="one">%1$d prezent</item>
+        <item quantity="few">%1$d prezenty</item>
+        <item quantity="many">%1$d prezentów</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d tys.</item>
+        <item quantity="one">%1$d tys.</item>
+        <item quantity="few">%1$d tys.</item>
+        <item quantity="many">%1$d tys.</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d gwiazdki</item>
+        <item quantity="one">%1$d gwiazdka</item>
+        <item quantity="few">%1$d gwiazdki</item>
+        <item quantity="many">%1$d gwiazdek</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Ocena: %s</item>
+        <item quantity="one">Ocena: %s</item>
+        <item quantity="few">Ocena: %s</item>
+        <item quantity="many">Ocena: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s oceny</item>
+        <item quantity="one">%1$s ocena</item>
+        <item quantity="few">%1$s oceny</item>
+        <item quantity="many">%1$s ocen</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s otworzenia</item>
+        <item quantity="one">%1$s otworzenie</item>
+        <item quantity="few">%1$s otworzenia</item>
+        <item quantity="many">%1$s otworzeń</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d nowych rekomendacji</item>
+        <item quantity="one">%d nowa rekomendacja</item>
+        <item quantity="few">%d nowe rekomendacje</item>
+        <item quantity="many">%d nowej rekomendacji</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s mld</item>
+        <item quantity="one">%1$s mld</item>
+        <item quantity="few">%1$s mld</item>
+        <item quantity="many">%1$s mld</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s mln</item>
+        <item quantity="one">%1$s mln</item>
+        <item quantity="few">%1$s mln</item>
+        <item quantity="many">%1$s mln</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s tys.</item>
+        <item quantity="one">%1$s tys.</item>
+        <item quantity="few">%1$s tys.</item>
+        <item quantity="many">%1$s tys.</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Zaktualizowano %1$d aplikacji</item>
+        <item quantity="one">Zaktualizowano %1$d aplikację</item>
+        <item quantity="few">Zaktualizowano %1$d aplikacje</item>
+        <item quantity="many">Zaktualizowano %1$d aplikacji</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Trwa aktualizacja %1$d aplikacji</item>
+        <item quantity="one">Trwa aktualizacja %1$d aplikacji</item>
+        <item quantity="few">Trwa aktualizacja %1$d aplikacji</item>
+        <item quantity="many">Trwa aktualizacja %1$d aplikacji</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Zdjęcie nie może być większe niż %1$d MB.</item>
+        <item quantity="one">Zdjęcie nie może być większe niż %1$d MB.</item>
+        <item quantity="few">Zdjęcie nie może być większe niż %1$d MB.</item>
+        <item quantity="many">Zdjęcie nie może być większe niż %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d zdjęcia</item>
+        <item quantity="one">%d zdjęcie</item>
+        <item quantity="few">%d zdjęcia</item>
+        <item quantity="many">%d zdjęć</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">Wybrano %1$d/%2$d</item>
+        <item quantity="one">Wybrano %1$d/%2$d</item>
+        <item quantity="few">Wybrano %1$d/%2$d</item>
+        <item quantity="many">Wybrano %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d filmu</item>
+        <item quantity="one">%d film</item>
+        <item quantity="few">%d filmy</item>
+        <item quantity="many">%d filmów</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d korzyści</item>
+        <item quantity="one">%d korzyść</item>
+        <item quantity="few">%d korzyści</item>
+        <item quantity="many">%d korzyści</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Usuń wszystkie wstrzymane instalacja (%1$s aplikacji, %2$s zwolnionego miejsca)</item>
+        <item quantity="one">Usuń wszystkie wstrzymane instalacja (%1$s aplikacja, %2$s zwolnionego miejsca)</item>
+        <item quantity="few">Usuń wszystkie wstrzymane instalacja (%1$s aplikacje, %2$s zwolnionego miejsca)</item>
+        <item quantity="many">Usuń wszystkie wstrzymane instalacja (%1$s aplikacji, %2$s zwolnionego miejsca)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(wybrano %1$d)"</item>
+        <item quantity="one">" 
+(wybrano %1$d)"</item>
+        <item quantity="few">" 
+(wybrano %1$d)"</item>
+        <item quantity="many">" 
+(wybrano %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Strona %1$d</item>
+        <item quantity="one">Strona %1$d</item>
+        <item quantity="few">Strona %1$d</item>
+        <item quantity="many">Strona %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Wstrzymane instalacje: %1$s.</item>
+        <item quantity="one">Wstrzymano %1$s instalację.</item>
+        <item quantity="few">Wstrzymano %1$s instalacje.</item>
+        <item quantity="many">Wstrzymano %1$s instalacji.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">%d min temu</item>
+        <item quantity="few">%d min temu</item>
+        <item quantity="many">%d min temu</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d dodatku</item>
+        <item quantity="one">%1$d dodatek</item>
+        <item quantity="few">%1$d dodatki</item>
+        <item quantity="many">%1$d dodatków</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s pobrania</item>
+        <item quantity="one">%1$s pobranie</item>
+        <item quantity="few">%1$s pobrania</item>
+        <item quantity="many">%1$s pobrań</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Oceniono na %1$s gwiazdki</item>
+        <item quantity="one">Oceniono na %1$s gwiazdkę</item>
+        <item quantity="few">Oceniono na %1$s gwiazdki</item>
+        <item quantity="many">Oceniono na %1$s gwiazdek</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Zakończono zaplanowaną instalację %1$s aplikacji</item>
+        <item quantity="one">Zakończono zaplanowaną instalację %1$s aplikacji</item>
+        <item quantity="few">Zakończono zaplanowaną instalację %1$s aplikacji</item>
+        <item quantity="many">Zakończono zaplanowaną instalację %1$s aplikacji</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Pobieranie %1$d aplikacji rozpocznie się po połączeniu urządzenia z siecią Wi-Fi.</item>
+        <item quantity="one">Pobieranie %1$d aplikacji rozpocznie się po połączeniu urządzenia z siecią Wi-Fi.</item>
+        <item quantity="few">Pobieranie %1$d aplikacji rozpocznie się po połączeniu urządzenia z siecią Wi-Fi.</item>
+        <item quantity="many">Pobieranie %1$d aplikacji rozpocznie się po połączeniu urządzenia z siecią Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s zamówionej w przedsprzedaży)</item>
+        <item quantity="one">(%1$s zamówiona w przedsprzedaży)</item>
+        <item quantity="few">(%1$s zarezerwowane)</item>
+        <item quantity="many">(%1$s zarezerwowanych)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d mln rezerwacji)</item>
+        <item quantity="one">(1 milion rezerwacji)</item>
+        <item quantity="few">(%1$d miliony rezerwacji)</item>
+        <item quantity="many">(%1$d milionów rezerwacji)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d tys. rezerwacji)</item>
+        <item quantity="one">(1 tysiąc rezerwacji)</item>
+        <item quantity="few">(%1$d tysiące rezerwacji)</item>
+        <item quantity="many">(%1$d tysięcy rezerwacji)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Zainstalować %1$s aplikacji?</item>
+        <item quantity="one">Zainstalować %1$s aplikację?</item>
+        <item quantity="few">Zainstalować %1$s aplikacje?</item>
+        <item quantity="many">Zainstalować %1$s aplikacji?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s instalacji w toku.</item>
+        <item quantity="one">%1$s instalacja w toku.</item>
+        <item quantity="few">%1$s instalacje w toku.</item>
+        <item quantity="many">%1$s instalacji w toku.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">na %1$d</item>
+        <item quantity="one">na %1$d</item>
+        <item quantity="few">na %1$d</item>
+        <item quantity="many">na %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Szukaj wśród %d lokalnej aplikacji</item>
+        <item quantity="one">Szukaj wśród %d lokalnej aplikacji</item>
+        <item quantity="few">Szukaj wśród %d lokalnych aplikacji</item>
+        <item quantity="many">Szukaj wśród %d lokalnych aplikacji</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Przywróć %d aplikacji na listę aktualizowanych aplikacji i zezwól na aktualizowanie ich.</item>
+        <item quantity="one">Przywróć %d aplikację na listę aktualizowanych aplikacji i zezwól na aktualizowanie jej.</item>
+        <item quantity="few">Przywróć %d aplikacje na listę aktualizowanych aplikacji i zezwól na aktualizowanie ich.</item>
+        <item quantity="many">Przywróć %d aplikacji na listę aktualizowanych aplikacji i zezwól na aktualizowanie ich.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Dostępne aktualizacje dla %1$s aplikacji</item>
+        <item quantity="one">Dostępna aktualizacja dla %1$s aplikacji</item>
+        <item quantity="few">Dostępne aktualizacje dla %1$s aplikacji</item>
+        <item quantity="many">Dostępne aktualizacje dla %1$s aplikacji</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Zalecana aktualizacja %1$s aplikacji. Całkowity rozmiar: %2$s.</item>
+        <item quantity="one">Zalecana aktualizacja %1$s aplikacji. Rozmiar: %2$s.</item>
+        <item quantity="few">Zalecana aktualizacja %1$s aplikacji. Całkowity rozmiar: %2$s.</item>
+        <item quantity="many">Zalecana aktualizacja %1$s aplikacji. Całkowity rozmiar: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Dostępne aktualizacje dla %1$d aplikacji. Rozmiar: %2$s.</item>
+        <item quantity="one">Dostępna aktualizacja dla %1$d aplikacji. Rozmiar: %2$s.</item>
+        <item quantity="few">Dostępne aktualizacje dla %1$d aplikacji. Rozmiar: %2$s.</item>
+        <item quantity="many">Dostępne aktualizacje dla %1$d aplikacji. Rozmiar: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Nie używano przez %d dnia</item>
+        <item quantity="one">Nie używano przez %d dzień</item>
+        <item quantity="few">Nie używano przez %d dni</item>
+        <item quantity="many">Nie używano przez %d dni</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d godziny</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minuty</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekundy</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Usunąć %d zadania i pobrane pliki?</item>
+        <item quantity="one">Usunąć %d zadanie i pobrany plik?</item>
+        <item quantity="few">Usunąć %d zadania i pobrane pliki?</item>
+        <item quantity="many">Usunąć %d zadań i pobrane pliki?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d dnia meldowania z rzędu</item>
+        <item quantity="one">%d. dzień meldowania</item>
+        <item quantity="few">%d dni meldowania z rzędu</item>
+        <item quantity="many">%d dni meldowania z rzędu</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Dzień %d</item>
+        <item quantity="one">Dzień %d</item>
+        <item quantity="few">Dzień %d</item>
+        <item quantity="many">Dzień %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Pobrano %1$d aplikacji</item>
+        <item quantity="one">Pobrano %1$d aplikację</item>
+        <item quantity="few">Pobrano %1$d aplikacje</item>
+        <item quantity="many">Pobrano %1$d aplikacji</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Ocena: %s</item>
+        <item quantity="one">Ocena: %s</item>
+        <item quantity="few">Ocena: %s</item>
+        <item quantity="many">Ocena: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d minuty temu</item>
+        <item quantity="one">%d minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplikacji, w tym %1$s</item>
+        <item quantity="one">%2$d aplikacja (%1$s)</item>
+        <item quantity="few">%2$d aplikacje, w tym %1$s</item>
+        <item quantity="many">%2$d aplikacji, w tym %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Wskaźnik z czerwoną kropką, liczba nieprzeczytanych powiadomień: %1$s</item>
+        <item quantity="one">Wskaźnik z czerwoną kropką, liczba nieprzeczytanych powiadomień: %1$s</item>
+        <item quantity="few">Wskaźnik z czerwoną kropką, liczba nieprzeczytanych powiadomień: %1$s</item>
+        <item quantity="many">Wskaźnik z czerwoną kropką, liczba nieprzeczytanych powiadomień: %1$s</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d oferty</item>
+        <item quantity="one">%d oferta</item>
+        <item quantity="few">%d oferty</item>
+        <item quantity="many">%d ofert</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d prezentu dla społeczności</item>
+        <item quantity="one">%d prezent dla społeczności</item>
+        <item quantity="few">%d prezenty dla społeczności</item>
+        <item quantity="many">%d prezentów dla społeczności</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d prezentu</item>
+        <item quantity="one">%d prezent</item>
+        <item quantity="few">%d prezenty</item>
+        <item quantity="many">%d prezentów</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d osoby w Twoim regionie jest nią zainteresowane</item>
+        <item quantity="one">%d osoba w Twoim regionie jest nią zainteresowana</item>
+        <item quantity="few">%d osoby w Twoim regionie są nią zainteresowane</item>
+        <item quantity="many">%d osób w Twoim regionie jest nią zainteresowanych</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Wybrane element: %1$d</item>
+        <item quantity="one">Wybrano %1$d element</item>
+        <item quantity="few">Wybrano %1$d elementy</item>
+        <item quantity="many">Wybrano %1$d elementów</item>
+    </plurals>
+</resources>

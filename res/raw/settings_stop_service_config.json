@@ -1,0 +1,37 @@
+{
+    "layout": [
+        {
+            "layoutId": 1,
+            "name": "取消用户协议",
+            "maxRows": 1,
+            "layoutName": "settingcancelprotocolcard"
+        },
+        {
+            "layoutId": 2,
+            "name":"个性化推荐",
+            "maxRows": 1,
+            "layoutName": "settingairecommendcard"
+        }
+    ],
+    "layoutData": [
+        {
+            "layoutId": 1,
+            "name": "取消用户协议",
+            "layoutName": "settingcancelprotocolcard",
+            "dataList": [
+                {}
+            ]
+        },
+        {
+            "layoutId": 2,
+            "name":"个性化推荐",
+            "layoutName": "settingairecommendcard",
+            "dataList": [
+                {
+                    "enableDivider": false
+                }
+            ]
+        }
+
+    ]
+}

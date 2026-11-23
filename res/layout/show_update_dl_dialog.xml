@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/action"
+    android:padding="@dimen/padding_xl"
+    android:layout_width="fill_parent"
+    android:layout_height="104.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_marginTop="@dimen/margin_s">
+        <TextView
+            android:textSize="@dimen/emui_master_body_2"
+            android:textColor="@color/emui_color_gray_7"
+            android:id="@id/third_app_dl_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40%"
+            android:layout_marginEnd="40.0dip"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textSize="@dimen/emui_master_body_2"
+            android:textColor="@color/emui_color_gray_10"
+            android:id="@id/third_app_warn_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upsdk_updating"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:layout_marginEnd="@dimen/margin_l"
+            android:layout_toStartOf="@id/third_app_dl_progress_text" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_marginTop="@dimen/margin_s">
+        <ImageView
+            android:id="@id/cancel_imageview"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/show_update_dlg_cancel"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:id="@id/third_app_dl_progressbar"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_l"
+            android:layout_toStartOf="@id/cancel_imageview"
+            style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/title_name_black"
+        android:gravity="start"
+        android:id="@id/third_app_dl_size_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="20.0dip" />
+</LinearLayout>

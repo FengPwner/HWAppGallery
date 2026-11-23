@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:id="@id/shrink_app_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/shrink_app_item_icon"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/search_ui_40_dp"
+        android:layout_height="@dimen/search_ui_40_dp"
+        android:layout_marginBottom="@dimen/appgallery_card_elements_margin_s"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:round_type="all" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/shrink_app_item_title"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/appgallery_card_icon_size_large"
+        android:maxLines="2"
+        android:importantForAccessibility="no"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+        style="@style/AppGallery.TextAppearance.TextCaption.Secondary" />
+</LinearLayout>

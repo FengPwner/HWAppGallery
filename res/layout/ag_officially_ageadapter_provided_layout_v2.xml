@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/ag_officially_provided_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:ellipsize="end"
+        android:id="@id/tv_tip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_marginStart="@dimen/appgallery_safety_margin_l"
+        android:layout_marginEnd="@dimen/appgallery_safety_margin_l" />
+</LinearLayout>

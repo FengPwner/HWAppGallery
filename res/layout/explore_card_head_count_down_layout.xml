@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3_fixed"
+        android:textColor="@color/appgallery_text_color_primary_inverse"
+        android:id="@id/explore_big_image_head_countdown_layout_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s" />
+    <include
+        android:id="@id/explore_card_head_count_down_layout_hour"
+        layout="@layout/explore_card_head_count_down_textview" />
+    <include
+        android:id="@id/explore_card_head_count_down_layout_hour_separator"
+        layout="@layout/explore_card_head_count_down_separator" />
+    <include
+        android:id="@id/explore_card_head_count_down_layout_min"
+        layout="@layout/explore_card_head_count_down_textview" />
+    <include
+        android:id="@id/explore_card_head_count_down_layout_min_separator"
+        layout="@layout/explore_card_head_count_down_separator" />
+    <include
+        android:id="@id/explore_card_head_count_down_layout_sec"
+        layout="@layout/explore_card_head_count_down_textview" />
+</LinearLayout>

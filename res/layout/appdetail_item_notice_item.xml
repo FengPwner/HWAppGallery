@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/arrowlayout"
+        android:tag="css/.arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_public_arrow_right_900"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_alignParentEnd="true" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/component_detail_card_element_height_l"
+        android:layout_toStartOf="@id/arrowlayout">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/itemTitle"
+            android:tag="css/.subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/itemContent"
+            android:tag="css/.subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_below="@id/itemTitle"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/item_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

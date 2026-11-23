@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <privacystatement
+        id="privacy1">
+        <title>
+            <string
+                name="@string/oem_name" />
+        </title>
+        <privacy_statement_package_name>"com.huawei.appmarket"</privacy_statement_package_name>
+        <privacy_statement_action>com.huawei.appmarket.intent.action.local.privacy</privacy_statement_action>
+    </privacystatement>
+</declaration>

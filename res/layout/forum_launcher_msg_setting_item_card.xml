@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/pushsms_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwswitch.widget.HwSwitch
+        android:id="@id/switchBtn"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.Emui.HwSwitch" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/setTextContainer"
+        android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingBottom="@dimen/appgallery_default_card_space_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/switchBtn">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="center_vertical"
+            android:id="@id/setItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+    </LinearLayout>
+    <View
+        android:id="@id/divider_line_bottom"
+        android:background="@color/divider_horizontal_color_emui"
+        android:layout_width="fill_parent"
+        android:layout_height="0.25dip"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

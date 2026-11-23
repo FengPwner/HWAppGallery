@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:orientation="vertical"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/ability_form_description_text_size"
+                android:textColor="@color/appgallery_text_primary"
+                android:gravity="center"
+                android:id="@id/ability_form_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ability_form_description_margin_top"
+                android:importantForAccessibility="yes"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/ability_service_text_size"
+                android:textColor="@color/appgallery_text_primary"
+                android:gravity="center"
+                android:id="@id/ability_service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ability_service_margin_top"
+                android:importantForAccessibility="yes"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <com.huawei.uikit.hwviewpager.widget.HwViewPager
+                android:id="@id/ability_form_viewpager"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/ability_form_viewpager_margin_top" />
+            <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+                android:layout_gravity="center_horizontal"
+                android:id="@id/ability_form_full_sheet_HwDotsPageIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ability_form_page_indicator_height"
+                android:layout_marginBottom="@dimen/ability_form_page_indicator_margin_bottom"
+                app:hwIsShowAsDot="true"
+                app:hwSelectedDotColor="@color/emui_activated"
+                app:hwUnselectedDotColor="@color/emui_control_normal" />
+        </LinearLayout>
+    </ScrollView>
+    <View
+        android:id="@id/gradient_view"
+        android:background="@drawable/ability_form_gradient_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_above="@id/button_layout" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/button_layout"
+        android:background="@color/appgallery_color_sub_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/fa_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:ellipsize="end"
+                android:id="@id/openService"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/downloadfa_start_service"
+                android:maxLines="1"
+                style="@style/AppGallery.Widget.Button.BottomButton" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/addBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginBottom="@dimen/ui_24_dp"
+                android:text="@string/downloadfa_add_to_desk"
+                android:maxLines="1"
+                style="@style/Widget.Emui.HwButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

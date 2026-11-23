@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/dev_item"
+        layout="@layout/hiappbase_layout_subheader_title_more" />
+    <TextView
+        android:id="@id/detail_comment_dev_textview"
+        android:tag="css/.subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginStart="@dimen/padding_l"
+        android:layout_marginEnd="@dimen/padding_l"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</merge>

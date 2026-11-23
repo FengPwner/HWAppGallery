@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.forum.forum.widget.ForumBanner
+    android:id="@id/banner_item_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8.0dip"
+    android:layout_centerHorizontal="true"
+    android:layout_marginEnd="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:paddingBottom="1.0px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="1.0px"
+        android:paddingEnd="1.0px"
+        app:round_corner_bottom_left="@dimen/appgallery_default_corner_radius_l"
+        app:round_corner_bottom_right="@dimen/appgallery_default_corner_radius_l"
+        app:stroke_width="0.0dip">
+        <com.huawei.appgallery.forum.cards.widget.ForumLineImageView
+            android:layout_gravity="bottom"
+            android:id="@id/fg_banner_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="182.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+            app:touch_drawable="@drawable/placeholder_base_empty" />
+        <com.huawei.appgallery.forum.cards.widget.ForumLineImageView
+            android:layout_gravity="bottom"
+            android:id="@id/banner_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="190.0dip"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+            app:touch_drawable="@drawable/placeholder_base_empty" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</com.huawei.appgallery.forum.forum.widget.ForumBanner>

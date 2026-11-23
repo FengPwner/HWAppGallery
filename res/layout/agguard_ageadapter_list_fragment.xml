@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_appbar_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwrecyclerview.widget.HwRecyclerView
+        android:id="@id/agguard_recycle_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/agguard_button_scan_layout" />
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/agguard_scroll"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:overScrollMode="never">
+        <RelativeLayout
+            android:id="@id/agguard_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@id/middle_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    android:id="@id/agguard_layout_circle"
+                    android:visibility="gone"
+                    layout="@layout/agguard_loading_circle_layout" />
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:id="@id/agguard_layout_items"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <include
+        android:id="@id/agguard_scan_failed_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/agguard_button_scan_layout"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        layout="@layout/agguard_scan_failed_fragment" />
+    <RelativeLayout
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:id="@id/agguard_button_scan_layout"
+        android:background="@color/appgallery_color_appbar_bg"
+        android:visibility="visible"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/agguard_ageadapter_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/agguard_button_scan_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:text="@string/agguard_rescan_title"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            maskview:hwAutoSizeMinTextSize="9.0sp"
+            maskview:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/agguard_button_next_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:text="@string/agguard_next_button_text"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            maskview:hwAutoSizeMinTextSize="9.0sp"
+            maskview:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/agguard_button_one_click"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:text="@string/agguard_next_button_text"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            maskview:hwAutoSizeMinTextSize="9.0sp"
+            maskview:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</RelativeLayout>

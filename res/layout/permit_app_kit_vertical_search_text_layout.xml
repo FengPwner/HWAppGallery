@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/search_body_layout"
+    android:paddingTop="@dimen/appgallery_card_elements_margin_m"
+    android:paddingBottom="@dimen/appgallery_card_elements_margin_l"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:id="@id/search_body_layout_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.permitapp.permitappkit.widget.FoldingTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/search_content_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.1"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/search_folding_imageview"
+        android:tag="css/.arrow"
+        android:background="@drawable/permit_app_kit_ic_arrow_down"
+        android:visibility="gone"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip" />
+</FrameLayout>

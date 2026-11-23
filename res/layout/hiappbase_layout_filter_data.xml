@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="end"
+    android:id="@id/root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line"
+    android:importantForAccessibility="yes"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="10.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="end|center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/hiappbase_filter_textview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2.0dip"
+        android:layout_toStartOf="@id/hiappbase_filter_switch_id"
+        android:labelFor="@id/hiappbase_filter_switch_id"
+        style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    <com.huawei.uikit.hwswitch.widget.HwSwitch
+        android:id="@id/hiappbase_filter_switch_id"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        style="@style/Widget.Emui.HwSwitch" />
+</LinearLayout>

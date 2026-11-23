@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/activities_layout"
+    android:background="@drawable/aguikit_round_rectangle_card_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/activities_icon_layout"
+        android:layout_width="96.0dip"
+        android:layout_height="72.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_centerVertical="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m">
+        <ImageView
+            android:id="@id/activities_icon"
+            android:layout_width="96.0dip"
+            android:layout_height="72.0dip"
+            android:scaleType="centerCrop" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/activities_icon_layout">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/activities_title"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/activities_desc"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/activities_deadline"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/divide_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/activities_icon_layout"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/activities_icon_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

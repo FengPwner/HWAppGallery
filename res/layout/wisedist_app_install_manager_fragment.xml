@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.hwsubtab.widget.HwSubTabWidget
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/hiappbase_tablayout_id"
+            android:background="@color/appgallery_color_subtab_bg"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/hiappbase_horizon_tab_item_height"
+            style="@style/Widget.Emui.HwSubTabBar.Light" />
+        <androidx.viewpager2.widget.ViewPager2
+            android:orientation="vertical"
+            android:id="@id/hiappbase_viewpager_id"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/hiappbase_loading_layout_id"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

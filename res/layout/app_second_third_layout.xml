@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/second_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/old_second_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/second_adText"
+                android:tag="css/.subtitle"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:includeFontPadding="false"
+                android:layout_marginEnd="@dimen/ui_8_dp"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/second_memo"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+        </LinearLayout>
+        <com.huawei.appmarket.service.appdetail.view.widget.DynamicLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/dynamic_second_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/third_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/old_third_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/third_adText"
+                android:tag="css/.subtitle"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:includeFontPadding="false"
+                android:layout_marginEnd="@dimen/ui_8_dp"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/third_memo"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+        </LinearLayout>
+        <com.huawei.appmarket.service.appdetail.view.widget.DynamicLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/dynamic_third_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

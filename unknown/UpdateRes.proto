@@ -1,0 +1,142 @@
+/*
+ * Copyright (c) Huawei Technologies Co., Ltd. 2014-2021. All rights reserved.
+ */
+
+syntax = "proto3";
+
+package protocol;
+
+option java_package = "com.huawei.appgallery.updatemanager.proto";
+option java_outer_classname = "UpdateRes";
+
+message UpdateResp {
+    int32 rtnCode = 1001;
+    string rtnDesc_ = 1002;
+    int32 count = 2;
+    repeated UpdateAppInfo list = 3;
+    repeated UpdateAppInfo notRcmList = 4;
+    repeated UpdatePolicy updatePolicyText = 5;
+}
+
+message UpdateAppInfo {
+    string id = 1;
+    string name = 2;
+    string releaseDate = 3;
+    int64  versionCode = 4;
+    string package = 5;
+    string icon = 6;
+    string downurl = 7;
+    int64  size = 8;
+    int32  diffSize = 9;
+    string diffHash = 10;
+    string hash = 11;
+    string version = 12;
+    int32  sameS = 13;
+    string newFeatures = 14;
+    string releaseDateDesc = 15;
+    string detailId = 16;
+    string productId = 17;
+    string price = 18;
+    string oldVersionName = 19;
+    int32  oldVersionCode = 20;
+    int32  isAutoUpdate = 21;
+    int32  isCompulsoryUpdate = 22;
+    string fullDownUrl = 23;
+    int32  isGame = 24;
+    int32  isKeyApp = 25;
+    string sha256 = 26;
+    string diffSha2 = 27;
+    int32  urgentUpdate = 28;
+    int32  maple = 29;
+    int32  ctype = 30;
+    int32  packingType = 31;
+    int64  bundleSize = 32;
+    int64  obbSize = 33;
+    int64  fullSize = 34;
+    int32  btnDisable = 35;
+    int32  nonAdaptType = 36;
+    string nonAdaptIcon = 37;
+    string nonAdaptDesc = 38;
+    string hignlight = 39;
+    int64  appShelfTime = 40;
+    int32  isDiff = 41;
+    int32  targetSdkS = 42;
+    int32  isGradeAdapt = 43;
+    string localPrice = 44;
+    string updateSDKZone = 45;
+    string updateSDKLan = 46;
+    int32  submitType = 47;
+    int32  detailType = 48;
+    int32  showDisclaimer = 49;
+    string openUrl = 51;
+    string webSite = 52;
+    string gmsUrl = 53;
+    int32  gmsSupportFlag = 54;
+    int64  updateDelayInterval = 55;
+    int32  delayRatio = 56;
+    string fUrl = 57;
+    int32  jumpToGpOnGMSDevice = 58;
+    string gplinkPkgName = 59;
+    int32  webApp = 60;
+    int32  genShortcutForWebApp = 61;
+    string openExemptionFrame = 62;
+    int32  devType = 63;
+    int32  minAge = 64;
+    string notRcmReason = 65;
+    int32  installConfig = 66;
+    int32  downUrlType = 67;
+    string dofType = 68;
+    repeated string sSha2 = 69;
+    repeated UpdateDependentedAppInfo dependentedApps = 70;
+    int32 clearPkgChannelId = 71;
+    string webAppRemarks = 73;
+    int32 skipDexOpt = 74;
+    RiskTips riskTips = 76;
+    RelatedFAInfo relatedFAInfo = 77;
+    int32 updateType = 79;
+    int32 diffType = 80;
+    int32 bgDiffType = 81;
+    int32 bgDiffSize = 82;
+    string bgDiffSha2 = 83;
+    string bgDownurl = 84;
+    int32 profileOptions = 85;
+}
+
+message RelatedFAInfo {
+    string appId = 1;
+    string detailId = 2;
+    string pkg = 3;
+    string versionCode = 4;
+    string name = 5;
+    int32 ctype = 6;
+    string icon = 7;
+    string sha256 = 8;
+    HomeAbilityInfo entryAbility = 9;
+}
+
+message RiskTips {
+    int32 type = 1;
+    string tips = 2;
+}
+message HomeAbilityInfo {
+    string featureName = 1;
+    string abilityName = 2;
+}
+
+message UpdateDependentedAppInfo {
+    string name = 1;
+    string appId = 2;
+    int64 size = 3;
+    string packageStr = 4;
+    string packageName = 5;
+    string downUrl = 6;
+    string detailId = 7;
+    string icon = 8;
+    int64 versionCode = 9;
+    string minVersionCode = 10;
+}
+
+message UpdatePolicy {
+    string type = 1;
+    string text = 2;
+}

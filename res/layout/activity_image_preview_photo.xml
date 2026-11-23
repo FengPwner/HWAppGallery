@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.detail.detailbase.widget.PhotoViewPager
+        android:id="@id/viewPager"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwIsAutoPlay="false"
+        app:hwUnselectedDotColor="@color/detail_hwdotspageindicator_unselect_dot_color"
+        style="@style/Widget.Emui.HwDotsPageIndicator.Dark" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="end|bottom|center"
+        android:orientation="vertical"
+        android:id="@id/image_save_linearlayout"
+        android:layout_width="@dimen/detail_save_lay_width"
+        android:layout_height="@dimen/detail_save_lay_width"
+        android:contentDescription="@string/component_detail_preview_save"
+        android:layout_marginEnd="@dimen/margin_s">
+        <ImageView
+            android:layout_width="@dimen/detail_save_width"
+            android:layout_height="@dimen/detail_save_width"
+            android:src="@drawable/screenshots_save" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+    android:paddingEnd="@dimen/appgallery_card_elements_margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/vertical_gamegift_item_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical">
+        <ImageView
+            android:id="@id/game_gift_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:src="@drawable/bg_perch_icon"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/game_gift_right_middle_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/game_gift_icon">
+            <ImageView
+                android:id="@id/arrow_img"
+                android:layout_width="12.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/ic_public_arrow_right_900"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:layout_alignParentEnd="true" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/right_top_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/arrow_img">
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/game_gift_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/game_gift_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/devider_line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/emui_master_display_4"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

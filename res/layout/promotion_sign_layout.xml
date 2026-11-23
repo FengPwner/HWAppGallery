@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@id/promotion_sign"
+    android:background="@drawable/promotion_sign_bg"
+    style="@style/promotion_sign_style"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

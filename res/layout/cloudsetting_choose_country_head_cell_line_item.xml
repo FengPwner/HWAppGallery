@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@id/cell_line_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@color/emui_color_subheader_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="8.0dip"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+</LinearLayout>

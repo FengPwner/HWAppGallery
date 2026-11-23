@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.phone.hwtoggle.widget.HwToggleButton
+    android:id="@id/toggle"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/hiappbase_horizon_tab_item_height"
+    android:checked="true"
+    android:minWidth="@dimen/hiappbase_horizon_tab_item_min_width"
+    style="@style/Widget.Emui.HwToggle"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

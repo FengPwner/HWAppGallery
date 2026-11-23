@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Atrastas %2$d aizdomīgas lietotnes (tostarp %1$s)</item>
+        <item quantity="zero">Atrastas %2$d aizdomīgas lietotnes (tostarp %1$s)</item>
+        <item quantity="one">Atrasta %2$d aizdomīga lietotne (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Atrastas %2$d neizmantotas lietotnes (ieskaitot %1$s)</item>
+        <item quantity="zero">Atrastas %2$d neizmantotas lietotnes (ieskaitot %1$s)</item>
+        <item quantity="one">Atrasta %2$d neizmantota lietotne (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d neizmantotas lietotnes</item>
+        <item quantity="zero">%d neizmantotas lietotnes</item>
+        <item quantity="one">%d neizmantota lietotne</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Apstrādātas %d lietotnes ar ļaunprātīgu uzvedību</item>
+        <item quantity="zero">%d apstrādātas lietotnes ar ļaunprātīgu uzvedību</item>
+        <item quantity="one">Apstrādāta %d lietotne ar ļaunprātīgu uzvedību</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Atklātas %d lietotnes ar ļaunprātīgu uzvedību</item>
+        <item quantity="zero">%d atklātas lietotnes ar ļaunprātīgu uzvedību</item>
+        <item quantity="one">Atklāta %d lietotne ar ļaunprātīgu uzvedību</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Apstrādātas %d krāpnieciskas lietotnes</item>
+        <item quantity="zero">%d apstrādātas krāpnieciskas lietotnes</item>
+        <item quantity="one">Apstrādāta %d krāpnieciska lietotne</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Atklātas %d krāpnieciskas lietotnes</item>
+        <item quantity="zero">%d atklātas krāpnieciskas lietotnes</item>
+        <item quantity="one">Atklāta %d lietotne krāpnieciska lietotne</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Apstrādātas %d lietotnes ar konfidencialitātes riskiem</item>
+        <item quantity="zero">%d lietotnes ar apstrādātiem konfidencialitātes riskiem</item>
+        <item quantity="one">Apstrādāta %d lietotne ar konfidencialitātes riskiem</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Atklātas %d lietotnes ar konfidencialitātes riskiem</item>
+        <item quantity="zero">%d atklātas lietotnes ar konfidencialitātes riskiem</item>
+        <item quantity="one">Atklāta %d lietotne ar konfidencialitātes riskiem</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Apstrādātas %d lietotnes ar drošības apdraudējumiem</item>
+        <item quantity="zero">%d apstrādātas lietotnes ar drošības apdraudējumiem</item>
+        <item quantity="one">Apstrādāta %d lietotne ar drošības apdraudējumiem</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Atklātas %d lietotnes ar drošības apdraudējumiem</item>
+        <item quantity="zero">%d lietotnes ar atklātiem drošības apdraudējumiem</item>
+        <item quantity="one">Atklāta %d lietotne ar atklātiem drošības apdraudējumiem</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Apstrādātas %d lietotnes ar vīrusiem</item>
+        <item quantity="zero">%d lietotnes ar apstrādātiem vīrusiem</item>
+        <item quantity="one">Apstrādāta %d lietotne ar vīrusiem</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Atklātas %d lietotnes ar vīrusiem</item>
+        <item quantity="zero">%d atklātas lietotnes ar vīrusiem</item>
+        <item quantity="one">Atklāta %d lietotne ar vīrusiem</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">Optimizēti %d vienumi</item>
+        <item quantity="zero">Optimizēti %d vienumi</item>
+        <item quantity="one">Optimizēts %d vienums</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Noteiktas %d problēmas</item>
+        <item quantity="zero">Noteiktas %d problēmas</item>
+        <item quantity="one">Noteikta %d problēma</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d lietotnes skenētas</item>
+        <item quantity="zero">%d lietotnes skenētas</item>
+        <item quantity="one">%d lietotne skenēta</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Pirms %d dienām</item>
+        <item quantity="zero">Pirms %d dienām</item>
+        <item quantity="one">Pirms %d dienas</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d apdraudējumi</item>
+        <item quantity="zero">%d apdraudējumi</item>
+        <item quantity="one">%d apdraudējums</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d skenētas lietotnes</item>
+        <item quantity="zero">%d skenētas lietotnes</item>
+        <item quantity="one">%d skenēta lietotne</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d lietotnes draudi</item>
+        <item quantity="zero">%d lietotnes draudi</item>
+        <item quantity="one">%d lietotnes drauds</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">Atrastas %2$d aizdomīgas lietotnes pēdējo %1$d dienu laikā. Skatīt detalizētu informāciju >></item>
+        <item quantity="zero">Atrastas %2$d aizdomīgas lietotnes pēdējo %1$d dienu laikā. Skatīt detalizētu informāciju >></item>
+        <item quantity="one">Atrasta %2$d aizdomīga lietotne pēdējo %1$d dienu laikā. Skatīt detalizētu informāciju >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d lietotnes skenētas pēdējo %1$d dienu laikā. Skatīt detalizētu informāciju >></item>
+        <item quantity="zero">%2$d lietotnes skenētas pēdējo %1$d dienu laikā. Skatīt detalizētu informāciju >></item>
+        <item quantity="one">%2$d lietotne skenēta pēdējo %1$d dienu laikā. Skatīt detalizētu informāciju >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Iespējams saspiest %d lietotnes</item>
+        <item quantity="zero">Iespējams saspiest %d lietotņu</item>
+        <item quantity="one">Iespējams saspiest %d lietotni</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Noteiktas %d nezināmas lietotnes.</item>
+        <item quantity="zero">Noteiktas %d nezināmas lietotnes.</item>
+        <item quantity="one">Noteikta %d nezināma lietotne.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Saspiežamas lietotnes (%d)</item>
+        <item quantity="zero">Saspiežamas lietotnes (%d)</item>
+        <item quantity="one">Saspiežama lietotne (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Atrastas %d nezināmas lietotnes. Lūdzu, pārbaudiet.</item>
+        <item quantity="zero">Atrastas %d nezināmas lietotnes. Lūdzu, pārbaudiet.</item>
+        <item quantity="one">Atrasta %d nezināma lietotne. Lūdzu, pārbaudiet.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Atrastas %d nezināmas lietotnes</item>
+        <item quantity="zero">Atrastas %d nezināmas lietotnes</item>
+        <item quantity="one">Atrasta %d nezināma lietotne</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">pirms %d min</item>
+        <item quantity="zero">pirms %d min</item>
+        <item quantity="one">pirms %d min</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Vērtējums: %s</item>
+        <item quantity="zero">Vērtējums: %s</item>
+        <item quantity="one">Vērtējums: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s satur ierobežotam vecumam paredzētu saturu. Pieskaroties %3$s un izmantojot šo lietotni, jūsu apliecināt, ka jums ir vairāk nekā %2$d gadu.</item>
+        <item quantity="zero">%1$s satur ierobežotam vecumam paredzētu saturu. Pieskaroties %3$s un lejupielādējot šo lietotni, jūsu apliecināt, ka jums ir vairāk nekā %2$d gadu.</item>
+        <item quantity="one">%1$s satur ierobežotam vecumam paredzētu saturu. Pieskaroties %3$s un lejupielādējot šo lietotni, jūsu apliecināt, ka jums ir vairāk nekā %2$d gads.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Pauzētas lejupielādes: %1$d</item>
+        <item quantity="zero">Lejupielādes pauzētas: %1$d</item>
+        <item quantity="one">Pauzētas lejupielādes: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s satur ierobežotam vecumam paredzētu saturu. Pieskaroties %3$s un izmantojot šo lietotni, jūsu apliecināt, ka jums ir vairāk nekā %2$d gadu.</item>
+        <item quantity="zero">%1$s satur ierobežotam vecumam paredzētu saturu. Pieskaroties %3$s un izmantojiet šo lietotni, jūsu apliecināt, ka jums ir vairāk nekā %2$d gadu.</item>
+        <item quantity="one">%1$s satur ierobežotam vecumam paredzētu saturu. Pieskaroties %3$s un izmantojiet šo lietotni, jūsu apliecināt, ka jums ir vairāk nekā %2$d gads.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d atzīmes Nepatīk</item>
+        <item quantity="zero">%d atzīmes Nepatīk</item>
+        <item quantity="one">%d atzīme Nepatīk</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d atzīmes Nepatīk, jūs esat norādījis, ka jums šis saturs nepatīk</item>
+        <item quantity="zero">%d atzīmes Nepatīk, jūs esat norādījis, ka jums šis saturs nepatīk</item>
+        <item quantity="one">%d atzīme Nepatīk, jūs esat norādījis, ka jums šis saturs nepatīk</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d atzīmes Patīk</item>
+        <item quantity="zero">%d atzīmes Patīk</item>
+        <item quantity="one">%d atzīme Patīk</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d atzīmes Patīk, jūs esat norādījis, ka jums šis saturs patīk</item>
+        <item quantity="zero">%d atzīmes Patīk, jūs esat norādījis, ka jums šis saturs patīk</item>
+        <item quantity="one">%d atzīme Patīk, jūs esat norādījis, ka jums šis saturs patīk</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d zvaigznes</item>
+        <item quantity="zero">%d zvaigznes</item>
+        <item quantity="one">%d zvaigzne</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d komentāri</item>
+        <item quantity="zero">%1$d komentāri</item>
+        <item quantity="one">%1$d komentārs</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Pirms %d min.</item>
+        <item quantity="zero">Pirms %d min.</item>
+        <item quantity="one">Pirms %d min.</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d vērtējumi</item>
+        <item quantity="zero">%d vērtējumi</item>
+        <item quantity="one">%d vērtējums</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d atzīmes Patīk</item>
+        <item quantity="zero">%1$d atzīmes Patīk</item>
+        <item quantity="one">%1$d atzīme Patīk</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d atbildes</item>
+        <item quantity="zero">%1$d atbildes</item>
+        <item quantity="one">%1$d atbilde</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Visas atbildes (%1$d)</item>
+        <item quantity="zero">Visas atbildes (%1$d)</item>
+        <item quantity="one">Visas atbildes (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Lai varētu pievienot komentāru, ir jāspēlē vismaz %1$d minūtes.</item>
+        <item quantity="zero">Lai varētu pievienot komentāru, ir jāspēlē vismaz %1$d minūtes.</item>
+        <item quantity="one">Lai varētu pievienot komentāru, ir jāspēlē vismaz %1$d minūti.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Tiek instalētas %1$s lietotnes</item>
+        <item quantity="zero">Tiek instalētas %1$s lietotnes</item>
+        <item quantity="one">Tiek instalēta %1$s lietotne</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Atinst. atl. lietotnes, arī %1$s?</item>
+        <item quantity="zero">Atinst. atl. lietotnes, arī %1$s?</item>
+        <item quantity="one">Vai atinstalēt %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Vai atinstalēt %1$s un %2$s citas lietotnes no %3$s?</item>
+        <item quantity="zero">Vai atinstalēt %1$s un %2$s citas lietotnes no %3$s?</item>
+        <item quantity="one">Vai atinstalēt %1$s un %2$s citu lietotni no %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Vai atinstalēt %2$s lietotnes, tostarp %1$s?</item>
+        <item quantity="zero">Vai atinstalēt %2$s lietotnes, tostarp %1$s?</item>
+        <item quantity="one">Vai atinstalēt %2$s lietotni, tostarp %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Vai dzēst %1$s ierakstus?</item>
+        <item quantity="zero">Vai dzēst %1$s ierakstus?</item>
+        <item quantity="one">Vai dzēst %1$s ierakstu?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Šīm lietotnēm %1$d nepieciešama piekļuve noteiktām atļaujām:</item>
+        <item quantity="zero">Šīm lietotnēm %1$d nepieciešama piekļuve noteiktām atļaujām:</item>
+        <item quantity="one">Šai lietotnei %1$d nepieciešama piekļuve noteiktām atļaujām:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d vērtējumi</item>
+        <item quantity="zero">%1$d vērtējumi</item>
+        <item quantity="one">%1$d vērtējums</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM vērtējumi</item>
+        <item quantity="zero">%1$sM vērtējumi</item>
+        <item quantity="one">%1$sM vērtējumi</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK vērtējumi</item>
+        <item quantity="zero">%1$sK vērtējumi</item>
+        <item quantity="one">%1$sK vērtējumi</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s aktivitātes</item>
+        <item quantity="zero">%1$s aktivitātes</item>
+        <item quantity="one">%1$s aktivitāte</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Atlikušas mazāk nekā %1$s minūtes no spēles laika. Saglabājiet spēli, cik drīz vien iespējams.</item>
+        <item quantity="zero">Atlikušas mazāk nekā %1$s minūtes no spēles laika. Saglabājiet spēli, cik drīz vien iespējams.</item>
+        <item quantity="one">Atlikusi mazāk nekā %1$s minūte no spēles laika. Saglabājiet spēli, cik drīz vien iespējams.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Atlikušas tikai %d minūtes.</item>
+        <item quantity="zero">Atlikušas tikai %d minūtes.</item>
+        <item quantity="one">Atlikusi tikai %d minūte.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d stundas</item>
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekundes</item>
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="zero">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="zero">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="zero">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d komentāri</item>
+        <item quantity="zero">%1$d komentāri</item>
+        <item quantity="one">%1$d komentārs</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Pirms %d min</item>
+        <item quantity="zero">Pirms %d min</item>
+        <item quantity="one">Pirms %d min</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Ne vairāk kā %1$d rakstzīmes</item>
+        <item quantity="zero">Ne vairāk kā %1$d rakstzīmes</item>
+        <item quantity="one">Ne vairāk kā %1$d rakstzīme</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Ievadiet vismaz %1$d rakstzīmes</item>
+        <item quantity="zero">Ievadiet vismaz %1$d rakstzīmes</item>
+        <item quantity="one">Ievadiet vismaz %1$d rakstzīmi</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Līdz %1$d attēliem
+Katrs maks. %2$s"</item>
+        <item quantity="zero">"Līdz %1$d attēliem
+Katrs maks. %2$s"</item>
+        <item quantity="one">"Līdz %1$d attēlam
+Katrs maks. %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Par šo problēmas veidu var pievienot ne vairāk kā %d attēlus</item>
+        <item quantity="zero">Par šo problēmas veidu var pievienot ne vairāk kā %d attēlus</item>
+        <item quantity="one">Par šo problēmas veidu var pievienot ne vairāk kā %d attēlu</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s zvaigznītes</item>
+        <item quantity="zero">%1$s zvaigznītes</item>
+        <item quantity="one">%1$s zvaigznīte</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Nepareizi ievadīta parole %1$d reizes. Mēģiniet vēlreiz pēc %2$d min.</item>
+        <item quantity="zero">Nepareizi ievadīta parole %1$d reizes. Mēģiniet vēlreiz pēc %2$d min.</item>
+        <item quantity="one">Nepareizi ievadīta parole %1$d reizes. Mēģiniet vēlreiz pēc %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">Piedalījās %1$sB cilvēku</item>
+        <item quantity="zero">Ir piedalījušies %1$sB cilvēku</item>
+        <item quantity="one">Ir piedalījušies %1$sB cilvēku</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">Ir piedalījušies %1$sM cilvēku</item>
+        <item quantity="zero">Ir piedalījušies %1$sM cilvēku</item>
+        <item quantity="one">Ir piedalījušies %1$sM cilvēku</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">Ir piedalījušies %1$s cilvēku</item>
+        <item quantity="zero">Ir piedalījušies %1$s cilvēku</item>
+        <item quantity="one">Ir piedalījusies %1$s persona</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">Ir piedalījušies %1$sK cilvēku</item>
+        <item quantity="zero">Ir piedalījušies %1$sK cilvēku</item>
+        <item quantity="one">Ir piedalījušies %1$sK cilvēku</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">Šo ir iegādājušies %1$sB cilvēki</item>
+        <item quantity="zero">Šo ir iegādājušies %1$sB cilvēki</item>
+        <item quantity="one">Šo ir iegādājušies %1$sB cilvēki</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">Šo ir iegādājušies %1$sM cilvēki</item>
+        <item quantity="zero">Šo ir iegādājušies %1$sM cilvēki</item>
+        <item quantity="one">Šo ir iegādājušies %1$sM cilvēki</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">Šo ir iegādājušies%1$s cilvēki</item>
+        <item quantity="zero">Šo ir iegādājušies%1$s cilvēki</item>
+        <item quantity="one">Šo ir iegādājusies %1$s persona</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">Šo ir iegādājušies %1$sK cilvēki</item>
+        <item quantity="zero">Šo ir iegādājušies %1$sK cilvēki</item>
+        <item quantity="one">Šo ir iegādājušies %1$sK cilvēki</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s vērtējumi</item>
+        <item quantity="zero">%1$s vērtējumi</item>
+        <item quantity="one">%1$s vērtējums</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Vērtējums, %1$s zvaigznes</item>
+        <item quantity="zero">Vērtējums, %1$s zvaigznes</item>
+        <item quantity="one">Vērtējums, %1$s zvaigzne</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Novērtēts ar %1$s zvaigznēm</item>
+        <item quantity="zero">Novērtēts ar %1$s zvaigznēm</item>
+        <item quantity="one">Novērtēts ar %1$s zvaigzni</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Tomēr instalēt (%1$d)</item>
+        <item quantity="zero">Tomēr instalēt (%1$d)</item>
+        <item quantity="one">Tomēr instalēt (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d stundas</item>
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d sekundes</item>
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Aprakstā jābūt vismaz %d rakstzīmēm. Ja iespējams, pievienojiet ekrānuzņēmumus.</item>
+        <item quantity="zero">Aprakstā jābūt vismaz %d rakstzīmēm. Ja iespējams, pievienojiet ekrānuzņēmumus.</item>
+        <item quantity="one">Aprakstā jābūt vismaz %d rakstzīmei. Ja iespējams, pievienojiet ekrānuzņēmumus.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d h</item>
+        <item quantity="zero">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d min</item>
+        <item quantity="zero">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d sekundēm</item>
+        <item quantity="zero">%1$d sekundēm</item>
+        <item quantity="one">%1$d sekundes</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Ziņas: %1$s</item>
+        <item quantity="zero">Ziņas: %1$s</item>
+        <item quantity="one">Ziņas: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d atzīmes Patīk</item>
+        <item quantity="zero">%d atzīmes Patīk</item>
+        <item quantity="one">%d atzīme Patīk</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d atbildes</item>
+        <item quantity="zero">%d atbildes</item>
+        <item quantity="one">%d atbilde</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="zero">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="zero">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="zero">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d skatījumi</item>
+        <item quantity="zero">%d skatījumi</item>
+        <item quantity="one">%d skatījums</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Rakstiet komentāru (kopā %1$d)</item>
+        <item quantity="zero">Rakstiet komentāru (kopā %1$d)</item>
+        <item quantity="one">Rakstiet komentāru (kopā %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Skatīt visas %1$d atbildes</item>
+        <item quantity="zero">%1$d atbilžu</item>
+        <item quantity="one">Skatīt %1$d atbildi</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s dalībnieki</item>
+        <item quantity="zero">%1$s dalībnieki</item>
+        <item quantity="one">%1$s dalībnieks</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Atlasīt ne vairāk kā %s atbildes</item>
+        <item quantity="zero">Atlasīt ne vairāk kā %s atbildes</item>
+        <item quantity="one">Atlasīt ne vairāk kā %s atbildi</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Vairāku variantu jautājums (atlasiet %1$d)</item>
+        <item quantity="zero">Vairāku variantu jautājums (atlasiet %1$d)</item>
+        <item quantity="one">Vairāku variantu jautājums (atlasiet %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Atlasīt %s atbildes</item>
+        <item quantity="zero">Atlasīt %s atbildes</item>
+        <item quantity="one">Atlasīt %s atbildi</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s balsis</item>
+        <item quantity="zero">%1$s balsis</item>
+        <item quantity="one">%1$s balss</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Šai lietotnei ir nepieciešamas %1$d atļaujas. Tās varat jebkurā laikā atsaukt sadaļā Iestatījumi > Lietotnes > Lietotnes.</item>
+        <item quantity="zero">Šai lietotnei ir nepieciešamas %1$d atļaujas. Tās varat jebkurā laikā atsaukt sadaļā Iestatījumi > Lietotnes > Lietotnes.</item>
+        <item quantity="one">Šai lietotnei ir nepieciešama %1$d atļauja. To varat jebkurā laikā atsaukt sadaļā Iestatījumi > Lietotnes > Lietotnes.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Šai lietotnei ir nepieciešamas %1$d atļaujas. Tās varat jebkurā laikā atsaukt sadaļā Iestatījumi > Lietotnes un pakalpojumi > Lietotnes.</item>
+        <item quantity="zero">Šai lietotnei ir nepieciešamas %1$d atļaujas. Tās varat jebkurā laikā atsaukt sadaļā Iestatījumi > Lietotnes un pakalpojumi > Lietotnes.</item>
+        <item quantity="one">Šai lietotnei ir nepieciešama %1$d atļauja. To varat jebkurā laikā atsaukt sadaļā Iestatījumi > Lietotnes un pakalpojumi > Lietotnes.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d balvas</item>
+        <item quantity="zero">%1$d balvas</item>
+        <item quantity="one">%1$d balva</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="zero">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d zvaigznes</item>
+        <item quantity="zero">%1$d zvaigznes</item>
+        <item quantity="one">%1$d zvaigzne</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Vērtējums: %s</item>
+        <item quantity="zero">Vērtējums: %s</item>
+        <item quantity="one">Vērtējums: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s vērtējumi</item>
+        <item quantity="zero">%1$s vērtējumi</item>
+        <item quantity="one">%1$s vērtējums</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s atvēršanas reizes</item>
+        <item quantity="zero">%1$s atvēršanas reizes</item>
+        <item quantity="one">%1$s atvēršanas reize</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d jauni ieteikumi</item>
+        <item quantity="zero">%d jauni ieteikumi</item>
+        <item quantity="one">%d jauns ieteikums</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="zero">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="zero">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="zero">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Ir atjauninātas %1$d lietotnes.</item>
+        <item quantity="zero">Ir atjauninātas %1$d lietotnes.</item>
+        <item quantity="one">Ir atjaunināta %1$d lietotne.</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Tiek atjauninātas %1$d lietotnes</item>
+        <item quantity="zero">Tiek atjauninātas %1$d lietotnes</item>
+        <item quantity="one">Tiek atjaunināta %1$d lietotne</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Attēls nevar būt lielāks nekā %1$d MB.</item>
+        <item quantity="zero">Attēls nevar būt lielāks nekā %1$d MB.</item>
+        <item quantity="one">Attēls nevar būt lielāks nekā %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d fotoattēli</item>
+        <item quantity="zero">%d fotoattēli</item>
+        <item quantity="one">%d fotoattēls</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">Atlasīti %1$d/%2$d</item>
+        <item quantity="zero">Atlasīti %1$d/%2$d</item>
+        <item quantity="one">Atlasīti %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d videoklipi</item>
+        <item quantity="zero">%d videoklipi</item>
+        <item quantity="one">%d videoklips</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d priekšrocības</item>
+        <item quantity="zero">%d priekšrocības</item>
+        <item quantity="one">%d priekšrocība</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Dzēst visas pauzētās instalācijas (%1$s lietotnes, brīva vieta līdz %2$s)</item>
+        <item quantity="zero">Dzēst visas pauzētās instalācijas (%1$s lietotnes, brīva vieta līdz %2$s)</item>
+        <item quantity="one">Dzēst visas pauzētās instalācijas (%1$s lietotne, brīva vieta līdz %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(atlasīta: %1$d)"</item>
+        <item quantity="zero">" 
+(%1$d atlasītas)"</item>
+        <item quantity="one">" 
+(atlasīta: %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">%1$d. lapa</item>
+        <item quantity="zero">%1$d. lapa</item>
+        <item quantity="one">%1$d. lapa</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Pauzētas %1$s instalācijas.</item>
+        <item quantity="zero">Pauzētas %1$s instalācijas.</item>
+        <item quantity="one">Pauzēta %1$s instalācija.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Pirms %d min</item>
+        <item quantity="zero">Pirms %d min</item>
+        <item quantity="one">Pirms %d min</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d papildiespējas</item>
+        <item quantity="zero">%1$d papildiespējas</item>
+        <item quantity="one">%1$d papildiespēja</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s lejupielādes</item>
+        <item quantity="zero">%1$s lejupielādes</item>
+        <item quantity="one">%1$s lejupielāde</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Novērtēts ar %1$s zvaigznēm</item>
+        <item quantity="zero">Novērtēts ar %1$s zvaigznēm</item>
+        <item quantity="one">Novērtēts ar %1$s zvaigzni</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s lietotņu plānotā instal. pabeigta</item>
+        <item quantity="zero">%1$s lietotņu plānotā instal. pabeigta</item>
+        <item quantity="one">%1$s lietotnes plānotā instal. pabeigta</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Kad izveidosiet savienojumu ar Wi-Fi, tiks sākta %1$d lietotņu lejupielāde.</item>
+        <item quantity="zero">Kad izveidosiet savienojumu ar Wi-Fi, tiks sākta %1$d lietotņu lejupielāde.</item>
+        <item quantity="one">Kad izveidosiet savienojumu ar Wi-Fi, tiks sākta %1$d lietotnes lejupielāde.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s pasūtīja iepriekš)</item>
+        <item quantity="zero">(%1$s rezervēja)</item>
+        <item quantity="one">(%1$s pasūtīja iepriekš)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(rezervēts %1$d miljons)</item>
+        <item quantity="zero">(rezervēts %1$d miljons)</item>
+        <item quantity="one">(rezervēts 1 miljons)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(rezervēts %1$d tūkstotis)</item>
+        <item quantity="zero">(rezervēts %1$d tūkstotis)</item>
+        <item quantity="one">(rezervēts 1 tūkstotis)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Vai instalēt visas %1$s lietotnes?</item>
+        <item quantity="zero">Vai instalēt visas %1$s lietotnes?</item>
+        <item quantity="one">Vai instalēt %1$s lietotni?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">Notiek %1$s instalācijas.</item>
+        <item quantity="zero">Notiek %1$s instalācijas.</item>
+        <item quantity="one">Notiek %1$s instalācija.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">no %1$d</item>
+        <item quantity="zero">no %1$d</item>
+        <item quantity="one">no %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Meklējiet %d lokālās lietotnēs</item>
+        <item quantity="zero">Meklējiet %d lokālās lietotnēs</item>
+        <item quantity="one">Meklējiet %d lokālā lietotnē</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Atjaunojiet %d lietotnes atjauninājumu sarakstā, lai tās tiktu atjauninātas.</item>
+        <item quantity="zero">Atjaunojiet %d lietotnes atjauninājumu sarakstā, lai tās tiktu atjauninātas.</item>
+        <item quantity="one">Atjaunojiet %d lietotni atjauninājumu sarakstā, lai tā tiktu atjaunināta.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Ir pieejami %1$s lietotņu atjauninājumi</item>
+        <item quantity="zero">Ir pieejami %1$s lietotņu atjauninājumi</item>
+        <item quantity="one">Ir pieejams %1$s lietotnes atjauninājums</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Ieteicami %1$s lietotnes atjauninājumi. Kopējais lielums: %2$s.</item>
+        <item quantity="zero">Ieteicami %1$s lietotnes atjauninājumi. Kopējais lielums: %2$s.</item>
+        <item quantity="one">Ieteicams %1$s lietotnes atjauninājums. Lielums: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Ir pieejami %1$d lietotņu atjauninājumi. Izmērs: %2$s.</item>
+        <item quantity="zero">Ir pieejami %1$d lietotņu atjauninājumu. Izmērs: %2$s.</item>
+        <item quantity="one">Ir pieejams %1$d lietotņu atjauninājums. Izmērs: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Nav izmantota %d dienas</item>
+        <item quantity="zero">Nav izmantota %d dienas</item>
+        <item quantity="one">Nav izmantota %d dienu</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d stundas</item>
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekundes</item>
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Vai notīrīt %d uzdevumus un lejupielādētos failus?</item>
+        <item quantity="zero">Vai notīrīt %d uzdevumus un lejupielādētos failus?</item>
+        <item quantity="one">Vai notīrīt %d uzdevumu un lejupielādēto failu?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d dienu reģistrēšanās sērija</item>
+        <item quantity="zero">%d dienu reģistrēšanās sērija</item>
+        <item quantity="one">%d dienu reģistrēšanās sērija</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d. diena</item>
+        <item quantity="zero">%d. diena</item>
+        <item quantity="one">%d. diena</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Lejupielādētas %1$d lietotnes</item>
+        <item quantity="zero">Lejupielādētas %1$d lietotnes</item>
+        <item quantity="one">Lejupielādēta %1$d lietotne</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Vērtējums: %s</item>
+        <item quantity="zero">Vērtējums: %s</item>
+        <item quantity="one">Vērtējums: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">pirms %d min</item>
+        <item quantity="zero">pirms %d min</item>
+        <item quantity="one">pirms %d min</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d lietotnes, tostarp %1$s</item>
+        <item quantity="zero">%2$d lietotnes, tostarp %1$s</item>
+        <item quantity="one">%2$d lietotne (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Sarkana punkta žetons, %1$s nelasīti paziņojumi</item>
+        <item quantity="zero">Sarkana punkta žetons, %1$s nelasītu paziņojumu</item>
+        <item quantity="one">Sarkana punkta žetons, %1$s nelasīts paziņojums</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d piedāvājumi</item>
+        <item quantity="zero">%d piedāvājumi</item>
+        <item quantity="one">%d piedāvājums</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d kopienas dāvanas</item>
+        <item quantity="zero">%d kopienas dāvanas</item>
+        <item quantity="one">%d kopienas dāvana</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d dāvanas</item>
+        <item quantity="zero">%d dāvanas</item>
+        <item quantity="one">%d dāvana</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d personas jūsu reģionā to vēlas</item>
+        <item quantity="zero">%d personas jūsu reģionā to vēlas</item>
+        <item quantity="one">%d persona jūsu reģionā to vēlas</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+    </plurals>
+</resources>

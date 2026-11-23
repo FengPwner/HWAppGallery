@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout
+        android:id="@id/fa_roll_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no"
+        app:shadowCornerRadius="@dimen/ui_16_dp">
+        <com.huawei.uikit.hwadvancedcardview.widget.HwAdvancedCardView
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:importantForAccessibility="no"
+            android:elevation="20.0dip"
+            app:cardBackgroundColor="@color/fa_roll_shadowcolor"
+            app:cardCornerRadius="@dimen/ui_16_dp"
+            app:hwAdvancedCardViewClickAnimationEnable="false">
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/iv_farollcard_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </com.huawei.uikit.hwadvancedcardview.widget.HwAdvancedCardView>
+    </com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout>
+</LinearLayout>

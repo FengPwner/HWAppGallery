@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/appmgr_SpaceCard_parent"
+    android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg"
+    android:paddingTop="@dimen/ui_12_dp"
+    android:paddingBottom="@dimen/ui_12_dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/ui_12_dp"
+    android:paddingEnd="@dimen/ui_12_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/appmgr_SpaceCard_icon"
+        android:layout_width="@dimen/ui_32_dp"
+        android:layout_height="@dimen/ui_32_dp"
+        android:src="@drawable/hiapp_appmgr_spacecard_icon" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ui_8_dp">
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/label_container_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/item_label_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hiapp_appmgr_spacecard_title"
+                android:maxLines="1"
+                android:layout_toEndOf="@id/item_label_imageview"
+                style="@style/AppGallery.Widget.SubHeader.Title" />
+            <ImageView
+                android:textColor="@color/emui_white"
+                android:id="@id/item_red_dot_imageview"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:src="@drawable/tab_red_dot"
+                android:layout_marginStart="@dimen/appgallery_text_margin_horizontal" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:id="@id/appmgr_SpaceCard_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cs_2_dp"
+            android:text="@string/hiapp_appmgr_space_clean" />
+    </LinearLayout>
+</LinearLayout>

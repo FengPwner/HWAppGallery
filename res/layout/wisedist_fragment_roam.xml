@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/appgallery_color_sub_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/zjbb_loadingPager"
+        android:visibility="gone"
+        layout="@layout/loading_fragment" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnFrameLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            app:hwColumnType="content_type">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/roaming_imageview"
+                android:layout_width="112.0dip"
+                android:layout_height="112.0dip"
+                android:src="@drawable/appicon_roaming" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:id="@id/must_app_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+                android:text="@string/roam_must_app_local"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:textAlignment="center" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnFrameLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l">
+        <include
+            android:id="@id/button_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            layout="@layout/wisedist_layout_roam_button" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/app_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/button_layout" />
+    </RelativeLayout>
+</LinearLayout>

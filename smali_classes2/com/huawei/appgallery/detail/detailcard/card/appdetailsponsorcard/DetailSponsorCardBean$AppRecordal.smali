@@ -1,0 +1,55 @@
+.class public Lcom/huawei/appgallery/detail/detailcard/card/appdetailsponsorcard/DetailSponsorCardBean$AppRecordal;
+.super Lcom/huawei/appgallery/jsonkit/api/JsonBean;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appgallery/detail/detailcard/card/appdetailsponsorcard/DetailSponsorCardBean;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "AppRecordal"
+.end annotation
+
+
+# instance fields
+.field private appRecordalInfo:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .end annotation
+.end field
+
+.field private title:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/appmarket/sg5;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Lcom/huawei/appgallery/jsonkit/api/JsonBean;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final T()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailsponsorcard/DetailSponsorCardBean$AppRecordal;->appRecordalInfo:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getTitle()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lcom/huawei/appgallery/detail/detailcard/card/appdetailsponsorcard/DetailSponsorCardBean$AppRecordal;->title:Ljava/lang/String;
+
+    return-object v0
+.end method

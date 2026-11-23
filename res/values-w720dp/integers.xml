@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="category_small_card_number">2</integer>
+    <integer name="content_list_card_number">1</integer>
+    <integer name="poster_card_number">2</integer>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.videokit.api.WiseVideoView
+        android:id="@id/video_stream_player"
+        android:tag="@string/properties_video_contentDescription"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:media_type="0"
+        app:view_type="4" />
+    <RelativeLayout
+        android:id="@id/content_container_layout"
+        android:background="@drawable/img_gradual_change_bg"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="88.0dip"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:id="@id/content_layout"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/appgallery_card_height_two_text_lines"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <FrameLayout
+                android:id="@id/icon_fl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@id/icon_imageview"
+                    android:layout_width="@dimen/appgallery_card_icon_size_large"
+                    android:layout_height="@dimen/appgallery_card_icon_size_large" />
+                <ViewStub
+                    android:layout_gravity="end|bottom|center"
+                    android:id="@id/fastappicon"
+                    android:layout="@layout/wisedist_fastappicon_layout"
+                    android:layout_width="@dimen/hiappbase_card_fasticon_size_large"
+                    android:layout_height="@dimen/hiappbase_card_fasticon_size_large" />
+            </FrameLayout>
+            <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+                android:id="@id/download_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="28.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+                android:layout_alignParentEnd="true"
+                app:hwProgressButtonIsHighlight="true"
+                app:hwProgressButtonStaticTextColor="@color/hwprogressbutton_selector_button_text_emphasize"
+                style="@style/Widget.Emui.HwProgressButton.Normal.Dark" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+                android:layout_toStartOf="@id/download_btn"
+                android:layout_toEndOf="@id/icon_fl">
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_body1"
+                    android:textColor="@android:color/white"
+                    android:ellipsize="end"
+                    android:id="@id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/promotion_sign"
+                        android:background="@drawable/promotion_sign_bg"
+                        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                        style="@style/promotion_sign_style" />
+                    <TextView
+                        android:textSize="@dimen/appgallery_text_size_body2"
+                        android:textColor="@android:color/white"
+                        android:ellipsize="end"
+                        android:id="@id/subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:alpha="0.6" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/title_portrait"
+            android:visibility="gone"
+            layout="@layout/apk_uninstall_hispace_title_emui_module" />
+        <include
+            android:id="@id/title_land"
+            android:visibility="gone"
+            layout="@layout/apk_uninstall_hispace_title_emui_land_module" />
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@id/frameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/toolbar"
+        android:layout_below="@id/title">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/list_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+                <com.huawei.uikit.phone.hwsearchview.widget.HwSearchView
+                    android:id="@id/app_uninstall_search_view"
+                    android:background="@color/appgallery_color_sub_background"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:layout="@layout/hwsearchview_icon_hint_text_inner_search_view"
+                    app:queryHint="@plurals/uninstall_management_search_in_local_apps"
+                    style="@style/Widget.Emui.HwSearchView.White" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ui_12_dp">
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:id="@id/app_uninstall_rom_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uninstall_management_memory_usage"
+                        style="@style/uninstall_memory_usage_text_style1" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:gravity="end"
+                        android:id="@id/app_uninstall_rom_size"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uninstall_management_memory_used"
+                        android:layout_marginStart="8.0dip"
+                        style="@style/uninstall_memory_usage_text_style2" />
+                </LinearLayout>
+                <android.widget.ProgressBar
+                    android:id="@id/app_uninstall_progress_bar"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="4.0dip"
+                    android:layout_marginTop="@dimen/ui_10_dp"
+                    android:layout_marginBottom="@dimen/ui_10_dp"
+                    android:progress="0"
+                    style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+            </LinearLayout>
+            <com.huawei.appmarket.framework.titleframe.title.TitleSpinner
+                android:id="@id/install_apk_spinner"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ui_8_dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="2.0dip"
+                android:popupElevation="@dimen/ui_16_dp"
+                app:hwListShadowColor="#ff00001e"
+                app:hwListShadowEnabled="true"
+                app:hwListShadowSize="medium"
+                style="@style/Widget.Emui.HwSpinner" />
+            <FrameLayout
+                android:id="@id/app_uninstall_listview_framelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ListView
+                    android:id="@id/install_apk_list"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:divider="@null"
+                    android:dividerHeight="0.0dip"
+                    android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                    android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+                <com.huawei.uikit.phone.hwscrollbarview.widget.HwScrollbarView
+                    android:layout_gravity="end"
+                    android:id="@id/app_uninstall_listview_scrollbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    style="@style/Widget.Emui.HwScrollbarView" />
+            </FrameLayout>
+            <ViewStub
+                android:id="@id/search_nodata_view"
+                android:visibility="gone"
+                android:layout="@layout/installed_search_nodata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cs_48_dp"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        </LinearLayout>
+        <ViewStub
+            android:id="@id/nodata_view"
+            android:visibility="gone"
+            android:layout="@layout/installed_game_nodata"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    </FrameLayout>
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:id="@id/toolbar"
+        android:addStatesFromChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/hwappbarpattern_split_menu_height"
+        android:layout_alignParentBottom="true">
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/apk_uninstall_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:layout_marginBottom="@dimen/margin_l"
+            android:text="@string/uninstall_all_app"
+            android:singleLine="true"
+            android:textAllCaps="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/uninstall_bottom_button_style" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</RelativeLayout>

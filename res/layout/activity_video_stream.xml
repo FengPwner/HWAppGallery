@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/scale_view_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.service.videostream.view.BounceVerticalRecyclerView
+        android:id="@id/stream_recycleview"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:bounceEnable="true" />
+    <com.huawei.appmarket.framework.widget.CustomActionBar
+        android:layout_gravity="top"
+        android:id="@id/custombar"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/guide_layout"
+        android:background="@color/video_guide_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/margin_xl"
+        android:paddingEnd="@dimen/margin_xl">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wisedist_video_tips" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:text="@string/wisedist_video_guide_tip"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </LinearLayout>
+</RelativeLayout>

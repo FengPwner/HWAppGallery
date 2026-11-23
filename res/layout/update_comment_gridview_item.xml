@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="74.0dip"
+    android:layout_height="72.0dip"
+    android:layout_marginEnd="6.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.option.comment.view.RoundCornerImageView
+        android:id="@id/update_comment_gridview_item_image"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:layout_marginTop="@dimen/margin_m"
+        android:scaleType="centerCrop"
+        app:corner_radius="8.0dip" />
+    <ImageView
+        android:layout_gravity="start|bottom|center"
+        android:id="@id/select_background_imgage"
+        android:background="@drawable/update_comment_image_bg"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip" />
+    <ImageView
+        android:layout_gravity="end|center|top"
+        android:id="@id/update_comment_button_gridview_delete"
+        android:background="@drawable/update_comment_image_select_bg"
+        android:paddingBottom="8.0dip"
+        android:layout_width="20.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/ic_update_comment_img_delete"
+        android:contentDescription="@string/exit_cancel"
+        android:paddingStart="2.0dip"
+        android:paddingEnd="2.0dip" />
+</FrameLayout>

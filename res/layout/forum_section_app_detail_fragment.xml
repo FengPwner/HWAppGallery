@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.section.view.widget.SectionNestScrollLayout
+        android:id="@id/section_detail_fragment_layout_scrollview"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/section_detail_head_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.huawei.appgallery.forum.section.view.widget.SectionDetailSubHead
+            android:gravity="bottom"
+            android:id="@id/section_detail_subhead_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/section_detail_head_layout"
+            app:subStyle="detail" />
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@id/main_viewpager_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.huawei.appgallery.forum.section.view.widget.SectionNestScrollLayout>
+    <com.huawei.appgallery.aguikit.widget.AppGalleryHwFloatingButton
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/section_detail_publish_post_btn"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="@dimen/forum_appgalleyhwfloatingbutton_width_height"
+        android:layout_height="@dimen/forum_appgalleyhwfloatingbutton_width_height"
+        android:layout_margin="@dimen/appgallery_card_elements_margin_l"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/forum_section_publish"
+        style="@style/AppGallery.HwFloatingButton" />
+    <FrameLayout
+        android:id="@id/section_detail_loading_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

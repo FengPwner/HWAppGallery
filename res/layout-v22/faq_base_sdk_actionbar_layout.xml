@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/linearlayout_action_bar_base_activity"
+    android:background="@color/faq_base_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.phoneservice.faq.base.widget.ThemeImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/btn_start"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:src="@drawable/faq_base_sdk_photo_back"
+        android:scaleType="centerInside" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/custom_container"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/faq_base_sdk_bar_black"
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:maxLines="2"
+        android:layout_weight="1.0"
+        android:autoSizeTextType="uniform"
+        android:autoSizeStepGranularity="2.0sp"
+        android:autoSizeMinTextSize="12.0sp"
+        android:autoSizeMaxTextSize="20.0sp" />
+    <com.huawei.phoneservice.faq.base.widget.ThemeImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/btn_end"
+        android:visibility="gone"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:src="@drawable/faq_base_sdk_photo_ok"
+        android:scaleType="centerInside" />
+</LinearLayout>

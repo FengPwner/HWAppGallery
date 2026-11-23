@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnFrameLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            app:hwColumnType="content_type">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/topImg"
+                android:layout_width="@dimen/top_img_size"
+                android:layout_height="@dimen/top_img_size"
+                android:src="@drawable/appicon_essentialapp_recommend" />
+            <TextView
+                android:ellipsize="end"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:id="@id/topTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+                android:text="@string/essentialapp_must_app"
+                android:lines="1"
+                android:textAlignment="center"
+                style="@style/AppGallery.TextAppearance.Card.SubTitle1" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnFrameLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/app_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

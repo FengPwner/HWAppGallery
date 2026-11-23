@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/linear_remote_device_container"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:paddingTop="16.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    android:layout_marginStart="@dimen/appgallery_max_padding_start"
+    android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/img_remote_device_icon"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:layout_gravity="center_vertical"
+            android:id="@id/txt_remote_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip">
+        <LinearLayout
+            android:layout_gravity="start|center"
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.8"
+            android:importantForAccessibility="yes">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/img_remote_device_item_icon"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16.0dip">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="14.0sp"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:ellipsize="end"
+                    android:layout_gravity="start|center"
+                    android:id="@id/txt_remote_device_item_app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:fontFamily="@string/appgallery_text_font_family_regular" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="12.0sp"
+                        android:textColor="@color/appgallery_text_color_secondary"
+                        android:ellipsize="end"
+                        android:layout_gravity="start|center"
+                        android:id="@id/txt_remote_device_item_app_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1" />
+                    <ImageView
+                        android:layout_gravity="start|center"
+                        android:id="@id/remote_device_star"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:layout_width="12.0dip"
+                        android:layout_height="12.0dip"
+                        android:src="@drawable/remote_device_favourites_filled"
+                        android:tint="@color/appgallery_color_secondary"
+                        android:layout_marginStart="2.0dip" />
+                    <TextView
+                        android:textColor="@color/appgallery_text_color_secondary"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="start|center"
+                        android:id="@id/remote_device_dot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/appgallery_unclickable_label_separator_middle_dot" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="12.0sp"
+                        android:textColor="@color/appgallery_text_color_secondary"
+                        android:ellipsize="end"
+                        android:layout_gravity="start|center"
+                        android:id="@id/txt_remote_device_item_app_install_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="end|center"
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_max_padding_end">
+            <com.huawei.appgallery.remotedevice.api.download.RemoteDeviceInstallButton
+                android:id="@id/remote_device_install_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.huawei.appgallery.remotedevice.widget.RemoteDeviceImageLayout
+        android:id="@id/remote_device_image_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

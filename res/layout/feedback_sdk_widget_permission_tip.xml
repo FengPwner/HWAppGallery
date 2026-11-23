@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/feedback_sdk_permission_dialog_bg_shape"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/permission_dialog_warning"
+        android:layout_width="@dimen/feedback_sdk_common_24_dip"
+        android:layout_height="@dimen/feedback_sdk_common_24_dip"
+        android:src="@drawable/feedback_sdk_permission_warning"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/feedback_sdk_common_12_dip" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/feedback_sdk_common_16_dip"
+        android:layout_marginBottom="@dimen/feedback_sdk_common_16_dip"
+        android:layout_marginStart="@dimen/feedback_sdk_common_12_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_12_dip"
+        android:layout_toEndOf="@id/permission_dialog_warning">
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_sp_14"
+            android:textColor="@color/feedback_sdk_common_black"
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_sdk_permission_dialog_title"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+        <TextView
+            android:textSize="@dimen/feedback_sdk_common_ui_12_sp"
+            android:textColor="@color/feedback_sdk_permission_content_color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_2_dip"
+            android:text="@string/feedback_sdk_setting_dialog_content"
+            android:fontFamily="@string/emui_text_font_family_regular" />
+    </LinearLayout>
+</RelativeLayout>

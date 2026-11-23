@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/huawei/appmarket/dp5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Landroid/view/View;Lcom/huawei/appmarket/q21;)Lcom/huawei/appmarket/q21;
+.end method

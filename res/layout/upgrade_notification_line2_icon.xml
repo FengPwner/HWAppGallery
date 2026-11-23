@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginEnd="@dimen/margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/smallicon"
+        android:layout_width="@dimen/updatemanager_notification_line2_icon_with"
+        android:layout_height="@dimen/updatemanager_notification_line2_icon_with"
+        android:adjustViewBounds="true" />
+</LinearLayout>

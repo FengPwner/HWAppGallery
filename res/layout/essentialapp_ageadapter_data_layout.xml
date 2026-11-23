@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnRelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            app:hwColumnType="content_type">
+            <ImageView
+                android:id="@id/topImg"
+                android:layout_width="@dimen/top_img_size"
+                android:layout_height="@dimen/top_img_size"
+                android:src="@drawable/appicon_essentialapp_recommend"
+                android:layout_centerHorizontal="true" />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="82.0dip"
+                android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:layout_gravity="bottom|center"
+                        android:id="@id/topTitle"
+                        android:focusable="true"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="@string/essentialapp_must_app"
+                        android:lines="1"
+                        android:layout_weight="1.0"
+                        android:contentDescription="@string/essentialapp_must_app"
+                        android:importantForAccessibility="yes"
+                        android:textAlignment="center"
+                        style="@style/AppGallery.TextAppearance.Card.SubTitle1" />
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/ad_info_icon"
+                        android:background="@drawable/hiappbase_info_icon"
+                        android:visibility="gone"
+                        android:layout_width="16.0dip"
+                        android:layout_height="16.0dip"
+                        android:contentDescription="@string/hiappbase_one_click_control_more_info"
+                        android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnRelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/app_container"
+            android:scrollbars="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

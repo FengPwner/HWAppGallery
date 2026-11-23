@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">ພົບ %2$d ​ແອັບ​ທີ່​ໜ້າ​ສົງ​ໄສ (​ລວມ​ມີ %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">ພົບ %2$d ແອັບທີ່ບໍ່ໄດ້ໃຊ້ (ລວມທັງ %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d ແອັບບໍ່ໄດ້ໃຊ້</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">ຈັດການ %d ແອັບທີ່ມີພຶດຕິກຳທີ່ເປັນອັດຕະລາຍແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">ກວດພົບ %d ແອັບທີ່ມີພຶດຕິກຳທີ່ເປັນອັນຕະລາຍ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">ຈັດການ %d ແອັບສະແກມແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">ກວດພົບ %d ແອັບສະແກມ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">ຈັດການ %d ແອັບທີ່ມີຄວາມສ່ຽງຕໍ່ຄວາມເປັນສ່ວນຕົວແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">ກວດພົບ %d ແອັບທີ່ມີຄວາມສ່ຽງຕໍ່ຄວາມເປັນສ່ວນຕົວແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">ຈັດການ %d ແອັບທີ່ມີໄພຄຸກຄາມຄວາມປອດໄພແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">ກວດພົບ %d ແອັບທີ່ມີໄພຄຸກຄາມຄວາມປອດໄພ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">ຈັດການ %d ແອັບທີ່ມີໄວຣັສແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">ກວດພົບ %d ແອັບທີ່ມີໄວຣັສ</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">ປັບ %d ລາຍ​ການ​ທີ່​ເໝາະ​ສົມ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">ພົບ %d ບັນຫາ</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">ສະ​ແກນ %d ແອັບ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d ວັນ​ກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ໄພ​ຄຸກ​ຄາມ</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">ສະ​ແກນ %d ແອັບ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d ໄພ​ຄຸກ​ຄາມ​ແອັບ</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">ພົບ %2$d ແອັບ​ທີ່​ໜ້າ​ສົງ​ໃສ​ໃນ %1$d ​ມື້ຫຼ້າ​ສຸດ. ເບິ່ງລາຍ​ລະ​ອຽດ >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">ສະ​ແກນ​ແລ້ວ %2$d ແອັບ​ໃນ %1$d ວັນທີ່​ຜ່ານ​ມາ. ເບິ່ງ​ລາຍ​ລະອຽດ >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d ແອັບສາມາດບີບອັດໄດ້</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">ກວດພົບ %d ແອັບທີ່ບໍ່ຮູ້ຈັກ.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">ແອັບ​ທີ່​ອັດ​ແໜ້ນ​ໄດ້ (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">ພົບ %d ແອັບທີ່ບໍ່ຮູ້ຈັກແລ້ວ. ກະລຸນາກວດເບິ່ງ.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">ພົບ %d ແອັບທີ່ບໍ່ຮູ້ຈັກແລ້ວ</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d ນາ​ທີກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">ການຈັດອັນດັບ: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s ປະກອບ​ມີ​ເນື້ອ​ຫາ​ທີ່ຈຳກັດ​ອາຍຸ. ໂດຍ​ການ​ສຳ​ຜັດ %3$s ແລະ ດາວ​ໂຫຼດແອັບ​ນີ້, ທ່ານ​ຢືນ​ຢັນ​ວ່າ​ທ່ານ​ມີ​ອາ​ຍຸຫຼາຍກວ່າ %2$d ປີ.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">ຢຸດການດາວໂຫຼດໄວ້ຊົ່ວຄາວແລ້ວ: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s ປະກອບ​ມີ​ເນື້ອ​ຫາ​ທີ່ຈຳກັດ​ອາຍຸ. ໂດຍ​ການ​ສຳ​ຜັດ %3$s ແລະ ນຳ​ໃຊ້ແອັບ​ນີ້, ທ່ານ​ຢືນ​ຢັນ​ວ່າ​ທ່ານ​ມີ​ອາ​ຍຸຫຼາຍກວ່າ %2$d ປີ.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d ບໍ່​ຖືກ​ໃຈ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d ບໍ່​ຖືກ​ໃຈ, ທ່ານ​ໄດ້​ກົດ​ບໍ່​ຖືກ​ໃຈ​ສິ່ງ​ນີ້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d ການຖືກ​ໃຈ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d ການ​ຖືກ​ໃຈ, ທ່ານ​ໄດ້​ກົດ​ຖືກ​ໃຈ​ສິ່ງ​ນີ້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d ດາວ</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d ຄຳຄິດເຫັນ</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d ນາ​ທີກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d ອັນ​ດັບ</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d ຖືກ​ໃຈ</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d ຕອບຄືນ</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">ການຕອບ​ກັບທັງ​ໝົດ (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​ຫຼິ້ນ​ເປັນ​ເວ​ລາ​ຢ່າງ​ໜ້ອຍ %1$d ນາ​ທີ​ເພື່ອ​ໃຫ້​ຄຳ​ຄິດ​ເຫັນ.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s ແອັບກຳລັງຖືກຕິດຕັ້ງ</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d ລາຍ​ການ​ຖືກ​ເລືອກ</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">ຖອນ​ຕິດ​ຕັ້ງ​ແອັບ​ທີ່​ເລືອກ​ໄວ້, ລວມ​ທັງ %1$s ບໍ?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">ຖອນ​ຕິດ​ຕັ້ງ %1$s ແລະ %2$s ແອັບ​ອື່ນ​ຈາກ %3$s ບໍ?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">ຖອນຕິດຕັ້ງ %2$s ແອັບ, ລວມທັງ %1$s ບໍ?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">ລຶບ %1$s ບັນ​ທຶກບໍ?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">ແອັບ %1$d ຕໍ່​ໄປ​ນີ້​​ຈຳ​ເປັນ​ຕ້ອງ​ເຂົ້າ​ເຖິງ​ການ​ອະ​ນຸ​ຍາດ​ສະ​ເພາະ​ຄື:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d ອັບ​ດັບ</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s ລ້ານອັນ​ດັບ</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s ພັນອັນ​ດັບ</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s ກິດ​ຈະ​ກຳ</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">​​ເວ​ລາ​ເກມ​ຍັງ​ເຫຼືອໜ້ອຍກວ່າ %1$s ນາ​ທີ. ບັນ​ທຶກ​ເກມ​ຂອງ​ທ່ານ​​​ໂດຍໄວ​ເທົ່າ​ທີ່​ຈະ​​ໄວ​ໄດ້.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">ຍັງ​ເຫຼືອ %d ນາ​ທີ​ເທົ່າ​ນັ້ນ.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ຊົ່ວ​ໂມງ</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d ນາ​ທີ</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d ວິ​ນາ​ທີ</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d ​ຄຳ​ຄິດ​ເຫັນ</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d ນ​ທ ກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">​ຈຳ​ນວນ​ຕົວ​ອັກ​ຂະ​ລະ​​ສູງ​ສຸດ %1$d ຕົວ</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">ປ້ອນ​ຕົວ​ອັກ​ຂະລະຢ່າງ​ໜ້ອຍ %1$d ຕົວ</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"ບໍ່​ເກີນ %1$d ​ຮູບ
+​ແຕ່​ລະ​ຮູບ​ສູງ​ສຸດ %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">ສູງ​ສຸດ %d ​ຮູບ​ພາບ​ສຳ​ລັບ​ປະ​ເພດ​ບັນ​ຫາ​ນີ້</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s ດາວ</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">ລະ​ຫັດ​ຜ່ານ​ທີ່​ປ້ອນ​ເຂົ້າ​ໄປ​ບໍ່​ຖືກ​ຕ້ອງ %1$d ຄັ້ງ​ແລ້ວ. ກະລຸນາລອງໃໝ່ອີກຫຼັງ​ຈາກ %2$d ນາ​ທີ.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s ຕື້ຄົນ​ເຂົ້າ​ຮ່ວມ</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s ລ້ານຄົນ​ເຂົ້າ​ຮ່ວມ</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s ຄົນເຂົ້າ​ຮ່ວມ</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s ພັນຄົນ​ເຂົ້າ​ຮ່ວມ</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s ຕື້ຄົນຊື້​ອັນ​ນີ້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s ລ້ານຄົນຊື້​ອັນ​ນີ້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s ຄົນຊື້​ອັນ​ນີ້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s ພັນຄົນຊື້​ອັນ​ນີ້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s ​ການ​ຈັດອັນ​ດັບ</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">ການຈັດອັນດັບ, %1$s ດາວ</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">ຈັດອັນດັບ %1$s ດາວ</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">ແນວໃດກໍຕິດຕັ້ງ (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d ​ຊົ່ວ​ໂມງ</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d ​ນາ​ທີ</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d ວິ​ນາ​ທີ</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d ລາຍ​ການ​ຖືກ​ເລືອກ</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">ລາຍລະອຽດຕ້ອງ​ມີ​ຄວາມ​ຍາວ​ຢ່າງ​ໜ້ອຍ %d ຕົວ​ອັກ​ຂະ​ລະ. ເພີ່ມ​ຮູບ​ໜ້າ​ຈໍ​ຖ້າ​ເປັນ​ໄປ​ໄດ້.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ຊົ່ວ​ໂມງ</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d ນາ​ທີ</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d ວິ​ນາ​ທີ</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">ໂພ​ສ​ທ໌: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">ຖືກ​ໃຈ %d ຄົນ</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">ຕອບ​ຄືນ %d ຄົນ</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d ວິວ</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">ຝາກ​ຄຳ​ຄິດ​ເຫັນ​ໄວ້ (%1$d ໃນ​ຈຳ​ນວນ​ທັງ​ໝົດ)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">ເບິ່ງ​ທັງ​ໝົດ %1$d ການ​ຕອບ​ຄືນ</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">ຜູ້ເຂົ້າຮ່ວມ %1$s ຄົນ</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">​​ເລືອກ​ໄດ້​​​ສູງ​ສຸ​ດເຖິງ %s ຄຳ​ຕອບ</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">​ຫຼາຍ​ຕົວ​ເລືອກ​ (​ເລືອກ %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">​​ເລືອກ %s ຄຳ​ຕອບ</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s ​ຄະ​ແນນ​ສຽງ</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">ແອັບ​ນີ້​ຈຳ​ເປັນຕ້ອງມີ %1$d ການ​ອະ​ນຸ​ຍາດ. ​ທ່ານ​ສາ​ມາດ​ຖອນ​ສິ່ງ​​ເຫຼົ່ານີ້​ຄືນໄດ້​ທຸກ​ເວ​ລາ​ໃນ ການ​ຕັ້ງ​ຄ່າ > ແອັບ > ແອັບ.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">ແອັບ​ນີ້ຈຳ​ເປັນຕ້ອງມີ %1$d ການ​ອະ​ນຸ​ຍາດ. ທ່ານ​ສາ​ມາດ​ຖອນ​ສິ່ງ​ເຫຼົ່ານີ້​ຄືນໄດ້​ທຸກ​ເວ​ລາ​ຢູ່ໃນ ການ​ຕັ້ງ​ຄ່າ > ແອັບ &amp; ການ​ບໍ​ລິ​ການ> ແອັບ.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">​ຂອງ​ຂວັນ %1$d ອັນ</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ​ດາວ</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">ການຈັດອັນດັບ: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s ​ການ​ຈັດອັນ​ດັບ</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s ເປີດ</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d ການ​ແນະນຳ​ໃໝ່</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d ແອັບ​ໄດ້​ຮັບ​ການ​ອັບ​ເດດ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">ກຳ​ລັງ​ອັບ​ເດດ %1$d ແອັບ</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">ຮູບບໍ່​ສາ​ມາດ​ໃຫຍ່ກວ່າ %1$d MB ໄດ້.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d ​ຮູບ</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">ເລືອກ​ແລ້ວ %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d ວິດີໂອ</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">ຜົນປະໂຫຍດ %d ຢ່າງ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">ລຶບ​ການ​ຕິດ​ຕັ້ງ​ທີ່​ຖືກຢຸດ​ໄວ້​ທັງ​ໝົດ (%1$s ແອັບ, ບັງ​ມີ​ພື້ນ​ທີ່​ຫວ່າງ​ໃຫ້ %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(ເລືອກ​ແລ້ວ %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">ໜ້າ %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">ການ​ຕິດ​ຕັ້ງ %1$s ອັນຢຸດ​ໄປ.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d ນ​ທ ກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d ພິ​ເສດ</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">ການດາວໂຫລດ %1$s ຄັ້ງ</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">ຈັດອັນດັບ %1$s ດາວ</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">ການ​ຕິດ​ຕັ້ງ​ຕາມ​ກຳ​ນົດ​ເວ​ລາ​ໄວ້​ຂອງ %1$s ແອັບ​ສຳ​ເລັດ</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d ແອັບ​ຈະ​ເລີ່ມ​ດາວ​ໂຫຼດ ເມື່ອ​ທ່ານ​ເຊື່ອມ​ຕໍ່​ກັບ Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(ສັ່ງ​ກ່ອນ​ລ່ວງໜ້າ %1$s)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(ຈອງໄວ້ %1$d ລ້ານຄົນ)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(ຈອງໄວ້ %1$d ພັນຄົນ)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">ຕິດ​ຕັ້ງ %1$s ແອັບທັງ​ໝົດ​ບໍ?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">ການ​ຕິດ​ຕັ້ງ %1$s ອັນພວມ​ດຳ​ເນີນ​ຢູ່.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">ໃນ %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">ຊອກ​ຫາ %d ແອັບໃນ​ເຄື່ອງ</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">ກູ້ຄືນ %d ແອັບ ເພື່ອ​ອັບ​ເດດ​ບັນ​ຊີ​ລາຍ​ຊື່ ແລະ ອະ​ນຸ​ຍາດ​ໃຫ້​ພວກ​ມັນ​ອັບ​ເດດ​ໄດ້.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">​ມີ %1$s ການ​ອັບ​ເດດ​ແອັບ​​ໃຫ້</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">ໄດ້​ແນະ​ນຳການ​ອັບ​ເດດ​ແອັບ %1$s ​​ໃຫ້ແລ້ວ. ຂະ​ໜາດ​ທັງ​ໝົດ: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">ມີ %1$d ການ​ອັບ​ເດດ​ແອັບໃຫ້. ຂະ​ໜາດ: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">ບໍ່​ໄດ້​ໃຊ້​ເປັນ​ເວ​ລາ %d ມື້​ແລ້ວ</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ຊົ່ວ​ໂມງ</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d ນາ​ທີ</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d ວິ​ນາ​ທີ</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">ລຶບ​ %d ໜ້າ​ວຽກ​ ແລະ ໄຟ​ລ໌​ທີ່​ດາວ​ໂຫຼດ​ແລ້ວ​ບໍ?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">ໄລ​ຍ​ະ​ເວ​ລາ​ການ​ແຈ້ງ​ເຂົ້າ %d ວັນ</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">ມື້ທີ %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">ດາວ​ໂຫຼດ​ %1$d ແອັບແລ້ວ</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">ການຈັດອັນດັບ: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d ນາ​ທີກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d ແອັບ, ລວມທັງ %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">ເຄື່ອງໝາຍຈຸດສີແດງ, %1$s ການແຈ້ງເຕືອນທີ່ບໍ່ໄດ້ອ່ານ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">ຂໍ້​ສະ​ເໜີ​ໃຫ້ %d</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">ຂອງ​ຂວັນ​ຊຸມ​ຊົນ %d ອັນ</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">ຂອງ​ຂວັນ %d ອັນ</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d ​ຄົນ​ໃນ​ພາກ​ພື້ນ​ຂອງ​ທ່ານ​ຕ້ອງ​ການ​ສິ່ງ​ນີ້</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d ລາຍ​ການ​ຖືກ​ເລືອກ</item>
+    </plurals>
+</resources>

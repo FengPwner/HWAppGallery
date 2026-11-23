@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/banner_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/banner"
+            android:background="@drawable/card_gray_bg_with_corner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+            app:round_type="all" />
+        <ImageView
+            android:id="@id/video_icon"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_marginTop="@dimen/margin_m"
+            android:src="@drawable/ic_midcard_label_video"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/margin_m" />
+    </FrameLayout>
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:maxLines="1"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Fixed.Primary" />
+</LinearLayout>

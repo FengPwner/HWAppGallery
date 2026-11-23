@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/detail_comment_title"
+        android:layout="@layout/hiappbase_layout_subheader_title_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/subheader_viewgroup_style">
+        <TextView
+            android:tag="css/.title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/appcomment_comment_score"
+            android:layout_weight="1.0"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/detail_comment_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appcomment_activity_title"
+            style="@style/appcomment_comment_button" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/detail_comment_colligation_score_toplayout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_l"
+        android:paddingEnd="@dimen/padding_l">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_l">
+            <TextView
+                android:textSize="60.0dip"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:id="@id/app_comment_score_textview"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-14.0dip"
+                android:layout_marginBottom="-12.0dip" />
+            <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                android:id="@id/detail_comment_colligation_stars_ratingbar"
+                android:tag="css/.title"
+                android:layout_marginTop="@dimen/margin_s"
+                android:rating="0.0"
+                android:layout_below="@id/app_comment_score_textview"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:importantForAccessibility="no"
+                style="@style/appcomment_style_list_grey_ratingbar" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_1"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:id="@id/detail_comments_count_textview"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s"
+                android:text=""
+                android:layout_below="@id/detail_comment_colligation_stars_ratingbar"
+                android:fontFamily="HwChinese-regular" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/detail_comment_stars_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                    android:id="@id/detail_comment_five_stars_ratingbar"
+                    android:tag="css/.title"
+                    android:rating="5.0"
+                    style="@style/appcomment_style_list_grey_ratingbar" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/five_textview"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:importantForAccessibility="no"
+                    android:fontFamily="HwChinese-regular"
+                    android:layout_marginStart="@dimen/margin_s"
+                    android:layout_marginEnd="@dimen/margin_m" />
+                <com.huawei.appgallery.appcomment.ui.view.RenderProgressBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_comment_five_stars_proportion_progressbar"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="3.0dip"
+                    android:max="100"
+                    android:progressDrawable="@drawable/appcomment_grey_progressbar"
+                    android:importantForAccessibility="no"
+                    style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s">
+                <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                    android:id="@id/detail_comment_four_stars_ratingbar"
+                    android:tag="css/.title"
+                    android:numStars="4"
+                    android:rating="4.0"
+                    android:layout_marginStart="12.0dip"
+                    style="@style/appcomment_style_list_grey_ratingbar" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/four_textview"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:importantForAccessibility="no"
+                    android:fontFamily="HwChinese-regular"
+                    android:layout_marginStart="@dimen/margin_s"
+                    android:layout_marginEnd="@dimen/margin_m" />
+                <com.huawei.appgallery.appcomment.ui.view.RenderProgressBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_comment_four_stars_proportion_progressbar"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="3.0dip"
+                    android:max="100"
+                    android:progressDrawable="@drawable/appcomment_grey_progressbar"
+                    android:importantForAccessibility="no"
+                    style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s">
+                <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                    android:id="@id/detail_comment_three_stars_ratingbar"
+                    android:tag="css/.title"
+                    android:numStars="3"
+                    android:rating="3.0"
+                    android:layout_marginStart="@dimen/margin_xl"
+                    style="@style/appcomment_style_list_grey_ratingbar" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/three_textview"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:importantForAccessibility="no"
+                    android:fontFamily="HwChinese-regular"
+                    android:layout_marginStart="@dimen/margin_s"
+                    android:layout_marginEnd="@dimen/margin_m" />
+                <com.huawei.appgallery.appcomment.ui.view.RenderProgressBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_comment_three_stars_proportion_progressbar"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="3.0dip"
+                    android:max="100"
+                    android:progressDrawable="@drawable/appcomment_grey_progressbar"
+                    android:importantForAccessibility="no"
+                    style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s">
+                <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                    android:id="@id/detail_comment_two_stars_ratingbar"
+                    android:tag="css/.title"
+                    android:numStars="2"
+                    android:rating="2.0"
+                    android:layout_marginStart="36.0dip"
+                    style="@style/appcomment_style_list_grey_ratingbar" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/two_textview"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:importantForAccessibility="no"
+                    android:fontFamily="HwChinese-regular"
+                    android:layout_marginStart="@dimen/margin_s"
+                    android:layout_marginEnd="@dimen/margin_m" />
+                <com.huawei.appgallery.appcomment.ui.view.RenderProgressBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_comment_two_stars_proportion_progressbar"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="3.0dip"
+                    android:max="100"
+                    android:progressDrawable="@drawable/appcomment_grey_progressbar"
+                    android:importantForAccessibility="no"
+                    style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_s">
+                <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                    android:id="@id/detail_comment_one_stars_ratingbar"
+                    android:tag="css/.title"
+                    android:numStars="1"
+                    android:rating="1.0"
+                    android:layout_marginStart="@dimen/size_48dp"
+                    style="@style/appcomment_style_list_grey_ratingbar" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/one_textview"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:importantForAccessibility="no"
+                    android:fontFamily="HwChinese-regular"
+                    android:layout_marginStart="@dimen/margin_s"
+                    android:layout_marginEnd="@dimen/margin_m" />
+                <com.huawei.appgallery.appcomment.ui.view.RenderProgressBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_comment_one_stars_proportion_progressbar"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="3.0dip"
+                    android:max="100"
+                    android:progressDrawable="@drawable/appcomment_grey_progressbar"
+                    android:importantForAccessibility="no"
+                    style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

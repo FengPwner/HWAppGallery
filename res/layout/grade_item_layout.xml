@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/item_root"
+    android:background="@drawable/aguikit_round_rectangle_card_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/appcommon_relativelayout_grade_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_two_text_lines_with_icon">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/item_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l">
+            <ImageView
+                android:id="@id/grade_icon"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip" />
+        </LinearLayout>
+        <com.huawei.uikit.phone.hwradiobutton.widget.HwRadioButton
+            android:id="@id/radio_button"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.Emui.HwRadioButton" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/subTitle_root_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/radio_button"
+            android:layout_toEndOf="@id/item_left">
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Primary" />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_gravity="start"
+                android:id="@id/subTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/appcommon_imageview_grade_item_divider"
+        android:tag="divider"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="40.0dip"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

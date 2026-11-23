@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एप केँ डाउनलोड कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="zero">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एप केँ डाउनलोड कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="one">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एप केँ डाउनलोड कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="two">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एप केँ डाउनलोड कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="few">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एप केँ डाउनलोड कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="many">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एप केँ डाउनलोड कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">डाउनलोड सभ करब रोकल गेल: %1$d</item>
+        <item quantity="zero">डाउनलोड सभ करब रोकल गेल: %1$d</item>
+        <item quantity="one">डाउनलोड सभ करब रोकल गेल: %1$d</item>
+        <item quantity="two">डाउनलोड सभ करब रोकल गेल: %1$d</item>
+        <item quantity="few">डाउनलोड सभ करब रोकल गेल: %1$d</item>
+        <item quantity="many">डाउनलोड सभ करब रोकल गेल: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एपक उपयोग कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="zero">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एपक उपयोग कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="one">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एपक उपयोग कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="two">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एपक उपयोग कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="few">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एपक उपयोग कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+        <item quantity="many">%1$s मे आयु-प्रतिबंधित कंटेंट अछि। %3$s केँ छूबि कए आ एहि एपक उपयोग कए, अहां पुष्टि करैत छी जे अहांक आयु %2$d वर्ष सँ अधिक अछि।</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d वस्तु चयनित</item>
+        <item quantity="zero">%1$d वस्तु चयनित</item>
+        <item quantity="one">%1$d वस्तु चयनित</item>
+        <item quantity="two">%1$d वस्तु चयनित</item>
+        <item quantity="few">%1$d वस्तु चयनित</item>
+        <item quantity="many">%1$d वस्तु चयनित</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">चयनित एपसब अस्थापित करू, %1$s केँ सम्मिलित करैत?</item>
+        <item quantity="zero">चयनित एपसब अस्थापित करू, %1$s केँ सम्मिलित करैत?</item>
+        <item quantity="one">%1$s स्थापना रद्द करू?</item>
+        <item quantity="two">चयनित एपसब अस्थापित करू, %1$s केँ सम्मिलित करैत?</item>
+        <item quantity="few">चयनित एपसब अस्थापित करू, %1$s केँ सम्मिलित करैत?</item>
+        <item quantity="many">चयनित एपसब अस्थापित करू, %1$s केँ सम्मिलित करैत?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%1$s आ %2$s अन्य एपसब %3$s सँ अस्थापित करू?</item>
+        <item quantity="zero">%1$s आ %2$s अन्य एपसब %3$s सँ अस्थापित करू?</item>
+        <item quantity="one">%1$s आ %2$s अन्य एप %3$s सँ अस्थापित करू?</item>
+        <item quantity="two">%1$s आ %2$s अन्य एपसब %3$s सँ अस्थापित करू?</item>
+        <item quantity="few">%1$s आ %2$s अन्य एपसब %3$s सँ अस्थापित करू?</item>
+        <item quantity="many">%1$s आ %2$s अन्य एपसब %3$s सँ अस्थापित करू?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$sटा रिकॉर्ड केँ मेटाबी?</item>
+        <item quantity="zero">%1$sटा रिकॉर्ड केँ मेटाबी?</item>
+        <item quantity="one">%1$sटा रिकॉर्ड केँ मेटाबी?</item>
+        <item quantity="two">%1$sटा रिकॉर्ड केँ मेटाबी?</item>
+        <item quantity="few">%1$sटा रिकॉर्ड केँ मेटाबी?</item>
+        <item quantity="many">%1$sटा रिकॉर्ड केँ मेटाबी?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">निम्न %1$d एपकें किछु निश्चित अनुमतिक प्रवेशक जरूरत होइत अछि:</item>
+        <item quantity="zero">निम्न %1$d एपकें किछु निश्चित अनुमतिक प्रवेशक जरूरत होइत अछि:</item>
+        <item quantity="one">निम्न %1$d एपकें किछु निश्चित अनुमतिक प्रवेशक जरूरत होइत अछि:</item>
+        <item quantity="two">निम्न %1$d एपकें किछु निश्चित अनुमतिक प्रवेशक जरूरत होइत अछि:</item>
+        <item quantity="few">निम्न %1$d एपकें किछु निश्चित अनुमतिक प्रवेशक जरूरत होइत अछि:</item>
+        <item quantity="many">निम्न %1$d एपकें किछु निश्चित अनुमतिक प्रवेशक जरूरत होइत अछि:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d रेटिंग</item>
+        <item quantity="zero">%1$d रेटिंग</item>
+        <item quantity="one">%1$d रेटिंग</item>
+        <item quantity="two">%1$d रेटिंग</item>
+        <item quantity="few">%1$d रेटिंग</item>
+        <item quantity="many">%1$d रेटिंग</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM रेटिंग</item>
+        <item quantity="zero">%1$sM रेटिंग</item>
+        <item quantity="one">%1$sM रेटिंग</item>
+        <item quantity="two">%1$sM रेटिंग</item>
+        <item quantity="few">%1$sM रेटिंग</item>
+        <item quantity="many">%1$sM रेटिंग</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK रेटिंग</item>
+        <item quantity="zero">%1$sK रेटिंग</item>
+        <item quantity="one">%1$sK रेटिंग</item>
+        <item quantity="two">%1$sK रेटिंग</item>
+        <item quantity="few">%1$sK रेटिंग</item>
+        <item quantity="many">%1$sK रेटिंग</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s गतिविधि</item>
+        <item quantity="zero">%1$s गतिविधि</item>
+        <item quantity="one">%1$s गतिविधि</item>
+        <item quantity="two">%1$s गतिविधि</item>
+        <item quantity="few">%1$s गतिविधि</item>
+        <item quantity="many">%1$s गतिविधि</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">गेमक समय %1$s मिनट सँ कम बांचल अछि। जतेक शीघ्र भए सकय, अपन गेम केँ संरक्षित करू।</item>
+        <item quantity="zero">गेमक समय %1$s मिनट सँ कम बांचल अछि। जतेक शीघ्र भए सकय, अपन गेम केँ संरक्षित करू।</item>
+        <item quantity="one">गेमक समय %1$s मिनट सँ कम बांचल अछि। जतेक शीघ्र भए सकय, अपन गेम केँ संरक्षित करू।</item>
+        <item quantity="two">गेमक समय %1$s मिनट सँ कम बांचल अछि। जतेक शीघ्र भए सकय, अपन गेम केँ संरक्षित करू।</item>
+        <item quantity="few">गेमक समय %1$s मिनट सँ कम बांचल अछि। जतेक शीघ्र भए सकय, अपन गेम केँ संरक्षित करू।</item>
+        <item quantity="many">गेमक समय %1$s मिनट सँ कम बांचल अछि। जतेक शीघ्र भए सकय, अपन गेम केँ संरक्षित करू।</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">मात्र %d मिनट बाकी अछि।</item>
+        <item quantity="zero">मात्र %d मिनट बाकी अछि।</item>
+        <item quantity="one">मात्र %d मिनट बाकी अछि।</item>
+        <item quantity="two">मात्र %d मिनट बाकी अछि।</item>
+        <item quantity="few">मात्र %d मिनट बाकी अछि।</item>
+        <item quantity="many">मात्र %d मिनट बाकी अछि।</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB लोक भाग लेलक अछि</item>
+        <item quantity="zero">%1$sB लोक भाग लेलक अछि</item>
+        <item quantity="one">%1$sB लोक भाग लेलक अछि</item>
+        <item quantity="two">%1$sB लोक भाग लेलक अछि</item>
+        <item quantity="few">%1$sB लोक भाग लेलक अछि</item>
+        <item quantity="many">%1$sB लोक भाग लेलक अछि</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM लोक भाग लेलक अछि</item>
+        <item quantity="zero">%1$sM लोक भाग लेलक अछि</item>
+        <item quantity="one">%1$sM लोक भाग लेलक अछि</item>
+        <item quantity="two">%1$sM लोक भाग लेलक अछि</item>
+        <item quantity="few">%1$sM लोक भाग लेलक अछि</item>
+        <item quantity="many">%1$sM लोक भाग लेलक अछि</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$sटा लोक भाग लेलक अछि</item>
+        <item quantity="zero">%1$sटा लोक भाग लेलक अछि</item>
+        <item quantity="one">%1$s व्यक्ति भाग लेलक अछि</item>
+        <item quantity="two">%1$sटा लोक भाग लेलक अछि</item>
+        <item quantity="few">%1$sटा लोक भाग लेलक अछि</item>
+        <item quantity="many">%1$sटा लोक भाग लेलक अछि</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK लोक भाग लेलक अछि</item>
+        <item quantity="zero">%1$sK लोक भाग लेलक अछि</item>
+        <item quantity="one">%1$sK लोक भाग लेलक अछि</item>
+        <item quantity="two">%1$sK लोक भाग लेलक अछि</item>
+        <item quantity="few">%1$sK लोक भाग लेलक अछि</item>
+        <item quantity="many">%1$sK लोक भाग लेलक अछि</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB लोक एकरा किनलक अछि</item>
+        <item quantity="zero">%1$sB लोक एकरा किनलक अछि</item>
+        <item quantity="one">%1$sB लोक एकरा किनलक अछि</item>
+        <item quantity="two">%1$sB लोक एकरा किनलक अछि</item>
+        <item quantity="few">%1$sB लोक एकरा किनलक अछि</item>
+        <item quantity="many">%1$sB लोक एकरा किनलक अछि</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM लोक एकरा किनलक अछि</item>
+        <item quantity="zero">%1$sM लोक एकरा किनलक अछि</item>
+        <item quantity="one">%1$sM लोक एकरा किनलक अछि</item>
+        <item quantity="two">%1$sM लोक एकरा किनलक अछि</item>
+        <item quantity="few">%1$sM लोक एकरा किनलक अछि</item>
+        <item quantity="many">%1$sM लोक एकरा किनलक अछि</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$sटा लोक एकरा किनलक अछि</item>
+        <item quantity="zero">%1$sटा लोक एकरा किनलक अछि</item>
+        <item quantity="one">%1$sटा व्यक्ति एकरा किनलक अछि</item>
+        <item quantity="two">%1$sटा लोक एकरा किनलक अछि</item>
+        <item quantity="few">%1$sटा लोक एकरा किनलक अछि</item>
+        <item quantity="many">%1$sटा लोक एकरा किनलक अछि</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK लोक एकरा किनलक अछि</item>
+        <item quantity="zero">%1$sK लोक एकरा किनलक अछि</item>
+        <item quantity="one">%1$sK लोक एकरा किनलक अछि</item>
+        <item quantity="two">%1$sK लोक एकरा किनलक अछि</item>
+        <item quantity="few">%1$sK लोक एकरा किनलक अछि</item>
+        <item quantity="many">%1$sK लोक एकरा किनलक अछि</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d आइटम चुनल गेल</item>
+        <item quantity="zero">%1$d आइटम चुनल गेल</item>
+        <item quantity="one">%1$d आइटम चुनल गेल</item>
+        <item quantity="two">%1$d आइटम चुनल गेल</item>
+        <item quantity="few">%1$d आइटम चुनल गेल</item>
+        <item quantity="many">%1$d आइटम चुनल गेल</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">"विवरण आवश्यक रूप सँ %d वर्णक होयबाक चाही। यदि संभव होअय, त' स्क्रीनशॉट सभ जोड़ू।"</item>
+        <item quantity="zero">"विवरण आवश्यक रूप सँ %d वर्णक होयबाक चाही। यदि संभव होअय, त' स्क्रीनशॉट सभ जोड़ू।"</item>
+        <item quantity="one">"विवरण आवश्यक रूप सँ %d अक्षरक होयबाक चाही। यदि संभव होअय, त' स्क्रीनशॉट सभ जोड़ू।"</item>
+        <item quantity="two">"विवरण आवश्यक रूप सँ %d वर्णक होयबाक चाही। यदि संभव होअय, त' स्क्रीनशॉट सभ जोड़ू।"</item>
+        <item quantity="few">"विवरण आवश्यक रूप सँ %d वर्णक होयबाक चाही। यदि संभव होअय, त' स्क्रीनशॉट सभ जोड़ू।"</item>
+        <item quantity="many">"विवरण आवश्यक रूप सँ %d वर्णक होयबाक चाही। यदि संभव होअय, त' स्क्रीनशॉट सभ जोड़ू।"</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d घंटा</item>
+        <item quantity="zero">%1$d घंटा</item>
+        <item quantity="one">%1$d घंटा</item>
+        <item quantity="two">%1$d घंटा</item>
+        <item quantity="few">%1$d घंटा</item>
+        <item quantity="many">%1$d घंटा</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d मिनट</item>
+        <item quantity="zero">%1$d मिनट</item>
+        <item quantity="one">%1$d मिनट</item>
+        <item quantity="two">%1$d मिनट</item>
+        <item quantity="few">%1$d मिनट</item>
+        <item quantity="many">%1$d मिनट</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d सेकेंड</item>
+        <item quantity="zero">%1$d सेकेंड</item>
+        <item quantity="one">%1$d सेकेंड</item>
+        <item quantity="two">%1$d सेकेंड</item>
+        <item quantity="few">%1$d सेकेंड</item>
+        <item quantity="many">%1$d सेकेंड</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">एहि एप केँ %1$dटा आज्ञाक आवश्यकता होइत अछि। अहां सेटिंग्स > एप सभ > एप सभ मे कखनो एकरा सभ केँ निरस्त कए सकैत छी।</item>
+        <item quantity="zero">एहि एप केँ %1$dटा आज्ञाक आवश्यकता होइत अछि। अहां सेटिंग्स > एप सभ > एप सभ मे कखनो एकरा सभ केँ निरस्त कए सकैत छी।</item>
+        <item quantity="one">एहि एप केँ %1$dटा आज्ञाक आवश्यकता होइत अछि। अहां सेटिंग्स > एप सभ > एप सभ मे जा कए कखनो एकरा निरस्त कए सकैत छी।</item>
+        <item quantity="two">एहि एप केँ %1$dटा आज्ञाक आवश्यकता होइत अछि। अहां सेटिंग्स > एप सभ > एप सभ मे कखनो एकरा सभ केँ निरस्त कए सकैत छी।</item>
+        <item quantity="few">एहि एप केँ %1$dटा आज्ञाक आवश्यकता होइत अछि। अहां सेटिंग्स > एप सभ > एप सभ मे कखनो एकरा सभ केँ निरस्त कए सकैत छी।</item>
+        <item quantity="many">एहि एप केँ %1$dटा आज्ञाक आवश्यकता होइत अछि। अहां सेटिंग्स > एप सभ > एप सभ मे कखनो एकरा सभ केँ निरस्त कए सकैत छी।</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">एहि एप केँ %1$dटा अनुमतिक आवश्यकता होइत अछि। अहां सेटिंग्स > एप आ सेवा सभ > एप सभ मे जा कए एकरा सभ केँ कखनो निरस्त कए सकैत छी।</item>
+        <item quantity="zero">एहि एप केँ %1$dटा अनुमतिक आवश्यकता होइत अछि। अहां सेटिंग्स > एप आ सेवा सभ > एप सभ मे जा कए एकरा सभ केँ कखनो निरस्त कए सकैत छी।</item>
+        <item quantity="one">एहि एप केँ %1$dटा अनुमतिक आवश्यकता होइत अछि। अहां सेटिंग्स > एप आ सेवा सभ > एप सभ मे जा कए एकरा कखनो निरस्त कए सकैत छी।</item>
+        <item quantity="two">एहि एप केँ %1$dटा अनुमतिक आवश्यकता होइत अछि। अहां सेटिंग्स > एप आ सेवा सभ > एप सभ मे जा कए एकरा सभ केँ कखनो निरस्त कए सकैत छी।</item>
+        <item quantity="few">एहि एप केँ %1$dटा अनुमतिक आवश्यकता होइत अछि। अहां सेटिंग्स > एप आ सेवा सभ > एप सभ मे जा कए एकरा सभ केँ कखनो निरस्त कए सकैत छी।</item>
+        <item quantity="many">एहि एप केँ %1$dटा अनुमतिक आवश्यकता होइत अछि। अहां सेटिंग्स > एप आ सेवा सभ > एप सभ मे जा कए एकरा सभ केँ कखनो निरस्त कए सकैत छी।</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d उपहार</item>
+        <item quantity="zero">%1$d उपहार</item>
+        <item quantity="one">%1$d उपहार</item>
+        <item quantity="two">%1$d उपहार</item>
+        <item quantity="few">%1$d उपहार</item>
+        <item quantity="many">%1$d उपहार</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="zero">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+        <item quantity="two">%1$dK</item>
+        <item quantity="few">%1$dK</item>
+        <item quantity="many">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$dटा स्टार</item>
+        <item quantity="zero">%1$dटा स्टार</item>
+        <item quantity="one">%1$dटा स्टार</item>
+        <item quantity="two">%1$dटा स्टार</item>
+        <item quantity="few">%1$dटा स्टार</item>
+        <item quantity="many">%1$dटा स्टार</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%dटा नबका अनुशंसा</item>
+        <item quantity="zero">%dटा नबका अनुशंसा</item>
+        <item quantity="one">%dटा नबका अनुशंसा</item>
+        <item quantity="two">%dटा नबका अनुशंसा</item>
+        <item quantity="few">%dटा नबका अनुशंसा</item>
+        <item quantity="many">%dटा नबका अनुशंसा</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%dटा लाभ</item>
+        <item quantity="zero">%dटा लाभ</item>
+        <item quantity="one">%dटा लाभ</item>
+        <item quantity="two">%dटा लाभ</item>
+        <item quantity="few">%dटा लाभ</item>
+        <item quantity="many">%dटा लाभ</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">सबटा रोकल गेल स्थापनासब मिटाउ (%1$s एपसब, मुक्त करू %2$s)</item>
+        <item quantity="zero">सबटा रोकल गेल स्थापनासब मिटाउ (%1$s एपसब, मुक्त करू %2$s)</item>
+        <item quantity="one">सबटा रोकल गेल स्थापनासब मिटाउ (%1$s एप, मुक्त करू %2$s)</item>
+        <item quantity="two">सबटा रोकल गेल स्थापनासब मिटाउ (%1$s एपसब, मुक्त करू %2$s)</item>
+        <item quantity="few">सबटा रोकल गेल स्थापनासब मिटाउ (%1$s एपसब, मुक्त करू %2$s)</item>
+        <item quantity="many">सबटा रोकल गेल स्थापनासब मिटाउ (%1$s एपसब, मुक्त करू %2$s)</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">पेज %1$d</item>
+        <item quantity="zero">पेज %1$d</item>
+        <item quantity="one">पेज %1$d</item>
+        <item quantity="two">पेज %1$d</item>
+        <item quantity="few">पेज %1$d</item>
+        <item quantity="many">पेज %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s स्थापनासब रोकल गेल।</item>
+        <item quantity="zero">%1$s स्थापनासब रोकल गेल।</item>
+        <item quantity="one">%1$s स्थापना रोकल गेल।</item>
+        <item quantity="two">%1$s स्थापनासब रोकल गेल।</item>
+        <item quantity="few">%1$s स्थापनासब रोकल गेल।</item>
+        <item quantity="many">%1$s स्थापनासब रोकल गेल।</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$dटा अतिरिक्त</item>
+        <item quantity="zero">%1$dटा अतिरिक्त</item>
+        <item quantity="one">%1$dटा अतिरिक्त</item>
+        <item quantity="two">%1$dटा अतिरिक्त</item>
+        <item quantity="few">%1$dटा अतिरिक्त</item>
+        <item quantity="many">%1$dटा अतिरिक्त</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s एप सबहक निर्धारित स्थापना पूर्ण भेल</item>
+        <item quantity="zero">%1$s एप सबहक निर्धारित स्थापना पूर्ण भेल</item>
+        <item quantity="one">%1$s एपक निर्धारित स्थापना पूर्ण भेल</item>
+        <item quantity="two">%1$s एप सबहक निर्धारित स्थापना पूर्ण भेल</item>
+        <item quantity="few">%1$s एप सबहक निर्धारित स्थापना पूर्ण भेल</item>
+        <item quantity="many">%1$s एप सबहक निर्धारित स्थापना पूर्ण भेल</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">अहां जखनहि Wi-Fi सँ कनेक्ट करब %1$dटा एप डाउनलोड होयब शुरू भए जायत।</item>
+        <item quantity="zero">अहां जखनहि Wi-Fi सँ कनेक्ट करब %1$dटा एप डाउनलोड होयब शुरू भए जायत।</item>
+        <item quantity="one">अहां जखनहि Wi-Fi सँ कनेक्ट करब %1$dटा एप डाउनलोड होयब शुरू भए जायत।</item>
+        <item quantity="two">अहां जखनहि Wi-Fi सँ कनेक्ट करब %1$dटा एप डाउनलोड होयब शुरू भए जायत।</item>
+        <item quantity="few">अहां जखनहि Wi-Fi सँ कनेक्ट करब %1$dटा एप डाउनलोड होयब शुरू भए जायत।</item>
+        <item quantity="many">अहां जखनहि Wi-Fi सँ कनेक्ट करब %1$dटा एप डाउनलोड होयब शुरू भए जायत।</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$sटा पहिने सँ ऑर्डर कयल)</item>
+        <item quantity="zero">(%1$sटा आरक्षित)</item>
+        <item quantity="one">(%1$sटा पहिने सँ ऑर्डर कयल)</item>
+        <item quantity="two">(%1$sटा आरक्षित)</item>
+        <item quantity="few">(%1$sटा आरक्षित)</item>
+        <item quantity="many">(%1$sटा आरक्षित)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d लाख आरक्षित)</item>
+        <item quantity="zero">(%1$d लाख आरक्षित)</item>
+        <item quantity="one">(1 लाख आरक्षित)</item>
+        <item quantity="two">(%1$d लाख आरक्षित)</item>
+        <item quantity="few">(%1$d लाख आरक्षित)</item>
+        <item quantity="many">(%1$d लाख आरक्षित)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d हजार आरक्षित)</item>
+        <item quantity="zero">(%1$d हजार आरक्षित)</item>
+        <item quantity="one">(1 हजार आरक्षित)</item>
+        <item quantity="two">(%1$d हजार आरक्षित)</item>
+        <item quantity="few">(%1$d हजार आरक्षित)</item>
+        <item quantity="many">(%1$d हजार आरक्षित)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">सबटा %1$s एपसब स्थापित करू?</item>
+        <item quantity="zero">सबटा %1$s एपसब स्थापित करू?</item>
+        <item quantity="one">%1$s एप स्थापित करू?</item>
+        <item quantity="two">सबटा %1$s एपसब स्थापित करू?</item>
+        <item quantity="few">सबटा %1$s एपसब स्थापित करू?</item>
+        <item quantity="many">सबटा %1$s एपसब स्थापित करू?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s स्थापनासब भय रहल अछि।</item>
+        <item quantity="zero">%1$s स्थापनासब भय रहल अछि।</item>
+        <item quantity="one">%1$s स्थापना भय रहल अछि।</item>
+        <item quantity="two">%1$s स्थापनासब भय रहल अछि।</item>
+        <item quantity="few">%1$s स्थापनासब भय रहल अछि।</item>
+        <item quantity="many">%1$s स्थापनासब भय रहल अछि।</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">%1$d मे</item>
+        <item quantity="zero">%1$d मे</item>
+        <item quantity="one">%1$d मे</item>
+        <item quantity="two">%1$d मे</item>
+        <item quantity="few">%1$d मे</item>
+        <item quantity="many">%1$d मे</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">%dटा स्थानीय एप खोजू</item>
+        <item quantity="zero">%dटा स्थानीय एप खोजू</item>
+        <item quantity="one">%dटा स्थानीय एप खोजू</item>
+        <item quantity="two">%dटा स्थानीय एप खोजू</item>
+        <item quantity="few">%dटा स्थानीय एप खोजू</item>
+        <item quantity="many">%dटा स्थानीय एप खोजू</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d दिन सँ उपयोग नहि कयल गेल अछि</item>
+        <item quantity="zero">%d दिन सँ उपयोग नहि कयल गेल अछि</item>
+        <item quantity="one">%d दिन सँ उपयोग नहि कयल गेल अछि</item>
+        <item quantity="two">%d दिन सँ उपयोग नहि कयल गेल अछि</item>
+        <item quantity="few">%d दिन सँ उपयोग नहि कयल गेल अछि</item>
+        <item quantity="many">%d दिन सँ उपयोग नहि कयल गेल अछि</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d-दिनक चेक-इन स्ट्रीक</item>
+        <item quantity="zero">%d-दिनक चेक-इन स्ट्रीक</item>
+        <item quantity="one">%d-दिनक चेक-इन स्ट्रीक</item>
+        <item quantity="two">%d-दिनक चेक-इन स्ट्रीक</item>
+        <item quantity="few">%d-दिनक चेक-इन स्ट्रीक</item>
+        <item quantity="many">%d-दिनक चेक-इन स्ट्रीक</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d दिन</item>
+        <item quantity="zero">%d दिन</item>
+        <item quantity="one">%d दिन</item>
+        <item quantity="two">%d दिन</item>
+        <item quantity="few">%d दिन</item>
+        <item quantity="many">%d दिन</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$dटा एप डाउनलोड कयल गेल</item>
+        <item quantity="zero">%1$dटा एप डाउनलोड कयल गेल</item>
+        <item quantity="one">%1$dटा एप डाउनलोड कयल गेल</item>
+        <item quantity="two">%1$dटा एप डाउनलोड कयल गेल</item>
+        <item quantity="few">%1$dटा एप डाउनलोड कयल गेल</item>
+        <item quantity="many">%1$dटा एप डाउनलोड कयल गेल</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">रेटिंग: %s</item>
+        <item quantity="zero">रेटिंग: %s</item>
+        <item quantity="one">रेटिंग: %s</item>
+        <item quantity="two">रेटिंग: %s</item>
+        <item quantity="few">रेटिंग: %s</item>
+        <item quantity="many">रेटिंग: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d मिनट पहिने</item>
+        <item quantity="zero">%d मिनट पहिने</item>
+        <item quantity="one">%d मिनट पहिने</item>
+        <item quantity="two">%d मिनट पहिने</item>
+        <item quantity="few">%d मिनट पहिने</item>
+        <item quantity="many">%d मिनट पहिने</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%dटा ऑफर</item>
+        <item quantity="zero">%dटा ऑफर</item>
+        <item quantity="one">%dटा ऑफर</item>
+        <item quantity="two">%dटा ऑफर</item>
+        <item quantity="few">%dटा ऑफर</item>
+        <item quantity="many">%dटा ऑफर</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%dटा सामुदायिक उपहार</item>
+        <item quantity="zero">%dटा सामुदायिक उपहार</item>
+        <item quantity="one">%dटा सामुदायिक उपहार</item>
+        <item quantity="two">%dटा सामुदायिक उपहार</item>
+        <item quantity="few">%dटा सामुदायिक उपहार</item>
+        <item quantity="many">%dटा सामुदायिक उपहार</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%dटा उपहार</item>
+        <item quantity="zero">%dटा उपहार</item>
+        <item quantity="one">%dटा उपहार</item>
+        <item quantity="two">%dटा उपहार</item>
+        <item quantity="few">%dटा उपहार</item>
+        <item quantity="many">%dटा उपहार</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/head_small_image_play"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/head_small_play_image_view"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:src="@drawable/videokit_ic_public_play_big"
+        android:scaleType="center"
+        android:contentDescription="@string/component_detail_accessibility_play" />
+</FrameLayout>

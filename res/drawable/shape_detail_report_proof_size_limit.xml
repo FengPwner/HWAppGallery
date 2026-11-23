@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/appgallery_auto_size_step_granularity_fixed"
+        android:color="@color/appgallery_color_error" />
+    <corners
+        android:radius="@dimen/appgallery_default_corner_radius_m" />
+</shape>

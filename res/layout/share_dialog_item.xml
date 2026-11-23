@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/llt_out_contain"
+    android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+    android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/rlt_item_contain"
+        android:background="@drawable/share_item_seleted_bg"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip">
+        <ImageView
+            android:id="@id/item_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/cs_14_dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/item_title"
+        android:layout_width="64.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+        android:maxLines="2"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Primary" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.share.api.ShareDownloadButton
+            android:id="@id/weixin_download_button"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    </RelativeLayout>
+</LinearLayout>

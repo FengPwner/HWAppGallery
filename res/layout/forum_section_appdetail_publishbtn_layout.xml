@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.aguikit.widget.AppGalleryHwFloatingButton
+        android:id="@id/section_detail_publish_post_btn_appdetail"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="@dimen/forum_appgalleyhwfloatingbutton_width_height"
+        android:layout_height="@dimen/forum_appgalleyhwfloatingbutton_width_height"
+        android:layout_margin="@dimen/appgallery_card_elements_margin_l"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/forum_section_publish"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.HwFloatingButton" />
+</RelativeLayout>

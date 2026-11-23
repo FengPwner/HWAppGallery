@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto"
+    xmlns:toolbartype="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/title"
+        layout="@layout/purchase_history_title_emui_layout" />
+    <include
+        android:id="@id/wisedist_layout_loading"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title"
+        layout="@layout/loading_fragment" />
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/btnlayout"
+        android:background="@color/appgallery_color_toolbar_bg"
+        android:visibility="gone"
+        android:addStatesFromChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/hwappbarpattern_split_menu_height"
+        android:layout_alignParentBottom="true">
+        <com.huawei.appgallery.purchasehistory.ui.widget.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/actionbar_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            toolbartype:toolbartype="cleanbatch" />
+        <com.huawei.appgallery.purchasehistory.ui.widget.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/actionbar_install_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            toolbartype:toolbartype="intallbatch" />
+        <com.huawei.appgallery.purchasehistory.ui.widget.ToolBarIcon
+            android:gravity="center"
+            android:id="@id/actionbar_family_share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            toolbartype:toolbartype="familyshare" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/btnlayout"
+        android:layout_below="@id/title">
+        <com.huawei.uikit.hwviewpager.widget.HwViewPager
+            android:id="@id/score_pages"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            toolbartype:bounceEnable="true" />
+    </LinearLayout>
+</RelativeLayout>

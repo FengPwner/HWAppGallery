@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/grade_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginEnd="@dimen/margin_m" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@id/name_textview"
+                    android:focusable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/description_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@id/first_description"
+                        android:focusable="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+                </LinearLayout>
+                <TextView
+                    android:id="@id/second_description"
+                    android:focusable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@id/divider"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/ui_12_dp"
+        android:layout_marginStart="32.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

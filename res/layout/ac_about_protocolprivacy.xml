@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/emui_functional_blue"
+        android:gravity="center_horizontal"
+        android:id="@id/open_source_notice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/appgallery_text_font_family_medium" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@id/protocol_privacy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/protocol_privacy_guide"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+</LinearLayout>

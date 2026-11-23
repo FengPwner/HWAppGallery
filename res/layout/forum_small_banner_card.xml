@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/forum_small_banner_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="@dimen/emui_corner_radius_mediums"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/forum_base_str_image"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        app:shapeAppearance="@style/JointForum.ShapeAppearance.Rounded.FAListCard" />
+</LinearLayout>

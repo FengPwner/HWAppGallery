@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_caption"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:gravity="start"
+        android:id="@id/hottopic_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+    <ImageView
+        android:id="@id/hottopic_authimg"
+        android:layout_width="12.0dip"
+        android:layout_height="12.0dip"
+        android:layout_marginStart="@dimen/margin_xs" />
+    <TextView
+        android:textSize="8.0dip"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:id="@id/hottopic_like_reply"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+</LinearLayout>

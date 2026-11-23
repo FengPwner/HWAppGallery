@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="captcha_tip_close">סגור</string>
+    <string name="captcha_tip_init_timeout">האתחול נכשל, לחץ כדי לנסות שוב</string>
+    <string name="captcha_tip_load_failed">טעינה נכשלה</string>
+    <string name="captcha_tip_loading">זיהוי אינטליגנטי</string>
+    <string name="captcha_tip_no_network">רשת לא תקינה, בדוק את הרשת ונסה שוב</string>
+    <string name="captcha_tip_validate_timeout">אמת את הזמן הקצוב, סגור וסמן את הרשת</string>
+</resources>

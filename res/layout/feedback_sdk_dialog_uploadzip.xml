@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/feedback_sdk_dialog_bg_shape"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/feedback_sdk_common_24_dip"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_24_dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_24_dip">
+            <TextView
+                android:textSize="@dimen/emui_text_size_body1"
+                android:textColor="@color/emui_primary"
+                android:id="@id/txtContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback_sdk_uploadfile_dialog"
+                android:layout_centerInParent="true"
+                android:fontFamily="@string/emui_text_font_family_regular" />
+        </RelativeLayout>
+        <TextView
+            android:textSize="@dimen/emui_text_size_body1"
+            android:textColor="@color/emui_control_highlight"
+            android:gravity="center"
+            android:id="@id/close"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emui_dimens_element_vertical_middle"
+            android:minHeight="@dimen/feedback_sdk_common_56_dip"
+            android:text="@string/feedback_sdk_already_known"
+            android:textAllCaps="true"
+            android:fontFamily="@string/emui_text_font_family_medium" />
+    </LinearLayout>
+</LinearLayout>

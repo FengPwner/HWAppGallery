@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwbubblelayout.widget.HwBubbleLayout
+        android:id="@id/bubble_layout_popup"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:hwArrowDirection="bottom"
+        app:hwArrowPosition="0.0dip"
+        app:hwArrowStartLocation="negative"
+        app:hwShadowEnabled="true"
+        app:hwShadowSize="medium"
+        app:hwWidgetStyle="light"
+        style="@style/Widget.Emui.HwBubbleLayout.Light">
+        <LinearLayout
+            android:enabled="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:layout_marginStart="16.0dip">
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textColor="@color/emui_bottombar_bg"
+                android:id="@id/consent_tips"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appcommon_consent_dialog_content_for_hwid_mode"
+                android:importantForAccessibility="yes"
+                android:layout_marginEnd="16.0dip"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            <LinearLayout
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4.0dip">
+                <TextView
+                    android:enabled="true"
+                    android:textColor="@color/emui_bottombar_bg"
+                    android:gravity="center"
+                    android:id="@id/consent_disagree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:minWidth="72.0dip"
+                    android:layout_toLeftOf="@id/consent_agree"
+                    android:paddingStart="8.0dip"
+                    android:paddingEnd="4.0dip"
+                    android:layout_marginEnd="4.0dip"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+                <TextView
+                    android:enabled="true"
+                    android:textColor="@color/emui_bottombar_bg"
+                    android:gravity="center"
+                    android:id="@id/consent_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:minWidth="72.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:paddingStart="4.0dip"
+                    android:paddingEnd="8.0dip"
+                    android:layout_alignParentEnd="true"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.huawei.uikit.phone.hwbubblelayout.widget.HwBubbleLayout>
+</RelativeLayout>

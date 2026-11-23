@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwedittext.widget.HwCounterTextLayout
+        android:id="@id/counter_moment_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwMaxLength="@integer/forum_moment_content_limit"
+        app:hwShapeMode="space">
+        <com.huawei.uikit.hwedittext.widget.HwEditText
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColorHint="@color/appgallery_text_color_secondary"
+            android:id="@id/edt_moment_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/forum_share_your_moment"
+            android:maxLength="1000"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            style="@style/Widget.Emui.HwEditText.Linear" />
+    </com.huawei.uikit.phone.hwedittext.widget.HwCounterTextLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rv_images"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip" />
+</LinearLayout>

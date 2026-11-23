@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/comment_tip_fragment_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwbubblelayout.widget.HwBubbleLayout
+        android:id="@id/app_comment_bubble_layout_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73.0dip"
+        android:layout_marginBottom="73.0dip"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_start"
+        app:hwArrowDirection="top"
+        app:hwArrowPosition="0.0dip"
+        app:hwBubbleColor="@color/emui_color_tooltips_bg"
+        app:hwColumnEnabled="false"
+        app:hwShadowEnabled="true"
+        style="@style/Widget.Emui.HwBubbleLayout">
+        <androidx.core.widget.NestedScrollView
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_subtitle3"
+                    android:textColor="@color/emui_color_fg_inverse"
+                    android:id="@id/content_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_default_padding_end"
+                    android:lineSpacingExtra="5.0dip"
+                    android:importantForAccessibility="yes"
+                    android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+                <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                    android:textSize="@dimen/appgallery_text_size_subtitle3"
+                    android:textColor="@color/emui_primary_inverse"
+                    android:layout_gravity="end"
+                    android:id="@id/button_know"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4.0dip"
+                    android:minWidth="141.0dip"
+                    android:layout_marginEnd="4.0dip"
+                    style="@style/Widget.Emui.HwButton.Borderless.Translucent" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.huawei.uikit.phone.hwbubblelayout.widget.HwBubbleLayout>
+</FrameLayout>

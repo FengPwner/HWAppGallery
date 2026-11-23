@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/open"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ScrollView
+            android:orientation="vertical"
+            android:id="@id/myscroll"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:layout_above="@id/agguard_button_open_layout">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@id/no_open_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@id/no_agguard"
+                    android:background="@drawable/agguard_high_risk_sign"
+                    android:layout_width="@dimen/appgallery_card_icon_size_large"
+                    android:layout_height="@dimen/appgallery_card_icon_size_large" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:id="@id/no_agguard_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xl"
+                    android:text="@string/agguard_no_sanning"
+                    android:layout_marginStart="@dimen/emui_text_size_headline3"
+                    android:layout_marginEnd="@dimen/emui_text_size_headline3"
+                    style="@style/AppGallery.TextAppearance.Card.SubTitle1" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:id="@id/no_agguard_show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+                    android:text="@string/agguard_no_sanning_show"
+                    android:layout_marginStart="@dimen/emui_text_size_headline3"
+                    android:layout_marginEnd="@dimen/emui_text_size_headline3"
+                    style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout
+            android:gravity="start|center"
+            android:orientation="horizontal"
+            android:id="@id/agguard_button_open_layout"
+            android:background="@color/appgallery_color_appbar_bg"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/agguard_ageadapter_button_layout_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+            <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+                android:ellipsize="end"
+                android:layout_gravity="center"
+                android:id="@id/agguard_button_open"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:text="@string/agguard_open"
+                android:maxLines="1"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                maskview:hwAutoSizeMinTextSize="9.0sp"
+                maskview:hwAutoSizeStepGranularity="1.0sp"
+                style="@style/Widget.Emui.HwButton.Emphasize" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

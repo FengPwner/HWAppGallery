@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="@dimen/round_icon_width"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/appicon_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/appicon"
+            android:layout_width="@dimen/round_icon_width"
+            android:layout_height="@dimen/round_icon_width"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:tag="css/.overly"
+            android:layout_width="@dimen/round_icon_width"
+            android:layout_height="@dimen/round_icon_width"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appicon_layout">
+        <TextView
+            android:textSize="@dimen/emui_master_body_1"
+            android:textColor="@color/buoy_emui_primary"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="@dimen/round_icon_width"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_for_layout"
+            android:maxLines="@integer/horizonhomecard_name_max_lines" />
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="@dimen/round_icon_width"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/emui_master_caption_2"
+                android:textColor="@color/emui_color_gray_7"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/ItemText"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+    </LinearLayout>
+</RelativeLayout>

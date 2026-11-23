@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/appgallery_shadow_card_text_shadow_color_black" />
+    <corners
+        android:radius="@dimen/appgallery_default_corner_radius_xs" />
+    <stroke
+        android:width="1.0px"
+        android:color="@color/appgallery_shadow_card_text_shadow_color_white" />
+</shape>

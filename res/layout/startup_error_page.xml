@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/tips"
+        android:background="@color/appgallery_color_sub_background"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/setting_content">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/no_wifi"
+                android:tag="css/.widget"
+                android:background="@drawable/ic_no_wifi_disable"
+                style="@style/AppGallery.ImageSize.NoData" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@id/title"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                android:text="@string/no_available_network_prompt_title"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                style="@style/AppGallery.TextAppearance.NoData" />
+        </LinearLayout>
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/setting_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:hwColumnType="button_type">
+            <com.huawei.appmarket.framework.widget.RenderButton
+                android:gravity="center"
+                android:id="@id/setting"
+                android:tag="css/.title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:minHeight="36.0dip"
+                android:text="@string/setting_network_prompt_title"
+                android:layout_weight="1.0"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="1.0sp"
+                style="@style/AppGallery.Widget.Button.BottomButton" />
+            <com.huawei.appmarket.framework.widget.RenderButton
+                android:gravity="center"
+                android:id="@id/go_to_net_diagnose"
+                android:tag="css/.title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:minHeight="36.0dip"
+                android:text="@string/netdiagnose_button_text"
+                android:layout_weight="1.0"
+                android:layout_marginStart="16.0dip"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="1.0sp"
+                style="@style/AppGallery.Widget.Button.BottomButton" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loadingBar_layout"
+        android:background="@color/appgallery_color_sub_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@id/loadingBar"
+            android:layout_width="@dimen/loading_large"
+            android:layout_height="@dimen/loading_large"
+            style="@style/Widget.Emui.HwProgressBar.Large" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_loading_prompt"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+</FrameLayout>

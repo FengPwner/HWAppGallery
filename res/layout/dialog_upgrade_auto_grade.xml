@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/wifi_mobile_data_selection_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/battery_warn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <com.huawei.appmarket.service.settings.view.widget.VerticalRadioViewGroup
+            android:orientation="vertical"
+            android:id="@id/wifi_mobile_data_choose_layout"
+            android:background="@drawable/aguikit_card_panel_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <com.huawei.appmarket.service.settings.view.widget.VerticalRadioView
+                android:id="@id/option_both_wifi_mobile_data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_vertical"
+                android:minHeight="64.0dip"
+                android:text="@string/settings_video_autoplay_subtitle_open"
+                android:title="@string/settings_order_download_title_yes_ex" />
+            <com.huawei.appmarket.service.settings.view.widget.VerticalRadioView
+                android:id="@id/option_wifi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:title="@string/settings_video_autoplay_wifi_only" />
+            <com.huawei.appmarket.service.settings.view.widget.VerticalRadioView
+                android:id="@id/option_close"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_card_panel_inner_margin_vertical"
+                android:title="@string/settings_video_autoplay_close" />
+        </com.huawei.appmarket.service.settings.view.widget.VerticalRadioViewGroup>
+    </LinearLayout>
+</ScrollView>

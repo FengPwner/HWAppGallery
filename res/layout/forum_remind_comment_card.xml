@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/forum_comment_card_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.forum.message.widget.CommentReferenceUserView
+            android:id="@id/comment_card_user_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:messageIconSize="40" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/comment_card_main_content_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="72.0dip">
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.appgallery.forum.cards.widget.FoldTextView
+                    android:textSize="@dimen/appgallery_text_size_body2"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:gravity="center_vertical"
+                    android:id="@id/reply_content_tv_open"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.1"
+                    android:fontFamily="Regular" />
+            </FrameLayout>
+            <com.huawei.appgallery.forum.cards.widget.ForumLineImageView
+                android:id="@id/reply_img"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+                app:has_touch_drawable="false" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48.0dip">
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_button2"
+                    android:textColor="@color/appgallery_text_color_primary_activated"
+                    android:id="@id/open_or_fold_tv"
+                    android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forum_message_open_tv"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_alignParentStart="true" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:id="@id/reply_comment_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true">
+                    <ImageView
+                        android:id="@id/reply_comment_iv"
+                        android:layout_width="16.0dip"
+                        android:layout_height="16.0dip"
+                        android:src="@drawable/aguikit_ic_public_comments"
+                        android:contentDescription="@string/forum_user_comment_reply" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/appgallery_text_size_caption_fixed"
+                        android:textColor="@color/appgallery_text_color_primary"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/forum_user_comment_reply"
+                        android:maxLines="1"
+                        android:layout_marginStart="@dimen/margin_s" />
+                </LinearLayout>
+            </RelativeLayout>
+            <com.huawei.appgallery.forum.message.widget.CommentReferenceView
+                android:id="@id/comment_card_reference_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8.0dip"
+                android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l" />
+            <View
+                android:id="@id/devider_line_bottom"
+                android:layout_width="fill_parent"
+                style="@style/AppGallery.Widget.Divider" />
+        </LinearLayout>
+    </LinearLayout>
+    <include
+        android:id="@id/bottom_forum_remind_new_card"
+        layout="@layout/forum_remind_new_card" />
+</LinearLayout>

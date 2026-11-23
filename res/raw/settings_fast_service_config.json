@@ -1,0 +1,48 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "FA卡片加桌",
+      "maxRows": 1,
+      "layoutName": "settingfa2card"
+    },
+    {
+      "layoutId": 2,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividercard"
+    },
+    {
+      "layoutId": 3,
+      "name": "添加桌面卡片",
+      "maxRows": 1,
+      "layoutName": "adddesktop2card"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "FA卡片加桌",
+      "layoutName": "settingfa2card",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "分割线",
+      "layoutName": "settingdividercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "添加桌面卡片",
+      "layoutName": "adddesktop2card",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

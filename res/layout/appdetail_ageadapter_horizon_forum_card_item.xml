@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:orientation="vertical"
+    android:id="@id/appListItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_m"
+    android:foreground="@drawable/aguikit_round_rectangle_bg"
+    android:layout_weight="1.0"
+    app:round_corner="@dimen/appgallery_default_corner_radius_l"
+    app:stroke_width="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/middle_layout"
+        android:background="@color/appgallery_color_card_panel_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/itemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_horizontal_small_icon_card_space_portrait_on_ring"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_s"
+            android:lines="1"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/itemText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/middle_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_8dp"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_l"
+            android:layout_marginRight="@dimen/size_8dp"
+            android:layout_marginBottom="@dimen/size_8dp"
+            android:layout_weight="1.0">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/timeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.TextCaption.Secondary" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/viewpageImage"
+                android:layout_width="@dimen/ui_10_dp"
+                android:layout_height="@dimen/ui_10_dp"
+                android:src="@drawable/aguikit_ic_public_comments" />
+            <TextView
+                android:id="@id/repliesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/padding_xs"
+                style="@style/AppGallery.TextAppearance.TextCaption.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

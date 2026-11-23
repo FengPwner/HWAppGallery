@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#fff2f3f5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding_xl"
+                android:layout_marginEnd="@dimen/padding_xl">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_headline9"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xl"
+                    android:layout_marginBottom="@dimen/margin_xl"
+                    android:text="@string/settings_content_recommend_description_title"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_personalized_recommend_title"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:id="@id/joint_service_privacy_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_personalized_recommend_content"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_circle_bar_margin_top"
+                    android:text="@string/settings_recommend_application_service_title"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_recommend_application_service_content"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/search_circle_bar_margin_top"
+                    android:text="@string/settings_not_personalized_recommend_title"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_not_personalized_recommend_content"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ui_24_dp"
+                    android:text="@string/settings_algorithm_recommend_number_title"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body2"
+                    android:textColor="@color/appgallery_text_color_link"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_two_dip"
+                    android:layout_marginBottom="@dimen/ui_24_dp"
+                    android:text="@string/settings_recording_information_link"
+                    android:fontFamily="@string/emui_text_font_family_medium" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_l"
+                android:layout_marginStart="@dimen/padding_xl"
+                android:layout_marginEnd="@dimen/padding_xl">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body2"
+                    android:textColor="@color/emui_color_text_secondary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_recommend_tag_management"
+                    android:fontFamily="@string/emui_text_font_family_regular" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingTop="@dimen/padding_s"
+                android:paddingBottom="@dimen/emui_dimens_default_end"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/emui_dimens_default_end"
+                android:paddingEnd="@dimen/emui_dimens_default_end">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body1"
+                    android:textColor="@color/emui_text_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/emui_dimens_default_end"
+                    android:text="@string/settings_recommend_my_tag"
+                    android:fontFamily="@string/emui_text_font_family_medium"
+                    android:layout_marginStart="@dimen/emui_dimens_default_end"
+                    android:layout_marginEnd="@dimen/emui_dimens_default_end" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body2"
+                    android:textColor="@color/emui_color_text_secondary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/emui_dimens_default_end"
+                    android:text="@string/settings_recommend_content_basis"
+                    android:fontFamily="@string/emui_text_font_family_regular"
+                    android:layout_marginStart="@dimen/emui_dimens_default_end"
+                    android:layout_marginEnd="@dimen/emui_dimens_default_end" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/emui_dimens_default_end"
+                    android:layout_marginTop="@dimen/emui_dimens_default_end"
+                    android:layout_marginRight="@dimen/emui_dimens_default_end">
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/emui_dimens_default_end"
+                    android:layout_marginTop="@dimen/padding_m"
+                    android:layout_marginRight="@dimen/emui_dimens_default_end">
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_primary"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="young manX"
+                        android:layout_weight="1.0"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                </LinearLayout>
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_body2"
+                    android:textColor="@color/emui_color_text_secondary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/emui_dimens_default_end"
+                    android:text="@string/settings_not_my_tag"
+                    android:fontFamily="@string/emui_text_font_family_regular"
+                    android:layout_marginStart="@dimen/emui_dimens_default_end"
+                    android:layout_marginEnd="@dimen/emui_dimens_default_end" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:layout_marginLeft="@dimen/ui_12_dp"
+                    android:layout_marginTop="@dimen/ui_12_dp"
+                    android:layout_marginRight="@dimen/ui_12_dp"
+                    android:layout_marginBottom="@dimen/ui_12_dp"
+                    style="@style/AppGallery.Widget.Divider" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/appgallery_default_padding_end"
+                    android:layout_marginEnd="@dimen/appgallery_default_padding_end">
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body1"
+                        android:textColor="@color/emui_text_primary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_deactivated_tag"
+                        android:fontFamily="@string/emui_text_font_family_medium" />
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_secondary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/appgallery_default_padding_end"
+                        android:text="@string/settings_add_my_tag"
+                        android:fontFamily="@string/emui_text_font_family_regular" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/appgallery_default_padding_end">
+                        <com.huawei.uikit.hwtextview.widget.HwTextView
+                            android:textSize="@dimen/emui_text_size_body2"
+                            android:textColor="@color/emui_color_text_primary"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="young man+"
+                            android:layout_weight="1.0"
+                            android:fontFamily="@string/emui_text_font_family_medium" />
+                        <com.huawei.uikit.hwtextview.widget.HwTextView
+                            android:textSize="@dimen/emui_text_size_body2"
+                            android:textColor="@color/emui_color_text_primary"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="young man+"
+                            android:layout_weight="1.0"
+                            android:fontFamily="@string/emui_text_font_family_medium" />
+                        <com.huawei.uikit.hwtextview.widget.HwTextView
+                            android:textSize="@dimen/emui_text_size_body2"
+                            android:textColor="@color/emui_color_text_primary"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="young man+"
+                            android:layout_weight="1.0"
+                            android:fontFamily="@string/emui_text_font_family_medium" />
+                        <com.huawei.uikit.hwtextview.widget.HwTextView
+                            android:textSize="@dimen/emui_text_size_body2"
+                            android:textColor="@color/emui_color_text_primary"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="young man+"
+                            android:layout_weight="1.0"
+                            android:fontFamily="@string/emui_text_font_family_medium" />
+                    </LinearLayout>
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:textSize="@dimen/emui_text_size_body2"
+                        android:textColor="@color/emui_color_text_secondary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/emui_dimens_default_end"
+                        android:text="@string/settings_not_disabled_tag"
+                        android:fontFamily="@string/emui_text_font_family_regular" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_text_size_body2"
+                android:textColor="@color/emui_color_text_secondary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_xl"
+                android:layout_marginTop="@dimen/ui_8_dp"
+                android:layout_marginRight="@dimen/padding_xl"
+                android:layout_marginBottom="@dimen/ui_24_dp"
+                android:text="@string/settings_complaint_feedback"
+                android:fontFamily="@string/emui_text_font_family_regular" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

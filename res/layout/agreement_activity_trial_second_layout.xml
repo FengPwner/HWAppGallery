@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:hwColumnType="content_type"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/title"
+        layout="@layout/agreement_trial_title_emui" />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:baselineAligned="false"
+        android:layout_weight="1.0">
+        <TextView
+            android:id="@id/agreement_trial_agree_first_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            android:lineSpacingMultiplier="1.1"
+            style="@style/AppGallery.TextAppearance.trial.TextBody1" />
+        <TextView
+            android:id="@id/agreement_trial_agree_second_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+            android:lineSpacingMultiplier="1.1"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody2.Secondary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_l">
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:id="@id/agreement_second_normal_mode_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/emui_dimens_element_vertical_large"
+            android:text="@string/agreement_sign_type_normal_mode_btn"
+            android:textAllCaps="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/Widget.Emui.HwButton.Emphasize" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/emui_dimens_default_bottom_fixed"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:gravity="center"
+                android:id="@id/agreement_second_trial_mode_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/emui_dimens_element_vertical_large"
+                android:text="@string/agreement_sign_type_trial_mode_btn"
+                android:textAllCaps="true"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="1.0sp"
+                style="@style/Widget.Emui.HwButton" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:gravity="center"
+                android:id="@id/agreement_second_trial_exit_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_trial_exit_btn"
+                android:textAllCaps="true"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="1.0sp"
+                style="@style/Widget.Emui.HwButton" />
+        </LinearLayout>
+    </LinearLayout>
+</com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>

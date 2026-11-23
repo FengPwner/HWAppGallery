@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="16.0dip"
+    android:width="16.0dip"
+    android:viewportWidth="16.0"
+    android:viewportHeight="16.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/emui_primary"
+        android:pathData="M8,1.3333C8.2761,1.3333 8.5,1.5572 8.5,1.8333L8.4993,7.4993L14.1666,7.5C14.4428,7.5 14.6666,7.7238 14.6666,8C14.6666,8.2761 14.4428,8.5 14.1666,8.5L8.4993,8.4993L8.5,14.1666C8.5,14.4428 8.2761,14.6666 8,14.6666C7.7238,14.6666 7.5,14.4428 7.5,14.1666L7.4993,8.4993L1.8333,8.5C1.5572,8.5 1.3333,8.2761 1.3333,8C1.3333,7.7238 1.5572,7.5 1.8333,7.5L7.4993,7.4993L7.5,1.8333C7.5,1.5572 7.7238,1.3333 8,1.3333Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.0"
+        android:fillAlpha="0.0"
+        android:fillType="nonZero" />
+    <group>
+        <clip-path
+            android:pathData="M8,1.3333C8.2761,1.3333 8.5,1.5572 8.5,1.8333L8.4993,7.4993L14.1666,7.5C14.4428,7.5 14.6666,7.7238 14.6666,8C14.6666,8.2761 14.4428,8.5 14.1666,8.5L8.4993,8.4993L8.5,14.1666C8.5,14.4428 8.2761,14.6666 8,14.6666C7.7238,14.6666 7.5,14.4428 7.5,14.1666L7.4993,8.4993L1.8333,8.5C1.5572,8.5 1.3333,8.2761 1.3333,8C1.3333,7.7238 1.5572,7.5 1.8333,7.5L7.4993,7.4993L7.5,1.8333C7.5,1.5572 7.7238,1.3333 8,1.3333Z" />
+        <path
+            android:fillColor="@color/emui_primary"
+            android:pathData="M-0,-0h16v16h-16z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1.0"
+            android:fillType="evenOdd" />
+    </group>
+</vector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/install_completed_button_vertical"
+    android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:hwColumnType="button_type"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwbutton.widget.HwButton
+        android:id="@id/install_completed_vertical_button_recommend"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:text="@string/install_dist_done"
+        android:maxLines="1"
+        style="@style/install_confirm_normal_hidden_card_button_official_style" />
+    <com.huawei.uikit.hwbutton.widget.HwButton
+        android:id="@id/install_completed_vertical_button_completed"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:text="@string/install_dist_done"
+        android:maxLines="1"
+        style="@style/install_confirm_normal_hidden_card_button_official_style" />
+    <com.huawei.uikit.hwbutton.widget.HwButton
+        android:id="@id/install_completed_vertical_button_open"
+        android:text="@string/install_dist_launch"
+        android:maxLines="1"
+        style="@style/install_confirm_normal_hidden_card_button_official_style" />
+</com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/mainwindows_layout_v2"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.view.MatrixBottomImageView
+        android:id="@id/tab_header_image"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="136.0dip"
+        android:scaleType="matrix"
+        android:adjustViewBounds="true"
+        android:alpha="1.0" />
+    <com.huawei.appmarket.view.MatrixBottomImageView
+        android:id="@id/tab_header_image_other"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="136.0dip"
+        android:scaleType="matrix"
+        android:adjustViewBounds="true"
+        android:alpha="0.0" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/main_view_layout_v2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/appgallery_bottom_tab_height"
+        android:importantForAccessibility="no" />
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:background="@color/transparent"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/consent_container"
+            android:background="@color/transparent"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_bottom_tab_height" />
+        <com.huawei.appmarket.framework.widget.AgHwBottomNavigationView
+            android:layout_gravity="bottom"
+            android:id="@id/hiapp_mainscreen_bottomtab_v2"
+            android:background="@drawable/bottom_navigation_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/appgallery_bottom_tab_blood_extend_out_height"
+            app:hwIconDefaultColor="@color/appgallery_color_bottomtab_icon_off"
+            app:hwMessageBgColor="@color/appgallery_color_badge_red"
+            app:hwTintEnable="false" />
+    </FrameLayout>
+    <include
+        android:id="@id/back_track"
+        layout="@layout/back_track_view_group" />
+</FrameLayout>

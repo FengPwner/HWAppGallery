@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/wisedist_substance_hostappcard_0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/bottom_appicon"
+            android:layout_width="@dimen/appgallery_card_icon_size_xl"
+            android:layout_height="@dimen/appgallery_card_icon_size_xl"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no" />
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/bottom_title"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:importantForAccessibility="no"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+    </LinearLayout>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/bottom_subtitle"
+        android:tag="css/.subtitle"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+            android:id="@id/bottom_downbutton"
+            android:tag="css/.download-button"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:layout_marginBottom="@dimen/ui_32_dp"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    </RelativeLayout>
+    <TextView
+        android:gravity="center"
+        android:id="@id/dev_name"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cs_2_dp"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+    <TextView
+        android:textColor="@color/appgallery_color_fourth"
+        android:gravity="center"
+        android:id="@id/version_details_privacy_permission"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ui_24_dp"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+</LinearLayout>

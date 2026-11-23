@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwtoggle.widget.HwToggleButton
+    android:id="@id/toggle_option"
+    android:background="@drawable/hwtoggle_selector_bg"
+    android:maxWidth="@null"
+    android:minWidth="72.0dip"
+    style="@style/AppGallery.Widget.Toggle"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

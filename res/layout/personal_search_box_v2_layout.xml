@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="end|center"
+    android:orientation="vertical"
+    android:id="@id/personal_search_box_v2"
+    android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+    android:layout_width="@dimen/size_48dp"
+    android:layout_height="@dimen/size_48dp"
+    android:contentDescription="@string/hiappbase_search_btn"
+    android:layout_alignParentEnd="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/personal_search_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/aguikit_ic_public_search"
+        android:layout_marginEnd="@dimen/ui_12_dp" />
+</LinearLayout>

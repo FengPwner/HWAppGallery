@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_card_height_three_text_lines"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/vertical_gift_item_container"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_m"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m">
+        <com.huawei.appmarket.framework.widget.RoundCornerLayout
+            android:id="@id/gifts_icon_layout"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+            app:round_corner="@dimen/appgallery_large_icon_default_corner_radius">
+            <ImageView
+                android:id="@id/gifts_icon"
+                android:layout_width="@dimen/appgallery_card_icon_size_large"
+                android:layout_height="@dimen/appgallery_card_icon_size_large"
+                android:src="@drawable/bg_perch_icon"
+                android:scaleType="fitCenter" />
+        </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/gifts_right_middle_layout"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gifts_icon_layout">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/right_top_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:ellipsize="end"
+                    android:gravity="start|center"
+                    android:id="@id/gifts_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    style="@style/AppGallery.TextAppearance.Card.SubTitle2.Regular" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/gifts_stock_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                    android:text="@string/gift_stock_show"
+                    android:maxLines="1"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/gifts_level_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                    android:text="@string/gift_level_show"
+                    android:maxLines="1"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/gifts_describe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            </LinearLayout>
+            <com.huawei.appmarket.service.gift.widget.GiftDownloadButton
+                android:id="@id/gifts_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+                android:minHeight="28.0dip"
+                android:layout_below="@id/right_top_layout"
+                style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:id="@id/devider_line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/vertical_gift_item_container"
+        android:layout_alignEnd="@id/vertical_gift_item_container"
+        style="@style/AppGallery.Widget.Divider" />
+    <View
+        android:id="@id/bottom_divider_line"
+        android:background="@color/appgallery_color_subheader_divider"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_subheader_spliter_height"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_below="@id/vertical_gift_item_container" />
+</RelativeLayout>

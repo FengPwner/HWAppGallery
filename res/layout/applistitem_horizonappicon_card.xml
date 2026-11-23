@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:corner_type="bigger"
+        app:round_type="all" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/title"
+        android:tag="css/.title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:maxLines="1"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m">
+        <com.huawei.appmarket.framework.widget.PromotionSignTextView
+            android:layout_gravity="center_vertical"
+            android:id="@id/promotion_sign"
+            android:tag="css/.title"
+            android:background="@drawable/promotion_sign_bg"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+            style="@style/promotion_sign_style" />
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/text"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+</LinearLayout>

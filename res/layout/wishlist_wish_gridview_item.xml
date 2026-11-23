@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="74.0dip"
+    android:layout_height="72.0dip"
+    android:layout_marginEnd="6.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.wishlist.widget.WishRoundImageView
+        android:id="@id/wishlist_gridview_item_image"
+        android:layout_width="@dimen/ui_64_dp"
+        android:layout_height="@dimen/ui_64_dp"
+        android:layout_marginTop="@dimen/margin_m"
+        android:scaleType="centerCrop"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+    <ImageView
+        android:layout_gravity="start|bottom|center"
+        android:id="@id/select_background_imgage"
+        android:background="@drawable/wishlist_wish_image_bg"
+        android:visibility="gone"
+        android:layout_width="@dimen/ui_64_dp"
+        android:layout_height="@dimen/ui_64_dp" />
+    <ImageView
+        android:layout_gravity="end|center|top"
+        android:id="@id/wishlist_button_gridview_delete"
+        android:background="@drawable/wishlist_wish_image_select_bg"
+        android:paddingBottom="@dimen/padding_m"
+        android:layout_width="20.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/wishlist_ic_wish_delete"
+        android:contentDescription="@string/wishlist_imagetextbutton_deletefile"
+        android:paddingStart="2.0dip"
+        android:paddingEnd="2.0dip" />
+</FrameLayout>

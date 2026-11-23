@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/consume_record_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height"
+        layout="@layout/consume_record_title_emui_layout" />
+    <RelativeLayout
+        android:id="@id/consume_record_lv_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

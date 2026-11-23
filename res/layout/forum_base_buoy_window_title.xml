@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:id="@id/top_view"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/back_layout"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4.0dip"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/forum_base_buoy_ic_back" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/menu_view"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@id/menu_view_img"
+            android:visibility="invisible"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12.0dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/emui_master_title_1"
+        android:textColor="@color/forum_base_buoy_emui_primary"
+        android:ellipsize="end"
+        android:id="@id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip"
+        android:layout_toStartOf="@id/menu_view"
+        android:layout_toEndOf="@id/back_layout" />
+</RelativeLayout>

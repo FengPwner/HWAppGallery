@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">נמצאו %2$d יישומים חשודים (כולל %1$s)</item>
+        <item quantity="one">נמצא יישום חשוד %2$d‏ (%1$s)</item>
+        <item quantity="two">נמצאו %2$d יישומים חשודים (כולל %1$s)</item>
+        <item quantity="many">נמצאו %2$d יישומים חשודים (כולל %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">נמצאו %2$d יישומים לא בשימוש (לרבות %1$s)</item>
+        <item quantity="one">נמצא יישום %2$d לא בשימוש (לרבות %1$s)</item>
+        <item quantity="two">נמצאו %2$d יישומים לא בשימוש (לרבות %1$s)</item>
+        <item quantity="many">נמצאו %2$d יישומים לא בשימוש (לרבות %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">‏%d יישומים לא בשימוש</item>
+        <item quantity="one">יישום %d לא בשימוש</item>
+        <item quantity="two">‏%d יישומים לא בשימוש</item>
+        <item quantity="many">‏%d יישומים לא בשימוש</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">טופלו %d יישומים עם התנהגות זדונית</item>
+        <item quantity="one">טופל יישום %d עם התנהגות זדונית</item>
+        <item quantity="two">טופלו %d יישומים עם התנהגות זדונית</item>
+        <item quantity="many">טופלו %d יישומים עם התנהגות זדונית</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">זוהו %d יישומים עם התנהגות זדונית</item>
+        <item quantity="one">זוהה יישום %d עם התנהגות זדונית</item>
+        <item quantity="two">זוהו %d יישומים עם התנהגות זדונית</item>
+        <item quantity="many">זוהו %d יישומים עם התנהגות זדונית</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">טופלו %d יישומי הונאה</item>
+        <item quantity="one">טופל יישום הונאה %d</item>
+        <item quantity="two">טופלו %d יישומי הונאה</item>
+        <item quantity="many">טופלו %d יישומי הונאה</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">זוהו %d יישומי הונאה</item>
+        <item quantity="one">זוהה יישום הונאה %d</item>
+        <item quantity="two">זוהו %d יישומי הונאה</item>
+        <item quantity="many">זוהו %d יישומי הונאה</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">טופלו %d יישומים עם סיכוני פרטיות</item>
+        <item quantity="one">טופל יישום %d עם סיכוני פרטיות</item>
+        <item quantity="two">טופלו %d יישומים עם סיכוני פרטיות</item>
+        <item quantity="many">טופלו %d יישומים עם סיכוני פרטיות</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">זוהו %d יישומים עם סיכוני פרטיות</item>
+        <item quantity="one">זוהה יישום %d עם סיכוני פרטיות</item>
+        <item quantity="two">זוהו %d יישומים עם סיכוני פרטיות</item>
+        <item quantity="many">זוהו %d יישומים עם סיכוני פרטיות</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">טופלו %d יישומים עם איומי אבטחה</item>
+        <item quantity="one">טופל יישום %d עם איומי אבטחה</item>
+        <item quantity="two">טופלו %d יישומים עם איומי אבטחה</item>
+        <item quantity="many">טופלו %d יישומים עם איומי אבטחה</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">זוהו %d יישומים עם איומי אבטחה</item>
+        <item quantity="one">זוהה יישום %d עם איומי אבטחה</item>
+        <item quantity="two">זוהו %d יישומים עם איומי אבטחה</item>
+        <item quantity="many">זוהו %d יישומים עם איומי אבטחה</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">טופלו %d יישומים עם וירוסים</item>
+        <item quantity="one">טופל יישום %d עם וירוסים</item>
+        <item quantity="two">טופלו %d יישומים עם וירוסים</item>
+        <item quantity="many">טופלו %d יישומים עם וירוסים</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">זוהו %d יישומים עם וירוסים</item>
+        <item quantity="one">זוהה יישום %d עם וירוסים</item>
+        <item quantity="two">זוהו %d יישומים עם וירוסים</item>
+        <item quantity="many">זוהו %d יישומים עם וירוסים</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">‏%d פריטים עברו מיטוב</item>
+        <item quantity="one">פריט %d עבר מיטוב</item>
+        <item quantity="two">‏%d פריטים עברו מיטוב</item>
+        <item quantity="many">‏%d פריטים עברו מיטוב</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">התגלו %d בעיות</item>
+        <item quantity="one">התגלתה בעיה %d</item>
+        <item quantity="two">התגלו %d בעיות</item>
+        <item quantity="many">התגלו %d בעיות</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">נסרקו %d יישומים</item>
+        <item quantity="one">נסרק יישום %d</item>
+        <item quantity="two">נסרקו %d יישומים</item>
+        <item quantity="many">נסרקו %d יישומים</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום %d</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">‏%d איומים</item>
+        <item quantity="one">איום %d</item>
+        <item quantity="two">‏%d איומים</item>
+        <item quantity="many">‏%d איומים</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">נסרקו %d יישומים</item>
+        <item quantity="one">נסרק יישום %d</item>
+        <item quantity="two">נסרקו %d יישומים</item>
+        <item quantity="many">נסרקו %d יישומים</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">‏%d יישומים בסיכון</item>
+        <item quantity="one">יישום %d בסיכון</item>
+        <item quantity="two">‏%d יישומים בסיכון</item>
+        <item quantity="many">‏%d יישומים בסיכון</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">‏%2$d יישומים חשודים נמצאו ב-%1$d הימים האחרונים. הצג פרטים >></item>
+        <item quantity="one">יישום חשוד %2$d נמצא ב-%1$d הימים האחרונים. הצג פרטים >></item>
+        <item quantity="two">‏%2$d יישומים חשודים נמצאו ב-%1$d הימים האחרונים. הצג פרטים >></item>
+        <item quantity="many">‏%2$d יישומים חשודים נמצאו ב-%1$d הימים האחרונים. הצג פרטים >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">נסרקו %2$d יישומים ב-%1$d הימים האחרונים. הצג פרטים >></item>
+        <item quantity="one">נסרק יישום %2$d ב-%1$d הימים האחרונים. הצג פרטים >></item>
+        <item quantity="two">נסרקו %2$d יישומים ב-%1$d הימים האחרונים. הצג פרטים >></item>
+        <item quantity="many">נסרקו %2$d יישומים ב-%1$d הימים האחרונים. הצג פרטים >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">ניתן לדחוס %d יישומים</item>
+        <item quantity="one">ניתן לדחוס יישום %d</item>
+        <item quantity="two">ניתן לדחוס %d יישומים</item>
+        <item quantity="many">ניתן לדחוס %d יישומים</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">התגלו %d יישומים לא מוכרים.</item>
+        <item quantity="one">התגלה יישום לא מוכר %d.</item>
+        <item quantity="two">התגלו %d יישומים לא מוכרים.</item>
+        <item quantity="many">התגלו %d יישומים לא מוכרים.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">יישומים שניתן לדחוס (%d)</item>
+        <item quantity="one">יישומים שניתן לדחוס (%d)</item>
+        <item quantity="two">יישומים שניתן לדחוס (%d)</item>
+        <item quantity="many">יישומים שניתן לדחוס (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">‏%d יישומים לא מוכרים נמצאו. בדוק.</item>
+        <item quantity="one">יישום לא מוכר %d נמצא. בדוק.</item>
+        <item quantity="two">‏%d יישומים לא מוכרים נמצאו. בדוק.</item>
+        <item quantity="many">‏%d יישומים לא מוכרים נמצאו. בדוק.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">‏%d יישומים לא מוכרים נמצאו</item>
+        <item quantity="one">יישום לא מוכר %d נמצא</item>
+        <item quantity="two">‏%d יישומים לא מוכרים נמצאו</item>
+        <item quantity="many">‏%d יישומים לא מוכרים נמצאו</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה %d</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">דירוג: %s</item>
+        <item quantity="one">דירוג: %s</item>
+        <item quantity="two">דירוג: %s</item>
+        <item quantity="many">דירוג: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">"%1$s מכיל תוכן מוגבל בגיל. בנגיעה ב'%3$s' והורדת יישום זה, אתה מאשר שאתה מעל גיל %2$d."</item>
+        <item quantity="one">%1$s מכיל תוכן מוגבל בגיל. על-ידי נגיעה ב-%3$s והורדת יישום זה, אתה מאשר שאתה מעל גיל %2$d.</item>
+        <item quantity="two">%1$s מכיל תוכן מוגבל בגיל. על-ידי נגיעה ב-%3$s והורדת יישום זה, אתה מאשר שאתה מעל גיל %2$d .</item>
+        <item quantity="many">%1$s מכיל תוכן מוגבל בגיל. על-ידי נגיעה ב-%3$s והורדת יישום זה, אתה מאשר שאתה מעל גיל %2$d .</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">הורדות שהושהו: %1$d</item>
+        <item quantity="one">הורדות שהושהו: %1$d</item>
+        <item quantity="two">הורדות שהושהו: %1$d</item>
+        <item quantity="many">הורדות שהושהו: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">"%1$s מכיל תוכן מוגבל בגיל. בנגיעה ב'%3$s' ושימוש ביישום זה, אתה מאשר שאתה מעל גיל %2$d."</item>
+        <item quantity="one">%1$s מכיל תוכן מוגבל בגיל. על-ידי נגיעה ב-%3$s ושימוש ביישום זה, אתה מאשר שאתה מעל גיל %2$d .</item>
+        <item quantity="two">%1$s מכיל תוכן מוגבל בגיל. על-ידי נגיעה ב-%3$s ושימוש ביישום זה, אתה מאשר שאתה מעל גיל %2$d .</item>
+        <item quantity="many">%1$s מכיל תוכן מוגבל בגיל. על-ידי נגיעה ב-%3$s ושימוש ביישום זה, אתה מאשר שאתה מעל גיל %2$d .</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">‏%d לא אהבתי</item>
+        <item quantity="one">‏%d לא אהבתי</item>
+        <item quantity="two">‏%d לא אהבתי</item>
+        <item quantity="many">‏%d לא אהבתי</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">‏%d לא אהבתי, סימנת את זה בלא אהבתי</item>
+        <item quantity="one">לא אהבתי %d, סימנת את זה בלא אהבתי</item>
+        <item quantity="two">‏%d לא אהבתי, סימנת את זה בלא אהבתי</item>
+        <item quantity="many">‏%d לא אהבתי, סימנת את זה בלא אהבתי</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">‏%d אהבתי</item>
+        <item quantity="one">‏%d אהבתי</item>
+        <item quantity="two">‏%d אהבתי</item>
+        <item quantity="many">‏%d אהבתי</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">‏%d אהבתי, סימנת את זה באהבתי</item>
+        <item quantity="one">‏ אהבתי %d, סימנת את זה באהבתי</item>
+        <item quantity="two">‏%d אהבתי, סימנת את זה באהבתי</item>
+        <item quantity="many">‏%d אהבתי, סימנת את זה באהבתי</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">‏%d כוכבים</item>
+        <item quantity="one">כוכב %d</item>
+        <item quantity="two">‏%d כוכבים</item>
+        <item quantity="many">‏%d כוכבים</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d תגובות</item>
+        <item quantity="one">תגובה %1$d</item>
+        <item quantity="two">%1$d תגובות</item>
+        <item quantity="many">%1$d תגובות</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה %d</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d דירוגים</item>
+        <item quantity="one">דירוג %d</item>
+        <item quantity="two">%d דירוגים</item>
+        <item quantity="many">%d דירוגים</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d אהבתי</item>
+        <item quantity="one">אהבתי %1$d</item>
+        <item quantity="two">%1$d אהבתי</item>
+        <item quantity="many">%1$d אהבתי</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d תשובות</item>
+        <item quantity="one">תשובה %1$d</item>
+        <item quantity="two">%1$d תשובות</item>
+        <item quantity="many">%1$d תשובות</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">כל התשובות (%1$d)</item>
+        <item quantity="one">כל התשובות (%1$d)</item>
+        <item quantity="two">כל התשובות (%1$d)</item>
+        <item quantity="many">כל התשובות (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">צריך לשחק למשך לפחות %1$d דקות כדי להגיב.</item>
+        <item quantity="one">צריך לשחק למשך לפחות דקה %1$d כדי להגיב.</item>
+        <item quantity="two">צריך לשחק למשך לפחות %1$d דקות כדי להגיב.</item>
+        <item quantity="many">צריך לשחק למשך לפחות %1$d דקות כדי להגיב.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">מתבצעת התקנה של %1$s יישומים</item>
+        <item quantity="one">מתבצעת התקנה של יישום %1$s</item>
+        <item quantity="two">מתבצעת התקנה של %1$s יישומים</item>
+        <item quantity="many">מתבצעת התקנה של %1$s יישומים</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d פריטים נבחרו</item>
+        <item quantity="one">נבחר פריט %1$d</item>
+        <item quantity="two">%1$d פריטים נבחרו</item>
+        <item quantity="many">%1$d פריטים נבחרו</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">להסיר את היישומים שנבחרו, כולל %1$s?</item>
+        <item quantity="one">להסיר את ההתקנה של %1$s?</item>
+        <item quantity="two">להסיר את היישומים שנבחרו, כולל %1$s?</item>
+        <item quantity="many">להסיר את היישומים שנבחרו, כולל %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">להסיר את ההתקנה של %1$s ועוד %2$s יישומים מ-%3$s?</item>
+        <item quantity="one">להסיר את ההתקנה של %1$s ועוד יישום %2$s מ-%3$s?</item>
+        <item quantity="two">להסיר את ההתקנה של %1$s ועוד %2$s יישומים מ-%3$s?</item>
+        <item quantity="many">להסיר את ההתקנה של %1$s ועוד %2$s יישומים מ-%3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">להסיר התקנה של %2$s יישומים, כולל %1$s?</item>
+        <item quantity="one">להסיר התקנה של יישום %2$s, כולל %1$s?</item>
+        <item quantity="two">להסיר התקנה של %2$s יישומים, כולל %1$s?</item>
+        <item quantity="many">להסיר התקנה של %2$s יישומים, כולל %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">למחוק %1$s רשומות?</item>
+        <item quantity="one">למחוק רשומה %1$s?</item>
+        <item quantity="two">למחוק %1$s רשומות?</item>
+        <item quantity="many">למחוק %1$s רשומות?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">%1$d היישומים הבאים צריכים גישה להרשאות מסוימות:</item>
+        <item quantity="one">היישום ה-%1$d הבא צריך גישה להרשאות מסוימות:</item>
+        <item quantity="two">%1$d היישומים הבאים צריכים גישה להרשאות מסוימות:</item>
+        <item quantity="many">%1$d היישומים הבאים צריכים גישה להרשאות מסוימות:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d דירוגים</item>
+        <item quantity="one">דירוג %1$d</item>
+        <item quantity="two">%1$d דירוגים</item>
+        <item quantity="many">%1$d דירוגים</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM דירוגים</item>
+        <item quantity="one">%1$sM דירוגים</item>
+        <item quantity="two">%1$sM דירוגים</item>
+        <item quantity="many">%1$sM דירוגים</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK דירוגים</item>
+        <item quantity="one">%1$sK דירוגים</item>
+        <item quantity="two">%1$sK דירוגים</item>
+        <item quantity="many">%1$sK דירוגים</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s פעילויות</item>
+        <item quantity="one">פעילות %1$s</item>
+        <item quantity="two">%1$s פעילויות</item>
+        <item quantity="many">%1$s פעילויות</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">נשארו לך פחות מ-%1$s דקות משחק. שמור את המשחק בהקדם האפשרי.</item>
+        <item quantity="one">נשארה לך פחות מדקה %1$s של משחק. שמור את המשחק בהקדם האפשרי.</item>
+        <item quantity="two">נשארו לך פחות מ-%1$s דקות משחק. שמור את המשחק בהקדם האפשרי.</item>
+        <item quantity="many">נשארו לך פחות מ-%1$s דקות משחק. שמור את המשחק בהקדם האפשרי.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">נותרו %d דקות בלבד.</item>
+        <item quantity="one">נותרה דקה %d בלבד.</item>
+        <item quantity="two">נותרו %d דקות בלבד.</item>
+        <item quantity="many">נותרו %d דקות בלבד.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">‏%d שעות</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">‏%d שעות</item>
+        <item quantity="many">‏%d שעות</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">‏%d דקות</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">‏%d דקות</item>
+        <item quantity="many">‏%d דקות</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">‏%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+        <item quantity="two">‏%d שניות</item>
+        <item quantity="many">‏%d שניות</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="two">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="two">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="two">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">‏%1$d תגובות</item>
+        <item quantity="one">תגובה %1$d</item>
+        <item quantity="two">‏%1$d תגובות</item>
+        <item quantity="many">‏%1$d תגובות</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני %d דקות</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">‏%1$d תווים לכל היותר</item>
+        <item quantity="one">תו %1$d לכל היותר</item>
+        <item quantity="two">‏%1$d תווים לכל היותר</item>
+        <item quantity="many">‏%1$d תווים לכל היותר</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">הזן לפחות %1$d תווים</item>
+        <item quantity="one">הזן לפחות תו %1$d</item>
+        <item quantity="two">הזן לפחות %1$d תווים</item>
+        <item quantity="many">הזן לפחות %1$d תווים</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"עד %1$d תמונות
+‏%2$s לכל היותר כל אחת"</item>
+        <item quantity="one">"עד תמונה %1$d
+‏%2$s לכל היותר כל אחת"</item>
+        <item quantity="two">"עד %1$d תמונות
+‏%2$s לכל היותר כל אחת"</item>
+        <item quantity="many">"עד %1$d תמונות
+‏%2$s לכל היותר כל אחת"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">‏%d תמונות לכל היותר עבור סוג בעיה זה</item>
+        <item quantity="one">תמונה %d לכל היותר עבור סוג בעיה זה</item>
+        <item quantity="two">‏%d תמונות לכל היותר עבור סוג בעיה זה</item>
+        <item quantity="many">‏%d תמונות לכל היותר עבור סוג בעיה זה</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">‏%1$s כוכבים</item>
+        <item quantity="one">כוכב %1$s</item>
+        <item quantity="two">‏%1$s כוכבים</item>
+        <item quantity="many">‏%1$s כוכבים</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">הסיסמה הוזנה באופן שגוי %1$d פעמים. נסה שוב בעוד %2$d דקות.</item>
+        <item quantity="one">הסיסמה הוזנה באופן שגוי %1$d פעמים. נסה שוב בעוד %2$d דקות.</item>
+        <item quantity="two">הסיסמה הוזנה באופן שגוי %1$d פעמים. נסה שוב בעוד %2$d דקות.</item>
+        <item quantity="many">הסיסמה הוזנה באופן שגוי %1$d פעמים. נסה שוב בעוד %2$d דקות.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB אנשים השתתפו</item>
+        <item quantity="one">%1$sB אנשים השתתפו</item>
+        <item quantity="two">%1$sB אנשים השתתפו</item>
+        <item quantity="many">%1$sB אנשים השתתפו</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM אנשים השתתפו</item>
+        <item quantity="one">%1$sM אנשים השתתפו</item>
+        <item quantity="two">%1$sM אנשים השתתפו</item>
+        <item quantity="many">%1$sM אנשים השתתפו</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s אנשים השתתפו</item>
+        <item quantity="one">איש %1$s השתתף</item>
+        <item quantity="two">%1$s אנשים השתתפו</item>
+        <item quantity="many">%1$s אנשים השתתפו</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK אנשים השתתפו</item>
+        <item quantity="one">%1$sK אנשים השתתפו</item>
+        <item quantity="two">%1$sK אנשים השתתפו</item>
+        <item quantity="many">%1$sK אנשים השתתפו</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB אנשים רכשו זאת</item>
+        <item quantity="one">%1$sB אנשים רכשו זאת</item>
+        <item quantity="two">%1$sB אנשים רכשו זאת</item>
+        <item quantity="many">%1$sB אנשים רכשו זאת</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM אנשים רכשו זאת</item>
+        <item quantity="one">%1$sM אנשים רכשו זאת</item>
+        <item quantity="two">%1$sM אנשים רכשו זאת</item>
+        <item quantity="many">%1$sM אנשים רכשו זאת</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s אנשים רכשו זאת</item>
+        <item quantity="one">איש %1$s רכש זאת</item>
+        <item quantity="two">%1$s אנשים רכשו זאת</item>
+        <item quantity="many">%1$s אנשים רכשו זאת</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK אנשים רכשו זאת</item>
+        <item quantity="one">%1$sK אנשים רכשו זאת</item>
+        <item quantity="two">%1$sK אנשים רכשו זאת</item>
+        <item quantity="many">%1$sK אנשים רכשו זאת</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s דירוגים</item>
+        <item quantity="one">דירוג %1$s</item>
+        <item quantity="two">%1$s דירוגים</item>
+        <item quantity="many">%1$s דירוגים</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">דירוג, %1$s כוכבים</item>
+        <item quantity="one">דירוג, כוכב %1$s</item>
+        <item quantity="two">דירוג, %1$s כוכבים</item>
+        <item quantity="many">דירוג, %1$s כוכבים</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">מדורג %1$s כוכבים</item>
+        <item quantity="one">מדורג כוכב %1$s</item>
+        <item quantity="two">מדורג %1$s כוכבים</item>
+        <item quantity="many">מדורג %1$s כוכבים</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">התקן בכל זאת (%1$d)</item>
+        <item quantity="one">התקן בכל זאת (%1$d)</item>
+        <item quantity="two">התקן בכל זאת (%1$d)</item>
+        <item quantity="many">התקן בכל זאת (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">‏%d שעות</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">‏%d שעות</item>
+        <item quantity="many">‏%d שעות</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">‏%d דקות</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">‏%d דקות</item>
+        <item quantity="many">‏%d דקות</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">‏%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+        <item quantity="two">‏%d שניות</item>
+        <item quantity="many">‏%d שניות</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d פריטים נבחרו</item>
+        <item quantity="one">פריט %1$d נבחר</item>
+        <item quantity="two">%1$d פריטים נבחרו</item>
+        <item quantity="many">%1$d פריטים נבחרו</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">התיאור חייב להיות באורך של %d תווים לפחות. הוסף צילומי מסך אם ניתן.</item>
+        <item quantity="one">התיאור חייב להיות באורך של תו %d לפחות. הוסף צילומי מסך אם ניתן.</item>
+        <item quantity="two">התיאור חייב להיות באורך של %d תווים לפחות. הוסף צילומי מסך אם ניתן.</item>
+        <item quantity="many">התיאור חייב להיות באורך של %d תווים לפחות. הוסף צילומי מסך אם ניתן.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה %1$d</item>
+        <item quantity="two">%1$d שעות</item>
+        <item quantity="many">%1$d שעות</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה %1$d</item>
+        <item quantity="two">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">‏%1$d שניות</item>
+        <item quantity="one">שנייה %1$d</item>
+        <item quantity="two">‏%1$d שניות</item>
+        <item quantity="many">‏%1$d שניות</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">פוסטים: %1$s</item>
+        <item quantity="one">פוסטים: %1$s</item>
+        <item quantity="two">פוסטים: %1$s</item>
+        <item quantity="many">פוסטים: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d אהבתי</item>
+        <item quantity="one">אהבתי%d</item>
+        <item quantity="two">%d אהבתי</item>
+        <item quantity="many">%d אהבתי</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d תשובות</item>
+        <item quantity="one">תשובה %d</item>
+        <item quantity="two">%d תשובות</item>
+        <item quantity="many">%d תשובות</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="two">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="two">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="two">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d הצגות</item>
+        <item quantity="one">הצגה %d</item>
+        <item quantity="two">%d הצגות</item>
+        <item quantity="many">%d הצגות</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">השאר תגובה (סה\"כ %1$d)</item>
+        <item quantity="one">השאר תגובה (סה\"כ %1$d)</item>
+        <item quantity="two">השאר תגובה (סה\"כ %1$d)</item>
+        <item quantity="many">השאר תגובה (סה\"כ %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">ראה את כל %1$d התשובות</item>
+        <item quantity="one">ראה את התשובה ה-%1$d</item>
+        <item quantity="two">ראה את כל %1$d התשובות</item>
+        <item quantity="many">ראה את כל %1$d התשובות</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">‏%1$s משתתפים</item>
+        <item quantity="one">משתתף %1$s</item>
+        <item quantity="two">‏%1$s משתתפים</item>
+        <item quantity="many">‏%1$s משתתפים</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">בחר עד %s תשובות</item>
+        <item quantity="one">בחר עד תשובה %s</item>
+        <item quantity="two">בחר עד %s תשובות</item>
+        <item quantity="many">בחר עד %s תשובות</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">בחירה מרובה (בחר %1$d)</item>
+        <item quantity="one">בחירה מרובה (בחר %1$d)</item>
+        <item quantity="two">בחירה מרובה (בחר %1$d)</item>
+        <item quantity="many">בחירה מרובה (בחר %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">בחר %s תשובות</item>
+        <item quantity="one">בחר תשובה %s</item>
+        <item quantity="two">בחר %s תשובות</item>
+        <item quantity="many">בחר %s תשובות</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">‏%1$s קולות</item>
+        <item quantity="one">קול %1$s</item>
+        <item quantity="two">‏%1$s קולות</item>
+        <item quantity="many">‏%1$s קולות</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">"יישום זה זקוק ל-%1$d הרשאות. ניתן לבטל אותן בכל עת ב'הגדרות' > 'יישומים' > 'יישומים'."</item>
+        <item quantity="one">"יישום זה זקוק להרשאה %1$d. ניתן לבטל אותה בכל עת ב'הגדרות' > 'יישומים' > 'יישומים'."</item>
+        <item quantity="two">"יישום זה זקוק ל-%1$d הרשאות. ניתן לבטל אותן בכל עת ב'הגדרות' > 'יישומים' > 'יישומים'."</item>
+        <item quantity="many">"יישום זה זקוק ל-%1$d הרשאות. ניתן לבטל אותן בכל עת ב'הגדרות' > 'יישומים' > 'יישומים'."</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">"יישום זה זקוק ל-%1$d הרשאות. ניתן לבטל אותן בכל עת מתוך 'הגדרות' > 'יישומים ושירותים' > 'יישומים'."</item>
+        <item quantity="one">"יישום זה זקוק להרשאה %1$d. ניתן לבטל אותה בכל עת מתוך 'הגדרות' > 'יישומים ושירותים' > 'יישומים'."</item>
+        <item quantity="two">"יישום זה זקוק ל-%1$d הרשאות. ניתן לבטל אותן בכל עת מתוך 'הגדרות' > 'יישומים ושירותים' > 'יישומים'."</item>
+        <item quantity="many">"יישום זה זקוק להרשאות ל-%1$d הרשאות. ניתן לבטל אותן בכל עת מתוך 'הגדרות' > 'יישומים ושירותים' > 'יישומים'."</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d מתנות</item>
+        <item quantity="one">מתנה %1$d</item>
+        <item quantity="two">%1$d מתנות</item>
+        <item quantity="many">%1$d מתנות</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+        <item quantity="two">%1$dK</item>
+        <item quantity="many">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d כוכבים</item>
+        <item quantity="one">כוכב %1$d</item>
+        <item quantity="two">%1$d כוכבים</item>
+        <item quantity="many">%1$d כוכבים</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">דירוג: %s</item>
+        <item quantity="one">דירוג: %s</item>
+        <item quantity="two">דירוג: %s</item>
+        <item quantity="many">דירוג: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s דירוגים</item>
+        <item quantity="one">דירוג %1$s</item>
+        <item quantity="two">%1$s דירוגים</item>
+        <item quantity="many">%1$s דירוגים</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s פתיחות</item>
+        <item quantity="one">פתיחה %1$s</item>
+        <item quantity="two">%1$s פתיחות</item>
+        <item quantity="many">%1$s פתיחות</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d המלצות חדשות</item>
+        <item quantity="one">המלצה חדשה %d</item>
+        <item quantity="two">%d המלצות חדשות</item>
+        <item quantity="many">%d המלצות חדשות</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="two">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="two">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="two">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d יישומים עודכנו</item>
+        <item quantity="one">יישום %1$d עודכן</item>
+        <item quantity="two">%1$d יישומים עודכנו</item>
+        <item quantity="many">%1$d יישומים עודכנו</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d יישומים מתעדכנים</item>
+        <item quantity="one">יישום %1$d מתעדכן</item>
+        <item quantity="two">%1$d יישומים מתעדכנים</item>
+        <item quantity="many">%1$d יישומים מתעדכנים</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">גודל תמונה לא יכול לעלות על %1$d‎ MB.</item>
+        <item quantity="one">גודל תמונה לא יכול לעלות על %1$d‎ MB.</item>
+        <item quantity="two">גודל תמונה לא יכול לעלות על %1$d‎ MB.</item>
+        <item quantity="many">גודל תמונה לא יכול לעלות על %1$d‎ MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d תמונות</item>
+        <item quantity="one">תמונה %d</item>
+        <item quantity="two">%d תמונות</item>
+        <item quantity="many">%d תמונות</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">‎%1$d/%2$d‎ נבחרו</item>
+        <item quantity="one">‎%1$d/%2$d‎ נבחרו</item>
+        <item quantity="two">‎%1$d/%2$d‎ נבחרו</item>
+        <item quantity="many">‎%1$d/%2$d‎ נבחרו</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">‏%d סרטונים</item>
+        <item quantity="one">סרטון %d</item>
+        <item quantity="two">‏%d סרטונים</item>
+        <item quantity="many">‏%d סרטונים</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d הטבות</item>
+        <item quantity="one">הטבה %d</item>
+        <item quantity="two">%d הטבות</item>
+        <item quantity="many">%d הטבות</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">למחוק את כל ההתקנות שהושהו (%1$s יישומים, יתפנו %2$s)</item>
+        <item quantity="one">למחוק את כל ההתקנות שהושהו (יישום %1$s, יתפנו %2$s)</item>
+        <item quantity="two">למחוק את כל ההתקנות שהושהו (%1$s יישומים, יתפנו %2$s)</item>
+        <item quantity="many">למחוק את כל ההתקנות שהושהו (%1$s יישומים, יתפנו %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d נבחרו)"</item>
+        <item quantity="one">" 
+(%1$d נבחר)"</item>
+        <item quantity="two">" 
+(%1$d נבחרו)"</item>
+        <item quantity="many">" 
+(%1$d נבחרו)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">עמוד %1$d</item>
+        <item quantity="one">עמוד %1$d</item>
+        <item quantity="two">עמוד %1$d</item>
+        <item quantity="many">עמוד %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">הושהו %1$s התקנות.</item>
+        <item quantity="one">הושהתה התקנה %1$s.</item>
+        <item quantity="two">הושהו %1$s התקנות.</item>
+        <item quantity="many">הושהו %1$s התקנות.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני %d דקות</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d תוספות</item>
+        <item quantity="one">תוספת %1$d</item>
+        <item quantity="two">%1$d תוספות</item>
+        <item quantity="many">%1$d תוספות</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">‏%1$s הורדות</item>
+        <item quantity="one">הורדה %1$s</item>
+        <item quantity="two">‏%1$s הורדות</item>
+        <item quantity="many">‏%1$s הורדות</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">דירוג %1$s כוכבים</item>
+        <item quantity="one">דירוג כוכב %1$s</item>
+        <item quantity="two">דירוג %1$s כוכבים</item>
+        <item quantity="many">דירוג %1$s כוכבים</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">התקנה מתוזמנת של %1$s יישומים הושלמה</item>
+        <item quantity="one">התקנה מתוזמנת של יישום %1$s הושלמה</item>
+        <item quantity="two">התקנה מתוזמנת של %1$s יישומים הושלמה</item>
+        <item quantity="many">התקנה מתוזמנת של %1$s יישומים הושלמה</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">כשתתחבר ל-Wi-Fi, תתחיל הורדה של %1$d יישומים.</item>
+        <item quantity="one">כשתתחבר ל-Wi-Fi, תתחיל הורדה של יישום %1$d.</item>
+        <item quantity="two">כשתתחבר ל-Wi-Fi, תתחיל הורדה של %1$d יישומים.</item>
+        <item quantity="many">כשתתחבר ל-Wi-Fi, תתחיל הורדה של %1$d יישומים.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s הוזמן מראש)</item>
+        <item quantity="one">(%1$s הוזמן מראש)</item>
+        <item quantity="two">(%1$s שמור)</item>
+        <item quantity="many">(%1$s שמור)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d מיליון שמור)</item>
+        <item quantity="one">(1 מיליון שמור)</item>
+        <item quantity="two">(%1$d מיליון שמור)</item>
+        <item quantity="many">(%1$d מיליון שמור)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d אלפים שמור)</item>
+        <item quantity="one">(אלף שמור)</item>
+        <item quantity="two">(%1$d אלפים שמור)</item>
+        <item quantity="many">(%1$d אלפים שמור)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">להתקין את כל %1$s היישומים?</item>
+        <item quantity="one">להתקין יישום %1$s?</item>
+        <item quantity="two">להתקין את כל %1$s היישומים?</item>
+        <item quantity="many">להתקין את כל %1$s היישומים?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">מתבצעות %1$s התקנות.</item>
+        <item quantity="one">מתבצעת התקנה %1$s.</item>
+        <item quantity="two">מתבצעות %1$s התקנות.</item>
+        <item quantity="many">מתבצעות %1$s התקנות.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">מתוך %1$d</item>
+        <item quantity="one">מתוך %1$d</item>
+        <item quantity="two">מתוך %1$d</item>
+        <item quantity="many">מתוך %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">חפש ב-%d יישומים בהתקן</item>
+        <item quantity="one">חפש ביישום %d בהתקן</item>
+        <item quantity="two">חפש ב-%d יישומים בהתקן</item>
+        <item quantity="many">חפש ב-%d יישומים בהתקן</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">שחזר %d יישומים לרשימת העדכונים ואפשר להם להתעדכן.</item>
+        <item quantity="one">שחזר יישום %d לרשימת העדכונים ואפשר לו להתעדכן.</item>
+        <item quantity="two">שחזר %d יישומים לרשימת העדכונים ואפשר להם להתעדכן.</item>
+        <item quantity="many">שחזר %d יישומים לרשימת העדכונים ואפשר להם להתעדכן.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">‏%1$s עדכוני יישומים זמינים</item>
+        <item quantity="one">עדכון יישום %1$s זמין</item>
+        <item quantity="two">‏%1$s עדכוני יישומים זמינים</item>
+        <item quantity="many">‏%1$s עדכוני יישומים זמינים</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">עדכון %1$s יישומים מומלץ. סה\"כ גודל: %2$s.</item>
+        <item quantity="one">עדכון יישום %1$s מומלץ. גודל: %2$s.</item>
+        <item quantity="two">עדכון %1$s יישומים מומלץ. סה\"כ גודל: %2$s.</item>
+        <item quantity="many">עדכון %1$s יישומים מומלץ. סה\"כ גודל: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">‏%1$d עדכוני יישומים זמינים. גודל: %2$s.</item>
+        <item quantity="one">עדכון יישום %1$d זמין. גודל: %2$s.</item>
+        <item quantity="two">‏%1$d עדכוני יישומים זמינים. גודל: %2$s.</item>
+        <item quantity="many">‏%1$d עדכוני יישומים זמינים. גודל: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">לא בשימוש במשך %d ימים</item>
+        <item quantity="one">לא בשימוש במשך יום %d</item>
+        <item quantity="two">לא בשימוש במשך %d ימים</item>
+        <item quantity="many">לא בשימוש במשך %d ימים</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">‏%d שעות</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">‏%d שעות</item>
+        <item quantity="many">‏%d שעות</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">‏%d דקות</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">‏%d דקות</item>
+        <item quantity="many">‏%d דקות</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">‏%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+        <item quantity="two">‏%d שניות</item>
+        <item quantity="many">‏%d שניות</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">למחוק %d משימות ואת הקבצים שהורדו?</item>
+        <item quantity="one">למחוק משימה %d ואת הקובץ שהורד?</item>
+        <item quantity="two">למחוק %d משימות ואת הקבצים שהורדו?</item>
+        <item quantity="many">למחוק %d משימות ואת הקבצים שהורדו?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">"רצף צ'ק אין של %d ימים"</item>
+        <item quantity="one">"רצף צ'ק אין של יום %d"</item>
+        <item quantity="two">"רצף צ'ק אין של %d ימים"</item>
+        <item quantity="many">"רצף צ'ק אין של %d ימים"</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">יום %d</item>
+        <item quantity="one">יום %d</item>
+        <item quantity="two">יום %d</item>
+        <item quantity="many">יום %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">‏%1$d יישומים הורדו</item>
+        <item quantity="one">‏ יישום %1$d הורד</item>
+        <item quantity="two">‏%1$d יישומים הורדו</item>
+        <item quantity="many">‏%1$d יישומים הורדו</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">דירוג: %s</item>
+        <item quantity="one">דירוג: %s</item>
+        <item quantity="two">דירוג: %s</item>
+        <item quantity="many">דירוג: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה %d</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">‏%2$d יישומים, כולל %1$s</item>
+        <item quantity="one">‏%2$d יישום (%1$s)</item>
+        <item quantity="two">‏%2$d יישומים, כולל %1$s</item>
+        <item quantity="many">‏%2$d יישומים, כולל %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">תג נקודה אדומה, %1$s התראות שלא נקראו</item>
+        <item quantity="one">תג נקודה אדומה, התראה %1$s שלא נקראה</item>
+        <item quantity="two">תג נקודה אדומה, %1$s התראות שלא נקראו</item>
+        <item quantity="many">תג נקודה אדומה, %1$s התראות שלא נקראו</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d הצעות</item>
+        <item quantity="one">הצעה %d</item>
+        <item quantity="two">%d הצעות</item>
+        <item quantity="many">%d הצעות</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d מתנות קהילה</item>
+        <item quantity="one">מתנת קהילה %d</item>
+        <item quantity="two">%d מתנות קהילה</item>
+        <item quantity="many">%d מתנות קהילה</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d מתנות</item>
+        <item quantity="one">מתנה %d</item>
+        <item quantity="two">%d מתנות</item>
+        <item quantity="many">%d מתנות</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d אנשים באזורך רוצים את זה</item>
+        <item quantity="one">איש %d באזורך רוצה את זה</item>
+        <item quantity="two">%d אנשים באזורך רוצים את זה</item>
+        <item quantity="many">%d אנשים באזורך רוצים את זה</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d פריטים נבחרו</item>
+        <item quantity="one">נבחר פריט %1$d</item>
+        <item quantity="two">%1$d פריטים נבחרו</item>
+        <item quantity="many">%1$d פריטים נבחרו</item>
+    </plurals>
+</resources>

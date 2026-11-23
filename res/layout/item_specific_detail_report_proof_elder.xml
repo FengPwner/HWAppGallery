@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingBottom="@dimen/component_detail_report_item_common_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/component_detail_report_item_common_margin_horizontal"
+    android:paddingEnd="@dimen/component_detail_report_item_common_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/iv_star"
+        android:visibility="gone"
+        android:layout_width="@dimen/component_detail_report_star_height_and_width"
+        android:layout_height="@dimen/component_detail_report_star_height_and_width"
+        android:src="@drawable/ic_detail_report_star"
+        app:layout_constraintBottom_toBottomOf="@id/tv_proof"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_proof" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/tv_proof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/component_detail_report_des_title_height"
+        android:text="@string/component_detail_report_proof_materials"
+        android:maxLines="2"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+        app:layout_constraintStart_toEndOf="@id/iv_star"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.uikit.hwrecyclerview.widget.HwRecyclerView
+        android:id="@id/rv_proof"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_proof" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_caption"
+        android:textColor="@color/appgallery_color_error"
+        android:id="@id/tv_tips"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:includeFontPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/rv_proof" />
+</androidx.constraintlayout.widget.ConstraintLayout>

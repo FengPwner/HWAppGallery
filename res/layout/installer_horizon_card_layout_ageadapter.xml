@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/hori_parent"
+    android:paddingTop="@dimen/install_vertical_card_padding_top"
+    android:clickable="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/hori_layout"
+        android:background="@drawable/aguikit_card_panel_bg"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwColumnType="content_type">
+        <include
+            android:id="@id/appList_ItemTitle_layout"
+            layout="@layout/installer_horizon_card_title_layout_ageadapter" />
+        <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+            android:id="@id/AppListItem"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:paddingStart="@dimen/margin_m"
+            android:paddingEnd="@dimen/margin_m"
+            app:bounceEnable="true" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+</LinearLayout>

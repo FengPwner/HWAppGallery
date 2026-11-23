@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/feedback_sdk_common_16_dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/tb_my_user_icon"
+        android:layout_width="@dimen/feedback_sdk_common_32_dip"
+        android:layout_height="@dimen/feedback_sdk_common_32_dip"
+        android:src="@drawable/feedback_sdk_me_head_icon_def"
+        android:layout_marginStart="@dimen/feedback_sdk_common_8_dip"
+        android:layout_alignParentEnd="true" />
+    <RelativeLayout
+        android:id="@id/rl_video_frame"
+        android:background="@drawable/feedback_sdk_bg_question_from"
+        android:visibility="gone"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_toStartOf="@id/tb_my_user_icon">
+        <ImageView
+            android:id="@id/video_list"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginBottom="9.0dip"
+            android:src="@drawable/feedback_icon_video"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/img_video_failed"
+        android:visibility="gone"
+        android:layout_width="@dimen/feedback_sdk_common_16_dip"
+        android:layout_height="@dimen/feedback_sdk_common_16_dip"
+        android:src="@drawable/feedback_icon_notice"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_6_dip"
+        android:layout_toStartOf="@id/rl_video_frame" />
+    <RelativeLayout
+        android:id="@id/rl_video_progress"
+        android:background="@drawable/feedback_sdk_bg_question_from"
+        android:visibility="gone"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_toStartOf="@id/tb_my_user_icon">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/video_frame"
+        android:visibility="gone"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_toStartOf="@id/tb_my_user_icon" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+{
+  "scopes": {
+    "baseProfile": "https://www.huawei.com/auth/account/base.profile",
+    "country": "https://www.huawei.com/auth/account/country",
+    "mobileNumber": "https://www.huawei.com/auth/account/mobile.number",
+    "birthday": "https://www.huawei.com/auth/account/birthday",
+    "ageRange": "https://www.huawei.com/auth/account/age.range",
+    "accountListAnonymous": "https://www.huawei.com/auth/account/accountlist.anonymous",
+    "deviceList": "https://www.huawei.com/auth/account/devicelist",
+    "getUserVerifyLevel": "getUserVerifyLevel"
+  },
+  "countryScope": {
+    "country": "https://www.huawei.com/auth/account/country"
+  },
+  "ageRangeAndCountryScope": {
+    "ageRange": "https://www.huawei.com/auth/account/age.range",
+    "country": "https://www.huawei.com/auth/account/country"
+  }
+}

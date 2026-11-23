@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/wisedist_title_relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_hwtoolbar_height">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/wisedist_arrow_layout"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginEnd="4.0dip">
+            <ImageView
+                android:id="@id/up"
+                android:tag="css/.widget"
+                android:layout_width="@dimen/ui_24_dp"
+                android:layout_height="@dimen/ui_24_dp"
+                android:src="@drawable/aguikit_ic_public_back" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@id/container_search"
+            android:focusableInTouchMode="true"
+            android:visibility="visible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        <View
+            android:id="@id/title_right_icon_margin"
+            android:layout_width="@dimen/margin_s"
+            android:layout_height="48.0dip" />
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</LinearLayout>

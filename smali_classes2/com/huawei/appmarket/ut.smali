@@ -1,0 +1,1124 @@
+.class public final Lcom/huawei/appmarket/ut;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appmarket/vh3;
+
+
+# annotations
+.annotation runtime Lcom/huawei/appmarket/zm;
+    uri = Lcom/huawei/appmarket/vh3;
+.end annotation
+
+
+# static fields
+.field public static final a:Ljava/util/concurrent/ConcurrentHashMap;
+
+.field private static final b:Ljava/util/concurrent/ThreadPoolExecutor;
+
+.field private static c:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 9
+
+    .line 1
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+
+    sput-object v0, Lcom/huawei/appmarket/ut;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    new-instance v0, Ljava/util/concurrent/ThreadPoolExecutor;
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x4
+
+    const-wide/16 v4, 0xa
+
+    sget-object v6, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    new-instance v7, Ljava/util/concurrent/LinkedBlockingQueue;
+
+    invoke-direct {v7}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
+
+    new-instance v8, Lcom/huawei/appmarket/ru5;
+
+    const-string v1, "AppProfile"
+
+    invoke-direct {v8, v1}, Lcom/huawei/appmarket/ru5;-><init>(Ljava/lang/String;)V
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v8}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+
+    sput-object v0, Lcom/huawei/appmarket/ut;->b:Ljava/util/concurrent/ThreadPoolExecutor;
+
+    const/4 v0, -0x1
+
+    sput v0, Lcom/huawei/appmarket/ut;->c:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private static d(Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;)Z
+    .registers 4
+
+    .line 1
+    iget v0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->status:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x2
+
+    .line 4
+    if-ne v0, v1, :cond_0
+
+    .line 5
+    .line 6
+    iget-object p0, p0, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->profilePath:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+
+    .line 9
+    .line 10
+    const-string v1, "AppProfileManagerImpl"
+
+    .line 11
+    .line 12
+    const-string v2, "PROFILE_AND_VDEX has downed"
+
+    .line 13
+    .line 14
+    invoke-virtual {v0, v1, v2}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v0
+
+    .line 21
+    if-nez v0, :cond_0
+
+    .line 22
+    .line 23
+    invoke-static {p0}, Lcom/huawei/appmarket/b00;->w(Ljava/lang/String;)Z
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p0
+
+    .line 27
+    return p0
+
+    .line 28
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 29
+    return p0
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+.end method
+
+.method private static f(Landroid/content/Context;ILjava/lang/String;)Ljava/util/ArrayList;
+    .registers 4
+
+    .line 1
+    invoke-static {p0}, Lcom/huawei/appmarket/i86;->b(Landroid/content/Context;)Lcom/huawei/appmarket/i86;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/b2;->acquireDB()V
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, p2, p1, v0, v0}, Lcom/huawei/appmarket/i86;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lcom/huawei/appmarket/b2;->releaseDB()V
+
+    return-object p1
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;)Z
+    .registers 6
+
+    .line 1
+    sget v0, Lcom/huawei/appmarket/ut;->c:I
+
+    .line 2
+    .line 3
+    const/4 v1, -0x1
+
+    .line 4
+    const/4 v2, 0x0
+
+    .line 5
+    const/4 v3, 0x1
+
+    .line 6
+    if-ne v0, v1, :cond_1
+
+    .line 7
+    .line 8
+    invoke-static {p1}, Lcom/huawei/appmarket/he4;->b(Landroid/content/Context;)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p1
+
+    .line 12
+    const-string v0, "AppProfileManagerImpl"
+
+    .line 13
+    .line 14
+    if-eqz p1, :cond_0
+
+    .line 15
+    .line 16
+    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    .line 17
+    .line 18
+    const/16 v1, 0x1c
+
+    .line 19
+    .line 20
+    if-lt p1, v1, :cond_0
+
+    .line 21
+    .line 22
+    sput v3, Lcom/huawei/appmarket/ut;->c:I
+
+    .line 23
+    .line 24
+    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+
+    .line 25
+    .line 26
+    const-string v1, "APP_PROFILE_SUPPORT"
+
+    .line 27
+    .line 28
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 29
+    .line 30
+    .line 31
+    :goto_0
+    const/4 v2, 0x1
+
+    .line 32
+    goto :goto_1
+
+    .line 33
+    :cond_0
+    sput v2, Lcom/huawei/appmarket/ut;->c:I
+
+    .line 34
+    .line 35
+    sget-object p1, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+
+    .line 36
+    .line 37
+    const-string v1, "APP_PROFILE_UNSUPPORT"
+
+    .line 38
+    .line 39
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 40
+    .line 41
+    .line 42
+    goto :goto_1
+
+    .line 43
+    :cond_1
+    if-ne v0, v3, :cond_2
+
+    .line 44
+    .line 45
+    goto :goto_0
+
+    .line 46
+    :cond_2
+    :goto_1
+    return v2
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+.end method
+
+.method public final b(Landroid/content/Context;Ljava/lang/String;)V
+    .registers 4
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ut;->a(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    new-instance v0, Lcom/huawei/appmarket/g86;
+
+    invoke-direct {v0, p1, p2}, Lcom/huawei/appmarket/g86;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+
+    sget-object p1, Lcom/huawei/appmarket/ut;->b:Ljava/util/concurrent/ThreadPoolExecutor;
+
+    const/4 p2, 0x0
+
+    new-array p2, p2, [Ljava/lang/Void;
+
+    invoke-virtual {v0, p1, p2}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final c(Landroid/content/Context;Lcom/huawei/appmarket/h86;)Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+    .registers 8
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ut;->a(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_0
+    invoke-static {p1}, Lcom/huawei/appmarket/i86;->b(Landroid/content/Context;)Lcom/huawei/appmarket/i86;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->acquireDB()V
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->f()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->j()I
+
+    move-result v2
+
+    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->h()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->i()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/huawei/appmarket/i86;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+
+    move-result v2
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x1
+
+    if-eqz v2, :cond_1
+
+    new-instance v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+
+    invoke-direct {v1}, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;-><init>()V
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->f()Ljava/lang/String;
+
+    move-result-object v2
+
+    iput-object v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->packageName:Ljava/lang/String;
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->j()I
+
+    move-result v2
+
+    iput v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->versionCode:I
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->h()Ljava/lang/String;
+
+    move-result-object v2
+
+    iput-object v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->profileUrl:Ljava/lang/String;
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->i()Ljava/lang/String;
+
+    move-result-object v2
+
+    iput-object v2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->sha256:Ljava/lang/String;
+
+    invoke-virtual {p2}, Lcom/huawei/appmarket/h86;->g()I
+
+    move-result p2
+
+    iput p2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->profileType:I
+
+    iput v4, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->status:I
+
+    invoke-virtual {v0, v1}, Lcom/huawei/appmarket/i86;->c(Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;)V
+
+    goto :goto_0
+
+    :cond_1
+    invoke-interface {v1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p2
+
+    move-object v1, p2
+
+    check-cast v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+
+    iget p2, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->status:I
+
+    if-lt p2, v4, :cond_2
+
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->releaseDB()V
+
+    return-object v1
+
+    :cond_2
+    :goto_0
+    invoke-virtual {v0}, Lcom/huawei/appmarket/b2;->releaseDB()V
+
+    sget-object p2, Lcom/huawei/appmarket/ut;->a:Ljava/util/concurrent/ConcurrentHashMap;
+
+    iget-object v0, v1, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->packageName:Ljava/lang/String;
+
+    invoke-virtual {p2, v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    new-instance p2, Lcom/huawei/appgallery/packagemanager/impl/appprofile/download/ProfileDownloadTask;
+
+    invoke-direct {p2, p1}, Lcom/huawei/appgallery/packagemanager/impl/appprofile/download/ProfileDownloadTask;-><init>(Landroid/content/Context;)V
+
+    sget-object p1, Lcom/huawei/appmarket/ut;->b:Ljava/util/concurrent/ThreadPoolExecutor;
+
+    new-array v0, v4, [Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+
+    aput-object v1, v0, v3
+
+    invoke-virtual {p2, p1, v0}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+
+    return-object v1
+.end method
+
+.method public final e(Landroid/content/Context;ILjava/lang/String;)Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+    .registers 18
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/huawei/appmarket/ut;->a(Landroid/content/Context;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    if-nez v0, :cond_0
+
+    .line 7
+    .line 8
+    return-object v1
+
+    .line 9
+    :cond_0
+    invoke-static {}, Lcom/huawei/appmarket/pu5;->f()Lcom/huawei/appmarket/pu5;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    const/4 v2, 0x2
+
+    .line 14
+    new-array v3, v2, [Lcom/huawei/appmarket/i76;
+
+    .line 15
+    .line 16
+    const/4 v4, 0x0
+
+    .line 17
+    sget-object v5, Lcom/huawei/appmarket/i76;->b:Lcom/huawei/appmarket/i76;
+
+    .line 18
+    .line 19
+    aput-object v5, v3, v4
+
+    .line 20
+    .line 21
+    sget-object v4, Lcom/huawei/appmarket/i76;->c:Lcom/huawei/appmarket/i76;
+
+    .line 22
+    .line 23
+    const/4 v5, 0x1
+
+    .line 24
+    aput-object v4, v3, v5
+
+    .line 25
+    .line 26
+    move-object/from16 v4, p3
+
+    .line 27
+    .line 28
+    invoke-virtual {v0, v4, v3}, Lcom/huawei/appmarket/pu5;->h(Ljava/lang/String;[Lcom/huawei/appmarket/i76;)Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v3
+
+    .line 32
+    invoke-static/range {p1 .. p3}, Lcom/huawei/appmarket/ut;->f(Landroid/content/Context;ILjava/lang/String;)Ljava/util/ArrayList;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v6
+
+    .line 40
+    :cond_1
+    :goto_0
+    invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v0
+
+    .line 44
+    if-eqz v0, :cond_6
+
+    .line 45
+    .line 46
+    invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v0
+
+    .line 50
+    check-cast v0, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+
+    .line 51
+    .line 52
+    if-eqz v3, :cond_2
+
+    .line 53
+    .line 54
+    iget v7, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->profileType:I
+
+    .line 55
+    .line 56
+    iput v7, v3, Lcom/huawei/appgallery/packagemanager/api/bean/ManagerTask;->profileType:I
+
+    .line 57
+    .line 58
+    :cond_2
+    iget v0, v0, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->profileType:I
+
+    .line 59
+    .line 60
+    if-ne v2, v0, :cond_1
+
+    .line 61
+    .line 62
+    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+
+    .line 63
+    .line 64
+    const-string v7, "is PROFILE_AND_VDEX check downed"
+
+    .line 65
+    .line 66
+    const-string v8, "AppProfileManagerImpl"
+
+    .line 67
+    .line 68
+    invoke-virtual {v0, v8, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 69
+    .line 70
+    .line 71
+    const-wide/16 v9, 0x0
+
+    .line 72
+    .line 73
+    :goto_1
+    const-wide/16 v11, 0x2710
+
+    .line 74
+    .line 75
+    cmp-long v0, v9, v11
+
+    .line 76
+    .line 77
+    if-gez v0, :cond_5
+
+    .line 78
+    .line 79
+    const-wide/16 v11, 0xc8
+
+    .line 80
+    .line 81
+    add-long/2addr v9, v11
+
+    .line 82
+    invoke-static/range {p1 .. p3}, Lcom/huawei/appmarket/ut;->f(Landroid/content/Context;ILjava/lang/String;)Ljava/util/ArrayList;
+
+    .line 83
+    .line 84
+    .line 85
+    move-result-object v0
+
+    .line 86
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object v0
+
+    .line 90
+    :cond_3
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 91
+    .line 92
+    .line 93
+    move-result v7
+
+    .line 94
+    if-eqz v7, :cond_4
+
+    .line 95
+    .line 96
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 97
+    .line 98
+    .line 99
+    move-result-object v7
+
+    .line 100
+    check-cast v7, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+
+    .line 101
+    .line 102
+    iget v13, v7, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->profileType:I
+
+    .line 103
+    .line 104
+    if-ne v2, v13, :cond_3
+
+    .line 105
+    .line 106
+    invoke-static {v7}, Lcom/huawei/appmarket/ut;->d(Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;)Z
+
+    .line 107
+    .line 108
+    .line 109
+    move-result v13
+
+    .line 110
+    if-eqz v13, :cond_3
+
+    .line 111
+    .line 112
+    goto :goto_2
+
+    .line 113
+    :cond_4
+    :try_start_0
+    invoke-static {v11, v12}, Ljava/lang/Thread;->sleep(J)V
+    :try_end_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 114
+    .line 115
+    .line 116
+    goto :goto_1
+
+    .line 117
+    :catch_0
+    move-exception v0
+
+    .line 118
+    move-object v7, v0
+
+    .line 119
+    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+
+    .line 120
+    .line 121
+    new-instance v11, Ljava/lang/StringBuilder;
+
+    .line 122
+    .line 123
+    const-string v12, "wait profile InterruptedException:"
+
+    .line 124
+    .line 125
+    invoke-direct {v11, v12}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 126
+    .line 127
+    .line 128
+    invoke-virtual {v7}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    .line 129
+    .line 130
+    .line 131
+    move-result-object v7
+
+    .line 132
+    invoke-virtual {v11, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 133
+    .line 134
+    .line 135
+    invoke-virtual {v11}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 136
+    .line 137
+    .line 138
+    move-result-object v7
+
+    .line 139
+    invoke-virtual {v0, v8, v7}, Lcom/huawei/appmarket/gy4;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 140
+    .line 141
+    .line 142
+    goto :goto_1
+
+    .line 143
+    :cond_5
+    sget-object v0, Lcom/huawei/appmarket/fu5;->a:Lcom/huawei/appmarket/fu5;
+
+    .line 144
+    .line 145
+    const-string v7, "wait dm time out"
+
+    .line 146
+    .line 147
+    invoke-virtual {v0, v8, v7}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 148
+    .line 149
+    .line 150
+    goto :goto_0
+
+    .line 151
+    :cond_6
+    move-object v7, v1
+
+    .line 152
+    :goto_2
+    if-eqz v7, :cond_7
+
+    .line 153
+    .line 154
+    return-object v7
+
+    .line 155
+    :cond_7
+    invoke-static/range {p1 .. p3}, Lcom/huawei/appmarket/ut;->f(Landroid/content/Context;ILjava/lang/String;)Ljava/util/ArrayList;
+
+    .line 156
+    .line 157
+    .line 158
+    move-result-object v0
+
+    .line 159
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    .line 160
+    .line 161
+    .line 162
+    move-result-object v0
+
+    .line 163
+    :goto_3
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 164
+    .line 165
+    .line 166
+    move-result v3
+
+    .line 167
+    if-eqz v3, :cond_a
+
+    .line 168
+    .line 169
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 170
+    .line 171
+    .line 172
+    move-result-object v3
+
+    .line 173
+    check-cast v3, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;
+
+    .line 174
+    .line 175
+    invoke-static {v3}, Lcom/huawei/appmarket/ut;->d(Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;)Z
+
+    .line 176
+    .line 177
+    .line 178
+    move-result v4
+
+    .line 179
+    if-eqz v4, :cond_8
+
+    .line 180
+    .line 181
+    return-object v3
+
+    .line 182
+    :cond_8
+    iget v4, v3, Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;->status:I
+
+    .line 183
+    .line 184
+    if-ne v4, v5, :cond_9
+
+    .line 185
+    .line 186
+    move-object v4, p1
+
+    .line 187
+    invoke-static {p1, v3, v2}, Lcom/huawei/appmarket/f86;->d(Landroid/content/Context;Lcom/huawei/appgallery/packagemanager/api/bean/ProfileTask;I)V
+
+    .line 188
+    .line 189
+    .line 190
+    goto :goto_3
+
+    .line 191
+    :cond_9
+    move-object v4, p1
+
+    .line 192
+    goto :goto_3
+
+    .line 193
+    :cond_a
+    return-object v1
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+.end method

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="300.0dip"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:id="@id/tip_dialog_rl"
+            android:background="@drawable/captcha_rectangle"
+            android:layout_width="200.0dip"
+            android:layout_height="200.0dip">
+            <ImageView
+                android:id="@id/iv_loading"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="40.0dip"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/captcha_tip_loading" />
+            <TextView
+                android:textSize="15.0dip"
+                android:gravity="center"
+                android:id="@id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginRight="12.0dip"
+                android:text="@string/captcha_tip_loading"
+                android:layout_below="@id/iv_loading"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/img_btn_close"
+                android:visibility="gone"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:src="@drawable/captcha_ic_close"
+                android:scaleType="fitCenter"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/captcha_tip_close"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

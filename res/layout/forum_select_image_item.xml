@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.forum.option.moment.view.SquareRelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/forum_image_select_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.cards.widget.ForumLineImageView
+        android:id="@id/iv_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/forum_base_str_image"
+        android:importantForAccessibility="yes"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+        app:has_touch_drawable="false" />
+    <ImageView
+        android:id="@id/iv_add"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/forum_option_insert_img" />
+    <ImageView
+        android:id="@id/iv_delete"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/forum_select_image_delete"
+        android:contentDescription="@string/forum_post_popmenu_delete"
+        android:layout_alignParentEnd="true" />
+</com.huawei.appgallery.forum.option.moment.view.SquareRelativeLayout>

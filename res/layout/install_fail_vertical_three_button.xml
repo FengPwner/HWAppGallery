@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/install_fail_button_vertical"
+    android:paddingTop="@dimen/appgallery_default_padding_top"
+    android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:id="@id/vertical_ok_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:minHeight="@dimen/ui_40_dp"
+        android:text="@string/install_fail_btn_feedback1"
+        android:maxLines="1"
+        android:singleLine="true"
+        style="@style/WiseDistDefaultButton" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:id="@id/vertical_cancel_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/ui_40_dp"
+        android:text="@string/detail_comment_cancel"
+        android:maxLines="1"
+        android:singleLine="true"
+        style="@style/WiseDistDefaultButton" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:id="@id/clean_up_reinstall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_default_padding_bottom_fixed"
+        android:minHeight="@dimen/ui_40_dp"
+        android:text="@string/install_fail_btn_clean_and_reinstall"
+        android:maxLines="1"
+        android:singleLine="true"
+        style="@style/WiseDistDefaultButton" />
+</com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>

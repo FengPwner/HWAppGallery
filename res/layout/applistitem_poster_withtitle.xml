@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/AppListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="28.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+        android:id="@id/appicon"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+    <ImageView
+        android:background="@color/appgallery_color_sub_background"
+        android:layout_width="fill_parent"
+        android:layout_height="8.0dip" />
+</LinearLayout>

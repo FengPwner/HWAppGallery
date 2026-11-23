@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background">
+        <shape>
+            <corners
+                android:bottomLeftRadius="@dimen/appgallery_default_corner_radius_l"
+                android:bottomRightRadius="@dimen/appgallery_default_corner_radius_l" />
+            <solid
+                android:color="@color/explore_card_big_image_card_bg" />
+        </shape>
+    </item>
+</layer-list>

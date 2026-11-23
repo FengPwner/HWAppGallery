@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_l"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/blank_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_elements_margin_vertical_m" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/image_container_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

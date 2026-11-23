@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/bottom_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="96.0dip"
+        android:layout_height="96.0dip"
+        android:adjustViewBounds="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m"
+        app:stroke_color="@color/appgallery_color_card_stroke_normal">
+        <ImageView
+            android:id="@id/cover_image"
+            android:layout_width="96.0dip"
+            android:layout_height="96.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="96.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_caption"
+            android:textColor="@color/explore_card_title_tag_text"
+            android:ellipsize="end"
+            android:id="@id/tag_title_big_font"
+            android:background="@drawable/explore_card_small_image_tag_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:layout_alignParentTop="true"
+            android:textAlignment="viewStart"
+            android:paddingStart="4.0dip"
+            android:paddingEnd="4.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/explore_card_small_image_title_big_font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:maxLines="2"
+            android:layout_below="@id/tag_title_big_font"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.SubTitle2.Regular" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/sub_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:maxLines="1"
+            android:layout_below="@id/explore_card_small_image_title_big_font"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <LinearLayout
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24.0dip"
+            android:layout_below="@id/sub_title"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:id="@id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody4.Tertiary" />
+                <View
+                    android:id="@id/divider"
+                    style="@style/explore_countdown_divider_style" />
+                <com.huawei.appgallery.explorecard.explorecard.widget.ExploreCardCountDownView
+                    android:id="@id/countdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody4.Tertiary" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

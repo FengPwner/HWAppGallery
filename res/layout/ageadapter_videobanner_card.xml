@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/big_content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/bottom_layout"
+        android:paddingTop="12.0dip"
+        android:paddingBottom="@dimen/emui_dimens_card_end"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80.0dip"
+        android:paddingStart="@dimen/emui_dimens_card_start"
+        android:paddingEnd="@dimen/emui_dimens_card_end">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/smallicon"
+            android:clickable="false"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no"
+            app:corner_type="appicon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:round_type="all" />
+        <ViewStub
+            android:id="@id/fastappicon"
+            android:layout="@layout/wisedist_fastappicon_layout"
+            android:layout_width="@dimen/hiappbase_card_fasticon_size_large"
+            android:layout_height="@dimen/hiappbase_card_fasticon_size_large"
+            app:layout_constraintBottom_toBottomOf="@id/smallicon"
+            app:layout_constraintEnd_toEndOf="@id/smallicon" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/appname"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/smallicon"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <include
+            android:orientation="horizontal"
+            android:id="@id/include_app_intro"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appname"
+            layout="@layout/ageadapter_app_second_third_layout" />
+        <com.huawei.appgallery.pageframe.view.DownloadButtonV2
+            android:id="@id/downbtn"
+            android:tag="css/.download-button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:minWidth="@dimen/infoflow_download_btn_width"
+            android:minHeight="28.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/include_app_intro"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

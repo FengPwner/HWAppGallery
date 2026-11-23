@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/comment_layout"
+        android:paddingLeft="@dimen/appgallery_max_padding_start"
+        android:paddingTop="@dimen/appgallery_max_padding_start"
+        android:paddingRight="@dimen/appgallery_max_padding_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/detail_comment_user_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/detail_comment_user_icon_imageview">
+                <TextView
+                    android:ellipsize="end"
+                    android:gravity="start|center"
+                    android:id="@id/detail_comment_user_textview"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+                <RelativeLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                    android:layout_below="@id/detail_comment_user_textview">
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:id="@id/detail_comment_time_textview"
+                        android:tag="css/.subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/appgallery_card_elements_margin_m"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/detail_comment_stars_ratingbar"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+                    <com.huawei.appgallery.foundation.ui.framework.widget.RenderRatingBar
+                        android:id="@id/detail_comment_stars_ratingbar"
+                        android:tag="css/.title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="12.0dip"
+                        android:maxHeight="12.0dip"
+                        android:indeterminateOnly="false"
+                        android:indeterminateDrawable="@drawable/appcomment_ratingbar_list"
+                        android:progressDrawable="@drawable/appcomment_ratingbar_list"
+                        android:minHeight="12.0dip"
+                        android:thumb="@null"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:isIndicator="true"
+                        android:layout_centerVertical="true"
+                        android:importantForAccessibility="no" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.huawei.appgallery.appcomment.ui.view.HeadImageView
+                android:id="@id/detail_comment_user_icon_imageview"
+                android:layout_width="@dimen/appgallery_card_icon_size_xs"
+                android:layout_height="@dimen/appgallery_card_icon_size_xs"
+                android:layout_marginTop="3.0dip"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/appcomment_comment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_horizontal_small_icon_card_space_portrait_on_ring"
+            android:layout_marginBottom="@dimen/appgallery_max_padding_start">
+            <FrameLayout
+                android:id="@id/detail_comment_content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.appgallery.appcomment.ui.view.FoldTextView
+                    android:id="@id/detail_comment_content_textview"
+                    android:tag="css/.title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.1"
+                    android:textAlignment="viewStart"
+                    style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Primary" />
+            </FrameLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@id/comment_list_divider_imageview"
+            android:tag="css/.split-line"
+            android:layout_width="fill_parent"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+            style="@style/AppGallery.Widget.Divider" />
+    </LinearLayout>
+</LinearLayout>

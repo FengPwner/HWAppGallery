@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwbutton.widget.HwButton
+        android:gravity="center"
+        android:id="@id/install_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_default_padding_bottom_fixed"
+        android:text="@string/card_install_btn"
+        android:textAllCaps="true"
+        android:layout_marginStart="@dimen/appgallery_default_padding_bottom_fixed"
+        android:layout_marginEnd="@dimen/appgallery_default_padding_bottom_fixed"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/Widget.Emui.HwButton.Emphasize" />
+    <com.huawei.uikit.hwbutton.widget.HwButton
+        android:gravity="center"
+        android:id="@id/enter_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_default_padding_bottom_fixed"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:text="@string/essentialapp_not_install"
+        android:textAllCaps="true"
+        android:layout_marginStart="@dimen/appgallery_default_padding_bottom_fixed"
+        android:layout_marginEnd="@dimen/appgallery_default_padding_bottom_fixed"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/Widget.Emui.HwButton" />
+</LinearLayout>

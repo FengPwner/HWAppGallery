@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/tab_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/status_bar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@id/tabContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height">
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@id/close_icon"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:visibility="visible"
+            android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/click_back"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:id="@id/close_imageview"
+                android:tag="css/.widget"
+                android:background="@drawable/aguikit_ic_public_back"
+                android:visibility="visible"
+                android:layout_width="@dimen/search_icon_landscape_width"
+                android:layout_height="@dimen/search_icon_landscape_width"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_toEndOf="@id/close_icon">
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:gravity="center_vertical"
+                android:id="@id/title_textview"
+                android:tag="css/.title"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.0"
+                android:layout_marginEnd="@dimen/margin_s"
+                style="@style/AppGallery.Widget.Toolbar.Title" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

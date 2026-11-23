@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textSize="@dimen/res_textsize_13sp"
+    android:textColor="@color/appgallery_text_color_secondary"
+    android:id="@id/oversea_agreement_minor"
+    android:paddingTop="@dimen/appgallery_text_paragraph_margin_s"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

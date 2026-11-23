@@ -1,0 +1,41 @@
+.class final Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a$a;
+.super Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a<",
+        "Ljava/util/Date;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/Class;)V
+    .registers 2
+
+    invoke-direct {p0, p1}, Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$a;-><init>(Ljava/lang/Class;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final c(Ljava/util/Date;)Ljava/util/Date;
+    .registers 2
+
+    .line 1
+    return-object p1
+.end method

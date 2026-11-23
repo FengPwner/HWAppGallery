@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/root_view"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/main_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/title_layout"
+            android:paddingTop="@dimen/appgallery_card_elements_margin_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:tag="css/.split-line"
+                android:layout_width="36.0dip"
+                style="@style/AppGallery.Widget.Divider" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/group_title"
+                android:tag="css/.title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/appgallery_card_elements_margin_xs"
+                android:layout_marginEnd="@dimen/appgallery_card_elements_margin_xs"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <View
+                android:tag="css/.split-line"
+                android:layout_width="36.0dip"
+                style="@style/AppGallery.Widget.Divider" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <include
+                    android:id="@id/applistcard_first_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+                <View
+                    android:id="@id/applistcard_first_item_line"
+                    android:tag="css/.split-line"
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="80.0dip"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+                    style="@style/AppGallery.Widget.Divider" />
+                <include
+                    android:id="@id/applistcard_second_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+                <View
+                    android:id="@id/applistcard_second_item_line"
+                    android:tag="css/.split-line"
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="80.0dip"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+                    style="@style/AppGallery.Widget.Divider" />
+                <include
+                    android:id="@id/applistcard_third_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/pad_single_card_layout"
+                android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/banner_bg_margin_24"
+                android:layout_weight="1.0">
+                <include
+                    android:id="@id/applistcard_four_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+                <View
+                    android:id="@id/applistcard_four_item_line"
+                    android:tag="css/.split-line"
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="80.0dip"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+                    style="@style/AppGallery.Widget.Divider" />
+                <include
+                    android:id="@id/applistcard_five_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+                <View
+                    android:id="@id/applistcard_five_item_line"
+                    android:tag="css/.split-line"
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="80.0dip"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+                    style="@style/AppGallery.Widget.Divider" />
+                <include
+                    android:id="@id/applistcard_six_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/pad_land_single_card_layout"
+                android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/banner_bg_margin_24"
+                android:layout_weight="1.0">
+                <include
+                    android:id="@id/applistcard_seven_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+                <View
+                    android:id="@id/applistcard_seven_item_line"
+                    android:tag="css/.split-line"
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="80.0dip"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+                    style="@style/AppGallery.Widget.Divider" />
+                <include
+                    android:id="@id/applistcard_eight_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+                <View
+                    android:id="@id/applistcard_eight_item_line"
+                    android:tag="css/.split-line"
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="80.0dip"
+                    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+                    style="@style/AppGallery.Widget.Divider" />
+                <include
+                    android:id="@id/applistcard_night_item"
+                    layout="@layout/wisedist_three_line_app_single_item_card" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/group_view_more"
+            android:background="@drawable/list_item_all_selector"
+            android:visibility="gone"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12.0dip"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_s"
+            android:minHeight="48.0dip"
+            android:contentDescription="@string/wisedist_view_more">
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_button2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:tag="css/.subtitle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/wisedist_view_more"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart" />
+            <ImageView
+                android:id="@id/hiappbase_subheader_more_arrow"
+                android:tag="css/.arrow"
+                android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+                android:layout_height="@dimen/appgallery_list_item_right_arrow_height"
+                android:src="@drawable/ic_public_arrow_right_900"
+                android:layout_marginStart="@dimen/appgallery_card_elements_margin_s" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_container"
+        android:layout_centerHorizontal="true">
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center"
+            android:id="@id/refresh_button_loading"
+            android:visibility="gone"
+            android:layout_width="@dimen/wisedist_youmaylikecard_icon_width"
+            android:layout_height="@dimen/wisedist_youmaylikecard_icon_width"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+            style="@style/Widget.Emui.HwProgressBar" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_button2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/refresh_button_title"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/wisedist_youmaylikecard_icon_width"
+            android:text="@string/youmaylike_refresh"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <ImageView
+            android:id="@id/refresh_button_icon"
+            android:tag="css/.widget"
+            android:layout_width="@dimen/wisedist_youmaylikecard_icon_width"
+            android:layout_height="@dimen/wisedist_youmaylikecard_icon_width"
+            android:src="@drawable/ic_change"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/refresh_hot_area"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/wisedist_youmaylikecard_hotarea_height"
+        android:layout_marginTop="@dimen/wisedist_youmaylikecard_hotarea_margintop"
+        android:layout_below="@id/refresh_button"
+        android:contentDescription="@string/youmaylike_refresh"
+        android:layout_alignStart="@id/refresh_button"
+        android:layout_alignEnd="@id/refresh_button" />
+</RelativeLayout>

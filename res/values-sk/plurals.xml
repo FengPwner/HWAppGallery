@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Nájdené podozrivé aplikácie: %2$d (vrátane aplikácie %1$s)</item>
+        <item quantity="one">Nájdené podozrivé aplikácie: %2$d (%1$s)</item>
+        <item quantity="few">Nájdené podozrivé aplikácie: %2$d (vrátane aplikácie %1$s)</item>
+        <item quantity="many">Nájdené podozrivé aplikácie: %2$d (vrátane aplikácie %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Nájdených %2$d nepoužívaných aplikácií (vrátane aplikácie %1$s)</item>
+        <item quantity="one">Nájdená %2$d nepoužívaná aplikácia (%1$s)</item>
+        <item quantity="few">Nájdené %2$d nepoužívané aplikácie (vrátane aplikácie %1$s)</item>
+        <item quantity="many">Nájdených %2$d nepoužívaných aplikácií (vrátane aplikácie %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d nepoužívaných aplikácií</item>
+        <item quantity="one">%d nepoužívaná aplikácia</item>
+        <item quantity="few">%d nepoužívané aplikácie</item>
+        <item quantity="many">%d nepoužívaných aplikácií</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d aplikácií so škodlivým správaním bolo spracovaných</item>
+        <item quantity="one">%d aplikácia so škodlivým správaním bola spracovaná</item>
+        <item quantity="few">%d aplikácie so škodlivým správaním boli spracované</item>
+        <item quantity="many">%d aplikácií so škodlivým správaním bolo spracovaných</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Našlo sa %d aplikácií so škodlivým správaním</item>
+        <item quantity="one">Našla sa %d aplikácia so škodlivým správaním</item>
+        <item quantity="few">Našli sa %d aplikácie so škodlivým správaním</item>
+        <item quantity="many">Našlo sa %d aplikácií so škodlivým správaním</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d podvodných aplikácií bolo spracovaných</item>
+        <item quantity="one">%d podvodná aplikácia bola spracovaná</item>
+        <item quantity="few">%d podvodné aplikácie boli spracované</item>
+        <item quantity="many">%d podvodných aplikácií bolo spracovaných</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Našlo sa %d podvodných aplikácií</item>
+        <item quantity="one">Našla sa %d podvodná aplikácia</item>
+        <item quantity="few">Našli sa %d podvodné aplikácie</item>
+        <item quantity="many">Našlo sa %d podvodných aplikácií</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d aplikácií s rizikami ohrozujúcimi súkromie bolo spracovaných</item>
+        <item quantity="one">%d aplikácia s rizikami ohrozujúcimi súkromie bola spracovaná</item>
+        <item quantity="few">%d aplikácie s rizikami ohrozujúcimi súkromie boli spracované</item>
+        <item quantity="many">%d aplikácií s rizikami ohrozujúcimi súkromie bolo spracovaných</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Našlo sa %d aplikácií s rizikami ohrozujúcimi súkromie</item>
+        <item quantity="one">Našla sa %d aplikácia s rizikami ohrozujúcimi súkromie</item>
+        <item quantity="few">Našli sa %d aplikácie s rizikami ohrozujúcimi súkromie</item>
+        <item quantity="many">Našlo sa %d aplikácií s rizikami ohrozujúcimi súkromie</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d aplikácií s bezpečnostnými hrozbami bolo spracovaných</item>
+        <item quantity="one">%d aplikácia s bezpečnostnými hrozbami bola spracovaná</item>
+        <item quantity="few">%d aplikácie s bezpečnostnými hrozbami boli spracované</item>
+        <item quantity="many">%d aplikácií s bezpečnostnými hrozbami bolo spracovaných</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Našlo sa %d aplikácií s bezpečnostnými hrozbami</item>
+        <item quantity="one">Našla sa %d aplikácia s bezpečnostnými hrozbami</item>
+        <item quantity="few">Našli sa %d aplikácie s bezpečnostnými hrozbami</item>
+        <item quantity="many">Našlo sa %d aplikácií s bezpečnostnými hrozbami</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d aplikácií obsahujúcich vírus bolo spracovaných</item>
+        <item quantity="one">%d aplikácia obsahujúca vírus bola spracovaná</item>
+        <item quantity="few">%d aplikácie obsahujúce vírus boli spracované</item>
+        <item quantity="many">%d aplikácií obsahujúcich vírus bolo spracovaných</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Našlo sa %d aplikácií obsahujúcich vírus</item>
+        <item quantity="one">Našla sa %d aplikácia obsahujúca vírus</item>
+        <item quantity="few">Našli sa %d aplikácie obsahujúce vírus</item>
+        <item quantity="many">Našlo sa %d aplikácií obsahujúcich vírus</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d položiek bolo optimalizovaných</item>
+        <item quantity="one">%d položka bola optimalizovaná</item>
+        <item quantity="few">%d položky boli optimalizované</item>
+        <item quantity="many">%d položiek bolo optimalizovaných</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Nájdené problémy: %d</item>
+        <item quantity="one">Nájdené problémy: %d</item>
+        <item quantity="few">Nájdené problémy: %d</item>
+        <item quantity="many">Nájdené problémy: %d</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Skenované aplikácie: %d</item>
+        <item quantity="one">Skenované aplikácie: %d</item>
+        <item quantity="few">Skenované aplikácie: %d</item>
+        <item quantity="many">Skenované aplikácie: %d</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Pred %d dňami</item>
+        <item quantity="one">Pred %d dňom</item>
+        <item quantity="few">Pred %d dňami</item>
+        <item quantity="many">Pred %d dňami</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d hrozieb</item>
+        <item quantity="one">%d hrozba</item>
+        <item quantity="few">%d hrozby</item>
+        <item quantity="many">%d hrozieb</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Skenované aplikácie: %d</item>
+        <item quantity="one">Skenované aplikácie: %d</item>
+        <item quantity="few">Skenované aplikácie: %d</item>
+        <item quantity="many">Skenované aplikácie: %d</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d aplikačných hrozieb</item>
+        <item quantity="one">%d aplikačná hrozba</item>
+        <item quantity="few">%d aplikačné hrozby</item>
+        <item quantity="many">%d aplikačných hrozieb</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">V posledných %1$d dňoch sa našlo %2$d podozrivých aplikácií. Zobraziť podrobnosti >></item>
+        <item quantity="one">V posledných %1$d dňoch sa našla %2$d podozrivá aplikácia. Zobraziť podrobnosti >></item>
+        <item quantity="few">V posledných %1$d dňoch sa našli %2$d podozrivé aplikácie. Zobraziť podrobnosti >></item>
+        <item quantity="many">V posledných %1$d dňoch sa našlo %2$d podozrivých aplikácií. Zobraziť podrobnosti >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d aplikácií skontrolovaných za posledných %1$d dní. Zobraziť podrobnosti >></item>
+        <item quantity="one">%2$d aplikácia skontrolovaná za posledných %1$d dní. Zobraziť podrobnosti >></item>
+        <item quantity="few">%2$d aplikácie skontrolované za posledných %1$d dní. Zobraziť podrobnosti >></item>
+        <item quantity="many">%2$d aplikácií skontrolovaných za posledných %1$d dní. Zobraziť podrobnosti >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d aplikácií možno skomprimovať</item>
+        <item quantity="one">%d aplikáciu možno skomprimovať</item>
+        <item quantity="few">%d aplikácie možno skomprimovať</item>
+        <item quantity="many">%d aplikácií možno skomprimovať</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Našlo sa %d neznámych aplikácií.</item>
+        <item quantity="one">Našla sa %d neznáma aplikácia.</item>
+        <item quantity="few">Našli sa %d neznáme aplikácie.</item>
+        <item quantity="many">Našlo sa %d neznámych aplikácií.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Komprimovateľné aplikácie (%d)</item>
+        <item quantity="one">Komprimovateľné aplikácie (%d)</item>
+        <item quantity="few">Komprimovateľné aplikácie (%d)</item>
+        <item quantity="many">Komprimovateľné aplikácie (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Našlo sa %d neznámych aplikácií. Skontrolujte ich.</item>
+        <item quantity="one">Našla sa %d neznáma aplikácia. Skontrolujte ju.</item>
+        <item quantity="few">Našli sa %d neznáme aplikácie. Skontrolujte ich.</item>
+        <item quantity="many">Našlo sa %d neznámych aplikácií. Skontrolujte ich.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Našlo sa %d neznámych aplikácií</item>
+        <item quantity="one">Našla sa %d neznáma aplikácia</item>
+        <item quantity="few">Našli sa %d neznáme aplikácie</item>
+        <item quantity="many">Našlo sa %d neznámych aplikácií</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">pred %d min.</item>
+        <item quantity="one">pred %d min.</item>
+        <item quantity="few">pred %d min.</item>
+        <item quantity="many">pred %d min.</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Hodnotenie: %s</item>
+        <item quantity="one">Hodnotenie: %s</item>
+        <item quantity="few">Hodnotenie: %s</item>
+        <item quantity="many">Hodnotenie: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a stiahnutím tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+        <item quantity="one">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a stiahnutím tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+        <item quantity="few">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a stiahnutím tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+        <item quantity="many">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a stiahnutím tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Pozastavené sťahovania: %1$d</item>
+        <item quantity="one">Pozastavené sťahovania: %1$d</item>
+        <item quantity="few">Pozastavené sťahovania: %1$d</item>
+        <item quantity="many">Pozastavené sťahovania: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a pokračovaním v používaní tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+        <item quantity="one">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a pokračovaním v používaní tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+        <item quantity="few">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a pokračovaním v používaní tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+        <item quantity="many">Aplikácia %1$s obsahuje vekovo neprístupný obsah. Ťuknutím na %3$s a pokračovaním v používaní tejto aplikácie vyjadrujete, že ste starší ako %2$d rokov.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d označení nepáči sa mi to</item>
+        <item quantity="one">%d označenie nepáči sa mi to</item>
+        <item quantity="few">%d označenia nepáči sa mi to</item>
+        <item quantity="many">%d označení nepáči sa mi to</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d označení nepáči sa mi to, označili ste, že sa vám nepáči</item>
+        <item quantity="one">%d označenie nepáči sa mi to, označili ste, že sa vám nepáči</item>
+        <item quantity="few">%d označenia nepáči sa mi to, označili ste, že sa vám nepáči</item>
+        <item quantity="many">%d označení nepáči sa mi to, označili ste, že sa vám nepáči</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d lajkov</item>
+        <item quantity="one">%d lajk</item>
+        <item quantity="few">%d lajky</item>
+        <item quantity="many">%d lajkov</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d lajkov, lajkovali ste to</item>
+        <item quantity="one">%d lajk, lajkovali ste to</item>
+        <item quantity="few">%d lajky, lajkovali ste to</item>
+        <item quantity="many">%d lajkov, lajkovali ste to</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d hviezdičiek</item>
+        <item quantity="one">%d hviezdička</item>
+        <item quantity="few">%d hviezdičky</item>
+        <item quantity="many">%d hviezdičiek</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d komentáre/-ov</item>
+        <item quantity="one">%1$d komentár</item>
+        <item quantity="few">%1$d komentáre/-ov</item>
+        <item quantity="many">%1$d komentáre/-ov</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">pred %d min.</item>
+        <item quantity="one">pred %d min.</item>
+        <item quantity="few">pred %d min.</item>
+        <item quantity="many">pred %d min.</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">Hodnotenia: %d</item>
+        <item quantity="one">%d hodnotenie</item>
+        <item quantity="few">Hodnotenia: %d</item>
+        <item quantity="many">Hodnotenia: %d</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d lajkov</item>
+        <item quantity="one">%1$d lajk</item>
+        <item quantity="few">%1$d lajky</item>
+        <item quantity="many">%1$d lajkov</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d odpovede</item>
+        <item quantity="one">%1$d odpoveď</item>
+        <item quantity="few">%1$d odpovede</item>
+        <item quantity="many">%1$d odpovedí</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Všetky odpovede (%1$d)</item>
+        <item quantity="one">Všetky odpovede (%1$d)</item>
+        <item quantity="few">Všetky odpovede (%1$d)</item>
+        <item quantity="many">Všetky odpovede (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Aby ste mohli komentovať musíte hrať aspoň %1$d min.</item>
+        <item quantity="one">Aby ste mohli komentovať, musíte hrať aspoň %1$d min.</item>
+        <item quantity="few">Aby ste mohli komentovať, musíte hrať aspoň %1$d min.</item>
+        <item quantity="many">Aby ste mohli komentovať musíte hrať aspoň %1$d min.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Inštalujú sa aplikácie (%1$s)</item>
+        <item quantity="one">Inštalujú sa aplikácie (%1$s)</item>
+        <item quantity="few">Inštalujú sa aplikácie (%1$s)</item>
+        <item quantity="many">Inštalujú sa aplikácie (%1$s)</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Vybraté položky: %1$d</item>
+        <item quantity="one">Vybraté položky: %1$d</item>
+        <item quantity="few">Vybraté položky: %1$d</item>
+        <item quantity="many">Vybraté položky: %1$d</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Odinštalovať vybraté aplikácie, vrátane %1$s?</item>
+        <item quantity="one">Odinštalovať %1$s?</item>
+        <item quantity="few">Odinštalovať vybraté aplikácie, vrátane %1$s?</item>
+        <item quantity="many">Odinštalovať vybraté aplikácie, vrátane %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Odinštalovať %1$s a iné aplikácie (%2$s) z %3$s?</item>
+        <item quantity="one">Odinštalovať %1$s a %2$s inú aplikáciu z %3$s?</item>
+        <item quantity="few">Odinštalovať %1$s a iné aplikácie (%2$s) z %3$s?</item>
+        <item quantity="many">Odinštalovať %1$s a iné aplikácie (%2$s) z %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Odinštalovať %2$s aplikácií vrátane aplikácie %1$s?</item>
+        <item quantity="one">Odinštalovať %2$s aplikáciu vrátane aplikácie %1$s?</item>
+        <item quantity="few">Odinštalovať %2$s aplikácie vrátane aplikácie %1$s?</item>
+        <item quantity="many">Odinštalovať %2$s aplikácií vrátane aplikácie %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Odstrániť záznamy (%1$s)?</item>
+        <item quantity="one">Odstrániť záznamy (%1$s)?</item>
+        <item quantity="few">Odstrániť záznamy (%1$s)?</item>
+        <item quantity="many">Odstrániť záznamy (%1$s)?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Nasledujúcich %1$d aplikácií si vyžaduje prístup k určitým povoleniam:</item>
+        <item quantity="one">Nasledujúca %1$d aplikácia si vyžaduje prístup k určitým povoleniam:</item>
+        <item quantity="few">Nasledujúce %1$d aplikácie si vyžadujú prístup k určitým povoleniam:</item>
+        <item quantity="many">Nasledujúcich %1$d aplikácií si vyžaduje prístup k určitým povoleniam:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d hodnotení</item>
+        <item quantity="one">%1$d hodnotenie</item>
+        <item quantity="few">%1$d hodnotení</item>
+        <item quantity="many">%1$d hodnotení</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s mil. hodnotení</item>
+        <item quantity="one">%1$s mil. hodnotení</item>
+        <item quantity="few">%1$s mil. hodnotení</item>
+        <item quantity="many">%1$s mil. hodnotení</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s tis. hodnotení</item>
+        <item quantity="one">%1$s tis. hodnotení</item>
+        <item quantity="few">%1$s tis. hodnotení</item>
+        <item quantity="many">%1$s tis. hodnotení</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s aktivít</item>
+        <item quantity="one">%1$s aktivita</item>
+        <item quantity="few">%1$s aktivity</item>
+        <item quantity="many">%1$s aktivít</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Zostáva menej ako %1$s minút hrania. Uložte svoju hru čo najskôr.</item>
+        <item quantity="one">Zostáva menej ako %1$s minúta hrania. Uložte svoju hru čo najskôr.</item>
+        <item quantity="few">Zostávajú menej ako %1$s minúty hrania. Uložte svoju hru čo najskôr.</item>
+        <item quantity="many">Zostáva menej ako %1$s minút hrania. Uložte svoju hru čo najskôr.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Zostáva iba %d min.</item>
+        <item quantity="one">Zostáva iba %d min.</item>
+        <item quantity="few">Zostávajú iba %d min.</item>
+        <item quantity="many">Zostáva iba %d min.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="few">%1$s B</item>
+        <item quantity="many">%1$s B</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+        <item quantity="few">%1$s M</item>
+        <item quantity="many">%1$s M</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+        <item quantity="few">%1$s K</item>
+        <item quantity="many">%1$s K</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d komentárov</item>
+        <item quantity="one">%1$d komentár</item>
+        <item quantity="few">%1$d komentáre</item>
+        <item quantity="many">%1$d komentárov</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Pred %d minútami</item>
+        <item quantity="one">Pred %d minútou</item>
+        <item quantity="few">Pred %d minútami</item>
+        <item quantity="many">Pred %d minútami</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Maximálne %1$d znakov</item>
+        <item quantity="one">Maximálne %1$d znak</item>
+        <item quantity="few">Maximálne %1$d znaky</item>
+        <item quantity="many">Maximálne %1$d znakov</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Zadajte aspoň %1$d znakov</item>
+        <item quantity="one">Zadajte aspoň %1$d znak</item>
+        <item quantity="few">Zadajte aspoň %1$d znaky</item>
+        <item quantity="many">Zadajte aspoň %1$d znakov</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Maximálne %1$d obrázkov
+Maximálna veľkosť obrázka %2$s"</item>
+        <item quantity="one">"Maximálne %1$d obrázok
+Maximálna veľkosť obrázka %2$s"</item>
+        <item quantity="few">"Maximálne %1$d obrázky
+Maximálna veľkosť obrázka %2$s"</item>
+        <item quantity="many">"Maximálne %1$d obrázkov
+Maximálna veľkosť obrázka %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Maximálne %d obrázkov pre tento typ problému</item>
+        <item quantity="one">Maximálne %d obrázok pre tento typ problému</item>
+        <item quantity="few">Maximálne %d obrázky pre tento typ problému</item>
+        <item quantity="many">Maximálne %d obrázkov pre tento typ problému</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s hviezdičiek</item>
+        <item quantity="one">%1$s hviezdička</item>
+        <item quantity="few">%1$s hviezdičky</item>
+        <item quantity="many">%1$s hviezdičiek</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Heslo bolo zadané nesprávne %1$d-krát. Skúste to znova o %2$d min.</item>
+        <item quantity="one">Heslo bolo zadané nesprávne %1$d-krát. Skúste to znova o %2$d min.</item>
+        <item quantity="few">Heslo bolo zadané nesprávne %1$d-krát. Skúste to znova o %2$d min.</item>
+        <item quantity="many">Heslo bolo zadané nesprávne %1$d-krát. Skúste to znova o %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">Počet zúčastnených: %1$s mld.</item>
+        <item quantity="one">Počet zúčastnených: %1$s mld.</item>
+        <item quantity="few">Počet zúčastnených: %1$s mld.</item>
+        <item quantity="many">Počet zúčastnených: %1$s mld.</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">Počet zúčastnených: %1$s mil.</item>
+        <item quantity="one">Počet zúčastnených: %1$s mil.</item>
+        <item quantity="few">Počet zúčastnených: %1$s mil.</item>
+        <item quantity="many">Počet zúčastnených: %1$s mil.</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">Počet zúčastnených: %1$s</item>
+        <item quantity="one">Počet zúčastnených: %1$s</item>
+        <item quantity="few">Počet zúčastnených: %1$s</item>
+        <item quantity="many">Počet zúčastnených: %1$s</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">Počet zúčastnených: %1$s tis.</item>
+        <item quantity="one">Počet zúčastnených: %1$s tis.</item>
+        <item quantity="few">Počet zúčastnených: %1$s tis.</item>
+        <item quantity="many">Počet zúčastnených: %1$s tis.</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s mld. ľudí zakúpila túto položku</item>
+        <item quantity="one">%1$s mld. ľudí zakúpila túto položku</item>
+        <item quantity="few">%1$s mld. ľudí zakúpila túto položku</item>
+        <item quantity="many">%1$s mld. ľudí zakúpila túto položku</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s mil. ľudí zakúpilo túto položku</item>
+        <item quantity="one">%1$s mil. ľudí zakúpilo túto položku</item>
+        <item quantity="few">%1$s mil. ľudí zakúpilo túto položku</item>
+        <item quantity="many">%1$s mil. ľudí zakúpilo túto položku</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s ľudí zakúpilo túto položku</item>
+        <item quantity="one">%1$s osoba zakúpila túto položku</item>
+        <item quantity="few">%1$s ľudí zakúpilo túto položku</item>
+        <item quantity="many">%1$s ľudí zakúpilo túto položku</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s tis. ľudí zakúpilo túto položku</item>
+        <item quantity="one">%1$s tis. ľudí zakúpilo túto položku</item>
+        <item quantity="few">%1$s tis. ľudí zakúpilo túto položku</item>
+        <item quantity="many">%1$s tis. ľudí zakúpilo túto položku</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s hodnotenia/-í</item>
+        <item quantity="one">%1$s hodnotenie</item>
+        <item quantity="few">%1$s hodnotenia/-í</item>
+        <item quantity="many">%1$s hodnotenia/-í</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Hodnotenie: %1$s hviezdičiek</item>
+        <item quantity="one">Hodnotenie: %1$s hviezdička</item>
+        <item quantity="few">Hodnotenie: %1$s hviezdičky</item>
+        <item quantity="many">Hodnotenie: %1$s hviezdičiek</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Udelené hodnotenie: %1$s hviezdičiek</item>
+        <item quantity="one">Udelené hodnotenie: %1$s hviezdička</item>
+        <item quantity="few">Udelené hodnotenie: %1$s hviezdičky</item>
+        <item quantity="many">Udelené hodnotenie: %1$s hviezdičiek</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Inštalovať napriek tomu (%1$d)</item>
+        <item quantity="one">Inštalovať napriek tomu (%1$d)</item>
+        <item quantity="few">Inštalovať napriek tomu (%1$d)</item>
+        <item quantity="many">Inštalovať napriek tomu (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Počet vybraných položiek: %1$d</item>
+        <item quantity="one">%1$d vybraná položka</item>
+        <item quantity="few">Počet vybraných položiek: %1$d</item>
+        <item quantity="many">Počet vybraných položiek: %1$d</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Popis musí mať aspoň %d znakov. Ak môžete, pridajte snímky obrazovky.</item>
+        <item quantity="one">Popis musí mať aspoň %d znak. Ak môžete, pridajte snímky obrazovky.</item>
+        <item quantity="few">Popis musí mať aspoň %d znaky. Ak môžete, pridajte snímky obrazovky.</item>
+        <item quantity="many">Popis musí mať aspoň %d znakov. Ak môžete, pridajte snímky obrazovky.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+        <item quantity="many">%1$d h</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d min.</item>
+        <item quantity="few">%1$d min.</item>
+        <item quantity="many">%1$d min.</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+        <item quantity="many">%1$d s</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Príspevky: %1$s</item>
+        <item quantity="one">Príspevky: %1$s</item>
+        <item quantity="few">Príspevky: %1$s</item>
+        <item quantity="many">Príspevky: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d lajkov</item>
+        <item quantity="one">%d lajk</item>
+        <item quantity="few">%d lajkov</item>
+        <item quantity="many">%d lajkov</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d odpovedí</item>
+        <item quantity="one">%d odpoveď</item>
+        <item quantity="few">%d odpovedí</item>
+        <item quantity="many">%d odpovedí</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="few">%1$s B</item>
+        <item quantity="many">%1$s B</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+        <item quantity="few">%1$s M</item>
+        <item quantity="many">%1$s M</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+        <item quantity="few">%1$s K</item>
+        <item quantity="many">%1$s K</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d-krát zobrazené</item>
+        <item quantity="one">%d-krát zobrazené</item>
+        <item quantity="few">%d-krát zobrazené</item>
+        <item quantity="many">%d-krát zobrazené</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Vložiť komentár (celkový počet: %1$d)</item>
+        <item quantity="one">Vložiť komentár (celkový počet: %1$d)</item>
+        <item quantity="few">Vložiť komentár (celkový počet: %1$d)</item>
+        <item quantity="many">Vložiť komentár (celkový počet: %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Pozrieť všetkých %1$d odpovedí</item>
+        <item quantity="one">Pozrieť %1$d odpoveď</item>
+        <item quantity="few">Pozrieť všetky %1$d odpovede</item>
+        <item quantity="many">Pozrieť všetkých %1$d odpovedí</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s účastníkov</item>
+        <item quantity="one">%1$s účastník</item>
+        <item quantity="few">%1$s účastníci</item>
+        <item quantity="many">%1$s účastníkov</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Vyberte maximálne %s odpovedí</item>
+        <item quantity="one">Vyberte maximálne %s odpoveď</item>
+        <item quantity="few">Vyberte maximálne %s odpovede</item>
+        <item quantity="many">Vyberte maximálne %s odpovedí</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Viacero možností (vyberte %1$d)</item>
+        <item quantity="one">Viacero možností (vyberte %1$d)</item>
+        <item quantity="few">Viacero možností (vyberte %1$d)</item>
+        <item quantity="many">Viacero možností (vyberte %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Vyberte %s odpovedí</item>
+        <item quantity="one">Vyberte %s odpoveď</item>
+        <item quantity="few">Vyberte %s odpovede</item>
+        <item quantity="many">Vyberte %s odpovedí</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s hlasov</item>
+        <item quantity="one">%1$s hlas</item>
+        <item quantity="few">%1$s hlasy</item>
+        <item quantity="many">%1$s hlasov</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Táto aplikácia vyžaduje %1$d povolení. Povolenia môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie > Aplikácie.</item>
+        <item quantity="one">Táto aplikácia vyžaduje %1$d povolenie. Povolenie môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie > Aplikácie.</item>
+        <item quantity="few">Táto aplikácia vyžaduje %1$d povolenia. Povolenia môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie > Aplikácie.</item>
+        <item quantity="many">Táto aplikácia vyžaduje %1$d povolení. Povolenia môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie > Aplikácie.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Táto aplikácia vyžaduje %1$d povolení. Povolenia môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie a služby > Aplikácie.</item>
+        <item quantity="one">Táto aplikácia vyžaduje %1$d povolenie. Povolenie môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie a služby > Aplikácie.</item>
+        <item quantity="few">Táto aplikácia vyžaduje %1$d povolenia. Povolenia môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie a služby > Aplikácie.</item>
+        <item quantity="many">Táto aplikácia vyžaduje %1$d povolení. Povolenia môžete kedykoľvek odvolať v položke Nastavenia > Aplikácie a služby > Aplikácie.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d darčekov</item>
+        <item quantity="one">%1$d darček</item>
+        <item quantity="few">%1$d darčeky</item>
+        <item quantity="many">%1$d darčekov</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d tis.</item>
+        <item quantity="one">%1$d tis.</item>
+        <item quantity="few">%1$d tis.</item>
+        <item quantity="many">%1$d tis.</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d hviezdičky/-iek</item>
+        <item quantity="one">%1$d hviezdička</item>
+        <item quantity="few">%1$d hviezdičky/-iek</item>
+        <item quantity="many">%1$d hviezdičky/-iek</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Hodnotenie: %s</item>
+        <item quantity="one">Hodnotenie: %s</item>
+        <item quantity="few">Hodnotenie: %s</item>
+        <item quantity="many">Hodnotenie: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s hodnotenia/-í</item>
+        <item quantity="one">%1$s hodnotenie</item>
+        <item quantity="few">%1$s hodnotenia/-í</item>
+        <item quantity="many">%1$s hodnotenia/-í</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s otvorení</item>
+        <item quantity="one">%1$s otvorenie</item>
+        <item quantity="few">%1$s otvorenia</item>
+        <item quantity="many">%1$s otvorení</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">nové odporúčania (%d)</item>
+        <item quantity="one">nové odporúčania (%d)</item>
+        <item quantity="few">nové odporúčania (%d)</item>
+        <item quantity="many">nové odporúčania (%d)</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="few">%1$s B</item>
+        <item quantity="many">%1$s B</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s M</item>
+        <item quantity="one">%1$s M</item>
+        <item quantity="few">%1$s M</item>
+        <item quantity="many">%1$s M</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s K</item>
+        <item quantity="one">%1$s K</item>
+        <item quantity="few">%1$s K</item>
+        <item quantity="many">%1$s K</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Počet aktualizovaných aplikácií: %1$d</item>
+        <item quantity="one">Počet aktualizovaných aplikácií: %1$d</item>
+        <item quantity="few">Počet aktualizovaných aplikácií: %1$d</item>
+        <item quantity="many">Počet aktualizovaných aplikácií: %1$d</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Počet práve aktualizovaných aplikácií: %1$d</item>
+        <item quantity="one">Počet práve aktualizovaných aplikácií: %1$d</item>
+        <item quantity="few">Počet práve aktualizovaných aplikácií: %1$d</item>
+        <item quantity="many">Počet práve aktualizovaných aplikácií: %1$d</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Obrázok nemôže byť väčší ako %1$d MB.</item>
+        <item quantity="one">Obrázok nemôže byť väčší ako %1$d MB.</item>
+        <item quantity="few">Obrázok nemôže byť väčší ako %1$d MB.</item>
+        <item quantity="many">Obrázok nemôže byť väčší ako %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">Počet fotografií: %d</item>
+        <item quantity="one">%d fotografia</item>
+        <item quantity="few">Počet fotografií: %d</item>
+        <item quantity="many">Počet fotografií: %d</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">Vybrané: %1$d/%2$d</item>
+        <item quantity="one">Vybrané: %1$d/%2$d</item>
+        <item quantity="few">Vybrané: %1$d/%2$d</item>
+        <item quantity="many">Vybrané: %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videá</item>
+        <item quantity="many">%d videí</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d výhod/-y</item>
+        <item quantity="one">%d výhoda</item>
+        <item quantity="few">%d výhod/-y</item>
+        <item quantity="many">%d výhod/-y</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Odstrániť všetky pozastavené inštalácie (počet aplikácií: %1$s, uvoľní sa %2$s)</item>
+        <item quantity="one">Odstrániť všetky pozastavené inštalácie (%1$s aplikácia, uvoľní sa %2$s)</item>
+        <item quantity="few">Odstrániť všetky pozastavené inštalácie (počet aplikácií: %1$s, uvoľní sa %2$s)</item>
+        <item quantity="many">Odstrániť všetky pozastavené inštalácie (počet aplikácií: %1$s, uvoľní sa %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(vybraté: %1$d)"</item>
+        <item quantity="one">" 
+(vybraté: %1$d)"</item>
+        <item quantity="few">" 
+(vybraté: %1$d)"</item>
+        <item quantity="many">" 
+(vybraté: %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Strana %1$d</item>
+        <item quantity="one">Strana %1$d</item>
+        <item quantity="few">Strana %1$d</item>
+        <item quantity="many">Strana %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Počet pozastavených inštalácií: %1$s.</item>
+        <item quantity="one">Počet pozastavených inštalácií: %1$s.</item>
+        <item quantity="few">Počet pozastavených inštalácií: %1$s.</item>
+        <item quantity="many">Počet pozastavených inštalácií: %1$s.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Pred %d minútami</item>
+        <item quantity="one">Pred %d minútou</item>
+        <item quantity="few">Pred %d minútami</item>
+        <item quantity="many">Pred %d minútami</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d doplnky/-ov</item>
+        <item quantity="one">%1$d doplnok</item>
+        <item quantity="few">%1$d doplnky/-ov</item>
+        <item quantity="many">%1$d doplnky/-ov</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s stiahnutí</item>
+        <item quantity="one">%1$s stiahnutie</item>
+        <item quantity="few">%1$s stiahnutia</item>
+        <item quantity="many">%1$s stiahnutí</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Hodnotenie: %1$s hviezdičiek</item>
+        <item quantity="one">Hodnotenie: %1$s hviezdička</item>
+        <item quantity="few">Hodnotenie: %1$s hviezdičky</item>
+        <item quantity="many">Hodnotenie: %1$s hviezdičiek</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Plánovaná inštalácia aplikácií (%1$s) bola dokončená</item>
+        <item quantity="one">Plánovaná inštalácia %1$s aplikácie bola dokončená</item>
+        <item quantity="few">Plánovaná inštalácia aplikácií (%1$s) bola dokončená</item>
+        <item quantity="many">Plánovaná inštalácia aplikácií (%1$s) bola dokončená</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d aplikácií začne sťahovanie po pripojení k sieti Wi-Fi.</item>
+        <item quantity="one">%1$d aplikácia začne sťahovanie po pripojení k sieti Wi-Fi.</item>
+        <item quantity="few">%1$d aplikácie začnú sťahovanie po pripojení k sieti Wi-Fi.</item>
+        <item quantity="many">%1$d aplikácií začne sťahovanie po pripojení k sieti Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(predobjednalo: %1$s)</item>
+        <item quantity="one">(predobjednalo: %1$s)</item>
+        <item quantity="few">(rezervovalo: %1$s)</item>
+        <item quantity="many">(rezervovalo: %1$s)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(rezervované %1$d mil.)</item>
+        <item quantity="one">(rezervovaný 1 milión)</item>
+        <item quantity="few">(rezervované %1$d mil.)</item>
+        <item quantity="many">(rezervované %1$d mil.)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(rezervované %1$d tis.)</item>
+        <item quantity="one">(rezervovaný 1 tis.)</item>
+        <item quantity="few">(rezervované %1$d tis.)</item>
+        <item quantity="many">(rezervované %1$d tis.)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Inštalovať všetky aplikácie (%1$s)?</item>
+        <item quantity="one">Inštalovať %1$s aplikáciu?</item>
+        <item quantity="few">Inštalovať všetky aplikácie (%1$s)?</item>
+        <item quantity="many">Inštalovať všetky aplikácie (%1$s)?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">Počet prebiehajúcich inštalácií: %1$s.</item>
+        <item quantity="one">Počet prebiehajúcich inštalácií: %1$s.</item>
+        <item quantity="few">Počet prebiehajúcich inštalácií: %1$s.</item>
+        <item quantity="many">Počet prebiehajúcich inštalácií: %1$s.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">z %1$d</item>
+        <item quantity="one">z %1$d</item>
+        <item quantity="few">z %1$d</item>
+        <item quantity="many">z %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Hľadať v %d lokálnych aplikáciách</item>
+        <item quantity="one">Hľadať v %d lokálnej aplikácii</item>
+        <item quantity="few">Hľadať v %d lokálnych aplikáciách</item>
+        <item quantity="many">Hľadať v %d lokálnych aplikáciách</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Vrátiť aplikácie (%d) na zoznam aktualizácií a povoliť ich aktualizáciu.</item>
+        <item quantity="one">Vrátiť %d aplikáciu na zoznam aktualizácií a povoliť jej aktualizáciu.</item>
+        <item quantity="few">Vrátiť aplikácie (%d) na zoznam aktualizácií a povoliť ich aktualizáciu.</item>
+        <item quantity="many">Vrátiť aplikácie (%d) na zoznam aktualizácií a povoliť ich aktualizáciu.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">K dispozícii je %1$s aktualizácií aplikácií</item>
+        <item quantity="one">K dispozícii je %1$s aktualizácia aplikácie</item>
+        <item quantity="few">K dispozícii sú %1$s aktualizácie aplikácií</item>
+        <item quantity="many">K dispozícii je %1$s aktualizácií aplikácií</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Odporúčané aktualizácie aplikácií: %1$s. Celková veľkosť: %2$s.</item>
+        <item quantity="one">Odporúčané aktualizácie aplikácií: %1$s. Veľkosť: %2$s.</item>
+        <item quantity="few">Odporúčané aktualizácie aplikácií: %1$s. Celková veľkosť: %2$s.</item>
+        <item quantity="many">Odporúčané aktualizácie aplikácií: %1$s. Veľkosť: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Počet dostupných aktualizácií aplikácií: %1$d. Veľkosť: %2$s.</item>
+        <item quantity="one">Počet dostupných aktualizácií aplikácií: %1$d. Veľkosť: %2$s.</item>
+        <item quantity="few">Počet dostupných aktualizácií aplikácií: %1$d. Veľkosť: %2$s.</item>
+        <item quantity="many">Počet dostupných aktualizácií aplikácií: %1$d. Veľkosť: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Nepoužívaná %d dní</item>
+        <item quantity="one">Nepoužívaná %d deň</item>
+        <item quantity="few">Nepoužívaná %d dni</item>
+        <item quantity="many">Nepoužívaná %d dní</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Vymazať %d úloh a stiahnuté súbory?</item>
+        <item quantity="one">Vymazať %d úlohu a stiahnutý súbor?</item>
+        <item quantity="few">Vymazať %d úlohy a stiahnuté súbory?</item>
+        <item quantity="many">Vymazať %d úloh a stiahnuté súbory?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d-dňová séria prihlásení v rade</item>
+        <item quantity="one">%d-dňová séria prihlásení v rade</item>
+        <item quantity="few">%d-dňová séria prihlásení v rade</item>
+        <item quantity="many">%d-dňová séria prihlásení v rade</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Deň %d</item>
+        <item quantity="one">Deň %d</item>
+        <item quantity="few">Deň %d</item>
+        <item quantity="many">Deň %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Stiahnuté aplikácie: %1$d</item>
+        <item quantity="one">Stiahnuté aplikácie: %1$d</item>
+        <item quantity="few">Stiahnuté aplikácie: %1$d</item>
+        <item quantity="many">Stiahnuté aplikácie: %1$d</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Hodnotenie: %s</item>
+        <item quantity="one">Hodnotenie: %s</item>
+        <item quantity="few">Hodnotenie: %s</item>
+        <item quantity="many">Hodnotenie: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">pred %d min.</item>
+        <item quantity="one">pred %d min.</item>
+        <item quantity="few">pred %d min.</item>
+        <item quantity="many">pred %d min.</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplikácií vrátane aplikácie %1$s</item>
+        <item quantity="one">%2$d aplikácia (%1$s)</item>
+        <item quantity="few">%2$d aplikácie vrátane aplikácie %1$s</item>
+        <item quantity="many">%2$d aplikácií vrátane aplikácie %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Štítok s červenou bodkou, %1$s neprečítaných upozornení</item>
+        <item quantity="one">Štítok s červenou bodkou, %1$s neprečítané upozornenie</item>
+        <item quantity="few">Štítok s červenou bodkou, %1$s neprečítané upozornenia</item>
+        <item quantity="many">Štítok s červenou bodkou, %1$s neprečítaných upozornení</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d ponúk/-y</item>
+        <item quantity="one">%d ponuka</item>
+        <item quantity="few">%d ponuky/-úk</item>
+        <item quantity="many">%d ponúk/-y</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d komunitných darčekov</item>
+        <item quantity="one">%d komunitný darček</item>
+        <item quantity="few">%d komunitné darčeky</item>
+        <item quantity="many">%d komunitných darčekov</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d darčeky/-ov</item>
+        <item quantity="one">%d darček</item>
+        <item quantity="few">%d darčeky/-ov</item>
+        <item quantity="many">%d darčeky/-ov</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d ľudí vo vašom regióne chce túto položku</item>
+        <item quantity="one">%d osoba vo vašom regióne chce túto položku</item>
+        <item quantity="few">%d ľudia vo vašom regióne chcú túto položku</item>
+        <item quantity="many">%d ľudí vo vašom regióne chce túto položku</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Vybraté položky: %1$d</item>
+        <item quantity="one">Vybraté položky: %1$d</item>
+        <item quantity="few">Vybraté položky: %1$d</item>
+        <item quantity="many">Vybraté položky: %1$d</item>
+    </plurals>
+</resources>

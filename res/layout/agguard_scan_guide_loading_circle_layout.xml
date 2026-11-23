@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0dip"
+        android:id="@id/percent_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        app:layout_constraintBottom_toBottomOf="@id/loading_circle"
+        app:layout_constraintEnd_toEndOf="@id/loading_circle"
+        app:layout_constraintStart_toStartOf="@id/loading_circle"
+        app:layout_constraintTop_toTopOf="@id/loading_circle"
+        style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    <com.huawei.uikit.phone.hwprogressindicator.widget.HwProgressIndicator
+        android:id="@id/loading_circle"
+        android:layout_width="@dimen/agguard_tab_view_icon_size"
+        android:layout_height="@dimen/agguard_tab_view_icon_size"
+        app:hwSizeMode="small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

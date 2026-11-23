@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:gravity="center"
+        android:id="@id/root_view"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <com.huawei.appmarket.service.store.awk.widget.topbanner.DotsViewPager
+            android:id="@id/dotsviewpager"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:importantForAccessibility="yes"
+            app:hwViewPagerSupportLoop="true"
+            app:layout_constraintDimensionRatio="1:0.636"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:screenAdaptationStyle="Fixed" />
+        <com.huawei.appmarket.service.store.awk.widget.topbanner.BannerDotsPageIndicator
+            android:id="@id/hwdotspageindicator"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/wisedist_hwdotspageindicator_height"
+            android:layout_marginBottom="@dimen/appgallery_card_bottom_margin_default"
+            android:layout_centerHorizontal="true"
+            android:importantForAccessibility="yes"
+            app:hwIsShowAsDot="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.Emui.HwDotsPageIndicator.Translucent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        android:visibility="gone"
+        android:importantForAccessibility="no"
+        layout="@layout/wisedist_interac_container" />
+</LinearLayout>

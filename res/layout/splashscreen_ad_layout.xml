@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwtextview.widget.HwTextView
+    android:textSize="9.0sp"
+    android:textColor="@color/appgallery_text_color_tertiary_inverse"
+    android:gravity="center"
+    android:layout_gravity="start|bottom|center"
+    android:id="@id/splashscreen_ad_text"
+    android:background="@drawable/splashscreen_ad_bg"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16.0dip"
+    android:minWidth="20.0dip"
+    android:minHeight="12.0dip"
+    android:text="@string/splashscreen_ad"
+    android:fontFamily="@string/appgallery_text_font_family_regular"
+    android:layout_marginStart="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

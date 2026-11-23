@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:round_corner_top_left="@dimen/appgallery_default_corner_radius_l"
+    app:round_corner_top_right="@dimen/appgallery_default_corner_radius_l"
+    app:stroke_color="@color/appgallery_color_card_stroke_normal"
+    app:stroke_width="@dimen/round_icon_stroke_width"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appmarket.service.store.awk.widget.horizon.HorizonBigVideoPlayer
+        android:id="@id/bigvideo"
+        android:tag="@string/properties_video_contentDescription"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        app:media_type="0"
+        app:view_type="0" />
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

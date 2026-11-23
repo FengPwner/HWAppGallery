@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/aguikit_ageadapter_popup_content"
+    android:background="@drawable/aguikit_ageadapter_popup_item_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/aguikit_ageadapter_popup_image_view"
+        android:layout_width="@dimen/appgallery_ageadapter_popup_image_size"
+        android:layout_height="@dimen/appgallery_ageadapter_popup_image_size"
+        android:layout_marginTop="@dimen/appgallery_ageadapter_popup_margin_top"
+        android:tint="@color/appgallery_color_primary_dark"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textSize="@dimen/appgallery_ageadapter_popup_text_size"
+        android:textColor="@color/appgallery_text_color_primary_inverse"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/aguikit_ageadapter_popup_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_ageadapter_popup_text_margin_top"
+        android:layout_marginBottom="@dimen/appgallery_ageadapter_popup_margin_bottom"
+        android:maxLines="@integer/appgallery_ageadapter_popup_text_max_lines"
+        android:layout_below="@id/aguikit_ageadapter_popup_image_view"
+        android:layout_marginStart="@dimen/appgallery_ageadapter_popup_text_margin_start"
+        android:layout_marginEnd="@dimen/appgallery_ageadapter_popup_text_margin_start" />
+</RelativeLayout>

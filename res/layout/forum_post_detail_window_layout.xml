@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/forum_base_buoy_background_drawable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/post_detail_window_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/forum_post_detail_title_window_layout" />
+    <FrameLayout
+        android:id="@id/main_view_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/post_comment_bottom_container"
+        android:layout_below="@id/post_detail_window_toolbar" />
+    <RelativeLayout
+        android:id="@id/post_comment_bottom_container"
+        android:background="@drawable/buoy_forum_post_bottom_background_drawable"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="4.0dip"
+            android:layout_toStartOf="@id/post_comment_like_layout"
+            android:layout_alignParentStart="true">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/post_comment_button"
+                android:background="@drawable/forum_post_buoy_bg_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                app:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+                app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+                style="@style/AppGallery.Widget.Button.Small" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/post_comment_like_layout"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/forum_post_like"
+            android:layout_toStartOf="@id/post_comment_favorite_layout">
+            <ImageView
+                android:id="@id/post_comment_like_image"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:textSize="8.0dip"
+                android:textColor="@color/buoy_emui_white"
+                android:gravity="start|center"
+                android:id="@id/post_like_count"
+                android:layout_width="20.0dip"
+                android:layout_height="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:paddingStart="2.0dip"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@id/post_comment_favorite_layout"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/forum_post_favorite_btn"
+            android:layout_marginEnd="4.0dip"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@id/post_comment_favorite_image"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

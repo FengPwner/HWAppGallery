@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:id="@id/icon"
+        android:layout_width="@dimen/buoy_campain_img_width"
+        android:layout_height="@dimen/buoy_campain_img_height"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:src="@drawable/bg_perch_square"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/wisejoint_campaign_sideslip_listitem_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/icon">
+        <TextView
+            android:textColor="@color/buoy_emui_primary"
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@id/ItemText_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:layout_below="@id/ItemTitle">
+            <TextView
+                android:id="@id/promotion_sign"
+                android:tag="css/.title"
+                android:background="@drawable/promotion_sign_bg_normal"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+                style="@style/promotion_sign_style" />
+            <TextView
+                android:textColor="@color/buoy_emui_color_gray_7"
+                android:ellipsize="end"
+                android:id="@id/ItemText"
+                android:tag="css/.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:alpha="0.5"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/buoy_emui_color_gray_7"
+            android:ellipsize="end"
+            android:id="@id/timeText"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_below="@id/ItemText_container"
+            android:alpha="0.5"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </RelativeLayout>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/bootom_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/wisejoint_campaign_sideslip_listitem_content_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

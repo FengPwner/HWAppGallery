@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/ll_all"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24.0dip"
+    android:layout_marginTop="24.0dip"
+    android:layout_marginRight="24.0dip"
+    android:layout_marginBottom="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.cloudgame.gamedist.view.RoundRectImageView
+        android:id="@id/image_iv_icon"
+        android:layout_width="52.0dip"
+        android:layout_height="52.0dip" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_8dp">
+        <TextView
+            android:textSize="@dimen/res_textsize_14dp"
+            android:textColor="#ffffffff"
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+        <TextView
+            android:textSize="@dimen/res_textsize_10dp"
+            android:textColor="#ffffffff"
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/tv_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:singleLine="true"
+            android:alpha="0.6" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/ll_right_three"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip">
+            <TextView
+                android:textSize="@dimen/res_textsize_10dp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloud_game_six_elements_version"
+                android:singleLine="true"
+                android:alpha="0.6" />
+            <View
+                android:id="@id/view_splits_one"
+                android:background="#ffffffff"
+                android:layout_width="1.0px"
+                android:layout_height="10.0dip"
+                android:layout_marginLeft="4.5dip"
+                android:layout_marginTop="2.0dip"
+                android:layout_marginRight="4.5dip"
+                android:alpha="0.2" />
+            <TextView
+                android:textSize="@dimen/res_textsize_10dp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/tv_introductory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloud_game_six_elements_introductory"
+                android:singleLine="true"
+                android:alpha="0.6" />
+            <View
+                android:id="@id/view_splits_two"
+                android:background="#ffffffff"
+                android:layout_width="1.0px"
+                android:layout_height="10.0dip"
+                android:layout_marginLeft="4.5dip"
+                android:layout_marginTop="2.0dip"
+                android:layout_marginRight="4.5dip"
+                android:alpha="0.2" />
+            <TextView
+                android:textSize="@dimen/res_textsize_10dp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/tv_privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloud_game_six_elements_privacy"
+                android:singleLine="true"
+                android:alpha="0.6" />
+            <View
+                android:id="@id/view_splits_three"
+                android:background="#ffffffff"
+                android:layout_width="1.0px"
+                android:layout_height="10.0dip"
+                android:layout_marginLeft="4.5dip"
+                android:layout_marginTop="2.0dip"
+                android:layout_marginRight="4.5dip"
+                android:alpha="0.2" />
+            <TextView
+                android:textSize="@dimen/res_textsize_10dp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/tv_permissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloud_game_six_elements_permissions"
+                android:singleLine="true"
+                android:alpha="0.6" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView
+        android:id="@id/batch_dld_expandable_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:groupIndicator="@null"
+        android:childDivider="@color/appgallery_color_sub_background"
+        android:divider="@color/appgallery_color_sub_background"
+        android:layout_weight="1.0" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:text="@string/wisedist_app_permission_disable_content"
+        style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+</LinearLayout>

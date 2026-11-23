@@ -1,0 +1,90 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "系统消息通知管理",
+      "maxRows": 1,
+      "layoutName": "settingsysnotificationswitchcard"
+    },
+    {
+      "layoutId": 3,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividercard"
+    },
+    {
+      "layoutId": 2,
+      "name": "应用更新免打扰",
+      "maxRows": 1,
+      "layoutName": "settingupdatedisturbcard"
+    },
+    {
+      "layoutId": 4,
+      "name": "消息提示",
+      "maxRows": 1,
+      "layoutName": "settingpushsmscardcard"
+    },
+    {
+      "layoutId": 5,
+      "name": "消息提示",
+      "maxRows": 1,
+      "layoutName": "settingoverseaspushsmscardcard"
+    },
+    {
+      "layoutId": 6,
+      "name": "营销通知",
+      "maxRows": 1,
+      "layoutName": "settingmarketingnoticecard"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "系统消息通知管理",
+      "layoutName": "settingsysnotificationswitchcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "分割线",
+      "layoutName": "settingdividercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "应用更新免打扰",
+      "layoutName": "settingupdatedisturbcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 4,
+      "name": "消息提示",
+      "layoutName": "settingpushsmscardcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 5,
+      "name": "消息提示",
+      "layoutName": "settingoverseaspushsmscardcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 6,
+      "name": "营销通知",
+      "layoutName": "settingmarketingnoticecard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_container"
+        android:background="@drawable/aguikit_card_panel_bg"
+        android:paddingBottom="@dimen/ui_4_dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_4_dp"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <include
+            android:id="@id/appList_ItemTitle_layout"
+            layout="@layout/hiappbase_layout_subheader_title_more" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/card_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

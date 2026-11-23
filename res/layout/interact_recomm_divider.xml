@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/devider_line_interactlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

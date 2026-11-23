@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="24.0sp"
+        android:textColor="@color/appgallery_text_primary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/hap_half_detail_form_description"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:maxLines="2"
+        android:alpha="@dimen/emui_primary_content_alpha"
+        android:importantForAccessibility="yes"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginEnd="24.0dip" />
+    <RelativeLayout
+        android:id="@id/pager_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:layout_below="@id/hap_half_detail_form_description"
+        android:importantForAccessibility="no">
+        <com.huawei.appgallery.detail.detailcard.card.fadetailcard.pager.FaInterceptHwViewPager
+            android:id="@id/hap_half_detail_card_viewpager"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:overScrollMode="never"
+            android:importantForAccessibility="no" />
+        <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+            android:id="@id/hap_half_detail_default_img"
+            android:visibility="gone"
+            android:layout_width="@dimen/fa_form_card_width_small"
+            android:layout_height="@dimen/fa_form_card_height_small"
+            android:layout_marginTop="@dimen/variable_dots_page_indicator_margin_end_land"
+            android:layout_marginBottom="@dimen/variable_dots_page_indicator_margin_end_land"
+            android:layout_centerInParent="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_l" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+            <com.huawei.appgallery.detail.detailcard.card.fahalfdetailcard.view.VariableDotsPageIndicatorV2
+                android:id="@id/hap_half_detail_vertical_dots_page_indicator"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:importantForAccessibility="no"
+                android:layout_marginEnd="24.0dip"
+                android:layout_alignParentEnd="true"
+                app:selectedDotColor="@color/id_fa_color_activated"
+                app:unselectedDotColor="@color/id_fa_color_icon_fourth" />
+            <ImageView
+                android:id="@id/viewDotTopCovered"
+                android:background="@drawable/fa_detail_half_gradient_bg"
+                android:visibility="gone"
+                android:layout_width="30.0dip"
+                android:layout_height="10.0dip"
+                android:layout_marginEnd="12.0dip"
+                android:layout_alignParentEnd="true" />
+            <ImageView
+                android:id="@id/viewDotBottomCovered"
+                android:background="@drawable/fa_detail_half_gradient_bg"
+                android:visibility="gone"
+                android:layout_width="30.0dip"
+                android:layout_height="13.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="12.0dip"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

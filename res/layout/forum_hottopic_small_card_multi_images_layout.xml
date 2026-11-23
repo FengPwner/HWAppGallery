@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/forum_hotspot_small_card_total_layout"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/forum_hotspot_small_card_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal">
+        <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+            android:ellipsize="end"
+            android:id="@id/hottopic_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:layout_weight="0.45"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_toStartOf="@id/forum_hottopic_banner_imageview"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/forum_hottopic_banner_imageview"
+            android:layout_width="@dimen/forum_hotspot_small_card_banner_width"
+            android:layout_height="@dimen/forum_hotspot_small_card_banner_height"
+            android:scaleType="centerCrop"
+            android:layout_alignParentEnd="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_s"
+            app:touch_drawable="@drawable/forum_round_image_selector" />
+        <FrameLayout
+            android:id="@id/video_play_icon_container"
+            android:layout_width="@dimen/forum_hotspot_small_card_banner_width"
+            android:layout_height="@dimen/forum_hotspot_small_card_banner_height"
+            android:scaleType="centerCrop"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/video_play_icon"
+                android:visibility="invisible"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:src="@drawable/ic_public_play_big" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.huawei.appgallery.forum.cards.widget.HotSpotInfoLinearLayout
+        android:id="@id/hotspot_info_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/forum_hotspot_info_linearlayout_height"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal" />
+</LinearLayout>

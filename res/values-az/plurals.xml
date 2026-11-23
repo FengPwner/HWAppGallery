@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d şübhəli proqram (%1$s daxil olmaqla) tapıldı</item>
+        <item quantity="one">%2$d şübhəli proqram (%1$s) tapıldı</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">%2$d istifadə edilməyən proqram tapıldı (%1$s daxil olmaqla)</item>
+        <item quantity="one">%2$d istifadə edilməyən proqram tapıldı (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d istifadə edilməyən proqram</item>
+        <item quantity="one">%d istifadə edilməyən proqram</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Zərərli davranışı olan %d proqramla bağlı tədbir görüldü</item>
+        <item quantity="one">Zərərli davranışı olan %d proqramla bağlı tədbir görüldü</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Zərərli davranışı olan %d proqram aşkarlandı</item>
+        <item quantity="one">Zərərli davranışı olan %d proqram aşkarlandı</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d fırıldaqçılıq proqramı ilə bağlı tədbir görüldü</item>
+        <item quantity="one">%d fırıldaqçılıq proqramı ilə bağlı tədbir görüldü</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d fırıldaqçılıq proqramı aşkarlandı</item>
+        <item quantity="one">%d fırıldaqçılıq proqramı aşkarlandı</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Məxfilik riskləri olan %d proqramla bağlı tədbir görüldü</item>
+        <item quantity="one">Məxfilik riskləri olan %d proqramla bağlı tədbir görüldü</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Məxfilik riskləri olan %d proqram aşkarlandı</item>
+        <item quantity="one">Məxfilik riskləri olan %d proqram aşkarlandı</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Təhlükəsizlik təhdidləri olan %d proqramla bağlı tədbir görüldü</item>
+        <item quantity="one">Təhlükəsizlik təhdidləri olan %d proqramla bağlı tədbir görüldü</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Təhlükəsizlik təhdidləri olan %d proqram aşkarlandı</item>
+        <item quantity="one">Təhlükəsizlik təhdidləri olan %d proqram aşkarlandı</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Viruslu %d proqramla bağlı tədbir görüldü</item>
+        <item quantity="one">Viruslu %d proqramla bağlı tədbir görüldü</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Viruslu %d proqram aşkarlandı</item>
+        <item quantity="one">Viruslu %d proqram aşkarlandı</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d element optimallaşdırıldı</item>
+        <item quantity="one">%d element optimallaşdırıldı</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d problem aşkarlandı</item>
+        <item quantity="one">%d problem aşkarlandı</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d proqram skanlandı</item>
+        <item quantity="one">%d proqram skanlandı</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d gün əvvəl</item>
+        <item quantity="one">%d gün əvvəl</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d təhlükə</item>
+        <item quantity="one">%d təhlükə</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d proqram skanlandı</item>
+        <item quantity="one">%d proqram skanlandı</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d proqram təhlükəsi</item>
+        <item quantity="one">%d proqram təhlükəsi</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">Son %1$d gündə %2$d şübhəli proqram tapıldı. Təfərrüatlara baxın >></item>
+        <item quantity="one">Son %1$d gündə %2$d şübhəli proqram tapıldı. Təfərrüatlara baxın >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">Son %1$d gündə %2$d proqram skanlandı. Təfərrüatlara baxın >></item>
+        <item quantity="one">Son %1$d gündə %2$d proqram skanlandı. Təfərrüatlara baxın >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d proqram sıxıla bilər</item>
+        <item quantity="one">%d proqram sıxıla bilər</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d naməlum proqram aşkarlandı.</item>
+        <item quantity="one">%d naməlum proqram aşkarlandı.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Sıxıla bilən proqramlar (%d)</item>
+        <item quantity="one">Sıxıla bilən proqramlar (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d naməlum proqram tapıldı. Yoxlayın.</item>
+        <item quantity="one">%d naməlum proqram tapıldı. Yoxlayın.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d naməlum proqram tapıldı</item>
+        <item quantity="one">%d naməlum proqram tapıldı</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d dəq əvvəl</item>
+        <item quantity="one">%d dəq əvvəl</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Reytinq: %s</item>
+        <item quantity="one">Reytinq: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s yaş məhdudiyyətli məzmun ehtiva edir. %3$s seçiminə toxunmaqla və bu proqramı endirməklə %2$d yaşından böyük olduğunuzu təsdiq edirsiniz.</item>
+        <item quantity="one">%1$s yaş məhdudiyyətli məzmun ehtiva edir. %3$s seçiminə toxunmaqla və bu proqramı endirməklə %2$d yaşından böyük olduğunuzu təsdiq edirsiniz.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Fasilə verilmiş endirmələr: %1$d</item>
+        <item quantity="one">Fasilə verilmiş endirmələr: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s yaş məhdudiyyətli məzmun ehtiva edir. %3$s seçiminə toxunmaqla və bu proqramı istifadə etməklə %2$d yaşından böyük olduğunuzu təsdiq edirsiniz.</item>
+        <item quantity="one">%1$s yaş məhdudiyyətli məzmun ehtiva edir. %3$s seçiminə toxunmaqla və bu proqramı istifadə etməklə %2$d yaşından böyük olduğunuzu təsdiq edirsiniz.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d bəyənməmə</item>
+        <item quantity="one">%d bəyənməmə</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d bəyənməmə, bunu bəyənməmisiniz</item>
+        <item quantity="one">%d bəyənməmə, bunu bəyənməmisiniz</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d bəyənmə</item>
+        <item quantity="one">%d bəyənmə</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d bəyənmə, bunu bəyənmisiniz</item>
+        <item quantity="one">%d bəyənmə, bunu bəyənmisiniz</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d ulduz</item>
+        <item quantity="one">%d ulduz</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d şərh</item>
+        <item quantity="one">%1$d şərh</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d dəq əvvəl</item>
+        <item quantity="one">%d dəq əvvəl</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d reytinq</item>
+        <item quantity="one">%d reytinq</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d bəyənmə</item>
+        <item quantity="one">%1$d bəyənmə</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d cavab</item>
+        <item quantity="one">%1$d cavab</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Bütün cavablar (%1$d)</item>
+        <item quantity="one">Bütün cavablar (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Şərh bildirmək üçün ən azı %1$d dəqiqə oynamış olmalısınız.</item>
+        <item quantity="one">Şərh bildirmək üçün ən azı %1$d dəqiqə oynamış olmalısınız.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s proqram quraşdırılır</item>
+        <item quantity="one">%1$s proqram quraşdırılır</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d element seçilib</item>
+        <item quantity="one">%1$d element seçilib</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s daxil olmaqla, seçilmiş proqramların quraşdırılmışı ləğv olunsun?</item>
+        <item quantity="one">%1$s quraşdırılmışı ləğv olunsun?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%1$s və digər %2$s proqramın %3$s-dan quraşdırılmışı ləğv olunsun?</item>
+        <item quantity="one">%1$s və digər %2$s proqramın %3$s-dan quraşdırılmışı ləğv olunsun?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">%1$s daxil olmaqla %2$s proqramın quraşdırılmışı ləğv edilsin?</item>
+        <item quantity="one">%1$s daxil olmaqla %2$s proqramın quraşdırılmışı ləğv edilsin?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s qeyd silinsin?</item>
+        <item quantity="one">%1$s qeyd silinsin?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Aşağıdakı %1$d proqram bəzi icazələrə giriş tələb edir:</item>
+        <item quantity="one">Aşağıdakı %1$d proqram bəzi icazələrə giriş tələb edir:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d reytinq</item>
+        <item quantity="one">%1$d reytinq</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM reytinq</item>
+        <item quantity="one">%1$sM reytinq</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK reytinq</item>
+        <item quantity="one">%1$sK reytinq</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s əməliyyat</item>
+        <item quantity="one">%1$s əməliyyat</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Oyun vaxtının %1$s dəqiqədən az müddəti qalıb. Oyununuzu mümkün qədər tez saxlayın.</item>
+        <item quantity="one">%1$s dəqiqədən az oyun vaxtı qalıb. Oyununuzu mümkün qədər tez saxlayın.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Sadəcə %d dəqiqə qalır.</item>
+        <item quantity="one">Sadəcə %d dəqiqə qalıb.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d dəqiqə</item>
+        <item quantity="one">%d dəqiqə</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d saniyə</item>
+        <item quantity="one">%d saniyə</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sMilyard</item>
+        <item quantity="one">%1$sMilyard</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sMilyon</item>
+        <item quantity="one">%1$sMilyon</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sMin</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d şərh</item>
+        <item quantity="one">%1$d şərh</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d dəq əvvəl</item>
+        <item quantity="one">%d dəq əvvəl</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Maksimum %1$d simvol</item>
+        <item quantity="one">Maksimum %1$d simvol</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Ən azı %1$d simvol daxil edin</item>
+        <item quantity="one">Ən azı %1$d simvol daxil edin</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"%1$d şəklə qədər
+Hər biri maksimum %2$s"</item>
+        <item quantity="one">"%1$d şəklə qədər
+Hər biri maksimum %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Bu problem növü üçün maksimum %d şəkil</item>
+        <item quantity="one">Bu problem növü üçün maksimum %d şəkil</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s ulduz</item>
+        <item quantity="one">%1$s ulduz</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Parol %1$d dəfə səhv daxil edildi. %2$d dəq sonra yenidən cəhd edin.</item>
+        <item quantity="one">Parol %1$d dəfə səhv daxil edildi. %2$d dəq sonra yenidən cəhd edin.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB nəfər iştirak edib</item>
+        <item quantity="one">%1$sB nəfər iştirak edib</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM nəfər iştirak edib</item>
+        <item quantity="one">%1$sM nəfər iştirak edib</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s nəfər iştirak edib</item>
+        <item quantity="one">%1$s nəfər iştirak edib</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK nəfər iştirak edib</item>
+        <item quantity="one">%1$sK nəfər iştirak edib</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB nəfər bunu satın alıb</item>
+        <item quantity="one">%1$sB nəfər bunu satın alıb</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM nəfər bunu satın alıb</item>
+        <item quantity="one">%1$sM nəfər bunu satın alıb</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s nəfər bunu satın alıb</item>
+        <item quantity="one">%1$s nəfər bunu satın alıb</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK nəfər bunu satın alıb</item>
+        <item quantity="one">%1$sK nəfər bunu satın alıb</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s reytinq</item>
+        <item quantity="one">%1$s reytinq</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Reytinq, %1$s ulduz</item>
+        <item quantity="one">Reytinq, %1$s ulduz</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">%1$s ulduzla qiymətləndirilib</item>
+        <item quantity="one">%1$s ulduzla qiymətləndirilib</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">İstənilən halda quraşdırın (%1$d)</item>
+        <item quantity="one">İstənilən halda quraşdırın (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d dəqiqə</item>
+        <item quantity="one">%d dəqiqə</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d saniyə</item>
+        <item quantity="one">%d saniyə</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d element seçildi</item>
+        <item quantity="one">%1$d element seçildi</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Təsvir ən azı %d simvoldan ibarət olmalıdır. Mümkündürsə, ekran şəkilləri əlavə edin.</item>
+        <item quantity="one">Təsvir ən azı %d simvoldan ibarət olmalıdır. Mümkündürsə, ekran şəkilləri əlavə edin.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d saat</item>
+        <item quantity="one">%1$d saat</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d dəqiqə</item>
+        <item quantity="one">%1$d dəqiqə</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d saniyə</item>
+        <item quantity="one">%1$d saniyə</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Dərclər: %1$s</item>
+        <item quantity="one">Dərclər: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d bəyənmə</item>
+        <item quantity="one">%d bəyənmə</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d cavab</item>
+        <item quantity="one">%d cavab</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sMilyard</item>
+        <item quantity="one">%1$sMilyard</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sMilyon</item>
+        <item quantity="one">%1$sMilyon</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sMin</item>
+        <item quantity="one">%1$sMin</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d baxış</item>
+        <item quantity="one">%d baxış</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Şərh bildirin (cəmi %1$d)</item>
+        <item quantity="one">Şərh bildirin (cəmi %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Bütün %1$d cavaba baxın</item>
+        <item quantity="one">Bütün %1$d cavaba baxın</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s iştirakçı</item>
+        <item quantity="one">%1$s iştirakçı</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Maksimum %s cavab seçin</item>
+        <item quantity="one">Maksimum %s cavab seçin</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Çoxsaylı seçim (%1$d seçim edin)</item>
+        <item quantity="one">Çoxsaylı seçim (%1$d seçim edin)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">%s cavab seçin</item>
+        <item quantity="one">%s cavab seçin</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s səs</item>
+        <item quantity="one">%1$s səs</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Bu proqram %1$d icazə tələb edir. Bunları Parametrlər > Proqramlar > Proqramlar bölməsində istənilən vaxt ləğv edə bilərsiniz.</item>
+        <item quantity="one">Bu proqram %1$d icazə tələb edir. Bunu Parametrlər > Proqramlar > Proqramlar bölməsində istənilən vaxt ləğv edə bilərsiniz.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Bu proqram %1$d icazə tələb edir. Bunları Parametrlər > Proqramlar və xidmətlər > Proqramlar bölməsində istənilən vaxt ləğv edə bilərsiniz.</item>
+        <item quantity="one">Bu proqram %1$d icazə tələb edir. Bunu Parametrlər > Proqramlar və xidmətlər > Proqramlar bölməsində istənilən vaxt ləğv edə bilərsiniz.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d hədiyyə</item>
+        <item quantity="one">%1$d hədiyyə</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ulduz</item>
+        <item quantity="one">%1$d ulduz</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Reytinq: %s</item>
+        <item quantity="one">Reytinq: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s reytinq</item>
+        <item quantity="one">%1$s reytinq</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s dəfə açılıb</item>
+        <item quantity="one">%1$s dəfə açılıb</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d yeni tövsiyə</item>
+        <item quantity="one">%d yeni tövsiyə</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sMilyard</item>
+        <item quantity="one">%1$sMilyard</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sMilyon</item>
+        <item quantity="one">%1$sMilyon</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sMin</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d proqram yenilənib</item>
+        <item quantity="one">%1$d proqram yenilənib</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d proqram yenilənir</item>
+        <item quantity="one">%1$d proqram yenilənir</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Şəkil %1$d MB-dan böyük ola bilməz.</item>
+        <item quantity="one">Şəkil %1$d MB-dan böyük ola bilməz.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d foto</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d seçilib</item>
+        <item quantity="one">%1$d/%2$d seçilib</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d imtiyaz</item>
+        <item quantity="one">%d imtiyaz</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildiriş</item>
+        <item quantity="one">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Bütün fasilə verilən quraşdırmaları silin (%1$s proqram, %2$s boşaldın)</item>
+        <item quantity="one">Bütün fasilə verilən quraşdırmaları silin (%1$s proqram, %2$s boşaldın)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d seçilib)"</item>
+        <item quantity="one">" 
+(%1$d seçilib)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Səhifə %1$d</item>
+        <item quantity="one">Səhifə %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s quraşdırmaya fasilə verilib.</item>
+        <item quantity="one">%1$s quraşdırmaya fasilə verilib.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d dəq əvvəl</item>
+        <item quantity="one">%d dəq əvvəl</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">Əlavə %1$d</item>
+        <item quantity="one">Əlavə %1$d</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s endirmə</item>
+        <item quantity="one">%1$s endirmə</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">%1$s ulduzla qiymətləndirilib</item>
+        <item quantity="one">%1$s ulduzla qiymətləndirilib</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s proqramının planlaşdırılmış quraşdırması tamamlandı</item>
+        <item quantity="one">%1$s proqramının planlaşdırılmış quraşdırması tamamlandı</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Wi-Fi-ya qoşulduğunuzda %1$d proqram endirilməyə başlayacaq.</item>
+        <item quantity="one">Wi-Fi-ya qoşulduğunuzda %1$d proqram endirilməyə başlayacaq.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s əvvəlcədən sifariş edilmiş)</item>
+        <item quantity="one">(%1$s əvvəlcədən sifariş edilmiş)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d milyon ehtiyatda saxlandı)</item>
+        <item quantity="one">(1 milyon ehtiyatda saxlandı)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d min ehtiyatda saxlandı)</item>
+        <item quantity="one">(1 min ehtiyatda saxlandı)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Bütün %1$s proqram quraşdırılsın?</item>
+        <item quantity="one">%1$s proqram quraşdırılsın?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s quraşdırma davam edir.</item>
+        <item quantity="one">%1$s quraşdırma davam edir.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">/%1$d</item>
+        <item quantity="one">/%1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">%d lokal proqramı axtarın</item>
+        <item quantity="one">%d lokal proqramı axtarın</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Yeniləmə siyahısında %d proqramı bərpa et və onların yenilənməsinə imkan yarat.</item>
+        <item quantity="one">Yeniləmə siyahısında %d proqramı bərpa et və onun yenilənməsinə imkan yarat.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s proqram yeniləməsi əlçatandır</item>
+        <item quantity="one">%1$s proqram yeniləməsi əlçatandır</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s proqram yenilməsi tövsiyə edilir. Cəmi ölçü: %2$s/.</item>
+        <item quantity="one">%1$s proqram yeniləməsi tövsiyə edilir. Ölçü: %2$s</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d proqram yeniləməsi əlçatandır. Ölçü: %2$s.</item>
+        <item quantity="one">%1$d proqram yeniləməsi əlçatandır. Ölçü: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d gün istifadə edilməyib</item>
+        <item quantity="one">%d gün istifadə edilməyib</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d dəqiqə</item>
+        <item quantity="one">%d dəqiqə</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d saniyə</item>
+        <item quantity="one">%d saniyə</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">%d tapşırıq və endirilən fayllar təmizlənsin?</item>
+        <item quantity="one">%d tapşırıq və endirilən fayl təmizlənsin?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d gün ardıcıl qeydiyyat</item>
+        <item quantity="one">%d gün ardıcıl qeydiyyat</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Gün %d</item>
+        <item quantity="one">Gün %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d proqram endirildi</item>
+        <item quantity="one">%1$d proqram endirildi</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Reytinq: %s</item>
+        <item quantity="one">Reytinq: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d dəq əvvəl</item>
+        <item quantity="one">%d dəq əvvəl</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%1$s daxil olmaqla %2$d proqram</item>
+        <item quantity="one">%2$d proqram (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Qırmızı nöqtə nişanı, %1$s oxunmamış bildiriş</item>
+        <item quantity="one">Qırmızı nöqtə nişanı, %1$s oxunmamış bildiriş</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d təklif</item>
+        <item quantity="one">%d təklif</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d icma hədiyyəsi</item>
+        <item quantity="one">%d icma hədiyyəsi</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d hədiyyə</item>
+        <item quantity="one">%d hədiyyə</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">Bunu regionunuzdakı %d nəfər istəyir</item>
+        <item quantity="one">Bunu regionunuzdakı %d nəfər istəyir</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d element seçilib</item>
+        <item quantity="one">%1$d element seçilib</item>
+    </plurals>
+</resources>

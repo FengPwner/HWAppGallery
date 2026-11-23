@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.phone.hwtoggle.widget.HwToggleButton
+            android:id="@id/toggle_item"
+            style="@style/Search.Widget.Toggle" />
+        <ViewStub
+            android:layout_gravity="end|center"
+            android:id="@id/search_hot_flag_viewstub"
+            android:layout="@layout/search_hot_flag_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m" />
+    </FrameLayout>
+</LinearLayout>

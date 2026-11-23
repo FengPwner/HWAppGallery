@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/component_detail_card_item_height_l"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/component_detail_card_element_height_l">
+        <LinearLayout
+            android:gravity="start"
+            android:layout_gravity="start|center|top"
+            android:orientation="vertical"
+            android:id="@id/ll_system_info"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1">
+            <com.huawei.uikit.hwimageview.widget.HwImageView
+                android:id="@id/iv_system_info"
+                android:layout_width="144.0dip"
+                android:layout_height="48.0dip"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:textSize="@dimen/detail_ageadapter_data_card_text_size_caption"
+                android:id="@id/tv_system_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_data_content_s" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:layout_gravity="start|center|top"
+            android:orientation="vertical"
+            android:id="@id/ll_device_info"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1">
+            <com.huawei.uikit.hwimageview.widget.HwImageView
+                android:id="@id/iv_device_info"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:id="@id/tv_device_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_data_content_s" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:layout_gravity="start|center|top"
+            android:orientation="vertical"
+            android:id="@id/ll_score_info"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1"
+            android:baselineAligned="false">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="@dimen/detail_ageadapter_data_card_text_size_caption"
+                    android:id="@id/tv_data_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2.0dip"
+                    style="@style/detail_card_data_content" />
+                <com.huawei.appgallery.detail.detailbase.card.appdetaildatacard.RenderMidRatingBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/ratingbar_detail_data_app_stars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/banner_bg_margin_16"
+                    android:indeterminateOnly="false"
+                    android:indeterminateDrawable="@drawable/ratingbar_mid"
+                    android:progressDrawable="@drawable/ratingbar_mid"
+                    android:numStars="5"
+                    android:rating="0.0"
+                    android:isIndicator="true"
+                    android:layout_marginStart="2.0dip"
+                    style="@style/midRatingBar" />
+            </LinearLayout>
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:id="@id/tv_detail_data_scoredBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_data_content_s" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:layout_gravity="start|center|top"
+            android:orientation="vertical"
+            android:id="@id/ll_downloads_info"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1">
+            <TextView
+                android:textSize="@dimen/detail_ageadapter_data_card_text_size_caption"
+                android:id="@id/tv_data_downloads_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_data_content" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_data_install"
+                style="@style/detail_card_data_content_s" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:layout_gravity="start|center|top"
+            android:orientation="vertical"
+            android:id="@id/ll_min_age"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1">
+            <TextView
+                android:textSize="@dimen/detail_ageadapter_data_card_text_size_caption"
+                android:id="@id/tv_data_minAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_data_content" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:id="@id/tv_data_minAge_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/detail_card_data_content_s" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:orientation="vertical"
+            android:id="@id/detail_safe_entrance_layout"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_list_padding_vertical_ageadapter_huge_level1"
+            android:baselineAligned="false"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/detail_data_safe_entrance_icon"
+                    android:focusable="false"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/ui_24_dp"
+                    android:layout_height="@dimen/ui_24_dp"
+                    android:layout_marginEnd="@dimen/ui_4_dp" />
+                <TextView
+                    android:textSize="@dimen/detail_ageadapter_data_card_text_size_caption"
+                    android:id="@id/detail_data_safe_entrance_text_top"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_data_safe_entrance_top"
+                    style="@style/detail_card_data_content" />
+            </LinearLayout>
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:id="@id/detail_data_safe_entrance_text_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_data_safe_entrance_sub"
+                style="@style/detail_card_data_content_s" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

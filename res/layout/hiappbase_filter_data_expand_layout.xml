@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.foundation.ui.framework.cardframe.widget.FilterDataLayout
+    android:id="@id/filter_data_expand_layout_id"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_list_height_single_text_line"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

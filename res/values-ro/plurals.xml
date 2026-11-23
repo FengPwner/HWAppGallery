@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">S-au găsit %2$d aplicații suspecte (inclusiv %1$s)</item>
+        <item quantity="one">S-a găsit %2$d aplicație suspectă (%1$s)</item>
+        <item quantity="few">S-au găsit %2$d aplicații suspecte (inclusiv %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">S-au găsit %2$d de aplicații neutilizate (incl. %1$s)</item>
+        <item quantity="one">S-a găsit %2$d aplicație neutilizată (%1$s)</item>
+        <item quantity="few">S-au găsit %2$d aplicații neutilizate (incl. %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d aplicații neutilizate</item>
+        <item quantity="one">%d aplicație neutilizată</item>
+        <item quantity="few">%d aplicații neutilizate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d aplicații cu comportament malițios gestionate</item>
+        <item quantity="one">%d aplicație cu comportament malițios gestionată</item>
+        <item quantity="few">%d aplicații cu comportament malițios gestionate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d aplicații cu comportament malițios detectate</item>
+        <item quantity="one">%d aplicație cu comportament malițios detectată</item>
+        <item quantity="few">%d aplicații cu comportament malițios detectate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d aplicații înșelătoare gestionate</item>
+        <item quantity="one">%d aplicație înșelătoare gestionată</item>
+        <item quantity="few">%d aplicații înșelătoare gestionate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d aplicații înșelătoare detectate</item>
+        <item quantity="one">%d aplicație înșelătoare detectată</item>
+        <item quantity="few">%d aplicații înșelătoare detectate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d aplicații cu riscuri de confidențialitate gestionate</item>
+        <item quantity="one">%d aplicație cu riscuri de confidențialitate gestionată</item>
+        <item quantity="few">%d aplicații cu riscuri de confidențialitate gestionate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d aplicații cu riscuri de confidențialitate detectate</item>
+        <item quantity="one">%d aplicație cu riscuri de confidențialitate detectată</item>
+        <item quantity="few">%d aplicații cu riscuri de confidențialitate detectate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d aplicații cu amenințări de securitate gestionate</item>
+        <item quantity="one">%d aplicație cu amenințări de securitate gestionată</item>
+        <item quantity="few">%d aplicații cu amenințări de securitate gestionate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d aplicații cu amenințări de securitate detectate</item>
+        <item quantity="one">%d aplicație cu amenințări de securitate detectată</item>
+        <item quantity="few">%d aplicații cu amenințări de securitate detectate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d aplicații cu viruși gestionate</item>
+        <item quantity="one">%d aplicație cu viruși gestionată</item>
+        <item quantity="few">%d aplicații cu viruși gestionate</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d aplicații cu viruși detectate</item>
+        <item quantity="one">%d aplicație cu viruși detectată</item>
+        <item quantity="few">%d aplicații cu viruși detectate</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d elemente optimizate</item>
+        <item quantity="one">%d element optimizat</item>
+        <item quantity="few">%d elemente optimizate</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">S-au detectat %d de probleme</item>
+        <item quantity="one">S-a detectat %d problemă</item>
+        <item quantity="few">S-au detectat %d probleme</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d aplicații scanate</item>
+        <item quantity="one">%d aplicație scanată</item>
+        <item quantity="few">%d aplicații scanate</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Acum %d de zile</item>
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="few">Acum %d zile</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d amenințări</item>
+        <item quantity="one">%d amenințare</item>
+        <item quantity="few">%d amenințări</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d (de) aplicații scanate</item>
+        <item quantity="one">%d aplicație scanată</item>
+        <item quantity="few">%d (de) aplicații scanate</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d (de) amenințări pentru aplicații</item>
+        <item quantity="one">%d amenințare pentru aplicații</item>
+        <item quantity="few">%d (de) amenințări pentru aplicații</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d (de) aplicații suspecte găsite în ultimele %1$d (de) zile. Vizualizare detalii >></item>
+        <item quantity="one">%2$d aplicație suspectă găsită în ultimele %1$d (de) zile. Vizualizare detalii >></item>
+        <item quantity="few">%2$d (de) aplicații suspecte găsite în ultimele %1$d (de) zile. Vizualizare detalii >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d (de) aplicații scanate în ultimele %1$d (de) zile. Vizualizați detalii >></item>
+        <item quantity="one">%2$d aplicație scanată în ultimele %1$d (de) zile. Vizualizați detalii >></item>
+        <item quantity="few">%2$d (de) aplicații scanate în ultimele %1$d (de) zile. Vizualizați detalii >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Se pot comprima %d de aplicații</item>
+        <item quantity="one">Se poate comprima %d aplicație</item>
+        <item quantity="few">Se pot comprima %d aplicații</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">S-au detectat %d de aplicații necunoscute.</item>
+        <item quantity="one">S-a detectat %d aplicație necunoscută.</item>
+        <item quantity="few">S-au detectat %d aplicații necunoscute.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Aplicații compresibile (%d)</item>
+        <item quantity="one">Aplicații comprimabile (%d)</item>
+        <item quantity="few">Aplicații comprimabile (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Au fost găsite %d aplicații necunoscute. Verificați.</item>
+        <item quantity="one">A fost găsită %d aplicație necunoscută. Verificați.</item>
+        <item quantity="few">Au fost găsite %d aplicații necunoscute. Verificați.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Au fost găsite %d aplicații necunoscute</item>
+        <item quantity="one">A fost găsită %d aplicație necunoscută</item>
+        <item quantity="few">Au fost găsite %d aplicații necunoscute</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">Acum %d min</item>
+        <item quantity="one">Acum %d min</item>
+        <item quantity="few">Acum %d min</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Evaluare: %s</item>
+        <item quantity="one">Evaluare: %s</item>
+        <item quantity="few">Evaluare: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s include conținut cu restricții de vârstă. Atingând %3$s și descărcând această aplicație, confirmați că aveți mai mult de %2$d ani.</item>
+        <item quantity="one">%1$s include conținut cu restricții de vârstă. Atingând %3$s și descărcând această aplicație, confirmați că aveți mai mult de %2$d an.</item>
+        <item quantity="few">%1$s include conținut cu restricții de vârstă. Atingând %3$s și descărcând această aplicație, confirmați că aveți mai mult de %2$d ani.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Descărcări întrerupte: %1$d</item>
+        <item quantity="one">Descărcări întrerupte: %1$d</item>
+        <item quantity="few">Descărcări întrerupte: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s include conținut cu restricții de vârstă. Atingând %3$s și utilizând această aplicație, confirmați că aveți mai mult de %2$d ani.</item>
+        <item quantity="one">%1$s include conținut cu restricții de vârstă. Atingând %3$s și utilizând această aplicație, confirmați că aveți mai mult de %2$d an.</item>
+        <item quantity="few">%1$s include conținut cu restricții de vârstă. Atingând %3$s și utilizând această aplicație, confirmați că aveți mai mult de %2$d ani.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d de aprecieri negative</item>
+        <item quantity="one">%d apreciere negativă</item>
+        <item quantity="few">%d aprecieri negative</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d de aprecieri negative, ați apreciat negativ</item>
+        <item quantity="one">%d apreciere negativă, ați apreciat negativ</item>
+        <item quantity="few">%d aprecieri negative, ați apreciat negativ</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d de aprecieri</item>
+        <item quantity="one">%d apreciere</item>
+        <item quantity="few">%d aprecieri</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d de aprecieri, ați apreciat</item>
+        <item quantity="one">%d apreciere, ați apreciat</item>
+        <item quantity="few">%d aprecieri, ați apreciat</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d de stele</item>
+        <item quantity="one">%d stea</item>
+        <item quantity="few">%d stele</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d comentarii</item>
+        <item quantity="one">%1$d comentariu</item>
+        <item quantity="few">%1$d comentarii</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Acum %d min</item>
+        <item quantity="one">Acum %d min</item>
+        <item quantity="few">Acum %d min</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d evaluări</item>
+        <item quantity="one">%d evaluare</item>
+        <item quantity="few">%d evaluări</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d aprecieri</item>
+        <item quantity="one">%1$d apreciere</item>
+        <item quantity="few">%1$d aprecieri</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d răspunsuri</item>
+        <item quantity="one">%1$d răspuns</item>
+        <item quantity="few">%1$d răspunsuri</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Toate răspunsurile (%1$d)</item>
+        <item quantity="one">Toate răspunsurile (%1$d)</item>
+        <item quantity="few">Toate răspunsurile (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Trebuie să fi jucat timp de cel puțin %1$d minute pentru a comenta.</item>
+        <item quantity="one">Trebuie să fi jucat timp de cel puțin %1$d minut pentru a comenta.</item>
+        <item quantity="few">Trebuie să fi jucat timp de cel puțin %1$d minute pentru a comenta.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s aplicații sunt în curs de instalare</item>
+        <item quantity="one">%1$s aplicație este în curs de instalare</item>
+        <item quantity="few">%1$s aplicații sunt în curs de instalare</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d elemente selectate</item>
+        <item quantity="one">%1$d element selectat</item>
+        <item quantity="few">%1$d elemente selectate</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Dezinstalați aplicațiile selectate, inclusiv %1$s?</item>
+        <item quantity="one">Dezinstalați %1$s?</item>
+        <item quantity="few">Dezinstalați aplicațiile selectate, inclusiv %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Dezinstalați %1$s și %2$s alte aplicații din %3$s?</item>
+        <item quantity="one">Dezinstalați %1$s și %2$s altă aplicație din %3$s?</item>
+        <item quantity="few">Dezinstalați %1$s și %2$s alte aplicații din %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Dezinstalați %2$s aplicații, inclusiv %1$s?</item>
+        <item quantity="one">Dezinstalați %2$s aplicație, inclusiv %1$s?</item>
+        <item quantity="few">Dezinstalați %2$s aplicații, inclusiv %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Ștergeți %1$s înregistrări?</item>
+        <item quantity="one">Ștergeți %1$s înregistrare?</item>
+        <item quantity="few">Ștergeți %1$s înregistrări?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Următoarele %1$d aplicații necesită anumite permisiuni:</item>
+        <item quantity="one">Următoarea %1$d aplicație necesită anumite permisiuni:</item>
+        <item quantity="few">Următoarele %1$d aplicații necesită anumite permisiuni:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d evaluări</item>
+        <item quantity="one">%1$d evaluare</item>
+        <item quantity="few">%1$d evaluări</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM evaluări</item>
+        <item quantity="one">%1$sM evaluări</item>
+        <item quantity="few">%1$sM evaluări</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK evaluări</item>
+        <item quantity="one">%1$sK evaluări</item>
+        <item quantity="few">%1$sK evaluări</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s de activități</item>
+        <item quantity="one">%1$s activitate</item>
+        <item quantity="few">%1$s activități</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Au rămas mai puțin de %1$s minute din timpul de joc. Salvați-vă jocul cât mai curând posibil.</item>
+        <item quantity="one">A rămas mai puțin de %1$s minut din timpul de joc. Salvați-vă jocul cât mai curând posibil.</item>
+        <item quantity="few">Au rămas mai puțin de %1$s minute din timpul de joc. Salvați-vă jocul cât mai curând posibil.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Doar %d de minute rămase.</item>
+        <item quantity="one">Doar %d minut rămas.</item>
+        <item quantity="few">Doar %d minute rămase.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d de secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d de comentarii</item>
+        <item quantity="one">%1$d comentariu</item>
+        <item quantity="few">%1$d comentarii</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Cu %d de minute în urmă</item>
+        <item quantity="one">Cu %d minut în urmă</item>
+        <item quantity="few">Cu %d minute în urmă</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Cel mult %1$d de caractere</item>
+        <item quantity="one">Cel mult %1$d caracter</item>
+        <item quantity="few">Cel mult %1$d caractere</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Introduceți cel puțin %1$d de caractere</item>
+        <item quantity="one">Introduceți cel puțin %1$d caracter</item>
+        <item quantity="few">Introduceți cel puțin %1$d caractere</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Până la %1$d de imagini
+Max %2$s fiecare"</item>
+        <item quantity="one">"Până la %1$d imagine
+Max %2$s fiecare"</item>
+        <item quantity="few">"Până la %1$d imagini
+Max %2$s fiecare"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Maxim %d de imagini pentru acest tip de problemă</item>
+        <item quantity="one">Maxim %d imagine pentru acest tip de problemă</item>
+        <item quantity="few">Maxim %d imagini pentru acest tip de problemă</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s de stele</item>
+        <item quantity="one">%1$s stea</item>
+        <item quantity="few">%1$s stele</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Parolă introdusă greșit de %1$d ori. Încercați din nou după %2$d min.</item>
+        <item quantity="one">Parolă introdusă greșit de %1$d ori. Încercați din nou după %2$d min.</item>
+        <item quantity="few">Parolă introdusă greșit de %1$d ori. Încercați din nou după %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">Au participat %1$sB persoane</item>
+        <item quantity="one">Au participat %1$sB persoane</item>
+        <item quantity="few">Au participat %1$sB persoane</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">Au participat %1$sM persoane</item>
+        <item quantity="one">Au participat %1$sM persoane</item>
+        <item quantity="few">Au participat %1$sM persoane</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">Au participat %1$s persoane</item>
+        <item quantity="one">Au participat %1$s persoane</item>
+        <item quantity="few">Au participat %1$s persoane</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">Au participat %1$sK persoane</item>
+        <item quantity="one">Au participat %1$sK persoane</item>
+        <item quantity="few">Au participat %1$sK persoane</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB persoane au cumpărat asta</item>
+        <item quantity="one">%1$sB persoane au cumpărat asta</item>
+        <item quantity="few">%1$sB persoane au cumpărat asta</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM persoane au cumpărat asta</item>
+        <item quantity="one">%1$sM persoane au cumpărat asta</item>
+        <item quantity="few">%1$sM persoane au cumpărat asta</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s persoane au cumpărat asta</item>
+        <item quantity="one">%1$s persoană a cumpărat asta</item>
+        <item quantity="few">%1$s persoane au cumpărat asta</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK persoane au cumpărat asta</item>
+        <item quantity="one">%1$sK persoane au cumpărat asta</item>
+        <item quantity="few">%1$sK persoane au cumpărat asta</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s evaluări</item>
+        <item quantity="one">%1$s evaluare</item>
+        <item quantity="few">%1$s evaluări</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Evaluare, %1$s stele</item>
+        <item quantity="one">Evaluare, %1$s stea</item>
+        <item quantity="few">Evaluare, %1$s stele</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Evaluat cu %1$s stele</item>
+        <item quantity="one">Evaluat cu %1$s stea</item>
+        <item quantity="few">Evaluat cu %1$s stele</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Instalați oricum (%1$d)</item>
+        <item quantity="one">Instalați oricum (%1$d)</item>
+        <item quantity="few">Instalați oricum (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d de secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d elemente selectate</item>
+        <item quantity="one">%1$d element selectat</item>
+        <item quantity="few">%1$d elemente selectate</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Descrierea trebuie să aibă cel puțin %d caractere. Adăugați capturi de ecran dacă este posibil.</item>
+        <item quantity="one">Descrierea trebuie să aibă cel puțin %d caracter. Adăugați capturi de ecran dacă este posibil.</item>
+        <item quantity="few">Descrierea trebuie să aibă cel puțin %d caractere. Adăugați capturi de ecran dacă este posibil.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ore</item>
+        <item quantity="one">%1$d oră</item>
+        <item quantity="few">%1$d ore</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minute</item>
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d secunde</item>
+        <item quantity="one">%1$d secundă</item>
+        <item quantity="few">%1$d secunde</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Postări: %1$s</item>
+        <item quantity="one">Postări: %1$s</item>
+        <item quantity="few">Postări: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d aprecieri</item>
+        <item quantity="one">%d apreciere</item>
+        <item quantity="few">%d aprecieri</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d răspunsuri</item>
+        <item quantity="one">%d răspuns</item>
+        <item quantity="few">%d răspunsuri</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d vizualizări</item>
+        <item quantity="one">%d vizualizare</item>
+        <item quantity="few">%d vizualizări</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Lăsați un comentariu (%1$d comentarii în total)</item>
+        <item quantity="one">Lăsați un comentariu (%1$d comentariu în total)</item>
+        <item quantity="few">Lăsați un comentariu (%1$d comentarii în total)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Vizualizați toate cele %1$d răspunsuri</item>
+        <item quantity="one">Vizualizați %1$d răspuns</item>
+        <item quantity="few">Vizualizați toate cele %1$d răspunsuri</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s de participanți</item>
+        <item quantity="one">%1$s participant</item>
+        <item quantity="few">%1$s participanți</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Selectați cel mult %s de răspunsuri</item>
+        <item quantity="one">Selectați cel mult %s răspuns</item>
+        <item quantity="few">Selectați cel mult %s răspunsuri</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Variante multiple (selectați %1$d)</item>
+        <item quantity="one">Variante multiple (selectați %1$d)</item>
+        <item quantity="few">Variante multiple (selectați %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Selectați %s de răspunsuri</item>
+        <item quantity="one">Selectați %s răspuns</item>
+        <item quantity="few">Selectați %s răspunsuri</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s de voturi</item>
+        <item quantity="one">%1$s vot</item>
+        <item quantity="few">%1$s voturi</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Această aplicație necesită %1$d permisiuni. Puteți revoca oricând aceste permisiuni din Setări > Aplicații > Aplicații.</item>
+        <item quantity="one">Această aplicație necesită %1$d permisiune. Puteți revoca oricând această permisiune din Setări > Aplicații > Aplicații.</item>
+        <item quantity="few">Această aplicație necesită %1$d permisiuni. Puteți revoca oricând aceste permisiuni din Setări > Aplicații > Aplicații.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Această aplicație necesită %1$d de permisiuni. Le puteți revoca oricând din Setări > Aplicații &amp; servicii > Aplicații.</item>
+        <item quantity="one">Această aplicație necesită %1$d permisiune. O puteți revoca oricând din Setări > Aplicații &amp; servicii > Aplicații.</item>
+        <item quantity="few">Această aplicație necesită %1$d permisiuni. Le puteți revoca oricând din Setări > Aplicații &amp; servicii > Aplicații.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d de cadouri</item>
+        <item quantity="one">%1$d cadou</item>
+        <item quantity="few">%1$d cadouri</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+        <item quantity="few">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d stele</item>
+        <item quantity="one">%1$d stea</item>
+        <item quantity="few">%1$d stele</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Evaluare: %s</item>
+        <item quantity="one">Evaluare: %s</item>
+        <item quantity="few">Evaluare: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s evaluări</item>
+        <item quantity="one">%1$s evaluare</item>
+        <item quantity="few">%1$s evaluări</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s de deschideri</item>
+        <item quantity="one">%1$s deschidere</item>
+        <item quantity="few">%1$s deschideri</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d recomandări noi</item>
+        <item quantity="one">%d recomandare nouă</item>
+        <item quantity="few">%d recomandări noi</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d aplicații au fost actualizate</item>
+        <item quantity="one">%1$d aplicație a fost actualizată</item>
+        <item quantity="few">%1$d aplicații au fost actualizate</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d aplicații sunt actualizate</item>
+        <item quantity="one">%1$d aplicație este actualizată</item>
+        <item quantity="few">%1$d aplicații sunt actualizate</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Imaginea nu poate fi mai mare de %1$d MB.</item>
+        <item quantity="one">Imaginea nu poate fi mai mare de %1$d MB.</item>
+        <item quantity="few">Imaginea nu poate fi mai mare de %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d fotografii</item>
+        <item quantity="one">%d fotografie</item>
+        <item quantity="few">%d fotografii</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d selectate</item>
+        <item quantity="one">%1$d/%2$d selectate</item>
+        <item quantity="few">%1$d/%2$d selectate</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d de videoclipuri</item>
+        <item quantity="one">%d videoclip</item>
+        <item quantity="few">%d videoclipuri</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d beneficii</item>
+        <item quantity="one">%d beneficiu</item>
+        <item quantity="few">%d beneficii</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Ștergere totală instalări în pauză (%1$s aplicații, eliberare %2$s)</item>
+        <item quantity="one">Ștergere totală instalări în pauză (%1$s aplicație, eliberare %2$s)</item>
+        <item quantity="few">Ștergere totală instalări în pauză (%1$s aplicații, eliberare %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d selectate)"</item>
+        <item quantity="one">" 
+(%1$d selectată)"</item>
+        <item quantity="few">" 
+(%1$d selectate)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Pagina %1$d</item>
+        <item quantity="one">Pagina %1$d</item>
+        <item quantity="few">Pagina %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">S-au întrerupt %1$s instalări.</item>
+        <item quantity="one">S-a întrerupt %1$s instalare.</item>
+        <item quantity="few">S-au întrerupt %1$s instalări.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Cu %d de minute în urmă</item>
+        <item quantity="one">Cu %d minut în urmă</item>
+        <item quantity="few">Cu %d minute în urmă</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d în plus</item>
+        <item quantity="one">%1$d în plus</item>
+        <item quantity="few">%1$d în plus</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s descărcări</item>
+        <item quantity="one">%1$s descărcare</item>
+        <item quantity="few">%1$s descărcări</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Evaluat %1$s stele</item>
+        <item quantity="one">Evaluat %1$s stea</item>
+        <item quantity="few">Evaluat %1$s stele</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Instalarea programată pentru %1$s aplicații încheiată</item>
+        <item quantity="one">Instalarea programată pentru %1$s aplicație încheiată</item>
+        <item quantity="few">Instalarea programată pentru %1$s aplicații încheiată</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d aplicații vor începe descărcarea când vă conectați la Wi-Fi.</item>
+        <item quantity="one">%1$d aplicație va începe descărcarea când vă conectați la Wi-Fi.</item>
+        <item quantity="few">%1$d aplicații vor începe descărcarea când vă conectați la Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s au pre-comandat)</item>
+        <item quantity="one">(%1$s au pre-comandat)</item>
+        <item quantity="few">(%1$s au rezervat)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d milioane rezervate)</item>
+        <item quantity="one">(1 milion rezervat)</item>
+        <item quantity="few">(%1$d milioane rezervate)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d mii de rezervări)</item>
+        <item quantity="one">(1000 rezervate)</item>
+        <item quantity="few">(%1$d mii de rezervări)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Instalați %1$s aplicații?</item>
+        <item quantity="one">Instalați %1$s aplicație?</item>
+        <item quantity="few">Instalați %1$s aplicații?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s instalări în curs.</item>
+        <item quantity="one">%1$s instalare în curs.</item>
+        <item quantity="few">%1$s instalări în curs.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">din %1$d</item>
+        <item quantity="one">din %1$d</item>
+        <item quantity="few">din %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Căutare în %d de aplicații locale</item>
+        <item quantity="one">Căutare în %d aplicație locală</item>
+        <item quantity="few">Căutare în %d aplicații locale</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Restabiliți %d aplicații în lista de actualizare și permiteți actualizarea acestora.</item>
+        <item quantity="one">Restabiliți %d aplicație în lista de actualizare și permiteți actualizarea acesteia.</item>
+        <item quantity="few">Restabiliți %d aplicații în lista de actualizare și permiteți actualizarea acestora.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s actualizări ale aplicației sunt disponibile</item>
+        <item quantity="one">%1$s actualizare a aplicației este disponibilă</item>
+        <item quantity="few">%1$s actualizări ale aplicației sunt disponibile</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s actualizări aplicații. Mărime totală: %2$s.</item>
+        <item quantity="one">%1$s actualizare aplicație. Mărime: %2$s.</item>
+        <item quantity="few">%1$s actualizări aplicații. Mărime totală: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d (de) actualizări de aplicații disponibile. Dimensiune: %2$s.</item>
+        <item quantity="one">%1$d actualizare de aplicație disponibilă. Dimensiune: %2$s.</item>
+        <item quantity="few">%1$d (de) actualizări de aplicații disponibile. Dimensiune: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Neutilizată de %d de zile</item>
+        <item quantity="one">Neutilizată de %d zi</item>
+        <item quantity="few">Neutilizată de %d zile</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d de secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Ștergeți %d sarcini și fișierele descărcate?</item>
+        <item quantity="one">Ștergeți %d sarcină și fișierul descărcat?</item>
+        <item quantity="few">Ștergeți %d sarcini și fișierele descărcate?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Număr de check-in-uri zilnice consecutive: %d</item>
+        <item quantity="one">Număr de check-in-uri zilnice consecutive: %d</item>
+        <item quantity="few">Număr de check-in-uri zilnice consecutive: %d</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Ziua %d</item>
+        <item quantity="one">Ziua %d</item>
+        <item quantity="few">Ziua %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d aplicații descărcate</item>
+        <item quantity="one">%1$d aplicație descărcată</item>
+        <item quantity="few">%1$d aplicații descărcate</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Evaluare: %s</item>
+        <item quantity="one">Evaluare: %s</item>
+        <item quantity="few">Evaluare: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">Acum %d min</item>
+        <item quantity="one">Acum %d min</item>
+        <item quantity="few">Acum %d min</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d aplicații, inclusiv %1$s</item>
+        <item quantity="one">%2$d aplicație (%1$s)</item>
+        <item quantity="few">%2$d aplicații, inclusiv %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Ecuson cu punct roșu, %1$s notificări necitite</item>
+        <item quantity="one">Ecuson cu punct roșu, %1$s notificare necitită</item>
+        <item quantity="few">Ecuson cu punct roșu, %1$s notificări necitite</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d oferte</item>
+        <item quantity="one">%d ofertă</item>
+        <item quantity="few">%d oferte</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d cadouri pentru comunitate</item>
+        <item quantity="one">%d cadou pentru comunitate</item>
+        <item quantity="few">%d cadouri pentru comunitate</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d cadouri</item>
+        <item quantity="one">%d cadou</item>
+        <item quantity="few">%d cadouri</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d persoane din regiunea dvs. doresc acest lucru</item>
+        <item quantity="one">%d persoană din regiunea dvs. dorește acest lucru</item>
+        <item quantity="few">%d persoane din regiunea dvs. doresc acest lucru</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d elemente selectate</item>
+        <item quantity="one">%1$d element selectat</item>
+        <item quantity="few">%1$d elemente selectate</item>
+    </plurals>
+</resources>

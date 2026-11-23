@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/web_whole_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/title_layout"
+        layout="@layout/c_webview_webview_title_layout" />
+    <TextView
+        android:textSize="@dimen/emui_text_size_subtitle2"
+        android:textColor="@color/emui_functional_blue"
+        android:id="@id/find_more"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginBottom="@dimen/emui_dimens_default_bottom_fixed"
+        android:text="@string/privacy_more"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="center" />
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/area_webview_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="0"
+        android:layout_below="@id/title_layout"
+        style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    <WebView
+        android:id="@id/activity_area_webview"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/find_more"
+        android:layout_below="@id/area_webview_progress_bar" />
+    <include
+        android:id="@id/web_error_layout"
+        android:visibility="gone"
+        layout="@layout/agreement_web_error_global" />
+</RelativeLayout>

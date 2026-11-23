@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingStart="0.0dip"
+            android:paddingEnd="0.0dip">
+            <FrameLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@id/app_icon_container"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_l"
+                android:importantForAccessibility="no">
+                <ImageView
+                    android:id="@id/app_icon_third"
+                    android:background="@drawable/uninstall_dialog_appicon"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/ui_64_dp"
+                    android:layout_height="@dimen/ui_64_dp"
+                    android:scaleType="fitCenter"
+                    android:alpha="0.4"
+                    android:importantForAccessibility="no"
+                    android:layout_marginStart="@dimen/ui_32_dp"
+                    app:corner_type="appicon" />
+                <ImageView
+                    android:id="@id/app_icon_second"
+                    android:background="@drawable/uninstall_dialog_appicon"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/ui_64_dp"
+                    android:layout_height="@dimen/ui_64_dp"
+                    android:scaleType="fitCenter"
+                    android:alpha="0.9"
+                    android:importantForAccessibility="no"
+                    android:layout_marginStart="@dimen/ui_16_dp"
+                    app:corner_type="appicon" />
+                <ImageView
+                    android:id="@id/app_icon_first"
+                    android:background="@drawable/uninstall_dialog_appicon"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/ui_64_dp"
+                    android:layout_height="@dimen/ui_64_dp"
+                    android:scaleType="fitCenter"
+                    android:importantForAccessibility="no"
+                    app:corner_type="appicon" />
+            </FrameLayout>
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:gravity="center"
+                android:id="@id/uninstall_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:id="@id/uninstall_content"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m" />
+            <com.huawei.uikit.phone.hwcheckbox.widget.HwCheckBox
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:id="@id/button_check_box"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/size_48dp"
+                android:text="@string/appuninstall_app_noticebox"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:paddingStart="@dimen/padding_m"
+                style="@style/Widget.Emui.HwCheckBox.Normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

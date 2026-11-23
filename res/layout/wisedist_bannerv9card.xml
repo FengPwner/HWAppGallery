@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/relativelayout_banners"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <com.huawei.appmarket.service.store.awk.widget.topbanner.DotsViewPager
+            android:id="@id/dotsviewpager"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            app:hwViewPagerSupportLoop="true" />
+        <com.huawei.appmarket.service.store.awk.widget.topbanner.BannerDotsPageIndicator
+            android:id="@id/hwdotspageindicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_card_bottom_margin_default"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:importantForAccessibility="no"
+            app:hwIsShowAsDot="true"
+            style="@style/Widget.Emui.HwDotsPageIndicator.Translucent" />
+    </RelativeLayout>
+</RelativeLayout>

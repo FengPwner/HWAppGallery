@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    android:minWidth="120.0dip"
+    android:minHeight="120.0dip"
+    android:updatePeriodMillis="21600000"
+    android:initialLayout="@layout/hiapp_appwidget_medium"
+    android:previewImage="@drawable/hiapp_medium_widget_preview"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

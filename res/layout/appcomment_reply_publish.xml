@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48.0dip"
+    android:paddingStart="@dimen/margin_l"
+    android:paddingEnd="@dimen/margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/btn_reply_submit_layout"
+        android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/appcomment_comment_submit"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@id/btn_reply_submit_textview"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/aguikit_ic_public_email_send"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwedittext.widget.HwCounterTextLayout
+        android:id="@id/reply_content_layout"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:layoutDirection="locale"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+        android:layout_toStartOf="@id/btn_reply_submit_layout"
+        app:hwMaxLength="800"
+        app:hwShapeMode="bubble">
+        <com.huawei.appgallery.appcomment.ui.view.ReplyEditText
+            android:id="@id/reply_content_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="800"
+            android:textDirection="locale"
+            android:layoutDirection="locale" />
+    </com.huawei.uikit.hwedittext.widget.HwCounterTextLayout>
+</RelativeLayout>

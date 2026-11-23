@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="start|center"
+        android:id="@id/more_links_website"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toStartOf="@id/more_links_get"
+        android:layout_alignParentStart="true"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:id="@id/more_links_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/permit_app_kit_get"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.Widget.Button.TextButton3" />
+</RelativeLayout>

@@ -1,0 +1,90 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "视频自动播放",
+      "maxRows": 1,
+      "layoutName": "settingvideoplay2card"
+    },
+    {
+      "layoutId": 2,
+      "name": "应用详情自动翻译",
+      "maxRows": 1,
+      "layoutName": "appdetailautotranslate2"
+    },
+    {
+      "layoutId": 3,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividercard"
+    },
+    {
+      "layoutId": 4,
+      "name": "云游戏秒玩设置",
+      "maxRows": 1,
+      "layoutName": "settingcloudgamecard"
+    },
+    {
+      "layoutId": 5,
+      "name": "分割线",
+      "maxRows": 1,
+      "layoutName": "settingdividercard"
+    },
+    {
+      "layoutId": 6,
+      "name": "应用体验加速包",
+      "maxRows": 1,
+      "layoutName": "settinggamespeedupcard"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "视频自动播放",
+      "layoutName": "settingvideoplay2card",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "应用详情自动翻译",
+      "layoutName": "appdetailautotranslate2",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "分割线",
+      "layoutName": "settingdividercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 4,
+      "name": "云游戏秒玩设置",
+      "layoutName": "settingcloudgamecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 5,
+      "name": "分割线",
+      "layoutName": "settingdividercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 6,
+      "name": "应用体验加速包",
+      "layoutName": "settinggamespeedupcard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

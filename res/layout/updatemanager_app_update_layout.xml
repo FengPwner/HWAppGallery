@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/top_headLayout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@id/hiappbase_loading_layout_id"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            android:layout_gravity="top"
+            android:id="@id/pre_download_switch_state_card_default_view"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/updatemanager_pre_download_choose_state_card" />
+        <include
+            android:layout_gravity="top"
+            android:id="@id/update_tip_banner_card_default_view"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/updatemanager_update_tip_card" />
+        <include
+            android:id="@id/default_view"
+            android:visibility="gone"
+            layout="@layout/update_manager_view_bottom" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/data_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.huawei.appgallery.updatemanager.ui.widget.UpdateListView
+                android:id="@id/applistview"
+                android:paddingBottom="@dimen/appgallery_card_elements_margin_xl"
+                android:scrollbars="none"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:drawSelectorOnTop="true"
+                android:divider="@null"
+                android:dividerHeight="0.0dip"
+                android:layout_weight="1.0"
+                bounceViews:bounceEnable="true"
+                bounceViews:hwCutoutMode="never" />
+            <RelativeLayout
+                android:id="@id/bottomLayout"
+                android:paddingTop="@dimen/appgallery_default_padding_bottom_fixed"
+                android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                    android:textSize="@dimen/appgallery_text_size_button2"
+                    android:gravity="center"
+                    android:id="@id/updateAllBtn"
+                    android:paddingLeft="@dimen/ui_8_dp"
+                    android:paddingRight="@dimen/ui_8_dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="28.0dip"
+                    android:singleLine="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                    android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                    bounceViews:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small"
+                    bounceViews:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+                    style="@style/Widget.Emui.HwButton.Small.Emphasize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

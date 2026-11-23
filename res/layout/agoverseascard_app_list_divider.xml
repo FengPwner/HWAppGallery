@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:maxHeight="@dimen/appgallery_divider_vertical_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/applistcard_item_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="76.0dip"
+        android:layout_marginEnd="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

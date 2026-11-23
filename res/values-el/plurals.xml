@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Βρέθηκαν %2$d ύποπτες εφαρμογές (συμπεριλαμβανομένου %1$s)</item>
+        <item quantity="one">Βρέθηκε %2$d ύποπτη εφαρμογή (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Βρέθηκαν %2$d εφαρμογές που δεν χρησιμοποιούνται (συμπεριλαμβανομένου %1$s)</item>
+        <item quantity="one">Βρέθηκε %2$d εφαρμογή που δεν χρησιμοποιείται (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d αχρησιμοποίητες εφαρμογές</item>
+        <item quantity="one">%d αχρησιμοποίητη εφαρμογή</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Αντιμετωπίστηκαν %d εφαρμογές με κακόβουλη συμπεριφορά</item>
+        <item quantity="one">Αντιμετωπίστηκε %d εφαρμογή με κακόβουλη συμπεριφορά</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Ανίχνευση %d εφαρμογών με κακόβουλη συμπεριφορά</item>
+        <item quantity="one">Ανίχνευση %d εφαρμογής με κακόβουλη συμπεριφορά</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Αντιμετωπίστηκαν %d εφαρμογές απάτης</item>
+        <item quantity="one">Αντιμετωπίστηκε %d εφαρμογή απάτης</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Ανίχνευση %d εφαρμογών απάτης</item>
+        <item quantity="one">Ανίχνευση %d εφαρμογής απάτης</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Αντιμετωπίστηκαν %d εφαρμογές με κινδύνους απορρήτου</item>
+        <item quantity="one">Αντιμετωπίστηκε %d εφαρμογή με κινδύνους απορρήτου</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Ανίχνευση %d εφαρμογών με κινδύνους απορρήτου</item>
+        <item quantity="one">Ανίχνευση %d εφαρμογής με κινδύνους απορρήτου</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Αντιμετωπίστηκαν %d εφαρμογές με απειλές ασφαλείας</item>
+        <item quantity="one">Αντιμετωπίστηκε %d εφαρμογή με απειλές ασφαλείας</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Ανίχνευση %d εφαρμογών με απειλές ασφαλείας</item>
+        <item quantity="one">Ανίχνευση %d εφαρμογής με απειλές ασφαλείας</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Αντιμετωπίστηκαν %d εφαρμογές με ιούς</item>
+        <item quantity="one">Αντιμετωπίστηκε %d εφαρμογή με ιούς</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Ανίχνευση %d εφαρμογών με ιούς</item>
+        <item quantity="one">Ανίχνευση %d εφαρμογής με ιούς</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d στοιχεία βελτιστοποιήθηκαν</item>
+        <item quantity="one">%d στοιχείο βελτιστοποιήθηκε</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Ανιχνεύτηκαν %d προβλήματα</item>
+        <item quantity="one">Ανιχνεύτηκε %d πρόβλημα</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Σαρώθηκαν %d εφαρμογές</item>
+        <item quantity="one">Σαρώθηκε %d εφαρμογή</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Πριν από %d ημέρες</item>
+        <item quantity="one">Πριν από %d ημέρα</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d απειλές</item>
+        <item quantity="one">%d απειλή</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Σαρώθηκαν %d εφαρμογές</item>
+        <item quantity="one">Σαρώθηκε %d εφαρμογή</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d απειλές εφαρμογής</item>
+        <item quantity="one">%d απειλή εφαρμογής</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d ύποπτες εφαρμογές βρέθηκαν τις τελευταίες %1$d ημέρες. Προβολή στοιχείων >></item>
+        <item quantity="one">%2$d ύποπτη εφαρμογή βρέθηκε τις τελευταίες %1$d ημέρες. Προβολή στοιχείων >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d εφαρμογές σαρώθηκαν τις τελευταίες %1$d ημέρες. Προβολή στοιχείων >></item>
+        <item quantity="one">%2$d εφαρμογή σαρώθηκε τις τελευταίες %1$d ημέρες. Προβολή στοιχείων >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Μπορούν να συμπιεστούν %d εφαρμογές</item>
+        <item quantity="one">Μπορεί να συμπιεστεί %d εφαρμογή</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Ανιχνεύτηκαν %d άγνωστες εφαρμογές.</item>
+        <item quantity="one">Ανιχνεύτηκε %d άγνωστη εφαρμογή.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Συμπιέσιμες εφαρμογές (%d)</item>
+        <item quantity="one">Συμπιέσιμες εφαρμογές (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Βρέθηκαν %d άγνωστες εφαρμογές. Ελέγξτε.</item>
+        <item quantity="one">Βρέθηκε %d άγνωστη εφαρμογή. Ελέγξτε.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Βρέθηκαν %d άγνωστες εφαρμογές</item>
+        <item quantity="one">Βρέθηκε %d άγνωστη εφαρμογή</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">πριν από %d λεπ.</item>
+        <item quantity="one">πριν από %d λεπ.</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Αξιολόγηση: %s</item>
+        <item quantity="one">Αξιολόγηση: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Η εφαρμογή %1$s περιλαμβάνει περιεχόμενο με περιορισμό ηλικίας. Αν πατήσετε %3$s και πραγματοποιήσετε λήψη αυτής της εφαρμογής, επιβεβαιώνετε ότι είστε άνω των %2$d ετών.</item>
+        <item quantity="one">Η εφαρμογή %1$s περιλαμβάνει περιεχόμενο με περιορισμό ηλικίας. Αν αγγίξετε %3$s και πραγματοποιήσετε λήψη αυτής της εφαρμογής, επιβεβαιώνετε ότι είστε άνω του %2$d έτους.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Λήψεις σε παύση: %1$d</item>
+        <item quantity="one">Λήψεις σε παύση: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Η εφαρμογή %1$s περιλαμβάνει περιεχόμενο με περιορισμό ηλικίας. Αν πατήσετε %3$s και χρησιμοποιήσετε αυτήν την εφαρμογή, επιβεβαιώνετε ότι είστε άνω των %2$d ετών.</item>
+        <item quantity="one">Η εφαρμογή %1$s περιλαμβάνει περιεχόμενο με περιορισμό ηλικίας. Αν αγγίξετε %3$s και χρησιμοποιήσετε αυτήν την εφαρμογή, επιβεβαιώνετε ότι είστε άνω του %2$d έτους.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d επισημάνσεις Δεν μου αρέσει</item>
+        <item quantity="one">%d επισήμανση Δεν μου αρέσει</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d επισημάνσεις Δεν μου αρέσει, το επισημάνατε ως Δεν μου αρέσει</item>
+        <item quantity="one">%d επισήμανση Δεν μου αρέσει, το επισημάνατε ως Δεν μου αρέσει</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d επισημάνσεις Μου αρέσει</item>
+        <item quantity="one">%d επισήμανση Μου αρέσει</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d επισημάνσεις Μου αρέσει, το επισημάνατε ως Μου αρέσει</item>
+        <item quantity="one">%d επισήμανση Μου αρέσει, το επισημάνατε ως Μου αρέσει</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d αστέρια</item>
+        <item quantity="one">%d αστέρι</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d σχόλια</item>
+        <item quantity="one">%1$d σχόλιο</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d λεπτά πριν</item>
+        <item quantity="one">%d λεπτό πριν</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">Αξιολογήσεις %d</item>
+        <item quantity="one">Αξιολόγηση %d</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d επισημάνσεις Μου αρέσει</item>
+        <item quantity="one">%1$d επισήμανση Μου αρέσει</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d απαντήσεις</item>
+        <item quantity="one">%1$d απάντηση</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Όλες οι απαντήσεις (%1$d)</item>
+        <item quantity="one">Όλες οι απαντήσεις (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Πρέπει να έχετε παίξει για τουλάχιστον %1$d λεπτά για να σχολιάσετε.</item>
+        <item quantity="one">Πρέπει να έχετε παίξει για τουλάχιστον %1$d λεπτό για να σχολιάσετε.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s εφαρμογές εγκαθίστανται</item>
+        <item quantity="one">%1$s εφαρμογή εγκαθίσταται</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d επιλεγμένα στοιχεία</item>
+        <item quantity="one">%1$d επιλεγμένο στοιχείο</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Απεγκατάσταση των επιλεγμένων εφαρμογών, συμπεριλαμβανομένου του %1$s;</item>
+        <item quantity="one">Απεγκατάσταση της εφαρμογής %1$s;</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Απεγκατάσταση των άλλων εφαρμογών %1$s και %2$s από το %3$s;</item>
+        <item quantity="one">Απεγκατάσταση της άλλης εφαρμογής %1$s και %2$s από το %3$s;</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Απεγκατάσταση %2$s εφαρμογών, συμπεριλαμβανομένων των %1$s;</item>
+        <item quantity="one">Απεγκατάσταση της εφαρμογής %2$s, συμπεριλαμβανομένης της %1$s;</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Να διαγραφούν %1$s εγγραφές;</item>
+        <item quantity="one">Να διαγραφεί %1$s εγγραφή;</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Για τη χρήση των παρακάτω %1$d εφαρμογών απαιτείται η πρόσβασή τους σε ορισμένες άδειες:</item>
+        <item quantity="one">Για τη χρήση της παρακάτω %1$d εφαρμογής απαιτείται η πρόσβασή της σε ορισμένες άδειες:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d αξιολογήσεις</item>
+        <item quantity="one">%1$d αξιολόγηση</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s εκατομμύριο αξιολογήσεις</item>
+        <item quantity="one">%1$s εκατομμύριο αξιολογήσεις</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s000 αξιολογήσεις</item>
+        <item quantity="one">%1$s000 αξιολογήσεις</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s δραστηριότητες</item>
+        <item quantity="one">%1$s δραστηριότητα</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Απομένουν λιγότερα από %1$s λεπτά παιχνιδιού. Αποθηκεύστε το παιχνίδι σας το συντομότερο δυνατό.</item>
+        <item quantity="one">Απομένει λιγότερο από %1$s λεπτό παιχνιδιού. Αποθηκεύστε το παιχνίδι σας το συντομότερο δυνατό.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Απομένουν μόνο %d λεπτά.</item>
+        <item quantity="one">Απομένει μόνο %d λεπτό.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d σχόλια</item>
+        <item quantity="one">%1$d σχόλιο</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d λ. πριν</item>
+        <item quantity="one">%d λ. πριν</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Έως και %1$d χαρακτήρες</item>
+        <item quantity="one">Έως και %1$d χαρακτήρας</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Πληκτρολογήστε τουλάχιστον %1$d χαρακτήρες</item>
+        <item quantity="one">Πληκτρολογήστε τουλάχιστον %1$d χαρακτήρα</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Έως και %1$d εικόνες
+Έως και %2$s κάθε μία"</item>
+        <item quantity="one">"Έως και %1$d εικόνα
+Έως και %2$s κάθε μία"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Έως και %d εικόνες για αυτόν τον τύπο προβλήματος</item>
+        <item quantity="one">Έως και %d εικόνα για αυτόν τον τύπο προβλήματος</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s αστέρια</item>
+        <item quantity="one">%1$s αστέρι</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Ο κωδικός πρόσβασης πληκτρολογήθηκε εσφαλμένα %1$d φορές. Δοκιμάστε ξανά μετά από %2$d λεπτά.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πληκτρολογήθηκε εσφαλμένα %1$d φορές. Δοκιμάστε ξανά μετά από %2$d λεπτά.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s δισεκατομμύρια άτομα έχουν συμμετάσχει</item>
+        <item quantity="one">%1$s δισεκατομμύριο άτομα έχουν συμμετάσχει</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s εκατομμύριο άτομα έχουν συμμετάσχει</item>
+        <item quantity="one">%1$s εκατομμύριο άτομα έχουν συμμετάσχει</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s άτομα έχουν συμμετάσχει</item>
+        <item quantity="one">%1$s άτομο έχει συμμετάσχει</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s000 άτομα έχουν συμμετάσχει</item>
+        <item quantity="one">%1$s000 άτομα έχουν συμμετάσχει</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s δισεκατομμύριο άτομα το έχουν αγοράσει</item>
+        <item quantity="one">%1$s δισεκατομμύριο άτομα το έχουν αγοράσει</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s εκατομμύριο άτομα το έχουν αγοράσει</item>
+        <item quantity="one">%1$s εκατομμύριο άτομα το έχουν αγοράσει</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s άτομα το έχουν αγοράσει</item>
+        <item quantity="one">%1$s άτομο το έχει αγοράσει</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s000 άτομα το έχουν αγοράσει</item>
+        <item quantity="one">%1$s000 άτομα το έχουν αγοράσει</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s αξιολογήσεις</item>
+        <item quantity="one">%1$s αξιολόγηση</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Αξιολόγηση, %1$s αστέρια</item>
+        <item quantity="one">Αξιολόγηση, %1$s αστέρι</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Αξιολογήθηκε με %1$s αστέρια</item>
+        <item quantity="one">Αξιολογήθηκε με %1$s αστέρι</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Εγκατάσταση οπωσδήποτε (%1$d)</item>
+        <item quantity="one">Εγκατάσταση οπωσδήποτε (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Επιλέχτηκαν %1$d στοιχεία</item>
+        <item quantity="one">Επιλέχτηκε %1$d στοιχείο</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Η περιγραφή πρέπει να έχει τουλάχιστον %d χαρακτήρες. Προσθέστε στιγμιότυπα οθόνης, αν είναι δυνατόν.</item>
+        <item quantity="one">Η περιγραφή πρέπει να έχει τουλάχιστον %d χαρακτήρα. Προσθέστε στιγμιότυπα οθόνης, αν είναι δυνατόν.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d ώρες</item>
+        <item quantity="one">%1$d ώρα</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d λεπτά</item>
+        <item quantity="one">%1$d λεπτό</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d δευτερόλεπτα</item>
+        <item quantity="one">%1$d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Δημοσιεύσεις: %1$s</item>
+        <item quantity="one">Δημοσιεύσεις: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">Αρέσει σε %d</item>
+        <item quantity="one">Αρέσει σε %d</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d απαντήσεις</item>
+        <item quantity="one">%d απάντηση</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d προβολές</item>
+        <item quantity="one">%d προβολή</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Κάντε ένα σχόλιο (%1$d συνολικά)</item>
+        <item quantity="one">Κάντε ένα σχόλιο (%1$d συνολικά)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Εμφάνιση και των %1$d απαντήσεων</item>
+        <item quantity="one">Εμφάνιση %1$d απάντησης</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s συμμετέχοντες</item>
+        <item quantity="one">%1$s συμμετέχων</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Επιλογή έως %s απαντήσεων</item>
+        <item quantity="one">Επιλογή έως %s απάντησης</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Πολλαπλής επιλογής (επιλέξτε %1$d)</item>
+        <item quantity="one">Πολλαπλής επιλογής (επιλέξτε %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Επιλογή %s απαντήσεων</item>
+        <item quantity="one">Επιλογή %s απάντησης</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s ψήφοι</item>
+        <item quantity="one">%1$s ψήφος</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Αυτή η εφαρμογή απαιτεί %1$d άδειες. Μπορείτε να τις ανακαλέσετε ανά πάσα στιγμή στις Ρυθμίσεις > Εφαρμογές > Εφαρμογές.</item>
+        <item quantity="one">Αυτή η εφαρμογή απαιτεί %1$d άδεια. Μπορείτε να την ανακαλέσετε ανά πάσα στιγμή στις Ρυθμίσεις > Εφαρμογές > Εφαρμογές.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Αυτή η εφαρμογή απαιτεί %1$d άδειες. Μπορείτε να τις ανακαλέσετε ανά πάσα στιγμή στις Ρυθμίσεις > Εφαρμογές και υπηρεσίες > Εφαρμογές.</item>
+        <item quantity="one">Αυτή η εφαρμογή απαιτεί %1$d άδεια. Μπορείτε να την ανακαλέσετε ανά πάσα στιγμή στις Ρυθμίσεις > Εφαρμογές και υπηρεσίες > Εφαρμογές.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d δώρα</item>
+        <item quantity="one">%1$d δώρο</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d000</item>
+        <item quantity="one">%1$d000</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d αστέρια</item>
+        <item quantity="one">%1$d αστέρι</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Αξιολόγηση: %s</item>
+        <item quantity="one">Αξιολόγηση: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s αξιολογήσεις</item>
+        <item quantity="one">%1$s αξιολόγηση</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s ανοίγματα</item>
+        <item quantity="one">%1$s άνοιγμα</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d νέες συστάσεις</item>
+        <item quantity="one">%d νέα σύσταση</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d εφαρμογές έχουν ενημερωθεί</item>
+        <item quantity="one">%1$d εφαρμογή έχει ενημερωθεί</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Γίνεται ενημέρωση %1$d εφαρμογών</item>
+        <item quantity="one">Γίνεται ενημέρωση %1$d εφαρμογής</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Η εικόνα δεν μπορεί να είναι μεγαλύτερη από %1$d MB.</item>
+        <item quantity="one">Η εικόνα δεν μπορεί να είναι μεγαλύτερη από %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d φωτογραφίες</item>
+        <item quantity="one">%d φωτογραφία</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">Επιλέχτηκαν %1$d/%2$d</item>
+        <item quantity="one">Επιλέχτηκαν %1$d/%2$d</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d βίντεο</item>
+        <item quantity="one">%d βίντεο</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d προνόμια</item>
+        <item quantity="one">%d προνόμιο</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Διαγραφή όλων των εγκαταστάσεων σε παύση (εφαρμογές %1$s, απελευθέρωση %2$s)</item>
+        <item quantity="one">Διαγραφή όλων των εγκαταστάσεων σε παύση (εφαρμογή %1$s, απελευθέρωση %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d επιλεγμένο)"</item>
+        <item quantity="one">" 
+(%1$d έχει επιλεχθεί)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Σελίδα %1$d</item>
+        <item quantity="one">Σελίδα %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Τέθηκαν σε παύση %1$s εγκαταστάσεις.</item>
+        <item quantity="one">Τέθηκε σε παύση %1$s εγκατάσταση.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d λ. πριν</item>
+        <item quantity="one">%d λ. πριν</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d επιπλέον</item>
+        <item quantity="one">%1$d επιπλέον</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s λήψεις</item>
+        <item quantity="one">%1$s λήψη</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Αξιολογήθηκε με %1$s αστέρια</item>
+        <item quantity="one">Αξιολογήθηκε με %1$s αστέρι</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Η προγραμματισμένη εγκατάσταση εφαρμογών %1$s ολοκληρώθηκε</item>
+        <item quantity="one">Η προγραμματισμένη εγκατάσταση εφαρμογής %1$s ολοκληρώθηκε</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Όποτε συνδεθείτε σε κάποιο δίκτυο Wi-Fi, θα ξεκινήσει η λήψη %1$d εφαρμογών.</item>
+        <item quantity="one">Όποτε συνδεθείτε σε κάποιο δίκτυο Wi-Fi, θα ξεκινήσει η λήψη %1$d εφαρμογής.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s έχουν προπαραγγείλει)</item>
+        <item quantity="one">(%1$s έχει προπαραγγείλει)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d εκατομμύρια κρατήσεις)</item>
+        <item quantity="one">(1 εκατομμύριο κρατήσεις)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d χιλιάδες κρατήσεις)</item>
+        <item quantity="one">(1 χιλιάδα κρατήσεις)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Εγκατάσταση όλων των εφαρμογών %1$s;</item>
+        <item quantity="one">Εγκατάσταση της εφαρμογής %1$s;</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s εγκαταστάσεις σε εξέλιξη.</item>
+        <item quantity="one">%1$s εγκατάσταση σε εξέλιξη.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">από %1$d</item>
+        <item quantity="one">από %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Αναζήτηση %d τοπικών εφαρμογών</item>
+        <item quantity="one">Αναζήτηση %d τοπικής εφαρμογής</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Επαναφορά %d εφαρμογών στη λίστα ενημέρωσης και να επιτρέπεται να ενημερωθούν.</item>
+        <item quantity="one">Επαναφορά της εφαρμογής %d στη λίστα ενημέρωσης και να επιτρέπεται να ενημερωθεί.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s ενημερώσεις εφαρμογών είναι διαθέσιμες</item>
+        <item quantity="one">%1$s ενημέρωση εφαρμογής είναι διαθέσιμη</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Συνιστώνται %1$s ενημερωμένες εκδόσεις εφαρμογών. Συνολικό μέγεθος: %2$s.</item>
+        <item quantity="one">Συνιστάται %1$s ενημερωμένη έκδοση εφαρμογών. Μέγεθος: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d διαθέσιμες ενημερώσεις εφαρμογών. Μέγεθος: %2$s.</item>
+        <item quantity="one">%1$d διαθέσιμη ενημέρωση εφαρμογής. Μέγεθος: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Δεν χρησιμοποιήθηκε για %d ημέρες</item>
+        <item quantity="one">Δεν χρησιμοποιήθηκε για %d ημέρα</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Απαλοιφή %d εργασιών και των ληφθέντων αρχείων;</item>
+        <item quantity="one">Απαλοιφή %d εργασίας και του ληφθέντος αρχείου;</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Σερί check-in %d ημερών</item>
+        <item quantity="one">Σερί check-in %d ημέρας</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Ημέρα %d</item>
+        <item quantity="one">Ημέρα %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Έγινε λήψη %1$d εφαρμογών</item>
+        <item quantity="one">Έγινε λήψη %1$d εφαρμογής</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Αξιολόγηση: %s</item>
+        <item quantity="one">Αξιολόγηση: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">πριν από %d λεπ.</item>
+        <item quantity="one">πριν από %d λεπ.</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d εφαρμ., συμπ. της %1$s</item>
+        <item quantity="one">%2$d εφαρμογή (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Σήμα, %1$s μη αναγνωσμένες ειδοποιήσεις</item>
+        <item quantity="one">Σήμα, %1$s μη αναγνωσμένη ειδοποίηση</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d προσφορές</item>
+        <item quantity="one">%d προσφορά</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d δώρα κοινότητας</item>
+        <item quantity="one">%d δώρο κοινότητας</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d δώρα</item>
+        <item quantity="one">%d δώρο</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d άτομα στην περιοχή σας το θέλουν</item>
+        <item quantity="one">%d άτομο στην περιοχή σας το θέλει</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d επιλεγμένα στοιχεία</item>
+        <item quantity="one">%1$d επιλεγμένο στοιχείο</item>
+    </plurals>
+</resources>

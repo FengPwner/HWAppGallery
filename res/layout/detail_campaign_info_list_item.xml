@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/compaign_layout"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:id="@id/icon"
+        android:layout_width="102.0dip"
+        android:layout_height="76.0dip"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:scaleType="centerCrop"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/icon">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemText"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            android:layout_below="@id/ItemTitle"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/timeText"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_below="@id/ItemText"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    </RelativeLayout>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/bootom_line"
+        android:tag="css/.split-line"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/icon"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

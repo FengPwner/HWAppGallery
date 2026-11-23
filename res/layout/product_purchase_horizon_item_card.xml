@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/product_purchase_item"
+    android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:clip_background="true"
+    app:stroke_width="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/product_item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appgallery_card_panel_inner_margin_horizontal">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/product_purchase_product_icon"
+            android:layout_width="96.0dip"
+            android:layout_height="96.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/product_purchase_product_detail_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="96.0dip"
+            android:layout_marginStart="16.0dip">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2_fixed"
+                android:ellipsize="end"
+                android:id="@id/product_purchase_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body3_fixed"
+                android:ellipsize="end"
+                android:id="@id/product_purchase_product_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:maxLines="2"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.huawei.appmarket.service.productpurchase.widget.CountDownLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/product_purchase_countdown"
+        android:visibility="invisible"
+        android:layout_width="88.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip"
+        android:layout_alignBottom="@id/product_item_layout"
+        android:layout_marginStart="4.0dip"
+        android:layout_alignStart="@id/product_item_layout" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/product_purchase_product_buy_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/product_item_layout"
+        android:layout_marginStart="120.0dip"
+        android:layout_marginEnd="8.0dip">
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textSize="@dimen/appgallery_text_size_body3_fixed"
+            android:textColor="@drawable/detail_product_purchase_button_text_color"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/product_purchase_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/hwbutton_small_button_min_height"
+            android:minWidth="64.0dip"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:paddingStart="8.0dip"
+            android:paddingEnd="8.0dip"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3_fixed"
+            android:ellipsize="end"
+            android:id="@id/product_purchase_promote_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8.0dip"
+            android:layout_toStartOf="@id/product_purchase_button"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/install_dist_head_card_bg_min_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwColumnType="card_type">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_s">
+            <ImageView
+                android:gravity="center"
+                android:id="@id/arrow_back"
+                android:layout_width="@dimen/appgallery_card_elements_margin_xl"
+                android:layout_height="@dimen/appgallery_card_elements_margin_xl"
+                android:src="@drawable/aguikit_ic_public_back"
+                android:contentDescription="@string/click_back" />
+        </LinearLayout>
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/arrow_title_bar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/install_dist_head_permission_text"
+            android:maxLines="1"
+            android:layout_marginStart="@dimen/margin_l"
+            style="@style/Widget.Emui.HwAppbarPattern.TextAppearance.Title" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+</LinearLayout>

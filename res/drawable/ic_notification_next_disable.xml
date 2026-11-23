@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="18.0dip"
+    android:width="18.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/audiokit_icon_color_tertiary"
+        android:pathData="M4.7345,6.6561C5.2177,5.8191 6.288,5.5323 7.125,6.0155L7.125,6.0155L14.8654,10.4845C15.1314,10.6381 15.3523,10.859 15.5059,11.125C15.9892,11.962 15.7024,13.0323 14.8654,13.5155L14.8654,13.5155L7.125,17.9845C6.859,18.1381 6.5572,18.2189 6.25,18.2189C5.2835,18.2189 4.5,17.4354 4.5,16.4689L4.5,16.4689L4.5,7.5311C4.5,7.2239 4.5809,6.9221 4.7345,6.6561ZM18.25,6.25C18.8023,6.25 19.25,6.6977 19.25,7.25L19.25,16.75C19.25,17.3023 18.8023,17.75 18.25,17.75C17.6977,17.75 17.25,17.3023 17.25,16.75L17.25,7.25C17.25,6.6977 17.6977,6.25 18.25,6.25Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+</vector>

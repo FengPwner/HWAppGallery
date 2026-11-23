@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/appgallery_max_padding_end"
+        android:paddingEnd="@dimen/appgallery_max_padding_start">
+        <ImageView
+            android:id="@id/search_empty_image"
+            android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+            android:src="@drawable/ic_search_app_empty"
+            android:layout_centerHorizontal="true"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="start|center"
+            android:id="@id/search_empty_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_empty_image"
+            android:layout_centerHorizontal="true"
+            style="@style/AppGallery.TextAppearance.NoData" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:textSize="@dimen/emui_text_size_body2"
+            android:textColor="@color/emui_functional_blue"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/search_empty_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:text="@string/search_trialmode_enable_permissions_btn"
+            android:layout_below="@id/search_empty_desc"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            style="@style/Widget.Emui.HwButton.Borderless.Small" />
+    </RelativeLayout>
+</LinearLayout>

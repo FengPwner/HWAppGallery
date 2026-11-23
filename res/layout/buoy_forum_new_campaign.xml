@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/buoy_forum_card_shape_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/icon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+            app:touch_drawable="@drawable/forum_upround_image_selector"
+            app:upround="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/forum_hottopic_card_bg"
+            android:padding="@dimen/appgallery_elements_margin_horizontal_l"
+            android:paddingTop="@dimen/appgallery_elements_margin_vertical_l"
+            android:paddingBottom="@dimen/appgallery_elements_margin_vertical_l"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_l">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <com.huawei.uikit.hwtextview.widget.HwTextView
+                        android:ellipsize="end"
+                        android:id="@id/campaignName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:alpha="1.0"
+                        android:textAlignment="viewStart"
+                        style="@style/BuoyCardTextBody1_Medium" />
+                </LinearLayout>
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:ellipsize="end"
+                    android:id="@id/timeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                    android:layout_alignParentEnd="true"
+                    style="@style/BuoyCardTextBody3" />
+            </LinearLayout>
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/campaignDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/BuoyCardTextBody2_Regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

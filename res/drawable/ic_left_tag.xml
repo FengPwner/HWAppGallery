@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="20.0dip"
+    android:width="70.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="70.0"
+    android:viewportHeight="20.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M16,0L70,0L70,0L70,4C70,12.8366 62.8366,20 54,20L0,20L0,20L0,16C-0,7.1634 7.1634,0 16,0Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.7"
+        android:fillAlpha="0.7"
+        android:fillType="evenOdd" />
+</vector>

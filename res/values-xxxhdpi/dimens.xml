@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="line_width">2.0px</dimen>
+    <dimen name="send_repair_line_height">3.0px</dimen>
+    <dimen name="subtab_dividerline_width">3.0px</dimen>
+</resources>

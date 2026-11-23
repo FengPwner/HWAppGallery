@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_start"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/inter_welfare_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/more_welfare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_s">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_button2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more_welfare"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <ImageView
+            android:layout_width="12.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/ic_public_arrow_right_900"
+            android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

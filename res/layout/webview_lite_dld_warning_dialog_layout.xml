@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="middle"
+            android:id="@id/file_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:id="@id/file_size"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:id="@id/download_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </LinearLayout>
+</ScrollView>

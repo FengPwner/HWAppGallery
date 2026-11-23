@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agguard_risk_detail_sec_control_toast">%s has been moved to App security center</string>
+    <string name="agguard_scan_item_behavior">Malicious behavior</string>
+    <string name="appcomment_comment_collection_failed">Unable to favorite.</string>
+    <string name="buoy_service_tips">Grayed out features are currently unavailable or not supported in the current app.</string>
+    <string name="captcha_tip_close">close</string>
+    <string name="captcha_tip_init_timeout">Initialization timeout, please retry</string>
+    <string name="captcha_tip_load_failed">Loading failed. Please retry</string>
+    <string name="captcha_tip_loading">Intelligent detection</string>
+    <string name="captcha_tip_no_network">No network,please retry</string>
+    <string name="captcha_tip_validate_timeout">Validate timeout,please retry</string>
+    <string name="essentialapp_open_wlan_autoupdate_title">Auto-update over Wi-Fi</string>
+    <string name="fastview_sdk_fastapp_noopen_msg_honor">"Quick App Center doesn't have permission to be launched by other apps. You can set this permission in System Manager."</string>
+    <string name="feedback_sdk_inconsistent">"The site you're currently logged into doesn't match the one you're providing feedback for. Switch sites and try again."</string>
+    <string name="forum_base_error_400021_toast">Unable to follow. Already following the max number of accounts.</string>
+    <string name="forum_message_game_remind_nodata">No game messages</string>
+    <string name="forum_post_favorite_btn">Favorite</string>
+    <string name="forum_post_unfavorite">Unfavorite</string>
+    <string name="forum_user_homepage_favorite_empty">No favorites</string>
+    <string name="forum_user_non_following">Not following anyone</string>
+    <string name="hiapp_hota_books_content">A portable library just for you. Expand your horizons with a vast catalog of e-books and audiobooks at your fingertips.</string>
+    <string name="hiapp_hota_intro">Get the apps you love and discover new favorites in AppGallery. Enjoy a huge range of gifts handpicked by our local editorial teams.</string>
+    <string name="hiapp_hota_member_name">Member Center</string>
+    <string name="kidscenter_launcher_name">Kids Center</string>
+    <string name="mm_text_plam_rejection_desc1">For devices that support physical navigation, the off-screen navigation key will be disabled. You can restore its functionality by tapping it %1$s times in a row.</string>
+    <string name="mm_text_plam_rejection_desc2">"If you're using virtual navigation, the navigation bar will be disabled. You can restore its functionality by sliding your finger across it %1$s times."</string>
+    <string name="personal_my_home_page_label">Posts/Comments/Favorites</string>
+    <string name="remote_device_cancel_success">Installation canceled.</string>
+    <string name="settings_not_personalized_recommend_content">Content recommendations will be based on general statistics rather than your individual behavior and preferences.</string>
+    <string name="updatemanager_open_wlan_autoupdate_title">Auto-update over Wi-Fi</string>
+    <string name="updatemanager_update_manager_noupdate">All apps are up to date</string>
+    <string name="welfare_gift_center">Rewards center</string>
+</resources>

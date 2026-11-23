@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.agoverseascard.agoverseascard.card.horizontallargeimagefocuscard.HorizontalLargeImageFocusView
+        android:id="@id/horizontal_large_image_focus_banner"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

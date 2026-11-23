@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:minHeight="@dimen/component_detail_icon_height_l">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/vanattend_user_number"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                maskview:hwAutoSizeMinTextSize="12.0sp"
+                maskview:hwAutoSizeStepGranularity="1.0sp" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+                android:text="@string/component_detail_vanattend_info_number"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+        </LinearLayout>
+        <View
+            android:background="@color/transparent"
+            android:layout_width="@dimen/appgallery_elements_margin_vertical_m"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/vanattend_adaptation_requirement"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                maskview:hwAutoSizeMinTextSize="12.0sp"
+                maskview:hwAutoSizeStepGranularity="1.0sp" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+                android:text="@string/component_detail_vanattend_info_request"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+        </LinearLayout>
+        <View
+            android:background="@color/transparent"
+            android:layout_width="@dimen/appgallery_elements_margin_vertical_m"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/vanattend_type"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                maskview:hwAutoSizeMinTextSize="12.0sp"
+                maskview:hwAutoSizeStepGranularity="1.0sp" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+                android:text="@string/component_detail_vanattend_info_kind"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/tab_recycler_view"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        android:minHeight="@dimen/hiappbase_horizon_tab_item_height"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/tabsViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

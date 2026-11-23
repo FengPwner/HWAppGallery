@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/hwbutton_default_small_emui"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/decorate_app_icon"
+        android:layout_width="@dimen/search_ui_16_dp"
+        android:layout_height="@dimen/search_ui_16_dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_m"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/decorate_app_icon">
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:id="@id/right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:layout_gravity="center_vertical"
+                android:id="@id/decorate_app_memo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_decorate_installation_free_description"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/ui_12_dp"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_caption"
+                android:textColor="@color/appgallery_text_color_primary_activated"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:id="@id/decorate_app_open_btn"
+                android:background="@drawable/search_decorate_open_btn_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="28.0dip"
+                android:text="@string/card_open_btn"
+                android:textAllCaps="true"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:paddingStart="@dimen/ui_12_dp"
+                android:paddingEnd="@dimen/ui_12_dp" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:id="@id/decorate_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:textAlignment="viewStart"
+            android:layout_toStartOf="@id/right_layout"
+            android:layout_alignParentStart="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </RelativeLayout>
+</RelativeLayout>

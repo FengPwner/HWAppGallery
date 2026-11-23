@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:id="@id/area_webview_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_horizontal_emui5"
+        style="?android:progressBarStyleHorizontal" />
+    <com.huawei.appgallery.agwebview.api.view.SecureWebView
+        android:id="@id/activity_area_webview"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/area_webview_progress_bar"
+        android:overScrollMode="never" />
+    <include
+        android:id="@id/web_error_layout"
+        android:visibility="gone"
+        layout="@layout/buoy_web_error" />
+</RelativeLayout>

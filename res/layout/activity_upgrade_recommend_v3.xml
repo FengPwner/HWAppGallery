@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/upgrade_recommend_v3_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/upgrade_recommend_v3_bg"
+        android:background="@color/upgrade_bg_color_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/dialog_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.upgraderecommendation.ui.v3.RoundedTopFrameLayout
+            android:id="@id/fl_container"
+            android:background="@drawable/upgrade_recommend_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <androidx.core.widget.NestedScrollView
+                android:id="@id/scroll_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/fl_content"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </androidx.core.widget.NestedScrollView>
+            <ImageView
+                android:layout_gravity="center|top"
+                android:id="@id/bottomsheet"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bottomsheet_handle_normal" />
+        </com.huawei.appgallery.upgraderecommendation.ui.v3.RoundedTopFrameLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:id="@id/ll_bottom_button"
+            android:background="@color/upgrade_bg_color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/upgrade_recommendation_ui_16_dp"
+            android:paddingEnd="@dimen/upgrade_recommendation_ui_16_dp">
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/bt_install_normal"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/upgrade_recommendation_ui_16_dp"
+                android:layout_marginBottom="@dimen/upgrade_recommendation_ui_24_dp"
+                style="@style/Widget.Emui.HwButton" />
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/bt_install_emphasize"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/upgrade_recommendation_ui_16_dp"
+                android:layout_marginBottom="@dimen/upgrade_recommendation_ui_24_dp"
+                style="@style/Widget.Emui.HwButton.Emphasize" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

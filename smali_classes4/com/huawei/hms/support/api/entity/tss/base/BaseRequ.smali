@@ -1,0 +1,16 @@
+.class public abstract Lcom/huawei/hms/support/api/entity/tss/base/BaseRequ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/hms/core/aidl/IMessageEntity;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

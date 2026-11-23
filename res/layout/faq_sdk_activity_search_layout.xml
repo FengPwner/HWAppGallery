@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/faq_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.phoneservice.faq.widget.FaqSdkSearchInput
+            android:id="@id/faq_sdk_searchinput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.huawei.phoneservice.faq.widget.FaqFootOverScrollListView
+            android:id="@id/faq_sdk_search_content_list"
+            android:visibility="gone"
+            android:scrollbars="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:layout_below="@id/faq_sdk_searchinput" />
+        <com.huawei.phoneservice.faq.widget.FaqNoticeView
+            android:id="@id/faq_sdk_search_noticeview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/faq_sdk_searchinput"
+            app:faqsdkNoticeViewType="faqsdkprogress"
+            app:faqsdknoticeAutoFitCenterYInLandScape="true" />
+    </RelativeLayout>
+</LinearLayout>

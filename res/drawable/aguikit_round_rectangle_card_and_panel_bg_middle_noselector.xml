@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid
+                android:color="@color/appgallery_color_card_panel_bg" />
+        </shape>
+    </item>
+</layer-list>

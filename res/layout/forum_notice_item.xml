@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/forum_notice_item_root"
+    android:background="@drawable/forum_notice_item_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/forum_notice_item_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_single_text_line">
+        <FrameLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_marginEnd="@dimen/margin_m">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forum_section_notice_img_top_bg" />
+            <com.huawei.appgallery.forum.section.view.widget.NoticeTopImage
+                android:layout_gravity="center"
+                android:background="@drawable/forum_section_notice_img_top"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip" />
+        </FrameLayout>
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:id="@id/forum_notice_item_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:maxLines="1"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <View
+        android:id="@id/forum_notice_item_divider"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/forum_notice_item_content_layout"
+        android:layout_marginStart="24.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

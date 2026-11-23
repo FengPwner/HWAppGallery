@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.distributionbase.ui.widget.DetailActionBar
+        android:id="@id/detail_large_actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/area_webview_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_horizontal"
+        android:layout_below="@id/detail_large_actionbar"
+        style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/container_bottom"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+    <com.huawei.appgallery.agwebview.api.view.SecureWebView
+        android:id="@id/activity_area_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/container_bottom"
+        android:layout_below="@id/area_webview_progress_bar" />
+    <include
+        android:id="@id/web_error_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/detail_large_actionbar"
+        layout="@layout/agwebview_web_error_global" />
+</RelativeLayout>

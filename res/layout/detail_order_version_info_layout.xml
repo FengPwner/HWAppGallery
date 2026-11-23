@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/detail_order_ll"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_l"
+    android:paddingEnd="@dimen/appgallery_card_elements_margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/detail_toolbar_height"
+        android:importantForAccessibility="yes">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:layout_gravity="start|bottom|center"
+                android:id="@id/detail_order_version_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/component_detail_new_version"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.Widget.SubHeader.Title" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:layout_gravity="end|center"
+            android:id="@id/detail_order_version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/component_detail_no_version_provided"
+            android:textAlignment="viewEnd"
+            android:layout_marginStart="@dimen/margin_m"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+    <RelativeLayout
+        android:id="@id/detail_order_permission_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes">
+        <ImageView
+            android:id="@id/detail_order_permission_arrow"
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.Widget.List.RightArrow" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/item_layout"
+            android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/detail_toolbar_height"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/detail_order_permission_arrow"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:gravity="start|center"
+                android:id="@id/detail_order_permission_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/component_detail_permissions"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.Widget.SubHeader.Title" />
+            <TextView
+                android:gravity="start|center"
+                android:id="@id/detail_order_permission_disc"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_below="@id/item_layout"
+            android:layout_alignStart="@id/item_layout"
+            style="@style/AppGallery.Widget.Divider" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@id/detail_order_privacy_ll"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/tab_column_height"
+        android:importantForAccessibility="yes">
+        <LinearLayout
+            android:layout_gravity="start|center"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:layout_gravity="start|center"
+                android:id="@id/detail_order_privacy_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/component_detail_privacy_policy"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.Widget.SubHeader.Title" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_m">
+            <ImageView
+                android:id="@id/detail_order_privacy_arrow"
+                android:background="@drawable/ic_public_arrow_right_900"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

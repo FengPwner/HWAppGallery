@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/detail_head_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/appdetail_head_view_app_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_12_dp"
+        android:layout_alignParentStart="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        layout="@layout/appdetail_head_view_app_icon" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/appdetail_head_view_app_icon"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/detail_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_headline8"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:ellipsize="end"
+                android:id="@id/detail_head_app_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:textDirection="locale"
+                android:textAlignment="viewStart" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+        <TextView
+            android:textSize="@dimen/ui_10_dp"
+            android:id="@id/detail_head_install_times_and_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_app_name"
+            style="@style/detail_head_label" />
+        <TextView
+            android:textSize="@dimen/ui_10_dp"
+            android:ellipsize="end"
+            android:id="@id/developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:text="TextView"
+            android:maxLines="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_head_install_times_and_score"
+            style="@style/detail_head_label" />
+        <ViewStub
+            android:id="@id/lay_version_and_otherinfos_1"
+            android:layout="@layout/detail_head_ag_v3_version_and_otherinfos_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/developer" />
+        <ViewStub
+            android:id="@id/lay_version_and_otherinfos_2"
+            android:layout="@layout/detail_head_ag_v3_version_and_otherinfos_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/developer" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

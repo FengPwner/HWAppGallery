@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/title"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/normal_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no"
+        layout="@layout/fa_service_layout" />
+    <include
+        android:id="@id/loading_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no"
+        layout="@layout/fa_service_loading_layout" />
+    <include
+        android:layout_gravity="center_horizontal"
+        android:id="@id/error_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no"
+        layout="@layout/fa_service_error_layout" />
+</FrameLayout>

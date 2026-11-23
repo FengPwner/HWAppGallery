@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/agguard_card_item_pressed_inset_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:addStatesFromChildren="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/appicon"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:src="@color/transparent"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toStartOf="@id/item_btn_layout"
+        android:layout_toEndOf="@id/appicon">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical">
+            <TextView
+                android:textStyle="normal"
+                android:id="@id/localpackage_item_size_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="yes"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@id/localpackage_item_date_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:importantForAccessibility="yes"
+                    android:layout_marginStart="@dimen/margin_m"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+            </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/dividerLine"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/appicon"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:id="@id/item_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_alignParentEnd="true">
+        <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+            android:id="@id/item_download_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:id="@id/item_open_btn"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:text="@string/card_open_btn"
+            style="@style/AppGallery.Widget.Button.Small" />
+    </LinearLayout>
+</RelativeLayout>

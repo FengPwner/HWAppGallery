@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/wishlist_relativelayout_wish_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_two_text_lines"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/wishlist_linearlayout_wish_info"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/textsize_main"
+            android:ellipsize="end"
+            android:id="@id/wishlist_textview_wish_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/wishlist_textview_wish_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:maxLines="1"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_tertiary"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@id/wish_numbers_in_this_area"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wishlist_wishinfo_addnum_padding"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/wishlist_right_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wishlist_wishinfo_addnum_padding"
+            android:layout_marginBottom="@dimen/wishlist_wishinfo_addnum_padding">
+            <TextView
+                android:ellipsize="end"
+                android:gravity="start"
+                android:id="@id/wishlist_textview_wish_state"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            <ImageView
+                android:id="@id/arrow_imageview"
+                android:layout_width="12.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/ic_public_arrow_right_900"
+                android:layout_marginStart="@dimen/margin_s" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@id/wishlist_imageview_divide_line"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:id="@id/scroll_layout"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="@dimen/appgallery_card_elements_margin_xl"
+            android:paddingBottom="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/grade_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xl"
+                android:lineSpacingMultiplier="@dimen/appgallery_text_line_space_s"
+                style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/list_container"
+                android:background="@drawable/aguikit_card_panel_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

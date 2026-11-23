@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/appcomment_comment_button_container"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon">
+        <com.huawei.uikit.phone.hwtoggle.widget.HwToggleButton
+            android:layout_gravity="center_vertical"
+            android:id="@id/appcomment_comment_button"
+            android:tag="css/.subtitle"
+            android:background="@drawable/hwtoggle_selector_bg"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/appcomment_comment_text"
+            android:textOff="@string/appcomment_comment_text"
+            android:text="@string/appcomment_comment_text"
+            style="@style/AppGallery.Widget.Toggle" />
+        <com.huawei.uikit.phone.hwtoggle.widget.HwToggleButton
+            android:layout_gravity="center_vertical"
+            android:id="@id/appcomment_reply_button"
+            android:background="@drawable/hwtoggle_selector_bg"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/appcomment_reply"
+            android:textOff="@string/appcomment_reply"
+            android:text="@string/appcomment_reply"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+            style="@style/AppGallery.Widget.Toggle" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/fl_chilid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/hiapp_large_widget_item_card_height">
+        <ImageView
+            android:id="@id/item_top_start"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hiapp_appwidget_placeholder_img"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m" />
+        <ImageView
+            android:id="@id/item_top_end"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hiapp_appwidget_placeholder_img"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/hiapp_large_widget_item_card_height"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m">
+        <ImageView
+            android:id="@id/item_bottom_start"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hiapp_appwidget_placeholder_img"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m" />
+        <ImageView
+            android:id="@id/item_bottom_end"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hiapp_appwidget_placeholder_img"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

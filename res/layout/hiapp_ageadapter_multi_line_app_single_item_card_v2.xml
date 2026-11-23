@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/AppListItem"
+    android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_two_text_lines"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+    android:paddingEnd="@dimen/appgallery_card_elements_margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/appgallery_card_icon_size_small"
+        android:layout_height="@dimen/appgallery_card_icon_size_small"
+        android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:src="@color/transparent"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="@dimen/appgallery_card_protect_margin_vertical"
+        app:layout_constraintStart_toEndOf="@id/rank_container"
+        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:id="@id/rank_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/appicon">
+        <View
+            android:id="@id/rank_place_holder"
+            android:background="@color/transparent"
+            android:visibility="invisible"
+            android:layout_width="@dimen/ranking_medal_image_size"
+            android:layout_height="@dimen/ranking_medal_image_size" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="14.0sp"
+            android:gravity="center|top"
+            android:id="@id/rank_number_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ranking_medal_image_size"
+            android:maxLines="1"
+            app:hwAutoSizeMinTextSize="15.0sp"
+            app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Fixed.Primary.Regular" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="14.0sp"
+            android:gravity="center"
+            android:id="@id/aliasname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerInParent="true"
+            app:hwAutoSizeMinTextSize="15.0sp"
+            app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+            style="@style/AppGallery.TextAppearance.Card.TextBody2.Fixed.Primary.Regular" />
+    </FrameLayout>
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/downbtn"
+        android:tag="css/.download-button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+        android:minWidth="56.0dip"
+        android:minHeight="28.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/applistcard_item_line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_text_rl"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/ItemTitle"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:layout_alignParentStart="true"
+        app:layout_constraintBottom_toTopOf="@id/item_text_rl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:id="@id/item_text_rl"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+        app:layout_constraintEnd_toEndOf="@id/ItemTitle"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        app:layout_constraintTop_toBottomOf="@id/ItemTitle">
+        <com.huawei.appmarket.framework.widget.PromotionSignTextView
+            android:layout_gravity="center_vertical"
+            android:id="@id/promotion_sign"
+            android:tag="css/.title"
+            android:background="@drawable/promotion_sign_bg"
+            android:layout_marginEnd="@dimen/appgallery_text_margin_horizontal"
+            style="@style/promotion_sign_ageadapter_style" />
+        <ImageView
+            android:id="@id/download_img"
+            android:background="@drawable/ic_download"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2.0dip" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/ItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/applistcard_item_line"
+        android:tag="css/.split-line"
+        android:layout_width="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/ItemTitle"
+        style="@style/AppGallery.Widget.Divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

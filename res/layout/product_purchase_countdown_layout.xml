@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/product_purchase_countdown_day"
+        layout="@layout/product_purchase_countdown_textview" />
+    <include
+        android:id="@id/product_purchase_countdown_day_separator"
+        layout="@layout/product_purchase_countdown_separator" />
+    <include
+        android:id="@id/product_purchase_countdown_hour"
+        layout="@layout/product_purchase_countdown_textview" />
+    <include
+        android:id="@id/product_purchase_countdown_hour_separator"
+        layout="@layout/product_purchase_countdown_separator" />
+    <include
+        android:id="@id/product_purchase_countdown_min"
+        layout="@layout/product_purchase_countdown_textview" />
+    <include
+        android:id="@id/product_purchase_countdown_min_separator"
+        layout="@layout/product_purchase_countdown_separator" />
+    <include
+        android:id="@id/product_purchase_countdown_sec"
+        layout="@layout/product_purchase_countdown_textview" />
+</LinearLayout>

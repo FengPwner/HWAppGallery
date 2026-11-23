@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/subtitle"
+        layout="@layout/hiappbase_layout_subheader_title_action" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.MultiLineLabelLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/detail_label_layout_framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+</LinearLayout>

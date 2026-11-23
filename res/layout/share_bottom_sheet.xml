@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/share_mask_view"
+        android:background="@color/share_mask_color"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/share_container"
+        android:background="@color/appgallery_color_sub_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

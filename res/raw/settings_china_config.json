@@ -1,0 +1,265 @@
+{
+  "layout": [
+    {
+      "layoutId": 30,
+      "name": "更新与安装",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 2,
+      "name": "懒人更新",
+      "maxRows": 1,
+      "layoutName": "settingautoupdatecard"
+    },
+    {
+      "layoutId": 1,
+      "name": "WLAN预约下载",
+      "maxRows": 1,
+      "layoutName": "settingorderdownload2card"
+    },
+    {
+      "layoutId": 3,
+      "name": "应用同步",
+      "maxRows": 1,
+      "layoutName": "settingappsyn2card"
+    },
+    {
+      "layoutId": 31,
+      "name": "服务",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 40,
+      "name": "消息通知设置",
+      "maxRows": 1,
+      "layoutName": "settingnotificationmgr2card"
+    },
+    {
+      "layoutId": 27,
+      "name": "快捷服务管理",
+      "maxRows": 1,
+      "layoutName": "settingfastservicecard"
+    },
+    {
+      "layoutId": 28,
+      "name": "内容管理",
+      "maxRows": 1,
+      "layoutName": "settingcontentmanagementcard"
+    },
+    {
+      "layoutId": 33,
+      "name": "更多",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 12,
+      "name": "应用服务管理",
+      "maxRows": 1,
+      "layoutName": "settingappservicemgr2card"
+    },
+    {
+      "layoutId": 9,
+      "name": "切换服务区域",
+      "maxRows": 1,
+      "layoutName": "settingchangehomecountrycard"
+    },
+    {
+      "layoutId": 22,
+      "name": "检查更新",
+      "maxRows": 1,
+      "layoutName": "settingcheckupdatecard"
+    },
+    {
+      "layoutId": 15,
+      "name": "网络诊断",
+      "maxRows": 1,
+      "layoutName": "settingnetworkdiagnosecard"
+    },
+    {
+      "layoutId": 7,
+      "name":"第三方共享信息清单",
+      "maxRows": 1,
+      "layoutName": "settingthirdsharecard"
+    },
+    {
+      "layoutId": 8,
+      "name":"第三方SDK列表",
+      "maxRows": 1,
+      "layoutName": "settingthirdsdkcard"
+    },
+    {
+      "layoutId": 19,
+      "name":"已收集个人信息清单",
+      "maxRows": 1,
+      "layoutName": "settingpersonalinfolistcard"
+    },
+    {
+      "layoutId": 10,
+      "name":"隐私声明摘要",
+      "maxRows": 1,
+      "layoutName": "settingprivacystatementsummarycard"
+    },
+    {
+      "layoutId": 50,
+      "name": "关于",
+      "maxRows": 1,
+      "layoutName": "settingaboutcardv2"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 30,
+      "name": "安装与更新",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_installation_update"
+        }
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "懒人更新",
+      "layoutName": "settingautoupdatecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 1,
+      "name": "WLAN预约下载",
+      "layoutName": "settingorderdownload2card",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "应用同步",
+      "layoutName": "settingappsyn2card",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 31,
+      "name": "服务",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_serve"
+        }
+      ]
+    },
+    {
+      "layoutId": 40,
+      "name": "消息通知设置",
+      "layoutName": "settingnotificationmgr2card",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 27,
+      "name": "快捷服务管理",
+      "layoutName": "settingfastservicecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 28,
+      "name": "内容管理",
+      "layoutName": "settingcontentmanagementcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 33,
+      "name": "更多",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_more"
+        }
+      ]
+    },
+    {
+      "layoutId": 12,
+      "name": "应用服务管理",
+      "layoutName": "settingappservicemgr2card",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 9,
+      "name": "切换服务区域",
+      "layoutName": "settingchangehomecountrycard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 22,
+      "name": "检查更新",
+      "layoutName": "settingcheckupdatecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 15,
+      "name": "网络诊断",
+      "layoutName": "settingnetworkdiagnosecard",
+      "dataList": [
+        {
+        }
+      ]
+    },
+    {
+      "layoutId": 7,
+      "name":"第三方共享信息清单",
+      "layoutName": "settingthirdsharecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 8,
+      "name":"第三方SDK列表",
+      "layoutName": "settingthirdsdkcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 19,
+      "name":"已收集个人信息清单",
+      "layoutName": "settingpersonalinfolistcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 10,
+      "name":"隐私声明摘要",
+      "layoutName": "settingprivacystatementsummarycard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 50,
+      "name": "关于",
+      "layoutName": "settingaboutcardv2",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

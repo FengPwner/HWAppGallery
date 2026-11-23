@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/search_coupon_detail_card_theme1_dark_bg_start_color"
+        android:endColor="@color/search_coupon_detail_card_theme1_dark_bg_end_color"
+        android:angle="0.0" />
+    <corners
+        android:radius="12.0dip" />
+</shape>

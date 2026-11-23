@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Изабрано је %1$d ставки</item>
+        <item quantity="one">Изабрана је %1$d ставка</item>
+        <item quantity="few">Изабране су %1$d ставке</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
+</resources>

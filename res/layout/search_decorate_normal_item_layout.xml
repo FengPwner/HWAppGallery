@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@drawable/hwbutton_default_small_emui"
+    android:layout_width="fill_parent"
+    android:layout_height="28.0dip"
+    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+    style="style/AppGallery.Widget.DownloadButton.Normal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/decorate_app_icon"
+        android:layout_width="@dimen/search_ui_16_dp"
+        android:layout_height="@dimen/search_ui_16_dp"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_m" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/decorate_app_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1.0"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_m"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/decorate_arrow"
+        android:background="@drawable/ic_public_arrow_right_900"
+        android:layout_width="10.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="24.0dip"
+    android:width="24.0dip"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/agguard_scan_item_success"
+        android:pathData="M21.6656,5.3663C21.1774,4.8781 20.386,4.8781 19.8978,5.3663L9.5309,15.7315C9.4527,15.7987 9.3281,15.8058 9.2356,15.7434L9.1866,15.701L4.0613,10.5776C3.5643,10.127 2.8058,10.1445 2.3341,10.6163C1.8459,11.1044 1.8459,11.8959 2.3341,12.3841L7.8313,17.8799C8.718,18.714 10.1056,18.694 10.9658,17.8338L21.7085,7.089C22.1549,6.5965 22.1373,5.838 21.6656,5.3663Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="nonZero" />
+</vector>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/applistcard_first_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_vertical"
+        layout="@layout/wisedist_applistcard_single_item" />
+    <View
+        android:id="@id/applistcard_first_item_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="88.0dip"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+        style="@style/AppGallery.Widget.Divider" />
+    <include
+        android:id="@id/applistcard_second_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wisedist_applistcard_single_item" />
+    <View
+        android:id="@id/applistcard_second_item_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="88.0dip"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_m"
+        style="@style/AppGallery.Widget.Divider" />
+    <include
+        android:id="@id/applistcard_third_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_card_panel_inner_margin_vertical"
+        layout="@layout/wisedist_applistcard_single_item" />
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/splash_port_layout_contain"
+    android:background="#fff3f5ff"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/splash_game_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/size_48dp"
+            android:layout_marginEnd="@dimen/size_48dp">
+            <TextView
+                android:textSize="14.0dip"
+                android:textColor="#99000000"
+                android:id="@id/splash_progress_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_below="@id/splash_progress_bar"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:layout_marginEnd="@dimen/size_48dp" />
+            <TextView
+                android:textSize="14.0dip"
+                android:textColor="#99000000"
+                android:id="@id/splash_progress_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_below="@id/splash_progress_bar"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:textSize="16.0dip"
+                android:textColor="#e6000000"
+                android:id="@id/splash_game_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_8dp"
+                android:layout_below="@id/splash_game_icon"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <com.huawei.appgallery.cloudgame.gamedist.view.RoundRectImageView
+                android:id="@id/splash_game_icon"
+                android:layout_width="72.0dip"
+                android:layout_height="72.0dip"
+                android:layout_centerHorizontal="true"
+                app:roundedCorners="16.0dip" />
+            <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+                android:id="@id/splash_progress_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:layout_below="@id/splash_game_name"
+                app:hwFlickerEnable="true"
+                style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@id/cloud_game_try_play_layout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:layout_marginBottom="24.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@id/cloud_game_logo_icon"
+                android:background="@drawable/ic_cloud_game_portrait_logo"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginEnd="6.0dip" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:id="@id/cloud_game_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloud_game_splash_title"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

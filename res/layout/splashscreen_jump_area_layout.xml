@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="bottom|center"
+    android:orientation="horizontal"
+    android:id="@id/splashscreen_jump_area_layout"
+    android:background="@drawable/splashscreen_jump_area_bg"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="64.0dip"
+    android:minHeight="48.0dip"
+    android:paddingStart="16.0dip"
+    android:paddingEnd="16.0dip"
+    android:layout_marginStart="24.0dip"
+    android:layout_marginEnd="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="16.0dip"
+        android:textColor="#e6ffffff"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/splashscreen_jump_area_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/splashscreen_jump_area_tips"
+        android:maxLines="2"
+        android:layout_weight="1.0"
+        android:fontFamily="@string/appgallery_text_font_family_medium" />
+    <ImageView
+        android:id="@id/splashscreen_jump_area_image"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:src="@drawable/splashscreen_arrow_right"
+        android:layout_weight="0.0"
+        android:layout_marginStart="4.0dip" />
+</LinearLayout>

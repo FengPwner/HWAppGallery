@@ -1,0 +1,82 @@
+{
+  "contentType": 1,
+  "count": 3,
+  "dataType": 0,
+  "gmsSupportFlag": 0,
+  "hasNextPage": 0,
+  "isSupSearch": 0,
+  "isTrackOpen": 1,
+  "layout": [{
+    "layoutId": 903637,
+    "layoutName": "installconfirmnormalheadcard",
+    "maxRows": -1
+  }, {
+    "layoutId": 901801,
+    "layoutName": "installconfirmnormaltipscard",
+    "maxRows": -1
+  }, {
+    "layoutId": 903638,
+    "layoutName": "installconfirmnormalhiddencard",
+    "maxRows": -1
+  }
+  ],
+  "layoutData": [
+
+    {
+      "dataList": [{
+
+      }
+      ],
+      "isInstalledFilter": 0,
+      "isUpdatableFilter": 0,
+      "layoutId": 903637,
+      "layoutName": "installconfirmnormalheadcard",
+      "swipeDownRefresh": 0
+    },
+
+    {
+      "dataList": [{
+        "title":"安全第一",
+        "iconColor":2,
+        "tipText":"为提供更安全的应用服务以保护您的权益，纯净模式下，建议$OPEN_PURE_MODE$优先通过华为应用市场安装经过安全检测的应用。"
+      }
+      ],
+      "isInstalledFilter": 0,
+      "isUpdatableFilter": 0,
+      "layoutId": 901801,
+      "layoutName": "installconfirmnormaltipscard",
+      "swipeDownRefresh": 0
+    },
+
+    {
+      "dataList": [{
+        "btnTipText":"建议通过华为应用市场安装经过安全检测的应用",
+        "forwardBtnTxt":"华为应用市场安装",
+        "forwardBtnType":4,
+        "controlByteCode":"11000111011",
+        "washAppInfo": {
+          "appid": "10000",
+          "pkgName":"com.huawei.appmarket",
+          "versionCode": 10086
+        }
+      }
+      ],
+      "isInstalledFilter": 0,
+      "isUpdatableFilter": 0,
+      "layoutId": 903638,
+      "layoutName": "installconfirmnormalhiddencard",
+      "swipeDownRefresh": 0
+    }
+
+  ],
+  "marginTop": 1,
+  "name": "关于此应用",
+  "returnTabId": "9980cae17f374fa3b00fbd0c32b09b4e",
+  "rtnCode": 0,
+  "statKey": "A09001",
+  "style": 0,
+  "supportResort": 0,
+  "titleIconType": 0,
+  "titleType": "back_title",
+  "totalPages": 1
+}

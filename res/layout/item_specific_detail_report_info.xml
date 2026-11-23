@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/component_detail_report_item_common_margin_vertical"
+    android:paddingBottom="@dimen/component_detail_report_item_common_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    android:paddingStart="@dimen/component_detail_report_item_common_margin_horizontal"
+    android:paddingEnd="@dimen/component_detail_report_item_common_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+        android:id="@id/iv_logo"
+        android:focusable="false"
+        android:layout_width="@dimen/component_detail_report_logo_width"
+        android:layout_height="@dimen/component_detail_report_logo_height"
+        android:scaleType="centerCrop"
+        android:importantForAccessibility="no"
+        app:corner_radius="@dimen/component_detail_report_logo_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/tv_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/stroke_line_width"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/component_detail_report_item_common_margin_horizontal"
+        app:layout_constraintBottom_toTopOf="@id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_logo" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:id="@id/tv_developer"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/stroke_line_width"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/component_detail_report_item_common_margin_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_logo"
+        app:layout_constraintTop_toBottomOf="@id/divider" />
+    <View
+        android:id="@id/divider"
+        android:layout_width="@dimen/stroke_line_width"
+        android:layout_height="@dimen/stroke_line_width"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="64.0dip"
+    android:layout_height="28.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.detail.detailbase.api.DetailHeadDownLoadButton
+        android:layout_gravity="end|center"
+        android:id="@id/btn_download"
+        android:visibility="visible"
+        android:layout_width="@dimen/component_detail_card_element_width_l"
+        android:layout_height="28.0dip"
+        android:minWidth="@dimen/component_detail_card_element_width_l"
+        maskview:hwAutoSizeMinTextSize="9.0sp"
+        maskview:hwProgressButtonStaticTextColor="@color/hwprogressbutton_selector_button_text_emphasize"
+        style="@style/Widget.Emui.HwProgressButton" />
+</LinearLayout>

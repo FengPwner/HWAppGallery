@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/setting_card_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    style="@style/AppGallery.Widget.List.SingleTextLine"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <TextView
+                android:id="@id/setItemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+            <ImageView
+                android:textColor="@color/emui_white"
+                android:id="@id/item_red_dot_imageview"
+                android:visibility="gone"
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:src="@drawable/tab_red_dot"
+                android:layout_marginStart="@dimen/appgallery_text_margin_horizontal" />
+        </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/arrowlayout"
+            style="@style/AppGallery.Widget.List.RightArrow" />
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_vertical"
+            android:id="@id/progressBar"
+            android:visibility="gone"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginStart="@dimen/margin_s" />
+    </LinearLayout>
+</RelativeLayout>

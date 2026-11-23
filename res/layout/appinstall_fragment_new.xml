@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.service.appmgr.view.widget.AppInstalledListView
+        android:id="@id/applistview"
+        android:paddingBottom="@dimen/appgallery_card_elements_margin_xl"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:drawSelectorOnTop="true"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:layout_weight="1.0"
+        bounceViews:bounceEnable="true"
+        bounceViews:hwCutoutMode="never" />
+    <include
+        android:id="@id/nodata_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/installed_game_nodata" />
+</LinearLayout>

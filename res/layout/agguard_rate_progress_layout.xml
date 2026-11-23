@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/loadingBar_layout"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/appgallery_card_elements_margin_l"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/agguard_scan_progress_text_size"
+                android:id="@id/rate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.TextAppearance.List.TextBody1.Primary.Medium" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agguard_rate_unit"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:layout_marginStart="1.0dip"
+                style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.huawei.uikit.phone.hwprogressindicator.widget.HwProgressIndicator
+        android:id="@id/rate_circle"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/agguard_scan_layout_size"
+        android:layout_height="@dimen/agguard_scan_layout_size"
+        android:layout_centerInParent="true"
+        app:hwSizeMode="middle" />
+</RelativeLayout>

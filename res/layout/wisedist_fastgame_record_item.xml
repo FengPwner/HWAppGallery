@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/layout"
+    android:layout_width="@dimen/wisedist_horizontal_icon_card_item_width"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/wisedist_card_icon_size_large"
+        android:layout_height="@dimen/wisedist_card_icon_size_large"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <ViewStub
+        android:id="@id/fastappicon"
+        android:layout="@layout/wisedist_fastappicon_layout"
+        android:layout_width="@dimen/hiappbase_card_fasticon_size_large"
+        android:layout_height="@dimen/hiappbase_card_fasticon_size_large"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="@id/appicon" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/itemTitle"
+        android:tag="css/.title"
+        android:layout_width="@dimen/wisedist_horizontal_icon_card_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:maxLines="1"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.HorizontalCard.Item.Title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

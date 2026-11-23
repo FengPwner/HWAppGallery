@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:tag="layout/infoflow_content_layout_0"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:id="@id/app_icon"
+        android:layout_width="@dimen/infoflow_4_5_icon_width"
+        android:layout_height="@dimen/infoflow_4_5_icon_height"
+        android:layout_marginTop="@dimen/emui_dimens_element_vertical_large"
+        android:layout_marginBottom="@dimen/emui_dimens_element_vertical_large"
+        android:scaleType="centerCrop"
+        app:corner_radius="@dimen/emui_corner_radius_icon"
+        app:touch_drawable="@drawable/infoflow_round_img_border" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/emui_dimens_element_horizontal_large">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="@dimen/emui_dimens_element_horizontal_middle"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/emui_color_10"
+                android:id="@id/score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:alpha="1.0"
+                android:layout_marginEnd="1.0dip" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/emui_master_caption_1"
+                android:textColor="@color/emui_color_10"
+                android:id="@id/score_unit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_unit"
+                android:singleLine="true"
+                android:alpha="1.0" />
+        </LinearLayout>
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/description_first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emui_dimens_element_vertical_middle"
+            android:singleLine="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/description_second"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/description_third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/appgallery_color_sub_background"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content_layout_id"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/hiappbase_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <FrameLayout
+                android:id="@id/hiappbase_data_layout_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/install_button_group"
+            android:paddingTop="16.0dip"
+            android:paddingBottom="24.0dip"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@id/hiapp_done_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/install_dist_done"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="6.0dip"
+                style="Widget.Emui.HwButton" />
+            <Button
+                android:id="@id/hiapp_launch_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/install_dist_launch"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:layout_marginStart="6.0dip"
+                style="Widget.Emui.HwButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <include
+        layout="@layout/installer_recommend_app_menu_layout" />
+</FrameLayout>

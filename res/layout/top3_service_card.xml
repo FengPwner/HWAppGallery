@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/top3_service_card"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/ui_156_dp"
+    android:layout_marginStart="@dimen/ui_16_dp"
+    android:layout_marginEnd="@dimen/ui_16_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/left_UpdatemgrCard"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/right_Card"
+        app:layout_constraintHorizontal_weight="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/right_Card"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight="1.0"
+        app:layout_constraintStart_toEndOf="@id/left_UpdatemgrCard"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="spread">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/appmgr_SpaceCard"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toTopOf="@id/safetyScanCard"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="1.0" />
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/safetyScanCard"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appmgr_SpaceCard"
+            app:layout_constraintVertical_weight="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

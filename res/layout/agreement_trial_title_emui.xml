@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/appgallery_color_sub_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_hwtoolbar_height"
+    app:hwColumnType="content_type"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/agreement_trial_arrow_layout"
+        android:background="@drawable/c_actionbar_icon_bg_selector"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip">
+        <ImageView
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/aguikit_ic_public_back" />
+    </LinearLayout>
+</com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>

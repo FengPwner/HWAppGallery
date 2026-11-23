@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textSize="12.0sp"
+        android:textColor="@color/feedback_sdk_text_normal_black_50"
+        android:id="@id/imgfrom_chat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+        android:layout_marginBottom="@dimen/feedback_sdk_common_16_dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="60.0dip"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/lin_from_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgfrom_chat_time"
+        android:layout_alignParentEnd="true">
+        <com.huawei.phoneservice.feedback.mvp.base.FeedbackCITListView
+            android:layout_gravity="end"
+            android:id="@id/question_img_list"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fbsdkListMode="list" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/feedback_sdk_common_16_dip">
+            <ImageView
+                android:id="@id/tb_replay_icon"
+                android:visibility="invisible"
+                android:layout_width="@dimen/feedback_sdk_common_32_dip"
+                android:layout_height="@dimen/feedback_sdk_common_32_dip"
+                android:src="@drawable/feedback_sdk_serviceavatar"
+                android:layout_marginEnd="@dimen/feedback_sdk_common_8_dip"
+                android:layout_alignParentStart="true" />
+            <LinearLayout
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/tb_my_user_icon"
+                android:layout_toEndOf="@id/tb_replay_icon">
+                <TextView
+                    android:textSize="@dimen/feedback_sdk_common_ui_sp_14"
+                    android:textColor="@color/feedback_sdk_text_normal_black"
+                    android:id="@id/mycontent"
+                    android:background="@drawable/feedback_sdk_bg_question_from"
+                    android:padding="@dimen/feedback_sdk_common_8_dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="true" />
+            </LinearLayout>
+            <ImageView
+                android:id="@id/tb_my_user_icon"
+                android:layout_width="@dimen/feedback_sdk_common_32_dip"
+                android:layout_height="@dimen/feedback_sdk_common_32_dip"
+                android:src="@drawable/feedback_sdk_me_head_icon_def"
+                android:layout_marginStart="@dimen/feedback_sdk_common_8_dip"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/replay_ll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_from_msg"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/feedback_sdk_text_normal_black_50"
+            android:id="@id/from_chat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+            android:layout_marginBottom="@dimen/feedback_sdk_common_16_dip" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/replay_ll"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/replay_ll_view">
+        <com.huawei.phoneservice.feedback.mvp.base.FeedbackCITListView
+            android:id="@id/replay_img_lsit"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <include
+            android:id="@id/feedback_sdk_item_msgfrom"
+            android:visibility="visible"
+            layout="@layout/feedback_sdk_item_msgfrom_reply" />
+        <include
+            android:id="@id/feedback_layout_evaluat"
+            android:visibility="gone"
+            layout="@layout/feedback_sdk_item_msgto_evaluat" />
+    </LinearLayout>
+</RelativeLayout>

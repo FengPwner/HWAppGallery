@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.service.store.awk.widget.topbanner.TopBanner
+        android:id="@id/topbanner"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no" />
+    <FrameLayout
+        android:id="@id/container_downbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/wisedist_banner_download_card_mask_margin_top"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

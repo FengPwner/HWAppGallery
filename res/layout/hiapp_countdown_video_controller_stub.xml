@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/hiapp_countdown_video_stub"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loading"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@id/port_control"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12.0dip"
+            android:layout_marginEnd="12.0dip">
+            <ImageView
+                android:id="@id/port_mute"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/aguikit_ic_public_sound_off" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

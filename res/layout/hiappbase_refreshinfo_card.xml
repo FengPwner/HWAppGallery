@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/hiappbase_refreshinfo_card_0"
+    android:background="@drawable/infoflow_refresh_card_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_48dp">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:layout_gravity="center_vertical"
+            android:id="@id/prompt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hiappbase_no_more_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+            android:paddingEnd="@dimen/appgallery_card_elements_margin_m"
+            android:layout_marginEnd="@dimen/appgallery_text_margin_horizontal" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/emui_functional_blue"
+            android:layout_gravity="center_vertical"
+            android:id="@id/refresh_info_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hiappbase_click_to_refresh"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:paddingEnd="@dimen/appgallery_card_elements_margin_m" />
+    </LinearLayout>
+</LinearLayout>

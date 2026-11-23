@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/message_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/AppListItem"
+            android:paddingTop="8.0dip"
+            android:paddingBottom="4.0dip"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent"
+            android:layout_above="@id/message_read_all_btn"
+            android:layout_alignParentTop="true"
+            android:paddingStart="@dimen/appgallery_max_padding_start"
+            android:paddingEnd="@dimen/appgallery_max_padding_end" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:gravity="center"
+            android:id="@id/message_read_all_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_list_item_right_arrow_height"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            android:text="@string/forum_message_btn_read_all"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.Emui.HwButton" />
+    </RelativeLayout>
+    <ViewStub
+        android:id="@id/nodata_viewstub"
+        android:layout="@layout/hiappbase_nodata_warn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+        android:gravity="center"
+        android:layout_gravity="bottom|center"
+        android:id="@id/message_setting_btn"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_list_item_right_arrow_height"
+        android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+        android:text="@string/setting_network_prompt_title"
+        style="@style/Widget.Emui.HwButton" />
+    <FrameLayout
+        android:id="@id/hiappbase_loading_layout_id"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingBar"
+                android:layout_width="@dimen/loading_large"
+                android:layout_height="@dimen/loading_large"
+                style="@style/Widget.Emui.HwProgressBar.Large" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/emui_black"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_loading_prompt"
+                android:alpha="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

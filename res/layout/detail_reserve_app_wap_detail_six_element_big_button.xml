@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.detail.detailcard.card.reserveappwapdetailsixelementcard.LimitHeightScrollView
+        android:id="@id/scrollview"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@id/tv_devname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Tertiary" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@id/tv_versionDetailsPrivacyPermission"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Tertiary" />
+        </LinearLayout>
+    </com.huawei.appgallery.detail.detailcard.card.reserveappwapdetailsixelementcard.LimitHeightScrollView>
+</RelativeLayout>

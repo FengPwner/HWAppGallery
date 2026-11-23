@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textSize="@dimen/emui_text_size_body2"
+        android:textColor="@color/emui_color_text_secondary"
+        android:id="@id/joint_service_privacy_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_8_dp"
+        android:layout_marginBottom="@dimen/ui_24_dp"
+        android:text="@string/joint_operation_services_privacy_part1"
+        android:fontFamily="@string/emui_text_font_family_regular"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+</LinearLayout>

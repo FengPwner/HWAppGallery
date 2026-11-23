@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">發現《%1$s》等 %2$d 款應用程式存在風險</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">發現《%1$s》等 %2$d 款應用程式為不常用的應用程式</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">發現 %d 款應用程式長期未使用</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d 個惡意行為應用程式管控中</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d 個惡意行為應用程式可處理</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d 個欺詐風險應用程式管控中</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d 個欺詐風險應用程式可處理</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d 個私隱風險應用程式管控中</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d 個私隱風險應用程式可處理</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d 個存在潛在安全風險應用程式管控中</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d 個存在潛在安全風險應用程式可處理</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d 個病毒風險應用程式管控中</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d 個病毒風險應用程式可處理</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">共優化 %d 項內容</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d 款應用程式待處理</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">共掃描 %d 款應用程式</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d 日前</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d 款</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">共掃描 %d 款</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">發現風險 %d 種</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">近 %1$d 日共發現 %2$d 款應用程式存在風險，輕觸檢視</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">近 %1$d 日共掃描 %2$d 款應用程式，輕觸檢視</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d 個應用程式可以無損壓縮</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d 個未知應用程式待處理</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">%d 個應用程式可壓縮</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">發現 %d 款未知應用程式，請檢視</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">發現 %d 款未知應用程式</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">%s 分</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">「%1$s」包含受年齡限制的內容。確定已滿 %2$d 周歲，輕觸「%3$s」鍵開始下載。</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">已暫停 %1$d 項安裝</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">「%1$s」包含受年齡限制的內容。確定已滿 %2$d 周歲，輕觸「%3$s」鍵開始使用。</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">踩 %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">踩 %d，已踩</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">讚 %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">讚 %d，已讚</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d 則評論</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d 人評分</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d 個讚</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d 則回覆</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">所有 %1$d 則回覆</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">遊戲時間少於 %1$d 分鐘，無法發表評論</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">有 %1$s 個應用程式正在安裝</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">已選擇 %1$d 項</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">解除安裝 %1$s 等應用程式？</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">解除安裝 %3$s、%1$s 等 %2$s 個應用程式？</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">解除安裝「%1$s」等 %2$s 個應用程式？</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">刪除 %1$s 項安裝記錄數據？</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">您選擇的應用程式中有 %1$d 款需以下權限：</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d 人評分</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s 億人評分</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s 萬人評分</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s 個活動</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">今日遊戲時長不足 %1$s 分鐘，請儘快儲存遊戲</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">遊戲剩餘試玩時長不足 %d 分鐘</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s 億</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s 百萬</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s 萬</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">評論 %1$d 則</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">最多 %1$d 個字元</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">不少於 %1$d 個字</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"最多 %1$d 張
+每張 %2$s 以內"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">此類問題最多上載 %d 張圖片</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s 分</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">密碼輸入錯誤超過 %1$d 次，請在 %2$d 分鐘後重試</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s 億人在學</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s 百萬人在學</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s 人在學</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s 萬人在學</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s 億人已購買</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s 百萬人已購買</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s 人已購買</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s 萬人已購買</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s 人評分</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">星級評分，%1$s 顆星</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">評分 %1$s 顆星</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">仍然安裝（%1$d 秒）</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">已選擇 %1$d 項</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">請至少以 %d 個字描述問題，並提供截圖，這將有助問題得到快速解決。</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d 分鐘</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">帖子 %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d 讚好</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d 回覆</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s 億</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s 百萬</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s 萬</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d 次瀏覽</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">回帖（%1$d 則）</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">檢視所有 %1$d 則回覆</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s 人參與</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">最多可選 %s 項</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">多選，%1$d 項</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">選擇 %s 項</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s 票</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">本服務啟動時需申請以下 %1$d 項權限，可進入「設定」>「應用程式」>「應用程式」撤銷：</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">本應用程式啟動時需要申請以下 %1$d 項權限。您可以前往「設定」>「應用程式和服務」>「應用程式」撤銷：</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d 款禮包</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d 萬</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d 顆星</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">%s 分</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s 人評分</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s 次開啟</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">已為您推介 %d 則新內容</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s 億</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s 百萬</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s 萬</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d 個應用程式已更新完畢，請檢視</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d 個應用程式更新中</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">圖片大小超出 %1$d MB 上限</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">共 %d 張相片</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">已選擇 %1$d/%2$d 項</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">共 %d 段影片</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d 項優惠</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 個新通知</item>
+        <item quantity="one">%d 個新通知</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">刪除所有已暫停的安裝（%1$s 個應用程式，釋放 %2$s 空間）</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">（已選擇 %1$d 項）</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">第 %1$d 頁</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">已暫停 %1$s 個安裝。</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d 款商品</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">下載量 %1$s</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">評分 %1$s</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">已完成 %1$s 項應用程式預約任務</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d 個應用程式將在連線 Wi-Fi 後自動安裝</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">（%1$s 萬人已預約）</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">是否安裝全部 %1$s 個應用程式？</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">正在進行 %1$s 個安裝</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">共 %1$d 頁</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">在本機 %d 款應用程式中搜尋</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">恢復 %d 個應用程式至更新清單並允許其進行更新。</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">有 %1$s 款應用程式可更新</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">建議更新 %1$s 款應用程式，共 %2$s</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d 款應用程式待更新，共 %2$s</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d 日未使用</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">確定清除所有下載任務（共 %d 項）及源檔案？</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">已連續簽到 %d 日</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d 日</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d 個應用程式已下載。</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">%s 分</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">“%1$s” 等 %2$d 個應用程式</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">有 %1$s 個紅點提醒</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d 項活動</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d 份社區禮物</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d 款禮物</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">該地區已有 %d 人收藏</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">已選擇 %1$d 項</item>
+    </plurals>
+</resources>

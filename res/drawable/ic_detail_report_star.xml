@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:tint="@color/appgallery_emui_color_8"
+    android:height="8.0dip"
+    android:width="8.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="8.0"
+    android:viewportHeight="8.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M0.875,6.83036l1.9375,-2.42857l-2.8125,-0.79464l0.53571,-1.61607l2.76786,1.11607l-0.16964,-3.10714l1.74107,0l-0.17857,3.16964l2.71429,-1.08929l0.52679,1.63393l-2.85714,0.79464l1.86607,2.36607l-1.41071,1.00893l-1.625,-2.59821l-1.61607,2.51786z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="evenOdd" />
+</vector>

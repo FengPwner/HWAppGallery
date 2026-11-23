@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="@dimen/wisejoint_card_icon_size_large"
+        android:layout_height="@dimen/wisejoint_card_icon_size_large"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appicon"
+        android:layout_alignStart="@id/appicon"
+        android:layout_alignEnd="@id/appicon">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@id/ItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/wisejoint_card_icon_size_large"
+            android:text="@string/placeholder_for_layout"
+            android:maxLines="@integer/horizonhomecard_name_max_lines"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:id="@id/ItemText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/wisejoint_card_icon_size_large"
+            android:maxLines="@integer/horizonhomecard_intro_max_lines"
+            android:includeFontPadding="false"
+            style="@style/AppGallery.TextAppearance.Card.TextBody4.Fixed.Secondary" />
+    </LinearLayout>
+</RelativeLayout>

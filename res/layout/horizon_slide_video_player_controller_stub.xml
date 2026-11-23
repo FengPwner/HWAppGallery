@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/horizon_slide_video_stub"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loading"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@id/port_control"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@id/center_control"
+                android:visibility="gone"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:src="@drawable/ic_public_play_button"
+                android:layout_centerInParent="true" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginBottom="24.0dip"
+                android:layout_alignParentBottom="true">
+                <ImageView
+                    android:id="@id/port_mute"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/media_ic_video_silence" />
+                <ImageView
+                    android:id="@id/port_full_screen"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/media_ic_video_fullscreen"
+                    android:layout_marginStart="8.0dip" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_primary_inverse"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/port_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_regular" />
+                <TextView
+                    android:textSize="@dimen/emui_master_caption_2"
+                    android:textColor="@color/appgallery_text_color_primary_inverse"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/port_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    android:layout_marginStart="8.0dip" />
+                <com.huawei.uikit.hwseekbar.widget.HwSeekBar
+                    android:id="@id/port_seek"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:max="1000"
+                    android:indeterminate="false"
+                    android:layout_weight="1.0"
+                    android:paddingStart="12.0dip"
+                    android:paddingEnd="12.0dip"
+                    style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/land_control"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="128.0dip"
+                android:layout_above="@id/land_control_relative"
+                layout="@layout/horizon_video_full_screen_bottom_description" />
+            <RelativeLayout
+                android:id="@id/land_control_relative"
+                android:background="#b3000000"
+                android:layout_width="fill_parent"
+                android:layout_height="72.0dip"
+                android:layout_alignParentBottom="true"
+                android:paddingStart="@dimen/padding_l"
+                android:paddingEnd="@dimen/padding_s">
+                <ImageView
+                    android:id="@id/land_play"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:src="@drawable/ic_public_play_button"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16.0dip"
+                    android:layout_alignParentStart="true" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@id/land_end_control"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true">
+                    <ImageView
+                        android:id="@id/land_mute"
+                        android:padding="12.0dip"
+                        android:layout_width="48.0dip"
+                        android:layout_height="48.0dip"
+                        android:src="@drawable/media_ic_video_silence" />
+                    <ImageView
+                        android:id="@id/land_full_screen"
+                        android:padding="12.0dip"
+                        android:layout_width="48.0dip"
+                        android:layout_height="48.0dip"
+                        android:src="@drawable/media_ic_video_fullscreen" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@id/time_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/seek"
+                    android:layout_alignStart="@id/seek"
+                    android:layout_alignEnd="@id/seek">
+                    <TextView
+                        android:textSize="@dimen/emui_master_caption_2"
+                        android:textColor="@android:color/white"
+                        android:id="@id/position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:textSize="@dimen/emui_master_caption_2"
+                        android:textColor="@android:color/white"
+                        android:id="@id/duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <com.huawei.uikit.hwseekbar.widget.HwSeekBar
+                    android:id="@id/seek"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:max="1000"
+                    android:indeterminate="false"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="2.0dip"
+                    android:layout_toStartOf="@id/land_end_control"
+                    android:layout_toEndOf="@id/land_play"
+                    style="?android:progressBarStyleHorizontal" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

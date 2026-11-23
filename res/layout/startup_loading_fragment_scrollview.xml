@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/tips"
+    android:visibility="visible"
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@id/clickLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appmarket.framework.widget.NetworkRemindBar
+            android:id="@id/network_remind_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@id/item_title"
+            android:paddingTop="@dimen/padding_l"
+            android:paddingBottom="@dimen/padding_l"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_network_tips"
+            android:layout_below="@id/network_remind_bar"
+            android:paddingStart="@dimen/appgallery_max_padding_start"
+            android:paddingEnd="@dimen/appgallery_max_padding_end"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <com.huawei.appmarket.service.settings.view.widget.EnterLayout
+            android:id="@id/uninstallBtn"
+            android:background="@drawable/list_item_normal_selector"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_title" />
+        <com.huawei.appmarket.service.settings.view.widget.EnterLayout
+            android:id="@id/fastAppManagerBtn"
+            android:background="@drawable/list_item_normal_selector"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uninstallBtn" />
+        <com.huawei.appmarket.service.settings.view.widget.EnterLayout
+            android:id="@id/apkmanagerBtn"
+            android:background="@drawable/list_item_normal_selector"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fastAppManagerBtn" />
+        <com.huawei.appmarket.framework.widget.RenderButton
+            android:gravity="center"
+            android:id="@id/go_to_net_diagnose"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            android:text="@string/netdiagnose_button_text"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</ScrollView>

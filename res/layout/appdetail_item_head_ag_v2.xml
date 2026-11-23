@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@id/detail_head_back"
+            android:visibility="invisible"
+            layout="@layout/appdetail_head_view_back_layout" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@id/vw_divider_top"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/component_detail_normal_divider_line" />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:id="@id/detail_head_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/ui_10_dp"
+                android:paddingEnd="@dimen/appgallery_max_padding_end">
+                <include
+                    android:id="@id/appdetail_head_view_app_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    layout="@layout/appdetail_head_view_app_icon" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/detail_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+                    android:layout_marginEnd="8.0dip"
+                    android:layout_toStartOf="@id/detail_head_divide"
+                    android:layout_toEndOf="@id/appdetail_head_view_app_icon">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:id="@id/detail_app_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/appgallery_card_elements_margin_s">
+                                <TextView
+                                    android:textSize="@dimen/appgallery_text_size_headline8"
+                                    android:textColor="@color/appgallery_text_color_primary"
+                                    android:ellipsize="end"
+                                    android:id="@id/detail_head_app_name_textview"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:maxLines="2"
+                                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                                    android:textDirection="locale"
+                                    android:textAlignment="viewStart" />
+                            </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/detail_head_desc_layout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs" />
+                            <TextView
+                                android:ellipsize="end"
+                                android:id="@id/detail_head_install_times"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/ui_12_dp"
+                                android:maxLines="1"
+                                style="@style/detail_head_label" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:id="@id/detail_head_divide"
+                    android:background="@color/appgallery_color_foreground"
+                    android:layout_height="60.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_alignTop="@id/detail_layout"
+                    android:layout_toStartOf="@id/head_score_layout"
+                    style="@style/AppGallery.Widget.Divider.Vertical" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/head_score_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/detail_head_divide"
+                    android:layout_alignBottom="@id/detail_head_divide"
+                    android:layout_marginStart="24.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    android:layout_alignParentEnd="true">
+                    <TextView
+                        android:textSize="@dimen/appgallery_text_size_headline7"
+                        android:textColor="@color/appgallery_text_color_primary"
+                        android:ellipsize="end"
+                        android:layout_gravity="center"
+                        android:id="@id/detail_head_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:fontFamily="@string/appgallery_text_font_family_medium"
+                        android:textDirection="locale" />
+                    <TextView
+                        android:textSize="@dimen/appgallery_text_size_caption"
+                        android:textColor="@color/emui_color_text_tertiary"
+                        android:layout_gravity="center"
+                        android:id="@id/detail_head_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_data_rating"
+                        android:fontFamily="@string/appgallery_text_font_family_regular" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View
+                android:id="@id/vw_divider_line"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/appgallery_subheader_spliter_height" />
+            <View
+                android:id="@id/normal_divider"
+                android:background="@color/transparent"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/component_detail_normal_divider" />
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@id/bootom_download"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip"
+                android:paddingStart="10.0dip"
+                android:paddingEnd="10.0dip" />
+            <include
+                android:id="@id/no_adapt_container"
+                layout="@layout/appdetail_head_view_no_adapt" />
+            <View
+                android:id="@id/detail_interval"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="14.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

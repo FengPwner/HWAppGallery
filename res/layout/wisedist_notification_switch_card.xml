@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/notification_switch_card_bg"
+    android:paddingTop="@dimen/appgallery_column_system_content_margin"
+    android:paddingBottom="@dimen/appgallery_column_system_content_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_default_card_space_vertical_l"
+    android:paddingEnd="@dimen/appgallery_default_card_space_vertical_l"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/notification_switch_card_title_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:id="@id/notification_switch_card_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/appgallery_text_font_family_medium" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/notification_switch_card_content_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:id="@id/notification_switch_card_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+    <LinearLayout
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:id="@id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        android:paddingEnd="12.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/notification_switch_card_button_text_color"
+            android:id="@id/notification_switch_disable_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wisedist_notification_switch_card_disable_text"
+            android:textAllCaps="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:paddingStart="7.0dip"
+            android:paddingEnd="7.0dip"
+            android:layout_marginEnd="24.0dip" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/notification_switch_card_button_text_color"
+            android:id="@id/notification_switch_enable_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wisedist_notification_switch_card_enable_text"
+            android:textAllCaps="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:paddingStart="14.0dip"
+            android:paddingEnd="14.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/idle_main_layout"
+    android:addStatesFromChildren="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:id="@id/idle_icon_imageview"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_marginBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:src="@color/transparent"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            maskview:corner_type="appicon"
+            maskview:round_type="all" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+            android:id="@id/idle_option_button"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        <RelativeLayout
+            android:id="@id/app_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_toStartOf="@id/idle_option_button"
+            android:layout_toEndOf="@id/idle_icon_imageview">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/idle_record_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/updatemanager_app_info_default"
+                android:singleLine="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:importantForAccessibility="no"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <TextView
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:id="@id/idle_record_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:text="@string/updatemanager_app_info_default"
+                android:singleLine="true"
+                android:layout_below="@id/idle_record_name"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textAllCaps="false"
+                android:importantForAccessibility="no"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:id="@id/idle_update_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_s"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:text="@string/updatemanager_app_info_default"
+        android:layout_below="@id/main_layout"
+        android:lineSpacingMultiplier="@dimen/appgallery_text_line_space_s"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_toStartOf="@id/idle_expand_icon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+    <ImageView
+        android:id="@id/idle_expand_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_public_arrow_down_900"
+        android:layout_alignBottom="@id/idle_update_desc"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:id="@id/idle_split_line"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/idle_update_desc"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

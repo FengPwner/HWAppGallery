@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_sub_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/tabContainer"
+        android:background="@color/appgallery_color_appbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_hwtoolbar_height">
+        <RelativeLayout
+            android:id="@id/back_icon"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:visibility="visible"
+            android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/click_back"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginEnd="4.0dip"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:id="@id/left_imageview"
+                android:background="@drawable/aguikit_ic_public_back"
+                android:visibility="visible"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@id/menu_layout_id"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/hwappbarpattern_menuitem_size"
+            android:layout_height="@dimen/hwappbarpattern_menuitem_size"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/card_more_btn"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@id/right_imageview"
+                android:background="@drawable/aguikit_ic_public_more"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/title_textview"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_toStartOf="@id/menu_layout_id"
+            android:layout_toEndOf="@id/back_icon"
+            app:hwAutoSizeMinTextSize="@dimen/hwappbarpattern_title_min_text_size"
+            app:hwAutoSizeStepGranularity="@dimen/hwappbarpattern_title_textsize_step"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </RelativeLayout>
+</RelativeLayout>

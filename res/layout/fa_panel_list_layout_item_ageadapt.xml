@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/ui_24_dp"
+    android:layout_marginBottom="@dimen/ui_24_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/fa_panel_list_layout_item_image_ll"
+        android:background="@drawable/fa_panel_list_item_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@id/fa_panel_list_layout_item_image"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:layout_margin="@dimen/ui_12_dp" />
+    </LinearLayout>
+    <TextView
+        android:textSize="@dimen/ui_sp_12"
+        android:textColor="@color/text_color_primary"
+        android:gravity="start"
+        android:id="@id/fa_panel_list_layout_item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ui_28_dp"
+        android:text=""
+        android:fontFamily="@string/emui_text_font_family_regular"
+        android:layout_marginStart="@dimen/ui_16_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/fa_panel_list_layout_item_image_ll"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

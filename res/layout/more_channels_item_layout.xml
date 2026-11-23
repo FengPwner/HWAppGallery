@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/item_container_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:background="@drawable/list_item_normal_selector"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.Widget.List.SingleTextLine">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/itemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="viewStart"
+            android:layout_toStartOf="@id/arrowlayout"
+            android:layout_alignParentStart="true"
+            style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+        <ImageView
+            android:id="@id/arrowlayout"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.Widget.List.RightArrow" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/divide_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid
+                        android:color="@color/appgallery_color_card_panel_bg" />
+                    <corners
+                        android:radius="@dimen/appgallery_default_corner_radius_l" />
+                </shape>
+            </item>
+            <item
+                android:left="4.0dip"
+                android:top="4.0dip"
+                android:right="4.0dip"
+                android:bottom="4.0dip">
+                <shape>
+                    <solid
+                        android:color="@color/appgallery_clickeffic_default_color" />
+                    <corners
+                        android:radius="12.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_pressed="false">
+        <shape>
+            <solid
+                android:color="@color/appgallery_color_card_panel_bg" />
+            <corners
+                android:radius="@dimen/appgallery_default_corner_radius_l" />
+        </shape>
+    </item>
+</selector>

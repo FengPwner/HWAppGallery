@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.search.ui.view.SearchExpandScrollLayout
+    android:id="@id/hiappbase_expand_scrolllayout_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/viewstub_head"
+        android:layout="@layout/search_result_head_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.uikit.hwsubtab.widget.HwSubTabWidget
+        android:layout_gravity="center_horizontal"
+        android:id="@id/hiappbase_tablayout_id"
+        android:background="@color/appgallery_color_subtab_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.Emui.HwSubTabBar" />
+    <com.huawei.uikit.hwviewpager.widget.HwViewPager
+        android:id="@id/hiappbase_viewpager_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</com.huawei.appgallery.search.ui.view.SearchExpandScrollLayout>

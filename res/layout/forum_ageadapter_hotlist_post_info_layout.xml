@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/list_divider_view"
+        android:background="@color/forum_black_20_percent"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/forum_list_divider_height"
+        android:layout_marginTop="@dimen/appgallery_safety_margin_m" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="12.0dip"
+        android:paddingBottom="12.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_divider_view"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="12.0dip"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="start|center"
+            android:orientation="horizontal"
+            android:id="@id/forum_hotlist_icon_name_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@id/forum_space_view"
+                android:visibility="gone"
+                android:layout_width="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:layout_height="wrap_content" />
+            <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+                android:id="@id/forum_hotlist_forumicon_imageview"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:importantForAccessibility="no"
+                android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+                app:corner_type="appicon"
+                app:round_type="all" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/forum_hotlist_forumname_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/forum_hotlist_comment_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16.0dip"
+                android:layout_alignParentEnd="true">
+                <ImageView
+                    android:id="@id/forum_hotlist_comment_icon"
+                    android:layout_width="@dimen/appgallery_card_elements_margin_l"
+                    android:layout_height="@dimen/appgallery_card_elements_margin_l"
+                    android:src="@drawable/aguikit_ic_public_comments"
+                    android:contentDescription="@string/forum_post_comment_reply" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_caption1"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:id="@id/forum_hotlist_comment_count"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_s"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/forum_hotlist_like_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="16.0dip"
+                android:layout_toStartOf="@id/forum_hotlist_comment_layout">
+                <com.huawei.appgallery.forum.cards.widget.LikeImageView
+                    android:id="@id/forum_hotlist_like_icon"
+                    android:background="@color/forum_base_black_50_percent"
+                    android:layout_width="@dimen/appgallery_card_elements_margin_l"
+                    android:layout_height="@dimen/appgallery_card_elements_margin_l"
+                    android:contentDescription="@string/forum_post_comment_like" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/emui_text_size_caption1"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:id="@id/forum_hotlist_like_count"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_s"
+                    style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+            </LinearLayout>
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:id="@id/forum_hotlist_nick_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text=""
+                android:maxLines="1"
+                android:layout_centerVertical="true"
+                android:textAlignment="viewStart"
+                android:layout_toStartOf="@id/forum_hotlist_like_layout"
+                android:layout_alignParentStart="true"
+                style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/area_webview_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_horizontal"
+        style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    <include
+        android:id="@id/web_error_layout"
+        android:visibility="gone"
+        layout="@layout/agwebview_web_error_global" />
+</LinearLayout>

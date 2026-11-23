@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/ui_8_dp"
+    android:paddingBottom="@dimen/ui_12_dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/lay_head_v3_card"
+        android:background="@drawable/appdetail_item_head_ag_v3_bg"
+        android:paddingBottom="@dimen/ui_12_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/cs_6_dp"
+        android:paddingEnd="@dimen/ui_12_dp">
+        <include
+            android:id="@id/detail_head_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/appinfo_appdetail_head_ag_v3" />
+        <FrameLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/rl_download"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.appgallery.detail.detailbase.api.DetailHeadDownLoadButton
+                android:id="@id/btn_download"
+                android:visibility="visible"
+                android:layout_width="244.0dip"
+                android:layout_height="28.0dip"
+                android:minWidth="@dimen/component_detail_card_element_width_l"
+                wapbutton:hwAutoSizeMinTextSize="9.0sp"
+                wapbutton:hwProgressButtonStaticTextColor="@color/hwprogressbutton_selector_button_text_emphasize"
+                style="@style/Widget.Emui.HwProgressButton" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

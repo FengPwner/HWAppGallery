@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/floatContainer"
+    android:background="@color/emui_color_bg_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/loadingView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@color/cloud_game_loading_bg_color"
+            android:scaleType="fitXY" />
+        <SurfaceView
+            android:id="@id/surfaceView"
+            android:background="@color/transparent"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/splash_port_layout" />
+    </RelativeLayout>
+</FrameLayout>

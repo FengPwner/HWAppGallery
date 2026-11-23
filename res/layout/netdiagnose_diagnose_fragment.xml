@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/start_empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_container"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/empty_image"
+            android:src="@drawable/netdiagnose_empty"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:text="@string/netdiagnose_tips"
+            style="@style/AppGallery.TextAppearance.NoData" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@id/net_diagnose_content"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_container">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:id="@id/tv_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_padding_top_8_dp"
+                android:layout_marginBottom="@dimen/text_padding_bottom_8_dp"
+                android:text="@string/netdiagnose_tips"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@id/ll_item_list_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_device_ip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_dns_ip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_out_ip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_ip_connectivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_service_connect"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.huawei.appgallery.netdiagnosekit.ui.widget.NetDiagnoseItemView
+                    android:id="@id/item_downloading"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/bottom_container"
+        android:paddingBottom="@dimen/button_padding_bottom_16_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:gravity="center"
+            android:id="@id/tv_notice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_link"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/view_diagnose_logs"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/netdiagnose_check_diagnose_log"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:layout_gravity="center"
+            android:id="@id/btn_start"
+            android:layout_marginTop="@dimen/button_margin_top_16_dp"
+            android:text="@string/netdiagnose_button_start"
+            android:maxLines="1"
+            app:hwAutoSizeMinTextSize="9.0sp"
+            app:hwAutoSizeStepGranularity="1.0sp"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </LinearLayout>
+</RelativeLayout>

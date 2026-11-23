@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="4.0dip"
+        android:right="4.0dip">
+        <selector>
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/hiappbase_ad_item_pressed" />
+        </selector>
+    </item>
+</layer-list>

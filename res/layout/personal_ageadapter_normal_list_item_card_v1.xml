@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/item_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_vertical">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/item_label_imageview"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip" />
+            <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <TextView
+                    android:id="@id/item_label_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+                    android:layout_toEndOf="@id/item_label_imageview"
+                    style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+                <ImageView
+                    android:textColor="@color/emui_white"
+                    android:id="@id/item_red_dot_imageview"
+                    android:visibility="gone"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:src="@drawable/tab_red_dot"
+                    android:layout_marginStart="@dimen/appgallery_text_margin_horizontal" />
+            </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+            <ImageView
+                android:id="@id/arrow_ageadapter_imageview_right"
+                android:layout_width="12.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/ic_public_arrow_right_900"
+                android:layout_marginStart="@dimen/margin_s" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@id/item_ageadapter_order_count_view"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/personal_ageadapter_my_assets_txt_margin_top"
+            android:layout_marginStart="@dimen/appgallery_card_icon_size_small">
+            <TextView
+                android:id="@id/order_count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            <ImageView
+                android:id="@id/arrow_imageview_bottom"
+                android:layout_width="12.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/ic_public_arrow_right_900"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/vertical_divide_line_imageview"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="44.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</FrameLayout>

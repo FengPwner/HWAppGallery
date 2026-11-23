@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/ui_10_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.foundation.ui.framework.widget.PullUpListView
+        android:id="@id/applistview"
+        android:background="@color/detail_dowanload_progressbar_color_alpha_60"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="true"
+        android:divider="@null"
+        android:dividerHeight="0.0dip" />
+</FrameLayout>

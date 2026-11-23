@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <shape>
+            <solid
+                android:color="@color/forum_post_vote_black_05" />
+            <corners
+                android:radius="@dimen/appgallery_default_corner_radius_m" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid
+                android:color="@color/forum_post_vote_black_05" />
+            <corners
+                android:radius="@dimen/appgallery_default_corner_radius_m" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@id/forum_popup_guide_layout"
+        android:background="@drawable/forum_post_section_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <TextView
+            android:textColor="@color/appgallery_text_color_primary_activated"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/forum_popup_guide_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Primary.Medium" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d ngā taupānga hoto kua kitea (me te %1$s)</item>
+        <item quantity="zero">%2$d ngā taupānga hoto kua kitea (me te %1$s)</item>
+        <item quantity="one">%2$d te taupānga hoto kua kitea (%1$s)</item>
+        <item quantity="two">%2$d ngā taupānga hoto kua kitea (me te %1$s)</item>
+        <item quantity="few">%2$d ngā taupānga hoto kua kitea (me te %1$s)</item>
+        <item quantity="many">%2$d ngā taupānga hoto kua kitea (me te %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">%2$d taupānga kua kitea kāore anō kia whakamahia (tae atu ki %1$s)</item>
+        <item quantity="zero">%2$d taupānga kua kitea kāore anō kia whakamahia (tae atu ki %1$s)</item>
+        <item quantity="one">%2$d taupānga kua kitea kāore anō kia whakamahia (tae atu ki %1$s)</item>
+        <item quantity="two">%2$d taupānga kua kitea kāore anō kia whakamahia (tae atu ki %1$s)</item>
+        <item quantity="few">%2$d taupānga kua kitea kāore anō kia whakamahia (tae atu ki %1$s)</item>
+        <item quantity="many">%2$d taupānga kua kitea kāore anō kia whakamahia (tae atu ki %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d te ngā taupānga kāore i whakamahia</item>
+        <item quantity="zero">%d te ngā taupānga kāore i whakamahia</item>
+        <item quantity="one">%d te taupānga kāore i whakamahia</item>
+        <item quantity="two">%d te ngā taupānga kāore i whakamahia</item>
+        <item quantity="few">%d te ngā taupānga kāore i whakamahia</item>
+        <item quantity="many">%d te ngā taupānga kāore i whakamahia</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d ngā taupānga whai whanonga kino e whakahaeretia ana</item>
+        <item quantity="zero">%d ngā taupānga whai whanonga kino e whakahaeretia ana</item>
+        <item quantity="one">%d taupānga whai whanonga kino e whakahaeretia ana</item>
+        <item quantity="two">%d ngā taupānga whai whanonga kino e whakahaeretia ana</item>
+        <item quantity="few">%d ngā taupānga whai whanonga kino e whakahaeretia ana</item>
+        <item quantity="many">%d ngā taupānga whai whanonga kino e whakahaeretia ana</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d kua kitea ngā taupānga whai whanonga kino</item>
+        <item quantity="zero">%d kua kitea ngā taupānga whai whanonga kino</item>
+        <item quantity="one">%d kua kitea te taupānga whai whanonga kino</item>
+        <item quantity="two">%d kua kitea ngā taupānga whai whanonga kino</item>
+        <item quantity="few">%d kua kitea ngā taupānga whai whanonga kino</item>
+        <item quantity="many">%d kua kitea ngā taupānga whai whanonga kino</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d ngā taupānga tinihanga i whakahaeretia</item>
+        <item quantity="zero">%d ngā taupānga tinihanga i whakahaeretia</item>
+        <item quantity="one">%d i whakahaeretia te taupānga tinihanga</item>
+        <item quantity="two">%d ngā taupānga tinihanga i whakahaeretia</item>
+        <item quantity="few">%d ngā taupānga tinihanga i whakahaeretia</item>
+        <item quantity="many">%d ngā taupānga tinihanga i whakahaeretia</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d kua kitea ngā taupānga tinihanga</item>
+        <item quantity="zero">%d kua kitea ngā taupānga tinihanga</item>
+        <item quantity="one">%d kua kitea te taupānga tinihanga</item>
+        <item quantity="two">%d kua kitea ngā taupānga tinihanga</item>
+        <item quantity="few">%d kua kitea ngā taupānga tinihanga</item>
+        <item quantity="many">%d kua kitea ngā taupānga tinihanga</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d Ngā taupānga whai mōrea tūmataitinga e whakahaeretia ana</item>
+        <item quantity="zero">%d Ngā taupānga whai mōrea tūmataitinga e whakahaeretia ana</item>
+        <item quantity="one">%d taupānga me ngā mōrea tūmataitinga e whakahaeretia ana</item>
+        <item quantity="two">%d Ngā taupānga whai mōrea tūmataitinga e whakahaeretia ana</item>
+        <item quantity="few">%d Ngā taupānga whai mōrea tūmataitinga e whakahaeretia ana</item>
+        <item quantity="many">%d Ngā taupānga whai mōrea tūmataitinga e whakahaeretia ana</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d kua kitea ngā taupānga whai mōrea tūmataitinga</item>
+        <item quantity="zero">%d kua kitea ngā taupānga whai mōrea tūmataitinga</item>
+        <item quantity="one">%d kua kitea te taupānga whai mōrea tūmataitinga</item>
+        <item quantity="two">%d kua kitea ngā taupānga whai mōrea tūmataitinga</item>
+        <item quantity="few">%d kua kitea ngā taupānga whai mōrea tūmataitinga</item>
+        <item quantity="many">%d kua kitea ngā taupānga whai mōrea tūmataitinga</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d Ko ngā taupānga whai tuma haumarutanga e whakahaeretia ana</item>
+        <item quantity="zero">%d Ko ngā taupānga whai tuma haumarutanga e whakahaeretia ana</item>
+        <item quantity="one">%d taupānga me ngā tuma haumarutanga e whakahaeretia ana</item>
+        <item quantity="two">%d Ko ngā taupānga whai tuma haumarutanga e whakahaeretia ana</item>
+        <item quantity="few">%d Ko ngā taupānga whai tuma haumarutanga e whakahaeretia ana</item>
+        <item quantity="many">%d Ko ngā taupānga whai tuma haumarutanga e whakahaeretia ana</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d Kua kitea ngā taupānga whai tuma haumarutanga</item>
+        <item quantity="zero">%d Kua kitea ngā taupānga whai tuma haumarutanga</item>
+        <item quantity="one">%d taupānga me ngā tuma haumarutanga kua kitea</item>
+        <item quantity="two">%d Kua kitea ngā taupānga whai tuma haumarutanga</item>
+        <item quantity="few">%d Kua kitea ngā taupānga whai tuma haumarutanga</item>
+        <item quantity="many">%d Kua kitea ngā taupānga whai tuma haumarutanga</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d ngā taupānga whai huaketo e whakahaeretia ana</item>
+        <item quantity="zero">%d ngā taupānga whai huaketo e whakahaeretia ana</item>
+        <item quantity="one">%d taupānga me ngā huaketo i whakahaeretia</item>
+        <item quantity="two">%d ngā taupānga whai huaketo e whakahaeretia ana</item>
+        <item quantity="few">%d ngā taupānga whai huaketo e whakahaeretia ana</item>
+        <item quantity="many">%d ngā taupānga whai huaketo e whakahaeretia ana</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d ngā taupānga whai huaketo kua kitea</item>
+        <item quantity="zero">%d ngā taupānga whai huaketo kua kitea</item>
+        <item quantity="one">%d taupānga me ngā huaketo kua kitea</item>
+        <item quantity="two">%d ngā taupānga whai huaketo kua kitea</item>
+        <item quantity="few">%d ngā taupānga whai huaketo kua kitea</item>
+        <item quantity="many">%d ngā taupānga whai huaketo kua kitea</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d tuemi kua arotautia</item>
+        <item quantity="zero">%d tuemi kua arotautia</item>
+        <item quantity="one">%d tuemi kua arotautia</item>
+        <item quantity="two">%d tuemi kua arotautia</item>
+        <item quantity="few">%d tuemi kua arotautia</item>
+        <item quantity="many">%d tuemi kua arotautia</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d ngā raruraru i kitea</item>
+        <item quantity="zero">%d he raruraru i kitea</item>
+        <item quantity="one">%d te raruraru i kitea</item>
+        <item quantity="two">E %d ngā raruraru i kitea</item>
+        <item quantity="few">E %d ngā raruraru i kitea</item>
+        <item quantity="many">%d ngā raruraru i kitea</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">E %d taupānga kua karapatia</item>
+        <item quantity="zero">E %d taupānga kua karapatia</item>
+        <item quantity="one">%d taupānga kua karapatia</item>
+        <item quantity="two">E %d taupānga kua karapatia</item>
+        <item quantity="few">E %d taupānga kua karapatia</item>
+        <item quantity="many">E %d taupānga kua karapatia</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d ngā rā i mua</item>
+        <item quantity="zero">%d ngā rā i mua</item>
+        <item quantity="one">%d rā ki mua</item>
+        <item quantity="two">%d ngā rā i mua</item>
+        <item quantity="few">%d ngā rā i mua</item>
+        <item quantity="many">%d ngā rā i mua</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d tuma</item>
+        <item quantity="zero">%d tuma</item>
+        <item quantity="one">%d tuma</item>
+        <item quantity="two">%d tuma</item>
+        <item quantity="few">%d tuma</item>
+        <item quantity="many">%d tuma</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d taupānga kua karapatia</item>
+        <item quantity="zero">%d taupānga kua karapatia</item>
+        <item quantity="one">%d taupānga kua karapatia</item>
+        <item quantity="two">%d taupānga kua karapatia</item>
+        <item quantity="few">%d taupānga kua karapatia</item>
+        <item quantity="many">%d taupānga kua karapatia</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d ngā tūmau taupānga</item>
+        <item quantity="zero">%d ngā tūmau taupānga</item>
+        <item quantity="one">%d te tūmau taupānga</item>
+        <item quantity="two">%d ngā tūmau taupānga</item>
+        <item quantity="few">%d ngā tūmau taupānga</item>
+        <item quantity="many">%d ngā tūmau taupānga</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d kua kitea ngā taupānga hoto i roto i ēnei rā e %1$d nei. Tirohia ngā taipitopito >></item>
+        <item quantity="zero">%2$d kua kitea ngā taupānga hoto i roto i ēnei rā e %1$d nei. Tirohia ngā taipitopito >></item>
+        <item quantity="one">%2$d kua kitea ngā taupānga hoto i roto i tēnei rā %1$d nei. Tirohia ngā taipitopito >></item>
+        <item quantity="two">%2$d kua kitea ngā taupānga hoto i roto i ēnei rā e %1$d nei. Tirohia ngā taipitopito >></item>
+        <item quantity="few">%2$d kua kitea ngā taupānga hoto i roto i ēnei rā e %1$d nei. Tirohia ngā taipitopito >></item>
+        <item quantity="many">%2$d kua kitea ngā taupānga hoto i roto i ēnei rā e %1$d nei. Tirohia ngā taipitopito >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d ngā taupānga i karapatia i te %1$d rā kua hipa. Tirohia ngā taipitopito >></item>
+        <item quantity="zero">%2$d ngā taupānga i karapatia i te %1$d rā kua hipa. Tirohia ngā taipitopito >></item>
+        <item quantity="one">%2$d te taupānga i karapatia i te %1$d rā kua hipa. Tirohia ngā taipitopito >></item>
+        <item quantity="two">%2$d ngā taupānga i karapatia i te %1$d rā kua hipa. Tirohia ngā taipitopito >></item>
+        <item quantity="few">%2$d ngā taupānga i karapatia i te %1$d rā kua hipa. Tirohia ngā taipitopito >></item>
+        <item quantity="many">%2$d ngā taupānga i karapatia i te %1$d rā kua hipa. Tirohia ngā taipitopito >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d ngā taupānga ka taea te kōpeke</item>
+        <item quantity="zero">%d he taupānga ka taea te kōpeke</item>
+        <item quantity="one">%d te taupānga ka taea te kōpeke</item>
+        <item quantity="two">E %d ngā taupānga ka taea te kōpeke</item>
+        <item quantity="few">E %d ngā taupānga ka taea te kōpeke</item>
+        <item quantity="many">%d ngā taupānga ka taea te kōpeke</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d ngā taupānga tē mōhiotia kua kitea.</item>
+        <item quantity="zero">%d he taupānga tē mōhiotia kua kitea.</item>
+        <item quantity="one">%d te taupānga tē mōhiotia kua kitea.</item>
+        <item quantity="two">E %d ngā taupānga tē mōhiotia kua kitea.</item>
+        <item quantity="few">E %d ngā taupānga tē mōhiotia kua kitea.</item>
+        <item quantity="many">%d ngā taupānga tē mōhiotia kua kitea.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Ngā taupānga ka taea te kōpeke (%d)</item>
+        <item quantity="zero">Ngā taupānga ka taea te kōpeke (%d)</item>
+        <item quantity="one">Ngā taupānga ka taea te kōpeke (%d)</item>
+        <item quantity="two">Ngā taupānga ka taea te kōpeke (%d)</item>
+        <item quantity="few">Ngā taupānga ka taea te kōpeke (%d)</item>
+        <item quantity="many">Ngā taupānga ka taea te kōpeke (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d ngā taupānga tē mōhiotia. Me tirotiro.</item>
+        <item quantity="zero">%d ngā taupānga tē mōhiotia. Me tirotiro.</item>
+        <item quantity="one">%d te taupānga tē mōhiotia. Me tirotiro.</item>
+        <item quantity="two">%d ngā taupānga tē mōhiotia. Me tirotiro.</item>
+        <item quantity="few">%d ngā taupānga tē mōhiotia. Me tirotiro.</item>
+        <item quantity="many">%d ngā taupānga tē mōhiotia. Me tirotiro.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d ngā taupānga tē mōhiotia</item>
+        <item quantity="zero">%d ngā taupānga tē mōhiotia</item>
+        <item quantity="one">%d te taupānga tē mōhiotia</item>
+        <item quantity="two">%d ngā taupānga tē mōhiotia</item>
+        <item quantity="few">%d ngā taupānga tē mōhiotia</item>
+        <item quantity="many">%d ngā taupānga tē mōhiotia</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d meneti ki mua</item>
+        <item quantity="zero">%d meneti ki mua</item>
+        <item quantity="one">%d meneti ki mua</item>
+        <item quantity="two">%d meneti ki mua</item>
+        <item quantity="few">%d meneti ki mua</item>
+        <item quantity="many">%d meneti ki mua</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Whakatauranga: %s</item>
+        <item quantity="zero">Whakatauranga: %s</item>
+        <item quantity="one">Whakatauranga: %s</item>
+        <item quantity="two">Whakatauranga: %s</item>
+        <item quantity="few">Whakatauranga: %s</item>
+        <item quantity="many">Whakatauranga: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te tikiake i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="zero">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te tikiake i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="one">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te tikiake i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="two">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te tikiake i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="few">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te tikiake i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="many">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te tikiake i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Kua whakatā ngā tikiake: %1$d</item>
+        <item quantity="zero">Kua whakatā ngā tikiake: %1$d</item>
+        <item quantity="one">Kua whakatā ngā tikiake: %1$d</item>
+        <item quantity="two">Kua whakatā ngā tikiake: %1$d</item>
+        <item quantity="few">Kua whakatā ngā tikiake: %1$d</item>
+        <item quantity="many">Kua whakatā ngā tikiake: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te whakamahi i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="zero">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te whakamahi i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="one">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te whakamahi i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="two">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te whakamahi i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="few">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te whakamahi i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+        <item quantity="many">Kei te %1$s ngā ihirangi kua rāhuitia ā-taipakeke. Mā te pā atu ki %3$s me te whakamahi i tēnei taupānga, e whakaū ana koe he pakeke atu koe i te %2$d.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d wene</item>
+        <item quantity="zero">%d wene</item>
+        <item quantity="one">%d wene</item>
+        <item quantity="two">%d wene</item>
+        <item quantity="few">%d wene</item>
+        <item quantity="many">%d wene</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d wene, kua wenea e koe tēnei</item>
+        <item quantity="zero">%d wene, kua wenea e koe tēnei</item>
+        <item quantity="one">%d wene, kua wenea e koe tēnei</item>
+        <item quantity="two">%d wene, kua wenea e koe tēnei</item>
+        <item quantity="few">%d wene, kua wenea e koe tēnei</item>
+        <item quantity="many">%d wene, kua wenea e koe tēnei</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d painga</item>
+        <item quantity="zero">%d painga</item>
+        <item quantity="one">%d painga</item>
+        <item quantity="two">%d painga</item>
+        <item quantity="few">%d painga</item>
+        <item quantity="many">%d painga</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d painga, kua paingia e koe tēnei</item>
+        <item quantity="zero">%d painga, kua paingia e koe tēnei</item>
+        <item quantity="one">%d painga, kua paingia e koe tēnei</item>
+        <item quantity="two">%d painga, kua paingia e koe tēnei</item>
+        <item quantity="few">%d painga, kua paingia e koe tēnei</item>
+        <item quantity="many">%d painga, kua paingia e koe tēnei</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d whetū</item>
+        <item quantity="zero">%d whetū</item>
+        <item quantity="one">%d whetū</item>
+        <item quantity="two">%d whetū</item>
+        <item quantity="few">%d whetū</item>
+        <item quantity="many">%d whetū</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d ngā tākupu</item>
+        <item quantity="zero">%1$d ngā tākupu</item>
+        <item quantity="one">%1$d te tākupu</item>
+        <item quantity="two">%1$d ngā tākupu</item>
+        <item quantity="few">%1$d ngā tākupu</item>
+        <item quantity="many">%1$d ngā tākupu</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d meneti ki mua</item>
+        <item quantity="zero">%d meneti ki mua</item>
+        <item quantity="one">%d meneti ki mua</item>
+        <item quantity="two">%d meneti ki mua</item>
+        <item quantity="few">%d meneti ki mua</item>
+        <item quantity="many">%d meneti ki mua</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d ngā whakatauranga</item>
+        <item quantity="zero">%d ngā whakatauranga</item>
+        <item quantity="one">%d whakatauranga</item>
+        <item quantity="two">%d ngā whakatauranga</item>
+        <item quantity="few">%d ngā whakatauranga</item>
+        <item quantity="many">%d ngā whakatauranga</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d ngā painga</item>
+        <item quantity="zero">%1$d ngā painga</item>
+        <item quantity="one">%1$d te painga</item>
+        <item quantity="two">%1$d ngā painga</item>
+        <item quantity="few">%1$d ngā painga</item>
+        <item quantity="many">%1$d ngā painga</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d whakautu</item>
+        <item quantity="zero">%1$d whakautu</item>
+        <item quantity="one">%1$d whakautu</item>
+        <item quantity="two">%1$d whakautu</item>
+        <item quantity="few">%1$d whakautu</item>
+        <item quantity="many">%1$d whakautu</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Ngā whakautu katoa (%1$d)</item>
+        <item quantity="zero">Ngā whakautu katoa (%1$d)</item>
+        <item quantity="one">Ngā whakautu katoa (%1$d)</item>
+        <item quantity="two">Ngā whakautu katoa (%1$d)</item>
+        <item quantity="few">Ngā whakautu katoa (%1$d)</item>
+        <item quantity="many">Ngā whakautu katoa (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Ko te tikanga me purei koe mō te %1$d meneti i te iti rawa kia āhei ki te tuku tākupu.</item>
+        <item quantity="zero">Ko te tikanga me purei koe mō te %1$d meneti i te iti rawa kia āhei ki te tuku tākupu.</item>
+        <item quantity="one">Ko te tikanga me purei koe mō te %1$d meneti i te iti rawa kia āhei ki te tuku tākupu.</item>
+        <item quantity="two">Ko te tikanga me purei koe mō te %1$d meneti i te iti rawa kia āhei ki te tuku tākupu.</item>
+        <item quantity="few">Ko te tikanga me purei koe mō te %1$d meneti i te iti rawa kia āhei ki te tuku tākupu.</item>
+        <item quantity="many">Ko te tikanga me purei koe mō te %1$d meneti i te iti rawa kia āhei ki te tuku tākupu.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s ngā taupānga kei te tāutahia nei</item>
+        <item quantity="zero">%1$s he taupānga kei te tāutahia nei</item>
+        <item quantity="one">%1$s te taupānga kei te tāutahia nei</item>
+        <item quantity="two">E %1$s ngā taupānga kei te tāutahia nei</item>
+        <item quantity="few">E %1$s ngā taupānga kei te tāutahia nei</item>
+        <item quantity="many">%1$s ngā taupānga kei te tāutahia nei</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="zero">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="one">%1$d te tuemi i tīpakohia</item>
+        <item quantity="two">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="few">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="many">E %1$d ngā tuemi i tīpakohia</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Tangotāuta i ngā taupānga i tīpakohia, tae atu ki %1$s?</item>
+        <item quantity="zero">Tangotāuta i ngā taupānga i tīpakohia, tae atu ki %1$s?</item>
+        <item quantity="one">Me tangotāuta te %1$s?</item>
+        <item quantity="two">Tangotāuta i ngā taupānga i tīpakohia, tae atu ki %1$s?</item>
+        <item quantity="few">Tangotāuta i ngā taupānga i tīpakohia, tae atu ki %1$s?</item>
+        <item quantity="many">Tangotāuta i ngā taupānga i tīpakohia, tae atu ki %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Tangotāuta i te %1$s me %2$s ētahi atu taupānga mai i te %3$s?</item>
+        <item quantity="zero">Tangotāuta i te %1$s me %2$s ētahi atu taupānga mai i te %3$s?</item>
+        <item quantity="one">Tangotāuta i te %1$s me %2$s tētahi atu taupānga mai i te %3$s?</item>
+        <item quantity="two">Tangotāuta i te %1$s me %2$s ētahi atu taupānga mai i te %3$s?</item>
+        <item quantity="few">Tangotāuta i te %1$s me %2$s ētahi atu taupānga mai i te %3$s?</item>
+        <item quantity="many">Tangotāuta i te %1$s me %2$s ētahi atu taupānga mai i te %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Tangotāutahia rānei ngā taupānga %2$s, tae atu ki a %1$s?</item>
+        <item quantity="zero">Tangotāutahia rānei ngā taupānga e %2$s, tae atu ki a %1$s?</item>
+        <item quantity="one">Tangotāutahia rānei te taupānga %2$s, tae atu ki a %1$s?</item>
+        <item quantity="two">Tangotāutahia rānei ngā taupānga e %2$s, tae atu ki a %1$s?</item>
+        <item quantity="few">Tangotāutahia rānei ngā taupānga e %2$s, tae atu ki a %1$s?</item>
+        <item quantity="many">Tangotāutahia rānei ngā taupānga %2$s, tae atu ki a %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Mukua ngā tāhopukanga e %1$s?</item>
+        <item quantity="zero">Mukua ngā tāhopukanga e %1$s?</item>
+        <item quantity="one">Mukua te tāhopukanga %1$s?</item>
+        <item quantity="two">Mukua ngā tāhopukanga e %1$s?</item>
+        <item quantity="few">Mukua ngā tāhopukanga e %1$s?</item>
+        <item quantity="many">Mukua ngā tāhopukanga e %1$s?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Me uru ngā taupānga %1$d e whai ake ki ngā whakaaetanga whāiti:</item>
+        <item quantity="zero">Me uru ngā taupānga %1$d e whai ake ki ngā whakaaetanga whāiti:</item>
+        <item quantity="one">Me uru te taupānga %1$d e whai ake ki ngā whakaaetanga whāiti:</item>
+        <item quantity="two">Me uru ngā taupānga %1$d e whai ake ki ngā whakaaetanga whāiti:</item>
+        <item quantity="few">Me uru ngā taupānga %1$d e whai ake ki ngā whakaaetanga whāiti:</item>
+        <item quantity="many">Me uru ngā taupānga %1$d e whai ake ki ngā whakaaetanga whāiti:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d ngā whakatauranga</item>
+        <item quantity="zero">%1$d ngā whakatauranga</item>
+        <item quantity="one">%1$d te whakatauranga</item>
+        <item quantity="two">%1$d ngā whakatauranga</item>
+        <item quantity="few">%1$d ngā whakatauranga</item>
+        <item quantity="many">%1$d ngā whakatauranga</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM ngā whakatauranga</item>
+        <item quantity="zero">%1$sM ngā whakatauranga</item>
+        <item quantity="one">%1$sM ngā whakatauranga</item>
+        <item quantity="two">%1$sM ngā whakatauranga</item>
+        <item quantity="few">%1$sM ngā whakatauranga</item>
+        <item quantity="many">%1$sM ngā whakatauranga</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK ngā whakatauranga</item>
+        <item quantity="zero">%1$sK ngā whakatauranga</item>
+        <item quantity="one">%1$sK ngā whakatauranga</item>
+        <item quantity="two">%1$sK ngā whakatauranga</item>
+        <item quantity="few">%1$sK ngā whakatauranga</item>
+        <item quantity="many">%1$sK ngā whakatauranga</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s mahinga</item>
+        <item quantity="zero">%1$s mahinga</item>
+        <item quantity="one">%1$s mahinga</item>
+        <item quantity="two">%1$s mahinga</item>
+        <item quantity="few">%1$s mahinga</item>
+        <item quantity="many">%1$s mahinga</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Iti iho i te %1$s meneti o te kēmu kei te toe. Me wawe te tiaki i tō kēmu.</item>
+        <item quantity="zero">Iti iho i te %1$s meneti o te kēmu kei te toe. Me wawe te tiaki i tō kēmu.</item>
+        <item quantity="one">Iti iho i te %1$s meneti o te kēmu kei te toe. Me wawe te tiaki i tō kēmu.</item>
+        <item quantity="two">Iti iho i te %1$s meneti o te kēmu kei te toe. Me wawe te tiaki i tō kēmu.</item>
+        <item quantity="few">Iti iho i te %1$s meneti o te kēmu kei te toe. Me wawe te tiaki i tō kēmu.</item>
+        <item quantity="many">Iti iho i te %1$s meneti o te kēmu kei te toe. Me wawe te tiaki i tō kēmu.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">%d meneti anake kei te toe.</item>
+        <item quantity="zero">%d meneti anake kei te toe.</item>
+        <item quantity="one">%d meneti anake kei te toe.</item>
+        <item quantity="two">%d meneti anake kei te toe.</item>
+        <item quantity="few">%d meneti anake kei te toe.</item>
+        <item quantity="many">%d meneti anake kei te toe.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d haora</item>
+        <item quantity="zero">%d haora</item>
+        <item quantity="one">%d haora</item>
+        <item quantity="two">%d haora</item>
+        <item quantity="few">%d haora</item>
+        <item quantity="many">%d haora</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d meneti</item>
+        <item quantity="zero">%d meneti</item>
+        <item quantity="one">%d meneti</item>
+        <item quantity="two">%d meneti</item>
+        <item quantity="few">%d meneti</item>
+        <item quantity="many">%d meneti</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d hēkona</item>
+        <item quantity="zero">%d hēkona</item>
+        <item quantity="one">%d hekona</item>
+        <item quantity="two">%d hēkona</item>
+        <item quantity="few">%d hēkona</item>
+        <item quantity="many">%d hēkona</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="zero">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="two">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="zero">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="two">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="zero">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="two">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d ngā tākupu</item>
+        <item quantity="zero">%1$d ngā tākupu</item>
+        <item quantity="one">%1$d te tākupu</item>
+        <item quantity="two">%1$d ngā tākupu</item>
+        <item quantity="few">%1$d ngā tākupu</item>
+        <item quantity="many">%1$d ngā tākupu</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d min ki mua</item>
+        <item quantity="zero">%d min ki mua</item>
+        <item quantity="one">%d min ki mua</item>
+        <item quantity="two">%d min ki mua</item>
+        <item quantity="few">%d min ki mua</item>
+        <item quantity="many">%d min ki mua</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Kia %1$d ngā pūāhua i te mōrahi</item>
+        <item quantity="zero">Kia %1$d ngā pūāhua i te mōrahi</item>
+        <item quantity="one">Kia %1$d te pūāhua i te mōrahi</item>
+        <item quantity="two">Kia %1$d ngā pūāhua i te mōrahi</item>
+        <item quantity="few">Kia %1$d ngā pūāhua i te mōrahi</item>
+        <item quantity="many">Kia %1$d ngā pūāhua i te mōrahi</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Tāurua kia %1$d ngā pūāhua i te iti rawa</item>
+        <item quantity="zero">Tāurua kia %1$d ngā pūāhua i te iti rawa</item>
+        <item quantity="one">Tāurua kia %1$d te pūāhua i te iti rawa</item>
+        <item quantity="two">Tāurua kia %1$d ngā pūāhua i te iti rawa</item>
+        <item quantity="few">Tāurua kia %1$d ngā pūāhua i te iti rawa</item>
+        <item quantity="many">Tāurua kia %1$d ngā pūāhua i te iti rawa</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Atu ki te %1$d atahanga
+Kia %2$s te mōrahi mō tēnā me tēnā"</item>
+        <item quantity="zero">"Atu ki te %1$d atahanga
+Kia %2$s te mōrahi mō tēnā me tēnā"</item>
+        <item quantity="one">"Atu ki te %1$d atahanga
+Kia %2$s te mōrahi mō tēnā me tēnā"</item>
+        <item quantity="two">"Atu ki te %1$d atahanga
+Kia %2$s te mōrahi mō tēnā me tēnā"</item>
+        <item quantity="few">"Atu ki te %1$d atahanga
+Kia %2$s te mōrahi mō tēnā me tēnā"</item>
+        <item quantity="many">"Atu ki te %1$d atahanga
+Kia %2$s te mōrahi mō tēnā me tēnā"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Kia %d te mōrahi o ngā atahanga mō tēnei momo raruraru</item>
+        <item quantity="zero">Kia %d te mōrahi o ngā atahanga mō tēnei momo raruraru</item>
+        <item quantity="one">Kia %d te mōrahi o te atahanga mō tēnei momo raruraru</item>
+        <item quantity="two">Kia %d te mōrahi o ngā atahanga mō tēnei momo raruraru</item>
+        <item quantity="few">Kia %d te mōrahi o ngā atahanga mō tēnei momo raruraru</item>
+        <item quantity="many">Kia %d te mōrahi o ngā atahanga mō tēnei momo raruraru</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s whetū</item>
+        <item quantity="zero">%1$s whetū</item>
+        <item quantity="one">%1$s whetū</item>
+        <item quantity="two">%1$s whetū</item>
+        <item quantity="few">%1$s whetū</item>
+        <item quantity="many">%1$s whetū</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">E %1$d ngā wā i hē te tārua i te kupuhipa. Me ngana anō i muri te %2$d min.</item>
+        <item quantity="zero">E %1$d ngā wā i hē te tārua i te kupuhipa. Me ngana anō i muri te %2$d min.</item>
+        <item quantity="one">E %1$d ngā wā i hē te tārua i te kupuhipa. Me ngana anō i muri te %2$d min.</item>
+        <item quantity="two">E %1$d ngā wā i hē te tārua i te kupuhipa. Me ngana anō i muri te %2$d min.</item>
+        <item quantity="few">E %1$d ngā wā i hē te tārua i te kupuhipa. Me ngana anō i muri te %2$d min.</item>
+        <item quantity="many">E %1$d ngā wā i hē te tārua i te kupuhipa. Me ngana anō i muri te %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB ngā tāngata i whai wāhi mai</item>
+        <item quantity="zero">%1$sB ngā tāngata i whai wāhi mai</item>
+        <item quantity="one">%1$sB ngā tāngata i whai wāhi mai</item>
+        <item quantity="two">%1$sB ngā tāngata i whai wāhi mai</item>
+        <item quantity="few">%1$sB ngā tāngata i whai wāhi mai</item>
+        <item quantity="many">%1$sB ngā tāngata i whai wāhi mai</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM ngā tāngata i whai wāhi mai</item>
+        <item quantity="zero">%1$sM ngā tāngata i whai wāhi mai</item>
+        <item quantity="one">%1$sM ngā tāngata i whai wāhi mai</item>
+        <item quantity="two">%1$sM ngā tāngata i whai wāhi mai</item>
+        <item quantity="few">%1$sM ngā tāngata i whai wāhi mai</item>
+        <item quantity="many">%1$sM ngā tāngata i whai wāhi mai</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s ngā tāngata i whai wāhi mai</item>
+        <item quantity="zero">%1$s ngā tāngata i whai wāhi mai</item>
+        <item quantity="one">%1$s te tangata i whai wāhi mai</item>
+        <item quantity="two">%1$s ngā tāngata i whai wāhi mai</item>
+        <item quantity="few">%1$s ngā tāngata i whai wāhi mai</item>
+        <item quantity="many">%1$s ngā tāngata i whai wāhi mai</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK ngā tāngata i whai wāhi mai</item>
+        <item quantity="zero">%1$sK ngā tāngata i whai wāhi mai</item>
+        <item quantity="one">%1$sK ngā tāngata i whai wāhi mai</item>
+        <item quantity="two">%1$sK ngā tāngata i whai wāhi mai</item>
+        <item quantity="few">%1$sK ngā tāngata i whai wāhi mai</item>
+        <item quantity="many">%1$sK ngā tāngata i whai wāhi mai</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="zero">%1$sB ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="one">%1$sB ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="two">%1$sB ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="few">%1$sB ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="many">%1$sB ngā tāngata i hoko mai i tēnei</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="zero">%1$sM ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="one">%1$sM ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="two">%1$sM ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="few">%1$sM ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="many">%1$sM ngā tāngata i hoko mai i tēnei</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="zero">%1$s ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="one">%1$s te tangata i hoko mai i tenei</item>
+        <item quantity="two">%1$s ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="few">%1$s ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="many">%1$s ngā tāngata i hoko mai i tēnei</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="zero">%1$sK ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="one">%1$sK ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="two">%1$sK ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="few">%1$sK ngā tāngata i hoko mai i tēnei</item>
+        <item quantity="many">%1$sK ngā tāngata i hoko mai i tēnei</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s ngā whakatauranga</item>
+        <item quantity="zero">%1$s ngā whakatauranga</item>
+        <item quantity="one">%1$s te whakatauranga</item>
+        <item quantity="two">%1$s ngā whakatauranga</item>
+        <item quantity="few">%1$s ngā whakatauranga</item>
+        <item quantity="many">%1$s ngā whakatauranga</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Whakatauranga, %1$s whetū</item>
+        <item quantity="zero">Whakatauranga, %1$s whetū</item>
+        <item quantity="one">Whakatauranga, %1$s whetū</item>
+        <item quantity="two">Whakatauranga, %1$s whetū</item>
+        <item quantity="few">Whakatauranga, %1$s whetū</item>
+        <item quantity="many">Whakatauranga, %1$s whetū</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">%1$s whetū te whakatau</item>
+        <item quantity="zero">%1$s whetū te whakatau</item>
+        <item quantity="one">%1$s whetū te whakatau</item>
+        <item quantity="two">%1$s whetū te whakatau</item>
+        <item quantity="few">%1$s whetū te whakatau</item>
+        <item quantity="many">%1$s whetū te whakatau</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Tāuta ahakoa (%1$d)</item>
+        <item quantity="zero">Tāuta ahakoa (%1$d)</item>
+        <item quantity="one">Tāuta ahakoa (%1$d)</item>
+        <item quantity="two">Tāuta ahakoa (%1$d)</item>
+        <item quantity="few">Tāuta ahakoa (%1$d)</item>
+        <item quantity="many">Tāuta ahakoa (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d haora</item>
+        <item quantity="zero">%d haora</item>
+        <item quantity="one">%d haora</item>
+        <item quantity="two">%d haora</item>
+        <item quantity="few">%d haora</item>
+        <item quantity="many">%d haora</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d meneti</item>
+        <item quantity="zero">%d meneti</item>
+        <item quantity="one">%d meneti</item>
+        <item quantity="two">%d meneti</item>
+        <item quantity="few">%d meneti</item>
+        <item quantity="many">%d meneti</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d hēkona</item>
+        <item quantity="zero">%d hēkona</item>
+        <item quantity="one">%d hekona</item>
+        <item quantity="two">%d hēkona</item>
+        <item quantity="few">%d hēkona</item>
+        <item quantity="many">%d hēkona</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="zero">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="one">%1$d te tuemi i tīpakohia</item>
+        <item quantity="two">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="few">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="many">E %1$d ngā tuemi i tīpakohia</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Me %d pūāhua te roa o te whakaahuatanga i te itinga rawa. Tāpirihia ngā tirohangamata mēnā ka taea.</item>
+        <item quantity="zero">Me %d pūāhua te roa o te whakaahuatanga i te itinga rawa. Tāpirihia ngā tirohangamata mēnā ka taea.</item>
+        <item quantity="one">Me %d pūāhua te roa o te whakaahuatanga i te itinga rawa. Tāpirihia ngā tirohangamata mēnā ka taea.</item>
+        <item quantity="two">Me %d pūāhua te roa o te whakaahuatanga i te itinga rawa. Tāpirihia ngā tirohangamata mēnā ka taea.</item>
+        <item quantity="few">Me %d pūāhua te roa o te whakaahuatanga i te itinga rawa. Tāpirihia ngā tirohangamata mēnā ka taea.</item>
+        <item quantity="many">Me %d pūāhua te roa o te whakaahuatanga i te itinga rawa. Tāpirihia ngā tirohangamata mēnā ka taea.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d haora</item>
+        <item quantity="zero">%1$d haora</item>
+        <item quantity="one">%1$d haora</item>
+        <item quantity="two">%1$d haora</item>
+        <item quantity="few">%1$d haora</item>
+        <item quantity="many">%1$d haora</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d meneti</item>
+        <item quantity="zero">%1$d meneti</item>
+        <item quantity="one">%1$d meneti</item>
+        <item quantity="two">%1$d meneti</item>
+        <item quantity="few">%1$d meneti</item>
+        <item quantity="many">%1$d meneti</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d hēkona</item>
+        <item quantity="zero">%1$d hēkona</item>
+        <item quantity="one">%1$d hekona</item>
+        <item quantity="two">%1$d hēkona</item>
+        <item quantity="few">%1$d hēkona</item>
+        <item quantity="many">%1$d hēkona</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Ngā pōhi: %1$s</item>
+        <item quantity="zero">Ngā pōhi: %1$s</item>
+        <item quantity="one">Ngā pōhi: %1$s</item>
+        <item quantity="two">Ngā pōhi: %1$s</item>
+        <item quantity="few">Ngā pōhi: %1$s</item>
+        <item quantity="many">Ngā pōhi: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d ngā painga</item>
+        <item quantity="zero">%d ngā painga</item>
+        <item quantity="one">%d painga</item>
+        <item quantity="two">%d ngā painga</item>
+        <item quantity="few">%d ngā painga</item>
+        <item quantity="many">%d ngā painga</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d ngā whakautu</item>
+        <item quantity="zero">%d ngā whakautu</item>
+        <item quantity="one">%d te whakautu</item>
+        <item quantity="two">%d ngā whakautu</item>
+        <item quantity="few">%d ngā whakautu</item>
+        <item quantity="many">%d ngā whakautu</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="zero">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="two">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="zero">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="two">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="zero">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="two">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d ngā tirohanga</item>
+        <item quantity="zero">%d ngā tirohanga</item>
+        <item quantity="one">Tirohanga %d</item>
+        <item quantity="two">%d ngā tirohanga</item>
+        <item quantity="few">%d ngā tirohanga</item>
+        <item quantity="many">%d ngā tirohanga</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Waiho mai he tākupu (%1$d te tapeke)</item>
+        <item quantity="zero">Waiho mai he tākupu (%1$d te tapeke)</item>
+        <item quantity="one">Waiho mai he tākupu (%1$d te tapeke)</item>
+        <item quantity="two">Waiho mai he tākupu (%1$d te tapeke)</item>
+        <item quantity="few">Waiho mai he tākupu (%1$d te tapeke)</item>
+        <item quantity="many">Waiho mai he tākupu (%1$d te tapeke)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Tirohia ngā whakautu e %1$d katoa</item>
+        <item quantity="zero">Tirohia ngā whakautu e %1$d katoa</item>
+        <item quantity="one">Tirohia te whakautu %1$d katoa</item>
+        <item quantity="two">Tirohia ngā whakautu e %1$d katoa</item>
+        <item quantity="few">Tirohia ngā whakautu e %1$d katoa</item>
+        <item quantity="many">Tirohia ngā whakautu e %1$d katoa</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s ngā kaiwhakauru</item>
+        <item quantity="zero">%1$s ngā kaiwhakauru</item>
+        <item quantity="one">%1$s te kaiwhakauru</item>
+        <item quantity="two">%1$s ngā kaiwhakauru</item>
+        <item quantity="few">%1$s ngā kaiwhakauru</item>
+        <item quantity="many">%1$s ngā kaiwhakauru</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="zero">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="one">Tīpako atu ki te %s te whakautu</item>
+        <item quantity="two">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="few">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="many">Tīpako atu ki te %s ngā whakautu</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Kōwhiringa maha (tīpako %1$d)</item>
+        <item quantity="zero">Kōwhiringa maha (tīpako %1$d)</item>
+        <item quantity="one">Kōwhiringa maha (tīpako %1$d)</item>
+        <item quantity="two">Kōwhiringa maha (tīpako %1$d)</item>
+        <item quantity="few">Kōwhiringa maha (tīpako %1$d)</item>
+        <item quantity="many">Kōwhiringa maha (tīpako %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="zero">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="one">Tīpako kia %s te whakautu</item>
+        <item quantity="two">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="few">Tīpako atu ki te %s ngā whakautu</item>
+        <item quantity="many">Tīpako atu ki te %s ngā whakautu</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s ngā pōti</item>
+        <item quantity="zero">%1$s ngā pōti</item>
+        <item quantity="one">%1$s te pōti</item>
+        <item quantity="two">%1$s ngā pōti</item>
+        <item quantity="few">%1$s ngā pōti</item>
+        <item quantity="many">%1$s ngā pōti</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga > Ngā taupānga.</item>
+        <item quantity="zero">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga > Ngā taupānga.</item>
+        <item quantity="one">Me whai tēnei taupānga i te whakaaetanga %1$d. Ka taea e koe tēnei whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga > Ngā taupānga.</item>
+        <item quantity="two">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga > Ngā taupānga.</item>
+        <item quantity="few">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga > Ngā taupānga.</item>
+        <item quantity="many">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga > Ngā taupānga.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga me ngā ratonga > Ngā taupānga.</item>
+        <item quantity="zero">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga me ngā ratonga > Ngā taupānga.</item>
+        <item quantity="one">Me whai tēnei taupānga i te whakaaetanga %1$d. Ka taea e koe tēnei whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga me ngā ratonga > Ngā taupānga.</item>
+        <item quantity="two">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga me ngā ratonga > Ngā taupānga.</item>
+        <item quantity="few">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga me ngā ratonga > Ngā taupānga.</item>
+        <item quantity="many">Me whai tēnei taupānga i ngā whakaaetanga e %1$d. Ka taea e koe tēnei te whakakore ahakoa te wā i Ngā tautuhinga > Ngā taupānga me ngā ratonga > Ngā taupānga.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d taonga</item>
+        <item quantity="zero">%1$d taonga</item>
+        <item quantity="one">%1$d taonga</item>
+        <item quantity="two">%1$d taonga</item>
+        <item quantity="few">%1$d taonga</item>
+        <item quantity="many">%1$d taonga</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="zero">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+        <item quantity="two">%1$dK</item>
+        <item quantity="few">%1$dK</item>
+        <item quantity="many">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ngā whetū</item>
+        <item quantity="zero">%1$d ngā whetū</item>
+        <item quantity="one">%1$d te whetū</item>
+        <item quantity="two">%1$d ngā whetū</item>
+        <item quantity="few">%1$d ngā whetū</item>
+        <item quantity="many">%1$d ngā whetū</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Whakatauranga: %s</item>
+        <item quantity="zero">Whakatauranga: %s</item>
+        <item quantity="one">Whakatauranga: %s</item>
+        <item quantity="two">Whakatauranga: %s</item>
+        <item quantity="few">Whakatauranga: %s</item>
+        <item quantity="many">Whakatauranga: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s ngā whakatauranga</item>
+        <item quantity="zero">%1$s ngā whakatauranga</item>
+        <item quantity="one">%1$s te whakatauranga</item>
+        <item quantity="two">%1$s ngā whakatauranga</item>
+        <item quantity="few">%1$s ngā whakatauranga</item>
+        <item quantity="many">%1$s ngā whakatauranga</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s ka huaki</item>
+        <item quantity="zero">%1$s ka huaki</item>
+        <item quantity="one">%1$s ka huaki</item>
+        <item quantity="two">%1$s ka huaki</item>
+        <item quantity="few">%1$s ka huaki</item>
+        <item quantity="many">%1$s ka huaki</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">E %d ngā tūtohutanga hōu</item>
+        <item quantity="zero">E %d ngā tūtohutanga hōu</item>
+        <item quantity="one">%d te tūtohutanga hōu</item>
+        <item quantity="two">E %d ngā tūtohutanga hōu</item>
+        <item quantity="few">E %d ngā tūtohutanga hōu</item>
+        <item quantity="many">E %d ngā tūtohutanga hōu</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="zero">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+        <item quantity="two">%1$sB</item>
+        <item quantity="few">%1$sB</item>
+        <item quantity="many">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="zero">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+        <item quantity="two">%1$sM</item>
+        <item quantity="few">%1$sM</item>
+        <item quantity="many">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="zero">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+        <item quantity="two">%1$sK</item>
+        <item quantity="few">%1$sK</item>
+        <item quantity="many">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="zero">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="one">%1$d te taupānga kua whakahōutia</item>
+        <item quantity="two">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="few">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="many">E %1$d ngā taupānga kua whakahōutia</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="zero">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="one">%1$d te taupānga kua whakahōutia</item>
+        <item quantity="two">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="few">E %1$d ngā taupānga kua whakahōutia</item>
+        <item quantity="many">E %1$d ngā taupānga kua whakahōutia</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Kaua te atahanga e nui ake i te %1$d MB.</item>
+        <item quantity="zero">Kaua te atahanga e nui ake i te %1$d MB.</item>
+        <item quantity="one">Kaua te atahanga e nui ake i te %1$d MB.</item>
+        <item quantity="two">Kaua te atahanga e nui ake i te %1$d MB.</item>
+        <item quantity="few">Kaua te atahanga e nui ake i te %1$d MB.</item>
+        <item quantity="many">Kaua te atahanga e nui ake i te %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d ngā whakaahua</item>
+        <item quantity="zero">%d ngā whakaahua</item>
+        <item quantity="one">%d te whakaahua</item>
+        <item quantity="two">%d ngā whakaahua</item>
+        <item quantity="few">%d ngā whakaahua</item>
+        <item quantity="many">%d ngā whakaahua</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d i tīpakohia</item>
+        <item quantity="zero">%1$d/%2$d i tīpakohia</item>
+        <item quantity="one">%1$d/%2$d i tīpakohia</item>
+        <item quantity="two">%1$d/%2$d i tīpakohia</item>
+        <item quantity="few">%1$d/%2$d i tīpakohia</item>
+        <item quantity="many">%1$d/%2$d i tīpakohia</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d ataata</item>
+        <item quantity="zero">%d ataata</item>
+        <item quantity="one">%d ataata</item>
+        <item quantity="two">%d ataata</item>
+        <item quantity="few">%d ataata</item>
+        <item quantity="many">%d ataata</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d ngā painga</item>
+        <item quantity="zero">%d ngā painga</item>
+        <item quantity="one">%d te painga</item>
+        <item quantity="two">%d ngā painga</item>
+        <item quantity="few">%d ngā painga</item>
+        <item quantity="many">%d ngā painga</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Mukua ngā tāutanga katoa kua okiokitia (%1$s taupānga, whakawātea i te %2$s)</item>
+        <item quantity="zero">Mukua ngā tāutanga katoa kua okiokitia (%1$s taupānga, whakawātea i te %2$s)</item>
+        <item quantity="one">Mukua ngā tāutanga katoa kua okiokitia (%1$s taupānga, whakawātea i te %2$s)</item>
+        <item quantity="two">Mukua ngā tāutanga katoa kua okiokitia (%1$s taupānga, whakawātea i te %2$s)</item>
+        <item quantity="few">Mukua ngā tāutanga katoa kua okiokitia (%1$s taupānga, whakawātea i te %2$s)</item>
+        <item quantity="many">Mukua ngā tāutanga katoa kua okiokitia (%1$s taupānga, whakawātea i te %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d i tīpakohia)"</item>
+        <item quantity="zero">" 
+(%1$d i tīpakohia)"</item>
+        <item quantity="one">" 
+(%1$d i tīpakohia)"</item>
+        <item quantity="two">" 
+(%1$d i tīpakohia)"</item>
+        <item quantity="few">" 
+(%1$d i tīpakohia)"</item>
+        <item quantity="many">" 
+(%1$d i tīpakohia)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Whārangi %1$d</item>
+        <item quantity="zero">Whārangi %1$d</item>
+        <item quantity="one">Whārangi %1$d</item>
+        <item quantity="two">Whārangi %1$d</item>
+        <item quantity="few">Whārangi %1$d</item>
+        <item quantity="many">Whārangi %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">I okiokitia ngā tāutanga %1$s.</item>
+        <item quantity="zero">I okiokitia ngā tāutanga %1$s.</item>
+        <item quantity="one">I okiokitia te tāutanga %1$s.</item>
+        <item quantity="two">I okiokitia ngā tāutanga %1$s.</item>
+        <item quantity="few">I okiokitia ngā tāutanga %1$s.</item>
+        <item quantity="many">I okiokitia ngā tāutanga %1$s.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d min ki mua</item>
+        <item quantity="zero">%d min ki mua</item>
+        <item quantity="one">%d min ki mua</item>
+        <item quantity="two">%d min ki mua</item>
+        <item quantity="few">%d min ki mua</item>
+        <item quantity="many">%d min ki mua</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d ngā tāpiringa</item>
+        <item quantity="zero">%1$d ngā tāpiringa</item>
+        <item quantity="one">%1$d te tāpiringa</item>
+        <item quantity="two">%1$d ngā tāpiringa</item>
+        <item quantity="few">%1$d ngā tāpiringa</item>
+        <item quantity="many">%1$d ngā tāpiringa</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s ngā tikiake</item>
+        <item quantity="zero">%1$s ngā tikiake</item>
+        <item quantity="one">%1$s te tikiake</item>
+        <item quantity="two">%1$s ngā tikiake</item>
+        <item quantity="few">%1$s ngā tikiake</item>
+        <item quantity="many">%1$s ngā tikiake</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">%1$s whetū te whakatau</item>
+        <item quantity="zero">%1$s whetū te whakatau</item>
+        <item quantity="one">%1$s whetū te whakatau</item>
+        <item quantity="two">%1$s whetū te whakatau</item>
+        <item quantity="few">%1$s whetū te whakatau</item>
+        <item quantity="many">%1$s whetū te whakatau</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Kua oti te tāuta i ngā taupānga e %1$s i whakaritea</item>
+        <item quantity="zero">Kua oti te tāuta i ngā taupānga e %1$s i whakaritea</item>
+        <item quantity="one">Kua oti te tāuta i te taupānga %1$s i whakaritea</item>
+        <item quantity="two">Kua oti te tāuta i ngā taupānga e %1$s i whakaritea</item>
+        <item quantity="few">Kua oti te tāuta i ngā taupānga e %1$s i whakaritea</item>
+        <item quantity="many">Kua oti te tāuta i ngā taupānga e %1$s i whakaritea</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">E %1$d ngā taupānga ka tīmata te tikiake ina tūhono koe ki te Wi-Fi.</item>
+        <item quantity="zero">E %1$d ngā taupānga ka tīmata te tikiake ina tūhono koe ki te Wi-Fi.</item>
+        <item quantity="one">%1$d te taupānga ka tīmata te tikiake ina tūhono koe ki te Wi-Fi.</item>
+        <item quantity="two">E %1$d ngā taupānga ka tīmata te tikiake ina tūhono koe ki te Wi-Fi.</item>
+        <item quantity="few">E %1$d ngā taupānga ka tīmata te tikiake ina tūhono koe ki te Wi-Fi.</item>
+        <item quantity="many">E %1$d ngā taupānga ka tīmata te tikiake ina tūhono koe ki te Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s kua ota tōmuatia)</item>
+        <item quantity="zero">(%1$s kua tāpuitia)</item>
+        <item quantity="one">(%1$s kua ota tōmuatia)</item>
+        <item quantity="two">(%1$s kua tāpuitia)</item>
+        <item quantity="few">(%1$s kua tāpuitia)</item>
+        <item quantity="many">(%1$s kua tāpuitia)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d miriona i rāhuitia)</item>
+        <item quantity="zero">(%1$d miriona i rāhuitia)</item>
+        <item quantity="one">(1 miriona i rāhuitia)</item>
+        <item quantity="two">(%1$d miriona i rāhuitia)</item>
+        <item quantity="few">(%1$d miriona i rāhuitia)</item>
+        <item quantity="many">(%1$d miriona i rāhuitia)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d mano i rāhuitia)</item>
+        <item quantity="zero">(%1$d mano i rāhuitia)</item>
+        <item quantity="one">(1 mano i rāhuitia)</item>
+        <item quantity="two">(%1$d mano i rāhuitia)</item>
+        <item quantity="few">(%1$d mano i rāhuitia)</item>
+        <item quantity="many">(%1$d mano i rāhuitia)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Tāuta i ngā taupānga %1$s?</item>
+        <item quantity="zero">Tāuta i ngā taupānga %1$s?</item>
+        <item quantity="one">Tāuta i te taupānga %1$s?</item>
+        <item quantity="two">Tāuta i ngā taupānga %1$s?</item>
+        <item quantity="few">Tāuta i ngā taupānga %1$s?</item>
+        <item quantity="many">Tāuta i ngā taupānga %1$s?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s ngā tāutanga kei te haere tonu.</item>
+        <item quantity="zero">%1$s ngā tāutanga kei te haere tonu.</item>
+        <item quantity="one">%1$s te tāutanga kei te haere tonu.</item>
+        <item quantity="two">%1$s ngā tāutanga kei te haere tonu.</item>
+        <item quantity="few">%1$s ngā tāutanga kei te haere tonu.</item>
+        <item quantity="many">%1$s ngā tāutanga kei te haere tonu.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">o te %1$d</item>
+        <item quantity="zero">o te %1$d</item>
+        <item quantity="one">o te %1$d</item>
+        <item quantity="two">o te %1$d</item>
+        <item quantity="few">o te %1$d</item>
+        <item quantity="many">o te %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Rapu ngā taupānga paetata e %d</item>
+        <item quantity="zero">Rapu ngā taupānga paetata e %d</item>
+        <item quantity="one">Rapu te taupānga paetata %d</item>
+        <item quantity="two">Rapu ngā taupānga paetata e %d</item>
+        <item quantity="few">Rapu ngā taupānga paetata e %d</item>
+        <item quantity="many">Rapu ngā taupānga paetata e %d</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Whakaorahia ngā taupānga %d ki te rārangi whakahōu ka tukuna kia whakahōutia.</item>
+        <item quantity="zero">Whakaorahia ngā taupānga %d ki te rārangi whakahōu ka tukuna kia whakahōutia.</item>
+        <item quantity="one">Whakaorahia te taupānga %d ki te rārangi whakahōu ka tukuna kia whakahōutia.</item>
+        <item quantity="two">Whakaorahia ngā taupānga %d ki te rārangi whakahōu ka tukuna kia whakahōutia.</item>
+        <item quantity="few">Whakaorahia ngā taupānga %d ki te rārangi whakahōu ka tukuna kia whakahōutia.</item>
+        <item quantity="many">Whakaorahia ngā taupānga %d ki te rārangi whakahōu ka tukuna kia whakahōutia.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s ngā whakahōu taupānga kei te wātea</item>
+        <item quantity="zero">%1$s ngā whakahōu taupānga kei te wātea</item>
+        <item quantity="one">%1$s te whakahōu taupānga kei te wātea</item>
+        <item quantity="two">%1$s ngā whakahōu taupānga kei te wātea</item>
+        <item quantity="few">%1$s ngā whakahōu taupānga kei te wātea</item>
+        <item quantity="many">%1$s ngā whakahōu taupānga kei te wātea</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">E %1$s ngā whakahōu taupānga e tūtohua ana. Rahi tapeke: %2$s.</item>
+        <item quantity="zero">E %1$s ngā whakahōu taupānga e tūtohua ana. Rahi tapeke: %2$s.</item>
+        <item quantity="one">%1$s te whakahōu taupānga e tūtohua ana. Rahi: %2$s.</item>
+        <item quantity="two">E %1$s ngā whakahōu taupānga e tūtohua ana. Rahi tapeke: %2$s.</item>
+        <item quantity="few">E %1$s ngā whakahōu taupānga e tūtohua ana. Rahi tapeke: %2$s.</item>
+        <item quantity="many">E %1$s ngā whakahōu taupānga e tūtohua ana. Rahi tapeke: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d whakahōu taupānga kei te wātea. Rahi: %2$s.</item>
+        <item quantity="zero">%1$d whakahōu taupānga kei te wātea. Rahi: %2$s.</item>
+        <item quantity="one">%1$d whakahōu taupānga kei te wātea. Rahi: %2$s.</item>
+        <item quantity="two">%1$d whakahōu taupānga kei te wātea. Rahi: %2$s.</item>
+        <item quantity="few">%1$d whakahōu taupānga kei te wātea. Rahi: %2$s.</item>
+        <item quantity="many">%1$d whakahōu taupānga kei te wātea. Rahi: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Kāore e whakamahia mō te %d rā</item>
+        <item quantity="zero">Kāore e whakamahia mō te %d rā</item>
+        <item quantity="one">Kāore e whakamahia mō te %d rā</item>
+        <item quantity="two">Kāore e whakamahia mō te %d rā</item>
+        <item quantity="few">Kāore e whakamahia mō te %d rā</item>
+        <item quantity="many">Kāore e whakamahia mō te %d rā</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d haora</item>
+        <item quantity="zero">%d haora</item>
+        <item quantity="one">%d haora</item>
+        <item quantity="two">%d haora</item>
+        <item quantity="few">%d haora</item>
+        <item quantity="many">%d haora</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d meneti</item>
+        <item quantity="zero">%d meneti</item>
+        <item quantity="one">%d meneti</item>
+        <item quantity="two">%d meneti</item>
+        <item quantity="few">%d meneti</item>
+        <item quantity="many">%d meneti</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d hēkona</item>
+        <item quantity="zero">%d hēkona</item>
+        <item quantity="one">%d hekona</item>
+        <item quantity="two">%d hēkona</item>
+        <item quantity="few">%d hēkona</item>
+        <item quantity="many">%d hēkona</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Ūkuia ngā tūmahi e %d ka tikiake i ngā kōnae?</item>
+        <item quantity="zero">Ūkuia ngā tūmahi e %d ka tikiake i ngā kōnae?</item>
+        <item quantity="one">Ūkuia te tūmahi %d ka tikiake i te kōnae?</item>
+        <item quantity="two">Ūkuia ngā tūmahi e %d ka tikiake i ngā kōnae?</item>
+        <item quantity="few">Ūkuia ngā tūmahi e %d ka tikiake i ngā kōnae?</item>
+        <item quantity="many">Ūkuia ngā tūmahi e %d ka tikiake i ngā kōnae?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Wāhanga taki-mai %d-rā</item>
+        <item quantity="zero">Wāhanga taki-mai %d-rā</item>
+        <item quantity="one">Wāhanga taki-mai %d-rā</item>
+        <item quantity="two">Wāhanga taki-mai %d-rā</item>
+        <item quantity="few">Wāhanga taki-mai %d-rā</item>
+        <item quantity="many">Wāhanga taki-mai %d-rā</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Rā %d</item>
+        <item quantity="zero">Rā %d</item>
+        <item quantity="one">Rā %d</item>
+        <item quantity="two">Rā %d</item>
+        <item quantity="few">Rā %d</item>
+        <item quantity="many">Rā %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d ngā taupānga kua tīkina ake</item>
+        <item quantity="zero">%1$d ngā taupānga kua tīkina ake</item>
+        <item quantity="one">%1$d te taupānga kua tīkina ake</item>
+        <item quantity="two">%1$d ngā taupānga kua tīkina ake</item>
+        <item quantity="few">%1$d ngā taupānga kua tīkina ake</item>
+        <item quantity="many">%1$d ngā taupānga kua tīkina ake</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Whakatauranga: %s</item>
+        <item quantity="zero">Whakatauranga: %s</item>
+        <item quantity="one">Whakatauranga: %s</item>
+        <item quantity="two">Whakatauranga: %s</item>
+        <item quantity="few">Whakatauranga: %s</item>
+        <item quantity="many">Whakatauranga: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d meneti ki mua</item>
+        <item quantity="zero">%d meneti ki mua</item>
+        <item quantity="one">%d meneti ki mua</item>
+        <item quantity="two">%d meneti ki mua</item>
+        <item quantity="few">%d meneti ki mua</item>
+        <item quantity="many">%d meneti ki mua</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d ngā taupānga, kei roto nei ko %1$s</item>
+        <item quantity="zero">%2$d ngā taupānga, kei roto nei ko %1$s</item>
+        <item quantity="one">%2$d te taupānga (arā, ko %1$s)</item>
+        <item quantity="two">%2$d ngā taupānga, kei roto nei ko %1$s</item>
+        <item quantity="few">%2$d ngā taupānga, kei roto nei ko %1$s</item>
+        <item quantity="many">%2$d ngā taupānga, kei roto nei ko %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Tohu pārongo ira whero, %1$s ngā whakamōhiotanga kāore i pānuitia</item>
+        <item quantity="zero">Tohu pārongo ira whero, %1$s ngā whakamōhiotanga kāore i pānuitia</item>
+        <item quantity="one">Tohu pārongo ira whero, %1$s whakamōhiotanga kāore i pānuitia</item>
+        <item quantity="two">Tohu pārongo ira whero, %1$s ngā whakamōhiotanga kāore i pānuitia</item>
+        <item quantity="few">Tohu pārongo ira whero, %1$s ngā whakamōhiotanga kāore i pānuitia</item>
+        <item quantity="many">Tohu pārongo ira whero, %1$s ngā whakamōhiotanga kāore i pānuitia</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d ngā tukunga</item>
+        <item quantity="zero">%d ngā tukunga</item>
+        <item quantity="one">%d te tukunga</item>
+        <item quantity="two">%d ngā tukunga</item>
+        <item quantity="few">%d ngā tukunga</item>
+        <item quantity="many">%d ngā tukunga</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d ngā taonga hapori</item>
+        <item quantity="zero">%d ngā taonga hapori</item>
+        <item quantity="one">%d te taonga hapori</item>
+        <item quantity="two">%d ngā taonga hapori</item>
+        <item quantity="few">%d ngā taonga hapori</item>
+        <item quantity="many">%d ngā taonga hapori</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d ngā taonga</item>
+        <item quantity="zero">%d ngā taonga</item>
+        <item quantity="one">%d te taonga</item>
+        <item quantity="two">%d ngā taonga</item>
+        <item quantity="few">%d ngā taonga</item>
+        <item quantity="many">%d ngā taonga</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d ngā tāngata kei tō rohe e hiahia ana i tēnei</item>
+        <item quantity="zero">%d ngā tāngata kei tō rohe e hiahia ana i tēnei</item>
+        <item quantity="one">%d te tangata kei tō rohe e hiahia ana i tēnei</item>
+        <item quantity="two">%d ngā tāngata kei tō rohe e hiahia ana i tēnei</item>
+        <item quantity="few">%d ngā tāngata kei tō rohe e hiahia ana i tēnei</item>
+        <item quantity="many">%d ngā tāngata kei tō rohe e hiahia ana i tēnei</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="zero">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="one">%1$d te tuemi i tīpakohia</item>
+        <item quantity="two">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="few">E %1$d ngā tuemi i tīpakohia</item>
+        <item quantity="many">E %1$d ngā tuemi i tīpakohia</item>
+    </plurals>
+</resources>

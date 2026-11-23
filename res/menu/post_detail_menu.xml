@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/favorite_item"
+        android:visible="false"
+        android:title="@string/forum_post_favorite_btn" />
+    <item
+        android:id="@id/modify_item"
+        android:title="@string/forum_post_popmenu_modify" />
+    <item
+        android:id="@id/delete_item"
+        android:title="@string/forum_post_popmenu_delete" />
+    <item
+        android:id="@id/report_item"
+        android:title="@string/forum_post_popmenu_report" />
+</menu>

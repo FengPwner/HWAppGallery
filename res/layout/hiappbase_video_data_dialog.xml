@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/video_network_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hiappbase_video_using_mobile_network"
+        style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+    <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:gravity="center_vertical"
+        android:id="@id/check_box"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_48dp"
+        android:text="@string/hiappbase_video_open_auto_play_check_box"
+        android:paddingStart="@dimen/padding_m"
+        style="@style/Widget.Emui.HwCheckBox.Normal" />
+</LinearLayout>

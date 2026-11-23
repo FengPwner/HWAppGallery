@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_m"
+    android:layout_marginBottom="@dimen/margin_m"
+    android:minHeight="@dimen/appcomment_common_spinner_height"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/hiappbase_subheader_title_left"
+        android:tag="css/.title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appcomment_comment_user"
+        android:singleLine="true"
+        style="@style/AppGallery.Widget.SubHeader.Title" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.appcomment.ui.view.SortSpinner
+            android:id="@id/comment_filter_left"
+            android:tag="css/.title"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:layout_marginStart="-12.0dip"
+            app:hwDynamicWidthEnabled="true"
+            app:hwListShadowEnabled="true"
+            style="@style/Widget.Emui.HwSpinner" />
+        <com.huawei.appgallery.appcomment.ui.view.SortSpinner
+            android:id="@id/comment_filter_right"
+            android:tag="css/.title"
+            android:layout_width="300.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_l"
+            android:layout_marginStart="-12.0dip"
+            app:hwDynamicWidthEnabled="true"
+            app:hwListShadowEnabled="true"
+            style="@style/Widget.Emui.HwSpinner" />
+    </LinearLayout>
+</LinearLayout>

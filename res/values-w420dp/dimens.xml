@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_content">13.0sp</dimen>
+    <dimen name="round_icon_radius">14.0dip</dimen>
+    <dimen name="textsize_main">15.0sp</dimen>
+</resources>

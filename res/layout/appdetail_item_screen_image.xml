@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/appdetail_screen_cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.appgallery.videokit.api.WiseVideoView
+            android:id="@id/appdetail_screen_video"
+            android:tag="@string/properties_video_contentDescription"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:media_type="0"
+            app:view_type="0" />
+        <com.huawei.appgallery.detail.detailbase.view.FadeImageView
+            android:id="@id/detail_screen_image"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no" />
+        <com.huawei.appgallery.detail.detailbase.basecard.detailscreen.screencard.ScreenCardView
+            android:layout_gravity="bottom"
+            android:id="@id/screen_card_view"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/agguard_batch_process_fragment_layout"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.phone.hwrecyclerview.widget.HwRecyclerView
+        android:id="@id/agguard_batch_process_recycle_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/agguard_batch_process_button_layout" />
+    <RelativeLayout
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:id="@id/agguard_batch_process_button_layout"
+        android:background="@color/appgallery_color_appbar_bg"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/agguard_ageadapter_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:textSize="@dimen/appgallery_text_size_button1"
+            android:layout_gravity="center"
+            android:id="@id/agguard_batch_process_button_rescan"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xl"
+            android:text="@string/agguard_rescan_title"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            maskview:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small_fixed"
+            maskview:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity_fixed"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+        <com.huawei.appgallery.foundation.ui.framework.widget.BottomButton
+            android:textSize="@dimen/appgallery_text_size_button1"
+            android:layout_gravity="center"
+            android:id="@id/agguard_batch_process_button_uninstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xl"
+            android:text="@string/agguard_uninstall_btn"
+            android:maxLines="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            maskview:hwAutoSizeMinTextSize="@dimen/appgallery_auto_size_min_text_size_small_fixed"
+            maskview:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity_fixed"
+            style="@style/AppGallery.Widget.Button.BottomButton" />
+    </RelativeLayout>
+</RelativeLayout>

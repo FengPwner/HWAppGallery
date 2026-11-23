@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Пронајдени се %2$d сомнителни апликации (вклучувајќи ја и %1$s)</item>
+        <item quantity="one">Пронајдена е %2$d сомнителна апликација (вклучувајќи ја и %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Пронајдени се %2$d апликации што не се користат (вклучувајќи ја и %1$s)</item>
+        <item quantity="one">Пронајдена е %2$d апликација што не се користи (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d апликации што не се користат</item>
+        <item quantity="one">%d апликација што не се користи</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Средени се %d апликации со злонамерно однесување</item>
+        <item quantity="one">Средена е %d апликација со злонамерно однесување</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Откриени се %d апликации со злонамерно однесување</item>
+        <item quantity="one">Откриена е %d апликација со злонамерно однесување</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Средени се %d измамнички апликации</item>
+        <item quantity="one">Средена е %d измамничка апликација</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Откриени се %d измамнички апликации</item>
+        <item quantity="one">Откриена е %d измамничка апликација</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Средени се %d апликации со ризици за приватноста</item>
+        <item quantity="one">Средена е %d апликација со ризици за приватноста</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Откриени се %d апликации со ризици за откривање на приватноста</item>
+        <item quantity="one">Откриена е %d апликација со ризици за откривање на приватноста</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Средени се %d апликации со безбедносни закани</item>
+        <item quantity="one">Средена е %d апликација со безбедносни закани</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Откриени се %d апликации со безбедносни закани</item>
+        <item quantity="one">Откриена е %d апликација со безбедносни закани</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Средени се %d апликации со вируси</item>
+        <item quantity="one">Средена е %d апликација со вируси</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Откриена е %d апликација со вируси</item>
+        <item quantity="one">Откриени се %d апликации со вируси</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">Оптимизирани се %d ставки</item>
+        <item quantity="one">Оптимизирана е %d ставка</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Откриени се %d проблеми</item>
+        <item quantity="one">Откриен е %d проблем</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Скенирани се %d апликации</item>
+        <item quantity="one">Скенирана е %d апликација</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">Пред %d дена</item>
+        <item quantity="one">Пред %d ден</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d закани</item>
+        <item quantity="one">%d закана</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Скенирани се %d апликации</item>
+        <item quantity="one">Скенирана е %d апликација</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d закани за апликации</item>
+        <item quantity="one">%d закана за апликации</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">Пронајдени се %2$d сомнителни апликации во последните %1$d дена. Прегледајте ги деталите >></item>
+        <item quantity="one">Пронајдена е %2$d сомнителна апликација во последните %1$d дена. Прегледајте ги деталите >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d апликации беа скенирани во последните %1$d дена. Прегледај детали >></item>
+        <item quantity="one">%2$d апликација беше скенирана во последните %1$d дена. Прегледај детали >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d апликации може да се компресираат</item>
+        <item quantity="one">%d апликација може да се компресира</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Откриени се %d непознати апликации.</item>
+        <item quantity="one">Откриена е %d непозната апликација.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Апликации што може да се компресираат (%d)</item>
+        <item quantity="one">Апликации што може да се компресираат (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Пронајдени се %d непознати апликации. Проверете.</item>
+        <item quantity="one">Пронајдена е %d непозната апликација. Проверете.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Пронајдени се %d непознати апликации</item>
+        <item quantity="one">Пронајдена е %d непозната апликација</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">Пред %d минути</item>
+        <item quantity="one">Пред %d минута</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Оценка: %s</item>
+        <item quantity="one">Оценка: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s содржи содржина што е ограничена според возраста. Со допирање %3$s и со преземањето на оваа апликација, потврдувате дека сте постари од %2$d години.</item>
+        <item quantity="one">%1$s содржи содржина што е ограничена според возраста. Со допирање %3$s и со преземањето на оваа апликација, потврдувате дека сте постари од %2$d година.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Паузирани преземања: %1$d</item>
+        <item quantity="one">Паузирани преземања: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s содржи содржина што е ограничена според возраста. Со допирање %3$s и со користењето на оваа апликација, потврдувате дека сте постари од %2$d години.</item>
+        <item quantity="one">%1$s содржи содржина што е ограничена според возраста. Со допирање %3$s и со користењето на оваа апликација, потврдувате дека сте постари од %2$d година.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d недопаѓања</item>
+        <item quantity="one">%d недопаѓање</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d недопаѓања, сте означиле дека не ви се допаѓа ова</item>
+        <item quantity="one">%d недопаѓање, сте означиле дека не ви се допаѓа ова</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d допаѓања</item>
+        <item quantity="one">%d допаѓање</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d допаѓања, сте означиле дека ви се допаѓа ова</item>
+        <item quantity="one">%d допаѓање, сте означиле дека ви се допаѓа ова</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d ѕвездички</item>
+        <item quantity="one">%d ѕвездичка</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d коментари</item>
+        <item quantity="one">%1$d коментар</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">Пред %d мин.</item>
+        <item quantity="one">Пред %d мин.</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d оценки</item>
+        <item quantity="one">%d оценка</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d допаѓања</item>
+        <item quantity="one">%1$d допаѓање</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d одговори</item>
+        <item quantity="one">%1$d одговор</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Сите одговори (%1$d)</item>
+        <item quantity="one">Сите одговори (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Треба да имате играно најмалку %1$d минути за да коментирате.</item>
+        <item quantity="one">Треба да имате играно најмалку %1$d минута за да коментирате.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s апликации се инсталираат</item>
+        <item quantity="one">%1$s апликација се инсталира</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Избрани се %1$d ставки</item>
+        <item quantity="one">Избрана е %1$d ставка</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Да се одинстал. избр. апл., вклучително и %1$s?</item>
+        <item quantity="one">Да се одинсталира %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Да се одинсталираат %1$s и %2$s други апликации од %3$s?</item>
+        <item quantity="one">Да се одинсталираат %1$s и %2$s друга апликација од %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Да се одинсталираат %2$s апликации, вклучувајќи ја %1$s?</item>
+        <item quantity="one">Да се одинсталира %2$s апликација, вклучувајќи ја %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Да се избришат %1$s записи?</item>
+        <item quantity="one">Да се избрише %1$s запис?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Следниве %1$d апликации бараат пристап до одредени дозволи:</item>
+        <item quantity="one">Следнава %1$d апликација бара пристап до одредени дозволи:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d оценки</item>
+        <item quantity="one">%1$d оценка</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s милиони оценки</item>
+        <item quantity="one">%1$s милион оценки</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s илјади оценки</item>
+        <item quantity="one">%1$s илјада оценки</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s активности</item>
+        <item quantity="one">%1$s активност</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Преостануваат помалку од %1$s минути време за играње. Зачувајте ја вашата игра што е можно побрзо.</item>
+        <item quantity="one">Преостанува помалку од %1$s минута време за играње. Зачувајте ја вашата игра што е можно побрзо.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Преостануваат само %d минути.</item>
+        <item quantity="one">Преостанува само %d минута.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s милијарди</item>
+        <item quantity="one">%1$s милијарда</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s милиони</item>
+        <item quantity="one">%1$s милион</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s илјади</item>
+        <item quantity="one">%1$s илјада</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d коментари</item>
+        <item quantity="one">%1$d коментар</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">Пред %d мин.</item>
+        <item quantity="one">Пред %d мин.</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Најмногу %1$d знаци</item>
+        <item quantity="one">Најмногу %1$d знак</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Внесете најмалку %1$d знаци</item>
+        <item quantity="one">Внесете најмалку %1$d знак</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Најмногу %1$d слики
+Најмногу %2$s секоја"</item>
+        <item quantity="one">"Најмногу %1$d слика
+Најмногу %2$s секоја"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Најмногу %d слики за овој тип проблем</item>
+        <item quantity="one">Најмногу %d слика за овој тип проблем</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s ѕвездички</item>
+        <item quantity="one">%1$s ѕвездичка</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Лозинката не е внесена правилно %1$d пати. Обидете се повторно по %2$d мин.</item>
+        <item quantity="one">Лозинката не е внесена правилно %1$d пати. Обидете се повторно по %2$d мин.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">Веќе учествуваа %1$s милијарда луѓе</item>
+        <item quantity="one">Учествуваат %1$s милијарда луѓе</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">Учествуваат %1$s милиони луѓе</item>
+        <item quantity="one">Учествуваат %1$s милион луѓе</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">Учествуваат %1$s луѓе</item>
+        <item quantity="one">Учествува %1$s човек</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">Учествуваат %1$s илјади луѓе</item>
+        <item quantity="one">Учествуваат %1$s илјада луѓе</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">Купено од %1$s милијарди луѓе</item>
+        <item quantity="one">Купено од %1$s милијарда луѓе</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">Купено од %1$s милиони луѓе</item>
+        <item quantity="one">Купено од %1$s милион луѓе</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">Купено од %1$s луѓе</item>
+        <item quantity="one">Купено од %1$s човек</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">Купено од %1$s илјади луѓе</item>
+        <item quantity="one">Купено од %1$s илјада луѓе</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s оценки</item>
+        <item quantity="one">%1$s оценка</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Оцена, %1$s ѕвездички</item>
+        <item quantity="one">Оцена, %1$s ѕвездичка</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Оценета со %1$s ѕвездички</item>
+        <item quantity="one">Оценета со %1$s ѕвездичка</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Сепак инсталирај (%1$d)</item>
+        <item quantity="one">Сепак инсталирај (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Избрани се %1$d ставки</item>
+        <item quantity="one">Избрана е %1$d ставка</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Описот мора да има најмалку %d знаци. Додајте кадри на екранот ако е можно.</item>
+        <item quantity="one">Описот мора да има најмалку %d знак. Додајте кадри на екранот ако е можно.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d часа</item>
+        <item quantity="one">%1$d час</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d минути</item>
+        <item quantity="one">%1$d минута</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d секунди</item>
+        <item quantity="one">%1$d секунда</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Објави: %1$s</item>
+        <item quantity="one">Објави: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d допаѓања</item>
+        <item quantity="one">%d допаѓање</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d одговори</item>
+        <item quantity="one">%d одговор</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s милијарди</item>
+        <item quantity="one">%1$s милијарда</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s милиони</item>
+        <item quantity="one">%1$s милион</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s илјади</item>
+        <item quantity="one">%1$s илјада</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d прегледи</item>
+        <item quantity="one">%d преглед</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Оставете коментар (вкупно %1$d)</item>
+        <item quantity="one">Оставете коментар (вкупно %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Погледнете ги сите %1$d одговори</item>
+        <item quantity="one">Погледнете го единствениот %1$d одговор</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s учесници</item>
+        <item quantity="one">%1$s учесник</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Изберете најмногу %s одговори</item>
+        <item quantity="one">Изберете најмногу %s одговор</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Повеќе избори (изберете %1$d)</item>
+        <item quantity="one">Повеќе избори (изберете %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Изберете %s одговори</item>
+        <item quantity="one">Изберете %s одговор</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s гласови</item>
+        <item quantity="one">%1$s глас</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">За оваа апликација се потребни %1$d дозволи. Може да ги отповикате во секое време во Нагодување > Апликации > Апликации.</item>
+        <item quantity="one">За оваа апликација е потребна %1$d дозвола. Може да ја отповикате во секое време во Нагодување > Апликации > Апликации.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">За оваа апликација се потребни %1$d дозволи. Може да ги отповикате во секое време во Нагодување > Апликации и услуги > Апликации.</item>
+        <item quantity="one">За оваа апликација е потребна %1$d дозвола. Може да ја отповикате во секое време во Нагодување > Апликации и услуги > Апликации.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d подароци</item>
+        <item quantity="one">%1$d подарок</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d илјада</item>
+        <item quantity="one">%1$d илјади</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ѕвезди</item>
+        <item quantity="one">%1$d ѕвезда</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Оценка: %s</item>
+        <item quantity="one">Оценка: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s оценки</item>
+        <item quantity="one">%1$s оценка</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s отворања</item>
+        <item quantity="one">%1$s отворање</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d нови препораки</item>
+        <item quantity="one">%d нова препорака</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s милијарди</item>
+        <item quantity="one">%1$s милијарда</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s милиони</item>
+        <item quantity="one">%1$s милион</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s илјади</item>
+        <item quantity="one">%1$s илјада</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d апликации се ажурирани</item>
+        <item quantity="one">%1$d апликација е ажурирана</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d апликации се ажурираат</item>
+        <item quantity="one">%1$d апликација се ажурира</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Сликата не може да биде поголема од %1$d MB.</item>
+        <item quantity="one">Сликата не може да биде поголема од %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d фотографии</item>
+        <item quantity="one">%d фотографија</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d избрани</item>
+        <item quantity="one">%1$d/%2$d избрани</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d видеа</item>
+        <item quantity="one">%d видео</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d придобивки</item>
+        <item quantity="one">%d придобивка</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известувања</item>
+        <item quantity="one">%d ново известување</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Избриши ги сите паузирани инсталации (%1$s апликации, ослободуваат %2$s)</item>
+        <item quantity="one">Избриши ги сите паузирани инсталации (%1$s апликација, ослободува %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d избрани)"</item>
+        <item quantity="one">" 
+(%1$d избрано)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Страница %1$d</item>
+        <item quantity="one">Страница %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Паузирани се %1$s инсталации.</item>
+        <item quantity="one">Паузирана е %1$s инсталација.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">Пред %d мин.</item>
+        <item quantity="one">Пред %d мин.</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d дополнителни</item>
+        <item quantity="one">%1$d дополнително</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s преземања</item>
+        <item quantity="one">%1$s преземање</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Оцена: %1$s ѕвездички</item>
+        <item quantity="one">Оцена: %1$s ѕвездичка</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Закажаното инсталирање на %1$s апликации заврши</item>
+        <item quantity="one">Закажаното инсталирање на %1$s апликација заврши</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d апликации ќе започнат да се преземаат кога ќе се поврзете на Wi-Fi.</item>
+        <item quantity="one">%1$d апликација ќе започне да се презема кога ќе се поврзете на Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(преднарачале %1$s)</item>
+        <item quantity="one">(преднарачал %1$s)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d милиони резервации)</item>
+        <item quantity="one">(1 милион резервации)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d илјади резервации)</item>
+        <item quantity="one">(илјада резервации)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Да се инсталираат сите %1$s апликации?</item>
+        <item quantity="one">Да се инсталира %1$s апликација?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">Во тек се %1$s инсталации.</item>
+        <item quantity="one">Во тек е %1$s инсталација.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">од %1$d</item>
+        <item quantity="one">од %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Пребарајте низ %d локални апликации</item>
+        <item quantity="one">Пребарајте низ %d локална апликација</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Обновете %d апликации на списокот на ажурирања и дозволете да бидат ажурирани.</item>
+        <item quantity="one">Обновете %d апликација на списокот на ажурирања и дозволете да биде ажурирана.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Достапни се %1$s ажурирања за апликации</item>
+        <item quantity="one">Достапно е %1$s ажурирање за апликации</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Препорачани се %1$s ажурирања за апликации. Вкупна големина: %2$s.</item>
+        <item quantity="one">Препорачано е %1$s ажурирање за апликација. Големина: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Достапни се %1$d ажурирања за апликации. Големина: %2$s.</item>
+        <item quantity="one">Достапно е %1$d ажурирање за апликација. Големина: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Не се користела %d дена</item>
+        <item quantity="one">Не се користела %d ден</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Да се исчистат %d задачи и преземените датотеки?</item>
+        <item quantity="one">Да се исчисти %d задача и преземената датотека?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Последователни пријавувања од %d дена</item>
+        <item quantity="one">Последователни пријавувања од %d дена</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Ден %d</item>
+        <item quantity="one">Ден %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Преземени се %1$d апликации</item>
+        <item quantity="one">Преземена е %1$d апликација</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Оценка: %s</item>
+        <item quantity="one">Оценка: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">Пред %d минути</item>
+        <item quantity="one">Пред %d минута</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d апликации, вклучително и %1$s</item>
+        <item quantity="one">%2$d апликација (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Значка со црвена точка, %1$s непрочитани известувања</item>
+        <item quantity="one">Значка со црвена точка, %1$s непрочитано известување</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d понуди</item>
+        <item quantity="one">%d понуда</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d подароци од заедницата</item>
+        <item quantity="one">%d подарок од заедницата</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d подароци</item>
+        <item quantity="one">%d подарок</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d луѓе во вашиот регион го сакаат ова</item>
+        <item quantity="one">%d човек во вашиот регион го сака ова</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Избрани се %1$d ставки</item>
+        <item quantity="one">Избрана е %1$d ставка</item>
+    </plurals>
+</resources>

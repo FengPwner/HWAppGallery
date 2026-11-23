@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/forum_hotspot_total_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:id="@id/forum_hotspot_sub_total_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/forum_hotspot_main_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/forum_hotspot_video"
+                android:layout="@layout/forum_hottopic_card_video_banner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/forum_hotspot_banner"
+                android:layout="@layout/forum_hottopic_card_banner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:id="@id/hotspot_content_container"
+                android:background="@drawable/forum_hotspot_content_bg"
+                android:paddingTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@id/hottopic_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1.0">
+                    <View
+                        android:id="@id/hottopic_vertical_line"
+                        android:background="@color/emui_color_primary"
+                        android:layout_width="1.5dip"
+                        android:layout_height="32.0dip" />
+                    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+                        android:ellipsize="end"
+                        android:id="@id/hottopic_item_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textAlignment="viewStart"
+                        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_m"
+                        style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+                </LinearLayout>
+                <com.huawei.appgallery.forum.cards.widget.HotSpotInfoLinearLayout
+                    android:id="@id/hotspot_info_linearlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_elements_margin_horizontal_m"
+                    android:minHeight="@dimen/forum_hotspot_info_linearlayout_height"
+                    android:layout_below="@id/hottopic_item" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/forum_hotspot_blood_banner"
+        android:layout="@layout/forum_hottopic_blood_card_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

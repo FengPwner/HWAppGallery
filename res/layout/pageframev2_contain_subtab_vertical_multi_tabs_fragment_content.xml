@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.foundation.ui.framework.widget.DisableMouseWheelLinearLayout
+    android:orientation="horizontal"
+    android:id="@id/tabsContentLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/tabsRecyclerViewContainer"
+        android:visibility="invisible"
+        android:layout_width="@dimen/vertical_tabs_tab_width"
+        android:layout_height="fill_parent">
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/multi_tabs_fragment_vertical_tabs_bg" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/tabsRecyclerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View
+        android:id="@id/tabsDivider"
+        android:visibility="gone"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+        style="@style/AppGallery.Widget.Divider.Vertical" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:orientation="vertical"
+        android:id="@id/tabsViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</com.huawei.appgallery.foundation.ui.framework.widget.DisableMouseWheelLinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/no_network_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:id="@id/no_network"
+                android:background="@drawable/ic_no_wifi_disable"
+                android:layout_centerHorizontal="true"
+                style="@style/AppGallery.ImageSize.NoData" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@id/tv_no_network"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_m"
+                android:layout_below="@id/no_network"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                style="@style/AppGallery.TextAppearance.NoData" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body3"
+                android:textColor="@color/emui_functional_blue"
+                android:gravity="center_horizontal"
+                android:id="@id/tv_no_wifi_try_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/distribution_oobe_retry"
+                android:singleLine="true"
+                android:layout_below="@id/tv_no_network"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/mini_detail_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="14.0dip"
+                    android:layout_height="14.0dip"
+                    android:src="@drawable/appicon_logo_standard" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/appgallery_text_size_body3"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:layout_gravity="center_vertical"
+                    android:tag="css/.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/loadingBar_layout"
+        android:tag="css/.body"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingBar"
+                android:visibility="visible"
+                android:layout_width="@dimen/loading_large"
+                android:layout_height="@dimen/loading_large"
+                style="@style/Widget.Emui.HwProgressBar.Large" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingTip"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_loading_prompt"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

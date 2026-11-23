@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/detail_head_back"
+    android:paddingTop="@dimen/appgallery_card_elements_margin_s"
+    android:visibility="invisible"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/component_detail_bottom_head_view_height"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_l"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.0">
+        <TextView
+            android:textSize="@dimen/emui_text_size_subtitle2"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:layout_gravity="start|center|top"
+            android:id="@id/tv_bottomo_name"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/component_detail_card_elements_margin_xl" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_10_dp"
+        android:layout_marginStart="@dimen/appgallery_safety_margin_l">
+        <com.huawei.appgallery.detail.detailbase.api.DetailHeadDownLoadButton
+            android:layout_gravity="end|center"
+            android:id="@id/detail_download_button"
+            android:visibility="visible"
+            android:layout_width="@dimen/component_detail_card_element_width_l"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/component_detail_card_element_width_l"
+            android:minHeight="28.0dip"
+            maskview:hwAutoSizeMinTextSize="9.0sp"
+            maskview:hwProgressButtonStaticTextColor="@color/hwprogressbutton_selector_button_text_emphasize"
+            style="@style/AppGallery.Widget.DownloadButton.Normal" />
+    </LinearLayout>
+</LinearLayout>

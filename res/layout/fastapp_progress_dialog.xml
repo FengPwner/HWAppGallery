@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24.0dip"
+    android:layout_marginEnd="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip">
+        <TextView
+            android:textSize="16.0sp"
+            android:id="@id/fastapp_third_app_dl_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40.0dip"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textSize="16.0sp"
+            android:id="@id/fastapp_third_app_warn_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fastapp_dl_installing"
+            android:layout_marginEnd="8.0dip"
+            android:layout_toStartOf="@id/fastapp_third_app_dl_progress_text" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/fastap_cancel_imageview"
+            android:background="@drawable/fastapp_download_bg"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/fastapp_dl_sure_cancel_download"
+            android:layout_alignParentEnd="true" />
+        <ProgressBar
+            android:id="@id/fastapp_third_app_dl_progressbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16.0dip"
+            android:layout_toStartOf="@id/fastap_cancel_imageview"
+            style="?android:progressBarStyleHorizontal" />
+    </RelativeLayout>
+</LinearLayout>

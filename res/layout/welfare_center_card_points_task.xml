@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="64.0dip">
+        <ImageView
+            android:id="@id/task_card_icon"
+            android:layout_width="48.0dip"
+            android:layout_height="35.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+            android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body2_fixed"
+                android:ellipsize="end"
+                android:id="@id/task_card_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body3_fixed"
+                android:ellipsize="end"
+                android:id="@id/task_card_desc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:textSize="@dimen/appgallery_text_size_body3_fixed"
+            android:textColor="@color/welfare_center_text_color"
+            android:gravity="center"
+            android:id="@id/task_card_btn"
+            android:background="@drawable/welfare_center_points_task_btn_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            style="@style/Widget.Emui.HwButton.Small" />
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="64.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

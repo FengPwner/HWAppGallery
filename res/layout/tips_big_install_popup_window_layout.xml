@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/new_install_notify_popup_window_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ui_64_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/new_install_notify_popup_window_app_icon"
+        android:layout_width="@dimen/appgallery_card_icon_size_small"
+        android:layout_height="@dimen/appgallery_card_icon_size_small"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        app:corner_type="appicon"
+        app:round_type="all" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/new_install_notify_popup_window_app_right_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+        android:layout_toEndOf="@id/new_install_notify_popup_window_app_icon">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/new_install_notify_popup_window_open_button">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/new_install_notify_popup_window_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_weight="1.0"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body3"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:id="@id/new_install_notify_popup_window_app_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:singleLine="true"
+                android:includeFontPadding="false"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:layout_gravity="center"
+            android:id="@id/new_install_notify_popup_window_open_button"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0dip"
+            android:text="@string/wisedist_new_install_tips_button"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.Emui.HwButton" />
+    </RelativeLayout>
+</RelativeLayout>

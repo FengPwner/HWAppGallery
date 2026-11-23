@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/updatemanager_cl"
+    android:paddingTop="@dimen/appgallery_safety_margin_m"
+    android:paddingBottom="@dimen/appgallery_safety_margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/update_icon_left2"
+        android:visibility="visible"
+        android:layout_width="0.0dip"
+        android:layout_height="38.0dip"
+        android:src="@color/transparent"
+        android:alpha="0.6"
+        android:importantForAccessibility="no"
+        maskview:corner_type="appicon"
+        maskview:layout_constraintBottom_toBottomOf="parent"
+        maskview:layout_constraintStart_toStartOf="parent"
+        maskview:layout_constraintTop_toTopOf="parent"
+        maskview:round_type="all" />
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/update_icon_right2"
+        android:layout_width="0.0dip"
+        android:layout_height="38.0dip"
+        android:src="@color/transparent"
+        android:alpha="0.6"
+        android:importantForAccessibility="no"
+        maskview:corner_type="appicon"
+        maskview:layout_constraintBottom_toBottomOf="parent"
+        maskview:layout_constraintStart_toStartOf="parent"
+        maskview:layout_constraintTop_toTopOf="parent"
+        maskview:round_type="all" />
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/update_icon_left1"
+        android:layout_width="0.0dip"
+        android:layout_height="51.0dip"
+        android:src="@color/transparent"
+        android:importantForAccessibility="no"
+        maskview:corner_type="appicon"
+        maskview:layout_constraintBottom_toBottomOf="parent"
+        maskview:layout_constraintStart_toStartOf="parent"
+        maskview:layout_constraintTop_toTopOf="parent"
+        maskview:round_type="all" />
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/update_icon_right1"
+        android:layout_width="0.0dip"
+        android:layout_height="51.0dip"
+        android:src="@color/transparent"
+        android:importantForAccessibility="no"
+        maskview:corner_type="appicon"
+        maskview:layout_constraintBottom_toBottomOf="parent"
+        maskview:layout_constraintStart_toStartOf="parent"
+        maskview:layout_constraintTop_toTopOf="parent"
+        maskview:round_type="all" />
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/update_icon_middle"
+        android:longClickable="false"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:src="@color/transparent"
+        android:importantForAccessibility="no"
+        maskview:corner_type="appicon"
+        maskview:layout_constraintBottom_toBottomOf="parent"
+        maskview:layout_constraintStart_toStartOf="parent"
+        maskview:layout_constraintTop_toTopOf="parent"
+        maskview:round_type="all" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+    android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+    app:stroke_width="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/app_detail_recall_video"
+        android:layout="@layout/app_recall_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/app_detail_recall_image"
+        android:layout="@layout/app_recall_img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:background="@drawable/substancelistcard_item_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/aguikit_ic_public_delete"
+        android:id="@id/actionbar_clean_button"
+        android:title="@string/apkmanage_deleteapk"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/aguikit_ic_public_clean"
+        android:id="@id/actionbar_choose_all_button"
+        android:title="@string/clear_btn"
+        android:showAsAction="ifRoom" />
+</menu>

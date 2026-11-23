@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/festival_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/str_loading_prompt" />
+    <include
+        layout="@layout/splashscreen_skip_btn_layout" />
+    <include
+        layout="@layout/splashscreen_ad_layout" />
+    <include
+        layout="@layout/splashscreen_jump_area_layout" />
+</FrameLayout>

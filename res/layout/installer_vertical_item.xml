@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+    android:paddingEnd="@dimen/appgallery_card_elements_margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/appicon"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:src="@color/transparent"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toStartOf="@id/downbtn"
+        android:layout_toEndOf="@id/appicon">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/itemText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/dividerLine"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toEndOf="@id/appicon"
+        style="@style/AppGallery.Widget.Divider" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:textSize="@dimen/res_textsize_14sp"
+        android:id="@id/downbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/install_dist_infoflow_download_btn_height"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</RelativeLayout>

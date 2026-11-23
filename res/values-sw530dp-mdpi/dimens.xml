@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="faq_sdk_list_item_arrow_margin_left">24.0dip</dimen>
+    <dimen name="faq_sdk_notice_view_text_margin">32.0dip</dimen>
+    <dimen name="faq_sdk_ui_like_btu">36.0dip</dimen>
+    <dimen name="feedback_sdk_nomoredate_img_margin_start_end">24.0dip</dimen>
+    <dimen name="feedback_sdk_nomoredate_img_margin_top_bottom">21.0dip</dimen>
+    <dimen name="feedback_sdk_nomoredate_img_size">22.0dip</dimen>
+    <dimen name="feedback_sdk_nomoredate_line_width">100.0dip</dimen>
+    <dimen name="feedback_sdk_notice_view_text_margin">32.0dip</dimen>
+    <dimen name="recommend_manual_nomoredate_img_margin_start_end">24.0dip</dimen>
+    <dimen name="recommend_manual_nomoredate_img_margin_top_bottom">21.0dip</dimen>
+    <dimen name="recommend_manual_nomoredate_img_size">22.0dip</dimen>
+    <dimen name="recommend_manual_nomoredate_line_width">100.0dip</dimen>
+    <dimen name="recommend_manual_pics_border_radius">3.0dip</dimen>
+    <dimen name="recommend_manual_pics_border_width">0.5dip</dimen>
+    <dimen name="repairdetail_title_paddingleft">24.0dip</dimen>
+</resources>

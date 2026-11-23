@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/agguard_layout_min_height">
+        <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/item_app_icon"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="@dimen/appgallery_card_icon_size_small"
+            android:layout_height="@dimen/appgallery_card_icon_size_small"
+            android:layout_marginStart="12.0dip"
+            app:corner_type="appicon"
+            app:round_type="all" />
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:layout_marginBottom="12.0dip"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/item_deal_layout">
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:ellipsize="end"
+                    android:id="@id/item_app_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Primary.Medium" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textStyle="normal"
+                    android:textColor="@color/appgallery_color_tertiary"
+                    android:ellipsize="end"
+                    android:id="@id/item_app_status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.0dip"
+                    android:maxLines="1"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textStyle="normal"
+                    android:textColor="@color/appgallery_color_tertiary"
+                    android:id="@id/item_app_permission_alarm"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Paragraph.TextBody3.Secondary" />
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@id/item_deal_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="12.0dip"
+                android:layout_alignParentEnd="true">
+                <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+                    android:id="@id/agguard_item_checkbox"
+                    android:visibility="gone"
+                    android:clickable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    style="@style/Widget.Emui.HwCheckBox.Small" />
+                <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                    android:id="@id/item_deal_btn"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    style="@style/AppGallery.Widget.Button.Small" />
+                <com.huawei.uikit.hwtextview.widget.HwTextView
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/item_uninstall_text"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agguard_safety_report_card_processed_uninstall"
+                    android:layout_centerVertical="true"
+                    android:textDirection="locale"
+                    style="@style/AppGallery.TextAppearance.Card.SubTitle3.Regular" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/item_layout_split_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="68.0dip"
+        android:layout_marginEnd="12.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

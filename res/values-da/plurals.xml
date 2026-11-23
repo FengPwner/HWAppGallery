@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Der blev fundet %2$d mistænkelige apps (inkl. %1$s)</item>
+        <item quantity="one">Der blev fundet %2$d mistænkelig app (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Der blev fundet %2$d ubrugte apps (herunder %1$s)</item>
+        <item quantity="one">Der blev fundet %2$d ubrugt app (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d ubrugte apps</item>
+        <item quantity="one">%d ubrugt app</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d apps med ondsindet adfærd håndteret</item>
+        <item quantity="one">%d app med ondsindet adfærd håndteret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d apps med ondsindet adfærd registreret</item>
+        <item quantity="one">%d app med ondsindet adfærd registreret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d svindelapps håndteret</item>
+        <item quantity="one">%d svindelapp håndteret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d svindelapps registreret</item>
+        <item quantity="one">%d svindelapp registreret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d apps med risiko for personlige oplysninger håndteret</item>
+        <item quantity="one">%d app med risiko for personlige oplysninger håndteret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d apps med risiko for personlige oplysninger registreret</item>
+        <item quantity="one">%d app med risiko for personlige oplysninger registreret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d apps med sikkerhedstrusler håndteret</item>
+        <item quantity="one">%d app med sikkerhedstrusler håndteret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d apps med sikkerhedstrusler registreret</item>
+        <item quantity="one">%d app med sikkerhedstrusler registreret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d apps med vira håndteret</item>
+        <item quantity="one">%d app med vira håndteret</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d apps med vira registreret</item>
+        <item quantity="one">%d app med vira registreret</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d elementer blev optimeret</item>
+        <item quantity="one">%d element blev optimeret</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Der blev registreret %d problemer</item>
+        <item quantity="one">Der blev registreret %d problem</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d scannede apps</item>
+        <item quantity="one">%d scannet app</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">For %d dage siden</item>
+        <item quantity="one">For %d dag siden</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d trusler</item>
+        <item quantity="one">%d trussel</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d scannede apps</item>
+        <item quantity="one">%d scannet app</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d app-trusler</item>
+        <item quantity="one">%d app-trussel</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d mistænkelige apps blev fundet i løbet af de seneste %1$d dage. Vis oplysninger >></item>
+        <item quantity="one">%2$d mistænkelig app blev fundet i løbet af de seneste %1$d dage. Vis oplysninger >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d apps er blevet scannet i de seneste %1$d dage. Vis oplysninger >></item>
+        <item quantity="one">%2$d app er blevet scannet i de seneste %1$d dage. Vis oplysninger >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d apps kan komprimeres</item>
+        <item quantity="one">%d app kan komprimeres</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">%d ukendte apps fundet.</item>
+        <item quantity="one">%d ukendt app fundet.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Apps, der kan komprimeres (%d)</item>
+        <item quantity="one">Apps, der kan komprimeres (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d ukendte apps blev fundet. Kontroller.</item>
+        <item quantity="one">%d ukendt app blev fundet. Kontroller.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d ukendte apps blev fundet</item>
+        <item quantity="one">%d ukendt app blev fundet</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">for %d min siden</item>
+        <item quantity="one">for %d min siden</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Bedømmelse: %s</item>
+        <item quantity="one">Bedømmelse: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s indeholder aldersbegrænset indhold. Ved at trykke på %3$s og hente denne app bekræfter du, at du er over %2$d år gammel.</item>
+        <item quantity="one">%1$s indeholder aldersbegrænset indhold. Ved at trykke på %3$s og hente denne app bekræfter du, at du er over %2$d år gammel.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Midlertidigt stoppede downloads: %1$d</item>
+        <item quantity="one">Midlertidigt stoppede downloads: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s indeholder aldersbegrænset indhold. Ved at trykke på %3$s og bruge denne app bekræfter du, at du er over %2$d år gammel.</item>
+        <item quantity="one">%1$s indeholder aldersbegrænset indhold. Ved at trykke på %3$s og bruge denne app bekræfter du, at du er over %2$d år gammel.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d synes ikke godt om</item>
+        <item quantity="one">%d synes ikke godt om</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d synes ikke godt om, du synes ikke godt om dette</item>
+        <item quantity="one">%d synes ikke godt om, du synes ikke godt om dette</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d synes godt om</item>
+        <item quantity="one">%d synes godt om</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d synes godt om, du synes godt om dette</item>
+        <item quantity="one">%d synes godt om, du synes godt om dette</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d stjerner</item>
+        <item quantity="one">%d stjerne</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d kommentarer</item>
+        <item quantity="one">%1$d kommentar</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">For %d min. siden</item>
+        <item quantity="one">For %d min. siden</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d vurderinger</item>
+        <item quantity="one">%d scoring</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d synes godt om</item>
+        <item quantity="one">%1$d synes godt om</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d svar</item>
+        <item quantity="one">%1$d svar</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Alle svar (%1$d)</item>
+        <item quantity="one">Alle svar (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Du skal have spillet i mindst %1$d minutter, før du kan kommentere.</item>
+        <item quantity="one">Du skal have spillet i mindst %1$d minut, før du kan kommentere.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Installation af %1$s apps er i gang</item>
+        <item quantity="one">Installation af %1$s app er i gang</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d elementer valgt</item>
+        <item quantity="one">%1$d element valgt</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Afinstaller de valgte apps, herunder %1$s?</item>
+        <item quantity="one">Afinstaller %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Vil du afinstallere %1$s og %2$s andre apps fra %3$s?</item>
+        <item quantity="one">Vil du afinstallere %1$s og %2$s anden app fra %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Afinstaller %2$s apps, herunder %1$s?</item>
+        <item quantity="one">Afinstaller %2$s app, herunder %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Slet %1$s poster?</item>
+        <item quantity="one">Slet %1$s post?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Følgende %1$d-apps kræver adgang til visse tilladelser:</item>
+        <item quantity="one">Følgende %1$d-app kræver adgang til visse tilladelser:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d bedømmelser</item>
+        <item quantity="one">%1$d bedømmelse</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s mio. bedømmelser</item>
+        <item quantity="one">%1$s mio. bedømmelser</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK bedømmelser</item>
+        <item quantity="one">%1$sK bedømmelser</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s aktiviteter</item>
+        <item quantity="one">%1$s aktivitet</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Der er mindre end %1$s minutters spiltid tilbage. Gem dit spil hurtigst muligt.</item>
+        <item quantity="one">Der er mindre end %1$s minuts spilletid tilbage. Gem dit spil hurtigst muligt.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Kun %d minutter tilbage.</item>
+        <item quantity="one">Kun %d minut tilbage.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d kommentarer</item>
+        <item quantity="one">%1$d kommentar</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">For %d min siden</item>
+        <item quantity="one">For %d min siden</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Maksimalt %1$d tegn</item>
+        <item quantity="one">Maksimalt %1$d tegn</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Indtast mindst %1$d tegn</item>
+        <item quantity="one">Indtast mindst %1$d tegn</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Op til %1$d billeder
+Højst %2$s per styk"</item>
+        <item quantity="one">"Op til %1$d billede
+Højst %2$s per styk"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Højst %d billeder for denne problemtype</item>
+        <item quantity="one">Højst %d billede for denne problemtype</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s stjerner</item>
+        <item quantity="one">%1$s stjerne</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Adgangskode indtastet forkert %1$d gange. Prøv igen om %2$d min.</item>
+        <item quantity="one">Adgangskode indtastet forkert %1$d gange. Prøv igen om %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s mia. personer har deltaget</item>
+        <item quantity="one">%1$s mia. personer har deltaget</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s mio. personer har deltaget</item>
+        <item quantity="one">%1$s mio. personer har deltaget</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s personer har deltaget</item>
+        <item quantity="one">%1$s person har deltaget</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK personer har deltaget</item>
+        <item quantity="one">%1$sK personer har deltaget</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s mia. personer har købt dette</item>
+        <item quantity="one">%1$s mia. personer har købt dette</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s mio. personer har købt dette</item>
+        <item quantity="one">%1$s mio. personer har købt dette</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s personer har købt dette</item>
+        <item quantity="one">%1$s person har købt dette</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK personer har købt dette</item>
+        <item quantity="one">%1$sK personer har købt dette</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s bedømmelser</item>
+        <item quantity="one">%1$s bedømmelse</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Klassificering, %1$s stjerner</item>
+        <item quantity="one">Klassificering, %1$s stjerne</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Bedømt med %1$s stjerner</item>
+        <item quantity="one">Bedømt med %1$s stjerne</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Installer alligevel (%1$d)</item>
+        <item quantity="one">Installer alligevel (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d elementer valgt</item>
+        <item quantity="one">%1$d element valgt</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Beskrivelsen skal være på mindst %d tegn. Tilføj skærmbilleder, hvis det er muligt.</item>
+        <item quantity="one">Beskrivelsen skal være på mindst %d tegn. Tilføj skærmbilleder, hvis det er muligt.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d timer</item>
+        <item quantity="one">%1$d time</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Indlæg: %1$s</item>
+        <item quantity="one">Indlæg: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d synes godt om</item>
+        <item quantity="one">%d synes godt om</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d svar</item>
+        <item quantity="one">%d svar</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d visninger</item>
+        <item quantity="one">%d visning</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Skriv en kommentar (%1$d i alt)</item>
+        <item quantity="one">Skriv en kommentar (%1$d i alt)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Se alle %1$d svar</item>
+        <item quantity="one">Se alle %1$d svar</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s deltagere</item>
+        <item quantity="one">%1$s deltager</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Vælg op til %s svar</item>
+        <item quantity="one">Vælg op til %s svar</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Flere valg (vælg %1$d)</item>
+        <item quantity="one">Flere valg (vælg %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Vælg %s svar</item>
+        <item quantity="one">Vælg %s svar</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s stemmer</item>
+        <item quantity="one">%1$s stemme</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Denne app kræver %1$d tilladelser. Du kan trække dem tilbage til enhver tid i Indstillinger > Apps > Apps.</item>
+        <item quantity="one">Denne app kræver %1$d tilladelse. Du kan trække den tilbage til enhver tid i Indstillinger > Apps > Apps.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Denne app kræver %1$d tilladelser. Du kan til enhver tid tilbagekalde disse i Indstillinger > Apps og tjenester > Apps.</item>
+        <item quantity="one">Denne app kræver %1$d tilladelse. Du kan til enhver tid tilbagekalde denne i Indstillinger > Apps og tjenester > Apps.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d gaver</item>
+        <item quantity="one">%1$d gave</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d stjerner</item>
+        <item quantity="one">%1$d stjerne</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Bedømmelse: %s</item>
+        <item quantity="one">Bedømmelse: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s bedømmelser</item>
+        <item quantity="one">%1$s bedømmelse</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s åbninger</item>
+        <item quantity="one">%1$s åbning</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d nye anbefalinger</item>
+        <item quantity="one">%d ny anbefaling</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d apps er blevet opdateret</item>
+        <item quantity="one">%1$d app er blevet opdateret</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d apps er ved at blive opdateret</item>
+        <item quantity="one">%1$d app er ved at blive opdateret</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Billede kan ikke være større end %1$d MB.</item>
+        <item quantity="one">Billede kan ikke være større end %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d fotos</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d valgt</item>
+        <item quantity="one">%1$d/%2$d valgt</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d videoer</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d fordele</item>
+        <item quantity="one">%d fordel</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Slet alle installationer, der er sat på pause (%1$s apps, frigør %2$s)</item>
+        <item quantity="one">Slet alle installationer, der er sat på pause (%1$s app, frigør %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d valgt)"</item>
+        <item quantity="one">" 
+(%1$d valgt)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Side%1$d</item>
+        <item quantity="one">Side%1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Satte %1$s installationer på pause.</item>
+        <item quantity="one">Satte %1$s installation på pause.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">For %d min siden</item>
+        <item quantity="one">For %d min siden</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d ekstra</item>
+        <item quantity="one">%1$d ekstra</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s downloads</item>
+        <item quantity="one">%1$s download</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Bedømt med %1$s stjerner</item>
+        <item quantity="one">Bedømt med %1$s stjerne</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Planlagt installation af %1$s apps er fuldført</item>
+        <item quantity="one">Planlagt installation af %1$s app er fuldført</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Download af %1$d apps vil starte, når du opretter forbindelse til Wi-Fi.</item>
+        <item quantity="one">Download af %1$d app vil starte, når du opretter forbindelse til Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s forudbestilt)</item>
+        <item quantity="one">(%1$s forudbestilt)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d million reserveret)</item>
+        <item quantity="one">(1 million reserveret)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d tusind reserveret)</item>
+        <item quantity="one">(1 tusind reserveret)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Vil du installere alle %1$s apps?</item>
+        <item quantity="one">Vil du installere %1$s app?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s installationer i gang.</item>
+        <item quantity="one">%1$s installation i gang.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">af%1$d</item>
+        <item quantity="one">af%1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Søg efter %d lokale apps</item>
+        <item quantity="one">Søg efter %d lokal app</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Gendan %d apps til opdateringslisten og lad dem blive opdateret.</item>
+        <item quantity="one">Gendan %d app til opdateringslisten og lad den blive opdateret.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s appopdateringer tilgængelig</item>
+        <item quantity="one">%1$s appopdatering tilgængelig</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s apps bør opdateres. Samlet størrelse: %2$s.</item>
+        <item quantity="one">%1$s appopdatering anbefales. Størrelse: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d appopdateringer er tilgængelige. Størrelse: %2$s.</item>
+        <item quantity="one">%1$d appopdatering er tilgængelig. Størrelse: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Ikke brugt i %d dage</item>
+        <item quantity="one">Ikke brugt i %d dag</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Ryd %d opgaver og de hentede filer?</item>
+        <item quantity="one">Ryd %d opgave og den hentede fil?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Dage i træk med indtjekning: %d</item>
+        <item quantity="one">Dage i træk med indtjekning: %d</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Dag %d</item>
+        <item quantity="one">Dag %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d apps hentet</item>
+        <item quantity="one">%1$d app hentet</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Bedømmelse: %s</item>
+        <item quantity="one">Bedømmelse: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">%d min siden</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d apps, herunder %1$s</item>
+        <item quantity="one">%2$d app (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Badge med rød prik, %1$s ulæste meddelelser</item>
+        <item quantity="one">Badge med rød prik, %1$s ulæst meddelelse</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d tilbud</item>
+        <item quantity="one">%d tilbud</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d community-gaver</item>
+        <item quantity="one">%d community-gave</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d gaver</item>
+        <item quantity="one">%d gave</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d personer i dit område ønsker dette</item>
+        <item quantity="one">%d person i dit område ønsker dette</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d elementer valgt</item>
+        <item quantity="one">%1$d element valgt</item>
+    </plurals>
+</resources>

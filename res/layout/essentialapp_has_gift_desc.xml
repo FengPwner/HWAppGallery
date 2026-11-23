@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwtextview.widget.HwTextView
+    android:gravity="start"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/gift_desc"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="viewStart"
+    style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

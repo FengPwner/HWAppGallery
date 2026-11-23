@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/tips_card_layout"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:orientation="vertical"
+        android:id="@id/tip_card_risk_tip_group"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:hwColumnType="content_type">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/tips_card_risk_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@id/tips_card_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/appgallery_safety_margin_m"
+                style="@style/install_confirm_normal_tips_card_title_style" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/tips_card_tips_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+            app:hwColumnType="content_type">
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:id="@id/tips_card_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/cs_2_dp"
+                style="@style/install_confirm_normal_tips_card_tips_style" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/tips_card_network_arrow"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_public_arrow_right_900" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:orientation="vertical"
+        android:id="@id/tip_card_install_suggest_group"
+        android:focusable="true"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:hwColumnType="content_type">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/install_confirm_normal_tips_ic_warning" />
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@id/tip_card_install_suggest_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/appgallery_safety_margin_m"
+                style="@style/install_confirm_normal_tips_card_title_style" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/tip_card_install_suggest_tips_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_paragraph_margin_xs"
+            app:hwColumnType="content_type">
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:id="@id/tip_card_install_suggest_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/cs_2_dp"
+                style="@style/install_confirm_normal_tips_card_tips_style" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:hwColumnType="content_type">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/tips_card_understand_the_pure_mode"
+            android:paddingTop="@dimen/appgallery_default_padding_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pure_introduction"
+            style="@style/install_confirm_normal_tips_card_understand_the_pure_mode_style" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwColumnType="content_type">
+        <include
+            layout="@layout/app_permission_layout" />
+        <include
+            layout="@layout/app_risk_detail_layout" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+</LinearLayout>

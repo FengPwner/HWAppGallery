@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+    android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/correct_label_textview"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        style="@style/Search.Widget.LableTitle" />
+    <com.huawei.uikit.phone.hwbutton.widget.HwButton
+        android:id="@id/correct_word_textview"
+        style="@style/Search.Widget.Button.Correct" />
+</LinearLayout>

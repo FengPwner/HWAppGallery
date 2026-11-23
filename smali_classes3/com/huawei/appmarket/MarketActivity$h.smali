@@ -1,0 +1,410 @@
+.class final Lcom/huawei/appmarket/MarketActivity$h;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/appgallery/serverreqkit/api/listener/IServerCallBack;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appmarket/MarketActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "h"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/huawei/appmarket/MarketActivity$b;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Lcom/huawei/appmarket/MarketActivity$h;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final m2(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 6
+
+    .line 1
+    instance-of v0, p2, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_2
+
+    .line 4
+    .line 5
+    instance-of v0, p1, Lcom/huawei/appgallery/integratedatakit/api/GeneralRequest;
+
+    .line 6
+    .line 7
+    if-eqz v0, :cond_2
+
+    .line 8
+    .line 9
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_2
+
+    .line 14
+    .line 15
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v0
+
+    .line 19
+    if-nez v0, :cond_2
+
+    .line 20
+    .line 21
+    check-cast p2, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;
+
+    .line 22
+    .line 23
+    invoke-virtual {p2}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;->h0()Lcom/huawei/appmarket/framework/startevents/bean/CountryInfo;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    const-string v1, "MarketActivity"
+
+    .line 28
+    .line 29
+    if-eqz v0, :cond_1
+
+    .line 30
+    .line 31
+    invoke-virtual {v0}, Lcom/huawei/appmarket/framework/startevents/bean/CountryInfo;->T()Ljava/util/List;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v0
+
+    .line 35
+    invoke-static {v0}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+
+    .line 36
+    .line 37
+    .line 38
+    move-result v2
+
+    .line 39
+    if-nez v2, :cond_0
+
+    .line 40
+    .line 41
+    check-cast p1, Lcom/huawei/appgallery/integratedatakit/api/GeneralRequest;
+
+    .line 42
+    .line 43
+    invoke-virtual {p1}, Lcom/huawei/appgallery/serverreqkit/api/bean/BaseRequestBean;->getServiceType_()I
+
+    .line 44
+    .line 45
+    .line 46
+    move-result p1
+
+    .line 47
+    invoke-static {p1, v0}, Lcom/huawei/appmarket/s13;->a(ILjava/util/List;)V
+
+    .line 48
+    .line 49
+    .line 50
+    goto :goto_1
+
+    .line 51
+    :cond_0
+    const-string p1, "Global countryData is null"
+
+    .line 52
+    .line 53
+    goto :goto_0
+
+    .line 54
+    :cond_1
+    const-string p1, "Global countryInfo is null"
+
+    .line 55
+    .line 56
+    :goto_0
+    invoke-static {v1, p1}, Lcom/huawei/appmarket/g83;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 57
+    .line 58
+    .line 59
+    :goto_1
+    invoke-virtual {p2}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;->a0()Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$ListNumStyle;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object p1
+
+    .line 63
+    if-eqz p1, :cond_2
+
+    .line 64
+    .line 65
+    invoke-virtual {p1}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse$ListNumStyle;->T()Ljava/util/List;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object p1
+
+    .line 69
+    if-eqz p1, :cond_2
+
+    .line 70
+    .line 71
+    invoke-static {}, Lcom/huawei/appmarket/gh6;->a()Lcom/huawei/appmarket/gh6;
+
+    .line 72
+    .line 73
+    .line 74
+    move-result-object p2
+
+    .line 75
+    invoke-virtual {p2, p1}, Lcom/huawei/appmarket/gh6;->c(Ljava/util/List;)V
+
+    .line 76
+    .line 77
+    .line 78
+    :cond_2
+    return-void
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+.end method
+
+.method public final synthetic s1(ILcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)I
+    .registers 4
+
+    .line 1
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public final z0(Lcom/huawei/appgallery/serverreqkit/api/bean/RequestBean;Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;)V
+    .registers 6
+
+    .line 1
+    instance-of p1, p2, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getResponseCode()I
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    check-cast p2, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/serverreqkit/api/bean/ResponseBean;->getRtnCode_()I
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;->Z()Lcom/huawei/appgallery/contentrestrict/api/GradeInfo;
+
+    move-result-object p1
+
+    const-string v0, "MarketActivity"
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/contentrestrict/api/GradeInfo;->getData_()Lcom/huawei/appgallery/contentrestrict/api/GradeInfo$GradeData;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {p1}, Lcom/huawei/appgallery/contentrestrict/api/GradeInfo;->getData_()Lcom/huawei/appgallery/contentrestrict/api/GradeInfo$GradeData;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/huawei/appgallery/contentrestrict/api/GradeInfo$GradeData;->getLevel_()Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/huawei/appmarket/uv4;->a(Ljava/util/List;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    const-string v1, "[global]  gradeInfo != null"
+
+    invoke-static {v0, v1}, Lcom/huawei/appmarket/g83;->f(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;->V()I
+
+    move-result v1
+
+    invoke-static {}, Lcom/huawei/appmarket/e31;->e()Lcom/huawei/appmarket/e31;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v1, p1}, Lcom/huawei/appmarket/e31;->t(ILcom/huawei/appgallery/contentrestrict/api/GradeInfo;)V
+
+    :cond_0
+    invoke-virtual {p2}, Lcom/huawei/appgallery/integratedatakit/api/GeneralResponse;->T()I
+
+    move-result p1
+
+    if-lez p1, :cond_1
+
+    const/16 p2, 0xa
+
+    if-gt p1, p2, :cond_1
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    const-string v1, "save appOpenRemindTime = "
+
+    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-static {v0, p2}, Lcom/huawei/appmarket/g83;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {}, Lcom/huawei/appmarket/mk4;->v()Lcom/huawei/appmarket/mk4;
+
+    move-result-object p2
+
+    const-string v0, "appOpenRemindTime"
+
+    invoke-virtual {p2, v0, p1}, Lcom/huawei/appmarket/j50;->k(Ljava/lang/String;I)V
+
+    :cond_1
+    return-void
+.end method

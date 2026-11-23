@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/hotspot_card_bg" />
+    <corners
+        android:bottomLeftRadius="@dimen/emui_corner_radius_large"
+        android:bottomRightRadius="@dimen/emui_corner_radius_large" />
+</shape>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:src="@drawable/wisedist_ic_ext_batch_download_dot" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:textColor="@color/emui_color_gray_10"
+        android:ellipsize="end"
+        android:id="@id/app_info_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textAlignment="viewStart" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/AppListItem"
+    android:background="@drawable/list_item_normal_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/content_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <ImageView
+            android:id="@id/appicon"
+            android:layout_width="68.0dip"
+            android:layout_height="68.0dip"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:src="@color/transparent"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toEndOf="@id/appicon">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/ItemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1.Regular" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/ItemText_0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:singleLine="true"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/dividerLine"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/content_info_layout"
+        android:layout_marginStart="96.0dip"
+        android:layout_alignEnd="@id/content_info_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="center_vertical"
+    android:id="@id/message_remind_top_rlayout"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/message_icon_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon">
+        <FrameLayout
+            android:gravity="center_vertical"
+            android:id="@id/message_frame_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="44.0dip"
+            android:minWidth="28.0dip"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/message_icon"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:textSize="@dimen/emui_master_caption_2_dp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@id/message_new_count_tv"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginStart="12.0dip" />
+            <ImageView
+                android:id="@id/message_new_reddot"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:src="@drawable/tab_red_dot"
+                android:layout_marginStart="16.0dip"
+                android:layout_alignEnd="@id/message_icon" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/message_remind_center_content_rlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3.0"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toEndOf="@id/message_frame_layout">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+                android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:layout_marginEnd="@dimen/appgallery_elements_margin_vertical_l">
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/message_type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+                <TextView
+                    android:ellipsize="end"
+                    android:id="@id/message_content_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                    android:maxLines="1"
+                    style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+            </LinearLayout>
+            <TextView
+                android:textSize="@dimen/emui_master_body_2"
+                android:textColor="@color/emui_color_gray_7"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:layout_gravity="center_vertical"
+                android:id="@id/message_time_tv"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:fontFamily="Regular"
+                android:textAlignment="viewEnd" />
+        </LinearLayout>
+        <View
+            android:id="@id/devider_line_bottom"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toEndOf="@id/message_frame_layout"
+            style="@style/AppGallery.Widget.Divider" />
+    </RelativeLayout>
+</RelativeLayout>

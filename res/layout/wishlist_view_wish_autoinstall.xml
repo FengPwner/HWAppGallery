@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.wishlist.widget.WishLinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/wishlist_linearlayout_auto_install"
+    android:paddingTop="@dimen/padding_m"
+    android:paddingBottom="@dimen/padding_m"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/wishlist_checkbox_auto_install"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/wishlist_wish_autoinstall"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:paddingStart="@dimen/padding_m"
+        style="@style/Widget.Emui.HwCheckBox.Normal" />
+</com.huawei.appgallery.wishlist.widget.WishLinearLayout>

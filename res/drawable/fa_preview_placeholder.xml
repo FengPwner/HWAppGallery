@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/appgallery_placeholder_img_color" />
+    <corners
+        android:radius="24.0dip" />
+    <size
+        android:height="152.0dip"
+        android:width="323.0dip" />
+</shape>

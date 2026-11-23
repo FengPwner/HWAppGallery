@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/forum_list_top_llayout"
+    android:tag="+@string/bannerImage"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/subTitle"
+        layout="@layout/hiappbase_layout_subheader_title_more" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <include
+            android:id="@id/forum_list_card_v2_1"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+            layout="@layout/forum_section_info_card_v2" />
+        <include
+            android:id="@id/forum_list_card_v2_2"
+            android:visibility="invisible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+            layout="@layout/forum_section_info_card_v2" />
+        <include
+            android:id="@id/forum_list_card_v2_3"
+            android:visibility="invisible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s"
+            layout="@layout/forum_section_info_card_v2" />
+        <include
+            android:id="@id/forum_list_card_v2_4"
+            android:visibility="invisible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+            layout="@layout/forum_section_info_card_v2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/hidden_card_layout"
+    android:paddingBottom="@dimen/appgallery_card_elements_margin_m"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hwColumnType="content_type">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/ui_24_dp">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/hidden_card_checkbox_layout"
+                android:paddingTop="@dimen/ui_10_dp"
+                android:paddingBottom="@dimen/ui_10_dp"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/size_48dp">
+                <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+                    android:id="@id/hidden_card_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="@dimen/risk_dialog_checkbox_margin_start"
+                    style="@style/Widget.Emui.HwCheckBox.Normal" />
+                <TextView
+                    android:textSize="14.0dip"
+                    android:textColor="@color/emui_primary"
+                    android:gravity="center_vertical"
+                    android:id="@id/hidden_card_checkbox_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/installconfirmriskcard_not_test_risk_tips"
+                    android:includeFontPadding="false" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/hidden_card_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            style="@style/install_confirm_normal_hidden_card_tips_style" />
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:id="@id/hidden_card_hw_appmarket_install"
+            android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            android:maxLines="1"
+            style="@style/install_confirm_normal_hidden_card_button_official_style" />
+    </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+    <FrameLayout
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/hidden_card_ll_install"
+            android:visibility="visible"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:hwColumnType="button_type">
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/hidden_card_install_button_continue"
+                android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:text="@string/install_dist_start_install"
+                android:maxLines="1"
+                style="@style/install_confirm_normal_hidden_card_button_official_style" />
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/hidden_card_install_button_retry"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:text="@string/install_dist_retry"
+                android:maxLines="1"
+                style="@style/install_confirm_normal_hidden_card_button_official_style" />
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/hidden_card_install_button_cancel"
+                android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:text="@string/detail_cancel_text"
+                android:maxLines="1"
+                style="@style/install_confirm_normal_hidden_card_button_official_style" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+        <com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/hidden_card_ll_install_completed"
+            android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+            android:visibility="gone"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:hwColumnType="button_type">
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/hidden_card_install_completed_button_completed"
+                android:paddingTop="@dimen/size_8dp"
+                android:paddingBottom="@dimen/size_8dp"
+                android:text="@string/install_dist_done"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                style="@style/install_confirm_normal_hidden_card_button_install_style" />
+            <com.huawei.uikit.hwbutton.widget.HwButton
+                android:id="@id/hidden_card_install_completed_button_open"
+                android:paddingTop="@dimen/size_8dp"
+                android:paddingBottom="@dimen/size_8dp"
+                android:text="@string/install_dist_launch"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                style="@style/install_confirm_normal_hidden_card_button_install_style" />
+        </com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>
+        <include
+            layout="@layout/install_success_vertical_button" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/infoflow_refresh_card_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/wishlist_wish_not_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wishlist_string_wish_not_found_content"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+</LinearLayout>

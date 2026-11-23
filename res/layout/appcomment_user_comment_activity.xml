@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@id/app_detail_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title">
+        <com.huawei.uikit.hwsubtab.widget.HwSubTabWidget
+            android:id="@id/getscore_navigator"
+            android:background="@color/appgallery_color_subtab_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/hwsubtab_height"
+            style="@style/Widget.Emui.HwSubTabBar" />
+        <com.huawei.uikit.hwviewpager.widget.HwViewPager
+            android:id="@id/score_pages"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            bounceViews:bounceEnable="true" />
+    </LinearLayout>
+</RelativeLayout>

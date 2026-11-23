@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:round_corner_bottom_left="0.0dip"
+        app:round_corner_bottom_right="0.0dip"
+        app:round_corner_top_left="@dimen/appgallery_default_corner_radius_l"
+        app:round_corner_top_right="@dimen/appgallery_default_corner_radius_l">
+        <ImageView
+            android:id="@id/mainPictureImg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/agoverseascard_image"
+            android:importantForAccessibility="yes" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <include
+        layout="@layout/agoverseascard_toprollbanner_layout_old_desc" />
+</LinearLayout>

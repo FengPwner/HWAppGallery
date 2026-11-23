@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/task_active_pic_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:clip_background="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m"
+        app:stroke_color="@color/appgallery_color_card_stroke_normal"
+        app:stroke_width="1.0px">
+        <ImageView
+            android:id="@id/immersive_big_imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/wisejoin_image" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/immersive_active_list_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:lines="1"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/immersive_active_list_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xs"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:lines="1"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+</LinearLayout>

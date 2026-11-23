@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/subheader_viewgroup_style">
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:tag="css/.title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_for_layout"
+            android:maxLines="2"
+            android:layout_weight="2.0"
+            style="@style/subheader_title_style" />
+    </LinearLayout>
+    <com.huawei.appgallery.horizontalcard.api.view.BounceHorizontalRecyclerView
+        android:id="@id/AppListItem"
+        android:scrollbars="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_m"
+        android:paddingEnd="@dimen/margin_m"
+        app:bounceEnable="true" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+# to do oobe for ci build
+# 在hiapp 目录下面 存在 oobe 的htm文件，云龙构建时CI/cloudBuild2.0.sh 目录 将包压缩 并复制到该资源目录中

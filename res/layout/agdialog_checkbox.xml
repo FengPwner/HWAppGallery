@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/agdialog_checkbox_dlg_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+            android:gravity="center_vertical"
+            android:id="@id/agdialog_checkbox"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48.0dip"
+            android:text="@string/agdialog_not_remind"
+            style="@style/Widget.Emui.HwCheckBox.Normal" />
+    </LinearLayout>
+</ScrollView>

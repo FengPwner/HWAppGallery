@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/screen_top_scrim_from"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/screen_image_blur_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no" />
+    <FrameLayout
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.detail.detailbase.widget.PhotoViewPager
+            android:id="@id/viewPager"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <View
+            android:layout_gravity="bottom"
+            android:id="@id/screen_bottom_scrim"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:importantForAccessibility="no" />
+        <com.huawei.uikit.phone.hwdotspageindicator.widget.HwDotsPageIndicator
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:id="@id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:hwIsAutoPlay="false"
+            app:hwUnselectedDotColor="@color/detail_hwdotspageindicator_unselect_dot_color"
+            style="@style/Widget.Emui.HwDotsPageIndicator.Dark" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="end|bottom|center"
+            android:orientation="vertical"
+            android:id="@id/image_save_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4.0dip"
+            android:contentDescription="@string/component_detail_preview_save"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l">
+            <ImageView
+                android:id="@id/image_save_view"
+                android:background="@drawable/ic_public_save"
+                android:layout_width="@dimen/detail_save_width_no_projection"
+                android:layout_height="@dimen/detail_save_width_no_projection" />
+        </LinearLayout>
+    </FrameLayout>
+    <View
+        android:layout_gravity="top"
+        android:id="@id/screen_top_scrim"
+        android:background="@drawable/screen_top_scrim_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/screen_card_top_scrim_title_height"
+        android:importantForAccessibility="no" />
+    <FrameLayout
+        android:layout_gravity="top"
+        android:id="@id/title_bar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_l">
+        <ImageView
+            android:layout_gravity="start|center"
+            android:id="@id/close_imageview"
+            android:tag="css/.widget"
+            android:background="@drawable/aguikit_ic_public_back"
+            android:layout_width="@dimen/search_icon_landscape_width"
+            android:layout_height="@dimen/search_icon_landscape_width" />
+    </FrameLayout>
+    <com.huawei.appgallery.detail.detailbase.basecard.detailscreen.screencard.ScreenCardView
+        android:layout_gravity="bottom"
+        android:id="@id/screen_card_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

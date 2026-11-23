@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/size_48dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/permission_img"
+        android:layout_width="@dimen/emui_text_size_headline6"
+        android:layout_height="@dimen/emui_text_size_headline6" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/res_textsize_10sp"
+        android:textColor="@color/emui_primary"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/permission_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_4_dp"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+</LinearLayout>

@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">ნაპოვნია %2$d საეჭვო აპი (მათ შორის %1$s)</item>
+        <item quantity="one">ნაპოვნია %2$d საეჭვო აპი (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">ნაპოვნია %2$d გამოუყენებელი აპი (მათ შორის, %1$s)</item>
+        <item quantity="one">ნაპოვნია %2$d გამოუყენებელი აპი (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d გამოუყენებელი აპი</item>
+        <item quantity="one">%d გამოუყენებელი აპი</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">მავნე ქცევის მქონე %d აპი დამუშავდა</item>
+        <item quantity="one">მავნე ქცევის მქონე %d აპი დამუშავდა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">მავნე ქცევის მქონე %d აპი წაიშალა</item>
+        <item quantity="one">მავნე ქცევის მქონე %d აპი წაიშალა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d თაღლითური აპი დამუშავდა</item>
+        <item quantity="one">%d თაღლითური აპი დამუშავდა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d თაღლითური აპი წაიშალა</item>
+        <item quantity="one">%d თაღლითური აპი წაიშალა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">კონფიდენციალურობის რისკის შემცველი %d აპი დამუშავდა</item>
+        <item quantity="one">კონფიდენციალურობის რისკის შემცველი %d აპი დამუშავდა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">აღმოჩენილია კონფიდენციალურობის რისკის შემცველი %d აპი</item>
+        <item quantity="one">აღმოჩენილია კონფიდენციალურობის რისკის შემცველი %d აპი</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">უსაფრთხოების რისკის შემცველი %d აპი დამუშავდა</item>
+        <item quantity="one">უსაფრთხოების რისკის შემცველი %d აპი დამუშავდა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">აღმოჩენილია უსაფრთხოების რისკის შემცველი %d აპი</item>
+        <item quantity="one">აღმოჩენილია უსაფრთხოების რისკის შემცველი %d აპი</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">ვირუსის შემცველი %d აპი დამუშავდა</item>
+        <item quantity="one">ვირუსის შემცველი %d აპი დამუშავდა</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">აღმოჩენილია ვირუსების შემცველი %d აპი</item>
+        <item quantity="one">აღმოჩენილია ვირუსების შემცველი %d აპი</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">ოპტიმიზებულია %d ელემენტი</item>
+        <item quantity="one">ოპტიმიზებულია %d ელემენტი</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">აღმოჩენილია %d პრობლემა</item>
+        <item quantity="one">აღმოჩენილია %d პრობლემა</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">სკანირებულია %d აპი</item>
+        <item quantity="one">სკანირებულია %d აპი</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d დღის წინ</item>
+        <item quantity="one">%d დღის წინ</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d საფრთხე</item>
+        <item quantity="one">%d საფრთხე</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">სკანირებულია %d აპი</item>
+        <item quantity="one">სკანირებულია %d აპი</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d აპი საფრთხეშია</item>
+        <item quantity="one">%d აპი საფრთხეშია</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">ბოლო %1$d დღეში ნაპოვნია %2$d საეჭვო აპი. დეტალების ნახვა >></item>
+        <item quantity="one">ბოლო %1$d დღეში ნაპოვნია %2$d საეჭვო აპი. დეტალების ნახვა >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">სკანირებულია %2$d აპი გასულ %1$d დღეში. იხილეთ დეტალები >></item>
+        <item quantity="one">სკანირებულია %2$d აპი გასულ %1$d დღეში. იხილეთ დეტალები >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">შესაძლებელია %d აპის შეკუმშვა</item>
+        <item quantity="one">შესაძლებელია %d აპის შეკუმშვა</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">აღმოჩენილია %d უცნობი აპი.</item>
+        <item quantity="one">აღმოჩენილია %d უცნობი აპი.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">შეკუმშვადი აპები (%d)</item>
+        <item quantity="one">შეკუმშვადი აპები (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">ნაპოვნია %d უცნობი აპი. შეამოწმეთ.</item>
+        <item quantity="one">ნაპოვნია %d უცნობი აპი. შეამოწმეთ.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">ნაპოვნია %d უცნობი აპი</item>
+        <item quantity="one">ნაპოვნია %d უცნობი აპი</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d წთ-ის წინ</item>
+        <item quantity="one">%d წთ-ის წინ</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">რეიტინგი: %s</item>
+        <item quantity="one">რეიტინგი: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s შეიცავს ასაკობრივი შეზღუდვის მქონე შიგთავსს. %3$s-ზე შეხებითა და ამ აპის ჩამოტვირთვით ადასტურებთ, რომ %2$d წელზე უფროსი ასაკის ხართ.</item>
+        <item quantity="one">%1$s შეიცავს ასაკობრივი შეზღუდვის მქონე შიგთავსს. %3$s-ზე შეხებითა და ამ აპის ჩამოტვირთვით ადასტურებთ, რომ %2$d წელზე უფროსი ასაკის ხართ.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">ჩამოტვირთვები დაპაუზდა: %1$d</item>
+        <item quantity="one">ჩამოტვირთვები დაპაუზდა: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s შეიცავს ასაკობრივი შეზღუდვის მქონე შიგთავსს. %3$s-ზე შეხებითა და ამ აპის გამოყენებით ადასტურებთ, რომ %2$d წელზე უფროსი ასაკის ხართ.</item>
+        <item quantity="one">%1$s შეიცავს ასაკობრივი შეზღუდვის მქონე შიგთავსს. %3$s-ზე შეხებითა და ამ აპის გამოყენებით ადასტურებთ, რომ %2$d წელზე უფროსი ასაკის ხართ.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d დაწუნება</item>
+        <item quantity="one">%d დაწუნება</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d დაწუნება, თქვენ დაიწუნეთ ეს</item>
+        <item quantity="one">%d დაწუნება, თქვენ დაიწუნეთ ეს</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d მოწონება</item>
+        <item quantity="one">%d მოწონება</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d მოწონება, თქვენ მოიწონეთ ეს</item>
+        <item quantity="one">%d მოწონება, თქვენ მოიწონეთ ეს</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d ვარსკვლავი</item>
+        <item quantity="one">%d ვარსკვლავი</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d კომენტარი</item>
+        <item quantity="one">%1$d კომენტარი</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d წთ-ის წინ</item>
+        <item quantity="one">%d წთ-ის წინ</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d რეიტინგი</item>
+        <item quantity="one">%d რეიტინგი</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d მოწონება</item>
+        <item quantity="one">%1$d მოწონება</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d პასუხი</item>
+        <item quantity="one">%1$d პასუხი</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">ყველა პასუხი (%1$d)</item>
+        <item quantity="one">ყველა პასუხი (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">კომენტარის გასაკეთებლად მინიმუმ %1$d წუთი უნდა ითამაშოთ.</item>
+        <item quantity="one">კომენტარის გასაკეთებლად მინიმუმ %1$d წუთი უნდა ითამაშოთ.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s აპი ინსტალირდება</item>
+        <item quantity="one">%1$s აპი ინსტალირდება</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">არჩეულია %1$d ელემენტი</item>
+        <item quantity="one">არჩეულია %1$d ელემენტი</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">წაიშალოს არჩეული აპები, მათ შორის %1$s?</item>
+        <item quantity="one">წაიშალოს %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">წაიშალოს %1$s და %2$s სხვა აპი %3$s-იდან?</item>
+        <item quantity="one">წაიშალოს %1$s და %2$s სხვა აპი %3$s-იდან?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">გსურთ %2$s აპის, მათ შორის %1$s-ის, დეინსტალირება?</item>
+        <item quantity="one">გსურთ %2$s აპის, მათ შორის %1$s-ის, დეინსტალირება?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">წავშალოთ %1$s ჩანაწერი?</item>
+        <item quantity="one">წავშალოთ %1$s ჩანაწერი?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">შემდეგი %1$d აპი მოითხოვს გარკვეულ ნებართვებზე წვდომას:</item>
+        <item quantity="one">შემდეგი %1$d აპი მოითხოვს გარკვეულ ნებართვებზე წვდომას:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d რეიტინგი</item>
+        <item quantity="one">%1$d რეიტინგი</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s მილიონი რეიტინგი</item>
+        <item quantity="one">%1$s მილიონი რეიტინგი</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s ათასი რეიტინგი</item>
+        <item quantity="one">%1$s ათასი რეიტინგი</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s აქტივობები</item>
+        <item quantity="one">%1$s აქტივობა</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">დარჩენილია თამაშის დროის %1$s წუთზე ნაკლები. შეინახეთ თქვენი თამაში რაც შეიძლება სწრაფად.</item>
+        <item quantity="one">დარჩენილია თამაშის დროის %1$s წუთზე ნაკლები. შეინახეთ თქვენი თამაში რაც შეიძლება სწრაფად.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">დარჩენილია მხოლოდ %d წუთი.</item>
+        <item quantity="one">დარჩენილია მხოლოდ %d წუთი.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">%d საათი</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">%d წუთი</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d წამი</item>
+        <item quantity="one">%d წამი</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d კომენტარი</item>
+        <item quantity="one">%1$d კომენტარი</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d წთ წინ</item>
+        <item quantity="one">%d წთ წინ</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">მაქსიმუმ %1$d სიმბოლო</item>
+        <item quantity="one">მაქსიმუმ %1$d სიმბოლო</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">შეიყვანეთ მინიმუმ %1$d სიმბოლო</item>
+        <item quantity="one">შეიყვანეთ მინიმუმ %1$d სიმბოლო</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"%1$d -მდე სურათი
+თითოეული მაქსიმუმ %2$s"</item>
+        <item quantity="one">"მაქსიმუმ %1$d სურათი
+თითოეული მაქსიმუმ %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">მაქსიმუმ %d სურათი ამ ტიპის პრობლემისთვის</item>
+        <item quantity="one">მაქსიმუმ %d სურათი ამ ტიპის პრობლემისთვის</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s ვარსკვლავი</item>
+        <item quantity="one">%1$s ვარსკვლავი</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">პაროლი არასწორად იქნა შეყვანილი %1$d -ჯერ. გთხოვთ სცადეთ ხელახლა %2$d წთ-ის შემდეგ.</item>
+        <item quantity="one">პაროლი არასწორად იქნა შეყვანილი %1$d -ჯერ. გთხოვთ სცადეთ ხელახლა %2$d წთ-ის შემდეგ.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s მილიარდმა ადამიანმა მიიღო მონაწილეობა</item>
+        <item quantity="one">%1$s მილიარდმა ადამიანმა მიიღო მონაწილეობა</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s მილიონმა ადამიანმა მიიღო მონაწილეობა</item>
+        <item quantity="one">%1$s მილიონმა ადამიანმა მიიღო მონაწილეობა</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s-მა ადამიანმა მიიღო მონაწილეობა</item>
+        <item quantity="one">%1$s-მა ადამიანმა მიიღო მონაწილეობა</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s ათასმა ადამიანმა მიიღო მონაწილეობა</item>
+        <item quantity="one">%1$s ათასმა ადამიანმა მიიღო მონაწილეობა</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s მილიარდმა ადამიანმა შეიძინა ეს</item>
+        <item quantity="one">%1$s მილიარდმა ადამიანმა შეიძინა ეს</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s მილიონმა ადამიანმა შეიძინა ეს</item>
+        <item quantity="one">%1$s მილიონმა ადამიანმა შეიძინა ეს</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s-მა ადამიანმა შეიძინა ეს</item>
+        <item quantity="one">%1$s-მა ადამიანმა შეიძინა ეს</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s ათასმა ადამიანმა შეიძინა ეს</item>
+        <item quantity="one">%1$s ათასმა ადამიანმა შეიძინა ეს</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s რეიტინგი</item>
+        <item quantity="one">%1$s რეიტინგი</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">შეფასება, %1$s ვარსკვლავი</item>
+        <item quantity="one">შეფასება, %1$s ვარსკვლავი</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">შეფასებულია %1$s ვარსკვლავით</item>
+        <item quantity="one">შეფასებულია %1$s ვარსკვლავით</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">მაინც მსურს ინსტალირება (%1$d)</item>
+        <item quantity="one">მაინც მსურს ინსტალირება (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">%d საათი</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">%d წუთი</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d წამი</item>
+        <item quantity="one">%d წამი</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">არჩეულია %1$d ელემენტი</item>
+        <item quantity="one">არჩეულია %1$d ელემენტი</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">აღწერა უნდა იყოს მინიმუმ %d-სიმბოლოიანი. დაამატეთ ეკრანის ანაბეჭდები, თუ შესაძლებელია.</item>
+        <item quantity="one">აღწერა უნდა იყოს მინიმუმ %d-სიმბოლოიანი. დაამატეთ ეკრანის ანაბეჭდები, თუ შესაძლებელია.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d საათი</item>
+        <item quantity="one">%1$d საათი</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d წუთი</item>
+        <item quantity="one">%1$d წუთი</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d წამი</item>
+        <item quantity="one">%1$d წამი</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">პოსტები: %1$s</item>
+        <item quantity="one">პოსტები: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d მოწონებები</item>
+        <item quantity="one">%d მოწონება</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d პასუხი</item>
+        <item quantity="one">%d პასუხი</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d ნახვა</item>
+        <item quantity="one">%d ნახვა</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">დატოვეთ კომენტარი (სულ %1$d)</item>
+        <item quantity="one">დატოვეთ კომენტარი (სულ %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">იხილეთ ყველა %1$d პასუხი</item>
+        <item quantity="one">იხილეთ ყველა %1$d პასუხი</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s მონაწილე</item>
+        <item quantity="one">%1$s მონაწილე</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">აირჩიეთ მაქსიმუმ %s პასუხი</item>
+        <item quantity="one">აირჩიეთ მაქსიმუმ %s პასუხი</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">მრავალი არჩევანი (აირჩიეთ %1$d)</item>
+        <item quantity="one">მრავალი არჩევანი (აირჩიეთ %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">აირჩიეთ %s პასუხი</item>
+        <item quantity="one">აირჩიეთ %s პასუხი</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s ხმა</item>
+        <item quantity="one">%1$s ხმა</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">ამ აპს სჭირდება %1$d ნებართვა. მათი გაუქმება ნებისმიერ დროს შეგიძლიათ მენიუდან: პარამეტრები > აპები > აპები.</item>
+        <item quantity="one">ამ აპს სჭირდება %1$d ნებართვა. ამის გაუქმება ნებისმიერ დროს შეგიძლიათ მენიუდან: პარამეტრები > აპები > აპები.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">ამ აპს სჭირდება %1$d ნებართვა. მათი გაუქმება ნებისმიერ დროს შეგიძლიათ მენიუდან: პარამეტრები > აპები და სერვისები > აპები.</item>
+        <item quantity="one">ამ აპს სჭირდება %1$d ნებართვა. მისი გაუქმება ნებისმიერ დროს შეგიძლიათ მენიუდან: პარამეტრები > აპები და სერვისები > აპები.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d საჩუქრები</item>
+        <item quantity="one">%1$d საჩუქარი</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d ათასი</item>
+        <item quantity="one">%1$d ათასი</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d ვარსკვლავი</item>
+        <item quantity="one">%1$d ვარსკვლავი</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">რეიტინგი: %s</item>
+        <item quantity="one">რეიტინგი: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s რეიტინგი</item>
+        <item quantity="one">%1$s რეიტინგი</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s ღია</item>
+        <item quantity="one">%1$s ღია</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d ახალი რეკომენდაცია</item>
+        <item quantity="one">%d ახალი რეკომენდაცია</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d აპი გაახლებულია</item>
+        <item quantity="one">%1$d აპი გაახლებულია</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d აპი ახლდება</item>
+        <item quantity="one">%1$d აპი ახლდება</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">სურათი არ შეიძლება იყოს %1$d მბ-ზე მეტი.</item>
+        <item quantity="one">სურათი არ შეიძლება იყოს %1$d მბ-ზე მეტი.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d ფოტო</item>
+        <item quantity="one">%d ფოტო</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d არჩეულია</item>
+        <item quantity="one">%1$d/%2$d არჩეულია</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d ვიდეო</item>
+        <item quantity="one">%d ვიდეო</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d უპირატესობა</item>
+        <item quantity="one">%d უპირატესობა</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ახალი შეტყობინება</item>
+        <item quantity="one">%d ახალი შეტყობინება</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">ყველა დაპაუზებული ინსტალაციის წაშლა (%1$s აპი, გაათავისუფლეთ %2$s)</item>
+        <item quantity="one">ყველა დაპაუზებული ინსტალაციის წაშლა (%1$s აპი, გაათავისუფლეთ %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(არჩეულია %1$d)"</item>
+        <item quantity="one">" 
+(არჩეულია %1$d)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">გვერდი %1$d</item>
+        <item quantity="one">გვერდი %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s ინსტალაცია დაპაუზდა.</item>
+        <item quantity="one">%1$s ინსტალაცია დაპაუზდა.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d წთ წინ</item>
+        <item quantity="one">%d წთ წინ</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">დამატებით %1$d</item>
+        <item quantity="one">დამატებით %1$d</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s ჩამოტვირთვა</item>
+        <item quantity="one">%1$s ჩამოტვირთვა</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">შეფასება %1$s ვარსკვლავი</item>
+        <item quantity="one">შეფასება %1$s ვარსკვლავი</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s აპის დაგეგმილი ინსტალაცია დასრულდა</item>
+        <item quantity="one">%1$s აპის დაგეგმილი ინსტალაცია დასრულდა</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Wi-Fi-სთან დაკავშირებისას დაიწყება %1$d აპის ჩამოტვირთვა.</item>
+        <item quantity="one">Wi-Fi-სთან დაკავშირებისას დაიწყება %1$d აპის ჩამოტვირთვა.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(წინასწარ შეუკვეთა %1$s-მა)</item>
+        <item quantity="one">(წინასწარ შეუკვეთა %1$s-მა)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d მილიონი დაჯავშნული)</item>
+        <item quantity="one">(1 მილიონი დაჯავშნული)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d ათასი დაჯავშნული)</item>
+        <item quantity="one">(1 ათასი დაჯავშნული)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">დაინსტალირდეს ყველა %1$s აპი?</item>
+        <item quantity="one">დაინსტალირდეს %1$s აპი?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s ინსტალაცია მიმდინარეობს.</item>
+        <item quantity="one">%1$s ინსტალაცია მიმდინარეობს.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">სულ %1$d</item>
+        <item quantity="one">სულ %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">%d ლოკალური აპის ძიება</item>
+        <item quantity="one">%d ლოკალური აპის ძიება</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">აღადგინეთ %d აპი განახლების სიაში და მიეცით განახლების საშუალება.</item>
+        <item quantity="one">აღადგინეთ %d აპი განახლების სიაში და მიეცით განახლების საშუალება.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">ხელმისაწვდომია %1$s აპის განახლება</item>
+        <item quantity="one">ხელმისაწვდომია %1$s აპის განახლება</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">რეკომენდებულია %1$s აპის გაახლება. საერთო ზომა: %2$s.</item>
+        <item quantity="one">რეკომენდებულია %1$s აპის გაახლება. ზომა: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">ხელმისაწვდომია %1$d აპის განახლება. ზომა: %2$s.</item>
+        <item quantity="one">ხელმისაწვდომია %1$d აპის განახლება. ზომა: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d დღეა, რაც არ გამოყენებულა</item>
+        <item quantity="one">%d დღეა, რაც არ გამოყენებულა</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">%d საათი</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">%d წუთი</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d წამი</item>
+        <item quantity="one">%d წამი</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">გავასუფთაოთ %d დავალება და ჩამოტვირთული ფაილები?</item>
+        <item quantity="one">გავასუფთაოთ %d დავალება და ჩამოტვირთული ფაილი?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">რეგისტრაციის %d-დღიანი სერია</item>
+        <item quantity="one">რეგისტრაციის %d-დღიანი სერია</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">დღე %d</item>
+        <item quantity="one">დღე %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">ჩამოტვირთულია %1$d აპი</item>
+        <item quantity="one">ჩამოტვირთულია %1$d აპი</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">რეიტინგი: %s</item>
+        <item quantity="one">რეიტინგი: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d წთ-ის წინ</item>
+        <item quantity="one">%d წთ-ის წინ</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d აპი, მათ შორის %1$s</item>
+        <item quantity="one">%2$d აპი (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">წითელი წერტილის ბეიჯი, %1$s წაუკითხავი შეტყობინება</item>
+        <item quantity="one">წითელი წერტილის ბეიჯი, %1$s წაუკითხავი შეტყობინება</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d შეთავაზება</item>
+        <item quantity="one">%d შეთავაზება</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d საზოგადოების საჩუქარი</item>
+        <item quantity="one">%d საზოგადოების საჩუქარი</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d საჩუქარი</item>
+        <item quantity="one">%d საჩუქარი</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d ადამიანს თქვენს რეგიონში სურს ეს</item>
+        <item quantity="one">%d ადამიანს თქვენს რეგიონში სურს ეს</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">არჩეულია %1$d ელემენტი</item>
+        <item quantity="one">არჩეულია %1$d ელემენტი</item>
+    </plurals>
+</resources>

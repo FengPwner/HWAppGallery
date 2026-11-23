@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/coordinator"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="yes"
+    android:transitionGroup="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/head_view_layout"
+        android:importantForAccessibility="yes"
+        android:accessibilityTraversalAfter="@id/agdetail_actionbar"
+        layout="@layout/detail_top_head_layout" />
+    <com.huawei.appgallery.detail.detailbase.widget.DetailActionBar
+        android:layout_gravity="top"
+        android:id="@id/agdetail_actionbar"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes" />
+    <include
+        android:id="@id/nested_scroll_view"
+        android:importantForAccessibility="yes"
+        android:accessibilityTraversalAfter="@id/head_view_layout"
+        layout="@layout/detail_nest_scroll_body" />
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/detail_bottom_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes"
+        android:accessibilityTraversalAfter="@id/nested_scroll_view">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_bottom_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/detail_bottom_extendlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

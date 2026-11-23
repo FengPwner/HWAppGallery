@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.assistantdock.buoydock.uikit.window.WindowFrameLayout
+    android:id="@id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/buoy_content"
+        android:background="@drawable/bigbuoy_background_drawable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/buoy_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/headsegment_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/mainsegment_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/ui_12_dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_gravity="end|center"
+        android:id="@id/buoy_window_switch_view"
+        android:visibility="gone"
+        android:layout_width="@dimen/ui_32_dp"
+        android:layout_height="@dimen/ui_40_dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/switch_arrow"
+            android:layout_width="@dimen/ui_8_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:src="@drawable/ic_public_arrow_right"
+            android:scaleType="fitXY"
+            android:alpha="@integer/buoy_guideview_alpha" />
+    </FrameLayout>
+</com.huawei.appgallery.assistantdock.buoydock.uikit.window.WindowFrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:color="@color/forum_base_buoy_emui_primary_inverse" />
+    <item
+        android:state_focused="true"
+        android:state_window_focused="true"
+        android:color="@color/forum_base_buoy_emui_primary_inverse" />
+    <item
+        android:color="@color/forum_base_buoy_emui_primary_inverse"
+        android:state_hovered="true" />
+    <item
+        android:color="@color/forum_base_buoy_emui_text_secondary_inverse" />
+</selector>

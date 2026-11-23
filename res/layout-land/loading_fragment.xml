@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/loading_fragment_layout"
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.foundation.ui.framework.fragment.widget.LoadingExceptionView
+        android:id="@id/tips"
+        android:tag="css/.body"
+        android:visibility="gone"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/setting_content"
+            android:layout="@layout/hiappbase_settings_button_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/emui_dimens_default_bottom_fixed"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/setting_content">
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/no_wifi_layout"
+                android:layout="@layout/loading_fragment_no_wifi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </com.huawei.appgallery.foundation.ui.framework.fragment.widget.LoadingExceptionView>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loadingBar_layout"
+        android:tag="css/.body"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingBar"
+                android:visibility="visible"
+                android:layout_width="@dimen/loading_large"
+                android:layout_height="@dimen/loading_large"
+                style="@style/Widget.Emui.HwProgressBar.Large" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/loadingTip"
+                android:tag="css/.subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_loading_prompt"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

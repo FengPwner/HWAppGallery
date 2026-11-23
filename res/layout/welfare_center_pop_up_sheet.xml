@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="@color/welfare_center_popup_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/coupon_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="36.0dip"
+    android:width="36.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="36.0"
+    android:viewportHeight="36.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/emui_control_focused_outline"
+        android:pathData="M18,0C27.9411,0 36,8.0589 36,18C36,27.9411 27.9411,36 18,36C8.0589,36 0,27.9411 0,18C0,8.0589 8.0589,0 18,0ZM18,2C9.1634,2 2,9.1634 2,18C2,26.8366 9.1634,34 18,34C26.8366,34 34,26.8366 34,18C34,9.1634 26.8366,2 18,2Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:fillType="nonZero" />
+</vector>

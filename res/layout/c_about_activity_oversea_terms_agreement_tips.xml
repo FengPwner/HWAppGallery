@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/internet_permission_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64.0dip"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/oversea_agreement_image"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l">
+        <TextView
+            android:id="@id/oversea_agreement_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+        <TextView
+            android:id="@id/oversea_agreement_subtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody2.Secondary" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/appcommon_familysharing_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/subtitle"
+        layout="@layout/hiappbase_layout_subheader_title_action" />
+    <RelativeLayout
+        android:id="@id/detail_family_share_card_main_layout"
+        android:background="@drawable/list_item_normal_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.Widget.List.ThreeTextLines">
+        <ImageView
+            android:id="@id/detail_familysharing_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@id/detail_familysharing_content_text"
+            android:tag="css/.subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+            android:layout_toStartOf="@id/detail_familysharing_right_arrow"
+            android:layout_toEndOf="@id/detail_familysharing_icon"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <ImageView
+            android:id="@id/detail_familysharing_right_arrow"
+            android:tag="css/.arrow"
+            android:layout_width="@dimen/appgallery_list_item_right_arrow_width"
+            android:layout_height="@dimen/appgallery_list_item_right_arrow_height"
+            android:src="@drawable/ic_public_arrow_right_900"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

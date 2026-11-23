@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32.0dip"
+        android:paddingStart="24.0dip"
+        android:paddingEnd="24.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/recommend_title1_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/appgallery_text_size_headline7"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@id/recommend_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/ad_info_icon1"
+                    android:background="@drawable/hiappbase_info_icon"
+                    android:visibility="gone"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_toRightOf="@id/tv_title_one"
+                    android:contentDescription="@string/hiappbase_one_click_control_more_info"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="12.0dip" />
+            </LinearLayout>
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_subtitle2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/recommend_subtitle1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                android:lines="2"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/recommend_title2_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/appgallery_text_size_headline7"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@id/recommend_title2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/ad_info_icon2"
+                    android:background="@drawable/hiappbase_info_icon"
+                    android:visibility="gone"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_toRightOf="@id/tv_title_one"
+                    android:contentDescription="@string/hiappbase_one_click_control_more_info"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="12.0dip" />
+            </LinearLayout>
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_subtitle2"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@id/recommend_subtitle2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+                android:lines="2"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

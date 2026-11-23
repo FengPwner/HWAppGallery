@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/comment_ref_top_rlayout"
+    android:background="@drawable/forum_comment_reference_layout_selector"
+    android:paddingBottom="@dimen/margin_m"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.message.widget.CommentReferenceUserView
+        android:id="@id/comment_reference_user_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:messageIconSize="32" />
+    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/comment_ref_posts_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_below="@id/comment_reference_user_view"
+        android:fontFamily="Regular"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/margin_m" />
+    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+        android:textSize="@dimen/emui_master_body_2"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:id="@id/comment_ref_myself_content"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:maxLines="2"
+        android:layout_below="@id/comment_ref_posts_title"
+        android:fontFamily="Regular"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/margin_m" />
+</RelativeLayout>

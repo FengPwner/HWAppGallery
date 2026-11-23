@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounceViews="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.forum.user.usercenter.widget.NestScrollLayout
+        android:id="@id/user_homepage_fragment_layout_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/user_homepage_head_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.huawei.uikit.hwsubtab.widget.HwSubTabWidget
+            android:layout_gravity="center_vertical"
+            android:id="@id/user_homepage_subtab"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/hwsubtab_height"
+            style="@style/Widget.Emui.HwSubTabBar" />
+        <com.huawei.uikit.hwviewpager.widget.HwViewPager
+            android:id="@id/user_homepage_viewpager"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            bounceViews:bounceEnable="true" />
+    </com.huawei.appgallery.forum.user.usercenter.widget.NestScrollLayout>
+</FrameLayout>

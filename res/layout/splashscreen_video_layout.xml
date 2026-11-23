@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.videokit.api.WiseVideoView
+        android:id="@id/splashscreen_screen_video"
+        android:tag="@string/properties_video_contentDescription"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        app:media_type="0"
+        app:view_type="5" />
+    <include
+        layout="@layout/splashscreen_skip_btn_layout" />
+    <include
+        layout="@layout/splashscreen_ad_layout" />
+    <include
+        layout="@layout/splashscreen_jump_area_layout" />
+</FrameLayout>

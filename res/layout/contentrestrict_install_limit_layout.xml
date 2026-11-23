@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/appgallery_default_padding_bottom_fixed"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/limit_root_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.phone.hwadvancedcardview.widget.HwAdvancedCardView
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                app:cardBackgroundColor="@color/global_card_bg"
+                app:hwAdvancedCardViewClickAnimationEnable="false">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:id="@id/no_limit_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <include
+                        android:id="@id/no_limit"
+                        layout="@layout/contentrestrict_two_line_radio" />
+                </LinearLayout>
+            </com.huawei.uikit.phone.hwadvancedcardview.widget.HwAdvancedCardView>
+            <com.huawei.uikit.phone.hwadvancedcardview.widget.HwAdvancedCardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                app:cardBackgroundColor="@color/global_card_bg"
+                app:hwAdvancedCardViewClickAnimationEnable="false">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:id="@id/all_limit_parent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <include
+                            android:id="@id/all_limit"
+                            layout="@layout/contentrestrict_two_line_radio" />
+                    </LinearLayout>
+                    <View
+                        android:id="@id/market_list_header1"
+                        android:background="@color/emui_color_list_divider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_marginStart="@dimen/emui_dimens_card_start"
+                        android:layout_marginEnd="@dimen/emui_dimens_card_end" />
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:id="@id/age_limit_parent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <include
+                            android:id="@id/age_limit"
+                            layout="@layout/contentrestrict_two_line_radio" />
+                    </LinearLayout>
+                    <View
+                        android:id="@id/market_list_header2"
+                        android:background="@color/emui_color_list_divider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_marginStart="@dimen/emui_dimens_card_start"
+                        android:layout_marginEnd="@dimen/emui_dimens_card_end" />
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:id="@id/age_select_parent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <include
+                            android:id="@id/age_select"
+                            layout="@layout/contentrestrict_one_line_arrow_new" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.huawei.uikit.phone.hwadvancedcardview.widget.HwAdvancedCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

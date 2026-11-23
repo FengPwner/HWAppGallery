@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--高亮文本文字颜色-->
+    <color name="faq_sdk_label_highlight_text_color_normal">#039BE5</color>
+
+</resources>

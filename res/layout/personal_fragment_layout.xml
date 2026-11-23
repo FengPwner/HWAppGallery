@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/content_layout_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/personal_actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/hiappbase_title_layout_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/personal_title_account_info"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/appgallery_max_padding_start"
+            android:layout_alignParentStart="true">
+            <com.huawei.appmarket.service.usercenter.userinfo.view.widget.UserHeadImageView
+                android:id="@id/personal_title_head_imageview"
+                android:background="@android:color/transparent"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:src="@drawable/placeholder_base_account_header"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/hiappbase_user_avatar" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_subtitle1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:ellipsize="end"
+                android:id="@id/personal_title_head_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:alpha="1.0"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:layout_marginStart="@dimen/ui_12_dp"
+                app:hwAutoSizeMinTextSize="@dimen/appgallery_text_size_subtitle2"
+                app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity_fixed" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/search_and_msgbell_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@id/id_background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.usercenter.personal.base.view.widget.NestedScrollingLayout
+            android:orientation="vertical"
+            android:id="@id/personal_nested_scroll_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <androidx.core.widget.NestedScrollView
+                android:id="@id/personal_header_container"
+                android:clipChildren="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.huawei.appgallery.usercenter.personal.base.view.widget.NestedBottomRecyclerView
+                android:id="@id/applistview"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawSelectorOnTop="true"
+                android:divider="@null"
+                android:dividerHeight="0.0dip"
+                app:hwCutoutMode="never" />
+        </com.huawei.appgallery.usercenter.personal.base.view.widget.NestedScrollingLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/personal_actionbar_container"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" />
+        <FrameLayout
+            android:id="@id/hiappbase_loading_layout_id"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

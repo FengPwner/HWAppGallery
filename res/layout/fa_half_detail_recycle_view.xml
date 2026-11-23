@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.appmarket.framework.widget.SimpleExpandScrollLayout
+            android:id="@id/pageframev2_expandable_scroll_layout_id"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <ViewStub
+                android:id="@id/pageframev2_filter_data_expand_viewstub"
+                android:layout="@layout/hiappbase_filter_data_expand_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/appgallery_list_height_single_text_line" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.appgallery.pageframe.view.PullUpListViewV2
+                    android:id="@id/applistview"
+                    android:tag="css/.body"
+                    android:scrollbars="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:divider="@null"
+                    android:dividerHeight="0.0dip"
+                    app:hwCutoutMode="never" />
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:id="@id/detail_fa_half_shader_image"
+                    android:background="@drawable/fa_detail_half_gradient_bg"
+                    android:visibility="visible"
+                    android:layout_width="fill_parent"
+                    android:layout_height="64.0dip"
+                    android:importantForAccessibility="no" />
+            </FrameLayout>
+        </com.huawei.appmarket.framework.widget.SimpleExpandScrollLayout>
+        <LinearLayout
+            android:layout_gravity="bottom|center"
+            android:orientation="vertical"
+            android:id="@id/box_half_detail_bottom"
+            android:paddingTop="16.0dip"
+            android:paddingBottom="24.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/add_to_hiboard_button"
+                android:visibility="gone"
+                android:layout_marginBottom="16.0dip"
+                android:text="@string/component_detail_add_to_hiboard"
+                style="@style/style_half_detail_hiboard_button" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/add_to_desktop_button"
+                android:visibility="visible"
+                android:text="@string/component_detail_add_to_desktop"
+                style="@style/style_half_detail_desktop_button" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/add_to_desktop_stack_button"
+                android:visibility="gone"
+                android:text="@string/component_detail_stack_add_to_desktop"
+                style="@style/style_half_detail_stack_desktop_button" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

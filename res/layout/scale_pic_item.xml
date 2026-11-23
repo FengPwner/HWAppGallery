@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center"
+    android:id="@id/parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.common.media.widget.zoomview.ScaleView
+        android:id="@id/scale_pic_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="image" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loading_bar_layout"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@id/loading_bar"
+            android:layout_width="@dimen/loading_large"
+            android:layout_height="@dimen/loading_large"
+            style="@style/Widget.Emui.HwProgressBar.Large" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/loading_tip"
+            android:tag="css/.subtitle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_loading_prompt"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/Loading_fail"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/loading_large"
+            android:layout_height="@dimen/loading_large"
+            android:src="@drawable/media_ic_error" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/media_error_text_font_size"
+            android:textColor="@color/media_white_60_percent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/media_toast_image_loading_fail" />
+    </LinearLayout>
+</RelativeLayout>

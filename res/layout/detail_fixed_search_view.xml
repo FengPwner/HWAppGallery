@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/detail_fixed_search_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/hwsearchview_search_bar_padding"
+        android:paddingBottom="@dimen/hwsearchview_search_bar_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/hwsearchview_preferred_height">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/hwsearchview_selector_search_bg_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="0.0dip"
+            android:paddingEnd="0.0dip">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/hwsearchview_search_plate_padding_start"
+                android:paddingEnd="0.0dip">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_gravity="center_vertical"
+                    android:focusable="false"
+                    android:visibility="visible"
+                    android:clickable="false"
+                    android:layout_width="@dimen/hwsearchview_src_icon_width"
+                    android:layout_height="@dimen/hwsearchview_src_icon_width"
+                    android:tint="@color/emui_color_secondary"
+                    android:alpha="@dimen/hwsearchview_src_icon_alpha"
+                    android:layout_marginStart="0.0dip"
+                    android:layout_marginEnd="@dimen/emui_dimens_text_margin_fourth"
+                    app:srcCompat="@drawable/hwsearchview_ic_public_search" />
+                <TextSwitcher
+                    android:gravity="start|center"
+                    android:id="@id/text_switcher"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/hwsearchview_src_text_height"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:textSize="@dimen/emui_text_size_button2"
+                    android:background="@color/emui_color_list_divider"
+                    android:layout_width="1.0px"
+                    android:layout_height="wrap_content" />
+                <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                    android:textSize="@dimen/emui_text_size_button2"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/detail_search_text_button"
+                    android:background="@drawable/hwsearchview_selector_search_button"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/hwsearchview_search_button_height"
+                    android:text="@string/aguikit_search"
+                    android:paddingStart="@dimen/emui_dimens_text_margin_tertiary"
+                    android:paddingEnd="@dimen/emui_dimens_text_margin_tertiary"
+                    style="@style/Widget.Emui.HwButton.Borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

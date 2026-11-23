@@ -1,0 +1,467 @@
+.class public Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+.super Ljavax/net/ssl/SSLSocketFactory;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# static fields
+.field public static final BROWSER_COMPATIBLE_HOSTNAME_VERIFIER:Lorg/apache/http/conn/ssl/X509HostnameVerifier;
+
+.field public static final STRICT_HOSTNAME_VERIFIER:Lorg/apache/http/conn/ssl/X509HostnameVerifier;
+
+.field private static volatile c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+
+# instance fields
+.field private a:Ljavax/net/ssl/SSLContext;
+
+.field private b:Landroid/content/Context;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    new-instance v0, Lorg/apache/http/conn/ssl/BrowserCompatHostnameVerifier;
+
+    invoke-direct {v0}, Lorg/apache/http/conn/ssl/BrowserCompatHostnameVerifier;-><init>()V
+
+    sput-object v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->BROWSER_COMPATIBLE_HOSTNAME_VERIFIER:Lorg/apache/http/conn/ssl/X509HostnameVerifier;
+
+    new-instance v0, Lorg/apache/http/conn/ssl/StrictHostnameVerifier;
+
+    invoke-direct {v0}, Lorg/apache/http/conn/ssl/StrictHostnameVerifier;-><init>()V
+
+    sput-object v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->STRICT_HOSTNAME_VERIFIER:Lorg/apache/http/conn/ssl/X509HostnameVerifier;
+
+    const/4 v0, 0x0
+
+    sput-object v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    return-void
+.end method
+
+.method private constructor <init>(Landroid/content/Context;Ljava/security/SecureRandom;)V
+    .registers 7
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/security/NoSuchAlgorithmException;,
+            Ljava/security/cert/CertificateException;,
+            Ljava/security/KeyStoreException;,
+            Ljava/security/KeyManagementException;,
+            Ljava/lang/IllegalAccessException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljavax/net/ssl/SSLSocketFactory;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    iput-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->b:Landroid/content/Context;
+
+    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    new-instance p1, Lcom/huawei/secure/android/common/SecureX509TrustManager;
+
+    iget-object v1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->b:Landroid/content/Context;
+
+    invoke-direct {p1, v1}, Lcom/huawei/secure/android/common/SecureX509TrustManager;-><init>(Landroid/content/Context;)V
+
+    iget-object v1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    const/4 v2, 0x1
+
+    new-array v2, v2, [Ljavax/net/ssl/X509TrustManager;
+
+    const/4 v3, 0x0
+
+    aput-object p1, v2, v3
+
+    invoke-virtual {v1, v0, v2, p2}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    .registers 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/security/NoSuchAlgorithmException;,
+            Ljava/security/cert/CertificateException;,
+            Ljava/security/KeyStoreException;,
+            Ljava/security/KeyManagementException;
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 2
+    invoke-direct {p0}, Ljavax/net/ssl/SSLSocketFactory;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    new-instance v1, Lcom/huawei/appmarket/t83;
+
+    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/t83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+
+    iget-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    const/4 p2, 0x1
+
+    new-array p2, p2, [Ljavax/net/ssl/X509TrustManager;
+
+    const/4 v2, 0x0
+
+    aput-object v1, p2, v2
+
+    invoke-virtual {p1, v0, p2, v0}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/io/InputStream;Ljava/lang/String;Ljava/security/SecureRandom;)V
+    .registers 7
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/security/NoSuchAlgorithmException;,
+            Ljava/security/cert/CertificateException;,
+            Ljava/security/KeyStoreException;,
+            Ljava/security/KeyManagementException;
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 3
+    invoke-direct {p0}, Ljavax/net/ssl/SSLSocketFactory;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    invoke-static {}, Lcom/huawei/appmarket/rz6;->e()Ljavax/net/ssl/SSLContext;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    new-instance v1, Lcom/huawei/appmarket/t83;
+
+    invoke-direct {v1, p1, p2}, Lcom/huawei/appmarket/t83;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+
+    iget-object p1, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    const/4 p2, 0x1
+
+    new-array p2, p2, [Ljavax/net/ssl/X509TrustManager;
+
+    const/4 v2, 0x0
+
+    aput-object v1, p2, v2
+
+    invoke-virtual {p1, v0, p2, p3}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    return-void
+.end method
+
+.method private a(Ljava/net/Socket;)V
+    .registers 2
+
+    check-cast p1, Ljavax/net/ssl/SSLSocket;
+
+    invoke-static {p1}, Lcom/huawei/appmarket/rz6;->c(Ljavax/net/ssl/SSLSocket;)V
+
+    invoke-static {p1}, Lcom/huawei/appmarket/rz6;->b(Ljavax/net/ssl/SSLSocket;)V
+
+    return-void
+.end method
+
+.method public static getInstance(Landroid/content/Context;)Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/security/NoSuchAlgorithmException;,
+            Ljava/security/cert/CertificateException;,
+            Ljava/security/KeyStoreException;,
+            Ljava/lang/IllegalAccessException;,
+            Ljava/security/KeyManagementException;
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    if-nez v0, :cond_1
+
+    const-class v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;-><init>(Landroid/content/Context;Ljava/security/SecureRandom;)V
+
+    sput-object v1, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+
+    :cond_1
+    :goto_2
+    sget-object p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    return-object p0
+.end method
+
+.method public static getInstance(Landroid/content/Context;Ljava/security/SecureRandom;)Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/security/NoSuchAlgorithmException;,
+            Ljava/security/cert/CertificateException;,
+            Ljava/security/KeyStoreException;,
+            Ljava/lang/IllegalAccessException;,
+            Ljava/security/KeyManagementException;
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 2
+    sget-object v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    if-nez v0, :cond_1
+
+    const-class v0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    invoke-direct {v1, p0, p1}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;-><init>(Landroid/content/Context;Ljava/security/SecureRandom;)V
+
+    sput-object v1, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    goto :goto_2
+
+    :goto_1
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+
+    :cond_1
+    :goto_2
+    sget-object p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->c:Lcom/huawei/secure/android/common/SecureSSLSocketFactory;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public createSocket(Ljava/lang/String;I)Ljava/net/Socket;
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/net/UnknownHostException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    invoke-virtual {v0}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Ljavax/net/SocketFactory;->createSocket(Ljava/lang/String;I)Ljava/net/Socket;
+
+    move-result-object p1
+
+    instance-of p2, p1, Ljavax/net/ssl/SSLSocket;
+
+    if-eqz p2, :cond_0
+
+    invoke-direct {p0, p1}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a(Ljava/net/Socket;)V
+
+    :cond_0
+    return-object p1
+.end method
+
+.method public createSocket(Ljava/lang/String;ILjava/net/InetAddress;I)Ljava/net/Socket;
+    .registers 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/net/UnknownHostException;
+        }
+    .end annotation
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->createSocket(Ljava/lang/String;I)Ljava/net/Socket;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public createSocket(Ljava/net/InetAddress;I)Ljava/net/Socket;
+    .registers 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 3
+    invoke-virtual {p1}, Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->createSocket(Ljava/lang/String;I)Ljava/net/Socket;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public createSocket(Ljava/net/InetAddress;ILjava/net/InetAddress;I)Ljava/net/Socket;
+    .registers 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 4
+    invoke-virtual {p1}, Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1, p2}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->createSocket(Ljava/lang/String;I)Ljava/net/Socket;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public createSocket(Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;
+    .registers 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 5
+    iget-object v0, p0, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a:Ljavax/net/ssl/SSLContext;
+
+    invoke-virtual {v0}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2, p3, p4}, Ljavax/net/ssl/SSLSocketFactory;->createSocket(Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;
+
+    move-result-object p1
+
+    instance-of p2, p1, Ljavax/net/ssl/SSLSocket;
+
+    if-eqz p2, :cond_0
+
+    invoke-direct {p0, p1}, Lcom/huawei/secure/android/common/SecureSSLSocketFactory;->a(Ljava/net/Socket;)V
+
+    :cond_0
+    return-object p1
+.end method
+
+.method public getDefaultCipherSuites()[Ljava/lang/String;
+    .registers 2
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getSupportedCipherSuites()[Ljava/lang/String;
+    .registers 2
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    return-object v0
+.end method

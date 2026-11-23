@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/zjbb_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/app_icon_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/app_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_large"
+            android:layout_height="@dimen/appgallery_card_icon_size_large"
+            android:layout_marginTop="@dimen/margin_m"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m" />
+        <com.huawei.uikit.phone.hwcheckbox.widget.HwCheckBox
+            android:layout_gravity="end|center|top"
+            android:id="@id/check_img"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Emui.CheckBox.IconSelect" />
+    </FrameLayout>
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/app_name"
+        android:layout_width="@dimen/round_icon_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:maxLines="2"
+        android:layout_marginEnd="@dimen/margin_m"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Primary" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/app_intro_layout"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_marginEnd="@dimen/margin_m">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/app_intro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="@integer/horizonhomecard_intro_max_lines"
+            android:includeFontPadding="false"
+            style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/ad_imageview"
+            android:visibility="gone"
+            android:layout_width="@dimen/ad_width"
+            android:layout_height="@dimen/ad_height"
+            android:layout_marginStart="@dimen/ad_left_margin_horizon" />
+    </LinearLayout>
+</LinearLayout>

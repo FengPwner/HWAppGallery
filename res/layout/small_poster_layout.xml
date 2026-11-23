@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/appicon"
+        android:layout_width="119.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginBottom="@dimen/margin_l"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="10.0dip" />
+    <RelativeLayout
+        android:id="@id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6.0dip"
+        android:layout_marginEnd="@dimen/margin_l">
+        <TextView
+            android:textSize="@dimen/res_textsize_16sp"
+            android:textColor="@color/small_post_item_title_color"
+            android:ellipsize="end"
+            android:id="@id/ItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginBottom="@dimen/margin_s"
+            android:maxLines="1"
+            android:alpha="1.0" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/ItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_below="@id/ItemTitle"
+            style="@style/subtext_color_style" />
+    </RelativeLayout>
+</LinearLayout>

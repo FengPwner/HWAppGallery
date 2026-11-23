@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/coin_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/content_imageview"
+            android:layout_width="230.0dip"
+            android:layout_height="230.0dip"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:importantForAccessibility="no" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172.0dip">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_title"
+                android:textColor="@color/welfare_center_recv_coin_text_color"
+                android:gravity="center"
+                android:id="@id/coin_count"
+                android:paddingBottom="@dimen/margin_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/coin_congratulate"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body3"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:id="@id/coin_congratulate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/content_imageview"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/platform_card_rl_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/platform_card_rcl_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:clip_background="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_m"
+        app:stroke_width="0.0dip">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="80.0dip"
+            android:textColor="@color/hiapp_platform_card_color_sort_index"
+            android:ellipsize="end"
+            android:id="@id/platform_card_sort_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="viewStart"
+            android:layout_alignParentEnd="true"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Primary" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+        android:layout_gravity="center"
+        android:id="@id/platform_card_app_icon"
+        android:layout_width="@dimen/appgallery_card_icon_size_large"
+        android:layout_height="@dimen/appgallery_card_icon_size_large"
+        android:src="@drawable/platform_card_default_bg_with_corner"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m"
+        app:touch_drawable="@drawable/platform_card_icon_stoke" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:id="@id/platform_card_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="2.0dip"
+        android:singleLine="true"
+        android:layout_below="@id/platform_card_app_icon"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginEnd="8.0dip"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textColor="@color/hiapp_platform_card_color_text_secondary"
+        android:ellipsize="end"
+        android:id="@id/platform_card_app_tagname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_below="@id/platform_card_app_name"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginEnd="8.0dip"
+        style="@style/AppGallery.TextAppearance.Card.TextBody4.Secondary" />
+    <com.huawei.appgallery.foundation.ui.framework.widget.button.DownloadButton
+        android:id="@id/platform_card_app_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_below="@id/platform_card_app_tagname"
+        android:layout_centerHorizontal="true"
+        style="@style/AppGallery.Widget.DownloadButton.Normal" />
+</RelativeLayout>

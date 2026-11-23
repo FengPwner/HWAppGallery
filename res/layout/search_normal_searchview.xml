@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/search_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/back_button_container"
+        android:background="@color/appgallery_color_sub_background"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/back_button"
+            android:background="@drawable/hwsearchview_selector_button_clicked"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/hwappbarpattern_icon_size"
+            android:src="@drawable/hwsearchview_ic_public_back"
+            android:scaleType="centerInside"
+            android:tint="@color/emui_color_primary"
+            android:layout_marginEnd="@dimen/emui_dimens_text_margin_fifth" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/search_view_container"
+        android:focusableInTouchMode="true"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.uikit.phone.hwsearchview.widget.HwSearchView
+            android:layout_gravity="center_vertical"
+            android:id="@id/search_view"
+            android:background="@color/appgallery_color_sub_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionSearch|flagNoFullscreen"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/search_main_text"
+            android:layoutDirection="locale"
+            app:layout="@layout/hwsearchview_icon_hint_text_inner_search_view"
+            style="@style/Widget.Emui.HwSearchView.White" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/faq_sdk_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:id="@id/footer"
+        android:layout_width="@dimen/faq_sdk_footer_progressbar"
+        android:layout_height="@dimen/faq_sdk_footer_progressbar"
+        android:layout_marginTop="@dimen/faq_sdk_footer_progressbar_margin"
+        android:layout_marginBottom="@dimen/faq_sdk_footer_progressbar_margin"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

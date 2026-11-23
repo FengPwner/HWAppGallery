@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/forum_hotspot_lite_total_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/forum_hotspot_lite_main_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/aguikit_round_rectangle_bg">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/forum_hotspot_lite_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+            app:touch_drawable="@drawable/transparent"
+            app:upround="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/forum_hottopic_card_bg"
+            android:paddingTop="@dimen/margin_m"
+            android:paddingBottom="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+            android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_horizontal">
+            <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+                android:ellipsize="end"
+                android:id="@id/forum_hotspot_lite_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/forum_hotspot_lite_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="2"
+                android:lineSpacingMultiplier="1.1"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

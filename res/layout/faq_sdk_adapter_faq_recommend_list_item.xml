@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/faq_sdk_list_item_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/faq_sdk_drawable_margin"
+        android:paddingBottom="@dimen/faq_sdk_drawable_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/faq_sdk_ui_48_dip">
+        <TextView
+            android:textSize="@dimen/faq_sdk_list_item_title_font_size"
+            android:textColor="@color/faq_sdk_list_item_title_text_color_normal"
+            android:id="@id/text_content"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textAlignment="viewStart" />
+        <ImageView
+            android:layout_width="@dimen/faq_sdk_list_item_arrow_width"
+            android:layout_height="@dimen/faq_sdk_list_item_arrow_height"
+            android:src="@drawable/faq_sdk_arrow_right"
+            android:layout_marginStart="@dimen/faq_sdk_list_item_arrow_margin_left" />
+    </LinearLayout>
+    <View
+        android:id="@id/split_line"
+        android:background="@drawable/faq_sdk_list_divider_color_drawable"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/faq_sdk_line_height" />
+</LinearLayout>

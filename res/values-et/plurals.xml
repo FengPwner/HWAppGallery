@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Leiti %2$d kahtlast rakendust (sh %1$s)</item>
+        <item quantity="one">Leiti %2$d kahtlane rakendus (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Leiti %2$d kasutamata rakendust (sh %1$s)</item>
+        <item quantity="one">Leiti %2$d kasutamata rakendus (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d kasutamata rakendust</item>
+        <item quantity="one">%d kasutamata rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Töödeldud on %d pahatahtliku käitumisega rakendust</item>
+        <item quantity="one">Töödeldud on %d pahatahtliku käitumisega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Tuvastati %d pahatahtliku käitumisega rakendust</item>
+        <item quantity="one">Tuvastati %d pahatahtliku käitumisega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Töödeldud on %d petturlikku rakendust</item>
+        <item quantity="one">Töödeldud on %d petturlik rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Tuvastati %d petturlikku rakendust</item>
+        <item quantity="one">Tuvastatud on %d petturlik rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Töödeldud on %d privaatsusriskidega rakendust</item>
+        <item quantity="one">Töödeldud on %d privaatsusriskidega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Tuvastati %d privaatsusriskidega rakendust</item>
+        <item quantity="one">Tuvastati %d privaatsusriskidega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Töödeldud on %d turbeohtudega rakendust</item>
+        <item quantity="one">Töödeldud on %d turbeohtudega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Tuvastati %d turbeohtudega rakendust</item>
+        <item quantity="one">Tuvastati %d turbeohtudega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Töödeldud on %d viirustega rakendust</item>
+        <item quantity="one">Töödeldud on %d viirustega rakendus</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Tuvastati %d viirustega rakendust</item>
+        <item quantity="one">Tuvastati %d viirustega rakendus</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d üksust on optimeeritud</item>
+        <item quantity="one">%d üksus on optimeeritud</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Tuvastati %d probleemi</item>
+        <item quantity="one">Tuvastati %d probleem</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d rakendust skannitud</item>
+        <item quantity="one">%d rakendus skannitud</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d päeva tagasi</item>
+        <item quantity="one">%d päev tagasi</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ohtu</item>
+        <item quantity="one">%d oht</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">Skannitud on %d rakendust</item>
+        <item quantity="one">Skannitud on %d rakendust</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d ohtu rakendusele</item>
+        <item quantity="one">%d oht rakendusele</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">Viimase %1$d päeva jooksul leiti %2$d kahtlast rakendust. Kuva üksikasjad >></item>
+        <item quantity="one">Viimase %1$d päeva jooksul leiti %2$d kahtlane rakendus. Kuva üksikasjad >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">Viimase %1$d päeva jooksul skanniti %2$d rakendust. Kuva üksikasjad >></item>
+        <item quantity="one">Viimase %1$d päeva jooksul skanniti %2$d rakendust. Kuva üksikasjad >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d rakendust võivad olla kokku pakitud</item>
+        <item quantity="one">%d rakendus võib olla kokku pakitud</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Tuvastati %d tundmatut rakendust.</item>
+        <item quantity="one">Tuvastati %d tundmatu rakendus.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Tihendatavad rakendused (%d)</item>
+        <item quantity="one">Tihendatavad rakendused (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Leiti %d tundmatut rakendust. Palun kontrollige.</item>
+        <item quantity="one">Leiti %d tundmatu rakendus. Palun kontrollige.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Leiti %d tundmatut rakendust</item>
+        <item quantity="one">Leiti %d tundmatu rakendus</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d min tagasi</item>
+        <item quantity="one">%d min tagasi</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Hinnang: %s</item>
+        <item quantity="one">Hinnang: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s sisaldab vanusepiiranguga sisu. Puudutades nuppu %3$s ja laadides selle rakenduse alla, kinnitate, et olete vanem kui %2$d-aastane.</item>
+        <item quantity="one">%1$s sisaldab vanusepiiranguga sisu. Puudutades nuppu %3$s ja laadides selle rakenduse alla, kinnitate, et olete vanem kui %2$d-aastane.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Allalaadimised peatatud: %1$d</item>
+        <item quantity="one">Allalaadimised peatatud: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s sisaldab vanusepiiranguga sisu. Puudutades nuppu %3$s ja kasutades seda rakendust, kinnitate, et olete vanem kui %2$d-aastane.</item>
+        <item quantity="one">%1$s sisaldab vanusepiiranguga sisu. Puudutades nuppu %3$s ja kasutades seda rakendust, kinnitate, et olete vanem kui %2$d-aastane.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d mittemeeldimist</item>
+        <item quantity="one">%d mittemeeldimine</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d mittemeeldimist, see ei meeldinud teile</item>
+        <item quantity="one">%d mittemeeldimine, see ei meeldinud teile</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d meeldimist</item>
+        <item quantity="one">%d meeldimine</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d meeldimist, see meeldis teile</item>
+        <item quantity="one">%d meeldimine, see meeldis teile</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d tärni</item>
+        <item quantity="one">%d tärn</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d kommentaari</item>
+        <item quantity="one">%1$d kommentaar</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d min tagasi</item>
+        <item quantity="one">%d min tagasi</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d hinnangut</item>
+        <item quantity="one">%d hinnang</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d meeldimist</item>
+        <item quantity="one">%1$d meeldimine</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d vastust</item>
+        <item quantity="one">%1$d vastus</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Kõik vastused (%1$d)</item>
+        <item quantity="one">Kõik vastused (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Kommenteerimiseks peaksite olema mänginud vähemalt %1$d minutit.</item>
+        <item quantity="one">Kommenteerimiseks peaksite olema mänginud vähemalt %1$d minuti.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s rakendust installitakse</item>
+        <item quantity="one">%1$s rakendust installitakse</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d üksust valitud</item>
+        <item quantity="one">%1$d üksus valitud</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Kustutada valitud rakendused, sh %1$s?</item>
+        <item quantity="one">Kustutada rakendus %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Desinstallida rakendus %1$s ja %2$s teist rakendust kasutajalt %3$s?</item>
+        <item quantity="one">Desinstallida rakendus %1$s ja %2$s teine rakendus kasutajalt %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Kas desinstallida %2$s rakendust, sealhulgas %1$s?</item>
+        <item quantity="one">Kas desinstallida %2$s rakendus, sealhulgas %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Kas kustutada %1$s kirjet?</item>
+        <item quantity="one">Kas kustutada %1$s kirjet?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Järgmised %1$d rakendust vajavad juurdepääsu teatud lubadele:</item>
+        <item quantity="one">%1$d järgmine rakendus vajab juurdepääsu teatud lubadele:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d hinnangut</item>
+        <item quantity="one">%1$d hinnang</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM hinnangut</item>
+        <item quantity="one">%1$sM hinnangut</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK hinnangut</item>
+        <item quantity="one">%1$sK hinnangut</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s tegevust</item>
+        <item quantity="one">%1$s tegevus</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Alla %1$s minuti mänguaega on jäänud. Salvestage oma mäng esimesel võimalusel.</item>
+        <item quantity="one">Alla %1$s minuti mänguaega on jäänud. Salvestage oma mäng esimesel võimalusel.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Ainult %d minutit jäänud.</item>
+        <item quantity="one">Ainult %d minut jäänud.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s mld</item>
+        <item quantity="one">%1$s mld</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s mln</item>
+        <item quantity="one">%1$s mln</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s tuh</item>
+        <item quantity="one">%1$s tuh</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d kommentaari</item>
+        <item quantity="one">%1$d kommentaar</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="one">%d minut tagasi</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Kuni %1$d tärki</item>
+        <item quantity="one">Kuni %1$d tärk</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Sisestage vähemalt %1$d tärki</item>
+        <item quantity="one">Sisestage vähemalt %1$d tärk</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Kuni %1$d pilti
+Iga pilt kuni %2$s"</item>
+        <item quantity="one">"Kuni %1$d pilt
+Iga pilt kuni %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Kuni %d pilti selle probleemi tüübi kohta</item>
+        <item quantity="one">Kuni %d pilt selle probleemi tüübi kohta</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s tärni</item>
+        <item quantity="one">%1$s tärn</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Parool sisestati valesti %1$d korda. Proovige %2$d min pärast uuesti.</item>
+        <item quantity="one">Parool sisestati valesti %1$d korda. Proovige %2$d min pärast uuesti.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s mld nimest on osalenud</item>
+        <item quantity="one">%1$sB nimest on osalenud</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM inimest on osalenud</item>
+        <item quantity="one">%1$sM inimest on osalenud</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s nimest on osalenud</item>
+        <item quantity="one">%1$s inimene on osalenud</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK inimest on osalenud</item>
+        <item quantity="one">%1$sK inimest on osalenud</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB inimest on ostnud selle</item>
+        <item quantity="one">%1$sB inimest on ostnud selle</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM inimest on ostnud selle</item>
+        <item quantity="one">%1$sM inimest on ostnud selle</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s inimest on ostnud selle</item>
+        <item quantity="one">%1$s inimene on ostnud selle</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK inimest on ostnud selle</item>
+        <item quantity="one">%1$sK inimest on ostnud selle</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s hinnangut</item>
+        <item quantity="one">%1$s hinnang</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Hinnang, %1$s tärni</item>
+        <item quantity="one">Hinnang, %1$s tärn</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Hinnatud %1$s tärniga</item>
+        <item quantity="one">Hinnatud %1$s tärniga</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Installi siiski (%1$d)</item>
+        <item quantity="one">Installi siiski (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Valitud on %1$d üksust</item>
+        <item quantity="one">Valitud on %1$d üksus</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Kirjeldus peab olema vähemalt %d tärgi pikkune. Võimalusel lisage kuvatõmmised.</item>
+        <item quantity="one">Kirjeldus peab olema vähemalt %d tärgi pikkune. Võimalusel lisage kuvatõmmised.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d tundi</item>
+        <item quantity="one">%1$d tund</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d minutit</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d sekundi</item>
+        <item quantity="one">%1$d sekundi</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Postitusi: %1$s</item>
+        <item quantity="one">Postitusi: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d meeldimist</item>
+        <item quantity="one">%d meeldimine</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d vastust</item>
+        <item quantity="one">%d vastus</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s mld</item>
+        <item quantity="one">%1$s mld</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s mln</item>
+        <item quantity="one">%1$s mln</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s tuh</item>
+        <item quantity="one">%1$s tuh</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d vaatamist</item>
+        <item quantity="one">%d vaatamine</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Lisage kommentaar (kokku %1$d kommentaari)</item>
+        <item quantity="one">Lisage kommentaar (kokku %1$d kommentaar)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Vaata kõiki %1$d vastust</item>
+        <item quantity="one">Vaata kõiki %1$d vastust</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s osalejat</item>
+        <item quantity="one">%1$s osaleja</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Valige kuni %s vastust</item>
+        <item quantity="one">Valige kuni %s vastus</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Mitu valikut (valige %1$d)</item>
+        <item quantity="one">Mitu valikut (valige %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Valige kuni %s vastust</item>
+        <item quantity="one">Valige %s vastus</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s häält</item>
+        <item quantity="one">%1$s hääl</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">See rakendus vajab %1$d luba. Teil on võimalik need igal ajal tagasi võtta, minnes kohta Sätted > Rakendused > Rakendused.</item>
+        <item quantity="one">See rakendus vajab %1$d luba. Teil on võimalik see igal ajal tagasi võtta, minnes kohta Sätted > Rakendused > Rakendused.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">See rakendus vajab %1$d luba. Saate need igal ajal tagasi võtta, avades Sätted > Rakendused ja teenused > Rakendused.</item>
+        <item quantity="one">See rakendus vajab %1$d luba. Saate selle igal ajal tagasi võtta, avades Sätted > Rakendused ja teenused > Rakendused.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d kingitust</item>
+        <item quantity="one">%1$d kingitus</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d tärni</item>
+        <item quantity="one">%1$d tärn</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Hinnang: %s</item>
+        <item quantity="one">Hinnang: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s hinnangut</item>
+        <item quantity="one">%1$s hinnang</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s avamist</item>
+        <item quantity="one">%1$s avamine</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d uut soovitust</item>
+        <item quantity="one">%d uus soovitus</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s mld</item>
+        <item quantity="one">%1$s mld</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s mln</item>
+        <item quantity="one">%1$s mln</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s tuh</item>
+        <item quantity="one">%1$s tuh</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d rakendust on värskendatud</item>
+        <item quantity="one">%1$d rakendus on värskendatud</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d rakendust on värskendamisel</item>
+        <item quantity="one">%1$d rakendus on värskendamisel</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Pilt ei tohi olla suurem kui %1$d MB.</item>
+        <item quantity="one">Pilt ei tohi olla suurem kui %1$d MB.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d fotot</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d valitud</item>
+        <item quantity="one">%1$d/%2$d valitud</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d soodustust</item>
+        <item quantity="one">%d soodustus</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uut märguannet</item>
+        <item quantity="one">%d uus märguanne</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Kustuta kõik peatatud installimised (%1$s rakendust, vabastab %2$s)</item>
+        <item quantity="one">Kustuta kõik peatatud installimised (%1$s rakendus, vabastab %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d valitud)"</item>
+        <item quantity="one">" 
+(%1$d valitud)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Leht %1$d</item>
+        <item quantity="one">Leht %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s installimist on peatatud.</item>
+        <item quantity="one">%1$s installimine on peatatud.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="one">%d minut tagasi</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d lisa</item>
+        <item quantity="one">%1$d lisa</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s allalaadimist</item>
+        <item quantity="one">%1$s allalaadimine</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Hinnatud %1$s tähega</item>
+        <item quantity="one">Hinnatud %1$s tähega</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s rakenduse ajastatud installimine lõpetatud</item>
+        <item quantity="one">%1$s rakenduse ajastatud installimine lõpetatud</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d rakendust hakatakse alla laadima, kui loote Wi-Fi-ühenduse.</item>
+        <item quantity="one">%1$d rakendust hakatakse alla laadima, kui loote Wi-Fi-ühenduse.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s ettetellimus)</item>
+        <item quantity="one">(%1$s ettetellimus)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(reserveeritud %1$d miljonit)</item>
+        <item quantity="one">(reserveeritud 1 miljon)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(reserveeritud %1$d tuhat)</item>
+        <item quantity="one">(reserveeritud tuhat)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Installida %1$s rakendust?</item>
+        <item quantity="one">Installida %1$s rakendus?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s installimist on pooleli.</item>
+        <item quantity="one">%1$s installimine on pooleli.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">/ %1$d</item>
+        <item quantity="one">/ %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Otsi %d kohalikust rakendusest</item>
+        <item quantity="one">Otsi %d kohalikust rakendusest</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Taasta %d rakendust värskenduste loendisse ja luba selle värskendamine.</item>
+        <item quantity="one">Taasta %d rakendus värskenduste loendisse ja luba selle värskendamine.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Saadaval on %1$s rakenduse värskendust</item>
+        <item quantity="one">Saadaval on %1$s rakenduse värskendus</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s soovitatud rakenduse värskendust. Kogumaht: %2$s.</item>
+        <item quantity="one">%1$s soovitatud rakenduse värskendus. Maht: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d rakenduse värskendust on saadaval. Suurus: %2$s.</item>
+        <item quantity="one">%1$d rakenduse värskendus on saadaval. Suurus: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Pole kasutatud %d päeva</item>
+        <item quantity="one">Pole kasutatud %d päev</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Kas tühjendada %d ülesanded ja alla laaditud failid?</item>
+        <item quantity="one">Kas tühjendada %d ülesanne ja alla laaditud fail?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d-päevane sisselogimiste seeria</item>
+        <item quantity="one">%d-päevane sisselogimiste seeria</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d. päev</item>
+        <item quantity="one">%d. päev</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d rakendust alla laaditud</item>
+        <item quantity="one">%1$d rakendus alla laaditud</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Hinnang: %s</item>
+        <item quantity="one">Hinnang: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d min tagasi</item>
+        <item quantity="one">%d min tagasi</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d rakendust, sealhulgas %1$s</item>
+        <item quantity="one">%2$d rakendus (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Punase täpi märk, %1$s lugemata teavitust</item>
+        <item quantity="one">Punase täpi märk, %1$s lugemata teavitus</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d pakkumist</item>
+        <item quantity="one">%d pakkumine</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d kogukonna kingitus</item>
+        <item quantity="one">%d kogukonna kingitus</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d kingitust</item>
+        <item quantity="one">%d kingitus</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d inimest teie piirkonnas tahavad seda</item>
+        <item quantity="one">%d inimene teie piirkonnas tahab seda</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d üksust valitud</item>
+        <item quantity="one">%1$d üksus valitud</item>
+    </plurals>
+</resources>

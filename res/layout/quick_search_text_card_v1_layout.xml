@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="@drawable/list_item_all_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/auto_complete_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.Widget.List.SingleTextLine">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_button1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/textViewinAutoCompleteListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/auto_text_sign"
+            android:background="@drawable/auto_text_sign_bg"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+            style="@style/auto_text_sign_style" />
+    </com.huawei.appmarket.service.appdetail.view.widget.FixedRightLinearLayout>
+    <ImageView
+        android:id="@id/divide_line"
+        android:layout_width="fill_parent"
+        android:layout_alignBottom="@id/auto_complete_content"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

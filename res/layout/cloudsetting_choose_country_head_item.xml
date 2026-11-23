@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/letterTitleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip">
+        <TextView
+            android:textSize="@dimen/emui_text_size_body2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:gravity="bottom"
+            android:id="@id/letterTxt"
+            android:paddingBottom="@dimen/emui_dimens_element_vertical_middle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/appgallery_max_padding_start"
+            android:layout_marginRight="@dimen/appgallery_max_padding_end"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:layout_marginStart="@dimen/appgallery_max_padding_start"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    </RelativeLayout>
+</LinearLayout>

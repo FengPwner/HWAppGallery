@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="start"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/res_textsize_13sp"
+        android:textColor="@color/appgallery_text_color_secondary"
+        android:id="@id/privacy_content"
+        android:paddingTop="@dimen/appgallery_text_paragraph_margin_s"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.1"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16.0dip"
+    android:paddingEnd="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/forum_recommend_layout"
+        android:background="@drawable/buoy_post_forum_solid_card_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_card_height_two_text_lines"
+        android:paddingStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:paddingEnd="@dimen/appgallery_elements_margin_horizontal_l">
+        <ImageView
+            android:id="@id/app_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_middle"
+            android:layout_height="@dimen/appgallery_card_icon_size_middle"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/app_detail"
+            android:layout_toEndOf="@id/app_icon">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_name_only"
+                android:paddingTop="@dimen/margin_m"
+                android:paddingBottom="@dimen/margin_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/BuoyCardTextBody1_Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_name"
+                android:paddingTop="@dimen/margin_m"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/BuoyCardTextBody1_Regular" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_category"
+                android:paddingBottom="@dimen/margin_m"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+                android:maxLines="1"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart"
+                style="@style/BuoyCardTextBody2_Regular" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/app_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_toStartOf="@id/arrow_icon"
+            style="@style/BuoyCardTextBody2_Regular" />
+        <ImageView
+            android:id="@id/arrow_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buoy_ic_public_arrow_right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

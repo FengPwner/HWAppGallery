@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/status_bar_latest_event_content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="65.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/icon"
+            android:layout_width="@android:dimen/notification_large_icon_width"
+            android:layout_height="@android:dimen/notification_large_icon_height"
+            android:src="@drawable/appicon_logo_standard"
+            android:scaleType="center" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/notification_large_icon_height"
+            android:layout_marginStart="@dimen/margin_l">
+            <TextView
+                android:textAppearance="@style/updatemanager_notificaton_title_m"
+                android:ellipsize="marquee"
+                android:id="@id/title"
+                android:fadingEdge="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="titletitle"
+                android:singleLine="true" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/line2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@id/line2_icons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textAppearance="@style/updatemanager_notification_text2_m"
+                    android:ellipsize="marquee"
+                    android:id="@id/text2"
+                    android:fadingEdge="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="subtext"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

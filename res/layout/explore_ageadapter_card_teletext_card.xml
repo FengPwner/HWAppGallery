@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/sub_title_of_item_view"
+        android:visibility="gone"
+        layout="@layout/hiappbase_layout_subheader_list_title_action" />
+    <include
+        android:id="@id/applistitem_exploresmallimage_card_layout_big_font"
+        layout="@layout/explore_ageadapter_card_small_image" />
+</LinearLayout>

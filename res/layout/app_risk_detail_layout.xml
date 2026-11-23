@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/app_risk_desc_view"
+    android:background="@drawable/app_permission_bg"
+    android:paddingBottom="@dimen/ui_12_dp"
+    android:focusable="true"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/padding_l"
+    android:paddingStart="@dimen/ui_12_dp"
+    android:paddingEnd="@dimen/ui_12_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="bottom"
+        android:layout_gravity="center_vertical"
+        android:id="@id/app_risk_desc_title"
+        android:paddingBottom="@dimen/size_8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_48dp"
+        android:text="@string/installconfirmriskcard_risk_desc_title"
+        style="@style/AppGallery.Widget.SubHeader.Title" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@id/app_risk_desc_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</LinearLayout>

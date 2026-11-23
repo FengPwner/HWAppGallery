@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wapbutton="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/screen_card_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/screen_card_info_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ui_64_dp"
+            android:layout_marginBottom="@dimen/screen_card_padding_bottom"
+            android:paddingStart="@dimen/screen_card_padding_horizontal"
+            android:paddingEnd="@dimen/screen_card_padding_horizontal">
+            <ImageView
+                android:id="@id/screen_card_icon"
+                android:layout_width="@dimen/screen_card_icon_size"
+                android:layout_height="@dimen/screen_card_icon_size"
+                android:src="@drawable/icon_default_bg"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/ui_16_dp"
+                android:layout_toEndOf="@id/screen_card_icon">
+                <TextView
+                    android:textSize="@dimen/screen_card_name_text_size"
+                    android:textColor="@color/appgallery_text_color_primary"
+                    android:ellipsize="end"
+                    android:id="@id/screen_card_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:singleLine="true"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:textDirection="locale" />
+                <TextView
+                    android:textSize="@dimen/screen_card_intro_text_size"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:ellipsize="end"
+                    android:id="@id/screen_card_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/screen_card_intro_margin_top"
+                    android:maxLines="2"
+                    android:singleLine="true"
+                    android:textDirection="locale" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include
+            layout="@layout/screen_card_download_v3" />
+    </LinearLayout>
+</FrameLayout>

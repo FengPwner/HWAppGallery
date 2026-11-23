@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/forum_section_bottom_operation" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/forum_section_post_read_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_toStartOf="@id/operation_layout"
+        android:layout_alignParentStart="true"
+        style="@style/AppGallery.TextAppearance.Card.TextBody4.Tertiary" />
+</RelativeLayout>

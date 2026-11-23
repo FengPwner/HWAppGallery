@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/app_detail_action_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/status_bar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="start|center"
+            android:id="@id/close_icon"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:visibility="visible"
+            android:layout_width="@dimen/hwappbarpattern_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_height"
+            android:contentDescription="@string/click_back"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_marginEnd="@dimen/margin_s">
+            <ImageView
+                android:id="@id/close_imageview"
+                android:layout_width="@dimen/search_icon_landscape_width"
+                android:layout_height="@dimen/search_icon_landscape_width" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@id/container_search"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/lay_defult_bar"
+            android:visibility="visible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.huawei.appgallery.detail.detailbase.widget.DetailFixTitleView
+                android:gravity="start|center"
+                android:id="@id/title_textview"
+                android:visibility="visible"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/component_detail_title_activity_app_detail"
+                android:layout_weight="1.0"
+                android:alpha="0.0"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="@dimen/margin_s"
+                style="@style/AppGallery.Widget.Toolbar.Title" />
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:layout_gravity="end|center"
+                android:id="@id/search_icon"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:visibility="visible"
+                android:layout_width="@dimen/hwappbarpattern_icon_size"
+                android:layout_height="@dimen/hwappbarpattern_icon_size"
+                android:contentDescription="@string/hiappbase_search_btn"
+                android:layout_marginEnd="@dimen/margin_s"
+                app:popupDrawable="@drawable/aguikit_ic_public_search"
+                app:popupTitle="@string/hiappbase_search_btn">
+                <ImageView
+                    android:id="@id/search_imageview"
+                    android:layout_width="@dimen/search_icon_landscape_width"
+                    android:layout_height="@dimen/search_icon_landscape_width" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+            <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+                android:gravity="center"
+                android:layout_gravity="end|center"
+                android:id="@id/share_icon"
+                android:background="@drawable/hwappbarpattern_selector_item_bg"
+                android:visibility="gone"
+                android:layout_width="@dimen/hwappbarpattern_icon_size"
+                android:layout_height="@dimen/hwappbarpattern_icon_size"
+                android:contentDescription="@string/share_app_title"
+                android:layout_marginEnd="@dimen/margin_s"
+                app:popupDrawable="@drawable/aguikit_ic_public_share"
+                app:popupTitle="@string/hiappbase_search_btn">
+                <com.huawei.appgallery.detail.detailbase.common.widget.DetailShareButton
+                    android:id="@id/btn_share"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:scaleType="center"
+                    style="@style/detail_widget_tag" />
+            </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+        </LinearLayout>
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</LinearLayout>

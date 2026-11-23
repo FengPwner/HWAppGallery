@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/no_data_layout"
+    android:visibility="visible"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/no_game_image_view"
+        android:src="@drawable/wisedist_ic_manage_ins_empty"
+        style="@style/AppGallery.ImageSize.NoData" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@id/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_l"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginRight="@dimen/margin_l"
+        android:text="@string/installed_game_manage_noapp_new"
+        style="@style/AppGallery.TextAppearance.NoData" />
+</LinearLayout>

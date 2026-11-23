@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/root_layout"
+    android:layout_width="@dimen/component_detail_report_proof_item_width_large_font"
+    android:layout_height="@dimen/component_detail_report_proof_item_height_large_font"
+    android:importantForAccessibility="no"
+    android:layout_marginEnd="@dimen/component_detail_report_proof_item_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/rl_select"
+        android:background="@drawable/shape_specific_report_add_img_bg"
+        android:layout_width="@dimen/component_detail_report_proof_img_size_big_font"
+        android:layout_height="@dimen/component_detail_report_proof_img_size_big_font"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_l">
+        <com.huawei.uikit.hwimageview.widget.HwImageView
+            android:id="@id/iv_logo_add"
+            android:layout_width="@dimen/component_detail_report_proof_add_size"
+            android:layout_height="@dimen/component_detail_report_proof_add_size"
+            android:layout_marginTop="@dimen/component_detail_proof_image_add_margin_top_large_font"
+            android:src="@drawable/ic_report_add_img"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_master_caption_1"
+            android:textColor="@color/appgallery_color_tertiary"
+            android:gravity="center_horizontal"
+            android:id="@id/tv_add_tips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/component_detail_proof_text_add_margin_top_large_font"
+            android:maxLines="2"
+            android:layout_below="@id/iv_logo_add"
+            android:importantForAccessibility="no"
+            android:fontFamily="@string/emui_text_font_family_regular" />
+        <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+            android:id="@id/iv_item_image"
+            android:layout_width="@dimen/component_detail_report_proof_img_size_big_font"
+            android:layout_height="@dimen/component_detail_report_proof_img_size_big_font"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+        <com.huawei.uikit.hwimageview.widget.HwImageView
+            android:layout_gravity="start|bottom|center"
+            android:id="@id/select_background_imgage"
+            android:background="@drawable/selector_report_add_image_bg"
+            android:visibility="gone"
+            android:layout_width="@dimen/component_detail_report_proof_img_size_big_font"
+            android:layout_height="@dimen/component_detail_report_proof_img_size_big_font" />
+        <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+            android:id="@id/iv_limit"
+            android:background="@drawable/shape_detail_report_proof_size_limit"
+            android:visibility="gone"
+            android:layout_width="@dimen/component_detail_report_proof_img_size_big_font"
+            android:layout_height="@dimen/component_detail_report_proof_img_size_big_font"
+            android:scaleType="centerCrop"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwimageview.widget.HwImageView
+        android:layout_gravity="end|center|top"
+        android:id="@id/iv_delete"
+        android:background="@drawable/selector_report_proof_image_delete_bg"
+        android:paddingBottom="@dimen/padding_m"
+        android:layout_width="@dimen/component_detail_report_proof_item_delete_width_large_font"
+        android:layout_height="@dimen/component_detail_report_proof_item_delete_height_large_font"
+        android:src="@drawable/ic_detail_report_proof_delete"
+        android:contentDescription="@string/component_detail_report_proof_materials_remove"
+        android:paddingStart="2.0dip"
+        android:paddingEnd="2.0dip"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

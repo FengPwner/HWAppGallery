@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners
+                android:radius="@dimen/emui_corner_radius_card" />
+            <solid
+                android:color="@color/detail_welfare_v3_bg" />
+        </shape>
+    </item>
+    <item
+        android:left="@dimen/appgallery_drawable_padding_s"
+        android:top="@dimen/appgallery_drawable_padding_s"
+        android:right="@dimen/appgallery_drawable_padding_s"
+        android:bottom="@dimen/appgallery_drawable_padding_s">
+        <selector>
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/welfare_v3_pressed" />
+        </selector>
+    </item>
+</layer-list>

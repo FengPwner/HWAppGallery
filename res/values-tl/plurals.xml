@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">Nakahanap ng %2$d (na) kahina-hinalang app (kabilang ang %1$s)</item>
+        <item quantity="one">Nakahanap ng %2$d kahina-hinalang app (kabilang ang %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">May nahanap na %2$d (na) hindi ginagamit na app (kabilang ang %1$s)</item>
+        <item quantity="one">May nahanap na %2$d hindi ginagamit na app (%1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d (na) hindi ginagamit na app</item>
+        <item quantity="one">%d hindi ginagamit na app</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d (na) app na may nakakapinsalang gawi ang napangasiwaan</item>
+        <item quantity="one">%d app na may nakakapinsalang gawi ang napangasiwaan</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d (na) app na may nakakapinsalang gawi ang natukoy</item>
+        <item quantity="one">%d app na may nakakapinsalang gawi ang natukoy</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d (na) scam app ang napangasiwaan</item>
+        <item quantity="one">%d scam app ang napangasiwaan</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d (na) scam app ang natukoy</item>
+        <item quantity="one">%d scam app ang natukoy</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d (na) app na may panganib sa privacy ang napangasiwaan</item>
+        <item quantity="one">%d app na may panganib sa privacy ang napangasiwaan</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d (na) app na may panganib sa privacy ang natukoy</item>
+        <item quantity="one">%d app na may panganib sa privacy ang natukoy</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d (na) app na may panganib sa seguridad ang napangasiwaan</item>
+        <item quantity="one">%d app na may panganib sa seguridad ang napangasiwaan</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d (na) app na may panganib sa seguridad ang natukoy</item>
+        <item quantity="one">%d app na may panganib sa seguridad ang natukoy</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d (na) app na may mga virus ang napangasiwaan</item>
+        <item quantity="one">%d app na may mga virus ang napangasiwaan</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d (na) app na may mga virus ang natukoy</item>
+        <item quantity="one">%d app na may mga virus ang natukoy</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d (na) item ang na-optimize</item>
+        <item quantity="one">%d item ang na-optimize</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">%d (na) isyu ang natukoy</item>
+        <item quantity="one">%d isyu ang natukoy</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d (na) app ang na-scan</item>
+        <item quantity="one">%d app ang na-scan</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d (na) banta</item>
+        <item quantity="one">%d banta</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d na-scan na mga app</item>
+        <item quantity="one">%d na-scan na app</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d (na) banta sa app</item>
+        <item quantity="one">%d banta sa app</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">%2$d kahina-hinalang mga app ang natagpuan sa huling %1$d (na) araw. Tingnan ang mga detalye >></item>
+        <item quantity="one">%2$d kahina-hinalang app ang natagpuan sa huling %1$d (na) araw. Tingnan ang mga detalye >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">%2$d (na) app ang na-scan sa nakalipas na %1$d (na) araw. Tingnan ang mga detalye >></item>
+        <item quantity="one">%2$d app ang na-scan sa nakalipas na %1$d (na) araw. Tingnan ang mga detalye >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">Pwedeng i-compress ang %d (na) app</item>
+        <item quantity="one">Pwedeng i-compress ang %d app</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">May natukoy na %d (na) hindi kilalang app.</item>
+        <item quantity="one">May natukoy na %d hindi kilalang app.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Mga nako-compress na app (%d)</item>
+        <item quantity="one">Mga nako-compress na app (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d (na) hindi kilalang app ang nahanap. Pakisuri.</item>
+        <item quantity="one">%d hindi kilalang app ang nahanap. Pakisuri.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d (na) hindi kilalang app ang nahanap</item>
+        <item quantity="one">%d hindi kilalang app ang nahanap</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d (na) min ang nakalipas</item>
+        <item quantity="one">%d min ang nakalipas</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Rating: %s</item>
+        <item quantity="one">Rating: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Naglalaman ang %1$s ng content na pinaghihigpitan ang edad. Sa pamamagitan ng pagpindot sa %3$s at pag-download sa app na ito, kinukumpirma mong lampas ka sa %2$d (na) taong gulang.</item>
+        <item quantity="one">Naglalaman ang %1$s ng content na pinaghihigpitan ang edad. Sa pamamagitan ng pagpindot sa %3$s at pag-download sa app na ito, kinukumpirma mong lampas ka sa %2$d taong gulang.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Na-pause ang mga pag-download: %1$d</item>
+        <item quantity="one">Na-pause ang mga pag-download: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Naglalaman ang %1$s ng content na pinaghihigpitan ang edad. Sa pamamagitan ng pagpindot sa %3$s at paggamit sa app na ito, kinukumpirma mong lampas ka sa %2$d (na) taong gulang.</item>
+        <item quantity="one">Naglalaman ang %1$s ng content na pinaghihigpitan ang edad. Sa pamamagitan ng pagpindot sa %3$s at paggamit sa app na ito, kinukumpirma mong lampas ka sa %2$d taong gulang.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d (na) dislike</item>
+        <item quantity="one">%d dislike</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d (na) dislike, na-dislike mo ito</item>
+        <item quantity="one">%d dislike, na-dislike mo ito</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d (na) like</item>
+        <item quantity="one">%d like</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d (na) like, na-like mo ito</item>
+        <item quantity="one">%d like, na-like mo ito</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d (na) bituin</item>
+        <item quantity="one">%d bituin</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d (na) komento</item>
+        <item quantity="one">%1$d komento</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d minuto ang nakalipas</item>
+        <item quantity="one">%d minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d (na) rating</item>
+        <item quantity="one">%d rating</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d (na) like</item>
+        <item quantity="one">%1$d like</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d (na) tugon</item>
+        <item quantity="one">%1$d tugon</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Lahat ng tugon (%1$d)</item>
+        <item quantity="one">Lahat ng tugon (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Kailangang nakapaglaro ka sa loob ng %1$d (na) minuto man lang para makapagkomento.</item>
+        <item quantity="one">Kailangang nakapaglaro ka sa loob ng %1$d minuto man lang para makapagkomento.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s (na) app ang ini-install</item>
+        <item quantity="one">%1$s app ang ini-install</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d (na) item ang napili</item>
+        <item quantity="one">%1$d item ang napili</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">I-uninstall ang mga napiling app, kabilang ang %1$s?</item>
+        <item quantity="one">I-uninstall ang %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">I-uninstall ang %1$s at %2$s pang ibang app mula sa %3$s?</item>
+        <item quantity="one">I-uninstall ang %1$s at %2$s pang ibang app mula sa %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">I-uninstall ang %2$s (na) app, kabilang ang %1$s?</item>
+        <item quantity="one">I-uninstall ang %2$s app, kabilang ang %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">I-delete ang %1$s (na) record?</item>
+        <item quantity="one">I-delete ang %1$s record?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Kinakailangan ng sumusunod na %1$d (na) app ng access sa ilang partikular na pahintulot:</item>
+        <item quantity="one">Kinakailangan ng sumusunod na %1$d app ng access sa ilang partikular na pahintulot:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d (na) rating</item>
+        <item quantity="one">%1$d rating</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM (na) rating</item>
+        <item quantity="one">%1$sM (na) rating</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK (na) rating</item>
+        <item quantity="one">%1$sK (na) rating</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s (na) aktibidad</item>
+        <item quantity="one">%1$s aktibidad</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Mas mababa sa %1$s (na) minuto ng oras ng laro ang natitira. I-save ang iyong laro sa lalong madaling panahon.</item>
+        <item quantity="one">Mas mababa sa %1$s minuto ng oras ng laro ang natitira. I-save ang iyong laro sa lalong madaling panahon.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">%d (na) minuto na lang ang natitira.</item>
+        <item quantity="one">%d minuto na lang ang natitira.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d (na) komento</item>
+        <item quantity="one">%1$d komento</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d minuto ang nakakalipas</item>
+        <item quantity="one">%d minuto ang nakakalipas</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Maximum na %1$d (na) character</item>
+        <item quantity="one">Maximum na %1$d character</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Magpasok ng hindi bababa sa %1$d (na) character</item>
+        <item quantity="one">Magpasok ng hindi bababa sa %1$d character</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Hanggang sa %1$d (na) larawan
+Max na %2$s bawat isa"</item>
+        <item quantity="one">"Hanggang sa %1$d larawan
+Max na %2$s bawat isa"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Maximum na %d (na) larawan para sa ganitong uri ng isyu</item>
+        <item quantity="one">Maximum na %d larawan para sa ganitong uri ng isyu</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s (na) star</item>
+        <item quantity="one">%1$s star</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">%1$d beses na maling naipasok ang password. Pakisubukang muli pagkatapos ng %2$d min.</item>
+        <item quantity="one">%1$d beses na maling naipasok ang password. Pakisubukang muli pagkatapos ng %2$d min.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB tao ang lumahok</item>
+        <item quantity="one">%1$sB (na) tao ang lumahok</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM (na) tao ang bumili nito</item>
+        <item quantity="one">%1$sM (na) tao ang bumili nito</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s (na) tao ang lumahok</item>
+        <item quantity="one">%1$s tao ang lumahok</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK (na) tao ang lumahok</item>
+        <item quantity="one">%1$sK (na) tao ang lumahok</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB (na) tao ang bumili nito</item>
+        <item quantity="one">%1$sB (na) tao ang bumili nito</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM (na) tao ang bumili nito</item>
+        <item quantity="one">%1$sM (na) tao ang bumili nito</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s (na) tao ang bumili nito</item>
+        <item quantity="one">%1$s tao ang bumili nito</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK (na) tao ang bumili nito</item>
+        <item quantity="one">%1$sK (na) tao ang bumili nito</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s (na) rating</item>
+        <item quantity="one">%1$s rating</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Rating, %1$s (na) star</item>
+        <item quantity="one">Rating, %1$s star</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">May rate na %1$s (na) star</item>
+        <item quantity="one">May rate na %1$s star</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">I-install pa rin (%1$d)</item>
+        <item quantity="one">I-install pa rin (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d (na) item ang napili</item>
+        <item quantity="one">%1$d item ang napili</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Hindi dapat bababa sa %d (na) character ang paglalarawan. Magdagdag ng mga screenshot kung posible.</item>
+        <item quantity="one">Hindi dapat bababa sa %d character ang paglalarawan. Magdagdag ng mga screenshot kung posible.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d (na) oras</item>
+        <item quantity="one">%1$d oras</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d (na) minuto</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d (na) segundo</item>
+        <item quantity="one">%1$d segundo</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Mga Post: %1$s</item>
+        <item quantity="one">Mga Post: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d (na) like</item>
+        <item quantity="one">%d like</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d (na) tugon</item>
+        <item quantity="one">%d tugon</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d (na) view</item>
+        <item quantity="one">%d view</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Magkomento (%1$d sa kabuuan)</item>
+        <item quantity="one">Magkomento (%1$d sa kabuuan)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Tingnan ang lahat ng %1$d (na) tugon</item>
+        <item quantity="one">Tingnan ang lahat ng %1$d tugon</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s (na) kalahok</item>
+        <item quantity="one">%1$s kalahok</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Pumili ng hanggang %s (na) sagot</item>
+        <item quantity="one">Pumili ng hanggang %s sagot</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Maraming pagpipilian (pumili ng %1$d)</item>
+        <item quantity="one">Maraming pagpipilian (pumili ng %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Pumili ng %s (na) sagot</item>
+        <item quantity="one">Pumili ng %s sagot</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s (na) boto</item>
+        <item quantity="one">%1$s boto</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Kinakailangan ng app na ito ng %1$d (na) pahintulot. Puwede mong bawiin ang mga ito anumang oras sa Mga Setting > Mga App > Mga App.</item>
+        <item quantity="one">Kinakailangan ng app na ito ng %1$d pahintulot. Puwede mong bawiin ito anumang oras sa Mga Setting > Mga App > Mga App.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Kinakailangan ng app na ito ang %1$d (na) pahintulot. Puwede mong bawiin ang mga ito anumang oras sa Mga Setting > Mga app at serbisyo > Mga App.</item>
+        <item quantity="one">Kinakailangan ng app na ito ang %1$d pahintulot. Puwede mo itong bawiin anumang oras sa Mga Setting > Mga app at serbisyo > Mga App.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d (na) regalo</item>
+        <item quantity="one">%1$d regalo</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d (na) bituin</item>
+        <item quantity="one">%1$d bituin</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Rating: %s</item>
+        <item quantity="one">Rating: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s (na) rating</item>
+        <item quantity="one">%1$s rating</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s (na) pagbukas</item>
+        <item quantity="one">%1$s pagbukas</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d (na) bagong rekomendasyon</item>
+        <item quantity="one">%d bagong rekomendasyon</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Na-update ang %1$d (na) app</item>
+        <item quantity="one">Na-update ang %1$d app</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Ina-update ang %1$d (na) app</item>
+        <item quantity="one">Ina-update ang %1$d app</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Hindi maaaring mas malaki sa %1$d MB ang larawan.</item>
+        <item quantity="one">Hindi maaaring mas malaki sa %1$d MB ang larawan.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d (na) larawan</item>
+        <item quantity="one">%d larawan</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d ang napili</item>
+        <item quantity="one">%1$d/%2$d ang napili</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d (na) video</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d (na) benepisyo</item>
+        <item quantity="one">%d benepisyo</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">I-delete ang lahat ng naka-pause na pag-install (%1$s (na) app, mababakante ang %2$s)</item>
+        <item quantity="one">I-delete ang lahat ng naka-pause na pag-install (%1$s app, mababakante ang %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d ang napili)"</item>
+        <item quantity="one">" 
+(%1$d ang napili)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Page %1$d</item>
+        <item quantity="one">Page %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Na-pause ang %1$s (na) installation.</item>
+        <item quantity="one">Na-pause ang %1$s installation.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d minuto ang nakakalipas</item>
+        <item quantity="one">%d minuto ang nakakalipas</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d (na) karagdagan</item>
+        <item quantity="one">%1$d karagdagan</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s (na) pag-download</item>
+        <item quantity="one">%1$s pag-download</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">May rate na %1$s (na) star</item>
+        <item quantity="one">May rate na %1$s star</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Kumpleto na ang nakaiskedyul na pag-install ng %1$s (na) app</item>
+        <item quantity="one">Kumpleto na ang nakaiskedyul na pag-install ng %1$s app</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Magsisimulang mag-download ang %1$d (na) app kapag kumonekta ka sa Wi-Fi.</item>
+        <item quantity="one">Magsisimulang mag-download ang %1$d app kapag kumonekta ka sa Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s ang nag-preorder)</item>
+        <item quantity="one">(%1$s ang nag-preorder)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d milyon ang nakareserba)</item>
+        <item quantity="one">(1 milyon ang nakareserba)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d libo ang nakareserba)</item>
+        <item quantity="one">(1 libo ang nakareserba)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">I-install ang %1$s (na) app?</item>
+        <item quantity="one">I-install ang %1$s app?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">Nagsasagawa ng %1$s (na) pag-install.</item>
+        <item quantity="one">Nagsasagawa ng %1$s pag-install.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">ng %1$d</item>
+        <item quantity="one">ng %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Maghanap ng %d (na) lokal na app</item>
+        <item quantity="one">Maghanap ng %d lokal na app</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">I-restore ang %d (na) app sa listahan ng update at payagan ang mga itong ma-update.</item>
+        <item quantity="one">I-restore ang %d app sa listahan ng update at payagan itong ma-update.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Available ang %1$s (na) update ng app</item>
+        <item quantity="one">Available ang %1$s update ng app</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s (na) update ng app ang inirerekomenda. Kabuuang laki: %2$s.</item>
+        <item quantity="one">%1$s update ng app ang inirerekomenda. Laki: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">May %1$d (na) update sa app na available. Laki: %2$s.</item>
+        <item quantity="one">May %1$d update sa app na available. Laki: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Hindi ginamit nang %d (na) araw</item>
+        <item quantity="one">Hindi ginamit nang %d araw</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">I-clear ang %d (na) gawain at mga na-download na file?</item>
+        <item quantity="one">I-clear ang %d gawain at na-download na file?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d (na) araw na sunud-sunod na pag-check in</item>
+        <item quantity="one">%d araw na sunud-sunod na pag-check in</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">Araw %d</item>
+        <item quantity="one">Araw %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d (na) app ang na-download</item>
+        <item quantity="one">%1$d app ang na-download</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Rating: %s</item>
+        <item quantity="one">Rating: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d (na) min ang nakalipas</item>
+        <item quantity="one">%d min ang nakalipas</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d (na) app, kabilang ang %1$s</item>
+        <item quantity="one">%2$d app (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Red dot badge, %1$s hindi pa nababasang mga notification</item>
+        <item quantity="one">Red dot badge, %1$s hindi pa nababasang notification</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d (na) alok</item>
+        <item quantity="one">%d alok</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d (na) regalo ng komunidad</item>
+        <item quantity="one">%d regalo ng komunidad</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d (na) regalo</item>
+        <item quantity="one">%d regalo</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d (na) tao sa rehiyon mo ang gusto ito</item>
+        <item quantity="one">%d tao sa rehiyon mo ang gusto ito</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">%1$d (na) item ang napili</item>
+        <item quantity="one">%1$d item ang napili</item>
+    </plurals>
+</resources>

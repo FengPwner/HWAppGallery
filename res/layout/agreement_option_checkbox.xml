@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.agreementimpl.view.widget.AgreementHwCheckBox
+    android:layout_gravity="center_vertical"
+    android:id="@id/privacy_checkbox"
+    android:visibility="visible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    app:hwAutoTopEnabled="true"
+    style="@style/Widget.Emui.HwCheckBox"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

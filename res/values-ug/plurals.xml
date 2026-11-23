@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d خەتەرلىك ئەپ بايقالدى (%1$s قاتارلىقلار)</item>
+        <item quantity="one">%2$d خەتەرلىك ئەپ بايقالدى (%1$s قاتارلىقلار)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">كۆپ ئىشلەتمىگەن %2$d ئەپ بار (%1$s قاتارلىقلار)</item>
+        <item quantity="one">كۆپ ئىشلەتمىگەن %2$d ئەپ بار (%1$s قاتارلىقلار)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">ئىشلەتمىگەن %d ئەپ بار</item>
+        <item quantity="one">ئىشلەتمىگەن %d ئەپ بار</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">%d زىيانداش مەشغۇلاتلىق ئەپ تىزگىنلەندى</item>
+        <item quantity="one">%d زىيانداش مەشغۇلاتلىق ئەپ تىزگىنلەندى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">%d زىيانداش مەشغۇلاتلىق ئەپ بايقالدى</item>
+        <item quantity="one">%d زىيانداش مەشغۇلاتلىق ئەپ بايقالدى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">%d ئالدامچى ئەپ تىزگىنلەندى</item>
+        <item quantity="one">%d ئالدامچى ئەپ تىزگىنلەندى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">%d ئالدامچى ئەپ بايقالدى</item>
+        <item quantity="one">%d ئالدامچى ئەپ بايقالدى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">%d مەخپىيەتلىك خەۋپى بار ئەپ تىزگىنلەندى</item>
+        <item quantity="one">%d مەخپىيەتلىك خەۋپى بار ئەپ تىزگىنلەندى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">%d مەخپىيەتلىك خەۋپى بار ئەپ بايقالدى</item>
+        <item quantity="one">%d مەخپىيەتلىك خەۋپى بار ئەپ بايقالدى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">%d خەۋپلىك ئەپ تىزگىنلەندى</item>
+        <item quantity="one">%d خەۋپلىك ئەپ تىزگىنلەندى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">%d خەۋپلىك ئەپ بايقالدى</item>
+        <item quantity="one">%d خەۋپلىك ئەپ بايقالدى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">%d ۋىرۇس ئەپ تىزگىنلەندى</item>
+        <item quantity="one">%d ۋىرۇس ئەپ تىزگىنلەندى</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">%d ۋىرۇس ئەپ بايقالدى</item>
+        <item quantity="one">%d ۋىرۇس ئەپ بايقالدى</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">%d نەرسە ياخشىلاندى</item>
+        <item quantity="one">%d نەرسە ياخشىلاندى</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">بىر تەرەپ قىلىدىغان %d ئەپ بار</item>
+        <item quantity="one">بىر تەرەپ قىلىدىغان %d ئەپ بار</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">%d ئەپ تەكشۈرۈلدى</item>
+        <item quantity="one">%d ئەپ تەكشۈرۈلدى</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d كۈن بۇرۇن</item>
+        <item quantity="one">%d كۈن بۇرۇن</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d ئەپ</item>
+        <item quantity="one">%d ئەپ</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">تەكشۈرگەن ئەپ %d</item>
+        <item quantity="one">تەكشۈرگەن ئەپ %d</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">خەتەرلىك ئەپ %d</item>
+        <item quantity="one">خەتەرلىك ئەپ %d</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">ئۆتكەن %1$d كۈندە %2$d خەتەرلىك ئەپ بايقالدى، كۆرۈپ بېقىڭ.</item>
+        <item quantity="one">ئۆتكەن %1$d كۈندە %2$d خەتەرلىك ئەپ بايقالدى، كۆرۈپ بېقىڭ.</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">ئۆتكەن %1$d كۈندە %2$d ئەپ تەكشۈرۈلدى، كۆرۈپ بېقىڭ.</item>
+        <item quantity="one">ئۆتكەن %1$d كۈندە %2$d ئەپ تەكشۈرۈلدى، كۆرۈپ بېقىڭ.</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">قىسىلىدىغان %d ئەپ بار</item>
+        <item quantity="one">قىسىلىدىغان %d ئەپ بار</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">بىر تەرەپ قىلىدىغان %d ئېنىقسىز ئەپ بار.</item>
+        <item quantity="one">بىر تەرەپ قىلىدىغان %d ئېنىقسىز ئەپ بار.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">قىسىلىدىغان ئەپ (%d)</item>
+        <item quantity="one">قىسىلىدىغان ئەپ (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">%d ئېنىقسىز ئەپ بايقالدى، كۆرۈپ بېقىڭ.</item>
+        <item quantity="one">%d ئېنىقسىز ئەپ بايقالدى، كۆرۈپ بېقىڭ.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">%d ئېنىقسىز ئەپ بايقالدى</item>
+        <item quantity="one">%d ئېنىقسىز ئەپ بايقالدى</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d مىنۇت بۇرۇن</item>
+        <item quantity="one">%d مىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">%s نومۇر</item>
+        <item quantity="one">%s نومۇر</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">مەزكۇر «%1$s» دا ياش چەكلىمىلىك مەزمۇن بار. «%3$s» نى چېكىپ ئەپنى چۈشۈرسىڭىز، %2$d ياشقا توشقانلىقىڭىزنى جەزملىگەن بولىسىز.</item>
+        <item quantity="one">مەزكۇر «%1$s» دا ياش چەكلىمىلىك مەزمۇن بار. «%3$s» نى چېكىپ ئەپنى چۈشۈرسىڭىز، %2$d ياشقا توشقانلىقىڭىزنى جەزملىگەن بولىسىز.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">%1$d قاچىلانما تورمۇزلاندى</item>
+        <item quantity="one">%1$d قاچىلانما تورمۇزلاندى</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">مەزكۇر «%1$s» دا ياش چەكلىمىلىك مەزمۇن بار. «%3$s» نى چېكىپ ئەپنى ئىشلەتسىڭىز، %2$d ياشقا توشقانلىقىڭىزنى جەزملىگەن بولىسىز.</item>
+        <item quantity="one">مەزكۇر «%1$s» دا ياش چەكلىمىلىك مەزمۇن بار. «%3$s» نى چېكىپ ئەپنى ئىشلەتسىڭىز، %2$d ياشقا توشقانلىقىڭىزنى جەزملىگەن بولىسىز.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">دەسسەش %d</item>
+        <item quantity="one">دەسسەش %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">دەسسەش %d، دەسسەلدى</item>
+        <item quantity="one">دەسسەش %d، دەسسەلدى</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">قوللاش %d</item>
+        <item quantity="one">قوللاش %d</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">قوللاش %d، قوللاندى</item>
+        <item quantity="one">قوللاش %d، قوللاندى</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d نومۇر</item>
+        <item quantity="one">%d نومۇر</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d ئىنكاس</item>
+        <item quantity="one">%1$d ئىنكاس</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d مىنۇت بۇرۇن</item>
+        <item quantity="one">%d مىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d كىشى باھالىدى</item>
+        <item quantity="one">%d كىشى باھالىدى</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d قوللاش</item>
+        <item quantity="one">%1$d قوللاش</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d جاۋاب</item>
+        <item quantity="one">%1$d جاۋاب</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">بارلىق جاۋاب (%1$d)</item>
+        <item quantity="one">بارلىق جاۋاب (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">ئىنكاس يېزىش ئۈچۈن كەمىدە %1$d مىنۇت ئويناش كېرەك.</item>
+        <item quantity="one">ئىنكاس يېزىش ئۈچۈن كەمىدە %1$d مىنۇت ئويناش كېرەك.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">%1$s ئەپ قاچىلىنىۋاتىدۇ</item>
+        <item quantity="one">%1$s ئەپ قاچىلىنىۋاتىدۇ</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d تۈر تاللاندى</item>
+        <item quantity="one">%1$d تۈر تاللاندى</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s قاتارلىق ئەپلەرنى ئۆچۈرەمسىز؟</item>
+        <item quantity="one">%1$s قاتارلىق ئەپلەرنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%3$s%1$s قاتارلىق %2$s ئەپنى ئۆچۈرەمسىز؟</item>
+        <item quantity="one">%3$s%1$s قاتارلىق %2$s ئەپنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">‏%1$s قاتارلىق %2$s ئەپنى ئۆچۈرەمسىز؟</item>
+        <item quantity="one">‏%1$s قاتارلىق %2$s ئەپنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s قاچىلاش خاتىرىسىنى ئۆچۈرەمسىز؟</item>
+        <item quantity="one">%1$s قاچىلاش خاتىرىسىنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">سىز تاللىغان ئەپلەردىن %1$d گە مۇنداق ھوقۇق كېرەك:</item>
+        <item quantity="one">سىز تاللىغان ئەپلەردىن %1$d گە مۇنداق ھوقۇق كېرەك:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d كىشى باھالىدى</item>
+        <item quantity="one">%1$d كىشى باھالىدى</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s مىليون كىشى باھالىدى</item>
+        <item quantity="one">%1$s مىليون كىشى باھالىدى</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s مىڭ كىشى باھالىدى</item>
+        <item quantity="one">%1$s مىڭ كىشى باھالىدى</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s پائالىيەت</item>
+        <item quantity="one">%1$s پائالىيەت</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">بۈگۈنكى ئويۇن ۋاقتى %1$s مىنۇتتىن ئاز قالدى، ئويۇننى ساقلىۋېلىڭ.</item>
+        <item quantity="one">بۈگۈنكى ئويۇن ۋاقتى %1$s مىنۇتتىن ئاز قالدى، ئويۇننى ساقلىۋېلىڭ.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">قالدۇق سىناپ ئويناش ۋاقتى %d مىنۇتقا يەتمەيدۇ.</item>
+        <item quantity="one">قالدۇق سىناپ ئويناش ۋاقتى %d مىنۇتقا يەتمەيدۇ.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d سائەت</item>
+        <item quantity="one">%d سائەت</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d مىنۇت</item>
+        <item quantity="one">%d مىنۇت</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d سېكۇنت</item>
+        <item quantity="one">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s مىليارد</item>
+        <item quantity="one">%1$s مىليارد</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s مىليون</item>
+        <item quantity="one">%1$s مىليون</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s مىڭ</item>
+        <item quantity="one">%1$s مىڭ</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">ئىنكاس %1$d</item>
+        <item quantity="one">ئىنكاس %1$d</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d مىنۇت بۇرۇن</item>
+        <item quantity="one">%d مىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">كۆپىدە %1$d ھەرپ</item>
+        <item quantity="one">كۆپىدە %1$d ھەرپ</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">كەمىدە %1$d ھەرپ بولسۇن</item>
+        <item quantity="one">كەمىدە %1$d ھەرپ بولسۇن</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"كۆپىدە %1$d رەسىم
+ھەربىرى كۆپىدە %2$s"</item>
+        <item quantity="one">"كۆپىدە %1$d رەسىم
+ھەربىرى كۆپىدە %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">بۇ تۈردىكى مەسىلىگە كۆپىدە %d رەسىم يۈكلىنىدۇ.</item>
+        <item quantity="one">بۇ تۈردىكى مەسىلىگە كۆپىدە %d رەسىم يۈكلىنىدۇ.</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s يۇلتۇز</item>
+        <item quantity="one">%1$s يۇلتۇز</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">مەخپىي نومۇر %1$d قېتىم خاتا كىرگۈزۈلدى، %2$d مىنۇتتىن كېيىن قايتا سىناڭ</item>
+        <item quantity="one">مەخپىي نومۇر %1$d قېتىم خاتا كىرگۈزۈلدى، %2$d مىنۇتتىن كېيىن قايتا سىناڭ</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s مىليارد كىشى قاتناشتى</item>
+        <item quantity="one">%1$s مىليارد كىشى قاتناشتى</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s مىليون كىشى قاتناشتى</item>
+        <item quantity="one">%1$s مىليون كىشى قاتناشتى</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s كىشى قاتناشتى</item>
+        <item quantity="one">%1$s كىشى قاتناشتى</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s مىڭ كىشى قاتناشتى</item>
+        <item quantity="one">%1$s مىڭ كىشى قاتناشتى</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s مىليارد كىشى سېتىۋالدى</item>
+        <item quantity="one">%1$s مىليارد كىشى سېتىۋالدى</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s مىليون كىشى سېتىۋالدى</item>
+        <item quantity="one">%1$s مىليون كىشى سېتىۋالدى</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s كىشى سېتىۋالدى</item>
+        <item quantity="one">%1$s كىشى سېتىۋالدى</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s مىڭ كىشى سېتىۋالدى</item>
+        <item quantity="one">%1$s مىڭ كىشى سېتىۋالدى</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s كىشى باھالىدى</item>
+        <item quantity="one">%1$s كىشى باھالىدى</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">يۇلتۇزلۇق باھالاش، %1$s يۇلتۇز</item>
+        <item quantity="one">يۇلتۇزلۇق باھالاش، %1$s يۇلتۇز</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">%1$s يۇلتۇزلۇق باھالانغان</item>
+        <item quantity="one">%1$s يۇلتۇزلۇق باھالانغان</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">قاچىلاش (%1$d)</item>
+        <item quantity="one">قاچىلاش (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d سائەت</item>
+        <item quantity="one">%d سائەت</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d مىنۇت</item>
+        <item quantity="one">%d مىنۇت</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d سېكۇنت</item>
+        <item quantity="one">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d نەرسە تاللاندى</item>
+        <item quantity="one">%1$d تۈر تاللاندى</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">چۈشەندۈرۈش كەمىدە %d سۆز بولسۇن، ئېكران كۆرۈنۈشى قوشسىڭىز، مەسىلىنى ھەل قىلىش تېزلىشىدۇ.</item>
+        <item quantity="one">چۈشەندۈرۈش كەمىدە %d سۆز بولسۇن، ئېكران كۆرۈنۈشى قوشسىڭىز، مەسىلىنى ھەل قىلىش تېزلىشىدۇ.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d سائەت</item>
+        <item quantity="one">%1$d سائەت</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d مىنۇت</item>
+        <item quantity="one">%1$d مىنۇت</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d سېكۇنت</item>
+        <item quantity="one">%1$d سېكۇنت</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">يازما: %1$s</item>
+        <item quantity="one">يازما: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d قوللاش</item>
+        <item quantity="one">%d قوللاش</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d جاۋاب</item>
+        <item quantity="one">%d جاۋاب</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s مىليارد</item>
+        <item quantity="one">%1$s مىليارد</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s مىليون</item>
+        <item quantity="one">%1$s مىليون</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s مىڭ</item>
+        <item quantity="one">%1$s مىڭ</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d قېتىم كۆرۈلدى</item>
+        <item quantity="one">%d قېتىم كۆرۈلدى</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">قايتۇرما (%1$d)</item>
+        <item quantity="one">قايتۇرما (%1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">بارلىق %1$d جاۋابنى كۆرۈش</item>
+        <item quantity="one">بارلىق %1$d جاۋابنى كۆرۈش</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s كىشى</item>
+        <item quantity="one">%1$s كىشى</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">كۆپىدە %s تاللانما تاللىنىدۇ</item>
+        <item quantity="one">كۆپىدە %s تاللانما تاللىنىدۇ</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">كۆپ تاللاش، %1$d</item>
+        <item quantity="one">كۆپ تاللاش، %1$d</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">%s تاللانما</item>
+        <item quantity="one">%s تاللانما</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s بېلەت</item>
+        <item quantity="one">%1$s بېلەت</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">بۇ مۇلازىمەت ئۈچۈن تۆۋەندىكى %1$d ئىجازەت كېرەك (بەرگەن ئىجازەتنى تەڭشەك > ئەپ > ئەپ باشقۇرۇش دېگەن ئورۇندىن قايتۇرۇۋېلىشقا بولىدۇ):</item>
+        <item quantity="one">بۇ مۇلازىمەت ئۈچۈن تۆۋەندىكى %1$d ئىجازەت كېرەك (بەرگەن ئىجازەتنى تەڭشەك > ئەپ > ئەپ باشقۇرۇش دېگەن ئورۇندىن قايتۇرۇۋېلىشقا بولىدۇ):</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">بۇ ئەپكە تۆۋەندىكى %1$d ئىجازەت كېرەك (بەرگەن ئىجازەتنى تەڭشەك > ئەپ ۋە مۇلازىمەت > ئەپ باشقۇرۇش دېگەن ئورۇندىن قايتۇرۇۋالالايسىز):</item>
+        <item quantity="one">بۇ ئەپكە تۆۋەندىكى %1$d ئىجازەت كېرەك (بەرگەن ئىجازەتنى تەڭشەك > ئەپ ۋە مۇلازىمەت > ئەپ باشقۇرۇش دېگەن ئورۇندىن قايتۇرۇۋالالايسىز):</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d سوۋغاتلىق</item>
+        <item quantity="one">%1$d سوۋغاتلىق</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d مىڭ</item>
+        <item quantity="one">%1$d مىڭ</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d يۇلتۇز</item>
+        <item quantity="one">%1$d يۇلتۇز</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">%s نومۇر</item>
+        <item quantity="one">%s نومۇر</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s كىشى باھالىدى</item>
+        <item quantity="one">%1$s كىشى باھالىدى</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">%1$s قېتىم ئاچقان</item>
+        <item quantity="one">%1$s قېتىم ئاچقان</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d يېڭى مەزمۇن تەۋسىيە قىلىندى</item>
+        <item quantity="one">%d يېڭى مەزمۇن تەۋسىيە قىلىندى</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s مىليارد</item>
+        <item quantity="one">%1$s مىليارد</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s مىليون</item>
+        <item quantity="one">%1$s مىليون</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s مىڭ</item>
+        <item quantity="one">%1$s مىڭ</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">%1$d ئەپ يېڭىلاندى</item>
+        <item quantity="one">%1$d ئەپ يېڭىلاندى</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">%1$d ئەپ يېڭىلىنىۋاتىدۇ</item>
+        <item quantity="one">%1$d ئەپ يېڭىلىنىۋاتىدۇ</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">رەسىم چوڭلۇقى %1$dMB بىلەن چەكلىنىدۇ</item>
+        <item quantity="one">رەسىم چوڭلۇقى %1$dMB بىلەن چەكلىنىدۇ</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">جەمئىي %d پارچە رەسىم</item>
+        <item quantity="one">جەمئىي %d پارچە رەسىم</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">تاللاندى (%1$d/%2$d)</item>
+        <item quantity="one">تاللاندى (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d سىن</item>
+        <item quantity="one">%d سىن</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d ئىمتىياز</item>
+        <item quantity="one">%d ئىمتىياز</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">تورمۇزلانغان قاچىلانمىنى ئۆچۈرۈش (%1$s ئەپ، %2$s)</item>
+        <item quantity="one">تورمۇزلانغان قاچىلانمىنى ئۆچۈرۈش (%1$s ئەپ، %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other"> (%1$d نەرسە تاللاندى)</item>
+        <item quantity="one"> (%1$d نەرسە تاللاندى)</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">%1$d-بەت</item>
+        <item quantity="one">%1$d-بەت</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s قاچىلاش ۋەزىپىسى تورمۇزلاندى</item>
+        <item quantity="one">%1$s قاچىلاش ۋەزىپىسى تورمۇزلاندى</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d مىنۇت بۇرۇن</item>
+        <item quantity="one">%d مىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d مەھسۇلات</item>
+        <item quantity="one">%1$d مەھسۇلات</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">چۈشۈرۈلۈشى %1$s</item>
+        <item quantity="one">چۈشۈرۈلۈشى %1$s</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">بېرىلگەن باھا %1$s</item>
+        <item quantity="one">بېرىلگەن باھا %1$s</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s ئەپ بۇيرۇتما ۋەزىپىسى تاماملاندى</item>
+        <item quantity="one">%1$s ئەپ بۇيرۇتما ۋەزىپىسى تاماملاندى</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">%1$d ئەپ Wi-Fi دا ئۆزلۈكىدىن قاچىلىنىدۇ</item>
+        <item quantity="one">%1$d ئەپ Wi-Fi دا ئۆزلۈكىدىن قاچىلىنىدۇ</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s كىشى بۇيرۇتقان)</item>
+        <item quantity="one">(%1$s كىشى بۇيرۇتقان)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">%1$s ئەپنى قاچىلامسىز؟</item>
+        <item quantity="one">%1$s ئەپنى قاچىلامسىز؟</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s قاچىلاش ۋەزىپىسى باشلاندى</item>
+        <item quantity="one">%1$s قاچىلاش ۋەزىپىسى باشلاندى</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">جەمئىي %1$d بەت</item>
+        <item quantity="one">جەمئىي %1$d بەت</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">يەرلىك %d ئەپتىن ئىزدەش</item>
+        <item quantity="one">يەرلىك %d ئەپتىن ئىزدەش</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">%d ئەپ يېڭىلاش تىزىملىكىگە قوشۇلۇپ، نورمال يېڭىلاش ئەسلىگە كېلىدۇ.</item>
+        <item quantity="one">%d ئەپ يېڭىلاش تىزىملىكىگە قوشۇلۇپ، نورمال يېڭىلاش ئەسلىگە كېلىدۇ.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">%1$s يېڭىلانما</item>
+        <item quantity="one">%1$s يېڭىلانما</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">%1$s تەۋسىيەلىك يېڭىلانما (%2$s)</item>
+        <item quantity="one">%1$s تەۋسىيەلىك يېڭىلانما (%2$s)</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">%1$d ئەپ يېڭىلانمىسى بار (%2$s)</item>
+        <item quantity="one">%1$d ئەپ يېڭىلانمىسى بار (%2$s)</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d كۈن ئىشلەتمىگەن</item>
+        <item quantity="one">%d كۈن ئىشلەتمىگەن</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d سائەت</item>
+        <item quantity="one">%d سائەت</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d مىنۇت</item>
+        <item quantity="one">%d مىنۇت</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d سېكۇنت</item>
+        <item quantity="one">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">بارلىق چۈشۈرۈلمە ۋە چۈشۈرۈش ۋەزىپىسى (%d) نى تازىلامسىز؟</item>
+        <item quantity="one">بارلىق چۈشۈرۈلمە ۋە چۈشۈرۈش ۋەزىپىسى (%d) نى تازىلامسىز؟</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">ئۇدا %d كۈن يوقلاندى.</item>
+        <item quantity="one">ئۇدا %d كۈن يوقلاندى.</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d كۈن</item>
+        <item quantity="one">%d كۈن</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d ئەپ چۈشۈرۈلدى</item>
+        <item quantity="one">%1$d ئەپ چۈشۈرۈلدى</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">%s نومۇر</item>
+        <item quantity="one">%s نومۇر</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d مىنۇت بۇرۇن</item>
+        <item quantity="one">%d مىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">‏%1$s قاتارلىق %2$d ئەپ</item>
+        <item quantity="one">‏%1$s قاتارلىق %2$d ئەپ</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">%1$s تامغىلىق ئەسكەرتمە بار</item>
+        <item quantity="one">%1$s تامغىلىق ئەسكەرتمە بار</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d پائالىيەت</item>
+        <item quantity="one">%d پائالىيەت</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d مەھەللە مۇكاپاتى</item>
+        <item quantity="one">%d مەھەللە مۇكاپاتى</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d مۇكاپات</item>
+        <item quantity="one">%d مۇكاپات</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">بۇنى بۇ رايوندا %d كىشى يىغدى</item>
+        <item quantity="one">بۇنى بۇ رايوندا %d كىشى يىغدى</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">تاللاندى (%1$d)</item>
+        <item quantity="one">تاللاندى (%1$d)</item>
+    </plurals>
+</resources>

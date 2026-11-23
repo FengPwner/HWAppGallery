@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="48.0dip"
+    android:width="48.0dip"
+    android:viewportWidth="192.0"
+    android:viewportHeight="192.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:name="background"
+        android:pivotX="96.0"
+        android:pivotY="96.0"
+        android:rotation="0.0">
+        <path
+            android:name="background_round"
+            android:fillColor="@color/hwfloatingbutton_bg"
+            android:pathData="M96,96m-96,0a96,96 0,1 1,192 0a96,96 0,1 1,-192 0" />
+    </group>
+    <group
+        android:name="add"
+        android:pivotX="96.0"
+        android:pivotY="96.0"
+        android:rotation="0.0">
+        <path
+            android:name="background_add"
+            android:fillColor="@color/hwfloatingbutton_icon"
+            android:pathData="M92,91V59c0,-2.2 1.8,-4 4,-4s4,1.8 4,4v32h32c2.2,0 4,1.8 4,4s-1.8,4 -4,                 4h-32v32c0,2.2 -1.8,4 -4,4s-4,-1.8 -4,-4V99H60c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4H92z" />
+    </group>
+</vector>

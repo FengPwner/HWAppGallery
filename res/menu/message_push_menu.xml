@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/open_push_switch"
+        android:title="@string/forum_open_push_switch" />
+    <item
+        android:id="@id/close_push_switch"
+        android:title="@string/forum_close_push_switch" />
+</menu>

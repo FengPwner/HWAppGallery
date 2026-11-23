@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.detail.detailbase.common.RenderHwButton
+        android:id="@id/button_item"
+        android:drawablePadding="@dimen/padding_xs"
+        android:textAllCaps="false"
+        style="@style/AppGallery.Widget.Toggle" />
+</LinearLayout>

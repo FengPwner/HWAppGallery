@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/wisedist_detail_permission_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody1.Primary" />
+    <TextView
+        android:id="@id/wisedist_detail_permission_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        style="@style/AppGallery.TextAppearance.Paragraph.TextBody2.Secondary" />
+</LinearLayout>

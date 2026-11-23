@@ -1,0 +1,52 @@
+.class public Lcom/huawei/uikit/hwradiobutton/widget/HwRadioButton;
+.super Landroid/widget/RadioButton;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .registers 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Lcom/huawei/uikit/hwradiobutton/widget/HwRadioButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .registers 4
+
+    .line 2
+    const v0, 0x7f04038a
+
+    invoke-direct {p0, p1, p2, v0}, Lcom/huawei/uikit/hwradiobutton/widget/HwRadioButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    .registers 5
+
+    const v0, 0x7f13030e
+
+    .line 3
+    invoke-static {p1, p3, v0}, Lcom/huawei/appmarket/uf3;->a(Landroid/content/Context;II)Landroid/content/Context;
+
+    move-result-object p1
+
+    .line 4
+    invoke-direct {p0, p1, p2, p3}, Landroid/widget/RadioButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 p2, 0x1a
+
+    if-lt p1, p2, :cond_0
+
+    invoke-static {p0}, Lcom/huawei/appmarket/hk2;->q(Landroid/widget/RadioButton;)V
+
+    :cond_0
+    return-void
+.end method

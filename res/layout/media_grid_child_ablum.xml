@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.common.media.widget.SquareLayout
+    android:id="@id/squrelayout"
+    android:background="@drawable/media_grid_item_ablum_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@id/image_browser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_s"
+            android:src="@drawable/aguikit_ic_public_picture" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_master_caption_2"
+            android:textColor="@color/emui_color_gray_10"
+            android:ellipsize="end"
+            android:id="@id/albums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/media_group_name_ablum"
+            android:singleLine="true" />
+    </LinearLayout>
+</com.huawei.appgallery.common.media.widget.SquareLayout>

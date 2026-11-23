@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/appgallery_color_card_stroke_on_clicked" />
+    <corners
+        android:radius="@dimen/appgallery_default_corner_radius_m" />
+</shape>

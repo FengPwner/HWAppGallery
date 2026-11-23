@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="start|center"
+    android:orientation="horizontal"
+    android:background="@color/appgallery_color_appbar_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        layout="@layout/agguard_common_title_layout" />
+    <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/rightMenu"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem
+            android:gravity="center"
+            android:id="@id/agguard_delete_all"
+            android:background="@drawable/hwappbarpattern_selector_item_bg"
+            android:layout_width="@dimen/appgallery_hwtoolbar_icon_size"
+            android:layout_height="@dimen/appgallery_hwtoolbar_icon_size"
+            android:contentDescription="@string/agguard_delete_all"
+            android:layout_marginEnd="@dimen/margin_s"
+            app:popupTitle="@string/agguard_delete_all">
+            <ImageView
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/aguikit_ic_public_delete" />
+        </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryAppbarMenuItem>
+    </com.huawei.appgallery.aguikit.widget.toolbar.AppGalleryToolbarLayout>
+</LinearLayout>

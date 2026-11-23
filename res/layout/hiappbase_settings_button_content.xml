@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:id="@id/setting_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/emui_dimens_default_bottom_fixed"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    app:hwColumnType="button_type"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RenderButton
+        android:gravity="center"
+        android:id="@id/setting"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="40.0dip"
+        android:text="@string/setting_network_prompt_title"
+        android:layout_weight="1.0"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/AppGallery.Widget.Button.BottomButton" />
+    <View
+        android:id="@id/blank_view"
+        android:layout_width="12.0dip"
+        android:layout_height="0.0dip" />
+    <com.huawei.appmarket.framework.widget.RenderButton
+        android:gravity="center"
+        android:id="@id/go_to_net_diagnose"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="40.0dip"
+        android:text="@string/netdiagnose_button_text"
+        android:layout_weight="1.0"
+        app:hwAutoSizeMinTextSize="9.0sp"
+        app:hwAutoSizeStepGranularity="1.0sp"
+        style="@style/AppGallery.Widget.Button.BottomButton" />
+</com.huawei.uikit.hwcolumnlayout.widget.HwColumnLinearLayout>

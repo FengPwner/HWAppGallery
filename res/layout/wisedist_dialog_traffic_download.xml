@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:paddingTop="@dimen/ui_14_dp"
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/ui_24_dp"
+    android:paddingEnd="@dimen/ui_24_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/res_textsize_16sp"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/tv_traffic_download_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@id/lay_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/res_textsize_14sp"
+                    android:textColor="@color/appgallery_text_color_secondary"
+                    android:id="@id/tv_traffic_level_desc"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                    android:textSize="@dimen/res_textsize_14sp"
+                    android:textColor="@color/appgallery_text_color_primary_activated"
+                    android:id="@id/tv_go_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wisedist_install_unknown_sources_dialog_confirm"
+                    android:fontFamily="@string/appgallery_text_font_family_medium"
+                    android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/lay_setting_v1"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="8.0dip">
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/res_textsize_14sp"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:id="@id/tv_traffic_level_desc_v1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+                android:textSize="@dimen/res_textsize_14sp"
+                android:textColor="@color/appgallery_text_color_primary_activated"
+                android:id="@id/tv_go_setting_v1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/wisedist_install_unknown_sources_dialog_confirm"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

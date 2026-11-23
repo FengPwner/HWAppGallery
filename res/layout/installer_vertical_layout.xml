@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/installer_vertical_layout"
+    android:background="@drawable/install_dist_card_installer_bg"
+    android:paddingTop="4.0dip"
+    android:paddingBottom="4.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="4.0dip"
+    android:paddingEnd="4.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:paddingStart="@dimen/appgallery_card_elements_margin_m"
+        android:paddingEnd="@dimen/appgallery_card_elements_margin_m">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:id="@id/installer_vertical_title"
+            android:focusable="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:maxLines="2"
+            android:layout_weight="1.0"
+            android:layout_centerInParent="true"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/installer_vertical_container_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_m"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/emui_master_title_1"
+        android:textColor="@color/buoy_emui_primary"
+        android:id="@id/intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_24_dp" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/buoy_emui_half_black"
+        android:id="@id/intro_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginStart="@dimen/appgallery_max_padding_end"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body2"
+        android:textColor="@color/buoy_emui_half_black"
+        android:id="@id/intro_content2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginStart="@dimen/appgallery_max_padding_end"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end" />
+</LinearLayout>

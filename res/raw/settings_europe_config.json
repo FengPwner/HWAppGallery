@@ -1,0 +1,366 @@
+{
+  "layout": [
+    {
+      "layoutId": 30,
+      "name": "更新和安装",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 2,
+      "name": "懒人更新",
+      "maxRows": 1,
+      "layoutName": "settingautoupdatecard"
+    },
+    {
+      "layoutId": 1,
+      "name": "WLAN预约下载",
+      "maxRows": 1,
+      "layoutName": "settingorderdownloadcard"
+    },
+    {
+      "layoutId": 38,
+      "name": "FA卡片加桌",
+      "maxRows": 1,
+      "layoutName": "settingfacard"
+    },
+    {
+      "layoutId": 34,
+      "name": "一键更新支持三方来源应用",
+      "maxRows": 1,
+      "layoutName": "settingupdatesupportsthirdpartyappscard"
+    },
+    {
+      "layoutId": 3,
+      "name": "应用同步",
+      "maxRows": 1,
+      "layoutName": "settingappsyncard"
+    },
+    {
+      "layoutId": 31,
+      "name": "内容",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 8,
+      "name": "内容访问限制",
+      "maxRows": 1,
+      "layoutName": "settingcontentrestrictcard"
+    },
+    {
+      "layoutId": 14,
+      "name": "视频自动播放",
+      "maxRows": 1,
+      "layoutName": "settingvideoplaycard"
+    },
+    {
+      "layoutId": 41,
+      "name": "应用体验加速包",
+      "maxRows": 1,
+      "layoutName": "settinggamespeedupcard"
+    },
+    {
+      "layoutId": 20,
+      "name": "应用详情自动翻译",
+      "maxRows": 1,
+      "layoutName": "appdetailautotranslate"
+    },
+    {
+      "layoutId": 21,
+      "name": "应用内评分及评论",
+      "maxRows": 1,
+      "layoutName": "settingcommentswitchcard"
+    },
+    {
+      "layoutId": 13,
+      "name": "个性化推荐",
+      "maxRows": 1,
+      "layoutName": "settingairecommendcard"
+    },
+    {
+      "layoutId": 77,
+      "name": "个性化广告",
+      "maxRows": 1,
+      "layoutName": "settingpersonalizedadvertisementcard"
+    },
+    {
+      "layoutId": 39,
+      "name": "添加桌面卡片",
+      "maxRows": 1,
+      "layoutName": "adddesktopcard"
+    },
+    {
+      "layoutId": 32,
+      "name": "通知",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 35,
+      "name": "消息通知设置",
+      "maxRows": 1,
+      "layoutName": "settingnotificationmgrcard"
+    },
+    {
+      "layoutId": 33,
+      "name": "其他",
+      "maxRows": 1,
+      "layoutName": "settingsubheadertitlecard"
+    },
+    {
+      "layoutId": 17,
+      "name": "联运服务",
+      "maxRows": 1,
+      "layoutName": "settingjointservicecard"
+    },
+    {
+      "layoutId": 11,
+      "name": "领奖信息",
+      "maxRows": 1,
+      "layoutName": "settingreceiveprizecard"
+    },
+    {
+      "layoutId": 9,
+      "name": "切换服务区域",
+      "maxRows": 1,
+      "layoutName": "settingchangehomecountrycard"
+    },
+    {
+      "layoutId": 36,
+      "name":"扩展服务设置",
+      "maxRows": 1,
+      "layoutName": "settingextendedservicecard"
+    },
+    {
+      "layoutId": 18,
+      "name": "取消用户协议",
+      "maxRows": 1,
+      "layoutName": "settingcancelprotocolcard"
+    },
+    {
+      "layoutId": 19,
+      "name": "服务改进",
+      "maxRows": 1,
+      "layoutName": "settingserviceimprovementcard"
+    },
+    {
+      "layoutId": 22,
+      "name": "个性化营销",
+      "maxRows": 1,
+      "layoutName": "settingpersonalizedpromotionscard"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 30,
+      "name": "安装和更新",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_installation_and_update"
+        }
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "懒人更新",
+      "layoutName": "settingautoupdatecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 1,
+      "name": "WLAN预约下载",
+      "layoutName": "settingorderdownloadcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 38,
+      "name": "FA卡片加桌",
+      "layoutName": "settingfacard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 34,
+      "name": "一键更新支持三方来源应用",
+      "layoutName": "settingupdatesupportsthirdpartyappscard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 3,
+      "name": "应用同步",
+      "layoutName": "settingappsyncard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 31,
+      "name": "内容",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_content"
+        }
+      ]
+    },
+    {
+      "layoutId": 8,
+      "name": "内容访问限制",
+      "layoutName": "settingcontentrestrictcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 14,
+      "name": "视频自动播放",
+      "layoutName": "settingvideoplaycard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 41,
+      "name": "应用体验加速包",
+      "layoutName": "settinggamespeedupcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 20,
+      "name": "应用详情自动翻译",
+      "layoutName": "appdetailautotranslate",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 21,
+      "name": "应用内评分及评论",
+      "layoutName": "settingcommentswitchcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 13,
+      "name": "个性化推荐",
+      "layoutName": "settingairecommendcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 77,
+      "name": "个性化广告",
+      "layoutName": "settingpersonalizedadvertisementcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 39,
+      "name": "添加桌面卡片",
+      "layoutName": "adddesktopcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 32,
+      "name": "通知",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_notifications"
+        }
+      ]
+    },
+    {
+      "layoutId": 35,
+      "name": "消息通知设置",
+      "layoutName": "settingnotificationmgrcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 33,
+      "name": "其他",
+      "layoutName": "settingsubheadertitlecard",
+      "dataList": [
+        {
+          "name": "settings_subheader_title_other"
+        }
+      ]
+    },
+    {
+      "layoutId": 17,
+      "name": "联运服务",
+      "layoutName": "settingjointservicecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 11,
+      "name": "领奖信息",
+      "layoutName": "settingreceiveprizecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 9,
+      "name": "切换服务区域",
+      "layoutName": "settingchangehomecountrycard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 36,
+      "name": "扩展服务设置",
+      "layoutName": "settingextendedservicecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 18,
+      "name": "取消用户协议",
+      "layoutName": "settingcancelprotocolcard",
+      "dataList": [
+        {
+          "enableDivider": true
+        }
+      ]
+    },
+    {
+      "layoutId": 19,
+      "name": "服务改进",
+      "layoutName": "settingserviceimprovementcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 22,
+      "name": "个性化营销",
+      "layoutName": "settingpersonalizedpromotionscard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/course_list_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.RoundImageView
+        android:id="@id/course_image"
+        android:layout_width="128.0dip"
+        android:layout_height="@dimen/appgallery_card_icon_size_xl"
+        android:layout_marginTop="12.0dip"
+        android:scaleType="fitXY"
+        app:corner_radius="@dimen/appgallery_default_corner_radius_m" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/course_title"
+        android:tag="css/.title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"
+        android:maxLines="2"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:ellipsize="end"
+        android:id="@id/course_detail"
+        android:tag="css/.subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:maxLines="2"
+        android:textAlignment="viewStart"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

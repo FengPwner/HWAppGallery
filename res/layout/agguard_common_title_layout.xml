@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:minHeight="@dimen/appgallery_hwtoolbar_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/agguard_common_title_back_layout"
+        android:background="@drawable/hwappbarpattern_selector_item_bg"
+        android:layout_width="@dimen/appgallery_card_icon_size_middle"
+        android:layout_height="@dimen/appgallery_card_icon_size_middle"
+        android:contentDescription="@string/click_back"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_s"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_s">
+        <ImageView
+            android:layout_width="@dimen/appgallery_card_elements_margin_xl"
+            android:layout_height="@dimen/appgallery_card_elements_margin_xl"
+            android:src="@drawable/aguikit_ic_public_back" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:id="@id/agguard_common_title_text_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:id="@id/agguard_common_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_settings"
+            android:paddingEnd="@dimen/appgallery_max_padding_end"
+            style="@style/AppGallery.Widget.Toolbar.Title" />
+    </LinearLayout>
+</LinearLayout>

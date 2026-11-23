@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+        android:textSize="20.0dip"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/post_moment_stamp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="viewStart" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/forum_moment_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart" />
+    <com.huawei.appgallery.forum.cards.widget.MomentImgView
+        android:id="@id/forum_post_moment_img"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip" />
+</LinearLayout>

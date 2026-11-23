@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:paddingTop="@dimen/ui_14_dp"
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/ui_24_dp"
+    android:paddingEnd="@dimen/ui_24_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/res_textsize_16sp"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/tv_traffic_download_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <com.huawei.uikit.phone.hwcheckbox.widget.HwCheckBox
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/wlan_reserve_not_remind_checkbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="@dimen/size_48dp"
+            android:text="@string/wisedist_traffic_check_box_not_remind"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            style="@style/Widget.Emui.HwCheckBox.Normal" />
+    </LinearLayout>
+</ScrollView>

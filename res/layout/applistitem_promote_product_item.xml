@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/promote_app_product_item_layout"
+    android:background="@drawable/list_item_all_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:id="@id/product_icon_layout"
+        android:layout_width="@dimen/appgallery_card_icon_size_xs"
+        android:layout_height="@dimen/appgallery_card_icon_size_xs"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        app:clip_background="true"
+        app:round_corner="@dimen/appgallery_default_corner_radius_s"
+        app:stroke_color="@color/transparent">
+        <ImageView
+            android:id="@id/product_icon"
+            android:layout_width="@dimen/appgallery_card_icon_size_xs"
+            android:layout_height="@dimen/appgallery_card_icon_size_xs"
+            android:src="@drawable/placeholder_base_app_icon"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true" />
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/product_detail_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_marginBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+        android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l"
+        android:layout_toStartOf="@id/price_layout"
+        android:layout_toEndOf="@id/product_icon_layout">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/product_title"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:id="@id/product_detail"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_xs"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.TextAppearance.Card.TextBody3.Secondary" />
+    </LinearLayout>
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_alignStart="@id/product_detail_layout"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.Widget.Divider" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/price_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_color_primary"
+            android:id="@id/promote_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_caption"
+            android:textColor="@color/appgallery_color_secondary"
+            android:layout_gravity="end"
+            android:id="@id/old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+    </LinearLayout>
+</RelativeLayout>

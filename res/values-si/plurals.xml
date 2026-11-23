@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">සැක සහිත යෙදුම් %2$d ක් (%1$s ඇතුළුව) හමු විය</item>
+        <item quantity="one">%2$d සැක කටයුතු යෙදුමක් (%1$s) හමු විය</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">භාවිතා නොකළ යෙදුම් %2$d ක් (%1$s ඇතුළුව) හමු විය</item>
+        <item quantity="one">භාවිතා නොකළ %2$d යෙදුමක් (%1$s) හමු විය</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">භාවිතා නොකළ යෙදුම් %d ක්</item>
+        <item quantity="one">භාවිතා නොකළ %d යෙදුමක්</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">අනිෂ්ට චර්යාවක් සහිත යෙදුම් %d ක් සම්බන්ධයෙන් කටයුතු කරන ලදී</item>
+        <item quantity="one">අනිෂ්ට චර්යාවක් සහිත %d යෙදුමක් සම්බන්ධයෙන් කටයුතු කරන ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">අනිෂ්ට චර්යාවක් සහිත යෙදුම් %d ක් හඳුනා ගන්නා ලදී</item>
+        <item quantity="one">අනිෂ්ට චර්යාවක් සහිත %d යෙදුමක් හඳුනා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">වංචා යෙදුම් %d ක් සම්බන්ධයෙන් කටයුතු කරන ලදී</item>
+        <item quantity="one">%d වංචා යෙදුමක් සම්බන්ධයෙන් කටයුතු කරන ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">වංචා යෙදුම් %d ක් හඳුනා ගන්නා ලදී</item>
+        <item quantity="one">%d වංචා යෙදුමක් හඳුනා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">රහස්‍යතා අවදානම් සහිත යෙදුම් %d ක් සම්බන්ධයෙන් කටයුතු කරන ලදී</item>
+        <item quantity="one">රහස්‍යතා අවදානම් සහිත %d යෙදුමක් සම්බන්ධයෙන් කටයුතු කරන ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">රහස්‍යතා අවදානම් සහිත යෙදුම් %d ක් හඳුනා ගන්නා ලදී</item>
+        <item quantity="one">රහස්‍යතා අවදානම් සහිත %d යෙදුමක් හඳුනා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">ආරක්ෂක තර්ජන සහිත යෙදුම් %d ක් සම්බන්ධව කටයුතු කරන ලදී</item>
+        <item quantity="one">ආරක්ෂක තර්ජන සහිත %d යෙදුමක් සම්බන්ධව කටයුතු කරන ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">ආරක්ෂක තර්ජන සහිත යෙදුම් %d ක් හඳුනා ගන්නා ලදී</item>
+        <item quantity="one">ආරක්ෂක තර්ජන සහිත %d යෙදුමක් හඳුනා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">වයිරස් සහිත යෙදුම් %d ක් සම්බන්ධයෙන් කටයුතු කළේ ය</item>
+        <item quantity="one">වයිරස් සහිත %d යෙදුමක් සම්බන්ධයෙන් කටයුතු කළේ ය</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">වයිරස් සහිත යෙදුම් %d ක් හඳුනා ගන්නා ලදී</item>
+        <item quantity="one">වයිරස් සහිත %d යෙදුමක් හඳුනා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">අයිතම %d ක් ප්‍රශස්ත කරන ලදී</item>
+        <item quantity="one">%d අයිතමයක් ප්‍රශස්ත කරන ලදී</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">ගැටළු %d ක් හඳුනා ගන්නා ලදී</item>
+        <item quantity="one">%d ගැටළුවක් හඳුනා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">යෙදුම් %d ක් ස්කෑන් කරන ලදී</item>
+        <item quantity="one">%d යෙදුමක් ස්කෑන් කරන ලදී</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">දින %d කට පෙර‌</item>
+        <item quantity="one">%d දිනකට පෙර</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">තර්ජන %d කි</item>
+        <item quantity="one">%d තර්ජනයකි</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">යෙදුම් %d ක් ස්කෑන් කෙරිණි</item>
+        <item quantity="one">%d යෙදුමක් ස්කෑන් කෙරිණි</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">යෙදුම් තර්ජන %d ක්</item>
+        <item quantity="one">%d යෙදුම් තර්ජනයක්</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">පසුගිය දින %1$d තුළ සැක සහිත යෙදුම් %2$d ක් හමු විය. විස්තර බලන්න >></item>
+        <item quantity="one">පසුගිය දින %1$d තුළ සැක සහිත යෙදුමක් %2$dහමු විය. විස්තර බලන්න >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">පසුගිය දින %1$d තුළ යෙදුම් %2$d ක් ස්කෑන් කෙරිණි. විස්තර බලන්න >></item>
+        <item quantity="one">පසුගිය දින %1$d තුළ %2$d යෙදුමක් ස්කෑන් කෙරිණි. විස්තර බලන්න >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">යෙදුම් %d ක් සම්පීඩනය කළ හැකිවනු ඇත</item>
+        <item quantity="one">%d යෙදුමක් සම්පීඩනය කළ හැකිවනු ඇත</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">නොදන්නා යෙදුම් %d ක් හඳුනා ගන්නා ලදී.</item>
+        <item quantity="one">%d නොදන්නා යෙදුමක් හඳුනා ගන්නා ලදී.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">සම්පීඩනය කළ හැකි යෙදුම් (%d)</item>
+        <item quantity="one">සම්පීඩනය කළ හැකි යෙදුම් (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">නොදන්නා යෙදුම් %d ක් හමු විය. කරුණාකර පරීක්ෂා කරන්න.</item>
+        <item quantity="one">%d නොදන්නා යෙදුමක් හමු විය. කරුණාකර පරීක්ෂා කරන්න.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">නොදන්නා යෙදුම් %d ක් හමු විය</item>
+        <item quantity="one">%d නොදන්නා යෙදුමක් හමු විය</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">මිනි. %d කට පෙර</item>
+        <item quantity="one">මිනි. %d කට පෙර</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">ශ්‍රේණිකරණය: %s</item>
+        <item quantity="one">ශ්‍රේණිකරණය: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s හි වයසට සීමා කළ අන්තර්ගතය අඩංගු වේ. %3$s ස්පර්ශ කර මෙම යෙදුම බාගැනීමෙන්, ඔබගේ වයස අවුරුදු %2$d ට වැඩි බව ඔබ විසින් ස්ථිර කරයි.</item>
+        <item quantity="one">%1$s හි වයසට සීමා කළ අන්තර්ගතය අඩංගු වේ. %3$s ස්පර්ශ කර මෙම යෙදුම බාගැනීමෙන්, ඔබගේ වයස %2$d අවුරුද්දකට වැඩි බව ඔබ විසින් ස්ථිර කරයි.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">විරාම කළ බාගැනීම්: %1$d</item>
+        <item quantity="one">විරාම කළ බාගැනීම්: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s හි වයසට සීමා කළ අන්තර්ගතය අඩංගු වේ. %3$s ස්පර්ශ කර මෙම යෙදුම භාවිතා කිරීමෙන්, ඔබගේ වයස අවුරුදු %2$d ට වැඩි බව ඔබ විසින් ස්ථිර කරයි.</item>
+        <item quantity="one">%1$s හි වයසට සීමා කළ අන්තර්ගතය අඩංගු වේ. %3$s ස්පර්ශ කර මෙම යෙදුම භාවිතා කිරීමෙන්, ඔබගේ වයස %2$d අවුරුද්දකට වැඩි බව ඔබ විසින් ස්ථිර කරයි.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">අකමැතිවීම් %d ක්</item>
+        <item quantity="one">%d අකමැතිවීමක්</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">අකමැතිවීම් %d කි, ඔබ මෙයට අකමැති වී ඇත</item>
+        <item quantity="one">%d අකමැතිවීමකි, ඔබ මෙයට අකමැති වී ඇත</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">කැමතිවීම් %d ක්</item>
+        <item quantity="one">%d කැමතිවීමක්</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">කැමතිවීම් %d ක්, ඔබ මෙයට කැමති වී ඇත</item>
+        <item quantity="one">%d කැමතිවීමකි, ඔබ මෙයට කැමති වී ඇත</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">තරු %d ක්</item>
+        <item quantity="one">%d තරුවක්</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">අදහස් %1$d ක්</item>
+        <item quantity="one">%1$d අදහසක්</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">මිනිත්තු %d කට පෙර</item>
+        <item quantity="one">%d මිනිත්තුවකට පෙර</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">ශ්‍රේණිකිරීම් %dක්</item>
+        <item quantity="one">ශ්‍රේණිකිරීම් %dක්</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">කැමතිවීම් %1$d ක්</item>
+        <item quantity="one">%1$d කැමතිවීමක්</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">පිළිතුරු %1$d ක්</item>
+        <item quantity="one">%1$d පිළිතුරක්</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">සියලු පිලිතුරුදීම් (%1$d)</item>
+        <item quantity="one">සියලු පිලිතුරුදීම් (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">අදහස් දැක්වීමට ඔබ මිනිත්තු %1$d ක් වත් ක්‍රීඩා කර තිබිය යුතුය.</item>
+        <item quantity="one">අදහස් දැක්වීමට ඔබ %1$d මිනිත්තුවක්වත් ක්‍රීඩා කර තිබිය යුතුය.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">යෙදුම් %1$s ක් ස්ථාපනය කෙරෙමින් පවතී</item>
+        <item quantity="one">%1$s යෙදුමක් ස්ථාපනය කෙරෙමින් පවතී</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">අයිතම %1$d ක් තෝරා ගන්නා ලදී</item>
+        <item quantity="one">අයිතම %1$d ක් තෝරා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s ද ඇතුළුව තේරූ යෙදුම් ස්ථාපිත ඉවත් කරන්නද?</item>
+        <item quantity="one">%1$s ස්ථාපිත ඉවත් කරන්නද?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%3$s වෙතින් %1$s සහ අනෙකුත් යෙදුම් %2$s ස්ථාපිත ඉවත් කරන්න ද?</item>
+        <item quantity="one">%3$s වෙතින් %1$s සහ අනෙකුත් යෙදුම් %2$s ස්ථාපිත ඉවත් කරන්න ද?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">%1$s ඇතුළුව යෙදුම් %2$s ක් අස්ථාපනය කරන්න ද?</item>
+        <item quantity="one">%1$s ඇතුළුව %2$s යෙදුමක් අස්ථාපනය කරන්න ද?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">වාර්තා %1$s ක් මකන්නද?</item>
+        <item quantity="one">%1$s වාර්තාවක් මකන්නද?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">පහත ‍යෙදුම් %1$d සමහර අවසර වෙත පිවිසීම අපේක්ෂා කරයි:</item>
+        <item quantity="one">පහත %1$d ‍යෙදුම සමහර අවසර වෙත පිවිසීම අපේක්ෂා කරයි:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">ශ්‍රේණිකරණ %1$d ක්</item>
+        <item quantity="one">%1$d ශ්‍රේණිකරණය</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">ශ්‍රේණිකරණ මිලියන %1$s ක්</item>
+        <item quantity="one">ශ්‍රේණිකරණ මිලියන %1$s ක්</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">ශ්‍රේණිකරණ %1$s දහසක්</item>
+        <item quantity="one">ශ්‍රේණිකරණ %1$s දහසක්</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">ක්‍රියාකාරකම් %1$s</item>
+        <item quantity="one">%1$s ක්‍රියාකාරකම</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">ක්‍රීඩා කාලයෙන් මිනිත්තු %1$s කට අඩු කාලයක් ඉතිරිව ඇත. හැකි ඉක්මනින් ඔබගේ ක්‍රීඩාව සුරකින්න.</item>
+        <item quantity="one">ක්‍රීඩා කාලයෙන් %1$s මිනිත්තුවකට අඩු කාලයක් ඉතිරිව ඇත. හැකි ඉක්මනින් ඔබගේ ක්‍රීඩාව සුරකින්න.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">මිනිත්තු %d ක් පමණක් ඉතිරිව ඇත.</item>
+        <item quantity="one">%d මිනිත්තුවක් පමණක් ඉතිරිව ඇත.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">පැය %d ක්</item>
+        <item quantity="one">%d පැයක්</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">මිනිත්තු %d ක්</item>
+        <item quantity="one">%d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">තත්පර %d ක්</item>
+        <item quantity="one">%d තත්පරයක්</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$sදහසක්</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">අදහස් %1$d ක්</item>
+        <item quantity="one">%1$d අදහසක්</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d මිනිත්තුවකට පෙර</item>
+        <item quantity="one">%d මිනිත්තුවකට පෙර</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">උපරිමව අක්ෂර %1$d ක්</item>
+        <item quantity="one">උපරිමව %1$d අක්ෂරයක්</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">අක්ෂර %1$d ක් වත් ඇතුල් කරන්න</item>
+        <item quantity="one">%1$d අක්ෂරයක් වත් ඇතුල් කරන්න</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"රූප %1$d ක් දක්වා
+එකක් උපරිම %2$s යි"</item>
+        <item quantity="one">"%1$d රූපයක් දක්වා
+එකක් උපරිම %2$s යි"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">මෙම ගැටළු ආකාරය සඳහා උපරිම රූප %d ක්</item>
+        <item quantity="one">මෙම ගැටළු ආකාරය සඳහා උපරිම %d රූපයක්</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">තරු %1$s ක්</item>
+        <item quantity="one">%1$s තරුවක්</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">රහස්වචනය වැරදි ලෙස %1$d වතාවක් ඇතුල්කර ඇත. කරුණාකර මිනිත්තු %2$dකින් පසුව නැවත උත්සාහ කරන්න.</item>
+        <item quantity="one">රහස්වචනය වැරදි ලෙස %1$d වතාවක් ඇතුල්කර ඇත. කරුණාකර මිනිත්තු %2$dකින් පසුව නැවත උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">පුද්ගලයන් බිලියන %1$s ක් සහභාගී වී ඇත</item>
+        <item quantity="one">පුද්ගලයන් බිලියන %1$s ක් සහභාගී වී ඇත</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">පුද්ගලයන් මිලියන %1$s ක් සහභාගි වී ඇත</item>
+        <item quantity="one">පුද්ගලයන් මිලියන %1$s ක් සහභාගි වී ඇත</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">පුද්ගලයන් %1$s ක් සහභාගී වී ඇත</item>
+        <item quantity="one">%1$s පුද්ගලයෙකු සහභාගී වී ඇත</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">පුද්ගලයන් %1$s දහසක් සහභාගී වී ඇත</item>
+        <item quantity="one">පුද්ගලයන් %1$s දහසක් සහභාගී වී ඇත</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">පුද්ගලයන් බිලියන %1$s ක් මෙය මිලදී ගෙන ඇත</item>
+        <item quantity="one">පුද්ගලයන් බිලියන %1$s ක් මෙය මිලදී ගෙන ඇත</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">පුද්ගලයන් මිලියන %1$s ක් මෙය මිලදී ගෙන ඇත</item>
+        <item quantity="one">පුද්ගලයන් මිලියන %1$s ක් මෙය මිලදී ගෙන ඇත</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">පුද්ගලයන් %1$s ක් මෙය මිලදී ගෙන ඇත</item>
+        <item quantity="one">%1$s පුද්ගලයෙක් මෙය මිලදී ගෙන ඇත</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">පුද්ගලයන් %1$s දහසක් මෙය මිලදී ගෙන ඇත</item>
+        <item quantity="one">පුද්ගලයන් %1$s දහසක් මෙය මිලදී ගෙන ඇත</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">ශ්‍රේණිගත කිරීම් %1$s ක්</item>
+        <item quantity="one">%1$s ශ්‍රේණිකරණයක්</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">ශ්‍රේණිකරණය, තරු %1$s ක්</item>
+        <item quantity="one">ශ්‍රේණිකරණය, %1$s තරුවක්</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">තරු %1$s ක් ලෙස ශ්‍රේණිකරණය කෙරිණි</item>
+        <item quantity="one">%1$s තරුවක් ලෙස ශ්‍රේණිකරණය කෙරිණි</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">කෙසේ වෙතත් ස්ථාපනය කරන්න (%1$d)</item>
+        <item quantity="one">කෙසේ වෙතත් ස්ථාපනය කරන්න (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">පැය %d ක්</item>
+        <item quantity="one">%d පැයක්</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">මිනිත්තු %d ක්</item>
+        <item quantity="one">%d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">තත්පර %d ක්</item>
+        <item quantity="one">%d තත්පරයක්</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d ක් තේරිණි</item>
+        <item quantity="one">%1$d අයිතමයක් තෝරන ලදී</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">විස්තරය අක්ෂර %d ක් වත් දිග විය යුතුය. හැකි නම් තිරරූප එක් කරන්න.</item>
+        <item quantity="one">විස්තරය %d අක්ෂරයක් වත් දිග විය යුතුය. හැකි නම් තිරරූප එක් කරන්න.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">පැය %1$d</item>
+        <item quantity="one">%1$d පැයක්</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">මිනිත්තු %1$d ක්</item>
+        <item quantity="one">%1$d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">තත්පර %1$d</item>
+        <item quantity="one">%1$d තත්පරය</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">පළ කිරීම්: %1$s</item>
+        <item quantity="one">පළ කිරීම්: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">කැමතිවීම් %d ක්</item>
+        <item quantity="one">%d කැමැත්තක්</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d පිළිතුරු</item>
+        <item quantity="one">%d පිළිතුරක්</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$sK</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">බැලීම් %d</item>
+        <item quantity="one">%d දැක්ම</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">අදහසක් ඉදිරිපත් කරන්න (එකතුව %1$d)</item>
+        <item quantity="one">අදහසක් ඉදිරිපත් කරන්න (එකතුව %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">පිළිතුරු %1$d ම බලන්න</item>
+        <item quantity="one">%1$d පිළිතුර බලන්න</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">සහභාගිවන්නන් %1$s ක්</item>
+        <item quantity="one">%1$s සහභාගිවන්නෙක්</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">පිළිතුරු %s ක් දක්වා තෝරා ගන්න</item>
+        <item quantity="one">%s පිළිතුරක් දක්වා තෝරා ගන්න</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">බහුවරණ (%1$d තෝරා ගන්න)</item>
+        <item quantity="one">බහුවරණ (%1$d තෝරා ගන්න)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">පිළිතුරු %sක් තෝරා ගන්න</item>
+        <item quantity="one">%s පිළිතුරක් තෝරා ගන්න</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">ඡන්ද %1$s ක්</item>
+        <item quantity="one">%1$s ඡන්දයක්</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">මෙම යෙදුමට අවසර %1$d ක් අවශ්‍ය වේ. ඔබට ඕනෑම වේලාවක සැකසුම් > යෙදුම් > යෙදුම් තුළ මේවා අහෝසි කළ හැකිය.</item>
+        <item quantity="one">මෙම යෙදුමට %1$d අවසරයක් අවශ්‍ය වේ. ඔබට ඕනෑම වේලාවක සැකසුම් > යෙදුම් > යෙදුම් තුළ මෙය අහෝසි කළ හැකිය.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">මෙම යෙදුමට අවසර %1$d ක් අවශ්‍ය වේ. ඔබට ඕනෑම වේලාවක සැකසුම් > යෙදුම් සහ සේවා > යෙදුම් තුළ මේවා අහෝසි කළ හැකිය.</item>
+        <item quantity="one">මෙම යෙදුමට %1$d අවසරයක් අවශ්‍ය වේ. ඔබට ඕනෑම වේලාවක සැකසුම් > යෙදුම් සහ සේවා > යෙදුම් තුළ මෙය අහෝසි කළ හැකිය.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">ත්‍යාග %1$d ක්</item>
+        <item quantity="one">%1$d ත්‍යාගයක්</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d දහසක්</item>
+        <item quantity="one">%1$d දහසක්</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">තරු %1$d ක්</item>
+        <item quantity="one">%1$d තරුවක්</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">ශ්‍රේණිකරණය: %s</item>
+        <item quantity="one">ශ්‍රේණිකරණය: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">ශ්‍රේණිගත කිරීම් %1$s ක්</item>
+        <item quantity="one">%1$s ශ්‍රේණිකරණයක්</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">විවෘත කිරීම් %1$s ක්</item>
+        <item quantity="one">%1$s විවෘත කිරීමක්</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">නව නිර්දේශ %d ක්</item>
+        <item quantity="one">%d නව නිර්දේශයක්</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$sB</item>
+        <item quantity="one">%1$sB</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$sM</item>
+        <item quantity="one">%1$sM</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$sදහසක්</item>
+        <item quantity="one">%1$sK</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">යෙදුම් %1$d ක් යාවත් කර ඇත</item>
+        <item quantity="one">%1$d යෙදුමක් යාවත් කර ඇත</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">යෙදුම් %1$d ක් යාවත් වෙමින් පවතී</item>
+        <item quantity="one">%1$d යෙදුමක් යාවත් වෙමින් පවතී</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">රූපය %1$d MB ට වඩා විශාල විය නොහැක.</item>
+        <item quantity="one">රූපය %1$d MB ට වඩා විශාල විය නොහැක.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">ඡායාරූප %d</item>
+        <item quantity="one">%d ඡායාරූපයක්</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d තේරිණි</item>
+        <item quantity="one">%1$d/%2$d තේරිණි</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">වීඩියෝ %d ක්</item>
+        <item quantity="one">%d වීඩියෝවක්</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">ප්‍රතිලාභ %d ක්</item>
+        <item quantity="one">%d ප්‍රතිලාභයක්</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">විරාම කළ ස්ථාපනය කිරීම් සියල්ල මකන්න (යෙදුම් %1$sක්, %2$s නිදහස් කරන්න)</item>
+        <item quantity="one">විරාම කළ ස්ථාපනය කිරීම් සියල්ල මකන්න (යෙදුම් %1$sක්, %2$s නිදහස් කරන්න)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d තෝරන ලදී)"</item>
+        <item quantity="one">" 
+(%1$d තෝරන ලදී)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">%1$d වන පිටුව</item>
+        <item quantity="one">%1$d වන පිටුව</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">ස්ථාපනය කිරීම් %1$sක් විරාම කෙරිණි.</item>
+        <item quantity="one">ස්ථාපනය කිරීම් %1$sක් විරාම කෙරිණි.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d මිනිත්තුවකට පෙර</item>
+        <item quantity="one">%d මිනිත්තුවකට පෙර</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">අමතර ඒවා %1$d</item>
+        <item quantity="one">අමතර %1$d</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">බාගැනීම් %1$s ක්</item>
+        <item quantity="one">%1$s බාගැනීමක්</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">තරු %1$s ක් ලෙස ශ්‍රේණිකරණය කෙරිණි</item>
+        <item quantity="one">%1$s තරුවක් ලෙස ශ්‍රේණිකරණය කෙරිණි</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">යෙදුම් %1$sක කාලීන ස්ථාපනය කිරීම් සම්පූර්ණයි</item>
+        <item quantity="one">යෙදුම් %1$sක කාලීන ස්ථාපනය කිරීම් සම්පූර්ණයි</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">ඔබ Wi-Fi වෙත සම්බන්ධ වන විට යෙදුම් %1$d ක් බාගත වීමට පටන්ගනු ඇත.</item>
+        <item quantity="one">ඔබ Wi-Fi වෙත සම්බන්ධ වන විට %1$d යෙදුමක් බාගත වීමට පටන්ගනු ඇත.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s පෙර ඇණවුම් කෙරිණී)</item>
+        <item quantity="one">(%1$s පෙර ඇණවුම් කෙරිණී)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d මිලියනයක් වෙන් කළා)</item>
+        <item quantity="one">(1 මිලියනයක් වෙන් කළා)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d දහසක් වෙන් කළා)</item>
+        <item quantity="one">(1 දහසක් වෙන් කළා)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">යෙදුම් %1$sක් ස්ථාපනය කරන්න ද?</item>
+        <item quantity="one">යෙදුම් %1$sක් ස්ථාපනය කරන්න ද?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">ස්ථාපන කිරීම් %1$sක් සිදු වෙමින් පවතී.</item>
+        <item quantity="one">ස්ථාපන කිරීම් %1$sක් සිදු වෙමින් පවතී.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">%1$d න්</item>
+        <item quantity="one">%1$d න්</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">ස්ථානීය යෙදුම් %d ක් සොයන්න</item>
+        <item quantity="one">%d ස්ථානීය යෙදුමක් සොයන්න</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">යෙදුම් %dක් යාවත් කිරීම් ලැයිස්තුවට පුනරුත්තාපනය කර ඒවා යාවත් කිරීමට ඉඩ දෙන්න.</item>
+        <item quantity="one">යෙදුම් %dක් යාවත් කිරීම් ලැයිස්තුවට පුනරුත්තාපනය කර එය යාවත් කිරීමට ඉඩ දෙන්න.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">යෙදුම් යාවත්කාල %1$s ක් තිබේ</item>
+        <item quantity="one">%1$s යෙදුම් යාවත්කාලයක් තිබේ</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">යෙදුම් යාවත්කාල %1$s ක් නිර්දේශිතයි. මුළු ප්‍රමාණය: %2$s.</item>
+        <item quantity="one">යෙදුම් යාවත්කාල %1$s ක් නිර්දේශිතයි. ප්‍රමාණය: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">යෙදුම් යාවත්කාලීන %1$d ක් ලද හැකිය. තරම: %2$s.</item>
+        <item quantity="one">%1$d යෙදුම් යාවත්කාලීනයක් ලද හැකිය. තරම: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">දින %d ක් භාවිතා නොකරන ලදී</item>
+        <item quantity="one">%d දිනක් භාවිතා නොකරන ලදී</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">පැය %d ක්</item>
+        <item quantity="one">%d පැයක්</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">මිනිත්තු %d ක්</item>
+        <item quantity="one">%d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">තත්පර %d ක්</item>
+        <item quantity="one">%d තත්පරයක්</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">කාර්යයන් %d ක් සහ බාගත් ගොනු හිස් කරන්න ද?</item>
+        <item quantity="one">%d කාර්යයක් සහ බාගත් ගොනු හිස් කරන්න ද?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d-දින ඇතුළත්වීමේ පේළිය</item>
+        <item quantity="one">%d-දින ඇතුළත්වීමේ පේළිය</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">%d වන දිනය</item>
+        <item quantity="one">%d වන දිනය</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">යෙදුම් %1$dක් බාගන්නා ලදී</item>
+        <item quantity="one">%1$d යෙදුමක් බාගන්නා ලදී</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">ශ්‍රේණිකරණය: %s</item>
+        <item quantity="one">ශ්‍රේණිකරණය: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">මිනි %d කට පෙර</item>
+        <item quantity="one">මිනි %d කට පෙර</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%1$s ඇතුළුව යෙදුම් %2$d ක්</item>
+        <item quantity="one">%2$d යෙදුමක් (%1$s)</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">රතු තිත් ලාංඡනය, නොකියවූ දැනුම්දීම් %1$s ක්</item>
+        <item quantity="one">රතු තිත් ලාංඡනය, %1$s නොකියවූ දැනුම්දීමක්</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">ප්‍රදාන %d ක්</item>
+        <item quantity="one">%d ප්‍රදානයක්</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">ප්‍රජා ත්‍යාග %d ක්</item>
+        <item quantity="one">%d ප්‍රජා ත්‍යාගයක්</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">ත්‍යාග %d ක්</item>
+        <item quantity="one">%d ත්‍යාගයක්</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">ඔබේ කලාපයේ %d දෙනෙකුට මෙය අවශ්‍යයි</item>
+        <item quantity="one">ඔබේ කලාපයේ %d පුද්ගලයෙකුට මෙය අවශ්‍යයි</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">අයිතම %1$d ක් තෝරා ගන්නා ලදී</item>
+        <item quantity="one">අයිතම %1$d ක් තෝරා ගන්නා ලදී</item>
+    </plurals>
+</resources>

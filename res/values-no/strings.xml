@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="captcha_tip_close">stenging</string>
+    <string name="captcha_tip_init_timeout">Initialiseringen ble tidsavbrutt, klikk på Prøv på nytt</string>
+    <string name="captcha_tip_load_failed">Kunne ikke laste inn. Klikk for å prøve på nytt</string>
+    <string name="captcha_tip_loading">Intelligent deteksjon</string>
+    <string name="captcha_tip_no_network">Nettverket er unormalt, sjekk nettverket og prøv igjen</string>
+    <string name="captcha_tip_validate_timeout">Autentisering ble tidsavbrutt, vennligst lukk og sjekk nettverket</string>
+</resources>

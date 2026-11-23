@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginBottom="0.0dip"
+        android:paddingStart="@dimen/appgallery_max_padding_start"
+        android:paddingEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+            android:id="@id/small_banner_v2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/wisedist_image"
+            app:corner_radius="@dimen/appgallery_default_corner_radius_l"
+            app:touch_drawable="@drawable/wisedist_small_banner_v2_line_image_selector" />
+    </RelativeLayout>
+</LinearLayout>

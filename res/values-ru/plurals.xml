@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="agguard_find_multi_risk_apps">
+        <item quantity="other">%2$d подозрительных приложения (в том числе %1$s)</item>
+        <item quantity="one">%2$d подозрительное приложение (%1$s)</item>
+        <item quantity="few">%2$d подозрительных приложения (в том числе %1$s)</item>
+        <item quantity="many">%2$d подозрительных приложений (в том числе %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos">
+        <item quantity="other">Найдено %2$d неиспользуемых приложения (в том числе %1$s)</item>
+        <item quantity="one">Найдено %2$d неиспользуемое приложение (%1$s)</item>
+        <item quantity="few">Найдено %2$d неиспользуемых приложения (в том числе %1$s)</item>
+        <item quantity="many">Найдено %2$d неиспользуемых приложений (в том числе %1$s)</item>
+    </plurals>
+    <plurals name="agguard_notification_title_unusedinfos_v2">
+        <item quantity="other">%d неиспользуемых приложения</item>
+        <item quantity="one">%d неиспользуемое приложение</item>
+        <item quantity="few">%d неиспользуемых приложения</item>
+        <item quantity="many">%d неиспользуемых приложений</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_controlling">
+        <item quantity="other">Обработано %d приложения с вредоносной активностью</item>
+        <item quantity="one">Обработано %d приложение с вредоносной активностью</item>
+        <item quantity="few">Обработано %d приложения с вредоносной активностью</item>
+        <item quantity="many">Обработано %d приложений с вредоносной активностью</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_behavior_to_process">
+        <item quantity="other">Выявлено %d приложения с вредоносной активностью</item>
+        <item quantity="one">Выявлено %d приложение с вредоносной активностью</item>
+        <item quantity="few">Выявлено %d приложения с вредоносной активностью</item>
+        <item quantity="many">Выявлено %d приложений с вредоносной активностью</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_controlling">
+        <item quantity="other">Обработано %d мошеннических приложения</item>
+        <item quantity="one">Обработано %d мошенническое приложение</item>
+        <item quantity="few">Обработано %d мошеннических приложения</item>
+        <item quantity="many">Обработано %d мошеннических приложений</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_fraud_to_process">
+        <item quantity="other">Выявлено %d мошеннических приложения</item>
+        <item quantity="one">Выявлено %d мошенническое приложение</item>
+        <item quantity="few">Выявлено %d мошеннических приложения</item>
+        <item quantity="many">Выявлено %d мошеннических приложений</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_controlling">
+        <item quantity="other">Обработано %d приложения с угрозами для конфиденциальности</item>
+        <item quantity="one">Обработано %d приложение с угрозами для конфиденциальности</item>
+        <item quantity="few">Обработано %d приложения с угрозами для конфиденциальности</item>
+        <item quantity="many">Обработано %d приложений с угрозами для конфиденциальности</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_privacy_protection_to_process">
+        <item quantity="other">Выявлено %d приложения с угрозами для конфиденциальности</item>
+        <item quantity="one">Выявлено %d приложение с угрозами для конфиденциальности</item>
+        <item quantity="few">Выявлено %d приложения с угрозами для конфиденциальности</item>
+        <item quantity="many">Выявлено %d приложений с угрозами для конфиденциальности</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_controlling">
+        <item quantity="other">Обработано %d приложения с угрозами безопасности</item>
+        <item quantity="one">Обработано %d приложение с угрозами безопасности</item>
+        <item quantity="few">Обработано %d приложения с угрозами безопасности</item>
+        <item quantity="many">Обработано %d приложений с угрозами безопасности</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_safety_tip_to_process">
+        <item quantity="other">Выявлено %d приложения с угрозами безопасности</item>
+        <item quantity="one">Выявлено %d приложение с угрозами безопасности</item>
+        <item quantity="few">Выявлено %d приложения с угрозами безопасности</item>
+        <item quantity="many">Выявлено %d приложений с угрозами безопасности</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_controlling">
+        <item quantity="other">Обработано %d приложения, содержащих вирусы</item>
+        <item quantity="one">Обработано %d приложение, содержащее вирусы</item>
+        <item quantity="few">Обработано %d приложения, содержащих вирусы</item>
+        <item quantity="many">Обработано %d приложений, содержащих вирусы</item>
+    </plurals>
+    <plurals name="agguard_one_click_scan_virus_to_process">
+        <item quantity="other">Выявлено %d приложения, содержащих вирусы</item>
+        <item quantity="one">Выявлено %d приложение, содержащее вирусы</item>
+        <item quantity="few">Выявлено %d приложения, содержащих вирусы</item>
+        <item quantity="many">Выявлено %d приложений, содержащих вирусы</item>
+    </plurals>
+    <plurals name="agguard_optimize_result_num">
+        <item quantity="other">Оптимизировано %d элемента</item>
+        <item quantity="one">Оптимизирован %d элемент</item>
+        <item quantity="few">Оптимизировано %d элемента</item>
+        <item quantity="many">Оптимизировано %d элементов</item>
+    </plurals>
+    <plurals name="agguard_pending_apps">
+        <item quantity="other">Обнаружено %d ошибки</item>
+        <item quantity="one">Обнаружена %d ошибка</item>
+        <item quantity="few">Обнаружено %d ошибки</item>
+        <item quantity="many">Обнаружено %d ошибок</item>
+    </plurals>
+    <plurals name="agguard_recent_scan_title">
+        <item quantity="other">Проверено %d приложения</item>
+        <item quantity="one">Проверено %d приложение</item>
+        <item quantity="few">Проверено %d приложения</item>
+        <item quantity="many">Проверено %d приложений</item>
+    </plurals>
+    <plurals name="agguard_risk_detail_unused_xday">
+        <item quantity="other">%d дня назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+    </plurals>
+    <plurals name="agguard_safety_report_card_apps_unit">
+        <item quantity="other">%d угрозы</item>
+        <item quantity="one">%d угроза</item>
+        <item quantity="few">%d угрозы</item>
+        <item quantity="many">%d угроз</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_all">
+        <item quantity="other">%d приложения проверено</item>
+        <item quantity="one">%d приложение проверено</item>
+        <item quantity="few">%d приложения проверено</item>
+        <item quantity="many">%d приложений проверено</item>
+    </plurals>
+    <plurals name="agguard_safety_report_chart_risk">
+        <item quantity="other">%d угрозы</item>
+        <item quantity="one">%d угроза</item>
+        <item quantity="few">%d угрозы</item>
+        <item quantity="many">%d угроз</item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_risk">
+        <item quantity="other">За последние %1$d дней обнаружено %2$d подозрительных приложения. Подробнее >></item>
+        <item quantity="one">За последние %1$d дней обнаружено %2$d подозрительное приложение. Подробнее >></item>
+        <item quantity="few">За последние %1$d дней обнаружено %2$d подозрительных приложения. Подробнее >></item>
+        <item quantity="many">За последние %1$d дней обнаружено %2$d подозрительных приложений. Подробнее >></item>
+    </plurals>
+    <plurals name="agguard_safety_report_notification_content_safe">
+        <item quantity="other">За последние %1$d дней проверено %2$d приложения. Подробнее >></item>
+        <item quantity="one">За последние %1$d дней проверено %2$d приложение. Подробнее >></item>
+        <item quantity="few">За последние %1$d дней проверено %2$d приложения. Подробнее >></item>
+        <item quantity="many">За последние %1$d дней проверено %2$d приложений. Подробнее >></item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_compress_title">
+        <item quantity="other">%d приложения можно сжать</item>
+        <item quantity="one">%d приложение можно сжать</item>
+        <item quantity="few">%d приложения можно сжать</item>
+        <item quantity="many">%d приложений можно сжать</item>
+    </plurals>
+    <plurals name="agguard_scan_result_tab_unknown_app_desc">
+        <item quantity="other">Найдено %d неизвестных приложения.</item>
+        <item quantity="one">Найдено %d неизвестное приложение.</item>
+        <item quantity="few">Найдено %d неизвестных приложения.</item>
+        <item quantity="many">Найдено %d неизвестных приложений.</item>
+    </plurals>
+    <plurals name="agguard_space_clean_item_compress_title">
+        <item quantity="other">Сжимаемые приложения (%d)</item>
+        <item quantity="one">Сжимаемые приложения (%d)</item>
+        <item quantity="few">Сжимаемые приложения (%d)</item>
+        <item quantity="many">Сжимаемые приложения (%d)</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_content_new_os">
+        <item quantity="other">Найдено %d неизвестных приложения. Проверьте.</item>
+        <item quantity="one">Найдено %d неизвестное приложение. Проверьте.</item>
+        <item quantity="few">Найдено %d неизвестных приложения. Проверьте.</item>
+        <item quantity="many">Найдено %d неизвестных приложений. Проверьте.</item>
+    </plurals>
+    <plurals name="agguard_unknown_app_notification_title">
+        <item quantity="other">Найдено %d неизвестных приложения</item>
+        <item quantity="one">Найдено %d неизвестное приложение</item>
+        <item quantity="few">Найдено %d неизвестных приложения</item>
+        <item quantity="many">Найдено %d неизвестных приложений</item>
+    </plurals>
+    <plurals name="agguard_used_time_minute_before">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+    </plurals>
+    <plurals name="agoverseascard_app_score">
+        <item quantity="other">Рейтинг: %s</item>
+        <item quantity="one">Рейтинг: %s</item>
+        <item quantity="few">Рейтинг: %s</item>
+        <item quantity="many">Рейтинг: %s</item>
+    </plurals>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и загружая это приложение, вы подтверждаете, что вам исполнилось %2$d года.</item>
+        <item quantity="one">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и загружая это приложение, вы подтверждаете, что вам исполнился %2$d год.</item>
+        <item quantity="few">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и загружая это приложение, вы подтверждаете, что вам исполнилось %2$d года.</item>
+        <item quantity="many">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и загружая это приложение, вы подтверждаете, что вам исполнилось %2$d лет.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">Приостановлено загрузок: %1$d</item>
+        <item quantity="one">Приостановлено загрузок: %1$d</item>
+        <item quantity="few">Приостановлено загрузок: %1$d</item>
+        <item quantity="many">Приостановлено загрузок: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и используя это приложение, вы подтверждаете, что вам исполнилось %2$d года.</item>
+        <item quantity="one">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и используя это приложение, вы подтверждаете, что вам исполнился %2$d год.</item>
+        <item quantity="few">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и используя это приложение, вы подтверждаете, что вам исполнилось %2$d года.</item>
+        <item quantity="many">Приложение %1$s содержит контент, имеющий возрастные ограничения. Нажимая %3$s и используя это приложение, вы подтверждаете, что вам исполнилось %2$d лет.</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_dislike">
+        <item quantity="other">%d отметки Не нравится</item>
+        <item quantity="one">%d отметка Не нравится</item>
+        <item quantity="few">%d отметки Не нравится</item>
+        <item quantity="many">%d отметок Не нравится</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_disliked">
+        <item quantity="other">%d отметки Не нравится, вы поставили отметку Не нравится</item>
+        <item quantity="one">%d отметка Не нравится, вы поставили отметку Не нравится</item>
+        <item quantity="few">%d отметки Не нравится, вы поставили отметку Не нравится</item>
+        <item quantity="many">%d отметок Не нравится, вы поставили отметку Не нравится</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_like">
+        <item quantity="other">%d отметки Нравится</item>
+        <item quantity="one">%d отметка Нравится</item>
+        <item quantity="few">%d отметки Нравится</item>
+        <item quantity="many">%d отметок Нравится</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_read_liked">
+        <item quantity="other">%d отметки Нравится, вы поставили отметку Нравится</item>
+        <item quantity="one">%d отметка Нравится, вы поставили отметку Нравится</item>
+        <item quantity="few">%d отметки Нравится, вы поставили отметку Нравится</item>
+        <item quantity="many">%d отметок Нравится, вы поставили отметку Нравится</item>
+    </plurals>
+    <plurals name="appcomment_accessibility_score">
+        <item quantity="other">%d звезды</item>
+        <item quantity="one">%d звезда</item>
+        <item quantity="few">%d звезды</item>
+        <item quantity="many">%d звезд</item>
+    </plurals>
+    <plurals name="appcomment_comment_count_title">
+        <item quantity="other">%1$d комментария</item>
+        <item quantity="one">%1$d комментарий</item>
+        <item quantity="few">%1$d комментария</item>
+        <item quantity="many">%1$d комментариев</item>
+    </plurals>
+    <plurals name="appcomment_comment_time_minute_before">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+    </plurals>
+    <plurals name="appcomment_commented_people">
+        <item quantity="other">%d отзыва</item>
+        <item quantity="one">%d отзыв</item>
+        <item quantity="few">%d отзыва</item>
+        <item quantity="many">%d отзывов</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_likes">
+        <item quantity="other">%1$d отметки Нравится</item>
+        <item quantity="one">%1$d отметка Нравится</item>
+        <item quantity="few">%1$d отметки Нравится</item>
+        <item quantity="many">%1$d отметок Нравится</item>
+    </plurals>
+    <plurals name="appcomment_commentwall_replies">
+        <item quantity="other">%1$d ответа</item>
+        <item quantity="one">%1$d ответ</item>
+        <item quantity="few">%1$d ответа</item>
+        <item quantity="many">%1$d ответов</item>
+    </plurals>
+    <plurals name="appcomment_reply_all">
+        <item quantity="other">Все ответы (%1$d)</item>
+        <item quantity="one">Все ответы (%1$d)</item>
+        <item quantity="few">Все ответы (%1$d)</item>
+        <item quantity="many">Все ответы (%1$d)</item>
+    </plurals>
+    <plurals name="appcomment_without_enough_play_time_toast">
+        <item quantity="other">Чтобы оставить комментарий, требуется играть минимум %1$d минуты.</item>
+        <item quantity="one">Чтобы оставить комментарий, требуется играть минимум %1$d минуту.</item>
+        <item quantity="few">Чтобы оставить комментарий, требуется играть минимум %1$d минуты.</item>
+        <item quantity="many">Чтобы оставить комментарий, требуется играть минимум %1$d минут.</item>
+    </plurals>
+    <plurals name="appcommon_installing_num">
+        <item quantity="other">Выполняется установка %1$s приложений</item>
+        <item quantity="one">Выполняется установка %1$s приложения</item>
+        <item quantity="few">Выполняется установка %1$s приложений</item>
+        <item quantity="many">Выполняется установка %1$s приложений</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">Выбрано %1$d элемента</item>
+        <item quantity="one">Выбран %1$d элемент</item>
+        <item quantity="few">Выбрано %1$d элемента</item>
+        <item quantity="many">Выбрано %1$d элементов</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">Удалить выбранные приложения, включая %1$s?</item>
+        <item quantity="one">Удалить %1$s?</item>
+        <item quantity="few">Удалить выбранные приложения, включая %1$s?</item>
+        <item quantity="many">Удалить выбранные приложения, включая %1$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">Удалить приложение %1$s и еще %2$s приложения из аккаунта %3$s?</item>
+        <item quantity="one">Удалить приложение %1$s и еще %2$s приложение из аккаунта %3$s?</item>
+        <item quantity="few">Удалить приложение %1$s и еще %2$s приложения из аккаунта %3$s?</item>
+        <item quantity="many">Удалить приложение %1$s и еще %2$s приложений из аккаунта %3$s?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_v2">
+        <item quantity="other">Удалить %2$s приложения, включая %1$s?</item>
+        <item quantity="one">Удалить %2$s приложение, включая %1$s?</item>
+        <item quantity="few">Удалить %2$s приложения, включая %1$s?</item>
+        <item quantity="many">Удалить %2$s приложений, включая %1$s?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">Удалить %1$s записи?</item>
+        <item quantity="one">Удалить %1$s запись?</item>
+        <item quantity="few">Удалить %1$s записи?</item>
+        <item quantity="many">Удалить %1$s записей?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">Следующим %1$d приложениям требуются права:</item>
+        <item quantity="one">Следующему %1$d приложению требуются права:</item>
+        <item quantity="few">Следующим %1$d приложениям требуются права:</item>
+        <item quantity="many">Следующим %1$d приложениям требуются права:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d оценки</item>
+        <item quantity="one">%1$d оценка</item>
+        <item quantity="few">%1$d оценки</item>
+        <item quantity="many">%1$d оценок</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$s млн оценок</item>
+        <item quantity="one">%1$s млн оценок</item>
+        <item quantity="few">%1$s млн оценок</item>
+        <item quantity="many">%1$s млн оценок</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$s тыс. оценок</item>
+        <item quantity="one">%1$s тыс. оценок</item>
+        <item quantity="few">%1$s тыс. оценок</item>
+        <item quantity="many">%1$s тыс. оценок</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s активности</item>
+        <item quantity="one">%1$s активность</item>
+        <item quantity="few">%1$s активности</item>
+        <item quantity="many">%1$s активностей</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">Осталось меньше %1$s минут игры. Сохраните вашу игру как можно скорее.</item>
+        <item quantity="one">Осталось меньше %1$s минуты игры. Сохраните вашу игру как можно скорее.</item>
+        <item quantity="few">Осталось меньше %1$s минут игры. Сохраните вашу игру как можно скорее.</item>
+        <item quantity="many">Осталось меньше %1$s минут игры. Сохраните вашу игру как можно скорее.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">Осталось только %d мин.</item>
+        <item quantity="one">Осталась только %d мин.</item>
+        <item quantity="few">Осталось только %d мин.</item>
+        <item quantity="many">Осталось только %d мин.</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_hour">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+        <item quantity="few">%d мин</item>
+        <item quantity="many">%d мин</item>
+    </plurals>
+    <plurals name="component_detail_accessibility_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+        <item quantity="few">%d с</item>
+        <item quantity="many">%d с</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_billion">
+        <item quantity="other">%1$s млрд</item>
+        <item quantity="one">%1$s млрд</item>
+        <item quantity="few">%1$s млрд</item>
+        <item quantity="many">%1$s млрд</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_million">
+        <item quantity="other">%1$s млн</item>
+        <item quantity="one">%1$s млн</item>
+        <item quantity="few">%1$s млн</item>
+        <item quantity="many">%1$s млн</item>
+    </plurals>
+    <plurals name="component_detail_number_display_unit_thousand">
+        <item quantity="other">%1$s тыс.</item>
+        <item quantity="one">%1$s тыс.</item>
+        <item quantity="few">%1$s тыс.</item>
+        <item quantity="many">%1$s тыс.</item>
+    </plurals>
+    <plurals name="component_detail_post_count_record">
+        <item quantity="other">%1$d комментария</item>
+        <item quantity="one">%1$d комментарий</item>
+        <item quantity="few">%1$d комментария</item>
+        <item quantity="many">%1$d комментариев</item>
+    </plurals>
+    <plurals name="component_detail_post_time_minute_before">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+    </plurals>
+    <plurals name="component_detail_report_contact_text_count_hint">
+        <item quantity="other">Максимум %1$d символа</item>
+        <item quantity="one">Максимум %1$d символ</item>
+        <item quantity="few">Максимум %1$d символа</item>
+        <item quantity="many">Максимум %1$d символов</item>
+    </plurals>
+    <plurals name="component_detail_report_des_too_low_hint">
+        <item quantity="other">Введите не менее %1$d символов</item>
+        <item quantity="one">Введите не менее %1$d символа</item>
+        <item quantity="few">Введите не менее %1$d символов</item>
+        <item quantity="many">Введите не менее %1$d символов</item>
+    </plurals>
+    <plurals name="component_detail_report_proof_limit">
+        <item quantity="other">"Не более %1$d изображений.
+Макс. размер каждого: %2$s"</item>
+        <item quantity="one">"Не более %1$d изображения.
+Макс. размер каждого: %2$s"</item>
+        <item quantity="few">"Не более %1$d изображений.
+Макс. размер каждого: %2$s"</item>
+        <item quantity="many">"Не более %1$d изображений.
+Макс. размер каждого: %2$s"</item>
+    </plurals>
+    <plurals name="component_detail_report_tips_image_max_count">
+        <item quantity="other">Количество изображений для этого типа проблемы не должно превышать %d</item>
+        <item quantity="one">Количество изображений для этого типа проблемы не должно превышать %d</item>
+        <item quantity="few">Количество изображений для этого типа проблемы не должно превышать %d</item>
+        <item quantity="many">Количество изображений для этого типа проблемы не должно превышать %d</item>
+    </plurals>
+    <plurals name="component_detail_score_format">
+        <item quantity="other">%1$s звезды</item>
+        <item quantity="one">%1$s звезда</item>
+        <item quantity="few">%1$s звезды</item>
+        <item quantity="many">%1$s звезд</item>
+    </plurals>
+    <plurals name="contentrestrict_input_passward_error_five_times">
+        <item quantity="other">Пароль введен некорректно %1$d раз. Повторите попытку через %2$d мин.</item>
+        <item quantity="one">Пароль введен некорректно %1$d раз. Повторите попытку через %2$d мин.</item>
+        <item quantity="few">Пароль введен некорректно %1$d раз. Повторите попытку через %2$d мин.</item>
+        <item quantity="many">Пароль введен некорректно %1$d раз. Повторите попытку через %2$d мин.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$s млрд человек приняли участие</item>
+        <item quantity="one">%1$s млрд человек приняли участие</item>
+        <item quantity="few">%1$s млрд человек приняли участие</item>
+        <item quantity="many">%1$s млрд человек приняли участие</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$s млн человек приняли участие</item>
+        <item quantity="one">%1$s млн человек приняли участие</item>
+        <item quantity="few">%1$s млн человек приняли участие</item>
+        <item quantity="many">%1$s млн человек приняли участие</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s человека приняли участие</item>
+        <item quantity="one">%1$s человек принял участие</item>
+        <item quantity="few">%1$s человека приняли участие</item>
+        <item quantity="many">%1$s человек приняли участие</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$s тыс. человек приняли участие</item>
+        <item quantity="one">%1$s тыс. человек приняли участие</item>
+        <item quantity="few">%1$s тыс. человек приняли участие</item>
+        <item quantity="many">%1$s тыс. человек приняли участие</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$s млрд человек купили это</item>
+        <item quantity="one">%1$s млрд человек купили это</item>
+        <item quantity="few">%1$s млрд человек купили это</item>
+        <item quantity="many">%1$s млрд человек купили это</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$s млн человек купили это</item>
+        <item quantity="one">%1$s млн человек купили это</item>
+        <item quantity="few">%1$s млн человек купили это</item>
+        <item quantity="many">%1$s млн человек купили это</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s человека купили это</item>
+        <item quantity="one">%1$s человек купил это</item>
+        <item quantity="few">%1$s человека купили это</item>
+        <item quantity="many">%1$s человек купили это</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$s тыс. человек купили это</item>
+        <item quantity="one">%1$s тыс. человек купили это</item>
+        <item quantity="few">%1$s тыс. человек купили это</item>
+        <item quantity="many">%1$s тыс. человек купили это</item>
+    </plurals>
+    <plurals name="detail_data_scored">
+        <item quantity="other">%1$s оценки</item>
+        <item quantity="one">%1$s оценка</item>
+        <item quantity="few">%1$s оценки</item>
+        <item quantity="many">%1$s оценок</item>
+    </plurals>
+    <plurals name="detail_operate_rating_stars">
+        <item quantity="other">Оценка, %1$s звезды</item>
+        <item quantity="one">Оценка, %1$s звезда</item>
+        <item quantity="few">Оценка, %1$s звезды</item>
+        <item quantity="many">Оценка, %1$s звезд</item>
+    </plurals>
+    <plurals name="detail_read_rating_stars">
+        <item quantity="other">Оценка: %1$s звезды</item>
+        <item quantity="one">Оценка: %1$s звезда</item>
+        <item quantity="few">Оценка: %1$s звезды</item>
+        <item quantity="many">Оценка: %1$s звезд</item>
+    </plurals>
+    <plurals name="dialog_risk_tip_continue_button_text">
+        <item quantity="other">Установить (%1$d)</item>
+        <item quantity="one">Установить (%1$d)</item>
+        <item quantity="few">Установить (%1$d)</item>
+        <item quantity="many">Установить (%1$d)</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_hour">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_minutes">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="explore_card_accessibility_seconds">
+        <item quantity="other">%d секунды</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">Выбрано %1$d элемента</item>
+        <item quantity="one">Выбран %1$d элемент</item>
+        <item quantity="few">Выбрано %1$d элемента</item>
+        <item quantity="many">Выбрано %1$d элементов</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">Длина описания должна быть минимум %d символа. По возможности приложите скриншоты.</item>
+        <item quantity="one">Длина описания должна быть минимум %d символов. По возможности приложите скриншоты.</item>
+        <item quantity="few">Длина описания должна быть минимум %d символа. По возможности приложите скриншоты.</item>
+        <item quantity="many">Длина описания должна быть минимум %d символов. По возможности приложите скриншоты.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d часа</item>
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d минуты</item>
+        <item quantity="one">%1$d минута</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d с</item>
+        <item quantity="one">%1$d с</item>
+        <item quantity="few">%1$d с</item>
+        <item quantity="many">%1$d с</item>
+    </plurals>
+    <plurals name="forum_forum_topic_count">
+        <item quantity="other">Публикации: %1$s</item>
+        <item quantity="one">Публикации: %1$s</item>
+        <item quantity="few">Публикации: %1$s</item>
+        <item quantity="many">Публикации: %1$s</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_like">
+        <item quantity="other">%d отметки Нравится</item>
+        <item quantity="one">%d отметка Нравится</item>
+        <item quantity="few">%d отметки Нравится</item>
+        <item quantity="many">%d отметок Нравится</item>
+    </plurals>
+    <plurals name="forum_hotspot_card_reply">
+        <item quantity="other">%d ответа</item>
+        <item quantity="one">%d ответ</item>
+        <item quantity="few">%d ответа</item>
+        <item quantity="many">%d ответов</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_billion">
+        <item quantity="other">%1$s млрд</item>
+        <item quantity="one">%1$s млрд</item>
+        <item quantity="few">%1$s млрд</item>
+        <item quantity="many">%1$s млрд</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_million">
+        <item quantity="other">%1$s млн</item>
+        <item quantity="one">%1$s млн</item>
+        <item quantity="few">%1$s млн</item>
+        <item quantity="many">%1$s млн</item>
+    </plurals>
+    <plurals name="forum_number_display_unit_thousand">
+        <item quantity="other">%1$s тыс.</item>
+        <item quantity="one">%1$s тыс.</item>
+        <item quantity="few">%1$s тыс.</item>
+        <item quantity="many">%1$s тыс.</item>
+    </plurals>
+    <plurals name="forum_post_browse">
+        <item quantity="other">%d просмотра</item>
+        <item quantity="one">%d просмотр</item>
+        <item quantity="few">%d просмотра</item>
+        <item quantity="many">%d просмотров</item>
+    </plurals>
+    <plurals name="forum_post_comment_hint">
+        <item quantity="other">Оставить комментарий (всего %1$d)</item>
+        <item quantity="one">Оставить комментарий (всего %1$d)</item>
+        <item quantity="few">Оставить комментарий (всего %1$d)</item>
+        <item quantity="many">Оставить комментарий (всего %1$d)</item>
+    </plurals>
+    <plurals name="forum_post_comment_more">
+        <item quantity="other">Посмотреть все ответы (%1$d)</item>
+        <item quantity="one">Посмотреть все ответы (%1$d)</item>
+        <item quantity="few">Посмотреть все ответы (%1$d)</item>
+        <item quantity="many">Посмотреть все ответы (%1$d)</item>
+    </plurals>
+    <plurals name="forum_post_vote_join_people">
+        <item quantity="other">%1$s участника</item>
+        <item quantity="one">%1$s участник</item>
+        <item quantity="few">%1$s участника</item>
+        <item quantity="many">%1$s участников</item>
+    </plurals>
+    <plurals name="forum_vote_max_select_option">
+        <item quantity="other">Выберите максимум %s ответа</item>
+        <item quantity="one">Выберите максимум %s ответ</item>
+        <item quantity="few">Выберите максимум %s ответа</item>
+        <item quantity="many">Выберите максимум %s ответов</item>
+    </plurals>
+    <plurals name="forum_vote_multi_select">
+        <item quantity="other">Несколько вариантов (выберите %1$d)</item>
+        <item quantity="one">Несколько вариантов (выберите %1$d)</item>
+        <item quantity="few">Несколько вариантов (выберите %1$d)</item>
+        <item quantity="many">Несколько вариантов (выберите %1$d)</item>
+    </plurals>
+    <plurals name="forum_vote_select_option">
+        <item quantity="other">Выберите %s ответа</item>
+        <item quantity="one">Выберите %s ответ</item>
+        <item quantity="few">Выберите %s ответа</item>
+        <item quantity="many">Выберите %s ответов</item>
+    </plurals>
+    <plurals name="froum_post_vote_join_ticket">
+        <item quantity="other">%1$s голоса</item>
+        <item quantity="one">%1$s голос</item>
+        <item quantity="few">%1$s голоса</item>
+        <item quantity="many">%1$s голосов</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">Этому приложению требуются %1$d права. Вы можете отменить их в любой момент в разделе Настройки > Приложения > Приложения.</item>
+        <item quantity="one">Этому приложению требуется %1$d право. Вы можете отменить его в любой момент в разделе Настройки > Приложения > Приложения.</item>
+        <item quantity="few">Этому приложению требуются %1$d права. Вы можете отменить их в любой момент в разделе Настройки > Приложения > Приложения.</item>
+        <item quantity="many">Этому приложению требуются %1$d прав. Вы можете отменить их в любой момент в разделе Настройки > Приложения > Приложения.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">Этому приложению требуется %1$d права. Вы можете отменить их в любой момент в разделе Настройки > Приложения и службы > Приложения.</item>
+        <item quantity="one">Этому приложению требуется %1$d право. Вы можете отменить его в любой момент в разделе Настройки > Приложения и службы > Приложения.</item>
+        <item quantity="few">Этому приложению требуется %1$d права. Вы можете отменить их в любой момент в разделе Настройки > Приложения и службы > Приложения.</item>
+        <item quantity="many">Этому приложению требуется %1$d прав. Вы можете отменить их в любой момент в разделе Настройки > Приложения и службы > Приложения.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d подарка</item>
+        <item quantity="one">%1$d подарок</item>
+        <item quantity="few">%1$d подарка</item>
+        <item quantity="many">%1$d подарков</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$d тыс.</item>
+        <item quantity="one">%1$d тыс.</item>
+        <item quantity="few">%1$d тыс.</item>
+        <item quantity="many">%1$d тыс.</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d звезды</item>
+        <item quantity="one">%1$d звезда</item>
+        <item quantity="few">%1$d звезды</item>
+        <item quantity="many">%1$d звезд</item>
+    </plurals>
+    <plurals name="hiappbase_app_score">
+        <item quantity="other">Рейтинг: %s</item>
+        <item quantity="one">Рейтинг: %s</item>
+        <item quantity="few">Рейтинг: %s</item>
+        <item quantity="many">Рейтинг: %s</item>
+    </plurals>
+    <plurals name="hiappbase_data_scored">
+        <item quantity="other">%1$s оценки</item>
+        <item quantity="one">%1$s оценка</item>
+        <item quantity="few">%1$s оценки</item>
+        <item quantity="many">%1$s оценок</item>
+    </plurals>
+    <plurals name="hiappbase_detail_opens">
+        <item quantity="other">Открыто %1$s раза</item>
+        <item quantity="one">Открыто %1$s раз</item>
+        <item quantity="few">Открыто %1$s раза</item>
+        <item quantity="many">Открыто %1$s раз</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d новые рекомендации</item>
+        <item quantity="one">%d новая рекомендация</item>
+        <item quantity="few">%d новые рекомендации</item>
+        <item quantity="many">%d новых рекомендаций</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_billion">
+        <item quantity="other">%1$s млрд</item>
+        <item quantity="one">%1$s млрд</item>
+        <item quantity="few">%1$s млрд</item>
+        <item quantity="many">%1$s млрд</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_million">
+        <item quantity="other">%1$s млн</item>
+        <item quantity="one">%1$s млн</item>
+        <item quantity="few">%1$s млн</item>
+        <item quantity="many">%1$s млн</item>
+    </plurals>
+    <plurals name="hiappbase_number_display_unit_thousand">
+        <item quantity="other">%1$s тыс.</item>
+        <item quantity="one">%1$s тыс.</item>
+        <item quantity="few">%1$s тыс.</item>
+        <item quantity="many">%1$s тыс.</item>
+    </plurals>
+    <plurals name="idle_update_notification_update_complete">
+        <item quantity="other">Обновлено %1$d приложения</item>
+        <item quantity="one">Обновлено %1$d приложение</item>
+        <item quantity="few">Обновлено %1$d приложения</item>
+        <item quantity="many">Обновлено %1$d приложений</item>
+    </plurals>
+    <plurals name="idle_update_notification_updating">
+        <item quantity="other">Выполняется обновление %1$d приложений</item>
+        <item quantity="one">Выполняется обновление %1$d приложения</item>
+        <item quantity="few">Выполняется обновление %1$d приложений</item>
+        <item quantity="many">Выполняется обновление %1$d приложений</item>
+    </plurals>
+    <plurals name="media_img_select_file_big_toast">
+        <item quantity="other">Размер изображения не может превышать %1$d МБ.</item>
+        <item quantity="one">Размер изображения не может превышать %1$d МБ.</item>
+        <item quantity="few">Размер изображения не может превышать %1$d МБ.</item>
+        <item quantity="many">Размер изображения не может превышать %1$d МБ.</item>
+    </plurals>
+    <plurals name="media_pics_num_tips">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
+    </plurals>
+    <plurals name="media_selected_count_title">
+        <item quantity="other">%1$d/%2$d выбрано</item>
+        <item quantity="one">%1$d/%2$d выбрано</item>
+        <item quantity="few">%1$d/%2$d выбрано</item>
+        <item quantity="many">%1$d/%2$d выбрано</item>
+    </plurals>
+    <plurals name="media_video_num_tips">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+        <item quantity="many">%d видео</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d привилегии</item>
+        <item quantity="one">%d привилегия</item>
+        <item quantity="few">%d привилегии</item>
+        <item quantity="many">%d привилегий</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">Удалить все приостановленные процессы установки (%1$s приложения, освободиться %2$s)</item>
+        <item quantity="one">Удалить все приостановленные процессы установки (%1$s приложение, освободиться %2$s)</item>
+        <item quantity="few">Удалить все приостановленные процессы установки (%1$s приложения, освободиться %2$s)</item>
+        <item quantity="many">Удалить все приостановленные процессы установки (%1$s приложений, освободиться %2$s)</item>
+    </plurals>
+    <plurals name="oobe_selected_num">
+        <item quantity="other">" 
+(%1$d выбрано)"</item>
+        <item quantity="one">" 
+(%1$d выбрано)"</item>
+        <item quantity="few">" 
+(%1$d выбрано)"</item>
+        <item quantity="many">" 
+(%1$d выбрано)"</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">Страница %1$d</item>
+        <item quantity="one">Страница %1$d</item>
+        <item quantity="few">Страница %1$d</item>
+        <item quantity="many">Страница %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">Приостановлено %1$s процесса установки.</item>
+        <item quantity="one">Приостановлен %1$s процесс установки.</item>
+        <item quantity="few">Приостановлено %1$s процесса установки.</item>
+        <item quantity="many">Приостановлено %1$s процессов установки.</item>
+    </plurals>
+    <plurals name="post_time_minute_before">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">Дополнительно: %1$d</item>
+        <item quantity="one">Дополнительно: %1$d</item>
+        <item quantity="few">Дополнительно: %1$d</item>
+        <item quantity="many">Дополнительно: %1$d</item>
+    </plurals>
+    <plurals name="reading_downloads">
+        <item quantity="other">%1$s загрузки</item>
+        <item quantity="one">%1$s загрузка</item>
+        <item quantity="few">%1$s загрузки</item>
+        <item quantity="many">%1$s загрузок</item>
+    </plurals>
+    <plurals name="reading_ratings">
+        <item quantity="other">Оценка: %1$s звезды</item>
+        <item quantity="one">Оценка: %1$s звезда</item>
+        <item quantity="few">Оценка: %1$s звезды</item>
+        <item quantity="many">Оценка: %1$s звезд</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">Плановая установка %1$s приложений завершена</item>
+        <item quantity="one">Плановая установка %1$s приложения завершена</item>
+        <item quantity="few">Плановая установка %1$s приложений завершена</item>
+        <item quantity="many">Плановая установка %1$s приложений завершена</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">Начнется загрузка %1$d приложений, когда вы подключитесь к сети Wi-Fi.</item>
+        <item quantity="one">Начнется загрузка %1$d приложения, когда вы подключитесь к сети Wi-Fi.</item>
+        <item quantity="few">Начнется загрузка %1$d приложений, когда вы подключитесь к сети Wi-Fi.</item>
+        <item quantity="many">Начнется загрузка %1$d приложений, когда вы подключитесь к сети Wi-Fi.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(Предзаказ: %1$s)</item>
+        <item quantity="one">(Предзаказ: %1$s)</item>
+        <item quantity="few">(Бронирование: %1$s)</item>
+        <item quantity="many">(Бронирование: %1$s)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d млн бронирований)</item>
+        <item quantity="one">(1 млн бронирований)</item>
+        <item quantity="few">(%1$d млн бронирований)</item>
+        <item quantity="many">(%1$d млн бронирований)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d тыс. бронирований)</item>
+        <item quantity="one">(1 тыс. бронирований)</item>
+        <item quantity="few">(%1$d тыс. бронирований)</item>
+        <item quantity="many">(%1$d тыс. бронирований)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">Установить %1$s приложения?</item>
+        <item quantity="one">Установить %1$s приложение?</item>
+        <item quantity="few">Установить %1$s приложения?</item>
+        <item quantity="many">Установить %1$s приложений?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">Выполняются %1$s процесса установки.</item>
+        <item quantity="one">Выполняется %1$s процесс установки.</item>
+        <item quantity="few">Выполняются %1$s процесса установки.</item>
+        <item quantity="many">Выполняются %1$s процессов установки.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">из %1$d</item>
+        <item quantity="one">из %1$d</item>
+        <item quantity="few">из %1$d</item>
+        <item quantity="many">из %1$d</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">Поиск в %d локальных приложениях</item>
+        <item quantity="one">Поиск в %d локальном приложении</item>
+        <item quantity="few">Поиск в %d локальных приложениях</item>
+        <item quantity="many">Поиск в %d локальных приложениях</item>
+    </plurals>
+    <plurals name="updatemanager_cancel_ignore_desc">
+        <item quantity="other">Восстановите %d приложения в списке обновлений, чтобы обновить их.</item>
+        <item quantity="one">Восстановите %d приложение в списке обновлений, чтобы обновить его.</item>
+        <item quantity="few">Восстановите %d приложения в списке обновлений, чтобы обновить их.</item>
+        <item quantity="many">Восстановите %d приложений в списке обновлений, чтобы обновить их.</item>
+    </plurals>
+    <plurals name="updatemanager_recom_update_num_description">
+        <item quantity="other">Доступно %1$s обновления приложений</item>
+        <item quantity="one">Доступно %1$s обновление приложения</item>
+        <item quantity="few">Доступно %1$s обновления приложений</item>
+        <item quantity="many">Доступно %1$s обновлений приложений</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new">
+        <item quantity="other">Рекомендуется обновление %1$s приложений. Общий размер: %2$s.</item>
+        <item quantity="one">Рекомендуется обновление %1$s приложения. Размер: %2$s.</item>
+        <item quantity="few">Рекомендуется обновление %1$s приложений. Общий размер: %2$s.</item>
+        <item quantity="many">Рекомендуется обновление %1$s приложений. Общий размер: %2$s.</item>
+    </plurals>
+    <plurals name="updatemanager_update_notify_title_ex_new2">
+        <item quantity="other">Доступно обновление для %1$d приложений. Размер: %2$s.</item>
+        <item quantity="one">Доступно обновление для %1$d приложения. Размер: %2$s.</item>
+        <item quantity="few">Доступно обновление для %1$d приложений. Размер: %2$s.</item>
+        <item quantity="many">Доступно обновление для %1$d приложений. Размер: %2$s.</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">Не использовалось в течение %d дней</item>
+        <item quantity="one">Не использовалось в течение %d дня</item>
+        <item quantity="few">Не использовалось в течение %d дней</item>
+        <item quantity="many">Не использовалось в течение %d дней</item>
+    </plurals>
+    <plurals name="video_accessibility_hour">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+    </plurals>
+    <plurals name="video_accessibility_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+        <item quantity="few">%d мин</item>
+        <item quantity="many">%d мин</item>
+    </plurals>
+    <plurals name="video_accessibility_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+        <item quantity="few">%d с</item>
+        <item quantity="many">%d с</item>
+    </plurals>
+    <plurals name="webview_lite_external_download_manager_clear_notice_message">
+        <item quantity="other">Удалить %d задачи и загруженные файлы?</item>
+        <item quantity="one">Удалить %d задачу и загруженный файл?</item>
+        <item quantity="few">Удалить %d задачи и загруженные файлы?</item>
+        <item quantity="many">Удалить %d задач и загруженные файлы?</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">Регистрация %d дня подряд</item>
+        <item quantity="one">Регистрация %d день подряд</item>
+        <item quantity="few">Регистрация %d дня подряд</item>
+        <item quantity="many">Регистрация %d дней подряд</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">День %d</item>
+        <item quantity="one">День %d</item>
+        <item quantity="few">День %d</item>
+        <item quantity="many">День %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">Загружено %1$d приложения</item>
+        <item quantity="one">Загружено %1$d приложение</item>
+        <item quantity="few">Загружено %1$d приложения</item>
+        <item quantity="many">Загружено %1$d приложений</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">Рейтинг: %s</item>
+        <item quantity="one">Рейтинг: %s</item>
+        <item quantity="few">Рейтинг: %s</item>
+        <item quantity="many">Рейтинг: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+    </plurals>
+    <plurals name="wisedist_live_notification_multi_card_content_downloading">
+        <item quantity="other">%2$d приложения, включая %1$s</item>
+        <item quantity="one">%2$d приложение (%1$s)</item>
+        <item quantity="few">%2$d приложения, включая %1$s</item>
+        <item quantity="many">%2$d приложений, включая %1$s</item>
+    </plurals>
+    <plurals name="wisedist_tab_num_description">
+        <item quantity="other">Значок в виде красной точки, %1$s непрочитанных уведомления</item>
+        <item quantity="one">Значок в виде красной точки, %1$s непрочитанное уведомление</item>
+        <item quantity="few">Значок в виде красной точки, %1$s непрочитанных уведомления</item>
+        <item quantity="many">Значок в виде красной точки, %1$s непрочитанных уведомлений</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d предложения</item>
+        <item quantity="one">%d предложение</item>
+        <item quantity="few">%d предложения</item>
+        <item quantity="many">%d предложений</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d подарка сообщества</item>
+        <item quantity="one">%d подарок сообщества</item>
+        <item quantity="few">%d подарка сообщества</item>
+        <item quantity="many">%d подарков сообщества</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d подарка</item>
+        <item quantity="one">%d подарок</item>
+        <item quantity="few">%d подарка</item>
+        <item quantity="many">%d подарков</item>
+    </plurals>
+    <plurals name="wish_wishlist_add_count">
+        <item quantity="other">%d человека в Вашем регионе хотят это</item>
+        <item quantity="one">%d человек в Вашем регионе хочет это</item>
+        <item quantity="few">%d человека в Вашем регионе хотят это</item>
+        <item quantity="many">%d человек в Вашем регионе хотят это</item>
+    </plurals>
+    <plurals name="wishlist_appinstall_title_select">
+        <item quantity="other">Выбрано %1$d элемента</item>
+        <item quantity="one">Выбран %1$d элемент</item>
+        <item quantity="few">Выбрано %1$d элемента</item>
+        <item quantity="many">Выбрано %1$d элементов</item>
+    </plurals>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48.0dip"
+        android:layout_centerVertical="true">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:gravity="center_vertical"
+            android:id="@id/tv_virus_info_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_medium"
+            android:textDirection="locale"
+            android:layout_marginEnd="16.0dip"
+            android:layout_toStartOf="@id/tv_virus_info_value"
+            android:layout_alignParentStart="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:gravity="end"
+            android:id="@id/tv_virus_info_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textDirection="locale"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View
+        android:id="@id/divider_top"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        style="@style/AppGallery.Widget.Divider" />
+    <View
+        android:id="@id/divider_bottom"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

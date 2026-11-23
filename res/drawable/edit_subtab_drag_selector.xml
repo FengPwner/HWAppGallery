@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:id="@android:id/background">
+            <corners
+                android:radius="4.0dip" />
+            <stroke
+                android:width="0.0px" />
+            <solid
+                android:color="@color/appgallery_color_edit_subtab_drag_background" />
+        </shape>
+    </item>
+</selector>

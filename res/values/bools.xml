@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="agreementservice_ignore_verify">false</bool>
+    <bool name="appcomment_nickname_check">true</bool>
+    <bool name="appgallery_privacy_oversea_mergeswitch">false</bool>
+    <bool name="detail_about_label_hidden">false</bool>
+    <bool name="detail_score_hidden">false</bool>
+    <bool name="detail_search_hidden">false</bool>
+    <bool name="detail_share_comment_btn_hidden">false</bool>
+    <bool name="download_force_check_hms">false</bool>
+    <bool name="emui_stroke_enable">false</bool>
+    <bool name="filterHarmonyApps">false</bool>
+    <bool name="game_speedup_device_always_support">false</bool>
+    <bool name="hwadvancedcardview_click_enable">true</bool>
+    <bool name="hwbottomsheet_animation_enable">true</bool>
+    <bool name="hwedittext_is_single_line">false</bool>
+    <bool name="hwprogressBar_glowing_enabled">false</bool>
+    <bool name="ignore_verify">true</bool>
+    <bool name="imageloader_analytic_report">true</bool>
+    <bool name="is_chinese_locale">false</bool>
+    <bool name="is_ldrtl">false</bool>
+    <bool name="is_w840">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="share_from_system_only">false</bool>
+    <bool name="skip_verify_clone">false</bool>
+    <bool name="support_adjust">false</bool>
+    <bool name="support_extended_services_card">true</bool>
+    <bool name="support_package_repack_detect">true</bool>
+    <bool name="support_phone_service_feedback_sdk">true</bool>
+    <bool name="support_single_service_country">false</bool>
+    <bool name="support_value_added_services">true</bool>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/safe_checker_textview"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/detail_card_introduce_content" />
+        <TextView
+            android:id="@id/safe_checker_label"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:layout_toStartOf="@id/safe_checker_textview"
+            style="@style/detail_card_introduce_content" />
+        <ImageView
+            android:id="@id/detail_head_app_icon_imageview"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/detail_safe_desc_textview"
+            android:paddingTop="@dimen/padding_m"
+            android:paddingBottom="@dimen/padding_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:layout_toStartOf="@id/safe_checker_label"
+            android:layout_toEndOf="@id/detail_head_app_icon_imageview"
+            style="@style/detail_card_introduce_content" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/divide_line"
+        android:tag="css/.split-line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="32.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:id="@id/tv_item"
+        android:paddingTop="@dimen/text_padding_top_8_dp"
+        android:paddingBottom="@dimen/text_padding_bottom_8_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:paddingEnd="@dimen/text_padding_end_40_dp"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@id/fail_status"
+        android:visibility="gone"
+        android:layout_width="@dimen/item_image_width_24_dp"
+        android:layout_height="@dimen/item_image_height_24_dp"
+        android:src="@drawable/netdiagnose_check_fail"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/item_image_margin_start_16_dp"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@id/success_status"
+        android:visibility="gone"
+        android:layout_width="@dimen/item_image_width_24_dp"
+        android:layout_height="@dimen/item_image_height_24_dp"
+        android:src="@drawable/netdiagnose_check_success"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/item_image_margin_start_16_dp"
+        android:layout_alignParentEnd="true" />
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar
+        android:id="@id/progress_bar"
+        android:layout_width="@dimen/item_image_width_24_dp"
+        android:layout_height="@dimen/item_image_width_24_dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/item_image_margin_start_16_dp"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:id="@id/divide"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

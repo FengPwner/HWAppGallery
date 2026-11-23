@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="84.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/rl_icon"
+        android:layout_width="@dimen/upgrade_recommendation_ui_74_dp"
+        android:layout_height="72.0dip"
+        android:layout_marginTop="@dimen/upgrade_recommendation_ui_12_dp"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no">
+        <com.huawei.uikit.hwimageview.widget.HwImageView
+            android:id="@id/iv_app_icon"
+            android:layout_width="@dimen/upgrade_recommendation_ui_56_dp"
+            android:layout_height="@dimen/upgrade_recommendation_ui_56_dp"
+            android:src="@drawable/image_icon_default"
+            android:layout_centerInParent="true"
+            android:importantForAccessibility="no" />
+        <com.huawei.uikit.phone.hwcheckbox.widget.HwCheckBox
+            android:id="@id/cb_select_app"
+            android:layout_width="@dimen/upgrade_recommendation_ui_26_dp"
+            android:layout_height="@dimen/upgrade_recommendation_ui_24_dp"
+            android:layout_alignParentTop="true"
+            android:importantForAccessibility="no"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.Emui.HwCheckBox.Normal" />
+    </RelativeLayout>
+    <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+        android:textSize="11.0sp"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/tv_app_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/rl_icon"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:layout_marginStart="@dimen/upgrade_recommendation_ui_4_dp"
+        android:layout_marginEnd="@dimen/upgrade_recommendation_ui_4_dp"
+        app:hwAuxiliaryEnable="false" />
+</RelativeLayout>

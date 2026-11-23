@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/content_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/cancel_bg"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/welfare_center_checkin_close"
+            android:layout_alignParentEnd="true" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/content_view"
+            android:background="@drawable/hiappbase_loading_dialog_bg"
+            android:paddingBottom="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_list_height_single_text_line_with_icon"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="24.0dip"
+            android:paddingEnd="24.0dip">
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_title"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:gravity="center"
+                android:id="@id/today_checkin_prize"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="112.0dip"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_medium" />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_safety_margin_s"
+                android:layout_marginBottom="@dimen/appgallery_safety_margin_l"
+                android:layout_centerHorizontal="true"
+                android:layoutDirection="ltr">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/welfare_center_threading_left"
+                    android:layout_toLeftOf="@id/continuity_checkin_count"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/appgallery_safety_margin_l" />
+                <TextView
+                    android:textSize="@dimen/appgallery_text_size_subtitle2"
+                    android:textColor="@color/appgallery_color_tertiary"
+                    android:id="@id/continuity_checkin_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@string/appgallery_text_font_family_medium" />
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/welfare_center_threading_right"
+                    android:layout_toRightOf="@id/continuity_checkin_count"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/appgallery_safety_margin_l" />
+            </RelativeLayout>
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_secondary"
+                android:id="@id/cash_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xl"
+                android:text="@string/welfare_center_checkin_cash_tip"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:textAlignment="viewStart" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:enabled="true"
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/check_in_btn"
+                android:background="@drawable/welfare_center_checkin_btn_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:text="@string/welfare_center_checkin_btn"
+                android:layout_centerHorizontal="true"
+                style="@style/Widget.Emui.HwButton" />
+            <TextView
+                android:textSize="@dimen/appgallery_text_size_body3"
+                android:textColor="@color/appgallery_text_color_tertiary"
+                android:gravity="center"
+                android:id="@id/interrupt_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/welfare_center_checkin_interrupt_tip"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@string/appgallery_text_font_family_regular" />
+        </LinearLayout>
+        <ImageView
+            android:id="@id/gift_icon"
+            android:layout_width="160.0dip"
+            android:layout_height="160.0dip"
+            android:src="@drawable/welfare_center_gift"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:importantForAccessibility="no" />
+    </RelativeLayout>
+</LinearLayout>

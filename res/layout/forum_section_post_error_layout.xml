@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/forum_section_post_error_container"
+    android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/error_img"
+        android:layout_width="@dimen/forum_error_icon_size_normal"
+        android:layout_height="@dimen/forum_error_icon_size_normal"
+        android:src="@drawable/aguikit_ic_public_error"
+        android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_vertical" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/forum_section_post_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+</LinearLayout>

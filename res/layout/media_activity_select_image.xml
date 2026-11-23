@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/selected_title"
+        layout="@layout/media_select_title" />
+    <FrameLayout
+        android:id="@id/image_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/default_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150.0dip">
+            <ImageView
+                android:id="@id/default_imageview"
+                android:background="@drawable/media_images_empty_default"
+                android:layout_width="70.0dip"
+                android:layout_height="70.0dip" />
+            <TextView
+                android:textSize="@dimen/emui_master_body_1"
+                android:textColor="@color/media_show_image_activity_80000000"
+                android:id="@id/default_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xs"
+                android:text="@string/media_no_image_tip"
+                android:layout_marginStart="28.0dip"
+                android:layout_marginEnd="28.0dip" />
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:id="@id/data_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <GridView
+                    android:id="@id/child_grid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:horizontalSpacing="2.0dip"
+                    android:verticalSpacing="2.0dip"
+                    android:stretchMode="columnWidth"
+                    android:numColumns="@integer/media_select_gridview_itemnum" />
+                <ListView
+                    android:id="@id/group_listview"
+                    android:background="@color/emui_white"
+                    android:visibility="invisible"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:divider="@color/media_show_image_activity_00000000" />
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

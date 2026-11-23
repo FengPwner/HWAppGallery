@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appmarket.framework.widget.RoundCornerLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:round_corner="@dimen/appgallery_default_corner_radius_l"
+        app:stroke_color="@color/transparent"
+        app:stroke_width="0.0dip">
+        <com.huawei.appgallery.agoverseascard.agoverseascard.card.approllcard.AppRollCardRecycleView
+            android:id="@id/AppListItem"
+            android:paddingTop="@dimen/agoverseas_approll_card_padding_vertical"
+            android:paddingBottom="@dimen/agoverseas_approll_card_padding_vertical"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="noHideDescendants" />
+        <com.huawei.appgallery.agoverseascard.agoverseascard.card.approllcard.AppRollMaskView
+            android:id="@id/mask"
+            android:layout_width="fill_parent"
+            android:layout_height="170.0dip"
+            android:importantForAccessibility="noHideDescendants" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/appgallery_shadow_card_background_color"
+            android:paddingTop="@dimen/agoverseas_approll_card_padding_vertical"
+            android:paddingBottom="@dimen/agoverseas_approll_card_padding_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AppListItem"
+            android:paddingStart="@dimen/agoverseas_approll_card_padding_vertical"
+            android:paddingEnd="@dimen/agoverseas_approll_card_padding_vertical">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/subTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody2.Secondary" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_below="@id/subTitle"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.MainTitle.BottomOfCard" />
+        </LinearLayout>
+    </com.huawei.appmarket.framework.widget.RoundCornerLayout>
+</LinearLayout>

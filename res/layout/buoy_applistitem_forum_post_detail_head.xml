@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16.0dip"
+    android:paddingEnd="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/video_landscape_view_stub"
+        android:layout="@layout/forum_section_buoy_post_video_banner_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@id/section_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_single_text_line">
+        <ImageView
+            android:id="@id/section_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/forum_post_emui_color_white_origin"
+            android:ellipsize="end"
+            android:id="@id/section_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/section_enter"
+            android:layout_toEndOf="@id/section_icon" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/forum_post_text_color_secondary"
+            android:ellipsize="end"
+            android:id="@id/section_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_post_section_enter"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/section_arrow" />
+        <ImageView
+            android:id="@id/section_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buoy_ic_public_arrow_right"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/margin_s"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.huawei.appgallery.forum.cards.widget.PostTitleTextView
+        android:textSize="20.0dip"
+        android:textColor="@color/forum_post_emui_color_white_origin"
+        android:id="@id/post_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:fontFamily="@string/appgallery_text_font_family_medium"
+        android:textAlignment="viewStart" />
+    <RelativeLayout
+        android:id="@id/post_user_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+        android:minHeight="56.0dip">
+        <com.huawei.appgallery.forum.cards.widget.NickNameFakeView
+            android:textSize="14.0dip"
+            android:textColor="@color/forum_post_text_color_secondary"
+            android:id="@id/post_user_name_top_fake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/post_user_name_layout"
+            android:layout_alignBottom="@id/post_user_name_layout"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+        <com.huawei.appgallery.forum.cards.widget.UserHeadImageView
+            android:id="@id/post_user_icon"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_l" />
+        <com.huawei.uikit.phone.hwbutton.widget.HwButton
+            android:gravity="center"
+            android:id="@id/post_detail_follow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_operation_unfollow"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            style="@style/BuoyHwButtonSmall" />
+        <RelativeLayout
+            android:id="@id/post_user_name_layout"
+            android:paddingTop="@dimen/appgallery_elements_margin_vertical_m"
+            android:paddingBottom="@dimen/appgallery_elements_margin_vertical_m"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_toStartOf="@id/post_detail_follow_btn"
+            android:layout_toEndOf="@id/post_user_icon">
+            <com.huawei.appgallery.forum.cards.widget.UserInfoTextView
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/post_user_info_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_xs"
+                android:layout_alignParentStart="true" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_user_info_view">
+                <TextView
+                    android:textSize="12.0dip"
+                    android:textColor="@color/forum_post_text_color_secondary"
+                    android:ellipsize="end"
+                    android:id="@id/post_section_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@string/appgallery_text_font_family_regular"
+                    android:layout_marginEnd="@dimen/margin_m" />
+                <TextView
+                    android:textSize="12.0dip"
+                    android:textColor="@color/forum_post_text_color_secondary"
+                    android:id="@id/post_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:fontFamily="@string/appgallery_text_font_family_regular" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/post_banned_tips"
+        android:background="@color/forum_post_tips_bg_color"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_subheader_default_height_single_text_line">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/forum_error_icon_size_large"
+            android:layout_height="@dimen/forum_error_icon_size_large"
+            android:src="@drawable/aguikit_ic_public_error"
+            android:tint="@color/forum_post_warning_color" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body1"
+            android:textColor="@color/forum_post_warning_color"
+            android:layout_gravity="center_vertical"
+            android:id="@id/post_banned_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_post_banned_tips"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/post_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_l"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l" />
+    <TextView
+        android:gravity="center"
+        android:id="@id/post_detail_tips_provider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+        style="@style/BuoyCardTextBody2_Regular" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/post_ai_tips"
+        android:paddingTop="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="24.0dip">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            android:src="@drawable/aguikit_ic_public_error"
+            app:tint="@color/appgallery_text_color_secondary" />
+        <TextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:layout_gravity="center_vertical"
+            android:id="@id/post_ai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

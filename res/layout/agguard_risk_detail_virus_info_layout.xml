@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag="layout/agguard_risk_detail_virus_info_layout_0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.agguard.business.ui.view.AgGuardVirusInfoItemView
+        android:gravity="center_vertical"
+        android:tag="binding_1"
+        android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg_top_corner"
+        android:paddingTop="@dimen/appgallery_drawable_padding_s"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.appgallery.agguard.business.ui.view.AgGuardVirusInfoItemView
+        android:gravity="center_vertical"
+        android:tag="binding_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.huawei.appgallery.agguard.business.ui.view.AgGuardVirusInfoItemView
+        android:gravity="center_vertical"
+        android:tag="binding_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/agguard_risk_detail_risk_detail_layout"
+        android:tag="binding_4"
+        android:paddingTop="@dimen/agguard_risk_item_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="12.0dip">
+        <LinearLayout
+            android:id="@id/agguard_risk_detail_risk_detail_desc_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:layout_gravity="center_vertical"
+                android:id="@id/tv_agguard_risk_detail_risk_detail_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agguard_scan_item_detail"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:textDirection="locale" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:gravity="start|center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/tv_agguard_risk_detail_risk_detail"
+            android:tag="binding_5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:layout_below="@id/agguard_risk_detail_risk_detail_desc_layout"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textDirection="locale"
+            android:layout_alignParentStart="true" />
+        <View
+            android:id="@id/divider_bottom"
+            android:tag="binding_6"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            style="@style/AppGallery.Widget.Divider" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/agguard_risk_detail_PermText"
+        android:tag="binding_7"
+        android:background="@drawable/aguikit_round_rectangle_card_and_panel_bg_bottom_corner"
+        android:paddingTop="@dimen/agguard_risk_item_padding"
+        android:paddingBottom="@dimen/agguard_risk_last_item_padding_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@id/agguard_risk_detail_PermText_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="12.0dip"
+            android:paddingEnd="12.0dip">
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="@dimen/appgallery_text_size_body1"
+                android:textColor="@color/appgallery_text_color_primary"
+                android:layout_gravity="center_vertical"
+                android:id="@id/tv_agguard_risk_detail_PermText_title_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agguard_unknown_app_permission_title"
+                android:fontFamily="@string/appgallery_text_font_family_medium"
+                android:textDirection="locale" />
+        </LinearLayout>
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body2"
+            android:textColor="@color/appgallery_text_color_secondary"
+            android:gravity="start|center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/tv_agguard_risk_detail_PermText_detail"
+            android:tag="binding_8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:layout_below="@id/agguard_risk_detail_PermText_title"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textDirection="locale"
+            android:paddingStart="12.0dip"
+            android:paddingEnd="40.0dip"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="12.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/ic_public_arrow_right_900"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="12.0dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xl"
+        android:layout_marginEnd="@dimen/margin_xl">
+        <TextView
+            android:id="@id/select_zone_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody1.Primary" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m"
+            android:text="@string/gift_current_role"
+            style="@style/AppGallery.TextAppearance.Dialog.TextBody2.Secondary" />
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/appgallery_elements_margin_vertical_m">
+            <RadioGroup
+                android:orientation="vertical"
+                android:id="@id/role_radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="middle" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

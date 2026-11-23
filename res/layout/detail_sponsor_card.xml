@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/layout_detail_sponsor"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/cs_16_dp"
+    android:paddingEnd="@dimen/cs_16_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/item_layout"
+        android:paddingTop="@dimen/appgallery_card_protect_margin_vertical"
+        android:paddingBottom="@dimen/appgallery_card_protect_margin_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_list_height_two_text_lines"
+        android:layout_centerVertical="true">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:gravity="center_vertical"
+            android:id="@id/setItemTitle"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@id/provider_name"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:text=""
+            android:layout_below="@id/setItemTitle"
+            android:layout_alignStart="@id/setItemTitle"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@id/credit_code"
+            android:tag="css/.subtitle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:layout_below="@id/provider_name"
+            android:layout_alignStart="@id/provider_name"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@id/apprecordal_Info"
+            android:tag="css/.subtitle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_text_margin_vertical"
+            android:layout_below="@id/credit_code"
+            android:layout_alignStart="@id/credit_code"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </RelativeLayout>
+    <View
+        android:id="@id/devider_line"
+        android:tag="css/.split-line"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/item_layout"
+        android:layout_alignStart="@id/item_layout"
+        style="@style/AppGallery.Widget.Divider" />
+</RelativeLayout>

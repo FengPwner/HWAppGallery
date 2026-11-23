@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout
+        android:id="@id/ability_form_host_view_content"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="yes"
+        app:shadowColor="#ff333333"
+        app:shadowCornerRadius="20.0dip"
+        app:shadowLimit="@dimen/appgallery_shadow_layout_default_limit_width">
+        <com.huawei.appgallery.downloadfa.impl.ui.view.FAHwAdvancedCardView
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:importantForAccessibility="no"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="20.0dip"
+            app:hwAdvancedCardViewClickAnimationEnable="false">
+            <FrameLayout
+                android:layout_gravity="center"
+                android:id="@id/ability_form_contentview"
+                android:background="@drawable/aguikit_card_panel_bg"
+                android:visibility="visible"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:importantForAccessibility="noHideDescendants" />
+        </com.huawei.appgallery.downloadfa.impl.ui.view.FAHwAdvancedCardView>
+    </com.huawei.appgallery.aguikit.widget.AppGalleryShadowFrameLayout>
+</RelativeLayout>

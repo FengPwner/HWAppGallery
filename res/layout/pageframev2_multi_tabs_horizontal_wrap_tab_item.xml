@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/appgallery_color_sub_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/tab_relative"
+        android:background="@drawable/pageframev2_horizontal_wrap_tab_item_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appgallery_card_elements_margin_s">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/emui_text_size_button3"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:id="@id/tab_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_m"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/appgallery_card_elements_margin_l"
+            android:layout_marginEnd="@dimen/appgallery_card_elements_margin_l" />
+    </RelativeLayout>
+</RelativeLayout>

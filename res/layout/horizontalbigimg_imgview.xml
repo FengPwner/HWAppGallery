@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appgallery.foundation.ui.framework.widget.LineImageView
+    android:id="@id/bigimg"
+    android:tag="@string/properties_video_contentDescription"
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="centerCrop"
+    app:leftTop_radius="@dimen/appgallery_default_corner_radius_l"
+    app:rightTop_radius="@dimen/appgallery_default_corner_radius_l"
+    app:touch_drawable="@drawable/wisedist_horizontalbigimg_line_image_selector"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/detail_head_image_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/ui_16_dp">
+        <com.huawei.appgallery.detail.detailbase.widget.HwShadowLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@id/hs_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_48dp"
+            android:layout_marginTop="@dimen/ui_24_dp">
+            <ImageView
+                android:id="@id/iv_detail_app_icon_bg"
+                android:focusable="false"
+                android:layout_width="@dimen/lantern_icon_width"
+                android:layout_height="@dimen/lantern_icon_width"
+                android:scaleType="fitCenter" />
+        </com.huawei.appgallery.detail.detailbase.widget.HwShadowLayout>
+        <RelativeLayout
+            android:id="@id/detail_head_app_icon_rl"
+            android:layout_width="@dimen/detail_safe_app_icon"
+            android:layout_height="@dimen/detail_safe_app_icon"
+            android:layout_marginTop="@dimen/ui_8_dp"
+            android:layout_marginBottom="@dimen/ui_8_dp">
+            <ImageView
+                android:id="@id/detail_head_app_icon_imageview"
+                android:focusable="false"
+                android:layout_width="@dimen/detail_safe_app_icon"
+                android:layout_height="@dimen/detail_safe_app_icon"
+                android:src="@drawable/icon_default_bg"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:id="@id/detail_head_fast_app_icon_imageview"
+                android:layout_width="@dimen/hiappbase_card_fasticon_size_large"
+                android:layout_height="@dimen/hiappbase_card_fasticon_size_large"
+                android:src="@color/transparent"
+                android:scaleType="fitCenter"
+                android:layout_alignBottom="@id/detail_head_app_icon_imageview"
+                android:layout_alignEnd="@id/detail_head_app_icon_imageview" />
+        </RelativeLayout>
+        <ViewStub
+            android:layout_gravity="bottom|center"
+            android:id="@id/horizon_line"
+            android:layout="@layout/aguikit_horizontal_line_layout"
+            android:layout_width="@dimen/lantern_icon_width"
+            android:layout_height="1.5dip"
+            android:layout_marginBottom="@dimen/ui_4_dp" />
+    </FrameLayout>
+</LinearLayout>

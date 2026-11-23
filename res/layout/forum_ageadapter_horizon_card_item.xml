@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+        android:id="@id/appicon"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:corner_type="appicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round_type="all" />
+    <ImageView
+        android:id="@id/fg_appicon"
+        android:tag="css/.overly"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textSize="13.0sp"
+        android:ellipsize="end"
+        android:id="@id/ItemTitle"
+        android:tag="css/.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:importantForAccessibility="no"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/margin_l"
+        app:layout_constraintBottom_toBottomOf="@id/appicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/appicon"
+        app:layout_constraintTop_toTopOf="@id/appicon"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3.Fixed.Primary.Regular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

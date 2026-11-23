@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin_s" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/point_view"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:src="@drawable/wisedist_apppermission_point"
+            android:layout_centerVertical="true"
+            android:importantForAccessibility="no" />
+        <TextView
+            android:textSize="@dimen/emui_master_body_2"
+            android:textColor="@color/emui_color_gray_10"
+            android:gravity="center_vertical"
+            android:id="@id/app_name_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_s"
+            android:layout_toEndOf="@id/point_view" />
+    </RelativeLayout>
+</LinearLayout>

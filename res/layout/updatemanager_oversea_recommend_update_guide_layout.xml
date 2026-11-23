@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/aguikit_card_panel_bg"
+    android:paddingTop="@dimen/appgallery_card_panel_inner_margin_vertical"
+    android:paddingBottom="@dimen/appgallery_card_panel_inner_margin_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/appgallery_default_card_space_vertical_l"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/appgallery_card_panel_inner_margin_vertical"
+    android:paddingEnd="@dimen/appgallery_card_panel_inner_margin_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maskview="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/updatemanager_header"
+        android:background="@drawable/aguikit_round_rectangle_card_item_bg"
+        android:padding="@dimen/appgallery_card_elements_margin_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/appgallery_subheader_default_height_single_text_line">
+        <ImageView
+            android:id="@id/update_arrow_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_public_arrow_right_900"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="10.0dip"
+            android:textColor="@color/appgallery_text_color_primary_inverse"
+            android:gravity="center"
+            android:id="@id/updatemanager_update_num"
+            android:background="@drawable/updatemanager_updateview_update_num_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/updatemanager_updateview_updatenum_min_width"
+            android:layout_centerVertical="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            android:paddingStart="@dimen/updatemanager_updateview_updatenum_padding"
+            android:paddingEnd="@dimen/updatemanager_updateview_updatenum_padding"
+            android:layout_marginStart="@dimen/appgallery_text_margin_horizontal"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_m"
+            android:layout_toStartOf="@id/update_arrow_imageView" />
+        <ImageView
+            android:id="@id/updatemanager_icon"
+            android:background="@drawable/updatemanager_manager_update_nor"
+            android:visibility="gone"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+            android:layout_alignParentStart="true" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:ellipsize="end"
+            android:id="@id/updatemanager_updateview_title_textview"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updatemanager_app_updates"
+            android:maxLines="2"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/updatemanager_update_num"
+            android:layout_toEndOf="@id/updatemanager_icon"
+            style="@style/AppGallery.Widget.SubHeader.Title" />
+    </RelativeLayout>
+    <ViewStub
+        android:id="@id/content_layout_default_column"
+        android:layout="@layout/updatemanager_recommend_update_guide_content_default_column"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/content_layout_12_column"
+        android:layout="@layout/updatemanager_recommend_update_guide_content_12_column"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/content_layout_ageadapter_default_column"
+        android:layout="@layout/updatemanager_ageadapter_recommend_update_guide_content_default_column"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/content_layout_ageadapter_12_column"
+        android:layout="@layout/updatemanager_ageadapter_recommend_update_guide_content_12_column"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@id/updatemanager_updateview_split_line_white"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="8.0dip" />
+    <View
+        android:id="@id/updatemanager_updateview_split_line_gray"
+        android:background="@color/appgallery_color_subheader_divider"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/appgallery_subheader_spliter_height" />
+    <View
+        android:id="@id/updatemanager_updateview_split_line_slender"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+        style="@style/AppGallery.Widget.Divider" />
+</LinearLayout>

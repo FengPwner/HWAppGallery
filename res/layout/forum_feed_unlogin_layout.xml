@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/forum_ic_empty_me"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/forum_feed_follow_login_textview"
+            android:tag="css/.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            style="@style/AppGallery.TextAppearance.NoData" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:textSize="@dimen/appgallery_text_size_body3"
+            android:textColor="@color/appgallery_text_color_link"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/forum_feed_login_textview"
+            android:background="@drawable/hiappbase_actionbar_icon_bg_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_medium" />
+    </LinearLayout>
+</LinearLayout>

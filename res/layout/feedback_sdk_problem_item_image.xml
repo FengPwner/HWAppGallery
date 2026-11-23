@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.phoneservice.feedback.widget.SquareLayout
+    android:id="@id/rl_img_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/feedback_sdk_iv_pic"
+        android:background="@drawable/feedback_sdk_problem_photo_rectangle"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+        android:contentDescription="@string/feedback_sdk_open"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_8_dip" />
+    <ImageView
+        android:id="@id/feedback_sdk_iv_add"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/feedback_sdk_common_8_dip"
+        android:src="@drawable/feedback_sdk_icon_add_feedback"
+        android:contentDescription="@string/feedback_sdk_upload_attachment"
+        android:layout_marginEnd="@dimen/feedback_sdk_common_8_dip" />
+    <ImageView
+        android:id="@id/feedback_sdk_iv_del"
+        android:visibility="gone"
+        android:layout_width="@dimen/feedback_sdk_common_24_dip"
+        android:layout_height="@dimen/feedback_sdk_common_24_dip"
+        android:src="@drawable/icon_feedbak_del_upload"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/feedback_sdk_delete"
+        android:layout_alignParentEnd="true" />
+</com.huawei.phoneservice.feedback.widget.SquareLayout>

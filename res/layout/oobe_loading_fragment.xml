@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:tag="css/.body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/network_disconnect_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/retry_btn_layout">
+            <ImageView
+                android:id="@id/no_wifi"
+                android:tag="css/.widget"
+                style="@style/AppGallery.ImageSize.NoData" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@id/oobe_loading_title"
+                android:tag="css/.subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_wifi"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/retry_btn_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/reconnect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_elements_margin_vertical_l"
+                android:text="@string/oobe_retry"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                style="@style/Widget.Emui.HwButton" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:id="@id/cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/appgallery_default_padding_bottom_fixed"
+                android:text="@string/oobe_cancel"
+                android:layout_marginStart="@dimen/appgallery_max_padding_start"
+                android:layout_marginEnd="@dimen/appgallery_max_padding_end"
+                style="@style/Widget.Emui.HwButton" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/loadingBar_layout"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.huawei.uikit.phone.hwprogressbar.widget.HwProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@id/loadingBar"
+            android:layout_width="@dimen/loading_large"
+            android:layout_height="@dimen/loading_large"
+            style="@style/Widget.Emui.HwProgressBar.Large" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/loadingTip"
+            android:tag="css/.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_loading_prompt"
+            style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    </LinearLayout>
+</FrameLayout>

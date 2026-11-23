@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="bottom|center"
+    android:id="@id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/upgrade_recommendation_ui_400_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/ll_arrow_down"
+        android:layout_width="@dimen/upgrade_recommendation_ui_64_dp"
+        android:layout_height="@dimen/upgrade_recommendation_ui_24_dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@id/iv_arrow_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_down" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/ll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/upgrade_recommendation_ui_8_dp"
+        android:layout_below="@id/ll_arrow_down"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:textSize="@dimen/emui_text_size_headline8"
+            android:textColor="@color/emui_color_text_primary"
+            android:gravity="center_horizontal"
+            android:id="@id/tv_title_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upgrade_recommend_title_first"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/hiappbase_ad_info_icon"
+            android:background="@drawable/hiappbase_info_icon"
+            android:visibility="gone"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_toRightOf="@id/tv_title_one"
+            android:contentDescription="@string/hiappbase_one_click_control_more_info"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:gravity="center_horizontal"
+        android:id="@id/tv_title_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/upgrade_recommendation_ui_4_dp"
+        android:text="@string/upgrade_recommend_title_second"
+        android:layout_below="@id/ll_title"
+        android:layout_centerHorizontal="true"
+        android:alpha="@dimen/emui_secondary_content_alpha"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+    <View
+        android:id="@id/hiappbase_ad_info_icons_tag"
+        android:visibility="invisible"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginTop="@dimen/upgrade_recommendation_ui_16_dp"
+        android:layout_toRightOf="@id/tv_title_second"
+        android:layout_below="@id/ll_title"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="12.0dip" />
+    <FrameLayout
+        android:id="@id/fl_content"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/upgrade_recommendation_ui_8_dp"
+        android:layout_above="@id/ll_bottom_button"
+        android:layout_below="@id/tv_title_second"
+        android:layout_centerInParent="true" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/ll_bottom_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/upgrade_recommendation_ui_40_dp"
+        android:layout_marginTop="@dimen/upgrade_recommendation_ui_12_dp"
+        android:layout_marginBottom="@dimen/upgrade_recommendation_ui_24_dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:textSize="@dimen/emui_text_size_button1"
+            android:id="@id/bt_to_market"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/upgrade_recommend_bt_to_market"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/upgrade_recommendation_ui_6_dp"
+            style="@style/Widget.Emui.HwButton" />
+        <com.huawei.uikit.hwbutton.widget.HwButton
+            android:textSize="@dimen/emui_text_size_button1"
+            android:id="@id/bt_install"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/upgrade_recommend_bt_install"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/upgrade_recommendation_ui_6_dp"
+            style="@style/Widget.Emui.HwButton.Emphasize" />
+    </LinearLayout>
+</RelativeLayout>

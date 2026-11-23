@@ -1,0 +1,121 @@
+{
+  "layout":[
+    {
+      "layoutId": 1,
+      "name":"官方网站",
+      "maxRows": 1,
+      "layoutName": "aboutwebsitecard"
+    },
+    {
+      "layoutId": 2,
+      "name":"华为开发者联盟",
+      "maxRows": 1,
+      "layoutName": "aboutdevelopercentercard"
+    },
+    {
+      "layoutId": 11,
+      "name":"客服热线",
+      "maxRows": 1,
+      "layoutName": "abouthotline"
+    },
+    {
+      "layoutId": 7,
+      "name":"第三方共享信息清单",
+      "maxRows": 1,
+      "layoutName": "aboutthirdsharecard"
+    },
+    {
+      "layoutId": 8,
+      "name":"第三方SDK列表",
+      "maxRows": 1,
+      "layoutName": "aboutthirdsdkcard"
+    },
+    {
+      "layoutId": 9,
+      "name":"已收集个人信息清单",
+      "maxRows": 1,
+      "layoutName": "aboutpersonalinfolistcard"
+    },
+    {
+      "layoutId": 10,
+      "name":"隐私声明摘要",
+      "maxRows": 1,
+      "layoutName": "AboutPrivacyStatementSummaryCard"
+    },
+    {
+      "layoutId": 6,
+      "name":"分享我们",
+      "maxRows": 1,
+      "layoutName": "aboutshareappcard"
+    }
+
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name":"官方网站",
+      "layoutName": "aboutwebsitecard",
+      "dataList": [
+        {
+          "isUseBrandCustFilter": true
+        }
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name":"华为开发者联盟",
+      "layoutName": "aboutdevelopercentercard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 11,
+      "name":"客服热线",
+      "layoutName": "abouthotline",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 6,
+      "name":"分享我们",
+      "layoutName": "aboutshareappcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 7,
+      "name":"第三方共享信息清单",
+      "layoutName": "aboutthirdsharecard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 8,
+      "name":"第三方SDK列表",
+      "layoutName": "aboutthirdsdkcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 9,
+      "name":"已收集个人信息清单",
+      "layoutName": "aboutpersonalinfolistcard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 10,
+      "name":"隐私声明摘要",
+      "layoutName": "AboutPrivacyStatementSummaryCard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

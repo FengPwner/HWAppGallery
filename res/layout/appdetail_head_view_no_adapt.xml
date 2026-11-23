@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/no_adapt_container"
+    android:background="@color/appdetail_label_default_bg"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/appgallery_list_height_single_text_line_with_icon"
+    android:paddingStart="@dimen/appgallery_max_padding_start"
+    android:paddingEnd="@dimen/appgallery_max_padding_end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.appmarket.framework.widget.NoAdaptRenderImageView
+        android:id="@id/no_adapt_icon"
+        android:layout_width="@dimen/ui_24_dp"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@id/setting_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:drawablePadding="@dimen/padding_s"
+        android:layout_centerVertical="true"
+        android:drawableEnd="@drawable/ic_public_arrow_right_900"
+        android:layout_alignParentEnd="true"
+        style="@style/AppGallery.TextAppearance.List.TextBody2.Secondary" />
+    <TextView
+        android:id="@id/no_adapt_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_marginEnd="@dimen/appgallery_elements_margin_horizontal_l"
+        android:layout_toStartOf="@id/setting_layout"
+        android:layout_toEndOf="@id/no_adapt_icon"
+        style="@style/AppGallery.TextAppearance.List.TextBody1.Primary" />
+</RelativeLayout>

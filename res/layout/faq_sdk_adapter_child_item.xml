@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/faq_sdk_list_item_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/emui_text_size_headline4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.phoneservice.faq.base.widget.ListItemRelativeLayout
+        android:id="@id/item_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/emui_dimens_max_start"
+        android:layout_marginEnd="@dimen/emui_dimens_max_end">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/emui_text_size_headline4"
+            android:layout_marginStart="@dimen/margin_xl">
+            <TextView
+                android:textSize="@dimen/faq_sdk_list_item_title_font_size"
+                android:textColor="@color/faq_sdk_list_item_title_text_color_normal"
+                android:id="@id/tv_name"
+                android:paddingTop="@dimen/faq_sdk_ui_8_dip"
+                android:paddingBottom="@dimen/faq_sdk_ui_8_dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textAlignment="viewStart" />
+            <View
+                android:id="@id/divider_view"
+                android:background="@drawable/faq_sdk_list_divider_color_drawable"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/faq_sdk_line_height"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </com.huawei.phoneservice.faq.base.widget.ListItemRelativeLayout>
+</RelativeLayout>

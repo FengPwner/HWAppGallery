@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/recommend_v1_button_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="28.0dip"
+                android:ellipsize="end"
+                android:id="@id/upgrade_recommend_v1_left_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="54.0dip"
+                android:maxLines="1"
+                android:layout_marginEnd="12.0dip"
+                app:hwAutoSizeMinTextSize="28.0dip"
+                app:hwAuxiliaryEnable="false" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="28.0dip"
+                android:ellipsize="end"
+                android:id="@id/upgrade_recommend_v1_right_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="54.0dip"
+                android:maxLines="1"
+                app:hwAutoSizeMinTextSize="28.0dip"
+                app:hwAuxiliaryEnable="false"
+                style="@style/Widget.Emui.HwButton.Emphasize.Light" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="@dimen/emui_text_size_caption_large_model"
+                android:ellipsize="end"
+                android:id="@id/upgrade_recommend_v1_right_button1_overseas"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:maxLines="1"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/recommend_v1_button_layout2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="28.0dip"
+                android:ellipsize="end"
+                android:id="@id/upgrade_recommend_v1_left_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="54.0dip"
+                android:maxLines="1"
+                android:layout_marginEnd="12.0dip"
+                app:hwAutoSizeMinTextSize="28.0dip"
+                app:hwAuxiliaryEnable="false" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="28.0dip"
+                android:ellipsize="end"
+                android:id="@id/upgrade_recommend_v1_right_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="54.0dip"
+                android:maxLines="1"
+                app:hwAutoSizeMinTextSize="28.0dip"
+                app:hwAuxiliaryEnable="false"
+                style="@style/Widget.Emui.HwButton.Emphasize.Light" />
+            <com.huawei.uikit.phone.hwbutton.widget.HwButton
+                android:textSize="@dimen/emui_text_size_caption_large_model"
+                android:ellipsize="end"
+                android:id="@id/upgrade_recommend_v1_right_button2_overseas"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:maxLines="1"
+                app:hwAutoSizeMinTextSize="9.0sp"
+                app:hwAutoSizeStepGranularity="@dimen/appgallery_auto_size_step_granularity"
+                style="@style/Widget.Emui.HwButton.Emphasize.Light" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <WebView
+        android:id="@id/feedback_dispatch_web_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ProgressBar
+        android:id="@id/fbsdkProgressbar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:progress="0"
+        style="?android:progressBarStyleHorizontal" />
+    <com.huawei.phoneservice.feedback.widget.FeedbackNoticeView
+        android:id="@id/feedback_dispatch_noticeView"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:fbsdknoticeAutoFitCenterYInLandScape="true"
+        app:fbsdknoticeViewType="progress" />
+</FrameLayout>

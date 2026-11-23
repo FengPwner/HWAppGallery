@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.appmarket.framework.widget.RoundCornerLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:clip_background="true"
+    app:round_corner="@dimen/appgallery_default_corner_radius_l"
+    app:stroke_width="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/video_container_layout_v2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/video_layout_v2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <View
+                android:id="@id/video_content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="140.0dip"
+                app:layout_constraintBottom_toBottomOf="@id/video_player"
+                app:layout_constraintDimensionRatio="21:9"
+                app:layout_constraintTop_toTopOf="@id/video_player" />
+            <com.huawei.appgallery.videokit.api.WiseVideoView
+                android:id="@id/video_player"
+                android:tag="@string/properties_video_contentDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="140.0dip"
+                android:layout_above="@id/video_content_layout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:media_type="0"
+                app:view_type="0" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:textSize="8.0dip"
+                android:textColor="@color/emui_text_primary_inverse"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/prefixAppIntro"
+                android:background="@drawable/substancelistcard_round_chip_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:minWidth="24.0dip"
+                android:minHeight="16.0dip"
+                android:maxLines="1"
+                android:maxEms="9"
+                android:fontFamily="@string/appgallery_text_font_family_regular"
+                android:paddingStart="8.0dip"
+                android:paddingEnd="8.0dip"
+                android:layout_marginStart="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                android:layout_marginEnd="@dimen/appgallery_card_panel_inner_margin_horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/app_detail_recall_video_container"
+            android:paddingBottom="@dimen/emui_dimens_card_end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/emui_dimens_card_start"
+            android:paddingEnd="@dimen/emui_dimens_card_end"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/video_layout_v2">
+            <com.huawei.appgallery.aguikit.widget.imageview.MaskImageView
+                android:id="@id/app_detail_recall_app_icon"
+                android:layout_width="@dimen/appgallery_card_icon_size_small"
+                android:layout_height="@dimen/appgallery_card_icon_size_small"
+                android:layout_marginTop="@dimen/ui_12_dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
+                app:corner_type="appicon"
+                app:round_type="all" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_detail_recall_app_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ui_8_dp"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody1" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView
+                android:ellipsize="end"
+                android:id="@id/app_detail_recall_app_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cs_2_dp"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                style="@style/AppGallery.TextAppearance.Card.TextBody3.Tertiary" />
+            <com.huawei.appgallery.pageframe.view.DownloadButtonV2
+                android:id="@id/dl_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:minWidth="@dimen/infoflow_download_btn_width"
+                android:minHeight="28.0dip"
+                style="@style/AppGallery.Widget.DownloadButton.Normal" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.huawei.appmarket.framework.widget.RoundCornerLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:topLeftRadius="0.0dip"
+                android:topRightRadius="0.0dip"
+                android:bottomLeftRadius="@dimen/emui_corner_radius_card"
+                android:bottomRightRadius="@dimen/emui_corner_radius_card" />
+            <solid
+                android:color="@color/global_card_bg" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/margin_s">
+        <selector>
+            <item
+                android:state_pressed="true">
+                <shape
+                    android:shape="rectangle">
+                    <corners
+                        android:topLeftRadius="@dimen/emui_corner_radius_button_small"
+                        android:topRightRadius="@dimen/emui_corner_radius_button_small"
+                        android:bottomLeftRadius="@dimen/emui_corner_radius_button_small"
+                        android:bottomRightRadius="@dimen/emui_corner_radius_button_small" />
+                    <solid
+                        android:color="@color/emui_clickeffic_default_color" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

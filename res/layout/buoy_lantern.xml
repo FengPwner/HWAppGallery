@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/ui_8_dp"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/buoy_divider_drawable"
+    android:showDividers="middle"
+    android:paddingStart="@dimen/ui_16_dp"
+    android:paddingEnd="@dimen/ui_16_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/buoy_lantern_line_one"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/buoy_lantern_line_two"
+        android:paddingTop="@dimen/ui_8_dp"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

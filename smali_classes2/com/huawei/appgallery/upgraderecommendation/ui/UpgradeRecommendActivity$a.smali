@@ -1,0 +1,90 @@
+.class final Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity$a;
+.super Landroid/content/BroadcastReceiver;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity$a;->a:Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;
+
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .registers 5
+
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v0, "actionSelectAppChanged"
+
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object p1
+
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    if-eq p1, v0, :cond_0
+
+    sget-object p1, Lcom/huawei/appmarket/rb8;->a:Lcom/huawei/appmarket/rb8;
+
+    const-string v0, "UpgradeRecommendActivity"
+
+    const-string v1, "not run on main thread"
+
+    invoke-virtual {p1, v0, v1}, Lcom/huawei/appmarket/gy4;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance p1, Landroid/os/Handler;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    new-instance v0, Lcom/huawei/appgallery/upgraderecommendation/ui/d;
+
+    invoke-direct {v0, p0, p2}, Lcom/huawei/appgallery/upgraderecommendation/ui/d;-><init>(Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity$a;Landroid/content/Intent;)V
+
+    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    return-void
+
+    :cond_0
+    iget-object p1, p0, Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity$a;->a:Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;
+
+    invoke-static {p1, p2}, Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;->C3(Lcom/huawei/appgallery/upgraderecommendation/ui/UpgradeRecommendActivity;Landroid/content/Intent;)V
+
+    :cond_1
+    return-void
+.end method

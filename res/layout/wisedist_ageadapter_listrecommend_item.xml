@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/applistcard_first_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wisedist_ageadapter_listrecommendcard_single_item" />
+    <View
+        android:id="@id/applistcard_first_item_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="80.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+    <include
+        android:id="@id/applistcard_second_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wisedist_ageadapter_listrecommendcard_single_item" />
+    <View
+        android:id="@id/applistcard_second_item_line"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="80.0dip"
+        style="@style/AppGallery.Widget.Divider" />
+    <include
+        android:id="@id/applistcard_third_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wisedist_ageadapter_listrecommendcard_single_item" />
+</LinearLayout>

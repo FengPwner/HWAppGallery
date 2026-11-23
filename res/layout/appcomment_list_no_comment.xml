@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/no_comment_divider"
+        android:tag="css/.blank"
+        android:background="@color/appcomment_backgound_gray"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="8.0dip" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/no_comment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/appcomment_no_data_icon"
+            android:tag="css/.widget"
+            android:src="@drawable/appcomment_empty_comment"
+            style="@style/AppGallery.ImageSize.NoData" />
+        <TextView
+            android:gravity="center"
+            android:id="@id/appcomment_no_data_text"
+            android:tag="css/.title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m"
+            android:text="@string/appcomment_comment_empty"
+            android:layout_marginStart="@dimen/margin_xl"
+            android:layout_marginEnd="@dimen/margin_xl"
+            style="@style/AppGallery.TextAppearance.NoData" />
+    </LinearLayout>
+</LinearLayout>

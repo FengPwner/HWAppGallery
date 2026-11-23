@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/faq_emui_white_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/notice_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@id/notice_progress_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/notice_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/feedback_sdk_ic_no_pic_disable" />
+        <TextView
+            android:textColor="@color/feedback_sdk_notice_view_default_text_color"
+            android:gravity="center"
+            android:id="@id/notice_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_sdk_common_loading"
+            android:layout_marginStart="@dimen/feedback_sdk_notice_view_text_margin"
+            android:layout_marginEnd="@dimen/feedback_sdk_notice_view_text_margin" />
+    </LinearLayout>
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@id/button_container"
+        android:paddingLeft="@dimen/feedback_sdk_list_item_padding_start"
+        android:paddingRight="@dimen/feedback_sdk_list_item_padding_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/feedback_sdk_common_16_dip"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@id/error_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_sdk_common_set_network"
+            style="@style/Widget.Emui.HwButton" />
+    </RelativeLayout>
+</RelativeLayout>

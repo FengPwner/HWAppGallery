@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/menu_item_bg_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/cs_48_dp"
+    android:paddingStart="@dimen/ui_12_dp"
+    android:paddingEnd="@dimen/ui_12_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/img_item_icon"
+        android:layout_width="@dimen/ui_24_dp"
+        android:layout_height="@dimen/ui_24_dp"
+        android:layout_marginEnd="@dimen/cs_8_dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.huawei.uikit.phone.hwtextview.widget.HwTextView
+            android:textSize="@dimen/cs_16_dp"
+            android:textColor="@color/appgallery_text_color_primary"
+            android:id="@id/txt_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13.5dip"
+            android:layout_marginBottom="13.5dip" />
+        <TextView
+            android:id="@id/item_divider"
+            android:background="@color/appgallery_list_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/appgallery_divider_horizontal_height" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/subtitle"
+        layout="@layout/hiappbase_layout_subheader_title_more" />
+    <FrameLayout
+        android:id="@id/intro_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+        android:layout_marginBottom="@dimen/appgallery_card_elements_margin_m"
+        android:layout_marginStart="@dimen/appgallery_max_padding_start"
+        android:layout_marginEnd="@dimen/appgallery_max_padding_end">
+        <com.huawei.appgallery.detail.detailbase.common.FoldingTextView
+            android:ellipsize="end"
+            android:id="@id/detail_desc_content_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/appgallery_text_font_family_regular"
+            style="@style/detail_card_introduce_content" />
+        <com.huawei.appgallery.detail.detailbase.common.ArrowImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/detail_desc_folding_imageview"
+            android:background="@drawable/ic_public_arrow_down_900"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/component_detail_head_game_open" />
+    </FrameLayout>
+</LinearLayout>

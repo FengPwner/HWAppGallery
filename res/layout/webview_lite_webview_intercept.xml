@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body1"
+        android:textColor="@color/appgallery_text_color_primary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/webview_lite_intercept_dialog_message"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        android:textAlignment="viewStart" />
+</ScrollView>

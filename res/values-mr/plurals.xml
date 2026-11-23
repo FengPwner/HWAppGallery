@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_download_age_limit">
+        <item quantity="other">%1$s मध्ये वय-प्रतिबंधित सामग्री आहे. %3$s ला स्पर्श करून आणि हे अॅप डाउनलोड करून, आपण पुष्टी करता की आपण %2$d वर्षांपेक्षा जास्त वयाचे आहात.</item>
+        <item quantity="one">%1$s मध्ये वय-प्रतिबंधित सामग्री आहे. %3$s ला स्पर्श करून आणि हे अॅप डाउनलोड करून, आपण पुष्टी करता की आपण %2$d वर्षापेक्षा जास्त वयाचे आहात.</item>
+    </plurals>
+    <plurals name="app_download_alert_title_ex">
+        <item quantity="other">डाउनलोड्सना विराम दिला: %1$d</item>
+        <item quantity="one">डाउनलोड्सना विराम दिला: %1$d</item>
+    </plurals>
+    <plurals name="app_open_age_limit">
+        <item quantity="other">%1$s मध्ये वय-प्रतिबंधित सामग्री आहे. %3$s ला स्पर्श करून आणि हे अॅप वापरून, आपण पुष्टी करता की आपण %2$d वर्षांपेक्षा जास्त वयाचे आहात.</item>
+        <item quantity="one">%1$s मध्ये वय-प्रतिबंधित सामग्री आहे. %3$s ला स्पर्श करून आणि हे अॅप वापरून, आपण पुष्टी करता की आपण %2$d वर्षापेक्षा जास्त वयाचे आहात.</item>
+    </plurals>
+    <plurals name="appinstall_title_select">
+        <item quantity="other">%1$d आयटम्स निवडले</item>
+        <item quantity="one">%1$d आयटम निवडला</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch">
+        <item quantity="other">%1$s सह, निवडलेले अ‍ॅप्स विस्थापित करायचे?</item>
+        <item quantity="one">%1$s विस्थापित करायचे?</item>
+    </plurals>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">%3$s मधून %1$s आणि %2$s अन अ‍ॅप्स विस्थापित करायचे?</item>
+        <item quantity="one">%3$s मधून %1$s आणि %2$s अन अ‍ॅप विस्थापित करायचा?</item>
+    </plurals>
+    <plurals name="appzone_trace_delete_dialog_content">
+        <item quantity="other">%1$s रेकॉर्ड्स हटवायचे?</item>
+        <item quantity="one">%1$s रेकॉर्ड हटवायचा?</item>
+    </plurals>
+    <plurals name="batch_app_permission_description">
+        <item quantity="other">खालील %1$d अॅप्सना काही परवानग्यांमध्ये प्रवेश करण्याची आवश्यकता आहे:</item>
+        <item quantity="one">खालील %1$d अॅपला काही परवानग्यांमध्ये प्रवेश करण्याची आवश्यकता आहे:</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count">
+        <item quantity="other">%1$d रेटिंग्ज</item>
+        <item quantity="one">%1$d रेटिंग</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_million">
+        <item quantity="other">%1$sM रेटिंग्ज</item>
+        <item quantity="one">%1$sM रेटिंग्ज</item>
+    </plurals>
+    <plurals name="bigbanner_rating_count_thousand">
+        <item quantity="other">%1$sK रेटिंग्ज</item>
+        <item quantity="one">%1$sK रेटिंग्ज</item>
+    </plurals>
+    <plurals name="campain_total_count">
+        <item quantity="other">%1$s अ‍ॅक्टिव्हिटी</item>
+        <item quantity="one">%1$s अ‍ॅक्टिव्हिटी</item>
+    </plurals>
+    <plurals name="cloud_game_save_game_toast">
+        <item quantity="other">गेमची %1$s मिनिटांपेक्षा कमी वेळ शिल्लक आहे. आपला गेम शक्य तितक्या लवकर जतन करा.</item>
+        <item quantity="one">गेमसाठी %1$s मिनिटापेक्षा कमी वेळ शिल्लक आहे. आपला गेम शक्य तितक्या लवकर जतन करा.</item>
+    </plurals>
+    <plurals name="cloudgame_settings_cloud_game_trial_play_time">
+        <item quantity="other">केवळ %d मिनिटे शिल्लक.</item>
+        <item quantity="one">केवळ %d मिनिट शिल्लक.</item>
+    </plurals>
+    <plurals name="course_learn_billion_persons">
+        <item quantity="other">%1$sB व्यक्तींनी सहभाग घेतला आहे</item>
+        <item quantity="one">%1$sB व्यक्तींनी सहभाग घेतला आहे</item>
+    </plurals>
+    <plurals name="course_learn_million_persons">
+        <item quantity="other">%1$sM व्यक्तींनी सहभाग घेतला आहे</item>
+        <item quantity="one">%1$sM व्यक्तींनी सहभाग घेतला आहे</item>
+    </plurals>
+    <plurals name="course_learn_persons">
+        <item quantity="other">%1$s व्यक्तींनी सहभाग घेतला आहे</item>
+        <item quantity="one">%1$s व्यक्तींनी सहभाग घेतला आहे</item>
+    </plurals>
+    <plurals name="course_learn_thousand_persons">
+        <item quantity="other">%1$sK व्यक्तींनी सहभाग घेतला आहे</item>
+        <item quantity="one">%1$sK व्यक्तींनी सहभाग घेतला आहे</item>
+    </plurals>
+    <plurals name="course_purchased_billion_persons">
+        <item quantity="other">%1$sB व्यक्तींनी हे खरेदी केले आहे</item>
+        <item quantity="one">%1$sB व्यक्तींनी हे खरेदी केले आहे</item>
+    </plurals>
+    <plurals name="course_purchased_million_persons">
+        <item quantity="other">%1$sM व्यक्तींनी हे खरेदी केले आहे</item>
+        <item quantity="one">%1$sM व्यक्तींनी हे खरेदी केले आहे</item>
+    </plurals>
+    <plurals name="course_purchased_persons">
+        <item quantity="other">%1$s व्यक्तींनी हे खरेदी केले आहे</item>
+        <item quantity="one">%1$s व्यक्तींनी हे खरेदी केले आहे</item>
+    </plurals>
+    <plurals name="course_purchased_thousand_persons">
+        <item quantity="other">%1$sK व्यक्तींनी हे खरेदी केले आहे</item>
+        <item quantity="one">%1$sK व्यक्तींनी हे खरेदी केले आहे</item>
+    </plurals>
+    <plurals name="feedback_sdk_already_select">
+        <item quantity="other">%1$d आयटम्स निवडले</item>
+        <item quantity="one">%1$d आयटम निवडला</item>
+    </plurals>
+    <plurals name="feedback_sdk_problem_question_info_update">
+        <item quantity="other">वर्णन किमान %d वर्ण लांब असायला हवे. शक्‍य असल्‍यास स्‍क्रीनशॉट्स जोडा.</item>
+        <item quantity="one">वर्णन किमान %d वर्ण लांब असायला हवे. शक्‍य असल्‍यास स्‍क्रीनशॉट्स जोडा.</item>
+    </plurals>
+    <plurals name="format_hour">
+        <item quantity="other">%1$d तास</item>
+        <item quantity="one">%1$d तास</item>
+    </plurals>
+    <plurals name="format_minute">
+        <item quantity="other">%1$d मिनिटे</item>
+        <item quantity="one">%1$d मिनिट</item>
+    </plurals>
+    <plurals name="format_second">
+        <item quantity="other">%1$d सेकंंद</item>
+        <item quantity="one">%1$d सेकंद</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle">
+        <item quantity="other">या अ‍ॅपला %1$d परवानग्या आवश्यक आहेत. आपण सेटिंग्ज > अ‍ॅप्स > अ‍ॅप्स मध्ये कोणत्याही वेळी या मागे घेऊ शकता.</item>
+        <item quantity="one">या अ‍ॅपला %1$d परवानगी आवश्यक आहे. आपण सेटिंग्ज > अ‍ॅप्स > अ‍ॅप्स मध्ये कोणत्याही वेळी ही मागे घेऊ शकता.</item>
+    </plurals>
+    <plurals name="gallery_permission_use_desc_subtitle_hm">
+        <item quantity="other">या अ‍ॅपला %1$d परवानग्या आवश्‍‍‍‍यक आहेत. आपण सेटिंग्ज > ॲप्स आणि सेवा > ॲप्स मध्ये या कधीही मागे घेऊ शकता.</item>
+        <item quantity="one">या अ‍ॅपला %1$d परवानगी आवश्‍‍‍‍यक आहे. आपण सेटिंग्ज > ॲप्स आणि सेवा > ॲप्स मध्ये हे कधीही मागे घेऊ शकता.</item>
+    </plurals>
+    <plurals name="gift_total_num_by_game">
+        <item quantity="other">%1$d भेटवस्तू</item>
+        <item quantity="one">%1$d भेटवस्तू</item>
+    </plurals>
+    <plurals name="gift_unit_ten_thousand">
+        <item quantity="other">%1$dK</item>
+        <item quantity="one">%1$dK</item>
+    </plurals>
+    <plurals name="hiappbase_accessibility_voice_stars">
+        <item quantity="other">%1$d स्टार्स</item>
+        <item quantity="one">%1$d स्टार</item>
+    </plurals>
+    <plurals name="hiappbase_newcontent_tips">
+        <item quantity="other">%d नवीन शिफारशी</item>
+        <item quantity="one">%d नवीन शिफारशी</item>
+    </plurals>
+    <plurals name="more_welfare_amount">
+        <item quantity="other">%d फायदे</item>
+        <item quantity="one">%d फायदा</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नवीन सूचना</item>
+        <item quantity="one">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">सर्व विराम दिलेल्या स्थापना हटवा (%1$s अ‍ॅप्स, %2$s मोकळे करा)</item>
+        <item quantity="one">सर्व विराम दिलेल्या स्थापना हटवा (%1$s अ‍ॅप, %2$s मोकळे करा)</item>
+    </plurals>
+    <plurals name="page_progress">
+        <item quantity="other">पृष्ठ %1$d</item>
+        <item quantity="one">पृष्ठ %1$d</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s स्थापनांना विराम दिला.</item>
+        <item quantity="one">%1$s स्थापनेला विराम दिला.</item>
+    </plurals>
+    <plurals name="promote_app_product_counts">
+        <item quantity="other">%1$d अतिरिक्‍त</item>
+        <item quantity="one">%1$d अतिरिक्‍त</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s अ‍ॅप्सची शेड्युल केलेली स्थापना पूर्ण झाली</item>
+        <item quantity="one">%1$s अ‍ॅपची शेड्युल केलेली स्थापना पूर्ण झाली</item>
+    </plurals>
+    <plurals name="reserve_update_dld_tips_ex">
+        <item quantity="other">जेव्हा आपण Wi-Fi शी कनेक्ट करता तेव्हा %1$d अ‍ॅप्स डाउनलोड करणे सुरू होईल.</item>
+        <item quantity="one">जेव्हा आपण Wi-Fi शी कनेक्ट करता तेव्हा %1$d अॅप डाउनलोड करणे सुरू होईल.</item>
+    </plurals>
+    <plurals name="reserve_warpup_game_count">
+        <item quantity="other">(%1$s प्री-ऑर्डर केलेले)</item>
+        <item quantity="one">(%1$s प्री-ऑर्डर केलेले)</item>
+    </plurals>
+    <plurals name="reserved_million_persons">
+        <item quantity="other">(%1$d दशलक्ष आरक्षित)</item>
+        <item quantity="one">(1 दशलक्ष आरक्षित)</item>
+    </plurals>
+    <plurals name="reserved_thousand_persons">
+        <item quantity="other">(%1$d हजार आरक्षित)</item>
+        <item quantity="one">(1 हजार आरक्षित)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">सर्व %1$s अ‍ॅप्स स्थापित करायचे?</item>
+        <item quantity="one">%1$s अ‍ॅप स्थापित करायचा?</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s स्थापना चालू आहेत.</item>
+        <item quantity="one">%1$s स्थापना चालू आहे.</item>
+    </plurals>
+    <plurals name="total_page">
+        <item quantity="other">%1$d पैकी</item>
+        <item quantity="one">%1$d पैकी</item>
+    </plurals>
+    <plurals name="uninstall_management_search_in_local_apps">
+        <item quantity="other">%d स्थानिक अ‍ॅप्स शोधा</item>
+        <item quantity="one">%d स्थानिक अ‍ॅप शोधा</item>
+    </plurals>
+    <plurals name="usage_time">
+        <item quantity="other">%d दिवस वापरले नाही</item>
+        <item quantity="one">%d दिवस वापरले नाही</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_continue_tip">
+        <item quantity="other">%d-दिवस सलग चेक-इन केले</item>
+        <item quantity="one">%d-दिवस सलग चेक-इन केले</item>
+    </plurals>
+    <plurals name="welfare_center_checkin_day_count">
+        <item quantity="other">दिवस %d</item>
+        <item quantity="one">दिवस %d</item>
+    </plurals>
+    <plurals name="wisedist_app_downloaded">
+        <item quantity="other">%1$d अ‍ॅ‍प्स डाउनलोड केले</item>
+        <item quantity="one">%1$d अ‍ॅप डाउनलोड केला</item>
+    </plurals>
+    <plurals name="wisedist_app_score">
+        <item quantity="other">रेटिंग: %s</item>
+        <item quantity="one">रेटिंग: %s</item>
+    </plurals>
+    <plurals name="wisedist_game_used_time_minute_before">
+        <item quantity="other">%d मिनिटापूर्वी</item>
+        <item quantity="one">%d मिनिटापूर्वी</item>
+    </plurals>
+    <plurals name="wisedist_welfare_event_number">
+        <item quantity="other">%d ऑफर्स</item>
+        <item quantity="one">%d ऑफर</item>
+    </plurals>
+    <plurals name="wisedist_welfare_forum_number">
+        <item quantity="other">%d सामुदायिक भेटवस्तू</item>
+        <item quantity="one">%d सामुदायिक भेटवस्तू</item>
+    </plurals>
+    <plurals name="wisedist_welfare_gift_number">
+        <item quantity="other">%d भेटवस्तू</item>
+        <item quantity="one">%d भेटवस्तू</item>
+    </plurals>
+</resources>

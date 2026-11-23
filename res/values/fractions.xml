@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="aguikit_hwfloatingbutton_pivot_offset">50.0%</fraction>
+    <fraction name="hwprogressbar_comet_tail_alpha_transfer_factor">82.00001%</fraction>
+</resources>

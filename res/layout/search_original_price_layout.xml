@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:textColor="@color/appgallery_text_color_tertiary"
+    android:ellipsize="end"
+    android:gravity="center_horizontal"
+    android:id="@id/original_price_textview"
+    android:tag="css/.subtitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    style="@style/AppGallery.TextAppearance.TextCaption"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="56.0dip"
+    android:width="56.0dip"
+    android:autoMirrored="true"
+    android:viewportWidth="56.0"
+    android:viewportHeight="56.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/appgallery_emui_color_8"
+        android:pathData="M28.7,49C39.9114,49 49,39.9114 49,28.7C49,17.4886 39.9114,8.4 28.7,8.4C17.4886,8.4 8.4,17.4886 8.4,28.7C8.4,39.9114 17.4886,49 28.7,49ZM28.7,35.1591C29.9739,35.1591 31.0068,36.192 31.0068,37.4659C31.0068,38.7398 29.9739,39.7727 28.7,39.7727C27.4261,39.7727 26.3932,38.7398 26.3932,37.4659C26.3932,36.192 27.4261,35.1591 28.7,35.1591ZM28.7,17.6273C29.8838,17.6273 30.8434,18.5869 30.8434,19.7707L30.8377,19.9279L30.8377,19.9279L29.938,32.1633C29.8903,32.8118 29.3503,33.3136 28.7,33.3136C28.0497,33.3136 27.5097,32.8118 27.462,32.1633L26.5623,19.9279C26.4755,18.7473 27.3622,17.7199 28.5428,17.633C28.5951,17.6292 28.6476,17.6273 28.7,17.6273Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter"
+        android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/item_view"
+        android:background="@drawable/welfare_center_signin_item_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/emui_text_size_caption"
+            android:textColor="@color/welfare_center_text_color"
+            android:ellipsize="end"
+            android:id="@id/gift_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/appgallery_card_elements_margin_xs"
+            android:layout_marginTop="@dimen/appgallery_card_elements_margin_m"
+            android:layout_marginRight="@dimen/appgallery_card_elements_margin_xs"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_xs"
+            android:singleLine="true"
+            android:fontFamily="@string/appgallery_text_font_family_regular" />
+        <ImageView
+            android:id="@id/gift_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginBottom="@dimen/appgallery_card_elements_margin_m"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <TextView
+        android:textSize="@dimen/appgallery_text_size_body3_fixed"
+        android:textColor="@color/appgallery_color_primary"
+        android:gravity="center_horizontal"
+        android:id="@id/day_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/appgallery_card_elements_margin_s"
+        android:maxLines="2"
+        android:fontFamily="@string/appgallery_text_font_family_regular" />
+</LinearLayout>

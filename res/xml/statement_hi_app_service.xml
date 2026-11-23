@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaration>
+    <title>
+        <string
+            name="@string/hiapp_oobe_privacy_title_v2_modified" />
+    </title>
+    <content>
+        <string
+            name="@string/hiapp_oobe_privacy_content_v2_modified_with_app_list"
+            placeholder_count="0" />
+    </content>
+    <action
+        name="com.huawei.appmarket.oobe.ACTION_SHOW_PRIVACY" />
+</declaration>

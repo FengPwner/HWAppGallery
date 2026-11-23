@@ -1,0 +1,34 @@
+{
+  "layout": [
+    {
+      "layoutId": 1,
+      "name": "推荐内容说明",
+      "maxRows": 1,
+      "layoutName": "settingsrecommenddescriptioncard"
+    },
+    {
+      "layoutId": 2,
+      "name": "个性化推荐",
+      "maxRows": 1,
+      "layoutName": "settingspersonalizedrecommendcard"
+    }
+  ],
+  "layoutData": [
+    {
+      "layoutId": 1,
+      "name": "推荐内容说明",
+      "layoutName": "settingsrecommenddescriptioncard",
+      "dataList": [
+        {}
+      ]
+    },
+    {
+      "layoutId": 2,
+      "name": "个性化推荐",
+      "layoutName": "settingspersonalizedrecommendcard",
+      "dataList": [
+        {}
+      ]
+    }
+  ]
+}

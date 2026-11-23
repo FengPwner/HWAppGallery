@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huawei.uikit.hwradiobutton.widget.HwRadioButton
+        android:id="@id/forum_vote_option_img_radiobutton"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:checked="false"
+        android:layout_marginStart="-12.0dip"
+        style="@style/Widget.Emui.HwRadioButton" />
+    <com.huawei.uikit.hwcheckbox.widget.HwCheckBox
+        android:id="@id/forum_vote_option_img_checkbox"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:checked="false"
+        android:layout_marginStart="-12.0dip"
+        style="@style/Widget.Emui.HwCheckBox" />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/forum_vote_option_img"
+        android:layout_width="96.0dip"
+        android:layout_height="72.0dip"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginEnd="12.0dip"
+        app:shapeAppearance="@style/AppGallery.ShapeAppearance.Rounded.Medium" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/forum_vote_option_img_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary.Regular" />
+</LinearLayout>

@@ -1,0 +1,2266 @@
+{
+  "backgroundDialogWhitelist": [
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.ugc.aweme"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.ugc.aweme.lite"
+    },
+    {
+      "signs": [
+        "0c22717584fa88e0aca25d949d38db82c8440cbe6c23d62401de9bd495646370"
+      ],
+      "packageName": "com.kuaishou.nebula"
+    },
+    {
+      "signs": [
+        "52b39814585460ab478c216c48eed0afc3ead6da89feb00d6a31620f9c5c072c"
+      ],
+      "packageName": "com.tencent.mobileqq"
+    },
+    {
+      "signs": [
+        "0c22717584fa88e0aca25d949d38db82c8440cbe6c23d62401de9bd495646370"
+      ],
+      "packageName": "com.smile.gifmaker"
+    },
+    {
+      "signs": [
+        "d64c4dfaf9299c5f4f2f01726cb63a4bc586b32b302267004988d8df31f16135"
+      ],
+      "packageName": "com.tencent.mm"
+    },
+    {
+      "signs": [
+        "49419c8e8f0fe692ef374a4f047c863de9535690542243a8e918823ddec77802"
+      ],
+      "packageName": "com.dragon.read"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.article.lite"
+    },
+    {
+      "signs": [
+        "55013dbf8a31a35b3362f5370d5c3169f8f6239ce6fd7d25db50daf8d7de44d2"
+      ],
+      "packageName": "com.xingin.xhs"
+    },
+    {
+      "signs": [
+        "99a49232269da24acc94d44ea0d8d30c8135a056a13a6b4c796e6907ff7b5949"
+      ],
+      "packageName": "com.alibaba.android.rimet"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.article.video"
+    },
+    {
+      "signs": [
+        "65a14be73e4e5676f011ed11a96d36f957705ba7338476b396f507c8194481fd"
+      ],
+      "packageName": "com.taobao.taobao"
+    },
+    {
+      "signs": [
+        "3b1c3b2fd82e6cd8fb37a9df1f8c57a61a11c044ad93a67b65ea9bfc7392d32f"
+      ],
+      "packageName": "com.baidu.searchbox.lite"
+    },
+    {
+      "signs": [
+        "49419c8e8f0fe692ef374a4f047c863de9535690542243a8e918823ddec77802"
+      ],
+      "packageName": "com.xs.fm"
+    },
+    {
+      "signs": [
+        "f9a50c5d6717eb99a53568ba7e7f7c8deebba47b85e0ab745d4717353a3690a8"
+      ],
+      "packageName": "com.taobao.litetao"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.ugc.live"
+    },
+    {
+      "signs": [
+        "657d57fa8543874fb9e370f0938c4b614f8da92b20255015e65518b297a0f14b"
+      ],
+      "packageName": "com.immomo.momo"
+    },
+    {
+      "signs": [
+        "959ea8609c811524ed684c6193f4e5d2f4950d2c6ce6ddcd88ba4cd439e7a3f1"
+      ],
+      "packageName": "com.tencent.wemeet.app"
+    },
+    {
+      "signs": [
+        "3b1c3b2fd82e6cd8fb37a9df1f8c57a61a11c044ad93a67b65ea9bfc7392d32f"
+      ],
+      "packageName": "com.baidu.searchbox"
+    },
+    {
+      "signs": [
+        "7a1a33d0fbb0acabd257c4f6ff5d67d3b05b82564be1401dab7912b796d745ea"
+      ],
+      "packageName": "tv.danmaku.bili"
+    },
+    {
+      "signs": [
+        "66e1cf07f0e484701d0054981f3f197e633c55ccc175b247bd8bc489ae2eea12"
+      ],
+      "packageName": "com.qiyi.video"
+    },
+    {
+      "signs": [
+        "2d50212c8425afa8de09d5fd497e1caf6f1e684cacd0e16f6de4b2e67e784818"
+      ],
+      "packageName": "com.baidu.homework"
+    },
+    {
+      "signs": [
+        "f02907734cd2a3c14c369e922f82c35734cd0f0e9fcae95b2ae86e3c796c99fd"
+      ],
+      "packageName": "com.jingdong.app.mall"
+    },
+    {
+      "signs": [
+        "6862de29372522addbbf70be05fa79db1894a9b294a27612fb230e91eb4f0948"
+      ],
+      "packageName": "com.youku.phone"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.article.news"
+    },
+    {
+      "signs": [
+        "796679ef58b3bd1403a046638f5a2dcf8c22deffe68a63441b76a6a2b7a7d91c"
+      ],
+      "packageName": "com.eg.android.AlipayGphone"
+    },
+    {
+      "signs": [
+        "9e74a435aca6374762840e8fcae7a32f15b7bd804378969809fc3fa5e6596124"
+      ],
+      "packageName": "com.tencent.qqlive"
+    },
+    {
+      "signs": [
+        "c0e5ac069304f0aa982c2454b120558a13d40603ea242312b0f42a9c7931840a"
+      ],
+      "packageName": "com.kugou.android"
+    },
+    {
+      "signs": [
+        "5243f32118bcfb4a8b300475275c15662f41cac349fd6f552dbe0fad9850dac0"
+      ],
+      "packageName": "cn.soulapp.android"
+    },
+    {
+      "signs": [
+        "5702021f985c56bacbe30788b71532e4a1c4b388ebe8a2a77df53ddc20cc7579"
+      ],
+      "packageName": "com.lemon.lv"
+    },
+    {
+      "signs": [
+        "1bf65de3a835d083dd1713b148009684e16c95981b773280664dbc08c076bfe6"
+      ],
+      "packageName": "com.sankuai.meituan"
+    },
+    {
+      "signs": [
+        "ac1d3c70e9abeff751876aea845b6866c944cc4cb68fb26947d19aa3dc6f0510"
+      ],
+      "packageName": "com.hicorenational.antifraud"
+    },
+    {
+      "signs": [
+        "9bb829247d5ea6136abd330efb0fd18f08e55b85e487da7ee428dbbac5d2a914"
+      ],
+      "packageName": "com.kuaiduizuoye.scan"
+    },
+    {
+      "signs": [
+        "a01790b9f402c233d9db35383689c069fc914b6b2bb8d5eced2aa9a298ab4f96"
+      ],
+      "packageName": "com.taobao.idlefish"
+    },
+    {
+      "signs": [
+        "007b4834c8fcbb6b016f5023aa8d894806744cddda6c8c6387d39fd137b680d9"
+      ],
+      "packageName": "com.tencent.karaoke"
+    },
+    {
+      "signs": [
+        "8a604fce6775a2250009dbe3cee70ec0aa56490a65e9caa8793e74a8ecf53b6f"
+      ],
+      "packageName": "cn.gov.tax.its"
+    },
+    {
+      "signs": [
+        "ee9bb59ba76e8ea7817aad2f969d92a46c1d4c92897037ac2c20eb50ce15b30c"
+      ],
+      "packageName": "com.sina.weibo"
+    },
+    {
+      "signs": [
+        "201a1d1054685f6c4effe1ff8ca180eb9d2574243f94c2bd9b904fdee206e4cc"
+      ],
+      "packageName": "com.kmxs.reader"
+    },
+    {
+      "signs": [
+        "3ac9ee928671593816753e227f1729fdee804bdabb02d1ac2326a974a0501c2e"
+      ],
+      "packageName": "com.tencent.qqmusic"
+    },
+    {
+      "signs": [
+        "b4469502bf1e81cbf8e61533a6184232b120711449cd9167345e2b58c94bf575"
+      ],
+      "packageName": "com.mt.mtxx.mtxx"
+    },
+    {
+      "signs": [
+        "66e1cf07f0e484701d0054981f3f197e633c55ccc175b247bd8bc489ae2eea12"
+      ],
+      "packageName": "com.qiyi.video.lite"
+    },
+    {
+      "signs": [
+        "8818a115e3d3600bfcda34381a10059141322710555ce548c54d749ba2592795"
+      ],
+      "packageName": "com.tmri.app.main"
+    },
+    {
+      "signs": [
+        "9d2b3cc76b6caef9c19344ba97eb71ed1642d03216efe38085e90336c63f34ca"
+      ],
+      "packageName": "com.p1.mobile.putong"
+    },
+    {
+      "signs": [
+        "8aa7ec4af3e9ad6927998b7b6b50f3b7b3ac2a534f9103da8a90b8ad0960f27e"
+      ],
+      "packageName": "me.ele"
+    },
+    {
+      "signs": [
+        "0c08a447556b7d6769e4991a3d23e29e303165204fcf05b65a6ad66f06e72521"
+      ],
+      "packageName": "com.baidu.netdisk"
+    },
+    {
+      "signs": [
+        "eb0a06d2341d43358401b5602facba20724cfd57ff924eec5c8bf4bb4e49c776"
+      ],
+      "packageName": "com.autonavi.minimap"
+    },
+    {
+      "signs": [
+        "798a33d4640212c9f493cd1d841a825a3769e75e238999a064afdf520c69442c"
+      ],
+      "packageName": "com.netease.cloudmusic"
+    },
+    {
+      "signs": [
+        "6e8c8775f1be7a30b4794ff1b2a5d6d528f6ae154635f36b703e3a63151825d7"
+      ],
+      "packageName": "com.wuba"
+    },
+    {
+      "signs": [
+        "1e0670aa94f1ba534fb43277c63a00d2647c9b97c432718caa9c0cef377ccd98"
+      ],
+      "packageName": "com.zhihu.android"
+    },
+    {
+      "signs": [
+        "1b29be29c96f27e7e920a06716e0ee6ce70a53ad9ba7b8856bc53c914d4c6f57"
+      ],
+      "packageName": "com.android.bankabc"
+    },
+    {
+      "signs": [
+        "cf739fa5d772f1c547645294a212180ba594d11fca2e5459f531a51e2ba2fecc"
+      ],
+      "packageName": "com.anjuke.android.app"
+    },
+    {
+      "signs": [
+        "afd0470bcc6bf69a85d7efa2f2f37cd3b20c4eceffede7fb1f3b029b06c7d4a5"
+      ],
+      "packageName": "com.shizhuang.duapp"
+    },
+    {
+      "signs": [
+        "348ab8502367c7f1b79a3951bd83929ceb2fe62c6926e5d83c41c1dea5fc2003"
+      ],
+      "packageName": "com.ximalaya.ting.android"
+    },
+    {
+      "signs": [
+        "f2cbb6d459dd81148a6ba68bdc122bb6346c19747b4e29baefa014c92ed67c26"
+      ],
+      "packageName": "com.gotokeep.keep"
+    },
+    {
+      "signs": [
+        "de3c008a4a668a85039c03c905f1f1bb9752681d71b74b9a95b39500f3ce9002"
+      ],
+      "packageName": "com.chinamworld.main"
+    },
+    {
+      "signs": [
+        "3b1c3b2fd82e6cd8fb37a9df1f8c57a61a11c044ad93a67b65ea9bfc7392d32f"
+      ],
+      "packageName": "com.baidu.BaiduMap"
+    },
+    {
+      "signs": [
+        "8f18c0f05b5d299334d43f66b6852fc487393387f4e7907a3b0c92fa230569bd"
+      ],
+      "packageName": "com.xunlei.downloadprovider"
+    },
+    {
+      "signs": [
+        "7da3cfaa6a0915c167ad48b15c6d46ce2f31cfaca5c113f50e87974a71a83bf3"
+      ],
+      "packageName": "com.hunantv.imgo.activity"
+    },
+    {
+      "signs": [
+        "9a4f98786008e4433de4ba737f958a83b5bf6b73500fafdd4ccfafbd9d849b77"
+      ],
+      "packageName": "com.le123.ysdq"
+    },
+    {
+      "signs": [
+        "0c22717584fa88e0aca25d949d38db82c8440cbe6c23d62401de9bd495646370"
+      ],
+      "packageName": "com.kwai.videoeditor"
+    },
+    {
+      "signs": [
+        "7b529cbc484f3ecde4c8ebfbdfb1b5e84c9635c059b35173cffb41fbb328cd07"
+      ],
+      "packageName": "com.mosheng"
+    },
+    {
+      "signs": [
+        "857db577979dfca325de5a713877d2878f5598a6294b33bc3b1e9c202ee573b3"
+      ],
+      "packageName": "com.icbc"
+    },
+    {
+      "signs": [
+        "b3d3ada47931a8043997a4442e7ae3349f528bbcf1d1ff61dfbbe085f88734f4"
+      ],
+      "packageName": "com.alibaba.wireless"
+    },
+    {
+      "signs": [
+        "cd1552b8d06029329e4adde650b74ab0d69a7e5e4ac8ebbb8e8bcf97855b7dd7"
+      ],
+      "packageName": "com.greenpoint.android.mc10086.activity"
+    },
+    {
+      "signs": [
+        "1bf65de3a835d083dd1713b148009684e16c95981b773280664dbc08c076bfe6"
+      ],
+      "packageName": "com.sankuai.meituan.takeoutnew"
+    },
+    {
+      "signs": [
+        "bc65214adb5cc121450333a7c88437feb86c82e6d6db0882c3a1b82934c599f3"
+      ],
+      "packageName": "com.sohu.newsclient"
+    },
+    {
+      "signs": [
+        "a28441acf04a72177984b29fa78f1a944179fea0184dda8c88e32a54daadfb0e"
+      ],
+      "packageName": "com.duowan.mobile"
+    },
+    {
+      "signs": [
+        "eb077f149d64a1820f586530e1b199af4a5c174ad19e5aa9960a7a969b3b848a"
+      ],
+      "packageName": "com.tencent.wework"
+    },
+    {
+      "signs": [
+        "bb6eadd43dc70ef04872f1f5713738d18cdc6937fcaa93b3ca9281407cc96827"
+      ],
+      "packageName": "com.netease.newsreader.activity"
+    },
+    {
+      "signs": [
+        "4d59d49275868c4b5eec48ec38ed5298203786438721da049862877042f64900"
+      ],
+      "packageName": "com.unionpay"
+    },
+    {
+      "signs": [
+        "1ee82fd449a255b50f850e1e5536b2a6fb31334831d48b05ecb976ba9b8496bc"
+      ],
+      "packageName": "com.xt.retouch"
+    },
+    {
+      "signs": [
+        "3d46ed8da3dfe79e95cc7c14432953777062362aa3f50e3805a71790ac79ebfd"
+      ],
+      "packageName": "com.taobao.live"
+    },
+    {
+      "signs": [
+        "e0de7f4702d88677648af198126fbfcafcbc8735cd4548bca9140b5ccdddad2a"
+      ],
+      "packageName": "com.ccb.longjiLife"
+    },
+    {
+      "signs": [
+        "f7ea6d9118ef002a9adce273205d21ad150ece6601356d71a9a6e3c64f38b151"
+      ],
+      "packageName": "com.duowan.kiwi"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.auto"
+    },
+    {
+      "signs": [
+        "c9d5fd9010b0a621f3eb515d04acf257ee19bc317330126cc4d3cba51adbf167"
+      ],
+      "packageName": "com.sinovatech.unicom.ui"
+    },
+    {
+      "signs": [
+        "5df63b2259ebde0dcd20b48089b69b478c085d69d0a6af0f71a3ed44079c4aaf"
+      ],
+      "packageName": "com.yuncheapp.android.pearl"
+    },
+    {
+      "signs": [
+        "fb97f86f044f41e9b54183550752376a2421ff1063017ea729866f748dc404cc"
+      ],
+      "packageName": "com.intsig.camscanner"
+    },
+    {
+      "signs": [
+        "a0ee241e28a6e76e0e6cb54f587619d9ac0aa9b41a2e1650d059c3cf815ed48c"
+      ],
+      "packageName": "com.achievo.vipshop"
+    },
+    {
+      "signs": [
+        "8acbf5cdbb7d2d483ea16cbed58849f3ee95e53a1c16914898a773e3cac6c994"
+      ],
+      "packageName": "com.hpbr.bosszhipin"
+    },
+    {
+      "signs": [
+        "47937d3a60cde457e9a3af20b168d2fb69bf51ca7d295a9a1ac8aa56d66b1808"
+      ],
+      "packageName": "com.baidu.haokan"
+    },
+    {
+      "signs": [
+        "9f070d9aba3dd690daa2b2d3e052154213efdca1f4e8726d41ad10663ace68a8"
+      ],
+      "packageName": "com.tencent.androidqqmail"
+    },
+    {
+      "signs": [
+        "c6dc4925d7741acbc69d1ca35a715567f49c5abbb42cd463fd8f1c858f4c1d77"
+      ],
+      "packageName": "com.chinamworld.bocmbci"
+    },
+    {
+      "signs": [
+        "8fd436dd6d8c9ca95e354c8aafea0ce60bc32efdda20413ce2177a56f80ba6bd"
+      ],
+      "packageName": "com.moutai.mall"
+    },
+    {
+      "signs": [
+        "8c759d459c8046cef96980b2276d62f429fbedf460294755288d1613adc8b59d"
+      ],
+      "packageName": "com.lianjia.beike"
+    },
+    {
+      "signs": [
+        "c194319a7403432bf4d112fb593025ca5d60e6d95f91f0613bd63fa038b2b1b6"
+      ],
+      "packageName": "com.yaya.zone"
+    },
+    {
+      "signs": [
+        "f7ba970439e0a32acd524173e2cc1297be160a3a7e6206dafafb669242dd9e29"
+      ],
+      "packageName": "com.ms.ailiao"
+    },
+    {
+      "signs": [
+        "aaffe9235a38cf92fb0c5aea08bb1890faa6d34ab2fb3072489a738a4ae42952"
+      ],
+      "packageName": "com.wuba.zhuanzhuan"
+    },
+    {
+      "signs": [
+        "8863a86cc51b33e1563dff938b39c7bbb7c50959ac291c3435ce80d27e75714b"
+      ],
+      "packageName": "com.kuaikan.comic"
+    },
+    {
+      "signs": [
+        "20c35045a468c198fcb491dc3617a8cac9ba3ef379cae0b85ed71b2764cf6935"
+      ],
+      "packageName": "com.fenbi.android.solar"
+    },
+    {
+      "signs": [
+        "e9f8d63738ae2f203d2b64cede020df76ffc97e39a0e5a295bb598cb33d8969d"
+      ],
+      "packageName": "com.tmall.wireless"
+    },
+    {
+      "signs": [
+        "a71d6f80fd36fed0dec0e212d1d016bdb10a3c9ad20feffb88f85a3b89d9490c"
+      ],
+      "packageName": "com.sohu.inputmethod.sogou"
+    },
+    {
+      "signs": [
+        "56a9f7d6f0ad0802c2e648c930d457e1edc192cf27798b256eeb338087feb687"
+      ],
+      "packageName": "cn.xuexi.android"
+    },
+    {
+      "signs": [
+        "e3d2193e7be6489e102255273d5df24b1a4a4e351d712eb6f8e285c8d6a18b09"
+      ],
+      "packageName": "me.yidui"
+    },
+    {
+      "signs": [
+        "219be5421bc1303c6f66c531b8ced913f866f8e75bcbd3e2913dedae8a09fb60"
+      ],
+      "packageName": "cn.wps.moffice_eng"
+    },
+    {
+      "signs": [
+        "311fde48efae07fe0deeca89bf4b079e026a47a7ef323f3ed4525f4ecbcd030b"
+      ],
+      "packageName": "com.yitong.mbank.psbc"
+    },
+    {
+      "signs": [
+        "e00b5c4b1cf7027ad2eff8a9aee3ef825b4638801ad091ee2db403570b042c5a"
+      ],
+      "packageName": "com.iflytek.inputmethod"
+    },
+    {
+      "signs": [
+        "ac4952eb3cfd8f867b189edfb2ad80c39d6aaf4d22b1106e0d52ab488f778f93"
+      ],
+      "packageName": "com.ct.client"
+    },
+    {
+      "signs": [
+        "2c06590827603467658827a87ae7a170cb66e690d41810a535e919fc79315f32"
+      ],
+      "packageName": "com.ganji.android"
+    },
+    {
+      "signs": [
+        "f02907734cd2a3c14c369e922f82c35734cd0f0e9fcae95b2ae86e3c796c99fd"
+      ],
+      "packageName": "com.jd.jdlite"
+    },
+    {
+      "signs": [
+        "f3ae6af777e68b3380d4263ba32213e606a9e78948ff9d0883b6d47fedc142a8"
+      ],
+      "packageName": "com.sinyee.babybus.world"
+    },
+    {
+      "signs": [
+        "6050b49396355bf9865774a06816a072119a4abd1ae5d5185aace40a0fe62760"
+      ],
+      "packageName": "com.sohu.sohuvideo"
+    },
+    {
+      "signs": [
+        "72914b82ae8bf218f7b8759697bcbea5584db40918eb1f1cdcf90349ada8d7c7"
+      ],
+      "packageName": "cn.gov.pbc.dcep"
+    },
+    {
+      "signs": [
+        "c100783584a9e93d273dacc68401d14fd6519a8d574645e32de2644622c878df"
+      ],
+      "packageName": "com.job.android"
+    },
+    {
+      "signs": [
+        "83fb20ec2a8769337023eb8b595b02c5d6c243a4444f2489459ae47344fc21c1"
+      ],
+      "packageName": "com.tencent.map"
+    },
+    {
+      "signs": [
+        "36d6192b6bc49ad7a1a4f9e4d9b6c75cb9b6c2c90431df9ae7f410fb3d08c6b4"
+      ],
+      "packageName": "com.dianping.v1"
+    },
+    {
+      "signs": [
+        "e39537c716d54ef653a244164ef773e7adc90ca398afb02c1b84b85e7729edcb"
+      ],
+      "packageName": "com.sup.android.superb"
+    },
+    {
+      "signs": [
+        "e4184e1ed7998e1fc12838f7caa0049ccfd10b0417bdea4d6f80f62084b3b3a3"
+      ],
+      "packageName": "com.tencent.gamehelper.smoba"
+    },
+    {
+      "signs": [
+        "f65cf4fdd01635965252f6fe0316f6267d3167f30b80ed58079584f187383b75"
+      ],
+      "packageName": "com.wudaokou.hippo"
+    },
+    {
+      "signs": [
+        "f9d26e49033a14def2b474db8f359da423ba2a592e8faf5aa6f58b1601b20729"
+      ],
+      "packageName": "com.handsgo.jiakao.android"
+    },
+    {
+      "signs": [
+        "94a9a40d2924ac38747293ab90b1345f810cc6c7538094453f302c11b8696510"
+      ],
+      "packageName": "com.cmcc.cmvideo"
+    },
+    {
+      "signs": [
+        "872b71d979a76098edfbef6e79072844911e2c4da664111d78b65c6551f99773"
+      ],
+      "packageName": "air.tv.douyu.android"
+    },
+    {
+      "signs": [
+        "303d612cc27dffcba9db01f620fdfc3125ac385ef093df571f42c498fe182fde"
+      ],
+      "packageName": "com.zhaopin.social"
+    },
+    {
+      "signs": [
+        "c94a845d544be74e943f724b58f60f1dde0cd66d49e6b786e850ac5d2339994a"
+      ],
+      "packageName": "com.tianyancha.skyeye"
+    },
+    {
+      "signs": [
+        "792756f77f1e6374b883d6bb163185c6bdd0e0c28165a68341aae0309d99f074"
+      ],
+      "packageName": "com.jd.jrapp"
+    },
+    {
+      "signs": [
+        "a0568a7e46f91edc63acdced84b35b737d4b0abe87505e4d56614c92a4fab656"
+      ],
+      "packageName": "com.petal.litegames"
+    },
+    {
+      "signs": [
+        "30c11d1d97e51431f98ba857e62fcbc4f2f664b38a5f73b2e0375d9d1ec2860c"
+      ],
+      "packageName": "com.jingyao.easybike"
+    },
+    {
+      "signs": [
+        "e4184e1ed7998e1fc12838f7caa0049ccfd10b0417bdea4d6f80f62084b3b3a3"
+      ],
+      "packageName": "com.tencent.gamehelper.pg"
+    },
+    {
+      "signs": [
+        "bc11e6d73517c597be1c43697c6e02443658c0cb1bcea3e533a79edabb9db8a5"
+      ],
+      "packageName": "com.baidu.tieba"
+    },
+    {
+      "signs": [
+        "5212d447577cb6969134f363626f21412a629062b50de29ffc2cc853775bc3fc"
+      ],
+      "packageName": "com.fenqile.fenqile"
+    },
+    {
+      "signs": [
+        "1d38061cbe7c44a76a6788390f5e59935d58f601b274e79bce2fcde3fdfc5506"
+      ],
+      "packageName": "com.cubic.autohome"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.ss.android.homed"
+    },
+    {
+      "signs": [
+        "73ee827d84e4ee978fec835ee0b9baa541907513b288edaaa834b1d5711183bd"
+      ],
+      "packageName": "com.soft.blued"
+    },
+    {
+      "signs": [
+        "560390c80fd010d0e353dd1b6a4079dccb0c9976cce54dace2a8e60cf7f4917c"
+      ],
+      "packageName": "com.yiche.autoeasy"
+    },
+    {
+      "signs": [
+        "7d6756ad8c5c6ecca5f25cd3f048387317bebd4b5863cc57c87bccbac43c4ef2"
+      ],
+      "packageName": "cmb.pb"
+    },
+    {
+      "signs": [
+        "f17405474d7f787ce5950f87a71e5225633edb78d695557131a455d06ae81b27"
+      ],
+      "packageName": "com.gkid.crazyrope"
+    },
+    {
+      "signs": [
+        "e6c306a0e3adf2ae07f234bc89edeb97998cb0d8631da7389d35a6488df75681"
+      ],
+      "packageName": "com.miga.world.c.huawei"
+    },
+    {
+      "signs": [
+        "f02907734cd2a3c14c369e922f82c35734cd0f0e9fcae95b2ae86e3c796c99fd"
+      ],
+      "packageName": "com.jd.pingou"
+    },
+    {
+      "signs": [
+        "30d22f991d85dff69e6a50dcc471d118aee6d1c5e138bd8f23a288253dcaa915"
+      ],
+      "packageName": "com.lofter.android"
+    },
+    {
+      "signs": [
+        "09dda405ab0ba89bb8f04e702d709a1e8874a48b17a7559f3a9d51cc6ddb126b"
+      ],
+      "packageName": "com.beidouin.iBeidou"
+    },
+    {
+      "signs": [
+        "536efddea5e3712f9d7a3bad04bd29e0f954c3f1f2cd8c3bc44298734d281d29"
+      ],
+      "packageName": "com.MobileTicket"
+    },
+    {
+      "signs": [
+        "918606b1fc488e445558939d3449340f50c3e1ff3391c775c28c73208890f654"
+      ],
+      "packageName": "cn.hsa.app"
+    },
+    {
+      "signs": [
+        "28f85a9e59d0a443b11555555528945a60cea5591dca8946f8a14c7ac518fa90"
+      ],
+      "packageName": "com.tencent.edu"
+    },
+    {
+      "signs": [
+        "f412561cfde953e49fa2405e7f53a573ff62bbb91f01e23c2c6493d16e8a5ea9"
+      ],
+      "packageName": "com.homelink.android"
+    },
+    {
+      "signs": [
+        "bccafb0181f0b6625997f5e2c257f629be25bb89f7988b2d7594c64e15798092"
+      ],
+      "packageName": "com.lalamove.huolala.client"
+    },
+    {
+      "signs": [
+        "a9f25619b3d964b826bc0c5085b876de05b1c5c699738d4fa7671eea5c9c061a"
+      ],
+      "packageName": "com.chaoxing.mobile"
+    },
+    {
+      "signs": [
+        "80594720bb9f8ba48e7dd06c4093e8fa078e05f6aeac9d92e701b597d95147ca"
+      ],
+      "packageName": "com.syhdsoft.ictc"
+    },
+    {
+      "signs": [
+        "ab487d8bcee0a0089eb5d1d239175d28bfed2e433340310b11bf96f1349d1796"
+      ],
+      "packageName": "com.shuqi.controller"
+    },
+    {
+      "signs": [
+        "de1c295153a082b6025bb8440f0db7eed1638069506acc494b4da9ddd740b009"
+      ],
+      "packageName": "com.qihoo.loan"
+    },
+    {
+      "signs": [
+        "4e5de1191afe6d25449b933e4074740cbb7d36259695c54b9b6f9284dc8c93e3"
+      ],
+      "packageName": "com.huawei.videoeditor"
+    },
+    {
+      "signs": [
+        "2d50212c8425afa8de09d5fd497e1caf6f1e684cacd0e16f6de4b2e67e784818"
+      ],
+      "packageName": "com.baidu.wenku"
+    },
+    {
+      "signs": [
+        "c063483f7bc6499d9dca970a186826071a8044bcdc277e47ed4534e030febd6a"
+      ],
+      "packageName": "com.duxiaoman.wallet"
+    },
+    {
+      "signs": [
+        "8b558ffc841337bd59c51aa17b97895f3ca9a868cb9150b1c5370946531f25bb"
+      ],
+      "packageName": "com.jzzs.ParentsHelper"
+    },
+    {
+      "signs": [
+        "09def98ce0cfb2af43df7c8aeb7e62535450288b7c947dac79ea48f699ceba5b"
+      ],
+      "packageName": "com.wepie.weplay"
+    },
+    {
+      "signs": [
+        "4ac1d4984c2871c98db166aba04028c868da9f85a9d780cc5dfc3f0e8cecb395"
+      ],
+      "packageName": "com.clover.daysmatter"
+    },
+    {
+      "signs": [
+        "084c4bdcc444a6b162ed4dcc5f77c158488a90c662c15bef8951a55348170102"
+      ],
+      "packageName": "com.hpplay.happycast"
+    },
+    {
+      "signs": [
+        "5fcf5a837246c4a4be9273366fcc7ad2c5280558f0fd17eabf6e1c0b9a545311"
+      ],
+      "packageName": "cn.kuwo.player"
+    },
+    {
+      "signs": [
+        "ff81bbbd1d8f8c9710d7b7aee9eda6062e91775a32c726ce108532511b04e1c4"
+      ],
+      "packageName": "io.dcloud.H576E6CC7"
+    },
+    {
+      "signs": [
+        "d531e6a8fa578f87c6a899db82a40ad710d34785926c7515502b43b103379112"
+      ],
+      "packageName": "com.kuaiyin.player"
+    },
+    {
+      "signs": [
+        "3c7b84563e63d1d8f6f71d7411165f94b14f58dd2f7db60fcdf1aa9495020933"
+      ],
+      "packageName": "com.cainiao.wireless"
+    },
+    {
+      "signs": [
+        "798a33d4640212c9f493cd1d841a825a3769e75e238999a064afdf520c69442c"
+      ],
+      "packageName": "com.netease.moyi"
+    },
+    {
+      "signs": [
+        "972c282c01c7fbfb27098cecd576343259d417961222992057564a8637df27bd"
+      ],
+      "packageName": "com.msxf.ayh"
+    },
+    {
+      "signs": [
+        "a465646304559287e7095ad09533ecafeab2e5338ecb5f748faf58ba175b910f"
+      ],
+      "packageName": "com.iflytek.oshall.ahzwfw"
+    },
+    {
+      "signs": [
+        "31d272b931c4c24856f194d491b3a6166281ef2483574966ddd3868dc61dc332"
+      ],
+      "packageName": "com.cmri.universalapp"
+    },
+    {
+      "signs": [
+        "eb077f149d64a1820f586530e1b199af4a5c174ad19e5aa9960a7a969b3b848a"
+      ],
+      "packageName": "com.tencent.qqpim"
+    },
+    {
+      "signs": [
+        "127c8b7822d1819d11f39331f9ec9ef2157dfe15140b19f76ca9c160bf3fad22"
+      ],
+      "packageName": "com.huawei.health"
+    },
+    {
+      "signs": [
+        "4c04264a734de5ad39337160126d36cc82548beb84d24a07d6338aa5c45dfad7"
+      ],
+      "packageName": "com.youdao.dict"
+    },
+    {
+      "signs": [
+        "a0568a7e46f91edc63acdced84b35b737d4b0abe87505e4d56614c92a4fab656"
+      ],
+      "packageName": "com.huawei.gamebox"
+    },
+    {
+      "signs": [
+        "8dfa9646c06661a75d33fe19cea589fba76af587ac99159c58aee9e52938ed51"
+      ],
+      "packageName": "com.sgcc.wsgw.cn"
+    },
+    {
+      "signs": [
+        "7aafe06e738798f7fa0bbb038ba7974aac3c0867be7ace15b5b1872d8e9fbaa5"
+      ],
+      "packageName": "com.smallvideo.joyousvideo"
+    },
+    {
+      "signs": [
+        "812d589e520c153817db8a215d82c5ac07bd2c7824cf1175e292fadee9a46728"
+      ],
+      "packageName": "com.rumtel.mobiletv"
+    },
+    {
+      "signs": [
+        "123e468b01a0c32bc92568e39de70f91af1351c32988d77066f85aae6b2d3dd6"
+      ],
+      "packageName": "com.tencent.weread"
+    },
+    {
+      "signs": [
+        "4eab7e3fcf6340c34b42116bdf51d1ef1d1bc32c59bffa59155ad1a461610ffb"
+      ],
+      "packageName": "com.zenmen.palmchat"
+    },
+    {
+      "signs": [
+        "2ba64b00d83c9d447377a6f4e452526a7e3721ece5a12934b85227138a90d8b0"
+      ],
+      "packageName": "com.hongen.app.word"
+    },
+    {
+      "signs": [
+        "dbfedc93a015ce351485e9635ef9930d3a92658545b210e5fbaf3c1e6b8e66a3"
+      ],
+      "packageName": "com.pingan.carowner"
+    },
+    {
+      "signs": [
+        "34647bb71282036a6c741bba7952b2acab688a53ea6705149af8ac96ee37a10a"
+      ],
+      "packageName": "com.cctv.yangshipin.app.androidp"
+    },
+    {
+      "signs": [
+        "9cc4747ed5b9ad0c1cf8c58d90be60133037668213c6f416472a6fe662153977"
+      ],
+      "packageName": "com.chaozh.iReader.dj"
+    },
+    {
+      "signs": [
+        "93da4ceb4ec824ceee67237d4763b8e4a10cd3be5a565f04079f79d9e1e10577"
+      ],
+      "packageName": "com.ppdai.loan"
+    },
+    {
+      "signs": [
+        "abdbdccaa9cff179578726c2387a0eb32abc99ab3900597520613185c0d6664d"
+      ],
+      "packageName": "com.xingjiabi.shengsheng"
+    },
+    {
+      "signs": [
+        "8a556a224fdbb7f1c20cff871106c5b45cf89558175b2bcf257c0c44deca6533"
+      ],
+      "packageName": "com.sabac.hy"
+    },
+    {
+      "signs": [
+        "a2e3b0b5cbfaa5b4475ceabb2d2464846301d4d4999575a4a9e3ac3b60fe4498"
+      ],
+      "packageName": "cn.com.chsi.chsiapp"
+    },
+    {
+      "signs": [
+        "861dd2aa18f8e5baca936e16752846977afdb00302829ad9d5ebf18186a8576a"
+      ],
+      "packageName": "com.nineton.shouzhang"
+    },
+    {
+      "signs": [
+        "27b851fe033246fc89435577e7676018dae6d0663720480d5ca4f6ce9d2d752f"
+      ],
+      "packageName": "com.tencent.now"
+    },
+    {
+      "signs": [
+        "ea7e5e23e3c606394e822373b26cba0f00dd902314be6f2ddb6dac82d802520d"
+      ],
+      "packageName": "com.pingan.paces.ccms"
+    },
+    {
+      "signs": [
+        "7ad107801fd79a4a811d8f70dcb31de7bafe7e61b089a26945052e21614aff8c"
+      ],
+      "packageName": "com.qidian.QDReader"
+    },
+    {
+      "signs": [
+        "3a60fb2a2307d3290a76410444d8d42833771589e6f415b051076a91e3285477"
+      ],
+      "packageName": "com.all.video"
+    },
+    {
+      "signs": [
+        "f3ae6af777e68b3380d4263ba32213e606a9e78948ff9d0883b6d47fedc142a8"
+      ],
+      "packageName": "com.sinyee.babybus.recommendapp"
+    },
+    {
+      "signs": [
+        "c22c2a8ba84791a7a1e55f8b9c48795f4fabfa20ca51329e320d4204541224a8"
+      ],
+      "packageName": "com.bilibili.comic"
+    },
+    {
+      "signs": [
+        "9cc4747ed5b9ad0c1cf8c58d90be60133037668213c6f416472a6fe662153977"
+      ],
+      "packageName": "com.dj.sevenRead"
+    },
+    {
+      "signs": [
+        "20c35045a468c198fcb491dc3617a8cac9ba3ef379cae0b85ed71b2764cf6935"
+      ],
+      "packageName": "com.fenbi.android.leo"
+    },
+    {
+      "signs": [
+        "785611eb6a963dd69871acf69bd0538272367e8243094395932ae7720404f9bc"
+      ],
+      "packageName": "com.pcncn.jj"
+    },
+    {
+      "signs": [
+        "66e1cf07f0e484701d0054981f3f197e633c55ccc175b247bd8bc489ae2eea12"
+      ],
+      "packageName": "com.qiyi.video.pad"
+    },
+    {
+      "signs": [
+        "9d29d7078076a32b1b7399b56b86ef68831e9a6cb2a56febaea1dac77e5effb4"
+      ],
+      "packageName": "com.yueme.itv"
+    },
+    {
+      "signs": [
+        "4f3d0bae2147c61083bceee1501690584da553676d55640e3df7acb416659e53"
+      ],
+      "packageName": "com.renrendai.haohuan"
+    },
+    {
+      "signs": [
+        "2a91b90fa808521931e8c831ba89e2f9abf50ad75944514fdb3390aa7e33f1dc"
+      ],
+      "packageName": "com.lingan.seeyou"
+    },
+    {
+      "signs": [
+        "505a6c2f9b3035d872ae2509219522dd2659d3be333afe1cf88bf6e80611b5f6"
+      ],
+      "packageName": "com.hanweb.android.sdzwfw.activity"
+    },
+    {
+      "signs": [
+        "494da5f600126561d7bf071fd37518283e493d9a0b913f78ed06de40ed669c86"
+      ],
+      "packageName": "com.hexin.plat.android"
+    },
+    {
+      "signs": [
+        "dcd6eaebd370309392789409ec45300e2bd5bfc4159b48767640464471e9cae0"
+      ],
+      "packageName": "com.yiche.price"
+    },
+    {
+      "signs": [
+        "348ab8502367c7f1b79a3951bd83929ceb2fe62c6926e5d83c41c1dea5fc2003"
+      ],
+      "packageName": "com.ximalaya.ting.lite"
+    },
+    {
+      "signs": [
+        "5919067e5c613ac7be940fac60902690d8e530b5c32125b2e8cb8400deb58ce3"
+      ],
+      "packageName": "com.zhongduomei.rrmj.society"
+    },
+    {
+      "signs": [
+        "1bf65de3a835d083dd1713b148009684e16c95981b773280664dbc08c076bfe6"
+      ],
+      "packageName": "com.sankuai.youxuan"
+    },
+    {
+      "signs": [
+        "71b19500915d9feaa7d56a95f42c341de8289e9f5d52582fe034b5bb222e885e"
+      ],
+      "packageName": "com.tencent.minihd.qq"
+    },
+    {
+      "signs": [
+        "fa669adb89cce982240864a018523e1d95045537f3fd8596c8f4b28933f60c49"
+      ],
+      "packageName": "com.qq.ac.android"
+    },
+    {
+      "signs": [
+        "f9a7735c4c7e034861d6339e992c2ee4bb6f01b3ca8b54439f2960a305ca9a31"
+      ],
+      "packageName": "com.t3go.passenger"
+    },
+    {
+      "signs": [
+        "1a05dcb780a2d2e6d1702e1b8e599224a01fc5b1e19d00404cc881e9c6c32582"
+      ],
+      "packageName": "com.android.icredit"
+    },
+    {
+      "signs": [
+        "94b89a0f09c816366dd1d44f162bb2b6efcf1d058490bced03a8bab5c202d678"
+      ],
+      "packageName": "com.cmbchina.ccd.pluto.cmbActivity"
+    },
+    {
+      "signs": [
+        "a46bbca5ca1280231f76bb7e3f9eb1bd5bbecf20fc868e06ea5a39a3866b962f"
+      ],
+      "packageName": "com.sunboxsoft.charge.institute"
+    },
+    {
+      "signs": [
+        "16d05e65e8740c25f82d537ffefd10a287b1b18fd2d0e1c45498f060b8309479"
+      ],
+      "packageName": "com.pingan.lifeinsurance"
+    },
+    {
+      "signs": [
+        "138df092aac3585f46fd3c77bf2eb1b609e9ea5af97ab8907dc9cfb7babb3e4b"
+      ],
+      "packageName": "com.jjwxc.reader"
+    },
+    {
+      "signs": [
+        "cf0012096155e75e6cd887210b5c0bd8e7bc1d378f42fef7c187ccc55d7add4e"
+      ],
+      "packageName": "com.chinatelecom.bestpayclient"
+    },
+    {
+      "signs": [
+        "13d359650a874037e9d54ac18d7a152dd31e57c8d548c3121c6ea0a8b2b2c391"
+      ],
+      "packageName": "com.xiaomi.smarthome"
+    },
+    {
+      "signs": [
+        "2627e5e1892adfcbc0e545b5746200f01522db46d10618051fbe166c3982c715"
+      ],
+      "packageName": "com.bankcomm.Bankcomm"
+    },
+    {
+      "signs": [
+        "a48c95439757fa6deb22d433c2e6d897aa0cd506debdac19040c7592e82fcaed"
+      ],
+      "packageName": "com.huawei.smarthome"
+    },
+    {
+      "signs": [
+        "2c246d9be5ab0215a0b9860ab94c7bbf74cec521df8eb4e430227801a66720b8"
+      ],
+      "packageName": "ctrip.android.view"
+    },
+    {
+      "signs": [
+        "fd1118f8b04a5b92a6a15382859748dc9cb21e0074329737cb44d232f66b3746"
+      ],
+      "packageName": "io.dushu.fandengreader"
+    },
+    {
+      "signs": [
+        "b6ee45d28bccf95e638f03376bf685ae3bfac58a5f882a5e2b4307c0d5007ec1"
+      ],
+      "packageName": "com.hupu.shihuo"
+    },
+    {
+      "signs": [
+        "f81c31d21a4a71c5f53836b5b0940b930922f396834caa9eb4328bca5ca159a4"
+      ],
+      "packageName": "com.tencent.portfolio"
+    },
+    {
+      "signs": [
+        "e5a41fe36cffdbbecf5d85136108e51e84be200bbeb6c45a85705237253a5da1"
+      ],
+      "packageName": "com.eastmoney.android.berlin"
+    },
+    {
+      "signs": [
+        "2c06590827603467658827a87ae7a170cb66e690d41810a535e919fc79315f32"
+      ],
+      "packageName": "com.ganji.android.haoche_c"
+    },
+    {
+      "signs": [
+        "9a74b9723766256867a769e6a0828757026120f084f5e48597009342f059f7df"
+      ],
+      "packageName": "com.xuexiaoyi.xxy"
+    },
+    {
+      "signs": [
+        "4f1533df7fa0e69d389ca71770da3d26ac0be0a6b6bc84fb073dec707659f7dd"
+      ],
+      "packageName": "com.taobao.trip"
+    },
+    {
+      "signs": [
+        "38a9f3c290b381f4130818f1411b4334d60761f9020e59d697d4e86ccb847ec8"
+      ],
+      "packageName": "com.yangcong345.android.phone"
+    },
+    {
+      "signs": [
+        "9534c7722174b10513f12f244a300a1a668d4a30ea4d3677203f64eefbaa0f52"
+      ],
+      "packageName": "com.didapinche.booking"
+    },
+    {
+      "signs": [
+        "b28b5e6da51f612d09b46e9e5e3f3dd4735cf7e5dfdc859ea609043a500aa8f9"
+      ],
+      "packageName": "com.duoduo.child.story"
+    },
+    {
+      "signs": [
+        "127c8b7822d1819d11f39331f9ec9ef2157dfe15140b19f76ca9c160bf3fad22"
+      ],
+      "packageName": "com.hicloud.android.clone"
+    },
+    {
+      "signs": [
+        "c96117e77a130bf62b7a62c504fa4150874fa09d23ad4411e2d83a7191dba340"
+      ],
+      "packageName": "com.jxedt"
+    },
+    {
+      "signs": [
+        "a4b7a05fe2532043c9d15d2f3726e06d4ef5dd5e1a3153f2e707881f76206d8f"
+      ],
+      "packageName": "com.gmlive.finelove"
+    },
+    {
+      "signs": [
+        "93fab177ade6680e07520e10182f28929162dac64e21295c996598adbee068c2"
+      ],
+      "packageName": "com.jym.mall"
+    },
+    {
+      "signs": [
+        "1061e775e10dc76b00582f326efd0af83450b0989a9aab79e77393a039dfda05"
+      ],
+      "packageName": "com.szgov.entrance"
+    },
+    {
+      "signs": [
+        "91614b530379040bb9588e10e2aa9d2d656404011b19dcf757c7302ba5e2b2b9"
+      ],
+      "packageName": "com.pupumall.customer"
+    },
+    {
+      "signs": [
+        "add3c0a19129c5f0976186f2dcdb6c8b9f369f738419b50f352ddbfa22bd46ad"
+      ],
+      "packageName": "com.zhenai.android"
+    },
+    {
+      "signs": [
+        "af3ca4643fcd8e2aace53936e27fa00ad078ed583bf29219b870410fb5a04b98"
+      ],
+      "packageName": "com.videogo"
+    },
+    {
+      "signs": [
+        "2cf689464d0e8b960bf5eac4a753cd3735525765a6269f332b29613fc4c4418f"
+      ],
+      "packageName": "cn.yonghui.hyd"
+    },
+    {
+      "signs": [
+        "3b1c3b2fd82e6cd8fb37a9df1f8c57a61a11c044ad93a67b65ea9bfc7392d32f"
+      ],
+      "packageName": "com.baidu.input"
+    },
+    {
+      "signs": [
+        "14ce6afb7faad0238c2e92fac89285632a0b48da22e5c24f1aa071927eb61ac5"
+      ],
+      "packageName": "net.huanci.hsjpro"
+    },
+    {
+      "signs": [
+        "2443f8c439ba927fc71acb32b974d93ceb6d092800f5463d588912e5a0b70327"
+      ],
+      "packageName": "com.sinogram.ljjz"
+    },
+    {
+      "signs": [
+        "b3b78a197490dfc039b09e121f5a34b8182052282ed9c170a94c36b6044b8fcd"
+      ],
+      "packageName": "com.tencent.gallerymanager"
+    },
+    {
+      "signs": [
+        "bbb000aa82596131a4c509b29c7228c25315082e784db1891b61789fd2326e6a"
+      ],
+      "packageName": "com.yek.android.kfc.activitys"
+    },
+    {
+      "signs": [
+        "c269ba5ce76bbe15ce3dd36a4b8c62b7aef9c370e12e08fff9c3e60cb3d004f1"
+      ],
+      "packageName": "com.ifeng.news2"
+    },
+    {
+      "signs": [
+        "9210e2d990211ad76f756801d4843a747ed9d6df294b694e7141101b24f80116"
+      ],
+      "packageName": "com.wisentsoft.chinapost.android"
+    },
+    {
+      "signs": [
+        "621bfe199df688e5e75fefbdc6ae7420203cbf7ff9919d1f00f29df3daecd374"
+      ],
+      "packageName": "com.zaxd.loan"
+    },
+    {
+      "signs": [
+        "95500f76dc42ac497afcdac1fb1d329c083f9d8186cbcd27ab97637acb16bffb"
+      ],
+      "packageName": "com.huanyou.fjxasn"
+    },
+    {
+      "signs": [
+        "6fd882a52e18f6282a93d3316bff73142f14c64a51d5521448e22cf62235fc28"
+      ],
+      "packageName": "com.iflytek.elpmobile.smartlearning"
+    },
+    {
+      "signs": [
+        "ae58015aeb978fe8779cc28ef29ee3c3991f52a1eeca5492db89fe4344237661"
+      ],
+      "packageName": "com.chinamobile.mcloud"
+    },
+    {
+      "signs": [
+        "bb0606e637be18fe6f7d27441fac86a52f37052fcd8f2a12932a5756954e99c7"
+      ],
+      "packageName": "com.yuwan.tmshipin"
+    },
+    {
+      "signs": [
+        "d80ec58476b08bf3140bad4387b4491c3d4819614222cfebd17afce81a862214"
+      ],
+      "packageName": "gov.zwfw.samr.djzc"
+    },
+    {
+      "signs": [
+        "3ba985bff6db009cf04c5aaa7390a1475c6b1a9cae6bf858850682169bf43a05"
+      ],
+      "packageName": "com.bankcomm.maidanba"
+    },
+    {
+      "signs": [
+        "edeb86462dee746238e04094a5b14cefae56011fa54f7066e9d55ecfe02ee012"
+      ],
+      "packageName": "cn.TuHu.android"
+    },
+    {
+      "signs": [
+        "f8695159172ab153e28ce0bd608dbd32df42e43884482990a649ddcbdb55cc3f"
+      ],
+      "packageName": "cn.zepeto.main"
+    },
+    {
+      "signs": [
+        "1032a3d7f06e8bf9c4cd3954f9fb367831b354dd9917e8f00e03e23e9259797b"
+      ],
+      "packageName": "com.netease.gl"
+    },
+    {
+      "signs": [
+        "0d9312f8fb560c3794a9083971120858f0d71292c192d6da7dd58cb6683ab089"
+      ],
+      "packageName": "com.netease.lrs.huawei"
+    },
+    {
+      "signs": [
+        "c318a091bda450f1ee3601df6db4cdd143a56902da988d976edae3829f554db2"
+      ],
+      "packageName": "com.jiongji.andriod.card"
+    },
+    {
+      "signs": [
+        "ad388e950fdf2bddb02ef829a36a589ff3138e3d655f27320b64e76392a066af"
+      ],
+      "packageName": "com.lietou.mishu"
+    },
+    {
+      "signs": [
+        "fd96e58a0199baddd7c180440d42a2458f4f44855165274b8f5c7c8c623fb829"
+      ],
+      "packageName": "com.cootek.crazyreader"
+    },
+    {
+      "signs": [
+        "c5474a8e5411f718652a7fedfcaa37fea466f06fa2276a658ae936d2e71d2ead"
+      ],
+      "packageName": "cn.com.langeasy.LangEasyLexis"
+    },
+    {
+      "signs": [
+        "9edeecc66e37f49faf5d21edca6ad0c44f1365282179c8a6dfe2887698fca7c1"
+      ],
+      "packageName": "com.mihoyo.hyperion"
+    },
+    {
+      "signs": [
+        "e989a5da9380fff49388b9f82040331b9ccb2915024eaf66f10feadea18945a7"
+      ],
+      "packageName": "com.shusheng.JoJoRead"
+    },
+    {
+      "signs": [
+        "1bf65de3a835d083dd1713b148009684e16c95981b773280664dbc08c076bfe6"
+      ],
+      "packageName": "com.meituan.retail.v.android"
+    },
+    {
+      "signs": [
+        "c0ab9bd5b4325786fe744b55c32d75f576a4d0cecf20651ce9a729954953b239"
+      ],
+      "packageName": "com.gstarmc.android"
+    },
+    {
+      "signs": [
+        "13097a6ec46078f5505b1dd85c6b02fcc946ce68f297ff8372f5f448354eb926"
+      ],
+      "packageName": "com.alicloud.databox"
+    },
+    {
+      "signs": [
+        "151e70e9a37f086ec6a9ed3b35552182625245d7870d381ad2492364c322e075"
+      ],
+      "packageName": "com.tencent.news"
+    },
+    {
+      "signs": [
+        "6592e8758e0aa1f6b87c6dc5d16c5d10b0f65a3f9698175e1f372fba941f60e9"
+      ],
+      "packageName": "cn.missevan"
+    },
+    {
+      "signs": [
+        "61bc9a7f08254c1a9e910e6d3a4741fc8d500a0fecd8e7eff263c9f3738177db"
+      ],
+      "packageName": "com.yueyou.adreader"
+    },
+    {
+      "signs": [
+        "e6ece5faa1bce484e0f8c3c41f208dcddeb2ffacf4aa95d1f4996fbc178de0db"
+      ],
+      "packageName": "cn.xiaochuankeji.tieba"
+    },
+    {
+      "signs": [
+        "13d359650a874037e9d54ac18d7a152dd31e57c8d548c3121c6ea0a8b2b2c391"
+      ],
+      "packageName": "com.xiaomi.mico"
+    },
+    {
+      "signs": [
+        "6a7de2deca5c8225941789a2db7a28a038065625a0bd0b7a9fca7ccfe02dc0da"
+      ],
+      "packageName": "net.evecom.android.mztapp"
+    },
+    {
+      "signs": [
+        "64bfe0a42539abfbf6a569fce7603709b963eb12f2e312daa38504462de4bf44"
+      ],
+      "packageName": "cn.caocaokeji.user"
+    },
+    {
+      "signs": [
+        "2fb9efc819d616c55d13a0603187b8aa895aecc50e01162ddef1c6e230618d32"
+      ],
+      "packageName": "com.xiachufang"
+    },
+    {
+      "signs": [
+        "656bf262c137eec41e5f717f3284011b4648006d779a93f2d6bb4e8656dd1bdc"
+      ],
+      "packageName": "com.qingqi.dianbo"
+    },
+    {
+      "signs": [
+        "4361ded4dc6e20bd595d8363c3308643d8d06567ebf59dcd15d2a4dae3a5a098"
+      ],
+      "packageName": "com.youxiang.soyoungapp.mock"
+    },
+    {
+      "signs": [
+        "2f9bd1af0d041bd097c028e047eb43ef75d7ea082966eccab938d2384d03d582"
+      ],
+      "packageName": "com.citiccard.mobilebank"
+    },
+    {
+      "signs": [
+        "55f17a91988e36614f046fa95a78cec8079f547706a3eb1233a8e4a14a2a4e39"
+      ],
+      "packageName": "com.hanweb.android.zhejiang.activity"
+    },
+    {
+      "signs": [
+        "1d5d5a18bc6e140cf6a0b378213f8e22f2af8a45b82e93bd8e4f923f22568d4c"
+      ],
+      "packageName": "com.ruidonghy.will"
+    },
+    {
+      "signs": [
+        "cda8fc2ea4cd4525b4c776d22309cce3b6c5b51dae26ed57148016202259c70e"
+      ],
+      "packageName": "com.yunxiao.haofenshu"
+    },
+    {
+      "signs": [
+        "a7db9453a1847218b5b55321b91ebfa18fc7213f9e62b09b101dbf4c1cee6ed5"
+      ],
+      "packageName": "com.sf.activity"
+    },
+    {
+      "signs": [
+        "0f2b39fcecfbbb76895cc39837d66db57adb8e7e2a30ff9d470d31f95834da3b"
+      ],
+      "packageName": "com.mcdonalds.gma.cn"
+    },
+    {
+      "signs": [
+        "b186f822beee1ca1625c9e66f7b8247a89b95eb25326ba998a4adaec9831e57b"
+      ],
+      "packageName": "com.music.jqssl"
+    },
+    {
+      "signs": [
+        "2725ef8751138af904d384927c48f55aa3653aeec5fb4ba1814fee393ab4fcfc"
+      ],
+      "packageName": "com.wodi.who"
+    },
+    {
+      "signs": [
+        "fb8ac128b328553d2e2bc42c80f4f620852fb95dea26584d3715c80d15eb5216"
+      ],
+      "packageName": "com.boohee.one"
+    },
+    {
+      "signs": [
+        "6c8006cc64303f4b7e0a0d3d7f68177b23e28e36f063fbe712f132935f659e8e"
+      ],
+      "packageName": "com.liulishuo.engzo"
+    },
+    {
+      "signs": [
+        "7281c5aedd4f13490da439fad0be1f45085806dc73f80831feacd5f09d86a006"
+      ],
+      "packageName": "com.plan.kot32.tomatotime"
+    },
+    {
+      "signs": [
+        "ebdf1811744d283c572a7c16b178dbf4bd0c413e384fadb44418a52863c53407"
+      ],
+      "packageName": "com.skyplatanus.crucio"
+    },
+    {
+      "signs": [
+        "b2742a0739208b42da5d6ec2c6966e437dcf7ba40d975d86f194f6d34e9f2b34"
+      ],
+      "packageName": "com.alibaba.ailabs.tg"
+    },
+    {
+      "signs": [
+        "49115ca8ccf6f525bc33bbd8148b359ad6f98a950bd91b2a6ea504e9e215cd85"
+      ],
+      "packageName": "com.huajiao"
+    },
+    {
+      "signs": [
+        "dd2ba732f445a909f93c557aa5588e205f5ed7d1c0f2d40b5a80bd95fba4b84c"
+      ],
+      "packageName": "com.samoyed.credit"
+    },
+    {
+      "signs": [
+        "25cd3463a82083ce133460b10f9a524985b12ccd7caee8931d39242a3f16c195"
+      ],
+      "packageName": "com.suning.mobile.ebuy"
+    },
+    {
+      "signs": [
+        "e3df316bef1606b63e34f374d599fa220968ab5a6b41dc1a2f120abbbc6903e2"
+      ],
+      "packageName": "com.qq.qcloud"
+    },
+    {
+      "signs": [
+        "1bf65de3a835d083dd1713b148009684e16c95981b773280664dbc08c076bfe6"
+      ],
+      "packageName": "com.meituan.turbo"
+    },
+    {
+      "signs": [
+        "7a1a33d0fbb0acabd257c4f6ff5d67d3b05b82564be1401dab7912b796d745ea"
+      ],
+      "packageName": "tv.danmaku.bilibilihd"
+    },
+    {
+      "signs": [
+        "f1e2a4cc5960e6fb06fd9284a3113e7e8d385e9cccf1b4baf1d7e9fed7abdcc9"
+      ],
+      "packageName": "com.julun.jiuliao"
+    },
+    {
+      "signs": [
+        "833bcb944b8acb9dec6401c6e7fd3263bd38e047488380e8ff9757cb368907e7"
+      ],
+      "packageName": "com.find.hidden.object.difference.clue.cn"
+    },
+    {
+      "signs": [
+        "2f375f8574d57fb3ebca42e6272439448e88061a2925df9bc8b3ce6f1c9010ae"
+      ],
+      "packageName": "com.netease.mobimail"
+    },
+    {
+      "signs": [
+        "ac83fcbe4e264271525220382db1a9a67422bee0e0da86ae91c38b2319c36020"
+      ],
+      "packageName": "com.youqi.miaomiao"
+    },
+    {
+      "signs": [
+        "955f7e59fa528108049df084078630ac83e1dc1536c134ee811c797c4a2251a5"
+      ],
+      "packageName": "com.tencent.weishi"
+    },
+    {
+      "signs": [
+        "2d50212c8425afa8de09d5fd497e1caf6f1e684cacd0e16f6de4b2e67e784818"
+      ],
+      "packageName": "com.zuoyebang.knowledge"
+    },
+    {
+      "signs": [
+        "995477cff12fd5bc39f4a38ebcbd4700fccb36f0bd29d4117701a6eba07d8be6"
+      ],
+      "packageName": "com.bytedance.ep.android"
+    },
+    {
+      "signs": [
+        "df5ea969b93e550482e5ab54976bd52982f1d27636ce3ad079e0756581b0f03d"
+      ],
+      "packageName": "com.xtc.watch"
+    },
+    {
+      "signs": [
+        "2ba64b00d83c9d447377a6f4e452526a7e3721ece5a12934b85227138a90d8b0"
+      ],
+      "packageName": "com.ihuman.pinyin"
+    },
+    {
+      "signs": [
+        "857db577979dfca325de5a713877d2878f5598a6294b33bc3b1e9c202ee573b3"
+      ],
+      "packageName": "com.icbc.mobile.abroadbank"
+    },
+    {
+      "signs": [
+        "aac002be495d40547bcacdea85c243bb3c8ccfb73cdebc90a51203c285a8ed56"
+      ],
+      "packageName": "com.wufan.dianwan"
+    },
+    {
+      "signs": [
+        "ce59930c03e30b08a91a330d12a9b20236e91aa75f847888f3a3381f1e42f8ff"
+      ],
+      "packageName": "mobi.w3studio.apps.android.shsmy.phone"
+    },
+    {
+      "signs": [
+        "cb2717afbf8db3a7d55d0ac7c06ccaf2849b7daa99e2debba2b0acffe5f07ded"
+      ],
+      "packageName": "com.lanjingren.ivwen"
+    },
+    {
+      "signs": [
+        "24eff480973e51427fcb3d5d207fa647048a5ede7ac076adba69758f4ad1b614"
+      ],
+      "packageName": "com.kwai.hisense"
+    },
+    {
+      "signs": [
+        "26acec0aefebc7b86f06273ca67a63f9973c6fa0aa09c31b8a81ea150188a442"
+      ],
+      "packageName": "com.chinalife.ebz"
+    },
+    {
+      "signs": [
+        "3ac6b15d31412e8ecf41481aac8c33163c37ceb136b368dff7f0d80c4408bd0c"
+      ],
+      "packageName": "com.ecitic.bank.mobile"
+    },
+    {
+      "signs": [
+        "505a6c2f9b3035d872ae2509219522dd2659d3be333afe1cf88bf6e80611b5f6"
+      ],
+      "packageName": "com.hanweb.izhengzhou.android"
+    },
+    {
+      "signs": [
+        "cd0fdf71311e97e61e54ce73b29b6b1f79253a6696ebeed34302b982bbca6345"
+      ],
+      "packageName": "cmccwm.mobilemusic"
+    },
+    {
+      "signs": [
+        "6dddec53c0747ac29ebd77ad61d98e57a7fe16ac549248c8f63418e64b2935dc"
+      ],
+      "packageName": "com.cmcc.hebao"
+    },
+    {
+      "signs": [
+        "327e6336626807c3628de83c02f947186e5d645751a66195614311b02638cab8"
+      ],
+      "packageName": "sogou.mobile.explorer"
+    },
+    {
+      "signs": [
+        "3b58a8c16aac408564c412d99c687830a5dd9a897ee8ebc4c3c92bf0f9cf8e19"
+      ],
+      "packageName": "cn.samsclub.app"
+    },
+    {
+      "signs": [
+        "d21c6a39de98f24c0b97dd0c6c9676aee5cbf24790d848046f1da9ad3679f009"
+      ],
+      "packageName": "com.hnzycfc.zyxj"
+    },
+    {
+      "signs": [
+        "ab130d0c571617b649a6d107513b83cdacc3f2c135dfacc6bf638c601bdbfbd1"
+      ],
+      "packageName": "com.koudai.weidian.buyer"
+    },
+    {
+      "signs": [
+        "94d6a7a0e250ed3f4586b96db89b86e7e05714d679e2f3162b9c19fb3b0d2687"
+      ],
+      "packageName": "com.ks.kaishustory"
+    },
+    {
+      "signs": [
+        "cc9d43a2a762d7beb3a8f469c25211740ffa8b711b5a5fbd9e96680fdefe7188"
+      ],
+      "packageName": "com.jdd.motorfans"
+    },
+    {
+      "signs": [
+        "629620a23e8feb0507a3c95f4007ec99d806519370ba4ad8db44064ef6c45fb5"
+      ],
+      "packageName": "com.zuoyebang.airclass"
+    },
+    {
+      "signs": [
+        "f0580de0fa99e32e8a0c8e38faebd57dd027f5a6a54a5792351f9ca73fcdec68"
+      ],
+      "packageName": "cn.youth.news"
+    },
+    {
+      "signs": [
+        "b1522dc61dfd1a15d9472c8472f9352c1f6c7d84f27fea541c46dc09b37c9f71"
+      ],
+      "packageName": "com.longshine.smartcity"
+    },
+    {
+      "signs": [
+        "1a09cf8aadc1849aef99a162b61203c11923b34a2945ee2f5723da8b5891f2a7"
+      ],
+      "packageName": "com.babycloud.hanju"
+    },
+    {
+      "signs": [
+        "a1b6d5252a9da40ba936d0fcd83fc90c27f24b8e2fd61d7f7e85316c4ca51fdf"
+      ],
+      "packageName": "com.kingpoint.gmcchh"
+    },
+    {
+      "signs": [
+        "9152d6982e5d7356c04fbbb75dcab4f8376fe0e2cf961c5528f72b19aea58a67"
+      ],
+      "packageName": "cn.com.spdb.mobilebank.per"
+    },
+    {
+      "signs": [
+        "3b2c67b4bb42cd6f0d56070e0ed6a0a2baff5de74f5d5b12a8e1f0633f55390b"
+      ],
+      "packageName": "com.dangdang.buy2"
+    },
+    {
+      "signs": [
+        "cb470263c4bcc33a2aadcbf8f8255c9cef0197925e922029ec0920269130d6f9"
+      ],
+      "packageName": "com.huodao.hdphone"
+    },
+    {
+      "signs": [
+        "9a548eb0e0d1143133fe8a2ccf6b87874754d9c584f78a4837ed808d6247f317"
+      ],
+      "packageName": "com.tencent.ttpic"
+    },
+    {
+      "signs": [
+        "1bf65de3a835d083dd1713b148009684e16c95981b773280664dbc08c076bfe6"
+      ],
+      "packageName": "com.sankuai.meituan.dispatch.crowdsource"
+    },
+    {
+      "signs": [
+        "a7d472258131894349041a1ebdd6fc778671f60ee8e600d42e420cb1f4b1f651"
+      ],
+      "packageName": "com.ygkj.chelaile.standard"
+    },
+    {
+      "signs": [
+        "80e3df4f46e81398ea1108e5e0563094133935f5e604a8ac97ad4b674e554d9b"
+      ],
+      "packageName": "com.baidu.duer.superapp"
+    },
+    {
+      "signs": [
+        "c685514272e224042457ecc6207a0100a748ea6f257ab522c5d0e8a3f07933a0"
+      ],
+      "packageName": "com.Qunar"
+    },
+    {
+      "signs": [
+        "b080518935913ffb795f7505d73f6245fae57728e574d501926b3c3c1a447a74"
+      ],
+      "packageName": "com.cib.cibmb"
+    },
+    {
+      "signs": [
+        "2ca964a08b107c150c51e7fad7e4629ffde4d4541b27c6f1b4c82787f32d4b43"
+      ],
+      "packageName": "com.jifen.qukan"
+    },
+    {
+      "signs": [
+        "e0044a257db599aeec0878aa075a3c11678738de3d0d38385c61651a0b5e2dfd"
+      ],
+      "packageName": "com.changba"
+    },
+    {
+      "signs": [
+        "7fbfd841e2ee6a91be26914554dc14bc9ea7b0774425681582b34045ad7da954"
+      ],
+      "packageName": "com.zmzx.college.search"
+    },
+    {
+      "signs": [
+        "1b5782e8599843b265db8a8f9d617f6e7e7a0e53aa34960a93198139aa0baa47"
+      ],
+      "packageName": "com.bokecc.dance"
+    },
+    {
+      "signs": [
+        "b26bae20deb6da8f54aaa5a66e62b42628c993a6f94473db67403d31f2862965"
+      ],
+      "packageName": "org.mozilla.firefox"
+    },
+    {
+      "signs": [
+        "89fd974760104983dd7600c11fc91c7e077babf6ffbeb10e2261cea40a200030"
+      ],
+      "packageName": "com.xunmeng.merchant"
+    },
+    {
+      "signs": [
+        "7b59891a8055457a474d31bd5b48db6551d42aa64642e2d431badddb787fdf6a"
+      ],
+      "packageName": "com.memezhibo.android"
+    },
+    {
+      "signs": [
+        "9517015cbc1579b2e40215b020d8cc4db0220c1c4107df40a098b7100b95dc88"
+      ],
+      "packageName": "com.jsmcc"
+    },
+    {
+      "signs": [
+        "52b39814585460ab478c216c48eed0afc3ead6da89feb00d6a31620f9c5c072c"
+      ],
+      "packageName": "com.qq.reader"
+    },
+    {
+      "signs": [
+        "6687cd02e8a2c817b2b8c6fd8029fe74ee21adf31441d801d254acba250e49d5"
+      ],
+      "packageName": "com.caict.xingchengka"
+    },
+    {
+      "signs": [
+        "d029decaec4c1b94f6677744b1748c7507be205ea8d50b509f2e0e78ad29d97b"
+      ],
+      "packageName": "cn.com.hkgt.gasapp"
+    },
+    {
+      "signs": [
+        "a6208123d9766db418914831c7881737c05a16f8bb94b7770b0934fb5154c4cb"
+      ],
+      "packageName": "com.ihuman.imath"
+    },
+    {
+      "signs": [
+        "e37877c4efd98374fcfa1a4eb3654ad0e5e67907876babe76b48402758100661"
+      ],
+      "packageName": "com.tencent.qt.qtl"
+    },
+    {
+      "signs": [
+        "45b4adf2fd06caa95cb0bc94c9bda457e762364d44375331e5f87a30c5dfa445"
+      ],
+      "packageName": "com.kugou.fanxing"
+    },
+    {
+      "signs": [
+        "ae93239fcbe171f51f79c84e690d03ca604e0430e5d0007ec72332580f814df6"
+      ],
+      "packageName": "com.shuhekeji"
+    },
+    {
+      "signs": [
+        "0bf8273ba31d8a5bd2e7f3803472fd6d1413f3e23e26a6f3f0d24f833f10905c"
+      ],
+      "packageName": "com.moliao.main"
+    },
+    {
+      "signs": [
+        "10c7d62046d0dccf9a1c0f90b314f48fc3b9e8a9572cf18051f43720f3baf1b3"
+      ],
+      "packageName": "com.ovital.ovitalMap"
+    },
+    {
+      "signs": [
+        "0b80a60c52d2184c6aba4b4cc7b0011491952071ecb565221ff3a8ff2959f75a"
+      ],
+      "packageName": "com.aikan"
+    },
+    {
+      "signs": [
+        "21cafa26adce63cc2f25df44081837467c9ac853aa576d783eb26460b2969f5b"
+      ],
+      "packageName": "com.baidu.baidutranslate"
+    },
+    {
+      "signs": [
+        "0508d984da0a343577e87e9e33dbcc4f2259520de7bfa7b9d86c772fcb68ee92"
+      ],
+      "packageName": "com.f100.android"
+    },
+    {
+      "signs": [
+        "444e5ead799e97e5eae78d04b11823f3cc76ebabc005ceea7e7ac58f6488f74c"
+      ],
+      "packageName": "com.letv.android.client"
+    },
+    {
+      "signs": [
+        "e05928afddb700cef26735fdcdd5d44ff0cc143575f696b79481d5efd38ba352"
+      ],
+      "packageName": "com.A17zuoye.mobile.homework"
+    },
+    {
+      "signs": [
+        "fd2509617c7ecbfcc300a07aa4b6f7642951a05edea8ff212a79300bf88e6abf"
+      ],
+      "packageName": "com.huawei.android.totemweather"
+    },
+    {
+      "signs": [
+        "657fc47bd5fd941147d338eb200e2e8f3546aabbacdb151cb6badd553c3594ba"
+      ],
+      "packageName": "com.cs_credit_bank"
+    },
+    {
+      "signs": [
+        "101813dce55926b5e34a6638def84209b524b181370476cae535539cbfac626b"
+      ],
+      "packageName": "com.pingan.nt"
+    },
+    {
+      "signs": [
+        "d9a45c4e63420ba46fbe62fd938a86eab06e37050449eb24f115d3aac1814d4d"
+      ],
+      "packageName": "cn.cntv"
+    },
+    {
+      "signs": [
+        "3ac9ee928671593816753e227f1729fdee804bdabb02d1ac2326a974a0501c2e"
+      ],
+      "packageName": "com.tencent.qqmusicpad"
+    },
+    {
+      "signs": [
+        "32ca4b9f5a2b20967b74dbe6ec6dfa22d62ba0a3333fec6b51e1399896a472e0"
+      ],
+      "packageName": "com.youloft.icloser"
+    },
+    {
+      "signs": [
+        "6d49fe31d872f59f4802981e79ee112a81fef92d5f1fb6bcd06b3668177aff50"
+      ],
+      "packageName": "com.happyteam.dubbingshow"
+    },
+    {
+      "signs": [
+        "bccafb0181f0b6625997f5e2c257f629be25bb89f7988b2d7594c64e15798092"
+      ],
+      "packageName": "com.lalamove.huolala.driver"
+    },
+    {
+      "signs": [
+        "0ae5b1f6ddf183892a0619dca6799245a152001d9a1b530620394c746a4ea7af"
+      ],
+      "packageName": "com.xiaobanlong.main"
+    },
+    {
+      "signs": [
+        "04d45c5897d7bd2b887d870086e331e5a2457022dd6348311a0e7364443cfee8"
+      ],
+      "packageName": "com.martian.ttbook"
+    },
+    {
+      "signs": [
+        "45d5ca5ed14e0d02dbfb0216f7707b718e0aab490024256edc93fab4bf709e03"
+      ],
+      "packageName": "com.mampod.ergedd"
+    },
+    {
+      "signs": [
+        "7fe4bca4400f1c316df1da0e74e3994be9210b5eecb9c95588e12b77d3ddfea4"
+      ],
+      "packageName": "com.tal.tiku"
+    },
+    {
+      "signs": [
+        "fe7a0224dd2829c79b9f1085e4bc311e2ccb09f2343c752c049d4143a9ee068c"
+      ],
+      "packageName": "com.komoxo.octopusime"
+    },
+    {
+      "signs": [
+        "a5b146e71d132da96a362c871d898602f2bee47a5a27518344def66640e0c49c"
+      ],
+      "packageName": "cn.com.cmbc.newmbank"
+    },
+    {
+      "signs": [
+        "029c3816c14562c84e0cafdfd7f8eb5206cdf4adbe29ff2a7751a11c24ee8de8"
+      ],
+      "packageName": "com.huaxiaozhu.rider"
+    },
+    {
+      "signs": [
+        "1c18dc14b1ed61f1ddee1625d42048b84815464c30824a19a7ab392d0fd9c228"
+      ],
+      "packageName": "com.ihuman.english"
+    },
+    {
+      "signs": [
+        "1d16f023e3ac2dc505af697032b5b3994397ea6a9f4a36be93cea80221f08d29"
+      ],
+      "packageName": "com.bilibili.studio"
+    },
+    {
+      "signs": [
+        "29a093f8f1f4170239a625506da8ddbe4707d10cb553fc8e7a8f80b191d27334"
+      ],
+      "packageName": "cn.canva.editor"
+    },
+    {
+      "signs": [
+        "b281ae95ad3dbfebb5cb6c8df2b17792ff0cecd9b94ce53c6d2472e62384954b"
+      ],
+      "packageName": "com.babytree.apps.pregnancy"
+    },
+    {
+      "signs": [
+        "f89c92f3c4a487895a6d21fe35732f794ef26365d1ee28f06133783f2047971a"
+      ],
+      "packageName": "com.maimemo.android.momo"
+    },
+    {
+      "signs": [
+        "d161f449af18420f969588d6ab9268d6844c1726cbe41318b5370901cfdff1ee"
+      ],
+      "packageName": "com.ubestkid.beilehu.android"
+    },
+    {
+      "signs": [
+        "f8058b973ff823d388be7726c97d1d6835562351a0d70c682b24a2483fce7516"
+      ],
+      "packageName": "com.immomo.vchat"
+    },
+    {
+      "signs": [
+        "cf58dc42f188f5e1afe50fd59c456efb3993fc97b1392058c2efdbc786cf9548"
+      ],
+      "packageName": "com.netease.edu.ucmooc"
+    },
+    {
+      "signs": [
+        "d1650eaa807905e786ebb31c4a3dec186061974a59bc077c103e6cc5c8d75524"
+      ],
+      "packageName": "im.weshine.keyboard"
+    },
+    {
+      "signs": [
+        "127c8b7822d1819d11f39331f9ec9ef2157dfe15140b19f76ca9c160bf3fad22"
+      ],
+      "packageName": "com.huawei.hwid"
+    },
+    {
+      "signs": [
+        "1d20fc51ed8cc9727026c6da4f5a60153e59dc53e793163ec2f145226dc8ea52"
+      ],
+      "packageName": "com.gamestar.perfectpiano"
+    },
+    {
+      "signs": [
+        "b54f79c1d20694f5f8a01c1e17094a816703c38a8f85961d9baf893e87cedc6e"
+      ],
+      "packageName": "com.je.skgame"
+    },
+    {
+      "signs": [
+        "a5dee9ad0074bb362aeef222b1a850a958184e2492e07725a26e58fd4985edb7"
+      ],
+      "packageName": "com.zl.fqbao"
+    },
+    {
+      "signs": [
+        "6fd882a52e18f6282a93d3316bff73142f14c64a51d5521448e22cf62235fc28"
+      ],
+      "packageName": "com.iflytek.elpmobile.student"
+    },
+    {
+      "signs": [
+        "4c04264a734de5ad39337160126d36cc82548beb84d24a07d6338aa5c45dfad7"
+      ],
+      "packageName": "com.youdao.translator"
+    },
+    {
+      "signs": [
+        "94b3dc847d9d98283a4857e3d34a7118467e773f2bcb8ecb0497c409021dbba9"
+      ],
+      "packageName": "com.pingan.yancheng"
+    },
+    {
+      "signs": [
+        "18890120279df17cb3dcddff2050911784324b02e0c24d152099bc2b8438151e"
+      ],
+      "packageName": "bubei.tingshu"
+    },
+    {
+      "signs": [
+        "2442e248de00f9307b0458b057e5aa1d2183f3981c96d3fd0b3109df06705db3"
+      ],
+      "packageName": "com.huabenapp"
+    },
+    {
+      "signs": [
+        "20c35045a468c198fcb491dc3617a8cac9ba3ef379cae0b85ed71b2764cf6935"
+      ],
+      "packageName": "com.fenbi.android.servant"
+    },
+    {
+      "signs": [
+        "35c2e02dc514c5d6b2a88eb0b0904d6e93419d90e57bbdc2af7e9d90b4564c49"
+      ],
+      "packageName": "com.xiaomi.hm.health"
+    },
+    {
+      "signs": [
+        "0addf7beac0eb3cc2f84befb96444344376a0413a7764971f676666f0ffaab99"
+      ],
+      "packageName": "com.jiaming.en"
+    },
+    {
+      "signs": [
+        "7d94546335589c28077b69224e3d1f856c14dcfe43f4befd760a2ecc2aca1aa6"
+      ],
+      "packageName": "com.able.wisdomtree"
+    }
+  ]
+}

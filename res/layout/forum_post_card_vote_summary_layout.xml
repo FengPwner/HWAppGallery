@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/forum_post_vote_summary_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:id="@id/forum_post_vote_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        style="@style/AppGallery.TextAppearance.Card.TextBody2.Primary" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView
+        android:textSize="@dimen/appgallery_text_size_body3"
+        android:textColor="@color/appgallery_text_color_tertiary"
+        android:id="@id/forum_post_vote_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:fontFamily="@string/appgallery_text_font_family_regular"
+        style="@style/AppGallery.TextAppearance.Card.TextBody3" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/forum_post_vote_options"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/forum_post_vote_more"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.huawei.uikit.hwtextview.widget.HwTextView
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="@string/forum_vote_more"
+            android:contentDescription="@string/forum_vote_more"
+            android:layout_marginEnd="2.0dip"
+            style="@style/AppGallery.TextAppearance.Card.TextBody4.Tertiary" />
+        <ImageView
+            android:background="@drawable/ic_public_arrow_right_900"
+            android:layout_width="8.0dip"
+            android:layout_height="16.0dip" />
+    </LinearLayout>
+</LinearLayout>
